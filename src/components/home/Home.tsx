@@ -1,23 +1,8 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 import { Fragment } from "react";
 import { Menu, Popover, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import { SearchIcon } from "@heroicons/react/solid";
+import Calendar from "../calendar/Calendar";
 
 const user = {
   name: "Tom Cook",
@@ -35,7 +20,7 @@ const userNavigation = [
   { name: "Sign out", href: "#" },
 ];
 
-const classNames = (...classes: string[]) => {
+const classNames = (...classes: string[]): any => {
   return classes.filter(Boolean).join(" ");
 };
 
@@ -320,7 +305,9 @@ const Home: React.FC = (): JSX.Element => {
                     Section title
                   </h2>
                   <div className="rounded-lg bg-white overflow-hidden shadow">
-                    <div className="p-6">{/* Your content */}</div>
+                    <div className="p-6">
+                      <Calendar />
+                    </div>
                   </div>
                 </section>
               </div>
@@ -332,7 +319,7 @@ const Home: React.FC = (): JSX.Element => {
                     Section title
                   </h2>
                   <div className="rounded-lg bg-white overflow-hidden shadow">
-                    <div className="p-6">{/* Your content */}</div>
+                    <div className="p-6"></div>
                   </div>
                 </section>
               </div>
