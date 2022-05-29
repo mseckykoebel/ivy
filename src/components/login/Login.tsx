@@ -1,7 +1,10 @@
 import React from "react";
 import IvyLottie from "./IvyLottie";
+import { useNavigate } from "react-router-dom";
 
 const Login: React.FC = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-[100vh] flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-grey-500">
       <div className="max-w-md w-full space-y-8">
@@ -76,6 +79,7 @@ const Login: React.FC = () => {
             <button
               type="submit"
               className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+              onClick={() => navigate("/home")}
             >
               <span className="absolute left-0 inset-y-0 flex items-center pl-3">
                 {/* Heroicon name: solid/lock-closed */}

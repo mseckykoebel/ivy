@@ -1,21 +1,12 @@
-import React, { Fragment, useEffect, useRef } from "react";
-import {
-  ChevronDownIcon,
-  ChevronLeftIcon,
-  ChevronRightIcon,
-  DotsHorizontalIcon,
-} from "@heroicons/react/solid";
-import { Menu, Transition } from "@headlessui/react";
-
-const classNames = (...classes: string[]): string => {
-  return classes.filter(Boolean).join(" ");
-};
+import React, { useEffect, useRef } from "react";
 
 const Calendar: React.FC = (): JSX.Element => {
   // again, shitty
   const container: React.MutableRefObject<any> = useRef(null);
   const containerNav: React.MutableRefObject<any> = useRef(null);
   const containerOffset: React.MutableRefObject<any> = useRef(null);
+  // the height of the calendar in REM
+  const calHeight: number = 2.0; 
 
   useEffect(() => {
     // Set the container scroll position based on the current time.
@@ -40,7 +31,7 @@ const Calendar: React.FC = (): JSX.Element => {
         >
           <div
             ref={containerNav}
-            className="sticky top-0 z-30 flex-none bg-white shadow ring-1 ring-black ring-opacity-5 sm:pr-8"
+            className="sticky top-0 flex-none bg-white shadow ring-1 ring-black ring-opacity-5 sm:pr-8"
           >
             <div className="grid grid-cols-5 text-sm leading-6 text-gray-500 sm:hidden">
               <button
@@ -78,29 +69,19 @@ const Calendar: React.FC = (): JSX.Element => {
             <div className="-mr-px hidden grid-cols-5 divide-x divide-gray-100 border-r border-gray-100 text-sm leading-6 text-gray-500 sm:grid">
               <div className="col-end-1 w-14" />
               <div className="flex items-center justify-center py-3">
-                <span>
-                  Mon{" "}
-                </span>
+                <span>Mon </span>
               </div>
               <div className="flex items-center justify-center py-3">
-                <span>
-                  Tue{" "}
-                </span>
+                <span>Tue </span>
               </div>
               <div className="flex items-center justify-center py-3">
-                <span className="flex items-baseline">
-                  Wed{" "}
-                </span>
+                <span className="flex items-baseline">Wed </span>
               </div>
               <div className="flex items-center justify-center py-3">
-                <span>
-                  Thu{" "}
-                </span>
+                <span>Thu </span>
               </div>
               <div className="flex items-center justify-center py-3">
-                <span>
-                  Fri{" "}
-                </span>
+                <span>Fri </span>
               </div>
               {/* WEEKENDS ARE NOT SUPPORTED YET
               <div className="flex items-center justify-center py-3">
@@ -125,10 +106,13 @@ const Calendar: React.FC = (): JSX.Element => {
           <div className="flex flex-auto">
             <div className="sticky left-0 z-10 w-14 flex-none bg-white ring-1 ring-gray-100" />
             <div className="grid flex-auto grid-cols-1 grid-rows-1">
-              {/* Horizontal lines */}
+              {/* Horizontal lines on the calendar */}
+              {/* Horizontal lines on the calendar */}
+              {/* Horizontal lines on the calendar */}
+              {/* Horizontal lines on the calendar */}
               <div
                 className="col-start-1 col-end-2 row-start-1 grid divide-y divide-gray-100"
-                style={{ gridTemplateRows: "repeat(19, minmax(3.5rem, 1fr))" }}
+                style={{ gridTemplateRows: `repeat(19, minmax(${calHeight}rem, 1fr))` }}
               >
                 <div ref={containerOffset} className="row-end-1 h-5"></div>
                 <div>
@@ -193,7 +177,10 @@ const Calendar: React.FC = (): JSX.Element => {
                 <div />
               </div>
 
-              {/* Vertical lines */}
+              {/* Vertical lines on the calendar */}
+              {/* Vertical lines on the calendar */}
+              {/* Vertical lines on the calendar */}
+              {/* Vertical lines on the calendar */}
               <div className="col-start-1 col-end-2 row-start-1 hidden grid-cols-5 grid-rows-1 divide-x divide-gray-100 sm:grid sm:grid-cols-5">
                 <div className="col-start-1 row-span-full" />
                 <div className="col-start-2 row-span-full" />
@@ -203,7 +190,10 @@ const Calendar: React.FC = (): JSX.Element => {
                 <div className="col-start-6 row-span-full w-8" />
               </div>
 
-              {/* Events */}
+              {/* START OF RENDERING EVENTS ON THE CALENDAR */}
+              {/* START OF RENDERING EVENTS ON THE CALENDAR */}
+              {/* START OF RENDERING EVENTS ON THE CALENDAR */}
+              {/* START OF RENDERING EVENTS ON THE CALENDAR */}
               <ol
                 className="col-start-1 col-end-2 row-start-1 grid grid-cols-1 sm:grid-cols-5 sm:pr-8"
                 style={{
@@ -243,6 +233,9 @@ const Calendar: React.FC = (): JSX.Element => {
                   </a>
                 </li>
               </ol>
+              {/* END OF RENDERING EVENTS ON THE CALENDAR */}
+              {/* END OF RENDERING EVENTS ON THE CALENDAR */}
+              {/* END OF RENDERING EVENTS ON THE CALENDAR */}
             </div>
           </div>
         </div>
