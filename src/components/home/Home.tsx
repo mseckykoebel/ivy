@@ -458,12 +458,15 @@ const Home: React.FC = (): JSX.Element => {
               <div className="grid grid-cols-1 gap-4">
                 <section aria-labelledby="section-2-title">
                   <h2 className="sr-only" id="section-2-title">
-                    Section title
+                    Search section
                   </h2>
                   <div className="rounded-lg bg-white overflow-hidden shadow min-h-[4rem]">
                     {/* All of the search results will be rendered here */}
                     <Search searchField={"Algorithms"} color={"bg-green-100"} />
-                    <Search searchField={"Intro to Psychology"} color={"bg-pink-100"} />
+                    <Search
+                      searchField={"Intro to Psychology"}
+                      color={"bg-pink-100"}
+                    />
                     {/* No results state, just a boilerplate for now */}
                     <div className="bg-white shadow sm:rounded-lg mb-4 m-4">
                       <div className="px-4 py-5 sm:p-6">
