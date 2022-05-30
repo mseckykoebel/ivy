@@ -17,11 +17,13 @@ const Register: React.FC = (): JSX.Element => {
   //   useAuth
   const { signup } = useAuth();
   //   sign up function
-  const handleSubmit = async (e: Event) => {
+  const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     // check if the passwords are the same
+    console.log(passwordRef.current?.value);
     if (passwordRef.current?.value !== confirmPasswordRef.current?.value) {
       // set
+      console.log("passwords do not match");
       return setError("Passwords entered do not match!");
     }
     try {
@@ -31,6 +33,7 @@ const Register: React.FC = (): JSX.Element => {
         emailRef.current?.value as string,
         passwordRef.current?.value as string
       );
+      navigate("/"); // when registered, navigate to the home page!
     } catch (err) {
       setError(`Uh oh! There was an error: ${err}`);
     }
@@ -115,7 +118,7 @@ const Register: React.FC = (): JSX.Element => {
           {/* ERROR AREA */}
           {/* ERROR AREA */}
           {/* ERROR AREA */}
-          {error.length > 1 && (
+          {error.length === 1 && (
             <p
               className="mt-2 text-center text-sm text-red-600"
               id="email-error"
@@ -123,6 +126,7 @@ const Register: React.FC = (): JSX.Element => {
               {error}
             </p>
           )}
+          <p className="mt-2 text-center text-sm text-red-600">{error}</p>
           {/* SUBMIT BUTTON */}
           {/* SUBMIT BUTTON */}
           {/* SUBMIT BUTTON */}
@@ -133,7 +137,7 @@ const Register: React.FC = (): JSX.Element => {
               className={`group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 ${
                 loading ? "cursor-not-allowed" : ""
               }`}
-              onClick={() => navigate("/")}
+              onClick={handleSubmit}
             >
               <span className="absolute left-0 inset-y-0 flex items-center pl-3">
                 {/* Heroicon name: solid/lock-closed */}

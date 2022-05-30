@@ -10,6 +10,8 @@ import Calendar from "../calendar/Calendar";
 // routing
 import { Link, useNavigate } from "react-router-dom";
 import Schedule from "../schedule/Schedule";
+// auth
+import { useAuth } from "../../contexts/AuthContext";
 
 // basic user
 const user = {
@@ -35,16 +37,35 @@ const quarters = [
   { name: "🌦️ Spring", href: "#" },
 ];
 
-const classNames = (...classes: string[]): any => {
+const classNames = (...classes: string[]): string => {
   return classes.filter(Boolean).join(" ");
 };
 
 const Home: React.FC = (): JSX.Element => {
-  // settings screen modal window
   const navigate = useNavigate();
   const [calView, setCalView] = useState(true);
   const [open, setOpen] = useState(false);
+  // if there are issues logging out
+  const [error, setError] = useState("");
+  const { currentUser, logout } = useAuth();
+  // the function that handles logging out
+  const handleLogout = async () => {
+    setError("");
+
+    try {
+      await logout();
+      navigate("/login");
+    } catch (err) {
+      console.log("There was an error logging out: " + err);
+    }
+  };
+  // user navigation structure
   const userNavigation = [
+    {
+      name: currentUser?.email?.slice(0, 16) + "...",
+      href: "",
+      onClick: () => {},
+    },
     {
       name: "⚙️ Settings",
       href: "",
@@ -55,9 +76,7 @@ const Home: React.FC = (): JSX.Element => {
     {
       name: "🏃 Sign out",
       href: "/login",
-      onClick: () => {
-        navigate("/login");
-      },
+      onClick: handleLogout,
     },
   ];
   // test to see if the modal closing works
