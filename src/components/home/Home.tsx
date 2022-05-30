@@ -92,14 +92,15 @@ const Home: React.FC = (): JSX.Element => {
               <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <div className="relative py-5 flex items-center justify-center lg:justify-between">
                   {/* Logo */}
-                  <div className="relative left-0 flex-shrink 0 lg:static">
-                    <Link to="/home">
+                  <div className="relative left-0 flex-shrink 0 lg:static backdrop-blur-sm bg-white/20 p-2.5 pr-4 pl-4 rounded-md">
+                    <Link to="/">
                       <span className="sr-only">Ivy</span>
-                      <img
-                        className="h-8 w-8 rounded-full scale-105"
-                        src={ivyLogo}
-                        alt="Ivy logo"
-                      />
+                      <h1 className=" text-white text-xl font-bold">
+                        Ivy🌿{" "}
+                        <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
+                          pre-release dev domain
+                        </span>
+                      </h1>
                     </Link>
                   </div>
 
@@ -119,6 +120,9 @@ const Home: React.FC = (): JSX.Element => {
                       </div>
                       <Transition
                         as={Fragment}
+                        enter="transition ease-out duration-100"
+                        enterFrom="transform opacity-0 scale-95"
+                        enterTo="transform opacity-100 scale-100"
                         leave="transition ease-in duration-75"
                         leaveFrom="transform opacity-100 scale-100"
                         leaveTo="transform opacity-0 scale-95"
