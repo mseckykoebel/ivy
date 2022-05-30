@@ -1,23 +1,13 @@
 import React from "react";
-import { Route, Navigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
 
 // TODO: type this waaaaaay better
-const PrivateRoute: React.FC<any> = ({ Component, ...rest }) => {
+const PrivateRoute: React.FC<any> = ({ children }: any) => {
   // get the current user
   const { currentUser } = useAuth();
-  return (
-    <Route
-      {...rest}
-      render={(props: any) => {
-        return currentUser ? (
-          <Component {...props} />
-        ) : (
-          <Navigate to="/login" replace />
-        );
-      }}
-    />
-  );
+  // if the user is not signed in, re-direct to the login page
+  return currentUser ? children : <Navigate to="/login" replace />;
 };
 
 export default PrivateRoute;

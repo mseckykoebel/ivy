@@ -1,49 +1,44 @@
 import React, { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
-import IvyLottie from "../login/IvyLottie";
+import { LinkIcon } from "@heroicons/react/outline";
 
-const Login: React.FC = (): JSX.Element => {
+const ForgotPassword: React.FC = (): JSX.Element => {
   // Navigation
   const navigate = useNavigate();
   //   Element references
   const emailRef = useRef<HTMLInputElement>(null);
-  const passwordRef = useRef<HTMLInputElement>(null);
   // form validation state
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState("");
   //   useAuth
-  const { login } = useAuth();
+  const { resetPassword } = useAuth();
   //   log in function
   const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
 
     try {
       setError("");
+      setMessage("");
       setLoading(true);
-      await login(
-        emailRef.current?.value as string,
-        passwordRef.current?.value as string
-      );
-      navigate("/"); // when signed in, navigate to the home page!
+      await resetPassword(emailRef.current?.value as string);
+      setMessage("Email sent! Check your inbox for further instructions");
     } catch (err) {
-      setError(`Uh oh! There was an error signing you in: ${err}`);
+      setError("Failed to send password reset email: " + err);
     }
-    setLoading(false);
   };
   //   Return
   return (
     <div className="min-h-[100vh] flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-grey-500">
       <div className="max-w-md w-full space-y-8">
         <div>
-          <IvyLottie />
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            Sign in to your Ivy account
+            🔐 Reset your password
           </h2>
         </div>
         <form className="mt-8 space-y-6" onSubmit={() => handleSubmit}>
           <input type="hidden" name="remember" value="true"></input>
-          {/* FULL NAME */}
           <div className="rounded-md shadow-sm -space-y-px">
             {/* EMAIL ADDRESS */}
             <div>
@@ -56,24 +51,9 @@ const Login: React.FC = (): JSX.Element => {
                 type="email"
                 autoComplete="email"
                 required
-                className="appearance-none rounded-t-md relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm"
+                className="appearance-none rounded-b-md rounded-t-md relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm"
                 placeholder="Northwestern email address"
                 ref={emailRef}
-              ></input>
-            </div>
-            {/* PASSWORD */}
-            <div>
-              <label htmlFor="password" className="sr-only">
-                Password
-              </label>
-              <input
-                id="password"
-                name="password"
-                type="password"
-                required
-                className="appearance-none rounded-b-md rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm"
-                placeholder="Password"
-                ref={passwordRef}
               ></input>
             </div>
           </div>
@@ -89,7 +69,6 @@ const Login: React.FC = (): JSX.Element => {
               {error}
             </p>
           )}
-          <p className="mt-2 text-center text-sm text-red-600">{error}</p>
           {/* SUBMIT BUTTON */}
           {/* SUBMIT BUTTON */}
           {/* SUBMIT BUTTON */}
@@ -104,44 +83,31 @@ const Login: React.FC = (): JSX.Element => {
             >
               <span className="absolute left-0 inset-y-0 flex items-center pl-3">
                 {/* Heroicon name: solid/lock-closed */}
-                <svg
-                  className="h-5 w-5 text-green-800 group-hover:text-green-900"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+                <LinkIcon
+                  className="-ml-1 mr-2 h-5 w-5 text-green-800 group-hover:text-green-900"
                   aria-hidden="true"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
-                    clipRule="evenodd"
-                  />
-                </svg>
+                />
               </span>
-              Log in
+              Reset password
             </button>
           </div>
+          {message.length > 5 && (
+            <p
+              className="mt-2 text-center text-sm text-green-500"
+              id="email-error"
+            >
+              {message}
+            </p>
+          )}
           {/* LOG IN INSTEAD */}
           <div className="flex items-center justify-center">
             <div className="flex items-center">
               <button
-                onClick={() => navigate("/register")}
+                onClick={() => navigate("/login")}
                 className="text-sm font-medium text-green-500 hover:text-green-500 hover:underline"
               >
                 {" "}
-                Don't have an account? Click here to create one &rarr;{" "}
-              </button>
-            </div>
-          </div>
-          {/* FORGOT PASSWORD */}
-          <div className="flex items-center justify-center">
-            <div className="flex items-center">
-              <button
-                onClick={() => navigate("/forgot-password")}
-                className="text-sm font-medium text-green-500 hover:text-green-500 hover:underline"
-              >
-                {" "}
-                Forgot your password? &rarr;{" "}
+                Go back to login screen &rarr;{" "}
               </button>
             </div>
           </div>
@@ -151,4 +117,4 @@ const Login: React.FC = (): JSX.Element => {
   );
 };
 
-export default Login;
+export default ForgotPassword;
