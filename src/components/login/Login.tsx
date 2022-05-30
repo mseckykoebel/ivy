@@ -47,27 +47,11 @@ const Login: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-between">
-            <div className="flex items-center">
-              <input
-                id="remember-me"
-                name="remember-me"
-                type="checkbox"
-                className="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded"
-              ></input>
-              <label
-                htmlFor="remember-me"
-                className="ml-2 block text-sm text-gray-900"
-              >
-                {" "}
-                Remember me{" "}
-              </label>
-            </div>
-
+          <div className="flex items-center justify-center">
             <div className="text-sm">
               <a
                 href="/"
-                className="font-medium text-green-500 hover:text-green-500"
+                className="font-medium text-green-500 hover:text-green-500 hover:underline"
               >
                 {" "}
                 Forgot your password?{" "}
@@ -79,7 +63,7 @@ const Login: React.FC = () => {
             <button
               type="submit"
               className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
-              onClick={() => navigate("/home")}
+              onClick={() => navigate("/")}
             >
               <span className="absolute left-0 inset-y-0 flex items-center pl-3">
                 {/* Heroicon name: solid/lock-closed */}
@@ -99,6 +83,17 @@ const Login: React.FC = () => {
               </span>
               Sign in
             </button>
+          </div>
+          <div className="flex items-center justify-center">
+            <div className="flex items-center">
+              <button
+                onClick={() => navigate("/register")}
+                className="text-sm font-medium text-green-500 hover:text-green-500 hover:underline"
+              >
+                {" "}
+                Don't have an account? Register for one here &rarr;{" "}
+              </button>
+            </div>
           </div>
         </form>
       </div>
