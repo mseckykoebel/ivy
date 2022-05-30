@@ -3,9 +3,9 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./components/home/Home";
 import Login from "./components/login/Login";
 import Register from "./components/register/Register";
+import { AuthProvider } from "./contexts/AuthContext";
 import "./tailwind.css";
 import "./index.css";
-import { AuthProvider } from "./contexts/AuthContext";
 
 const App: React.FC = (): JSX.Element => {
   return (

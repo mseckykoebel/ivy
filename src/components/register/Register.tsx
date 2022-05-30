@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
 import IvyLottie from "../login/IvyLottie";
@@ -11,15 +11,30 @@ const Register: React.FC = (): JSX.Element => {
   const emailRef = useRef<HTMLInputElement>(null);
   const passwordRef = useRef<HTMLInputElement>(null);
   const confirmPasswordRef = useRef<HTMLInputElement>(null);
+  // form validation state
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
   //   useAuth
   const { signup } = useAuth();
   //   sign up function
-  const handleSubmit = (e: React.MouseEvent<HTMLElement>) => {
+  const handleSubmit = async (e: Event) => {
     e.preventDefault();
-    signup(
-      emailRef.current?.value as string,
-      passwordRef.current?.value as string
-    );
+    // check if the passwords are the same
+    if (passwordRef.current?.value !== confirmPasswordRef.current?.value) {
+      // set
+      return setError("Passwords entered do not match!");
+    }
+    try {
+      setError("");
+      setLoading(true);
+      await signup(
+        emailRef.current?.value as string,
+        passwordRef.current?.value as string
+      );
+    } catch (err) {
+      setError(`Uh oh! There was an error: ${err}`);
+    }
+    setLoading(false);
   };
   //   Return
   return (
@@ -31,7 +46,7 @@ const Register: React.FC = (): JSX.Element => {
             Create an Ivy account
           </h2>
         </div>
-        <form className="mt-8 space-y-6" action="#" method="POST">
+        <form className="mt-8 space-y-6" onSubmit={() => handleSubmit}>
           <input type="hidden" name="remember" value="true"></input>
           {/* FULL NAME */}
           <div className="rounded-md shadow-sm -space-y-px">
@@ -100,18 +115,14 @@ const Register: React.FC = (): JSX.Element => {
           {/* ERROR AREA */}
           {/* ERROR AREA */}
           {/* ERROR AREA */}
-          <p className="mt-2 text-center text-sm text-black" id="email-error">
-            Fill out all the details above to continue
-          </p>
-          <p className="mt-2 text-center text-sm text-red-600" id="email-error">
-            Your password must be less than 4 characters.
-          </p>
-          <p
-            className="mt-2 text-center text-sm text-green-600"
-            id="email-error"
-          >
-            All looks good! 🥳
-          </p>
+          {error.length > 1 && (
+            <p
+              className="mt-2 text-center text-sm text-red-600"
+              id="email-error"
+            >
+              {error}
+            </p>
+          )}
           {/* SUBMIT BUTTON */}
           {/* SUBMIT BUTTON */}
           {/* SUBMIT BUTTON */}
@@ -119,7 +130,9 @@ const Register: React.FC = (): JSX.Element => {
           <div>
             <button
               type="submit"
-              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+              className={`group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 ${
+                loading ? "cursor-not-allowed" : ""
+              }`}
               onClick={() => navigate("/")}
             >
               <span className="absolute left-0 inset-y-0 flex items-center pl-3">
