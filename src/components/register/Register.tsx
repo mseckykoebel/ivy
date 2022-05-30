@@ -1,9 +1,27 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "../../contexts/AuthContext";
 import IvyLottie from "../login/IvyLottie";
 
 const Register: React.FC = (): JSX.Element => {
+  // Navigation
   const navigate = useNavigate();
+  //   Element references
+  const fullNameRef = useRef<HTMLInputElement>(null);
+  const emailRef = useRef<HTMLInputElement>(null);
+  const passwordRef = useRef<HTMLInputElement>(null);
+  const confirmPasswordRef = useRef<HTMLInputElement>(null);
+  //   useAuth
+  const { signup } = useAuth();
+  //   sign up function
+  const handleSubmit = (e: React.MouseEvent<HTMLElement>) => {
+    e.preventDefault();
+    signup(
+      emailRef.current?.value as string,
+      passwordRef.current?.value as string
+    );
+  };
+  //   Return
   return (
     <div className="min-h-[100vh] flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-grey-500">
       <div className="max-w-md w-full space-y-8">
@@ -15,6 +33,7 @@ const Register: React.FC = (): JSX.Element => {
         </div>
         <form className="mt-8 space-y-6" action="#" method="POST">
           <input type="hidden" name="remember" value="true"></input>
+          {/* FULL NAME */}
           <div className="rounded-md shadow-sm -space-y-px">
             <div>
               <label htmlFor="email-address" className="sr-only">
@@ -27,8 +46,10 @@ const Register: React.FC = (): JSX.Element => {
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm"
                 placeholder="Full name"
+                ref={fullNameRef}
               ></input>
             </div>
+            {/* EMAIL ADDRESS */}
             <div>
               <label htmlFor="email-address" className="sr-only">
                 Northwestern email address
@@ -41,8 +62,10 @@ const Register: React.FC = (): JSX.Element => {
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm"
                 placeholder="Northwestern email address"
+                ref={emailRef}
               ></input>
             </div>
+            {/* PASSWORD */}
             <div>
               <label htmlFor="password" className="sr-only">
                 Password
@@ -54,8 +77,10 @@ const Register: React.FC = (): JSX.Element => {
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm"
                 placeholder="Password"
+                ref={passwordRef}
               ></input>
             </div>
+            {/* PASSWORD CONFIRMATION */}
             <div>
               <label htmlFor="password-confirmation" className="sr-only">
                 Password confirmation
@@ -67,6 +92,7 @@ const Register: React.FC = (): JSX.Element => {
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm"
                 placeholder="Confirm password"
+                ref={confirmPasswordRef}
               ></input>
             </div>
           </div>

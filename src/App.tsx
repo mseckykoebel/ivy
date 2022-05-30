@@ -5,15 +5,18 @@ import Login from "./components/login/Login";
 import Register from "./components/register/Register";
 import "./tailwind.css";
 import "./index.css";
+import { AuthProvider } from "./contexts/AuthContext";
 
 const App: React.FC = (): JSX.Element => {
   return (
     <Router>
-      <Routes>
-        <Route path="/login" element={<Login />}></Route>
-        <Route path="/register" element={<Register />}></Route>
-        <Route path="/" element={<Home />}></Route>
-      </Routes>
+      <AuthProvider>
+        <Routes>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/register" element={<Register />}></Route>
+          <Route path="/" element={<Home />}></Route>
+        </Routes>
+      </AuthProvider>
     </Router>
   );
 };
