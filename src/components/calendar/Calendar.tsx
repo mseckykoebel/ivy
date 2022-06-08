@@ -6,7 +6,7 @@ const Calendar: React.FC = (): JSX.Element => {
   const containerNav: React.MutableRefObject<any> = useRef(null);
   const containerOffset: React.MutableRefObject<any> = useRef(null);
   // the height of the calendar in REM
-  const calHeight: number = 2.0; 
+  const calHeight = 2.0; 
 
   useEffect(() => {
     // Set the container scroll position based on the current time.
