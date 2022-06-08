@@ -7,3 +7,6 @@ updates:
       - "mseckykoebel"
     schedule:
       interval: "daily"
+    labels: 
+      - "dependencies"
+      - "automerge"
