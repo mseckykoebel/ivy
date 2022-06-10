@@ -5,7 +5,7 @@ version = 1
 [update]
 always = true                      # default: false
 require_automerge_label = false    # default: true
-# ignored_usernames = ["dependabot"]
+ignored_usernames = ["dependabot"] # might need to un-comment this (?)
 
 [merge]
 automerge_label = "automerge"
