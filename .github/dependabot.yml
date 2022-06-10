@@ -3,8 +3,8 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/"
     open-pull-requests-limit: 5
-    reviewers:
-      - "mseckykoebel"
+    # reviewers:
+    #   - "mseckykoebel"
     schedule:
       interval: "daily"
     labels: 
