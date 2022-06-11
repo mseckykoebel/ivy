@@ -19,7 +19,7 @@
 .env.production.local
 
 # firebase
-.firebase
+/.firebase
 firestore.rules
 
 npm-debug.log*
