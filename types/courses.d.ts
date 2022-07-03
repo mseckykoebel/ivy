@@ -4,7 +4,7 @@ import { Instructor } from "./instructor";
 
 // TODO: generally not known what is always guaranteed to be present: assuming everything is available unless found to be unavailable in the docs
 
-export interface Courses {
+export interface Course {
   dateVisibleInSES: string;
   strm: string;
   termDescription: string;

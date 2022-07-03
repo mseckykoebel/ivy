@@ -1,5 +1,5 @@
 // TODO: everything including MEAS
-// TODO: can we make a generic interface that takes a school and gives us the subjects in return?
+// TODO: can we make a generic interface that takes a school and gives us the subjects in return?`
 export interface MEAS {
     subject: MEASSubjects;
     description: MEASDescriptions;

@@ -4,7 +4,6 @@ import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import { SearchIcon } from "@heroicons/react/solid";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 import ivyLogo from "../../static/ivy_logo_full.png";
-import Search from "../search/Search";
 import Settings from "../settings/Settings";
 import Calendar from "../calendar/Calendar";
 // routing
@@ -12,6 +11,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Schedule from "../schedule/Schedule";
 // auth
 import { useAuth } from "../../contexts/AuthContext";
+import Search from "../search/Search";
 
 // basic user
 const user = {
@@ -483,22 +483,9 @@ const Home: React.FC = (): JSX.Element => {
                   <h2 className="sr-only" id="section-2-title">
                     Search section
                   </h2>
-                  <div className="rounded-lg bg-white overflow-hidden shadow min-h-[4rem]">
-                    {/* All of the search results will be rendered here */}
-                    <Search searchField={"Algorithms"} color={"bg-green-100"} />
-                    <Search
-                      searchField={"Intro to Psychology"}
-                      color={"bg-pink-100"}
-                    />
-                    {/* No results state, just a boilerplate for now */}
-                    <div className="bg-white shadow sm:rounded-lg mb-4 m-4">
-                      <div className="px-4 py-5 sm:p-6">
-                        <div className="mt-2 max-w-xl text-sm text-center text-black">
-                          <p>No results :(, try a new search!</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  {/* THIS IS WHERE ALL OF THE SEARCHING IS HAPPENING */}
+                  {/* IT WILL SOON GET ARGUMENTS PASSED TO IT THAT WERE SELECTED BY THE USER */}
+                  <Search courseNumber="4880" school="MEAS" course="COMP_SCI"/>
                 </section>
               </div>
             </div>
