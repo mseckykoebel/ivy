@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SearchItem from "./SearchItem";
+import fetch from "cross-fetch";
 
 const Search: React.FC<{
   courseNumber: string;
@@ -19,10 +20,12 @@ const Search: React.FC<{
       const response = await fetch(url, {
         mode: "cors",
         headers: {
-          apiKey: process.env.COURSE_API_KEY as string,
-          "Access-Control-Allow-Origin": "*"
+          apiKey: process.env.REACT_APP_COURSE_API_KEY as string
         },
       });
+      if (response.status >= 400) {
+        throw new Error("Bad response from server");
+      }
       const data = await response.json();
       console.log(data);
       setSearchResult(data);
