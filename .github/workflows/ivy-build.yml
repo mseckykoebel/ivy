@@ -1,10 +1,10 @@
-name: Build
+name: Build client
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
@@ -20,5 +20,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
-        run: npm ci --legacy-peer-deps
-      - run: npm run build
+        run: npm ci --prefix ./client
+      - run: npm run --prefix ./client build

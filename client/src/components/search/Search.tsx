@@ -20,7 +20,7 @@ const Search: React.FC<{
       const response = await fetch(url, {
         mode: "cors",
         headers: {
-          apiKey: process.env.REACT_APP_COURSE_API_KEY as string
+          apiKey: process.env.REACT_APP_COURSE_API_KEY as string,
         },
       });
       if (response.status >= 400) {
