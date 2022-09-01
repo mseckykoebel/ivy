@@ -20,7 +20,12 @@ const Search: React.FC<{
       const response = await fetch(url, {
         mode: "cors",
         headers: {
-          apiKey: process.env.REACT_APP_COURSE_API_KEY as string,
+          "Content-type": "application/json",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Request-Method": "GET",
+          "Access-Control-Request-Headers": "Content-Type, Authorization",
+          "Access-Control-Allow-Credentials": "true",
+          apikey: process.env.REACT_APP_COURSE_API_KEY as string,
         },
       });
       if (response.status >= 400) {

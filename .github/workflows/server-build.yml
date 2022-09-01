@@ -21,4 +21,4 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
         run: npm ci --prefix ./server
-      - run: npm run --prefix ./server prestart
+      - run: npm run --prefix ./server build
