@@ -20,5 +20,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
-        run: npm i --prefix ./server
+        run: npm --prefix ./server i
       - run: npm run --prefix ./server build
