@@ -21,5 +21,5 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-    - run: npm --prefix ./server ci
-    - run: npm --prefix ./server run lint
+    - run: npm --prefix ./client ci
+    - run: npm --prefix ./client run lint
