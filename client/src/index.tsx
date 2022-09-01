@@ -5,8 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 
-// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-const container = document.getElementById("root")!;
+const container = document.getElementById("root") as HTMLElement;
 const root = createRoot(container);
 
 root.render(<App />);
