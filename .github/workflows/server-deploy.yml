@@ -4,14 +4,13 @@ on:
   push:
     branches: [master]
 
-env:
-  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-
 jobs:
   deploy:
     name: Deploy Ivy API
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: superfly/flyctl-actions@1.1
-      - run: 'flyctl deploy --remote-only --config server/fly.toml'
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+      - run: flyctl deploy --remote-only --config server/fly.toml
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
