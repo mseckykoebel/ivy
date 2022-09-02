@@ -1,4 +1,4 @@
-# fly.toml file generated for ivy-api on 2022-09-01T20:42:58-07:00
+# fly.toml file generated for ivy-api on 2022-09-02T16:12:14-07:00
 
 app = "ivy-api"
 kill_signal = "SIGINT"
