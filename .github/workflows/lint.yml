@@ -8,8 +8,8 @@ on:
 
 jobs:
   lint:
+    name: Lint client
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [16.x]
