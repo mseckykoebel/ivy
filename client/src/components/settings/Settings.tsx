@@ -20,7 +20,7 @@ export const Settings: React.FC<SettingsProps> = ({
   setOpenModal,
   cancelButtonRef,
 }): JSX.Element => {
-  // auth
+  // contexts
   const { currentUser, updateEmail, updatePassword, updateDisplayName } =
     useAuth();
   // ref

@@ -1,8 +1,11 @@
+/* eslint-disable @typescript-eslint/no-empty-function */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-unused-vars */
 import React, { useContext, useEffect, useState } from "react";
-import { auth } from "../firebase";
+import { auth } from "../firebase/firebase";
 import firebase from "firebase/compat/app";
 
-export type authContext = {
+export interface AuthContext {
   currentUser: firebase.User | null;
   signup: (
     email: string,
@@ -17,10 +20,10 @@ export type authContext = {
   updateEmail: (newEmail: string) => Promise<void> | void;
   updatePassword: (newPassword: string) => Promise<void> | void;
   updateDisplayName: (newDisplayName: string) => Promise<void> | void;
-};
+}
 
 // auth context react context
-const AuthContext = React.createContext<authContext>({
+const AuthContext = React.createContext<AuthContext>({
   currentUser: null,
   signup: (email: string, password: string) => {},
   login: (email: string, password: string) => {},
@@ -80,10 +83,12 @@ export const AuthProvider = ({ children }: any) => {
 
   // run this for verification for a user
   useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((user: firebase.User | null) => {
-      setCurrentUser(user);
-      setLoading(false); // verification that we have or do not have a user - internal loading for this is done
-    });
+    const unsubscribe = auth.onAuthStateChanged(
+      (user: firebase.User | null) => {
+        setCurrentUser(user);
+        setLoading(false); // verification that we have or do not have a user - internal loading for this is done
+      }
+    );
 
     return unsubscribe;
   }, []);
