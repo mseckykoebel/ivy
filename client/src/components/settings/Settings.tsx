@@ -10,22 +10,28 @@ import {
 import { Dialog, Transition } from "@headlessui/react";
 
 import { useAuth } from "../../contexts/AuthContext";
+
+import { ProfilePicture } from "../profilePicture/ProfilePicture";
+
 import { Majors } from "./Majors";
 import { Minors } from "./Minors";
 import { majors as majorsList } from "../../lib/majors";
 import { minors as minorsList } from "../../lib/minors";
+
 import {
   createMajorFromMajorTitle,
   deleteMajor,
   getMajorsByUserId,
   updateMajor,
 } from "../../firebase/majorsService";
+
 import {
   createMinorFromMinorTitle,
   deleteMinor,
   getMinorsByUserId,
   updateMinor,
 } from "../../firebase/minorsService";
+
 
 interface SettingsProps {
   open: boolean;
@@ -224,19 +230,22 @@ export const Settings: React.FC<SettingsProps> = ({
             >
               <Dialog.Panel className="relative sm:min-w-[50rem] bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:max-w-lg sm:w-full sm:p-6">
                 <div className="overflow-hidden bg-white shadow sm:rounded-lg">
-                  <div className="px-4 py-5 sm:px-6">
-                    <h3 className="text-lg font-medium leading-6 text-gray-900">
-                      ⚙️ Settings
-                    </h3>
-                    <p className="mt-1 max-w-2xl text-sm text-gray-500">
-                      Your personal, major, and minor information
-                    </p>
+                  <div className="flex justify-between px-4 py-5 sm:px-6">
+                    <div className="inline-block align-middle`">
+                      <h3 className="text-lg font-medium leading-6 text-gray-900">
+                        ⚙️ Settings
+                      </h3>
+                      <p className="mt-1 max-w-2xl text-sm text-gray-500">
+                        Your personal, major, and minor information
+                      </p>
+                    </div>
+                    <ProfilePicture size={50} />
                   </div>
                   <div className="border-t border-gray-200 px-4 py-5 sm:p-0">
                     <dl className="sm:divide-y sm:divide-gray-200">
                       <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
                         <dt className="text-sm font-medium text-gray-500">
-                          Name
+                          Username
                         </dt>
                         <dd>
                           <input
