@@ -14,18 +14,13 @@ const Search: React.FC<{
   const [searchResult, setSearchResult] = useState("");
 
   useEffect(() => {
-    const url = `https://northwestern-prod.apigee.net/student-system-classdescrallcls/${courseNumber}/${school}/${course}`;
+    const url = `http://localhost:3001/api/v1/get_academic_groups`;
     const loadPosts = async () => {
       setLoading(true);
       const response = await fetch(url, {
         mode: "cors",
         headers: {
           "Content-type": "application/json",
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Request-Method": "GET",
-          "Access-Control-Request-Headers": "Content-Type, Authorization",
-          "Access-Control-Allow-Credentials": "true",
-          apikey: process.env.REACT_APP_COURSE_API_KEY as string,
         },
       });
       if (response.status >= 400) {
