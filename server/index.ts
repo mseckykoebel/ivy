@@ -1,6 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import request from "request";
+import cors from "cors";
 
 dotenv.config({ path: ".env.local" });
 
@@ -18,6 +19,14 @@ app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   next();
 });
+
+if (process.env.NODE_ENV !== "production") {
+  app.use(
+    cors({
+      origin: "http://localhost:3000",
+    })
+  );
+}
 
 /**
  * Info GET endpoint
