@@ -5,9 +5,13 @@ import {
   RefObject,
   useRef,
   useState,
+  useEffect,
 } from "react";
 import { Dialog, Transition } from "@headlessui/react";
+
 import { useAuth } from "../../contexts/AuthContext";
+import { DocumentData } from "firebase/firestore";
+import { getMajorsByUserId } from "../../firebase/majorsService";
 
 interface SettingsProps {
   open: boolean;
@@ -28,6 +32,7 @@ export const Settings: React.FC<SettingsProps> = ({
   const emailRef = useRef<HTMLInputElement>(null);
   const passwordRef = useRef<HTMLInputElement>(null);
   const confirmPasswordRef = useRef<HTMLInputElement>(null);
+  const majorsRef = useRef<HTMLInputElement>(null);
   // state
   const [error, setError] = useState<string>("");
   const [success, setSuccess] = useState<string>("");
@@ -38,11 +43,10 @@ export const Settings: React.FC<SettingsProps> = ({
   const [displayName, setDisplayName] = useState<string>(
     currentUser?.displayName as string | ""
   );
+  const [majors, setMajors] = useState<DocumentData[] | null>(null);
 
   const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-
-    console.log("pushing this as a promise");
 
     if (passwordRef.current?.value !== confirmPasswordRef.current?.value) {
       setError("Passwords do not match");
@@ -81,6 +85,15 @@ export const Settings: React.FC<SettingsProps> = ({
         setLoading(false);
       });
   };
+
+  useEffect(() => {
+    const getMajors = async () => {
+      const majors = await getMajorsByUserId();
+      console.log("Majors from MajorsContext: ", majors);
+      setMajors(majors);
+    };
+    getMajors();
+  }, []);
 
   return (
     <Transition.Root show={open} as={Fragment}>
@@ -203,6 +216,29 @@ export const Settings: React.FC<SettingsProps> = ({
                             id="confirmPassword"
                             className="block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm"
                             placeholder="Leave blank to keep the same"
+                            onChange={() => {
+                              setError("");
+                              setSuccess("");
+                            }}
+                          />
+                        </dd>
+                      </div>
+                      {/* MAJORS */}
+                      {/* MAJORS */}
+                      {/* MAJORS */}
+                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                        <dt className="text-sm font-medium text-gray-500">
+                          Majors
+                        </dt>
+                        <dd>
+                          <input
+                            ref={majorsRef}
+                            type="search"
+                            name="majors"
+                            id="majors"
+                            className="block w-[29.5rem] rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm"
+                            placeholder="Leave blank to keep the same"
+                            value={majors ? majors[0].majorTitle : ""}
                             onChange={() => {
                               setError("");
                               setSuccess("");

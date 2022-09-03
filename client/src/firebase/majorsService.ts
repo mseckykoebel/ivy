@@ -1,21 +1,31 @@
 import {
-  collection,
   DocumentData,
   getDocs,
+  addDoc,
   query,
-  QuerySnapshot,
   where,
+  collection,
+  DocumentReference,
 } from "firebase/firestore";
-import { Major } from "../types/firebase/majors";
 import { db, auth } from "./firebase";
 
-// can also use getDocs for this
-
-const getMajorsByUserId = async (): Promise<QuerySnapshot<DocumentData>> => {
+const getMajorsByUserId = async (): Promise<DocumentData[]> => {
   const majorsRef = collection(db, "majors");
   const q = query(majorsRef, where("userId", "==", auth.currentUser?.uid));
 
-  return await getDocs(q);
+  const data = await getDocs(q);
+
+  return data.docs.map((doc) => doc.data());
 };
 
-export { getMajorsByUserId };
+const createMajorFromMajorTitle = async (
+  majorTitle: string
+): Promise<DocumentReference<DocumentData>> => {
+  // auto-generates a new ID if this major is new
+  return await addDoc(collection(db, "majors"), {
+    userId: auth.currentUser?.uid,
+    majorTitle: majorTitle,
+  });
+};
+
+export { getMajorsByUserId, createMajorFromMajorTitle };
