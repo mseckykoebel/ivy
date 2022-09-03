@@ -16,7 +16,7 @@ const Search: React.FC<{
   useEffect(() => {
     const url =
       process.env.NODE_ENV !== "production"
-        ? "https://localhost:3001/api/v1/get_academic_groups"
+        ? "http://localhost:3001/api/v1/get_academic_groups"
         : "https://ivy-api.fly.dev/api/v1/get_academic_groups";
     const loadPosts = async () => {
       setLoading(true);
