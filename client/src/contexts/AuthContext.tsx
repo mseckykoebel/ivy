@@ -16,6 +16,7 @@ export type authContext = {
   resetPassword: (email: string) => Promise<void> | void; // this band-aids authContext, pls fix
   updateEmail: (newEmail: string) => Promise<void> | void;
   updatePassword: (newPassword: string) => Promise<void> | void;
+  updateDisplayName: (newDisplayName: string) => Promise<void> | void;
 };
 
 // auth context react context
@@ -27,6 +28,7 @@ const AuthContext = React.createContext<authContext>({
   resetPassword: (email: string) => {},
   updateEmail: (newEmail: string) => {},
   updatePassword: (newPassword: string) => {},
+  updateDisplayName: (newDisplayName: string) => {},
 });
 
 export const useAuth = () => {
@@ -69,6 +71,12 @@ export const AuthProvider = ({ children }: any) => {
   const updatePassword = (newPassword: string): Promise<void> => {
     return (currentUser as firebase.User).updatePassword(newPassword);
   };
+  // update display name
+  const updateDisplayName = (newDisplayName: string): Promise<void> => {
+    return (currentUser as firebase.User).updateProfile({
+      displayName: newDisplayName,
+    });
+  };
 
   // run this for verification for a user
   useEffect(() => {
@@ -89,6 +97,7 @@ export const AuthProvider = ({ children }: any) => {
     resetPassword,
     updateEmail,
     updatePassword,
+    updateDisplayName,
   };
 
   return (

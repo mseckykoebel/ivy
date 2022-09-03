@@ -21,7 +21,8 @@ export const Settings: React.FC<SettingsProps> = ({
   cancelButtonRef,
 }): JSX.Element => {
   // auth
-  const { currentUser, updateEmail, updatePassword } = useAuth();
+  const { currentUser, updateEmail, updatePassword, updateDisplayName } =
+    useAuth();
   // ref
   const displayNameRef = useRef<HTMLInputElement>(null);
   const emailRef = useRef<HTMLInputElement>(null);
@@ -34,6 +35,9 @@ export const Settings: React.FC<SettingsProps> = ({
   const [emailAddress, setEmailAddress] = useState<string>(
     currentUser?.email as string
   );
+  const [displayName, setDisplayName] = useState<string>(
+    currentUser?.displayName as string | ""
+  );
 
   const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
@@ -45,8 +49,8 @@ export const Settings: React.FC<SettingsProps> = ({
       return;
     }
 
-    if (emailRef.current?.value === currentUser?.email) {
-      setSuccess("Email unchanged");
+    if (displayNameRef.current?.value.length === 0) {
+      setError("Display name must not be blank");
       return;
     }
 
@@ -60,6 +64,10 @@ export const Settings: React.FC<SettingsProps> = ({
 
     if (passwordRef.current?.value) {
       promises.push(updatePassword(passwordRef.current?.value as string));
+    }
+
+    if (displayNameRef.current?.value !== currentUser?.displayName) {
+      promises.push(updateDisplayName(displayNameRef.current?.value as string));
     }
 
     Promise.all(promises)
@@ -129,10 +137,13 @@ export const Settings: React.FC<SettingsProps> = ({
                             id="displayName"
                             className="block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm"
                             placeholder="Your name"
-                            value={currentUser?.displayName as string}
+                            value={displayName}
                             onChange={() => {
                               setError("");
                               setSuccess("");
+                              setDisplayName(
+                                displayNameRef.current?.value as string
+                              );
                             }}
                           />
                         </dd>

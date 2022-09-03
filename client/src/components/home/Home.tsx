@@ -64,7 +64,8 @@ const Home: React.FC = (): JSX.Element => {
   // user navigation structure
   const userNavigation = [
     {
-      name: currentUser?.email?.slice(0, 16) + "...",
+      name:
+        currentUser?.displayName || currentUser?.email?.slice(0, 16) + "...",
       href: "",
       onClick: () => {},
     },
