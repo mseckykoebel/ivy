@@ -80,7 +80,7 @@ export const AuthProvider = ({ children }: any) => {
 
   // run this for verification for a user
   useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((user: any) => {
+    const unsubscribe = auth.onAuthStateChanged((user: firebase.User | null) => {
       setCurrentUser(user);
       setLoading(false); // verification that we have or do not have a user - internal loading for this is done
     });
