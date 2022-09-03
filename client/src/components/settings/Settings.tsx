@@ -117,7 +117,7 @@ export const Settings: React.FC<SettingsProps> = ({
               <Dialog.Panel className="relative sm:min-w-[50rem] bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:max-w-lg sm:w-full sm:p-6">
                 <div className="overflow-hidden bg-white shadow sm:rounded-lg">
                   <div className="flex justify-between px-4 py-5 sm:px-6">
-                    <div className="inline-block align-middle">
+                    <div className="inline-block align-middle`">
                       <h3 className="text-lg font-medium leading-6 text-gray-900">
                         ⚙️ Settings
                       </h3>
@@ -131,7 +131,7 @@ export const Settings: React.FC<SettingsProps> = ({
                     <dl className="sm:divide-y sm:divide-gray-200">
                       <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
                         <dt className="text-sm font-medium text-gray-500">
-                          Name
+                          Username
                         </dt>
                         <dd>
                           <input
