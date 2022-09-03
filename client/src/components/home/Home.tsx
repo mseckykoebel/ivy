@@ -12,6 +12,8 @@ import Schedule from "../schedule/Schedule";
 // auth
 import { useAuth } from "../../contexts/AuthContext";
 import Search from "../search/Search";
+// avatars
+import { ProfilePicture } from "../profilePicture/ProfilePicture";
 
 // basic user
 const user = {
@@ -134,11 +136,9 @@ const Home: React.FC = (): JSX.Element => {
                       <div>
                         <Menu.Button className="bg-white rounded-full flex text-sm ring-2 ring-white ring-opacity-20 focus:outline-none focus:ring-opacity-100">
                           <span className="sr-only">Open user menu</span>
-                          <img
-                            className="h-8 w-8 rounded-full"
-                            src={user.imageUrl}
-                            alt=""
-                          />
+                          <div className="h-8 w-8 rounded-full">
+                            <ProfilePicture size={32} />
+                          </div>
                         </Menu.Button>
                       </div>
                       <Transition
