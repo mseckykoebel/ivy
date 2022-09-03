@@ -3,9 +3,7 @@
 
 name: Deploy client on PR
 
-on:
-  pull_request:
-    branches: [master]
+'on': pull_request_target
 
 env:
   CI: false
