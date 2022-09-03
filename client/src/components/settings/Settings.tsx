@@ -11,13 +11,21 @@ import { Dialog, Transition } from "@headlessui/react";
 
 import { useAuth } from "../../contexts/AuthContext";
 import { Majors } from "./Majors";
+import { Minors } from "./Minors";
 import { majors as majorsList } from "../../lib/majors";
+import { minors as minorsList } from "../../lib/minors";
 import {
   createMajorFromMajorTitle,
   deleteMajor,
   getMajorsByUserId,
   updateMajor,
 } from "../../firebase/majorsService";
+import {
+  createMinorFromMinorTitle,
+  deleteMinor,
+  getMinorsByUserId,
+  updateMinor,
+} from "../../firebase/minorsService";
 
 interface SettingsProps {
   open: boolean;
@@ -39,6 +47,7 @@ export const Settings: React.FC<SettingsProps> = ({
   const passwordRef = useRef<HTMLInputElement>(null);
   const confirmPasswordRef = useRef<HTMLInputElement>(null);
   const majorsRef = useRef<HTMLInputElement>(null);
+  const minorsRef = useRef<HTMLInputElement>(null);
   // state
   const [error, setError] = useState<string>("");
   const [success, setSuccess] = useState<string>("");
@@ -49,17 +58,30 @@ export const Settings: React.FC<SettingsProps> = ({
   const [displayName, setDisplayName] = useState<string>(
     currentUser?.displayName as string | ""
   );
-  const [major, setMajor] = useState<{ id: string; majorTitle: string } | null>(
-    null
-  );
+  const [major, setMajor] = useState<{
+    id: string;
+    majorTitle: string;
+  } | null>(null);
+  const [minor, setMinor] = useState<{
+    id: string;
+    minorTitle: string;
+  } | null>(null);
 
   const getMajors = async () => {
     const majors = await getMajorsByUserId();
-    console.log("Majors from MajorsContext: ", majors);
     if (majors.length === 0) {
       setMajor(null);
     } else {
       setMajor({ id: majors[0].id, majorTitle: majors[0].data.majorTitle });
+    }
+  };
+
+  const getMinors = async () => {
+    const minors = await getMinorsByUserId();
+    if (minors.length === 0) {
+      setMinor(null);
+    } else {
+      setMinor({ id: minors[0].id, minorTitle: minors[0].data.minorTitle });
     }
   };
 
@@ -84,6 +106,14 @@ export const Settings: React.FC<SettingsProps> = ({
       return;
     }
 
+    if (
+      minorsRef.current?.value &&
+      !minorsList.includes(minorsRef.current?.value.toUpperCase() as string)
+    ) {
+      setError("Minor not found!");
+      return;
+    }
+
     const promises = [];
     setLoading(true);
     setError("");
@@ -100,14 +130,17 @@ export const Settings: React.FC<SettingsProps> = ({
       promises.push(updateDisplayName(displayNameRef.current?.value as string));
     }
 
-    console.log("MAJOR REF: ", majorsRef.current?.value);
-    console.log("MAJOR VALUE:", major?.majorTitle);
-
     // major has been created
     if (!major?.id) {
-      console.log("FIRING CREATE");
       promises.push(
         createMajorFromMajorTitle(majorsRef.current?.value as string)
+      );
+    }
+
+    // minor has been created
+    if (!minor?.id) {
+      promises.push(
+        createMinorFromMinorTitle(minorsRef.current?.value as string)
       );
     }
 
@@ -117,10 +150,20 @@ export const Settings: React.FC<SettingsProps> = ({
       promises.push(deleteMajor(major?.id as string));
     }
 
+    // minor has been cleared out
+    if (minorsRef.current?.value.length === 0 && minor?.id) {
+      setMinor(null);
+      promises.push(deleteMinor(major?.id as string));
+    }
+
     // major has been updated
     if (major?.id) {
-      console.log("FIRING UPDATE");
       promises.push(updateMajor(majorsRef.current?.value as string, major?.id));
+    }
+
+    // minor has been updated
+    if (minor?.id) {
+      promises.push(updateMinor(minorsRef.current?.value as string, minor?.id));
     }
 
     // update major by default if it passes the matching test
@@ -130,6 +173,7 @@ export const Settings: React.FC<SettingsProps> = ({
         setSuccess("Updated successfully!");
       })
       .catch((err) => {
+        // check if we deleted successfully. If so, skip over this error - expected
         if (String(err).includes("No document to update")) {
           setSuccess("Updated successfully!");
         } else {
@@ -144,6 +188,7 @@ export const Settings: React.FC<SettingsProps> = ({
 
   useEffect(() => {
     getMajors();
+    getMinors();
   }, []);
 
   return (
@@ -281,6 +326,16 @@ export const Settings: React.FC<SettingsProps> = ({
                         majorRef={majorsRef}
                         major={major}
                         setMajor={setMajor}
+                        setError={setError}
+                        setSuccess={setSuccess}
+                      />
+                      {/* MINORS */}
+                      {/* MINORS */}
+                      {/* MINORS */}
+                      <Minors
+                        minorRef={minorsRef}
+                        minor={minor}
+                        setMinor={setMinor}
                         setError={setError}
                         setSuccess={setSuccess}
                       />
