@@ -1,12 +1,20 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/"
-    open-pull-requests-limit: 5
-    # reviewers:
-    #   - "mseckykoebel"
+    directory: "/client"
+    open-pull-requests-limit: 10
     schedule:
       interval: "daily"
+      timezone: "America/Chicago"
+    labels: 
+      - "dependencies"
+      - "automerge"
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/server"
+    open-pull-requests-limit: 10
+    schedule:
+      interval: "daily"
+      timezone: "America/Chicago"
     labels: 
       - "dependencies"
       - "automerge"
