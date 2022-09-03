@@ -14,7 +14,10 @@ const Search: React.FC<{
   const [searchResult, setSearchResult] = useState("");
 
   useEffect(() => {
-    const url = `http://localhost:3001/api/v1/get_academic_groups`;
+    const url =
+      process.env.NODE_ENV !== "production"
+        ? "https://localhost:3001/api/v1/get_academic_groups"
+        : "https://ivy-api.fly.dev/api/v1/get_academic_groups";
     const loadPosts = async () => {
       setLoading(true);
       const response = await fetch(url, {

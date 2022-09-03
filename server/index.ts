@@ -26,6 +26,12 @@ if (process.env.NODE_ENV !== "production") {
       origin: "http://localhost:3000",
     })
   );
+} else {
+  app.use(
+    cors({
+      origin: "https://ivy.raiso.org",
+    })
+  );
 }
 
 /**
