@@ -15,14 +15,6 @@ import Search from "../search/Search";
 // avatars
 import { ProfilePicture } from "../profilePicture/ProfilePicture";
 
-// basic user
-const user = {
-  name: "Tom Cook",
-  email: "tom@example.com",
-  imageUrl:
-    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-};
-
 const navigation = [{ name: "Calendar view" }, { name: "Schedule view" }];
 
 const years = [
@@ -406,19 +398,15 @@ const Home: React.FC = (): JSX.Element => {
                         </div>
                         <div className="pt-4 pb-2">
                           <div className="flex items-center px-5">
-                            <div className="flex-shrink-0">
-                              <img
-                                className="h-10 w-10 rounded-full"
-                                src={user.imageUrl}
-                                alt=""
-                              />
+                            <div className="h-8 w-8 flex-shrink-0 rounded-full">
+                              <ProfilePicture size={32} />
                             </div>
                             <div className="ml-3 min-w-0 flex-1">
                               <div className="text-base font-medium text-gray-800 truncate">
-                                {user.name}
+                                {userNavigation[0].name}
                               </div>
                               <div className="text-sm font-medium text-gray-500 truncate">
-                                {user.email}
+                                {currentUser?.email}
                               </div>
                             </div>
                             <button
