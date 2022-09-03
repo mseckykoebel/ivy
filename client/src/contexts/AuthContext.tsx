@@ -14,6 +14,8 @@ export type authContext = {
   ) => Promise<firebase.auth.UserCredential> | void;
   logout: () => Promise<void> | void; // this band-aids authContext, pls fix
   resetPassword: (email: string) => Promise<void> | void; // this band-aids authContext, pls fix
+  updateEmail: (newEmail: string) => Promise<void> | void;
+  updatePassword: (newPassword: string) => Promise<void> | void;
 };
 
 // auth context react context
@@ -23,6 +25,8 @@ const AuthContext = React.createContext<authContext>({
   login: (email: string, password: string) => {},
   logout: () => {},
   resetPassword: (email: string) => {},
+  updateEmail: (newEmail: string) => {},
+  updatePassword: (newPassword: string) => {},
 });
 
 export const useAuth = () => {
@@ -57,6 +61,14 @@ export const AuthProvider = ({ children }: any) => {
   const resetPassword = (email: string): Promise<void> => {
     return auth.sendPasswordResetEmail(email);
   };
+  // update email
+  const updateEmail = (newEmail: string): Promise<void> => {
+    return (currentUser as firebase.User).updateEmail(newEmail);
+  };
+  // update password
+  const updatePassword = (newPassword: string): Promise<void> => {
+    return (currentUser as firebase.User).updatePassword(newPassword);
+  };
 
   // run this for verification for a user
   useEffect(() => {
@@ -69,7 +81,15 @@ export const AuthProvider = ({ children }: any) => {
   }, []);
 
   // value of the current user
-  const value = { currentUser, signup, login, logout, resetPassword };
+  const value = {
+    currentUser,
+    signup,
+    login,
+    logout,
+    resetPassword,
+    updateEmail,
+    updatePassword,
+  };
 
   return (
     <AuthContext.Provider value={value}>

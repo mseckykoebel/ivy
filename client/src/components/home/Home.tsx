@@ -1,10 +1,10 @@
-import { Fragment, useState } from "react";
+import { Fragment, useRef, useState } from "react";
 import { Menu, Popover, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import { SearchIcon } from "@heroicons/react/solid";
 import { ChevronDownIcon } from "@heroicons/react/solid";
+import { Settings } from "../settings/Settings";
 import ivyLogo from "../../static/ivy_logo_full.png";
-import Settings from "../settings/Settings";
 import Calendar from "../calendar/Calendar";
 // routing
 import { Link, useNavigate } from "react-router-dom";
@@ -48,6 +48,8 @@ const Home: React.FC = (): JSX.Element => {
   // if there are issues logging out
   const [error, setError] = useState("");
   const { currentUser, logout } = useAuth();
+  // modal cancel ref
+  const cancelButtonRef = useRef(null);
   // the function that handles logging out
   const handleLogout = async () => {
     setError("");
@@ -100,7 +102,8 @@ const Home: React.FC = (): JSX.Element => {
         {open && (
           <Settings
             open={open}
-            sendDataToParent={() => fromClose(false)}
+            setOpenModal={() => fromClose(false)}
+            cancelButtonRef={cancelButtonRef}
             // cancelButtonRef={cancelButtonRef}
           />
         )}
@@ -485,7 +488,7 @@ const Home: React.FC = (): JSX.Element => {
                   </h2>
                   {/* THIS IS WHERE ALL OF THE SEARCHING IS HAPPENING */}
                   {/* IT WILL SOON GET ARGUMENTS PASSED TO IT THAT WERE SELECTED BY THE USER */}
-                  <Search courseNumber="4880" school="MEAS" course="COMP_SCI"/>
+                  <Search courseNumber="4880" school="MEAS" course="COMP_SCI" />
                 </section>
               </div>
             </div>

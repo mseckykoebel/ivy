@@ -20,7 +20,7 @@ const Calendar: React.FC = (): JSX.Element => {
   }, []);
 
   return (
-    <div className="flex h-full flex-col">
+    <div className="flex h-full flex-col z-2">
       <div
         ref={container}
         className="flex flex-auto flex-col overflow-auto bg-white"
