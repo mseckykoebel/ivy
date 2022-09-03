@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    name: Build client
     runs-on: ubuntu-latest
     env: 
       CI: false
