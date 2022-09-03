@@ -10,8 +10,14 @@ import {
 import { Dialog, Transition } from "@headlessui/react";
 
 import { useAuth } from "../../contexts/AuthContext";
-import { DocumentData } from "firebase/firestore";
-import { getMajorsByUserId } from "../../firebase/majorsService";
+import { Majors } from "./Majors";
+import { majors as majorsList } from "../../lib/majors";
+import {
+  createMajorFromMajorTitle,
+  deleteMajor,
+  getMajorsByUserId,
+  updateMajor,
+} from "../../firebase/majorsService";
 
 interface SettingsProps {
   open: boolean;
@@ -43,7 +49,19 @@ export const Settings: React.FC<SettingsProps> = ({
   const [displayName, setDisplayName] = useState<string>(
     currentUser?.displayName as string | ""
   );
-  const [majors, setMajors] = useState<DocumentData[] | null>(null);
+  const [major, setMajor] = useState<{ id: string; majorTitle: string } | null>(
+    null
+  );
+
+  const getMajors = async () => {
+    const majors = await getMajorsByUserId();
+    console.log("Majors from MajorsContext: ", majors);
+    if (majors.length === 0) {
+      setMajor(null);
+    } else {
+      setMajor({ id: majors[0].id, majorTitle: majors[0].data.majorTitle });
+    }
+  };
 
   const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
@@ -55,6 +73,14 @@ export const Settings: React.FC<SettingsProps> = ({
 
     if (displayNameRef.current?.value.length === 0) {
       setError("Display name must not be blank");
+      return;
+    }
+
+    if (
+      majorsRef.current?.value &&
+      !majorsList.includes(majorsRef.current?.value.toUpperCase() as string)
+    ) {
+      setError("Major not found!");
       return;
     }
 
@@ -74,24 +100,49 @@ export const Settings: React.FC<SettingsProps> = ({
       promises.push(updateDisplayName(displayNameRef.current?.value as string));
     }
 
+    console.log("MAJOR REF: ", majorsRef.current?.value);
+    console.log("MAJOR VALUE:", major?.majorTitle);
+
+    // major has been created
+    if (!major?.id) {
+      console.log("FIRING CREATE");
+      promises.push(
+        createMajorFromMajorTitle(majorsRef.current?.value as string)
+      );
+    }
+
+    // major has been cleared out
+    if (majorsRef.current?.value.length === 0 && major?.id) {
+      setMajor(null);
+      promises.push(deleteMajor(major?.id as string));
+    }
+
+    // major has been updated
+    if (major?.id) {
+      console.log("FIRING UPDATE");
+      promises.push(updateMajor(majorsRef.current?.value as string, major?.id));
+    }
+
+    // update major by default if it passes the matching test
+
     Promise.all(promises)
       .then(() => {
         setSuccess("Updated successfully!");
       })
       .catch((err) => {
-        setError("Uh oh! There was an error: " + err);
+        if (String(err).includes("No document to update")) {
+          setSuccess("Updated successfully!");
+        } else {
+          setError("Uh oh! There was an error: " + err);
+        }
       })
       .finally(() => {
         setLoading(false);
+        getMajors();
       });
   };
 
   useEffect(() => {
-    const getMajors = async () => {
-      const majors = await getMajorsByUserId();
-      console.log("Majors from MajorsContext: ", majors);
-      setMajors(majors);
-    };
     getMajors();
   }, []);
 
@@ -226,26 +277,13 @@ export const Settings: React.FC<SettingsProps> = ({
                       {/* MAJORS */}
                       {/* MAJORS */}
                       {/* MAJORS */}
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-sm font-medium text-gray-500">
-                          Majors
-                        </dt>
-                        <dd>
-                          <input
-                            ref={majorsRef}
-                            type="search"
-                            name="majors"
-                            id="majors"
-                            className="block w-[29.5rem] rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm"
-                            placeholder="Leave blank to keep the same"
-                            value={majors ? majors[0].majorTitle : ""}
-                            onChange={() => {
-                              setError("");
-                              setSuccess("");
-                            }}
-                          />
-                        </dd>
-                      </div>
+                      <Majors
+                        majorRef={majorsRef}
+                        major={major}
+                        setMajor={setMajor}
+                        setError={setError}
+                        setSuccess={setSuccess}
+                      />
                     </dl>
                   </div>
                 </div>
