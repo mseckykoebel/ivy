@@ -11,6 +11,8 @@ import { getUndergraduateCourses } from "./lib/getUndergraduateCourses";
 import type { UndergraduateSubject } from "./types/subject";
 import type { UndergraduateSchools } from "./types/school";
 
+import { db } from "./db/db";
+
 dotenv.config({ path: ".env.local" });
 
 const app = express();
@@ -236,6 +238,12 @@ app.get("/api/v1/get_undergraduate_subjects/", async (req, res) => {
  */
 app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
   const termId = req.query.termId as string;
+  const cache = db(Number(termId));
+  // see if we can cache the results
+  if (termId && cache !== null) {
+    return res.json(cache);
+  }
+  // go into the depths of hell
   try {
     const result = (await getUndergraduateSchools(
       termId,

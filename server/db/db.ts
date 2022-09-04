@@ -31,6 +31,8 @@ const db = (termId: number) => {
       return fall22Courses;
     case 4890:
       return winter23Courses;
+    default:
+      return null;
   }
 };
 
