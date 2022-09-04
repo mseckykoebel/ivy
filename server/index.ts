@@ -276,24 +276,18 @@ app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
           });
         }
       }
-      res.json(mergedSubjectData);
-      const coursePromises = [];
       // now, execute operation gigaPromise
+      const coursePromises = [];
+      // Ready...aim... 🔫
       for (let i = 0; i < mergedSubjectData.length; i++) {
-        coursePromises.push(mergedSubjectData[i]);
-      }
-      // prepare promises 🔫
-      for (let i = 0; i < mergedSubjectData.length; i++) {
-        for (let j = 0; j < schools.length; j++) {
-          coursePromises.push(
-            getUndergraduateCourses(
-              termId,
-              schools[j],
-              mergedSubjectData[i].subject,
-              coursesURL
-            )
-          );
-        }
+        coursePromises.push(
+          getUndergraduateCourses(
+            termId,
+            mergedSubjectData[i].school,
+            mergedSubjectData[i].subject,
+            coursesURL
+          )
+        );
       }
       // FIRE 🐎
       try {
