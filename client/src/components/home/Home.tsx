@@ -33,16 +33,21 @@ const Home: React.FC = (): JSX.Element => {
   // state
   const [calView, setCalView] = useState<boolean>(true);
   const [query, setQuery] = useState<string>("");
-  // filtering
+  // filtering (arrays)
   const [years, setYears] = useState<{ year: string }[] | null>(null);
   const [quarters, setQuarters] = useState<{ quarter: string }[] | null>(null);
   const [schools, setSchools] = useState<
     { school: string; schoolDescription: string }[] | null
   >(null);
-  const term = useRef(null);
-  const [selectedYear, setSelectedYear] = useState<{ year: string }>();
-  const [selectedQuarter, setSelectedQuarter] = useState<{ quarter: string }>();
+  // filtering state (not arrays - individually selected items)
+  const [selectedYear, setSelectedYear] = useState<{ year: string } | null>(
+    null
+  );
+  const [selectedQuarter, setSelectedQuarter] = useState<{
+    quarter: string;
+  } | null>(null);
   const [selectedSchool, setSelectedSchool] = useState<string | null>(null);
+  // UI state
   const [open, setOpen] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
@@ -50,6 +55,7 @@ const Home: React.FC = (): JSX.Element => {
   const { currentUser, logout } = useAuth();
   // ref
   const cancelButtonRef = useRef(null);
+  const term = useRef(null); // handles termId globally
 
   // for years and quarters
   useEffect(() => {
@@ -169,12 +175,14 @@ const Home: React.FC = (): JSX.Element => {
         throw new Error("Bad response from server");
       }
       const schoolsData = await schoolsResponse.json();
-      console.log("SCHOOLS: ", schools);
+      console.log("SCHOOLS: ", schoolsData.data);
       setLoading(false);
       setSchools(schoolsData.data);
     };
 
-    loadSchools();
+    return new Promise<void>((resolve) => {
+      loadSchools().then(() => resolve());
+    });
   };
 
   const handleLogout = async () => {
@@ -321,7 +329,7 @@ const Home: React.FC = (): JSX.Element => {
                   {/* SEARCH ON MOBILE */}
                   <div className="flex-1 min-w-0 px-12 lg:hidden">
                     <div className="max-w-xs w-full mx-auto">
-                      <label htmlFor="desktop-search" className="sr-only">
+                      <label htmlFor="mobile-search" className="sr-only">
                         Search
                       </label>
                       <div className="relative text-white focus-within:text-gray-600">
@@ -329,7 +337,7 @@ const Home: React.FC = (): JSX.Element => {
                           <SearchIcon className="h-5 w-5" aria-hidden="true" />
                         </div>
                         <input
-                          id="desktop-search"
+                          id="mobile-search"
                           className="block w-full bg-white bg-opacity-20 py-2 pl-10 pr-3 border border-transparent rounded-md leading-5 text-gray-900 placeholder-white focus:outline-none focus:bg-opacity-100 focus:border-transparent focus:placeholder-gray-500 focus:ring-0 sm:text-sm"
                           placeholder="Search"
                           type="search"
@@ -384,7 +392,7 @@ const Home: React.FC = (): JSX.Element => {
                       {/* SEARCH AREA */}
                       {/* SEARCH AREA */}
                       <div className="max-w-md w-full mx-auto pr-2 pl-2">
-                        <label htmlFor="mobile-search" className="sr-only">
+                        <label htmlFor="desktop-search" className="sr-only">
                           Search
                         </label>
                         <div className="relative text-white focus-within:text-gray-600">
@@ -395,9 +403,15 @@ const Home: React.FC = (): JSX.Element => {
                             />
                           </div>
                           <input
-                            id="mobile-search"
-                            className="block w-full bg-white bg-opacity-20 py-2 pl-10 pr-3 border border-transparent rounded-md leading-5 text-gray-900 placeholder-white focus:outline-none focus:bg-opacity-100 focus:border-transparent focus:placeholder-gray-500 focus:ring-0 sm:text-sm"
-                            placeholder="Search"
+                            id="desktop-search"
+                            className={
+                              "block w-full bg-white bg-opacity-20 py-2 pl-10 pr-3 border border-transparent rounded-md leading-5 text-gray-900 placeholder-white focus:outline-none focus:bg-opacity-100 focus:border-transparent focus:placeholder-gray-500 focus:ring-0 sm:text-sm"
+                            }
+                            placeholder={
+                              !selectedYear || !selectedQuarter
+                                ? "Please select a year and quarter below"
+                                : "Search"
+                            }
                             type="search"
                             name="search"
                           />

@@ -195,6 +195,7 @@ app.get("/api/v1/get_undergraduate_schools/", async (req, res) => {
         status: 200,
         results: data.length as number,
         data: data,
+        termId: req.query.termId,
       });
     }
   );
