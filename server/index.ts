@@ -4,10 +4,12 @@ import request from "request";
 import cors from "cors";
 
 import { Term } from "./types/term";
-import { UndergraduateSchools } from "./types/school";
 
-import { getUndergraduateSchoolsFromTermId } from "./lib/getUndergraduateSchools";
-import { getUndergraduateSubjectsFromSchool } from "./lib/getUndergraduateSubjects";
+import { getUndergraduateSchools } from "./lib/getUndergraduateSchools";
+import { getUndergraduateSubjects } from "./lib/getUndergraduateSubjects";
+import { getUndergraduateCourses } from "./lib/getUndergraduateCourses";
+import type { UndergraduateSubject } from "./types/subject";
+import type { UndergraduateSchools } from "./types/school";
 
 dotenv.config({ path: ".env.local" });
 
@@ -19,6 +21,8 @@ const academicGroupsURL =
   "https://northwestern-prod.apigee.net/student-system-acadgroupget/";
 const subjectsURL =
   "https://northwestern-prod.apigee.net/student-system-subjectsget/";
+const coursesURL =
+  "https://northwestern-prod.apigee.net/student-system-classdescrallcls/";
 
 app.use(express.json());
 
@@ -163,7 +167,7 @@ app.get("/api/v1/get_undergraduate_term_id/", async (req, res) => {
  */
 app.get("/api/v1/get_undergraduate_schools/", async (req, res) => {
   try {
-    const result = await getUndergraduateSchoolsFromTermId(
+    const result = await getUndergraduateSchools(
       req.query.termId as string,
       academicGroupsURL
     );
@@ -190,7 +194,7 @@ app.get("/api/v1/get_undergraduate_schools/", async (req, res) => {
 app.get("/api/v1/get_undergraduate_subjects/", async (req, res) => {
   const termId = req.query.termId as string;
   try {
-    const result = (await getUndergraduateSchoolsFromTermId(
+    const result = (await getUndergraduateSchools(
       termId,
       academicGroupsURL
     )) as UndergraduateSchools;
@@ -208,7 +212,7 @@ app.get("/api/v1/get_undergraduate_subjects/", async (req, res) => {
     // adding promises
     for (let i = 0; i < schools.length; i++) {
       promises.push(
-        getUndergraduateSubjectsFromSchool(termId, schools.pop(), subjectsURL)
+        getUndergraduateSubjects(termId, schools.pop(), subjectsURL)
       );
     }
 
@@ -232,10 +236,10 @@ app.get("/api/v1/get_undergraduate_subjects/", async (req, res) => {
  * method: GET
  * function: returns a list of all undergraduate courses given a termId
  */
-app.get("/api/v1/get_undergraduate_courses/", async (req, res) => {
+app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
   const termId = req.query.termId as string;
   try {
-    const result = (await getUndergraduateSchoolsFromTermId(
+    const result = (await getUndergraduateSchools(
       termId,
       academicGroupsURL
     )) as UndergraduateSchools;
@@ -252,14 +256,65 @@ app.get("/api/v1/get_undergraduate_courses/", async (req, res) => {
 
     // adding promises
     for (let i = 0; i < schools.length; i++) {
-      promises.push(
-        getUndergraduateSubjectsFromSchool(termId, schools.pop(), subjectsURL)
-      );
+      promises.push(getUndergraduateSubjects(termId, schools[i], subjectsURL));
     }
 
     try {
       const subjectData = await Promise.all(promises);
-      res.json(subjectData);
+      const cleanedSubjectData: UndergraduateSubject[] = [];
+      // first, remove 404's and 500's (promises that did not resolve)
+      for (let i = 0; i < subjectData.length; i++) {
+        if ((subjectData[i] as unknown as UndergraduateSubject).data) {
+          cleanedSubjectData.push(subjectData[i] as UndergraduateSubject);
+        }
+      }
+      const subjectCodes: string[] = [];
+      // pluck the subject from subjectData
+      for (let i = 0; i < cleanedSubjectData.length; i++) {
+        for (let j = 0; j < cleanedSubjectData[i].data.length; j++) {
+          subjectCodes.push(cleanedSubjectData[i].data[j].subject);
+        }
+      }
+      const coursePromises = [];
+      // now, execute operation gigaPromise
+      for (let i = 0; i < subjectCodes.length; i++) {
+        coursePromises.push(subjectCodes[i]);
+      }
+      // prepare promises 🔫
+      for (let i = 0; i < subjectCodes.length; i++) {
+        for (let j = 0; j < schools.length; j++) {
+          coursePromises.push(
+            getUndergraduateCourses(
+              termId,
+              schools[j],
+              subjectCodes[i],
+              coursesURL
+            )
+          );
+        }
+      }
+      // FIRE 🐎
+      try {
+        const courseData = await Promise.allSettled(coursePromises);
+        const cleanedCourseData = [];
+        // shit any casting for now
+        for (let i = 0; i < courseData.length; i++) {
+          if ((courseData[i] as any).value?.status) {
+            cleanedCourseData.push((courseData[i] as any).value);
+          }
+        }
+        res.json(cleanedCourseData);
+      } catch (err) {
+        console.log(
+          "There was some kind of error with fetching courses: ",
+          err
+        );
+        res.status(500).send({
+          error: 500,
+          message: err,
+        });
+      }
+      // res.json(coursePromises);
     } catch (err) {
       console.log(
         "There was some kind of error with fetching subjects for course searching: ",

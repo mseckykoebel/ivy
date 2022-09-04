@@ -2,7 +2,7 @@ import request from "request";
 
 import { UndergraduateSubject } from "../types/subject";
 
-const getUndergraduateSubjectsFromSchool = async (
+const getUndergraduateSubjects = async (
   termId: string,
   schoolId: string,
   subjectsURL: string
@@ -75,4 +75,4 @@ const getUndergraduateSubjectsFromSchool = async (
   );
 };
 
-export { getUndergraduateSubjectsFromSchool };
+export { getUndergraduateSubjects };

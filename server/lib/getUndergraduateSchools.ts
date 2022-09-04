@@ -2,7 +2,7 @@ import request from "request";
 
 import { UndergraduateSchools } from "../types/school";
 
-const getUndergraduateSchoolsFromTermId = async (
+const getUndergraduateSchools = async (
   termId: string,
   academicGroupsURL: string
 ): Promise<null | 404 | 500 | UndergraduateSchools> => {
@@ -73,4 +73,4 @@ const getUndergraduateSchoolsFromTermId = async (
   );
 };
 
-export { getUndergraduateSchoolsFromTermId };
+export { getUndergraduateSchools };
