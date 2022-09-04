@@ -228,6 +228,57 @@ app.get("/api/v1/get_undergraduate_subjects/", async (req, res) => {
   }
 });
 
+/**
+ * method: GET
+ * function: returns a list of all undergraduate courses given a termId
+ */
+app.get("/api/v1/get_undergraduate_courses/", async (req, res) => {
+  const termId = req.query.termId as string;
+  try {
+    const result = (await getUndergraduateSchoolsFromTermId(
+      termId,
+      academicGroupsURL
+    )) as UndergraduateSchools;
+    // initiate promises
+    const promises = [];
+    const schools: string[] = [];
+    // pluck the schools
+    for (let i = 0; i < result.data.length; i++) {
+      schools.push(result.data[i].school);
+    }
+    // now we have the list of schools...
+    // NIPPLES
+    console.log("NIPPLES");
+
+    // adding promises
+    for (let i = 0; i < schools.length; i++) {
+      promises.push(
+        getUndergraduateSubjectsFromSchool(termId, schools.pop(), subjectsURL)
+      );
+    }
+
+    try {
+      const subjectData = await Promise.all(promises);
+      res.json(subjectData);
+    } catch (err) {
+      console.log(
+        "There was some kind of error with fetching subjects for course searching: ",
+        err
+      );
+      res.status(500).send({
+        error: 500,
+        message: err,
+      });
+    }
+  } catch (err) {
+    console.log("Error fetching schools: ", err);
+    res.status(500).send({
+      error: 500,
+      message: err,
+    });
+  }
+});
+
 app.get("/", (req, res) => {
   res.status(200).send({ ok: true });
 });
