@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import SearchItem from "./SearchItem";
 import fetch from "cross-fetch";
 
-import { UndergraduateCourseDetail } from "../../types/courses";
 import { shuffleArray } from "../../lib/randomizeList";
 import { getColorBySchool } from "../../lib/getColorBySchool";
 
@@ -24,7 +23,6 @@ const Search: React.FC<SearchProps> = ({
   const [error, setError] = useState("");
   // searching
   const [courses, setCourses] = useState<Record<string, any> | null>(null);
-  const [query, setQuery] = useState("");
 
   // initiate a new query when query changes
   useEffect(() => {
@@ -32,12 +30,12 @@ const Search: React.FC<SearchProps> = ({
     if (year && quarter && termId) {
       setAllCourses();
     }
-  }, [year, quarter, termId]);
+  }, [year, quarter]);
 
   const setAllCourses = () => {
+    setCourses(null);
     console.log("GETTING ALL COURSES WITH TERM ID: ", termId);
     const loadCourses = async () => {
-      setCourses(null);
       const coursesUrl =
         process.env.NODE_ENV !== "production"
           ? `http://localhost:3001/api/v1/get_all_undergraduate_courses/?termId=${termId}`
@@ -64,6 +62,7 @@ const Search: React.FC<SearchProps> = ({
           const courseDataShape = {
             data: data[i].data[j],
             school: data[i].school,
+            subject: data[i].subject,
           };
           courseData.push(courseDataShape);
         }
@@ -80,13 +79,13 @@ const Search: React.FC<SearchProps> = ({
   };
 
   return (
-    <div className="rounded-lg bg-white overflow-hidden shadow min-h-[4rem]">
+    <div className="rounded-lg bg-white overflow-auto shadow h-[46rem]">
       {/* All of the search results will be rendered here */}
       {/* All of the search results will be rendered here */}
       {/* All of the search results will be rendered here */}
       {/* LOADING STATE */}
       {!courses && (
-        <div className="bg-white shadow sm:rounded-lg mb-4 m-4">
+        <div className="bg-white shadow-none sm:rounded-lg mb-4 m-4">
           <div className="px-4 py-5 sm:p-6">
             <div className="mt-2 max-w-xl text-sm text-center text-black">
               <p>Searching for courses...</p>
@@ -99,6 +98,7 @@ const Search: React.FC<SearchProps> = ({
           return (
             <SearchItem
               school={course.school}
+              subject={course.subject}
               catalogNumber={course.data.catalogNumber}
               section={course.data.section}
               component={course.data.component}

@@ -2,6 +2,7 @@ import React from "react";
 
 interface SearchItemProps {
   school: string;
+  subject: string;
   catalogNumber: string;
   section: string;
   component: string;
@@ -13,6 +14,7 @@ interface SearchItemProps {
 
 const SearchItem: React.FC<SearchItemProps> = ({
   school,
+  subject,
   catalogNumber,
   section,
   component,
@@ -26,9 +28,10 @@ const SearchItem: React.FC<SearchItemProps> = ({
     >
       <div className="px-4 py-5 sm:p-6">
         <h3 className="text-lg leading-6 font-medium text-gray-900">
-          {school} {catalogNumber} - {courseTitle}
+          {subject} {catalogNumber} - {courseTitle}
         </h3>
         <div className="mt-2 max-w-xl text-sm text-gray-500">
+          <p>School: {school}</p>
           <p>Section: {section}</p>
           <p>Type: {component}</p>
           {topic.length > 0 && <p>Topic: {topic}</p>}
