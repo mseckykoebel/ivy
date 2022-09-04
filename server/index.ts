@@ -5,14 +5,14 @@ import cors from "cors";
 
 import { Term } from "./types/term";
 
+import { getUndergraduateSchoolsFromTermId } from "./lib/getUndergraduateSchools";
+
 dotenv.config({ path: ".env.local" });
 
 const app = express();
 const port = process.env.PORT || 3001;
 const apiYearUrl =
   "https://northwestern-prod.apigee.net/student-system-termget/UGRD";
-const apiServiceURL =
-  "https://northwestern-prod.apigee.net/student-system-classdescrallcls/4880/MEAS/COMP_SCI";
 const academicGroupsURL =
   "https://northwestern-prod.apigee.net/student-system-acadgroupget/";
 
@@ -158,9 +158,24 @@ app.get("/api/v1/get_undergraduate_term_id/", async (req, res) => {
  * function: returns a TermID given a term description (school year and quarter)
  */
 app.get("/api/v1/get_undergraduate_schools/", async (req, res) => {
-  if (!req.query.termId) {
+  const result = await getUndergraduateSchoolsFromTermId(
+    req.query.termId as string,
+    academicGroupsURL
+  ).catch((err) => {
+    console.log("ERROR ON SERVER: ", err);
+    if (err === undefined)
+      res
+        .status(500)
+        .json({ type: "error", message: "response rejected: null termId" });
+  });
+
+  console.log("RESULT: ", result);
+
+  if (result === undefined)
     return res.status(500).json({ type: "error", message: "null termId" });
-  }
+
+  return res.json(result);
+
   request(
     {
       url: academicGroupsURL + req.query.termId,
@@ -197,27 +212,6 @@ app.get("/api/v1/get_undergraduate_schools/", async (req, res) => {
         data: data,
         termId: req.query.termId,
       });
-    }
-  );
-});
-
-/**
- * method: GET
- * returns: A complete list of the academic groups - initially hard coded
- */
-app.get("/api/v1/get_academic_groups", async (req, res, next) => {
-  request(
-    {
-      url: apiServiceURL,
-      headers: {
-        apikey: process.env.API_KEY as string,
-      },
-    },
-    (error, response, body) => {
-      if (error || response.statusCode !== 200) {
-        return res.status(500).json({ type: "error", message: response.body });
-      }
-      res.json(JSON.parse(body));
     }
   );
 });
