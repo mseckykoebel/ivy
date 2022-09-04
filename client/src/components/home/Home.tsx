@@ -22,12 +22,6 @@ import fetch from "cross-fetch";
 
 const navigation = [{ name: "Calendar view" }, { name: "Schedule view" }];
 
-const schools = [
-  { name: "MEAS", longName: "McCormick" },
-  { name: "WCAS", longName: "Weinberg" },
-  { name: "SESP", longName: "School of Education and Social Policy" },
-];
-
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const classNames = (...classes: any[]) => {
   return classes.filter(Boolean).join(" ");
@@ -42,9 +36,13 @@ const Home: React.FC = (): JSX.Element => {
   // filtering
   const [years, setYears] = useState<{ year: string }[] | null>(null);
   const [quarters, setQuarters] = useState<{ quarter: string }[] | null>(null);
-  const [selectedYear, setSelectedYear] = useState();
-  const [selectedQuarter, setSelectedQuarter] = useState();
-  const [selectedSchool, setSelectedSchool] = useState();
+  const [schools, setSchools] = useState<
+    { school: string; schoolDescription: string }[] | null
+  >(null);
+  const term = useRef(null);
+  const [selectedYear, setSelectedYear] = useState<{ year: string }>();
+  const [selectedQuarter, setSelectedQuarter] = useState<{ quarter: string }>();
+  const [selectedSchool, setSelectedSchool] = useState<string | null>(null);
   const [open, setOpen] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
@@ -53,6 +51,7 @@ const Home: React.FC = (): JSX.Element => {
   // ref
   const cancelButtonRef = useRef(null);
 
+  // for years and quarters
   useEffect(() => {
     const quartersUrl =
       process.env.NODE_ENV !== "production"
@@ -103,6 +102,81 @@ const Home: React.FC = (): JSX.Element => {
     loadQuarters();
   }, []);
 
+  useEffect(() => {
+    console.log("Firing!");
+    if (selectedYear?.year && selectedQuarter?.quarter) {
+      setTermId().then(() => setSchoolsFromTermId());
+    }
+  }, [selectedYear?.year, selectedQuarter?.quarter]);
+
+  // for schools (dependent on terms)
+  const setTermId = async () => {
+    console.log("Setting the term ID");
+    if (!selectedYear || !selectedQuarter) {
+      console.log("Year and quarter not selected");
+      setError("Please select a year and quarter before selecting a school");
+      return;
+    }
+
+    const termsUrl =
+      process.env.NODE_ENV !== "production"
+        ? `http://localhost:3001/api/v1/get_undergraduate_term_id/?year=${selectedYear.year}&quarter=${selectedQuarter.quarter}`
+        : `https://ivy-api.fly.dev/api/v1/get_undergraduate_term_id/?year=${selectedYear.year}&quarter=${selectedQuarter.quarter}`;
+
+    const loadTermID = async () => {
+      setLoading(true);
+      const termResponse = await fetch(termsUrl, {
+        mode: "cors",
+        headers: {
+          "Content-type": "application/json",
+        },
+      });
+      if (termResponse.status >= 400) {
+        setError("Uh oh! Error fetching quarters");
+        throw new Error("Bad response from server");
+      }
+      const termData = await termResponse.json();
+      console.log(termData.term);
+      if (term !== termData.term) {
+        term.current = termData.term;
+      }
+      setLoading(false);
+    };
+    return new Promise<void>((resolve) => {
+      loadTermID().then(() => resolve());
+    });
+  };
+
+  const setSchoolsFromTermId = () => {
+    console.log("CURRENT VALUE OF TERM ID:", term);
+
+    const loadSchools = async () => {
+      const schoolsUrl =
+        process.env.NODE_ENV !== "production"
+          ? `http://localhost:3001/api/v1/get_undergraduate_schools/?termId=${term.current}`
+          : `https://ivy-api.fly.dev/api/v1/get_undergraduate_schools/?termId=${term.current}`;
+
+      const schoolsResponse = await fetch(schoolsUrl, {
+        mode: "cors",
+        headers: {
+          "Content-type": "application/json",
+        },
+      });
+      if (schoolsResponse.status >= 400) {
+        setError("Uh oh! Error fetching quarters");
+        setSelectedSchool(null);
+        setSchools(null);
+        throw new Error("Bad response from server");
+      }
+      const schoolsData = await schoolsResponse.json();
+      console.log("SCHOOLS: ", schools);
+      setLoading(false);
+      setSchools(schoolsData.data);
+    };
+
+    loadSchools();
+  };
+
   const handleLogout = async () => {
     setError("");
     try {
@@ -133,8 +207,8 @@ const Home: React.FC = (): JSX.Element => {
   const filteredSchools =
     query === ""
       ? schools
-      : schools.filter((school) => {
-          return school.name.toLowerCase().includes(query.toLowerCase());
+      : schools?.filter((school) => {
+          return school.school.toLowerCase().includes(query.toLowerCase());
         });
 
   // user navigation structure
@@ -500,18 +574,23 @@ const Home: React.FC = (): JSX.Element => {
                           as="div"
                           value={selectedSchool}
                           onChange={setSelectedSchool}
+                          // onMouseEnter={setTermId}
                         >
                           <Combobox.Label className="sr-only">
                             School
                           </Combobox.Label>
                           <div className="relative mt-1">
                             <Combobox.Input
-                              className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
+                              disabled={!schools}
+                              className={`w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm ${
+                                !schools ? "cursor-not-allowed disabled" : ""
+                              }`}
                               onChange={(event) => setQuery(event.target.value)}
-                              placeholder={loading ? "..." : "School"}
-                              displayValue={(school: { name: string }) =>
-                                school?.name
-                              }
+                              placeholder={"School"}
+                              displayValue={(school: {
+                                school: string;
+                                schoolDescription: string;
+                              }) => school?.school}
                             />
                             <Combobox.Button className="absolute inset-y-0 right-0 flex items-center rounded-r-md px-2 focus:outline-none">
                               <ChevronDownIcon
@@ -520,65 +599,68 @@ const Home: React.FC = (): JSX.Element => {
                               />
                             </Combobox.Button>
 
-                            {filteredSchools.length > 0 && (
-                              <Combobox.Options className="absolute z-10 mt-1 max-h-60 w-[25rem] -right-1 overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
-                                {filteredSchools.map((school) => (
-                                  <Combobox.Option
-                                    key={school.name}
-                                    value={school}
-                                    className={({ active }) =>
-                                      classNames(
-                                        "relative cursor-default select-none py-2 pl-3 pr-9",
-                                        active
-                                          ? "bg-green-600 text-white"
-                                          : "text-gray-900"
-                                      )
-                                    }
-                                  >
-                                    {({ active, selected }) => (
-                                      <>
-                                        <div className="flex">
-                                          <span
-                                            className={classNames(
-                                              "truncate",
-                                              selected && "font-semibold"
-                                            )}
-                                          >
-                                            {school.name}
-                                          </span>
-                                          <span
-                                            className={classNames(
-                                              "ml-2 truncate text-gray-500",
-                                              active
-                                                ? "text-green-200"
-                                                : "text-gray-500"
-                                            )}
-                                          >
-                                            {school.longName}
-                                          </span>
-                                        </div>
+                            {!loading &&
+                              filteredSchools &&
+                              filteredSchools.length > 0 && (
+                                <Combobox.Options className="absolute z-10 mt-1 max-h-60 w-[25rem] -right-1 overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                                  {filteredSchools.map((school) => (
+                                    <Combobox.Option
+                                      key={school.school}
+                                      value={school}
+                                      className={({ active }) =>
+                                        classNames(
+                                          "relative cursor-default select-none py-2 pl-3 pr-9",
+                                          active
+                                            ? "bg-green-600 text-white"
+                                            : "text-gray-900"
+                                        )
+                                      }
+                                    >
+                                      {({ active, selected }) => (
+                                        <>
+                                          <div className="flex">
+                                            <span
+                                              className={classNames(
+                                                "truncate",
+                                                selected && "font-semibold"
+                                              )}
+                                            >
+                                              {school.school}
+                                            </span>
+                                            {/* LATER */}
+                                            <span
+                                              className={classNames(
+                                                "ml-2 truncate text-gray-500",
+                                                active
+                                                  ? "text-green-200"
+                                                  : "text-gray-500"
+                                              )}
+                                            >
+                                              {school.schoolDescription}
+                                            </span>
+                                          </div>
 
-                                        {selected && (
-                                          <span
-                                            className={classNames(
-                                              "absolute inset-y-0 right-0 flex items-center pr-4",
-                                              active
-                                                ? "text-white"
-                                                : "text-green-600"
-                                            )}
-                                          >
-                                            <CheckIcon
-                                              className="h-5 w-5"
-                                              aria-hidden="true"
-                                            />
-                                          </span>
-                                        )}
-                                      </>
-                                    )}
-                                  </Combobox.Option>
-                                ))}
-                              </Combobox.Options>
-                            )}
+                                          {selected && (
+                                            <span
+                                              className={classNames(
+                                                "absolute inset-y-0 right-0 flex items-center pr-4",
+                                                active
+                                                  ? "text-white"
+                                                  : "text-green-600"
+                                              )}
+                                            >
+                                              <CheckIcon
+                                                className="h-5 w-5"
+                                                aria-hidden="true"
+                                              />
+                                            </span>
+                                          )}
+                                        </>
+                                      )}
+                                    </Combobox.Option>
+                                  ))}
+                                </Combobox.Options>
+                              )}
                           </div>
                         </Combobox>
                       </div>
