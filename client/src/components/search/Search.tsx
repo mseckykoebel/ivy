@@ -3,6 +3,8 @@ import SearchItem from "./SearchItem";
 import fetch from "cross-fetch";
 
 import { UndergraduateCourseDetail } from "../../types/courses";
+import { shuffleArray } from "../../lib/randomizeList";
+import { getColorBySchool } from "../../lib/getColorBySchool";
 
 interface SearchProps {
   year: string | undefined;
@@ -55,7 +57,7 @@ const Search: React.FC<SearchProps> = ({
         throw new Error("Bad response from server");
       }
       const data = await response.json();
-      const courseData = [];
+      let courseData = [];
       // process the courses in a way that's useful
       for (let i = 0; i < data.length; i++) {
         for (let j = 0; j < data[i].data.length; j++) {
@@ -66,6 +68,8 @@ const Search: React.FC<SearchProps> = ({
           courseData.push(courseDataShape);
         }
       }
+      courseData = shuffleArray(courseData);
+
       setCourses(courseData);
       setLoading(false);
     };
@@ -100,7 +104,7 @@ const Search: React.FC<SearchProps> = ({
               component={course.data.component}
               courseTitle={course.data.courseTitle}
               topic={course.data.topic}
-              color={"bg-green-100"}
+              color={getColorBySchool(course.school)}
             />
           );
         })}
