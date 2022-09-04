@@ -96,6 +96,9 @@ const Home: React.FC = (): JSX.Element => {
       });
       if (response.status >= 400) {
         setError("Uh oh! Error fetching quarters");
+        setTimeout(() => {
+          setError("");
+        }, 500);
         throw new Error("Bad response from server");
       }
       const data = await response.json();
@@ -148,6 +151,7 @@ const Home: React.FC = (): JSX.Element => {
       }
       setLoading(false);
     };
+
     return new Promise<void>((resolve) => {
       loadTermID().then(() => resolve());
     });
@@ -404,9 +408,11 @@ const Home: React.FC = (): JSX.Element => {
                           </div>
                           <input
                             id="desktop-search"
-                            className={
-                              "block w-full bg-white bg-opacity-20 py-2 pl-10 pr-3 border border-transparent rounded-md leading-5 text-gray-900 placeholder-white focus:outline-none focus:bg-opacity-100 focus:border-transparent focus:placeholder-gray-500 focus:ring-0 sm:text-sm"
-                            }
+                            className={`block w-full bg-white bg-opacity-20 py-2 pl-10 pr-3 border border-transparent rounded-md leading-5 text-gray-900 placeholder-white focus:outline-none focus:bg-opacity-100 focus:border-transparent focus:placeholder-gray-500 focus:ring-0 sm:text-sm ${
+                              !selectedYear?.year || !selectedQuarter?.quarter
+                                ? "select-none pointer-events-none"
+                                : ""
+                            }`}
                             placeholder={
                               !selectedYear || !selectedQuarter
                                 ? "Please select a year and quarter below"
@@ -826,6 +832,10 @@ const Home: React.FC = (): JSX.Element => {
                   {/* THIS IS WHERE ALL OF THE SEARCHING IS HAPPENING */}
                   {/* IT WILL SOON GET ARGUMENTS PASSED TO IT THAT WERE SELECTED BY THE USER */}
                   <Search courseNumber="4880" school="MEAS" course="COMP_SCI" />
+                </section>
+                {/* SUPER BASIC ERROR LOCATION */}
+                <section className="text-center text-red-500 text-sm">
+                  {error && <p>{error}</p>}
                 </section>
               </div>
             </div>
