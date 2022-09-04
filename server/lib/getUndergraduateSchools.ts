@@ -17,6 +17,7 @@ const getUndergraduateSchoolsFromTermId = async (
     return new Promise((resolve, reject) => {
       if (!termId) {
         reject(null);
+        return;
       }
       request(
         {

@@ -163,57 +163,21 @@ app.get("/api/v1/get_undergraduate_schools/", async (req, res) => {
     academicGroupsURL
   ).catch((err) => {
     console.log("ERROR ON SERVER: ", err);
-    if (err === undefined)
+    if (err === undefined) {
       res
         .status(500)
         .json({ type: "error", message: "response rejected: null termId" });
+      return;
+    }
+    if (err === 404) {
+      res.status(404).json({ type: "error", message: "No courses found!" });
+      return;
+    }
   });
 
   console.log("RESULT: ", result);
 
-  if (result === undefined)
-    return res.status(500).json({ type: "error", message: "null termId" });
-
   return res.json(result);
-
-  request(
-    {
-      url: academicGroupsURL + req.query.termId,
-      headers: {
-        apikey: process.env.API_KEY as string,
-      },
-    },
-    (error, response, body) => {
-      if (error || response.statusCode !== 200) {
-        return res.status(404).json({ type: "error", message: response.body });
-      }
-      const academic_groups = JSON.parse(body).NW_CD_ACADGROUP_RESP.ACADGROUPS;
-      if (!academic_groups) {
-        return res
-          .status(500)
-          .json({ type: "error", message: "No terms schools for this term" });
-      }
-      const data: { school: string; schoolDescription: string }[] = [];
-      // keeping track of duplicate quarters that come up
-      const schools: string[] = [];
-      // process terms
-      for (let i = 0; i < academic_groups.length; i++) {
-        if (!schools.includes(academic_groups[i].ACAD_GROUP)) {
-          data.push({
-            school: academic_groups[i].ACAD_GROUP,
-            schoolDescription: academic_groups[i].USE_DESCR,
-          });
-          schools.push(academic_groups[i].ACAD_GROUP);
-        }
-      }
-      res.json({
-        status: 200,
-        results: data.length as number,
-        data: data,
-        termId: req.query.termId,
-      });
-    }
-  );
 });
 
 app.get("/", (req, res) => {
