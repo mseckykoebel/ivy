@@ -56,6 +56,8 @@ const Home: React.FC = (): JSX.Element => {
   // ref
   const cancelButtonRef = useRef(null);
   const term = useRef(null); // handles termId globally
+  // searching
+  const [searchQuery, setSearchQuery] = useState<string>("");
 
   // for years and quarters
   useEffect(() => {
@@ -353,6 +355,9 @@ const Home: React.FC = (): JSX.Element => {
                           <SearchIcon className="h-5 w-5" aria-hidden="true" />
                         </div>
                         <input
+                          onChange={(event) =>
+                            setSearchQuery(event.target.value)
+                          }
                           id="mobile-search"
                           className="block w-full bg-white bg-opacity-20 py-2 pl-10 pr-3 border border-transparent rounded-md leading-5 text-gray-900 placeholder-white focus:outline-none focus:bg-opacity-100 focus:border-transparent focus:placeholder-gray-500 focus:ring-0 sm:text-sm"
                           placeholder="Search"
@@ -419,6 +424,9 @@ const Home: React.FC = (): JSX.Element => {
                             />
                           </div>
                           <input
+                            onChange={(event) => {
+                              setSearchQuery(event.target.value);
+                            }}
                             id="desktop-search"
                             className={`block w-full bg-white bg-opacity-20 py-2 pl-10 pr-3 border border-transparent rounded-md leading-5 text-gray-900 placeholder-white focus:outline-none focus:bg-opacity-100 focus:border-transparent focus:placeholder-gray-500 focus:ring-0 sm:text-sm ${
                               !selectedYear?.year || !selectedQuarter?.quarter
@@ -848,6 +856,7 @@ const Home: React.FC = (): JSX.Element => {
                     quarter={selectedQuarter?.quarter}
                     school={selectedSchool}
                     termId={term.current}
+                    searchQuery={searchQuery}
                   />
                 </section>
                 {/* SUPER BASIC ERROR LOCATION */}

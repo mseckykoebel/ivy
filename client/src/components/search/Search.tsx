@@ -1,3 +1,5 @@
+/* eslint-disable indent */
+// ^ IDEK
 import React, { useState, useEffect } from "react";
 import SearchItem from "./SearchItem";
 import fetch from "cross-fetch";
@@ -10,6 +12,7 @@ interface SearchProps {
   quarter: string | undefined;
   school: string | null;
   termId: string | null;
+  searchQuery: string;
 }
 
 const Search: React.FC<SearchProps> = ({
@@ -17,6 +20,7 @@ const Search: React.FC<SearchProps> = ({
   quarter,
   school,
   termId,
+  searchQuery,
 }): JSX.Element => {
   // UI state
   const [loading, setLoading] = useState(false);
@@ -24,13 +28,23 @@ const Search: React.FC<SearchProps> = ({
   // searching
   const [courses, setCourses] = useState<Record<string, any> | null>(null);
 
+  // handling filtering of the searchQuery
+  const filteredCourses =
+    searchQuery === ""
+      ? []
+      : courses?.filter((course: Record<string, any>) => {
+          return course.data.courseTitle
+            .toLowerCase()
+            .includes(searchQuery.toLowerCase());
+        });
+
   // initiate a new query when query changes
   useEffect(() => {
     // exit this if searching is not prohibited
     if (year && quarter && termId) {
       setAllCourses();
     }
-  }, [year, quarter]);
+  }, [termId]);
 
   const setAllCourses = () => {
     setCourses(null);
@@ -69,6 +83,8 @@ const Search: React.FC<SearchProps> = ({
       }
       courseData = shuffleArray(courseData);
 
+      console.log("COURSE DATA: ", courseData[0].data);
+
       setCourses(courseData);
       setLoading(false);
     };
@@ -84,7 +100,7 @@ const Search: React.FC<SearchProps> = ({
       {/* All of the search results will be rendered here */}
       {/* All of the search results will be rendered here */}
       {/* LOADING STATE */}
-      {!courses && (
+      {!courses && termId && (
         <div className="bg-white shadow-none sm:rounded-lg mb-4 m-4">
           <div className="px-4 py-5 sm:p-6">
             <div className="mt-2 max-w-xl text-sm text-center text-black">
@@ -93,10 +109,20 @@ const Search: React.FC<SearchProps> = ({
           </div>
         </div>
       )}
-      {courses &&
-        courses.map((course: Record<string, any>) => {
+
+      {filteredCourses.length > 0 &&
+        filteredCourses.map((course: Record<string, any>) => {
           return (
             <SearchItem
+              key={
+                course.school +
+                course.subject +
+                course.data.catalogNumber +
+                course.data.section +
+                course.data.component +
+                course.data.courseTitle +
+                course.data.topic
+              }
               school={course.school}
               subject={course.subject}
               catalogNumber={course.data.catalogNumber}
@@ -108,6 +134,10 @@ const Search: React.FC<SearchProps> = ({
             />
           );
         })}
+
+      {searchQuery !== "" && filteredCourses.length === 0 && (
+        <p className="p-4 text-sm text-gray-500">No courses found.</p>
+      )}
     </div>
   );
 };
