@@ -1,6 +1,6 @@
 /* eslint-disable indent */
 // The above is stupid but it's getting messed up with prettier
-import { Fragment, useRef, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import { Menu, Popover, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import { SearchIcon, CheckIcon } from "@heroicons/react/solid";
@@ -17,16 +17,10 @@ import { useAuth } from "../../contexts/AuthContext";
 import Search from "../search/Search";
 // avatars
 import { ProfilePicture } from "../profilePicture/ProfilePicture";
+// API
+import fetch from "cross-fetch";
 
 const navigation = [{ name: "Calendar view" }, { name: "Schedule view" }];
-
-const years = [
-  { name: "2022" },
-  { name: "2021" },
-  { name: "2020" },
-  { name: "2019" },
-  { name: "2018" },
-];
 
 const quarters = [
   { name: "🍃 Fall" },
@@ -51,15 +45,42 @@ const Home: React.FC = (): JSX.Element => {
   // state
   const [calView, setCalView] = useState<boolean>(true);
   const [query, setQuery] = useState<string>("");
+  // filtering
+  const [years, setYears] = useState<{ year: string }[] | null>(null);
   const [selectedYear, setSelectedYear] = useState();
   const [selectedQuarter, setSelectedQuarter] = useState();
   const [selectedSchool, setSelectedSchool] = useState();
   const [open, setOpen] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
+  const [loading, setLoading] = useState<boolean>(false);
   // context
   const { currentUser, logout } = useAuth();
   // ref
   const cancelButtonRef = useRef(null);
+
+  useEffect(() => {
+    const yearsUrl =
+      process.env.NODE_ENV !== "production"
+        ? "http://localhost:3001/api/v1/get_school_years"
+        : "https://ivy-api.fly.dev/api/v1/get_school_years";
+    const loadYears = async () => {
+      setLoading(true);
+      const response = await fetch(yearsUrl, {
+        mode: "cors",
+        headers: {
+          "Content-type": "application/json",
+        },
+      });
+      if (response.status >= 400) {
+        throw new Error("Bad response from server");
+      }
+      const data = await response.json();
+      console.log(data.school_years);
+      setYears(data.school_years);
+      setLoading(false);
+    };
+    loadYears();
+  }, []);
 
   const handleLogout = async () => {
     setError("");
@@ -75,8 +96,8 @@ const Home: React.FC = (): JSX.Element => {
   const filteredYears =
     query === ""
       ? years
-      : years.filter((year) => {
-          return year.name.toLowerCase().includes(query.toLowerCase());
+      : years?.filter((year) => {
+          return year.year.toLowerCase().includes(query.toLowerCase());
         });
 
   // filtered quarters
@@ -306,8 +327,8 @@ const Home: React.FC = (): JSX.Element => {
                               className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
                               onChange={(event) => setQuery(event.target.value)}
                               placeholder="Year"
-                              displayValue={(year: { name: string }) =>
-                                year?.name
+                              displayValue={(year: { year: string }) =>
+                                year?.year
                               }
                             />
                             <Combobox.Button className="absolute inset-y-0 right-0 flex items-center rounded-r-md px-2 focus:outline-none">
@@ -317,11 +338,11 @@ const Home: React.FC = (): JSX.Element => {
                               />
                             </Combobox.Button>
 
-                            {filteredYears.length > 0 && (
+                            {filteredYears && filteredYears.length > 0 && (
                               <Combobox.Options className="absolute z-10 mt-1 max-h-60 w-[9rem] overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
-                                {filteredYears.map((year) => (
+                                {filteredYears?.map((year) => (
                                   <Combobox.Option
-                                    key={year.name}
+                                    key={year.year}
                                     value={year}
                                     className={({ active }) =>
                                       classNames(
@@ -341,7 +362,7 @@ const Home: React.FC = (): JSX.Element => {
                                               selected && "font-semibold"
                                             )}
                                           >
-                                            {year.name}
+                                            {year.year}
                                           </span>
                                         </div>
 

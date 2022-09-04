@@ -7,6 +7,8 @@ dotenv.config({ path: ".env.local" });
 
 const app = express();
 const port = process.env.PORT || 3001;
+const apiYearUrl =
+  "https://northwestern-prod.apigee.net/student-system-termget/UGRD";
 const apiServiceURL =
   "https://northwestern-prod.apigee.net/student-system-classdescrallcls/4880/MEAS/COMP_SCI";
 
@@ -40,6 +42,42 @@ if (process.env.NODE_ENV !== "production") {
 app.get("/info", (req, res, next) => {
   res.send(
     "This is a proxy service which proxies to the northwestern course API."
+  );
+});
+
+/**
+ * method: GET
+ * function: returns a list of school years
+ */
+app.get("/api/v1/get_school_years", async (req, res) => {
+  request(
+    {
+      url: apiYearUrl,
+      headers: {
+        apikey: process.env.API_KEY as string,
+      },
+    },
+    (error, response, body) => {
+      if (error || response.statusCode !== 200) {
+        return res.status(500).json({ type: "error", message: response.body });
+      }
+      const terms = JSON.parse(body).NW_CD_TERM_RESP.TERM;
+      const data: { year: string }[] = [];
+      // keeping track of duplicate years that come up
+      const years: string[] = [];
+      // process terms
+      for (let i = 0; i < terms.length; i++) {
+        if (!years.includes(terms[i].TermDescr.substring(0, 4))) {
+          data.push({ year: terms[i].TermDescr.substring(0, 4) });
+          years.push(terms[i].TermDescr.substring(0, 4));
+        }
+      }
+      res.json({
+        status: 200,
+        results: terms.length as number,
+        school_years: data,
+      });
+    }
   );
 });
 
