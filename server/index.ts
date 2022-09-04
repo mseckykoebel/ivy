@@ -7,6 +7,7 @@ import { Term } from "./types/term";
 import { UndergraduateSchools } from "./types/school";
 
 import { getUndergraduateSchoolsFromTermId } from "./lib/getUndergraduateSchools";
+import { getUndergraduateSubjectsFromSchool } from "./lib/getUndergraduateSubjects";
 
 dotenv.config({ path: ".env.local" });
 
@@ -16,6 +17,8 @@ const apiYearUrl =
   "https://northwestern-prod.apigee.net/student-system-termget/UGRD";
 const academicGroupsURL =
   "https://northwestern-prod.apigee.net/student-system-acadgroupget/";
+const subjectsURL =
+  "https://northwestern-prod.apigee.net/student-system-subjectsget/";
 
 app.use(express.json());
 
@@ -185,9 +188,10 @@ app.get("/api/v1/get_undergraduate_schools/", async (req, res) => {
  * function: returns a list of all academic subjects given a termId
  */
 app.get("/api/v1/get_undergraduate_subjects/", async (req, res) => {
+  const termId = req.query.termId as string;
   try {
     const result = (await getUndergraduateSchoolsFromTermId(
-      req.query.termId as string,
+      termId,
       academicGroupsURL
     )) as UndergraduateSchools;
     // initiate promises
@@ -197,10 +201,15 @@ app.get("/api/v1/get_undergraduate_subjects/", async (req, res) => {
     for (let i = 0; i < result.data.length; i++) {
       schools.push(result.data[i].school);
     }
-    // now, we have a list of schools that we can return for the moment
-    res.json({
-      schools,
-    });
+    // now we have the list of schools...
+    // NIPPLES
+    console.log("NIPPLES");
+    const secondResult = await getUndergraduateSubjectsFromSchool(
+      termId,
+      schools.pop(),
+      subjectsURL
+    );
+    res.json(secondResult);
   } catch (err) {
     console.log(err);
   }
