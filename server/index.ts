@@ -49,7 +49,7 @@ app.get("/info", (req, res, next) => {
  * method: GET
  * function: returns a list of school years
  */
-app.get("/api/v1/get_school_years", async (req, res) => {
+app.get("/api/v1/get_undergraduate_school_years", async (req, res) => {
   request(
     {
       url: apiYearUrl,
@@ -76,6 +76,42 @@ app.get("/api/v1/get_school_years", async (req, res) => {
         status: 200,
         results: terms.length as number,
         school_years: data,
+      });
+    }
+  );
+});
+
+/**
+ * method: GET
+ * function: returns a list of quarters years
+ */
+app.get("/api/v1/get_undergraduate_quarters", async (req, res) => {
+  request(
+    {
+      url: apiYearUrl,
+      headers: {
+        apikey: process.env.API_KEY as string,
+      },
+    },
+    (error, response, body) => {
+      if (error || response.statusCode !== 200) {
+        return res.status(500).json({ type: "error", message: response.body });
+      }
+      const terms = JSON.parse(body).NW_CD_TERM_RESP.TERM;
+      const data: { quarter: string }[] = [];
+      // keeping track of duplicate quarters that come up
+      const quarters: string[] = [];
+      // process terms
+      for (let i = 0; i < terms.length; i++) {
+        if (!quarters.includes(terms[i].TermDescr.split(" ").pop())) {
+          data.push({ quarter: terms[i].TermDescr.split(" ").pop() });
+          quarters.push(terms[i].TermDescr.split(" ").pop());
+        }
+      }
+      res.json({
+        status: 200,
+        results: terms.length as number,
+        quarters: data,
       });
     }
   );

@@ -22,12 +22,6 @@ import fetch from "cross-fetch";
 
 const navigation = [{ name: "Calendar view" }, { name: "Schedule view" }];
 
-const quarters = [
-  { name: "🍃 Fall" },
-  { name: "🌨️ Winter" },
-  { name: "🌦️ Spring" },
-];
-
 const schools = [
   { name: "MEAS", longName: "McCormick" },
   { name: "WCAS", longName: "Weinberg" },
@@ -47,6 +41,7 @@ const Home: React.FC = (): JSX.Element => {
   const [query, setQuery] = useState<string>("");
   // filtering
   const [years, setYears] = useState<{ year: string }[] | null>(null);
+  const [quarters, setQuarters] = useState<{ quarter: string }[] | null>(null);
   const [selectedYear, setSelectedYear] = useState();
   const [selectedQuarter, setSelectedQuarter] = useState();
   const [selectedSchool, setSelectedSchool] = useState();
@@ -59,10 +54,15 @@ const Home: React.FC = (): JSX.Element => {
   const cancelButtonRef = useRef(null);
 
   useEffect(() => {
+    const quartersUrl =
+      process.env.NODE_ENV !== "production"
+        ? "http://localhost:3001/api/v1/get_undergraduate_quarters"
+        : "https://ivy-api.fly.dev/api/v1/get_undergraduate_quarters";
     const yearsUrl =
       process.env.NODE_ENV !== "production"
-        ? "http://localhost:3001/api/v1/get_school_years"
-        : "https://ivy-api.fly.dev/api/v1/get_school_years";
+        ? "http://localhost:3001/api/v1/get_undergraduate_school_years"
+        : "https://ivy-api.fly.dev/api/v1/get_undergraduate_school_years";
+    // loading years
     const loadYears = async () => {
       setLoading(true);
       const response = await fetch(yearsUrl, {
@@ -72,6 +72,7 @@ const Home: React.FC = (): JSX.Element => {
         },
       });
       if (response.status >= 400) {
+        setError("Uh oh! Error fetching school years");
         throw new Error("Bad response from server");
       }
       const data = await response.json();
@@ -79,7 +80,27 @@ const Home: React.FC = (): JSX.Element => {
       setYears(data.school_years);
       setLoading(false);
     };
+    // loading quarters
+    const loadQuarters = async () => {
+      setLoading(true);
+      const response = await fetch(quartersUrl, {
+        mode: "cors",
+        headers: {
+          "Content-type": "application/json",
+        },
+      });
+      if (response.status >= 400) {
+        setError("Uh oh! Error fetching quarters");
+        throw new Error("Bad response from server");
+      }
+      const data = await response.json();
+      console.log(data.quarters);
+      setQuarters(data.quarters);
+      setLoading(false);
+    };
+    // 🐎🐎🐎
     loadYears();
+    loadQuarters();
   }, []);
 
   const handleLogout = async () => {
@@ -104,8 +125,8 @@ const Home: React.FC = (): JSX.Element => {
   const filteredQuarters =
     query === ""
       ? quarters
-      : quarters.filter((quarter) => {
-          return quarter.name.toLowerCase().includes(query.toLowerCase());
+      : quarters?.filter((quarter) => {
+          return quarter.quarter.toLowerCase().includes(query.toLowerCase());
         });
 
   // filtered schools
@@ -326,7 +347,7 @@ const Home: React.FC = (): JSX.Element => {
                             <Combobox.Input
                               className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
                               onChange={(event) => setQuery(event.target.value)}
-                              placeholder="Year"
+                              placeholder={loading ? "..." : "Years"}
                               displayValue={(year: { year: string }) =>
                                 year?.year
                               }
@@ -338,55 +359,57 @@ const Home: React.FC = (): JSX.Element => {
                               />
                             </Combobox.Button>
 
-                            {filteredYears && filteredYears.length > 0 && (
-                              <Combobox.Options className="absolute z-10 mt-1 max-h-60 w-[9rem] overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
-                                {filteredYears?.map((year) => (
-                                  <Combobox.Option
-                                    key={year.year}
-                                    value={year}
-                                    className={({ active }) =>
-                                      classNames(
-                                        "relative cursor-default select-none py-2 pl-3 pr-9",
-                                        active
-                                          ? "bg-green-600 text-white"
-                                          : "text-gray-900"
-                                      )
-                                    }
-                                  >
-                                    {({ active, selected }) => (
-                                      <>
-                                        <div className="flex">
-                                          <span
-                                            className={classNames(
-                                              "truncate",
-                                              selected && "font-semibold"
-                                            )}
-                                          >
-                                            {year.year}
-                                          </span>
-                                        </div>
+                            {!loading &&
+                              filteredYears &&
+                              filteredYears.length > 0 && (
+                                <Combobox.Options className="absolute z-10 mt-1 max-h-60 w-[9rem] overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                                  {filteredYears?.map((year) => (
+                                    <Combobox.Option
+                                      key={year.year}
+                                      value={year}
+                                      className={({ active }) =>
+                                        classNames(
+                                          "relative cursor-default select-none py-2 pl-3 pr-9",
+                                          active
+                                            ? "bg-green-600 text-white"
+                                            : "text-gray-900"
+                                        )
+                                      }
+                                    >
+                                      {({ active, selected }) => (
+                                        <>
+                                          <div className="flex">
+                                            <span
+                                              className={classNames(
+                                                "truncate",
+                                                selected && "font-semibold"
+                                              )}
+                                            >
+                                              {year.year}
+                                            </span>
+                                          </div>
 
-                                        {selected && (
-                                          <span
-                                            className={classNames(
-                                              "absolute inset-y-0 right-0 flex items-center pr-4",
-                                              active
-                                                ? "text-white"
-                                                : "text-green-600"
-                                            )}
-                                          >
-                                            <CheckIcon
-                                              className="h-5 w-5"
-                                              aria-hidden="true"
-                                            />
-                                          </span>
-                                        )}
-                                      </>
-                                    )}
-                                  </Combobox.Option>
-                                ))}
-                              </Combobox.Options>
-                            )}
+                                          {selected && (
+                                            <span
+                                              className={classNames(
+                                                "absolute inset-y-0 right-0 flex items-center pr-4",
+                                                active
+                                                  ? "text-white"
+                                                  : "text-green-600"
+                                              )}
+                                            >
+                                              <CheckIcon
+                                                className="h-5 w-5"
+                                                aria-hidden="true"
+                                              />
+                                            </span>
+                                          )}
+                                        </>
+                                      )}
+                                    </Combobox.Option>
+                                  ))}
+                                </Combobox.Options>
+                              )}
                           </div>
                         </Combobox>
                         {/* SELECT QUARTER */}
@@ -399,15 +422,15 @@ const Home: React.FC = (): JSX.Element => {
                           onChange={setSelectedQuarter}
                         >
                           <Combobox.Label className="sr-only">
-                            Year
+                            Quarter
                           </Combobox.Label>
                           <div className="relative mt-1">
                             <Combobox.Input
                               className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
                               onChange={(event) => setQuery(event.target.value)}
-                              placeholder="Quarter"
-                              displayValue={(quarter: { name: string }) =>
-                                quarter?.name
+                              placeholder={loading ? "..." : "Quarters"}
+                              displayValue={(quarter: { quarter: string }) =>
+                                quarter?.quarter
                               }
                             />
                             <Combobox.Button className="absolute inset-y-0 right-0 flex items-center rounded-r-md px-2 focus:outline-none">
@@ -417,55 +440,57 @@ const Home: React.FC = (): JSX.Element => {
                               />
                             </Combobox.Button>
 
-                            {filteredQuarters.length > 0 && (
-                              <Combobox.Options className="absolute z-10 mt-1 max-h-60 -right-4 w-[10rem] overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
-                                {filteredQuarters.map((quarter) => (
-                                  <Combobox.Option
-                                    key={quarter.name}
-                                    value={quarter}
-                                    className={({ active }) =>
-                                      classNames(
-                                        "relative cursor-default select-none py-2 pl-3 pr-9",
-                                        active
-                                          ? "bg-green-600 text-white"
-                                          : "text-gray-900"
-                                      )
-                                    }
-                                  >
-                                    {({ active, selected }) => (
-                                      <>
-                                        <div className="flex">
-                                          <span
-                                            className={classNames(
-                                              "truncate",
-                                              selected && "font-semibold"
-                                            )}
-                                          >
-                                            {quarter.name}
-                                          </span>
-                                        </div>
+                            {!loading &&
+                              filteredQuarters &&
+                              filteredQuarters.length > 0 && (
+                                <Combobox.Options className="absolute z-10 mt-1 max-h-60 -right-4 w-[10rem] overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                                  {filteredQuarters.map((quarter) => (
+                                    <Combobox.Option
+                                      key={quarter.quarter}
+                                      value={quarter}
+                                      className={({ active }) =>
+                                        classNames(
+                                          "relative cursor-default select-none py-2 pl-3 pr-9",
+                                          active
+                                            ? "bg-green-600 text-white"
+                                            : "text-gray-900"
+                                        )
+                                      }
+                                    >
+                                      {({ active, selected }) => (
+                                        <>
+                                          <div className="flex">
+                                            <span
+                                              className={classNames(
+                                                "truncate",
+                                                selected && "font-semibold"
+                                              )}
+                                            >
+                                              {quarter.quarter}
+                                            </span>
+                                          </div>
 
-                                        {selected && (
-                                          <span
-                                            className={classNames(
-                                              "absolute inset-y-0 right-0 flex items-center pr-4",
-                                              active
-                                                ? "text-white"
-                                                : "text-green-600"
-                                            )}
-                                          >
-                                            <CheckIcon
-                                              className="h-5 w-5"
-                                              aria-hidden="true"
-                                            />
-                                          </span>
-                                        )}
-                                      </>
-                                    )}
-                                  </Combobox.Option>
-                                ))}
-                              </Combobox.Options>
-                            )}
+                                          {selected && (
+                                            <span
+                                              className={classNames(
+                                                "absolute inset-y-0 right-0 flex items-center pr-4",
+                                                active
+                                                  ? "text-white"
+                                                  : "text-green-600"
+                                              )}
+                                            >
+                                              <CheckIcon
+                                                className="h-5 w-5"
+                                                aria-hidden="true"
+                                              />
+                                            </span>
+                                          )}
+                                        </>
+                                      )}
+                                    </Combobox.Option>
+                                  ))}
+                                </Combobox.Options>
+                              )}
                           </div>
                         </Combobox>
                         {/* SELECT SCHOOL */}
@@ -477,13 +502,13 @@ const Home: React.FC = (): JSX.Element => {
                           onChange={setSelectedSchool}
                         >
                           <Combobox.Label className="sr-only">
-                            Year
+                            School
                           </Combobox.Label>
                           <div className="relative mt-1">
                             <Combobox.Input
                               className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
                               onChange={(event) => setQuery(event.target.value)}
-                              placeholder="School"
+                              placeholder={loading ? "..." : "School"}
                               displayValue={(school: { name: string }) =>
                                 school?.name
                               }
