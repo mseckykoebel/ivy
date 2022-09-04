@@ -52,8 +52,8 @@ const getUndergraduateSubjects = async (
           resolve({
             status: 200,
             results: data.length as number,
-            data: data,
             school: schoolId,
+            data: data,
           } as UndergraduateSubject);
         }
       );

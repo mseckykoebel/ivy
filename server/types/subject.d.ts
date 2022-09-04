@@ -2,6 +2,6 @@
 export type UndergraduateSubject = {
   status: number;
   results: number;
-  data: { subject: string; subjectDescription: string }[];
   school: string;
+  data: { subject: string; subjectDescription: string }[];
 };

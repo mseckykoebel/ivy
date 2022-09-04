@@ -206,8 +206,6 @@ app.get("/api/v1/get_undergraduate_subjects/", async (req, res) => {
       schools.push(result.data[i].school);
     }
     // now we have the list of schools...
-    // NIPPLES
-    console.log("NIPPLES");
 
     // adding promises
     for (let i = 0; i < schools.length; i++) {
@@ -268,26 +266,30 @@ app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
           cleanedSubjectData.push(subjectData[i] as UndergraduateSubject);
         }
       }
-      const subjectCodes: string[] = [];
+      const mergedSubjectData: { school: string; subject: string }[] = [];
       // pluck the subject from subjectData
       for (let i = 0; i < cleanedSubjectData.length; i++) {
         for (let j = 0; j < cleanedSubjectData[i].data.length; j++) {
-          subjectCodes.push(cleanedSubjectData[i].data[j].subject);
+          mergedSubjectData.push({
+            school: cleanedSubjectData[i].school,
+            subject: cleanedSubjectData[i].data[j].subject,
+          });
         }
       }
+      res.json(mergedSubjectData);
       const coursePromises = [];
       // now, execute operation gigaPromise
-      for (let i = 0; i < subjectCodes.length; i++) {
-        coursePromises.push(subjectCodes[i]);
+      for (let i = 0; i < mergedSubjectData.length; i++) {
+        coursePromises.push(mergedSubjectData[i]);
       }
       // prepare promises 🔫
-      for (let i = 0; i < subjectCodes.length; i++) {
+      for (let i = 0; i < mergedSubjectData.length; i++) {
         for (let j = 0; j < schools.length; j++) {
           coursePromises.push(
             getUndergraduateCourses(
               termId,
               schools[j],
-              subjectCodes[i],
+              mergedSubjectData[i].subject,
               coursesURL
             )
           );
