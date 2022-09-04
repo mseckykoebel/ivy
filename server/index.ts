@@ -204,12 +204,25 @@ app.get("/api/v1/get_undergraduate_subjects/", async (req, res) => {
     // now we have the list of schools...
     // NIPPLES
     console.log("NIPPLES");
-    const secondResult = await getUndergraduateSubjectsFromSchool(
-      termId,
-      schools.pop(),
-      subjectsURL
-    );
-    res.json(secondResult);
+
+    // adding promises
+    for (let i = 0; i < schools.length; i++) {
+      promises.push(
+        getUndergraduateSubjectsFromSchool(termId, schools.pop(), subjectsURL)
+      );
+    }
+
+    // executing mass subject search
+    Promise.all(promises)
+      .then((d) => {
+        res.json(d);
+      })
+      .catch((err) => {
+        res.status(500).send({
+          error: 500,
+          message: err,
+        });
+      });
   } catch (err) {
     console.log(err);
   }
