@@ -4,6 +4,7 @@ import request from "request";
 import cors from "cors";
 
 import { Term } from "./types/term";
+import { UndergraduateSchools } from "./types/school";
 
 import { getUndergraduateSchoolsFromTermId } from "./lib/getUndergraduateSchools";
 
@@ -155,13 +156,16 @@ app.get("/api/v1/get_undergraduate_term_id/", async (req, res) => {
 
 /**
  * method: GET
- * function: returns a TermID given a term description (school year and quarter)
+ * function: returns a list of undergraduate schools given a termId
  */
 app.get("/api/v1/get_undergraduate_schools/", async (req, res) => {
-  const result = await getUndergraduateSchoolsFromTermId(
-    req.query.termId as string,
-    academicGroupsURL
-  ).catch((err) => {
+  try {
+    const result = await getUndergraduateSchoolsFromTermId(
+      req.query.termId as string,
+      academicGroupsURL
+    );
+    return res.json(result);
+  } catch (err) {
     console.log("ERROR ON SERVER: ", err);
     if (err === undefined) {
       res
@@ -173,11 +177,33 @@ app.get("/api/v1/get_undergraduate_schools/", async (req, res) => {
       res.status(404).json({ type: "error", message: "No courses found!" });
       return;
     }
-  });
+  }
+});
 
-  console.log("RESULT: ", result);
-
-  return res.json(result);
+/**
+ * method: GET
+ * function: returns a list of all academic subjects given a termId
+ */
+app.get("/api/v1/get_undergraduate_subjects/", async (req, res) => {
+  try {
+    const result = (await getUndergraduateSchoolsFromTermId(
+      req.query.termId as string,
+      academicGroupsURL
+    )) as UndergraduateSchools;
+    // initiate promises
+    const promises = [];
+    const schools: string[] = [];
+    // pluck the schools
+    for (let i = 0; i < result.data.length; i++) {
+      schools.push(result.data[i].school);
+    }
+    // now, we have a list of schools that we can return for the moment
+    res.json({
+      schools,
+    });
+  } catch (err) {
+    console.log(err);
+  }
 });
 
 app.get("/", (req, res) => {

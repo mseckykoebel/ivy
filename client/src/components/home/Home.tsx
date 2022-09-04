@@ -851,9 +851,16 @@ const Home: React.FC = (): JSX.Element => {
                   />
                 </section>
                 {/* SUPER BASIC ERROR LOCATION */}
-                <section className="text-center text-red-500 text-sm">
-                  {error && <p>{error}</p>}
-                </section>
+                {error && (
+                  <section className="text-center text-red-500 text-sm">
+                    <p>{error}</p>
+                  </section>
+                )}
+                {loading && (
+                  <section className="text-center text-red-500 text-sm">
+                    <p>Fetching the latest data 🐎</p>
+                  </section>
+                )}
               </div>
             </div>
           </div>

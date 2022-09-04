@@ -1,11 +1,6 @@
 import request from "request";
 
-interface UndergraduateSchools {
-  status: number;
-  results: number;
-  data: Record<string, any>;
-  termId: string;
-}
+import { UndergraduateSchools } from "../types/school";
 
 const getUndergraduateSchoolsFromTermId = async (
   termId: string,
