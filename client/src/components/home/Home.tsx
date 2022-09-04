@@ -843,7 +843,12 @@ const Home: React.FC = (): JSX.Element => {
                   </h2>
                   {/* THIS IS WHERE ALL OF THE SEARCHING IS HAPPENING */}
                   {/* IT WILL SOON GET ARGUMENTS PASSED TO IT THAT WERE SELECTED BY THE USER */}
-                  <Search courseNumber="4880" school="MEAS" course="COMP_SCI" />
+                  <Search
+                    year={selectedYear?.year}
+                    quarter={selectedQuarter?.quarter}
+                    school={selectedSchool}
+                    termId={term.current}
+                  />
                 </section>
                 {/* SUPER BASIC ERROR LOCATION */}
                 <section className="text-center text-red-500 text-sm">

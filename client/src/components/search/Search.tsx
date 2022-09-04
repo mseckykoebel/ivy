@@ -2,40 +2,26 @@ import React, { useState, useEffect } from "react";
 import SearchItem from "./SearchItem";
 import fetch from "cross-fetch";
 
-const Search: React.FC<{
-  courseNumber: string;
-  school: string;
-  course: string;
-}> = ({ courseNumber, school, course }): JSX.Element => {
-  const [loading, setLoading] = useState(false);
-  const [courses, setCourses] = useState<
-    { CLASSDESCR: { COURSE_TITLE: string } }[]
-  >([]);
-  const [searchResult, setSearchResult] = useState("");
+interface SearchProps {
+  year: string | undefined;
+  quarter: string | undefined;
+  school: string | null;
+  termId: string | null;
+}
 
-  useEffect(() => {
-    const url =
-      process.env.NODE_ENV !== "production"
-        ? "http://localhost:3001/api/v1/get_academic_groups"
-        : "https://ivy-api.fly.dev/api/v1/get_academic_groups";
-    const loadPosts = async () => {
-      setLoading(true);
-      const response = await fetch(url, {
-        mode: "cors",
-        headers: {
-          "Content-type": "application/json",
-        },
-      });
-      if (response.status >= 400) {
-        throw new Error("Bad response from server");
-      }
-      const data = await response.json();
-      console.log(data);
-      setSearchResult(data);
-      setLoading(false);
-    };
-    loadPosts();
-  }, []);
+const Search: React.FC<SearchProps> = ({
+  year,
+  quarter,
+  school,
+  termId,
+}): JSX.Element => {
+  // UI state
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [query, setQuery] = useState("");
+
+  // initiate a new query when query changes
+  useEffect(() => {}, [query]);
 
   return (
     <div className="rounded-lg bg-white overflow-hidden shadow min-h-[4rem]">
@@ -45,24 +31,14 @@ const Search: React.FC<{
       <SearchItem searchField={"Algorithms"} color={"bg-green-100"} />
       <SearchItem searchField={"Intro to Psychology"} color={"bg-pink-100"} />
       {/* LOADING STATE */}
-      {loading ? (
+      {!termId && (
         <div className="bg-white shadow sm:rounded-lg mb-4 m-4">
           <div className="px-4 py-5 sm:p-6">
             <div className="mt-2 max-w-xl text-sm text-center text-black">
-              <p>
-                No results :(, try a different search, or wait for this to load
-              </p>
+              <p>Please select a year and quarter before searching!</p>
             </div>
           </div>
         </div>
-      ) : (
-        // SEARCH ITEMS NOT IN THE LOADING STATE
-        courses.map((course) => (
-          <SearchItem
-            searchField={course.CLASSDESCR.COURSE_TITLE}
-            color="bg-green-100"
-          />
-        ))
       )}
       {/* No results state, just a boilerplate for now */}
     </div>
