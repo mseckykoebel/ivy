@@ -78,6 +78,9 @@ const Home: React.FC = (): JSX.Element => {
       });
       if (response.status >= 400) {
         setError("Uh oh! Error fetching school years");
+        setTimeout(() => {
+          setError("");
+        }, 3000);
         throw new Error("Bad response from server");
       }
       const data = await response.json();
@@ -98,7 +101,7 @@ const Home: React.FC = (): JSX.Element => {
         setError("Uh oh! Error fetching quarters");
         setTimeout(() => {
           setError("");
-        }, 500);
+        }, 3000);
         throw new Error("Bad response from server");
       }
       const data = await response.json();
@@ -124,6 +127,9 @@ const Home: React.FC = (): JSX.Element => {
     if (!selectedYear || !selectedQuarter) {
       console.log("Year and quarter not selected");
       setError("Please select a year and quarter before selecting a school");
+      setTimeout(() => {
+        setError("");
+      }, 3000);
       return;
     }
 
@@ -141,7 +147,10 @@ const Home: React.FC = (): JSX.Element => {
         },
       });
       if (termResponse.status >= 400) {
-        setError("Uh oh! Error fetching quarters");
+        setError("Uh oh! Error fetching term ID");
+        setTimeout(() => {
+          setError("");
+        }, 3000);
         throw new Error("Bad response from server");
       }
       const termData = await termResponse.json();
@@ -173,9 +182,12 @@ const Home: React.FC = (): JSX.Element => {
         },
       });
       if (schoolsResponse.status >= 400) {
-        setError("Uh oh! Error fetching quarters");
+        setError("Uh oh! There aren't any schools for this term 🥸");
         setSelectedSchool(null);
         setSchools(null);
+        setTimeout(() => {
+          setError("");
+        }, 3000);
         throw new Error("Bad response from server");
       }
       const schoolsData = await schoolsResponse.json();
