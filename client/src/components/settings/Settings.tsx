@@ -32,7 +32,6 @@ import {
   updateMinor,
 } from "../../firebase/minorsService";
 
-
 interface SettingsProps {
   open: boolean;
   setOpenModal: Dispatch<SetStateAction<boolean>>;

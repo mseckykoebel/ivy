@@ -1,0 +1,3278 @@
+[
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "catalogNumber": "170-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Introduction to Music",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "170-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Introduction to Music",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "175-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Selected Topics in Music Literature for Non-Majors",
+        "topic": "Understanding Popular Music"
+      },
+      {
+        "catalogNumber": "175-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Selected Topics in Music Literature for Non-Majors",
+        "topic": "The Beatles"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "GEN_MUS"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "321-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Producing in the Virtual Studio",
+        "topic": ""
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "MUS_TECH"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "310-0",
+        "section": "26",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Vocal Career Seminar"
+      },
+      {
+        "catalogNumber": "315-0",
+        "section": "26",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Vocal Career Seminar"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "MUS_WKSP"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "catalogNumber": "601S",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Business Associations",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "605D",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Contracts II:  UCC Article 2 (Sales Law)",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "631",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Entrepreneurship Law",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "638",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Mergers and Acquisitions",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "667",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Corporate Restructuring:  Bankruptcy Reorganizations",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "670PS",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum: Corporate Counsel",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "690",
+        "section": "1-ON",
+        "component": "LEC",
+        "courseTitle": "Basic Federal Income Taxation",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "690",
+        "section": "2-ON",
+        "component": "LEC",
+        "courseTitle": "Basic Federal Income Taxation",
+        "topic": ""
+      }
+    ],
+    "school": "LAW",
+    "subject": "BUSCOM"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "catalogNumber": "619",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Employment Discrimination",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "647D",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum:  Judicial",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "647S",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum: Judicial",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "740",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Policing Chicago?s Communities:Examining historical & current practices & analyzing for reform",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "743",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "The Law of Whistleblowing",
+        "topic": ""
+      }
+    ],
+    "school": "LAW",
+    "subject": "CONPUB"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "905-0",
+        "section": "1-ON",
+        "component": "LEC",
+        "courseTitle": "Patent Law",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "910-0",
+        "section": "1-ON",
+        "component": "LEC",
+        "courseTitle": "Patent Preparation & Prosecution Workshop",
+        "topic": ""
+      }
+    ],
+    "school": "LAW",
+    "subject": "INTPROP"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "catalogNumber": "546",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Legal Issues in COVID-19 Crisis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "623S",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Effective Legal Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "712",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Advanced Legal Writing ? Communicating with Professionals",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "712",
+        "section": "2",
+        "component": "SEM",
+        "courseTitle": "Advanced Legal Writing ? Communicating with Professionals",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "721",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Leading in the Law",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "912-0",
+        "section": "1-ON",
+        "component": "SEM",
+        "courseTitle": "Ethics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "930-0",
+        "section": "1-ON",
+        "component": "LEC",
+        "courseTitle": "Corporate Criminal Law",
+        "topic": ""
+      }
+    ],
+    "school": "LAW",
+    "subject": "LAWSTUDY"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "catalogNumber": "604T",
+        "section": "1",
+        "component": "ADV",
+        "courseTitle": "International Business Law & Negotiations",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "670S",
+        "section": "1",
+        "component": "ADV",
+        "courseTitle": "Negotiation Workshop",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "729",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic Practice:  Environmental Advocacy",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "730",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic Practice: Complex Civil Litigation & Investor Protection",
+        "topic": ""
+      }
+    ],
+    "school": "LAW",
+    "subject": "LITARB"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "975-0",
+        "section": "1-ON",
+        "component": "SEM",
+        "courseTitle": "Food Policy and Regulation",
+        "topic": ""
+      }
+    ],
+    "school": "LAW",
+    "subject": "REGLAW"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "catalogNumber": "300-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Introduction to Integrated Marketing Communications",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "402-6",
+        "section": "40",
+        "component": "LEC",
+        "courseTitle": "Financial Accounting",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "409-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Immersion Quarter Team Project",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "409-1",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Immersion Quarter Individual Project",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "416-6",
+        "section": "40",
+        "component": "LEC",
+        "courseTitle": "Brand Equity",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "424-6",
+        "section": "40",
+        "component": "LEC",
+        "courseTitle": "Shopper Marketing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "444-6",
+        "section": "40",
+        "component": "LEC",
+        "courseTitle": "Crisis Communications",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-6",
+        "section": "40",
+        "component": "LEC",
+        "courseTitle": "Practicum",
+        "topic": "Digital Marketing, Media, & Innovation"
+      },
+      {
+        "catalogNumber": "498-6",
+        "section": "41",
+        "component": "LEC",
+        "courseTitle": "Practicum",
+        "topic": "Digital Analytics"
+      }
+    ],
+    "school": "JOUR",
+    "subject": "IMC"
+  },
+  {
+    "status": 200,
+    "results": 22,
+    "data": [
+      {
+        "catalogNumber": "343-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "The Googlization of America",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "388-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "390-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "Get Hired!"
+      },
+      {
+        "catalogNumber": "400-1",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-1",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Foundations of Interactive Journalism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "401-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Ethics & Law of Journalism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "440-0",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "Global Journalism Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "440-1",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Global Journalism Residency",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "442-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Leadership Strategies",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "471-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Master's Project",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "474-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Inside Business to Business Media",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Understanding Chicago for Journalists"
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Chicago Public Housing Stories"
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "22",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Crisis Reporting: Coronavirus and Beyond"
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "23",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Crisis Reporting: Coronavirus and Beyond"
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "24",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Narrative Podcasting"
+      },
+      {
+        "catalogNumber": "490-0",
+        "section": "23",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Sports Commentary"
+      },
+      {
+        "catalogNumber": "490-0",
+        "section": "24",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Reporting on Politics and the Federal Government"
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Practicum",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "21",
+        "component": "PRA",
+        "courseTitle": "Practicum",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "499-2",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Internship",
+        "topic": ""
+      }
+    ],
+    "school": "JOUR",
+    "subject": "JOUR"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "242-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Topics in History",
+        "topic": "A Survey of US History"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "HISTORY"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "390-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "Islam, America, and the Media"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "JOUR"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "catalogNumber": "298-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Undergraduate Seminar",
+        "topic": "Understanding Media Industries"
+      },
+      {
+        "catalogNumber": "360-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Topics in Media Writing",
+        "topic": "Heroes & Villains"
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Undergraduate Seminar",
+        "topic": "Digital Innovation and SMM"
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "71",
+        "component": "LEC",
+        "courseTitle": "Undergraduate Seminar",
+        "topic": "Islam, America & Media"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "MIT"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "242-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Topics in Political Science",
+        "topic": "Introduction to Middle East Politics"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "POLI_SCI"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "387-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Advanced Topics in Religion Studies:",
+        "topic": "Islam, America & Media"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "RELIGION"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "306-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Media Planning",
+        "topic": ""
+      }
+    ],
+    "school": "DOHA",
+    "subject": "STRATCOM"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "340-0",
+        "section": "21",
+        "component": "FLD",
+        "courseTitle": "Internship",
+        "topic": "Chicago/Evanston"
+      },
+      {
+        "catalogNumber": "340-0",
+        "section": "40",
+        "component": "FLD",
+        "courseTitle": "Internship",
+        "topic": "Extra Credit"
+      },
+      {
+        "catalogNumber": "410-0",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "MFA Internship",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "CMN"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "catalogNumber": "102-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Public Speaking",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "205-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Theories of Persuasion",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "246-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intro to Health Communication",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "341-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Communication and Aging",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "352-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Social Network Analysis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "353-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Collaboration Technology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "364-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Collective Decision Making & Communication in Organizations",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "COMM_ST"
+  },
+  {
+    "status": 200,
+    "results": 21,
+    "data": [
+      {
+        "catalogNumber": "398-0",
+        "section": "1",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "409-4",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Foundations of Clinical and Professional Practice",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "409-8",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Foundations of Clinical and Professional Practice",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "415-4",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Clinical Practicum in Audiology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "415-8",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Clinical Practicum in Audiology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "419-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Pediatric Audiology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "428-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Fundamentals of Vestibular Science",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "461-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Augmentative and Alternative Communication Across the Lifespan",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "462-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Professional Issues in Speech Language Pathology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "475-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Advanced Clinical Methods 1",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "477-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Advanced Clinical Methods 2",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "479-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Externship: Clinical Practicum",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "519-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Pediatric Amplification",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "522-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Hearing Loss Prevention and Conservation",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "558-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Advanced Scientific Clinical Decision Making I",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "565-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Policy in Health and Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "566-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Digital Literacies for the Speech Language Pathologist",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "570-3",
+        "section": "1",
+        "component": "RSC",
+        "courseTitle": "Seminar: Capstone Project",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "573-6B",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Professional Integration and Reflective Practice II",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "574-6",
+        "section": "1",
+        "component": "RSC",
+        "courseTitle": "Culminating Project Design",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "580-4",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Clinical Externship",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "CSD"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "catalogNumber": "469-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Health Communication 1",
+        "topic": "Health Misinformation"
+      },
+      {
+        "catalogNumber": "469-0",
+        "section": "3",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Health Communication 1",
+        "topic": "Leading Dialogues and Change"
+      },
+      {
+        "catalogNumber": "469-0",
+        "section": "4",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Health Communication 1",
+        "topic": "Information Design"
+      },
+      {
+        "catalogNumber": "469-0",
+        "section": "5",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Health Communication 1",
+        "topic": "Social Context of Illness"
+      },
+      {
+        "catalogNumber": "469-0",
+        "section": "6",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Health Communication 1",
+        "topic": "Health and Media"
+      },
+      {
+        "catalogNumber": "479-0",
+        "section": "4",
+        "component": "LEC",
+        "courseTitle": "Health Information Technology for Communication, Coordination and Integration",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "HLTH_COM"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "catalogNumber": "482-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Public Persuasion",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "482-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Public Persuasion",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "494-6D",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Communication Skills Practicum",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "496-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Leadership & Decision Making",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "523-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Capstone",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "523-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Capstone",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "530-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Communication, Management & Ethics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "538-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Workplace Learning and Communities of Practice",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "539-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Content & Influencer Marketing Communication",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "MSC"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "catalogNumber": "497-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Summer Internship Seminar",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "20",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "21",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "529-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Creative Enterprises",
+        "topic": "Leadership and Ethics"
+      },
+      {
+        "catalogNumber": "529-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Creative Enterprises",
+        "topic": "Capstone"
+      },
+      {
+        "catalogNumber": "598-0",
+        "section": "1",
+        "component": "IND",
+        "courseTitle": "Independent Study",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "599-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Internship Experience",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "MSLCE"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "203-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Performance Culture and Communication",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "PERF_ST"
+  },
+  {
+    "status": 200,
+    "results": 11,
+    "data": [
+      {
+        "catalogNumber": "220-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Analyzing Media Texts",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "260-0",
+        "section": "26",
+        "component": "SEM",
+        "courseTitle": "Foundations of Screenwriting",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "322-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Radio/Television/Film Genre",
+        "topic": "Melodrama"
+      },
+      {
+        "catalogNumber": "360-0",
+        "section": "26",
+        "component": "SEM",
+        "courseTitle": "Topics in Media Writing",
+        "topic": "Writing the Horror Screenplay"
+      },
+      {
+        "catalogNumber": "360-0",
+        "section": "36",
+        "component": "SEM",
+        "courseTitle": "Topics in Media Writing",
+        "topic": "Writing the Sitcom"
+      },
+      {
+        "catalogNumber": "376-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Topics in Interactive Media",
+        "topic": "Interactive Media Programming in MAX"
+      },
+      {
+        "catalogNumber": "378-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Topics in Post-Production",
+        "topic": "Motion Graphics"
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Symposium: Issues in RTVF",
+        "topic": "#MeToo Media"
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "36",
+        "component": "LEC",
+        "courseTitle": "Symposium: Issues in RTVF",
+        "topic": "Listening to Film"
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Symposium: Issues in RTVF",
+        "topic": "Mixed-Race Genders and Sexualities in Popular Cult"
+      },
+      {
+        "catalogNumber": "490-1",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Summer Internship Seminar",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "RTVF"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "490-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Zero Credit Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "580-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Career Development in Sound",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "SAI"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "catalogNumber": "171-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Basic Acting",
+        "topic": "Acting for Non-Majors"
+      },
+      {
+        "catalogNumber": "256-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Musicianship for Actors",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "281-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intro to Playwriting",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "332-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "The Art of Storytelling",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "350-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Musical Theatre",
+        "topic": "Pop/Rock Musicals: Study and Performance"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "THEATRE"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "309-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Team Dynamics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "351-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Special Topics in HDPS",
+        "topic": "Health Program Planning"
+      }
+    ],
+    "school": "SESP",
+    "subject": "HDPS"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "306-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Studies in Organizational Change",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "309-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Team Dynamics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "313-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Learning and Thinking in Organizations",
+        "topic": ""
+      }
+    ],
+    "school": "SESP",
+    "subject": "LOC"
+  },
+  {
+    "status": 200,
+    "results": 12,
+    "data": [
+      {
+        "catalogNumber": "402-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Social Contexts of Education",
+        "topic": "Social Contexts"
+      },
+      {
+        "catalogNumber": "405-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Child and Adolescent Development",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Foundations of Learning in a New Language",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "414-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Mathematics for Elementary Teachers",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "422-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Content Area Reading and Writing",
+        "topic": "Content Rdg & Wrtg"
+      },
+      {
+        "catalogNumber": "422-0",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Content Area Reading and Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "427-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Educating Exceptional Children",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "431-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Instructional Coaching and Evaluation",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "451-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Topics in Teaching and Learning",
+        "topic": "Online and Hybrid Learning Design"
+      },
+      {
+        "catalogNumber": "451-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Topics in Teaching and Learning",
+        "topic": "Developing and Teaching with NGSS Storylines"
+      },
+      {
+        "catalogNumber": "462-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Professional Development Design & Implementation",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "463-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Leading for Equity",
+        "topic": ""
+      }
+    ],
+    "school": "SESP",
+    "subject": "MS_ED"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "catalogNumber": "460-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Proseminar in Higher Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "473-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Structure, Governance and Leadership in Higher Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "479-0",
+        "section": "21",
+        "component": "SEM",
+        "courseTitle": "Advancing Diversity and Inclusion Through Intentional Leadership and Organizational Change",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "485-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Internship in Higher Education",
+        "topic": ""
+      }
+    ],
+    "school": "SESP",
+    "subject": "MS_HE"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "catalogNumber": "421-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Advancing Learning & Performance Solutions",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "440-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Executing Strategic Change",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "441-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Designing Sustainable Strategic Change",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "451-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Building Transformational Client Relationships",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "456-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Designing Solutions for Organizational Effectiveness",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "462-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Capstone II: Design & Measurement",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "495-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "MSLOC Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "499-1",
+        "section": "20",
+        "component": "IND",
+        "courseTitle": "Independent Study",
+        "topic": ""
+      }
+    ],
+    "school": "SESP",
+    "subject": "MS_LOC"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "catalogNumber": "114-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Summer Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "201-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Human Development: Childhood and Adolescence",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "351-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "The Life Story Interview: Career Narratives of Men"
+      },
+      {
+        "catalogNumber": "351-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "Memory, Monsters, and Magic: The Holocaust and Pop"
+      },
+      {
+        "catalogNumber": "382-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Practicum in Human Development; Learning Sciences",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "386-0",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Practicum: Human Development & Psychological Svcs.",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "387-0",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Practicum: Learning& Organizational Change",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "388-0",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Practicum: Social Policy",
+        "topic": ""
+      }
+    ],
+    "school": "SESP",
+    "subject": "SESP"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "351-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Social Policy",
+        "topic": "Federal Policy and Politics in the Covid-19 Crisis"
+      },
+      {
+        "catalogNumber": "351-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Social Policy",
+        "topic": "Catalysts for Change in the Court System"
+      }
+    ],
+    "school": "SESP",
+    "subject": "SOC_POL"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "catalogNumber": "302-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Social Contexts of Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Foundations of Learning in a New Language",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "322-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Content Area Reading and Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "327-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Educating Exceptional Children",
+        "topic": ""
+      }
+    ],
+    "school": "SESP",
+    "subject": "TEACH_ED"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "390-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Topics in African Studies",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "AFST"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "236-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to African-American Studies",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "380-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Topics in African-American Studies",
+        "topic": "30 years of Black Film: 1990s to the Present"
+      },
+      {
+        "catalogNumber": "380-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Topics in African-American Studies",
+        "topic": "Slavery on the Screen"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "AF_AM_ST"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "catalogNumber": "105-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Evolution and Social Behavior: The Basics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "211-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Culture & Society",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "213-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Human Origins",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "214-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Archaeology: Unearthing History",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "215-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "The Study of Culture through Language",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "221-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Social and Health Inequalities",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "315-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Medical Anthropology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "341-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Economic Anthropology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "390-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Topics In Anthropology",
+        "topic": "Anthropology of Violence"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ANTHRO"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "111-1",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Arabic I",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "111-2",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Arabic I",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "111-3",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Arabic I",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ARABIC"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "250-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Introduction to Photography",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ART"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "120-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Highlights of Astronomy",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ASTRON"
+  },
+  {
+    "status": 200,
+    "results": 10,
+    "data": [
+      {
+        "catalogNumber": "100-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Biological Sciences at Northwestern",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "217-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Physiology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "219-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Cell Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "220-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Genetics and Molecular Processes Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "221-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Cellular Processes Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "222-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Investigative Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "301-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Principles of Biochemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "01",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "2",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "3",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "BIOL_SCI"
+  },
+  {
+    "status": 200,
+    "results": 17,
+    "data": [
+      {
+        "catalogNumber": "388-0",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Business Culture",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "392-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Public Health",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "393-1",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Modern Workplace Culture",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "393-1",
+        "section": "11",
+        "component": "SEM",
+        "courseTitle": "Modern Workplace Culture",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "393-2",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues in the Workplace",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "393-2",
+        "section": "11",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues in the Workplace",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "394-1",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Legal Culture & Process",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "394-2",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues in Law",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "395-1",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Business Workplace Culture",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "395-1",
+        "section": "11",
+        "component": "SEM",
+        "courseTitle": "Business Workplace Culture",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "395-1",
+        "section": "12",
+        "component": "SEM",
+        "courseTitle": "Business Workplace Culture",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "395-2",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues: Business Field Studies",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "395-2",
+        "section": "11",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues: Business Field Studies",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "395-2",
+        "section": "12",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues: Business Field Studies",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "397-0",
+        "section": "28",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Civic Engagement",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Humanities",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "495-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Civic Engagement and Graduate Education",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CFS"
+  },
+  {
+    "status": 200,
+    "results": 13,
+    "data": [
+      {
+        "catalogNumber": "100-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Calculus and Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "100-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Problem Solving in Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "110-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Quantitative Problem Solving in Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "131-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "General Chemistry 1",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "132-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "General Chemistry 2",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "141-0",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "General Chemistry Laboratory 1",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "142-0",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "General Chemistry Laboratory 2",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "199-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Foundations of Organic Chemstry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "210-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "210-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "210-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "230-2",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "Organic Chemistry Lab I",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "230-3",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "Organic Chemistry Lab II",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CHEM"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "111-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Chinese I",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "111-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Chinese I",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "111-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Chinese I",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CHINESE"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "205-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Reading Difference",
+        "topic": "Gender & Genius: Women?s Writing in the Global 19c"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "COMP_LIT"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "catalogNumber": "100-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Problem-Solving in Economics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "201-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Introduction to Macroeconomics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "202-0",
+        "section": "45",
+        "component": "LEC",
+        "courseTitle": "Introduction to Microeconomics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-1",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Microeconomics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-2",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Microeconomics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "311-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Macroeconomics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "349-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Industrial Economics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "361-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "International Trade",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "519-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Responsible Conduct of Research Training",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ECON"
+  },
+  {
+    "status": 200,
+    "results": 13,
+    "data": [
+      {
+        "catalogNumber": "100-SW",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Summer Academic Workshop in Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "100-SW",
+        "section": "21",
+        "component": "SEM",
+        "courseTitle": "Summer Academic Workshop in Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "100-SW",
+        "section": "22",
+        "component": "SEM",
+        "courseTitle": "Summer Academic Workshop in Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "100-SW",
+        "section": "23",
+        "component": "SEM",
+        "courseTitle": "Summer Academic Workshop in Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "105-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Expository Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "206-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Reading & Writing Poetry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "282-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Writing and Speaking in Business",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "282-0",
+        "section": "2",
+        "component": "SEM",
+        "courseTitle": "Writing and Speaking in Business",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "307-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Advanced Creative Writing",
+        "topic": "Writing the Novella"
+      },
+      {
+        "catalogNumber": "332-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Renaissance Drama",
+        "topic": "Racial Impersonation Ren Stage"
+      },
+      {
+        "catalogNumber": "386-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Studies in Literature and Film",
+        "topic": "Baseball in American Narrative"
+      },
+      {
+        "catalogNumber": "386-0",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Studies in Literature and Film",
+        "topic": "Ghost Stories in Literature and Film"
+      },
+      {
+        "catalogNumber": "491-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Editorial Practicum",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ENGLISH"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "390-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Environmental Sciences",
+        "topic": "GIS Level 1 (Geographic Information Systems 1)"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ENVR_SCI"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "catalogNumber": "111-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "111-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "111-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "20",
+        "component": "THE",
+        "courseTitle": "PhD Thesis Tutorial",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "FRENCH"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "390-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Special Topics in Global Health",
+        "topic": "Population and Reproductive Health"
+      },
+      {
+        "catalogNumber": "390-0",
+        "section": "2",
+        "component": "SEM",
+        "courseTitle": "Special Topics in Global Health",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "GBL_HLTH"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "catalogNumber": "101-1",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Beginning German",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "101-2",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Beginning German",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "101-3",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Beginning German",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "102-1",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Intermediate German",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "102-2",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Intermediate German",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "102-3",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Intermediate German",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "GERMAN"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "catalogNumber": "321-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Gender, Sexuality and History",
+        "topic": "Consent: Sexual Agency in Hist. Context"
+      },
+      {
+        "catalogNumber": "332-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Gender, Sexuality, and Health",
+        "topic": "Depression & Its Discontents"
+      },
+      {
+        "catalogNumber": "371-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Gender, Sexuality, and Popular Culture",
+        "topic": "Mixed-Race Genders and Sexualities in Popular Cult"
+      },
+      {
+        "catalogNumber": "372-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Gender, Sexuality, and Performance",
+        "topic": "Transnational Feminism & the Diva"
+      },
+      {
+        "catalogNumber": "490-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Topics in Gender and Sexuality Studies",
+        "topic": "Consent: Sexual Agency in Hist. Context"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "GNDR_ST"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "catalogNumber": "200-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "New Introductory Courses in History",
+        "topic": "Native American History"
+      },
+      {
+        "catalogNumber": "200-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "New Introductory Courses in History",
+        "topic": "The British Empire"
+      },
+      {
+        "catalogNumber": "201-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Europe in the Medieval and Early Modern World",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "210-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "History of the United States, Reconstruction to the Present",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "300-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "New Lectures in History",
+        "topic": "Food in United States History"
+      },
+      {
+        "catalogNumber": "308-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "The American West",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "319-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "History of US Foreign Relations",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "HISTORY"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "100-1-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Critical Thinking in the Humanities and Social Sciences",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "100-2-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Asking - and Answering - Questions in the Humanities and Social Sciences",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "HUM"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "421-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Rigor & Reproducibility in Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "421-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Rigor & Reproducibility in Research",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "IBIS"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "101-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary Italian",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "101-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary Italian",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "101-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary Italian",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ITALIAN"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "111-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Korean I",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "KOREAN"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "392-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Topics in Latina and Latino Social and Political Issues",
+        "topic": "Acts of Memory, Mourning, and Protest"
+      },
+      {
+        "catalogNumber": "393-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Topics in Latina and Latino Text and Representation",
+        "topic": "Latinx Film"
+      },
+      {
+        "catalogNumber": "393-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Topics in Latina and Latino Text and Representation",
+        "topic": "Feminist Aesthetics of the Erotic"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "LATINO"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "206-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Law and Society",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "LEGAL_ST"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "catalogNumber": "260-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Formal Analysis of Words & Sentences",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "270-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Meaning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "380-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Spoken English for Nonnative Speakers",
+        "topic": "Culture, Conversation, and Fluency"
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "American Academic Culture for Non-Native speakers of English",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "482-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Individual Speech and Language Instruction for Nonnative Speakers of English",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "483-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Supported Online Speech Training for Nonnative Speakers of English",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "LING"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "catalogNumber": "100-BR",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Quantitative Reasoning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "220-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Single-Variable Differential Calculus",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "220-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Single-Variable Integral Calculus",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "230-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Multivariable Differential Calculus",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "230-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Multivariable Integral Calculus",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "240-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Linear Algebra",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "250-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Elementary Differential Equations",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "300-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Foundations of Higher Mathematics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "334-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Linear Algebra: Second Course",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "MATH"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "catalogNumber": "110-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Philosophy",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "150-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary Logic I",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "210-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "History of Philosophy - Ancient",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "225-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Minds and Machines",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "260-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Moral Philosophy",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "261-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Political Philosophy",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "262-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Ethical Problems and Public Issues",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "269-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Bioethics",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PHIL"
+  },
+  {
+    "status": 200,
+    "results": 19,
+    "data": [
+      {
+        "catalogNumber": "130-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "130-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "130-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "135-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "135-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "135-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-1",
+        "section": "38",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-1",
+        "section": "40",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-1",
+        "section": "48",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-1",
+        "section": "58",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-2",
+        "section": "38",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-2",
+        "section": "40",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-2",
+        "section": "48",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-2",
+        "section": "50",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-2",
+        "section": "58",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-3",
+        "section": "38",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-3",
+        "section": "40",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-3",
+        "section": "48",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-3",
+        "section": "58",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PHYSICS"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "catalogNumber": "220-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "American Government and Politics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "348-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Globalization",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "369-0",
+        "section": "18",
+        "component": "LEC",
+        "courseTitle": "Politics of Post-Soviet Russia",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "377-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Drugs and Politics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "390-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Political Science",
+        "topic": "Politics of Corruption"
+      },
+      {
+        "catalogNumber": "390-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Political Science",
+        "topic": "America in the 1960's: Politics of Popular Culture"
+      },
+      {
+        "catalogNumber": "490-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Special Topics in Political Science",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "POLI_SCI"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "catalogNumber": "110-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Introduction to Psychology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "201-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Statistical Methods in Psychology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "215-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Psychology of Personality",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "228-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Cognitive Psychology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "303-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Psychopathology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "341-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Positive Psychology: The Science of Well-Being",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "364-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Social and Personality Development",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "366-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Stereotyping & Prejudice",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PSYCH"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "210-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Buddhism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "230-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Judaism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "250-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Islam",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "RELIGION"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "catalogNumber": "202-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Social Problems",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "206-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Law and Society",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "226-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Sociological Analysis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "232-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Sexuality and Society",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "302-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Sociology of Organizations",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "SOCIOL"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "catalogNumber": "101-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Spanish",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "101-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Spanish",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "101-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Spanish",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-1",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-2",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-3",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "SPANISH"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "202-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Introduction to Statistics",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "STAT"
+  }
+]
