@@ -1,8 +1,11 @@
+/* eslint-disable indent */
+// The above is stupid but it's getting messed up with prettier
 import { Fragment, useRef, useState } from "react";
 import { Menu, Popover, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
-import { SearchIcon } from "@heroicons/react/solid";
+import { SearchIcon, CheckIcon } from "@heroicons/react/solid";
 import { ChevronDownIcon } from "@heroicons/react/solid";
+import { Combobox } from "@headlessui/react";
 import { Settings } from "../settings/Settings";
 import ivyLogo from "../../static/ivy_logo_full.png";
 import Calendar from "../calendar/Calendar";
@@ -26,28 +29,40 @@ const years = [
 ];
 
 const quarters = [
-  { name: "🍃 Fall", href: "#" },
-  { name: "🌨️ Winter", href: "#" },
-  { name: "🌦️ Spring", href: "#" },
+  { name: "🍃 Fall" },
+  { name: "🌨️ Winter" },
+  { name: "🌦️ Spring" },
 ];
 
-const classNames = (...classes: string[]): string => {
+const schools = [
+  { name: "MEAS", longName: "McCormick" },
+  { name: "WCAS", longName: "Weinberg" },
+  { name: "SESP", longName: "School of Education and Social Policy" },
+];
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const classNames = (...classes: any[]) => {
   return classes.filter(Boolean).join(" ");
 };
 
 const Home: React.FC = (): JSX.Element => {
+  // navigate
   const navigate = useNavigate();
-  const [calView, setCalView] = useState(true);
-  const [open, setOpen] = useState(false);
-  // if there are issues logging out
-  const [error, setError] = useState("");
+  // state
+  const [calView, setCalView] = useState<boolean>(true);
+  const [query, setQuery] = useState<string>("");
+  const [selectedYear, setSelectedYear] = useState();
+  const [selectedQuarter, setSelectedQuarter] = useState();
+  const [selectedSchool, setSelectedSchool] = useState();
+  const [open, setOpen] = useState<boolean>(false);
+  const [error, setError] = useState<string>("");
+  // context
   const { currentUser, logout } = useAuth();
-  // modal cancel ref
+  // ref
   const cancelButtonRef = useRef(null);
-  // the function that handles logging out
+
   const handleLogout = async () => {
     setError("");
-
     try {
       await logout();
       navigate("/login");
@@ -55,6 +70,31 @@ const Home: React.FC = (): JSX.Element => {
       console.log("There was an error logging out: " + err);
     }
   };
+
+  // filtered years
+  const filteredYears =
+    query === ""
+      ? years
+      : years.filter((year) => {
+          return year.name.toLowerCase().includes(query.toLowerCase());
+        });
+
+  // filtered quarters
+  const filteredQuarters =
+    query === ""
+      ? quarters
+      : quarters.filter((quarter) => {
+          return quarter.name.toLowerCase().includes(query.toLowerCase());
+        });
+
+  // filtered schools
+  const filteredSchools =
+    query === ""
+      ? schools
+      : schools.filter((school) => {
+          return school.name.toLowerCase().includes(query.toLowerCase());
+        });
+
   // user navigation structure
   const userNavigation = [
     {
@@ -79,7 +119,6 @@ const Home: React.FC = (): JSX.Element => {
   // test to see if the modal closing works
   const fromClose = (open: boolean) => {
     setOpen(open);
-    console.log("Modal has been closed");
   };
 
   return (
@@ -163,7 +202,7 @@ const Home: React.FC = (): JSX.Element => {
                     </Menu>
                   </div>
 
-                  {/* Search */}
+                  {/* SEARCH ON MOBILE */}
                   <div className="flex-1 min-w-0 px-12 lg:hidden">
                     <div className="max-w-xs w-full mx-auto">
                       <label htmlFor="desktop-search" className="sr-only">
@@ -184,7 +223,7 @@ const Home: React.FC = (): JSX.Element => {
                     </div>
                   </div>
 
-                  {/* Menu button */}
+                  {/* MENU ON MOBILE  */}
                   <div className="absolute right-0 flex-shrink-0 lg:hidden">
                     {/* Mobile menu button */}
                     <Popover.Button className="bg-transparent p-2 rounded-md inline-flex items-center justify-center text-green-200 hover:text-white hover:bg-white hover:bg-opacity-10 focus:outline-none focus:ring-2 focus:ring-white">
@@ -223,9 +262,12 @@ const Home: React.FC = (): JSX.Element => {
                         ))}
                       </nav>
                     </div>
-                    <div className="flex flex-column justify-evenly">
-                      {/* Begin the search area */}
-                      <div className="max-w-md w-full mx-auto pr-2">
+                    {/* SEARCH WRAP */}
+                    <div className="flex flex-col justify-evenly">
+                      {/* SEARCH AREA */}
+                      {/* SEARCH AREA */}
+                      {/* SEARCH AREA */}
+                      <div className="max-w-md w-full mx-auto pr-2 pl-2">
                         <label htmlFor="mobile-search" className="sr-only">
                           Search
                         </label>
@@ -245,92 +287,254 @@ const Home: React.FC = (): JSX.Element => {
                           />
                         </div>
                       </div>
-                      {/* End the search box */}
-                      {/* Begin the dropdown area */}
-                      <div className="relative z-0 inline-flex shadow-sm rounded-md pr-2">
-                        <Menu as="div" className="-ml-px relative block">
-                          <Menu.Button className="relative inline-flex items-center px-2 py-2 rounded-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-green-800 focus:border-green-800">
-                            <span className="sr-only">Open options</span>
-                            <ChevronDownIcon
-                              className="h-5 w-5"
-                              aria-hidden="true"
+                      {/* FILTERING AREA */}
+                      <div className="flex flex-row justify-evenly max-w-md w-full mx-auto pr-2 pl-2 pt-2">
+                        {/* SELECT YEAR */}
+                        {/* SELECT YEAR */}
+                        {/* SELECT YEAR */}
+                        <Combobox
+                          className={"pr-1"}
+                          as="div"
+                          value={selectedYear}
+                          onChange={setSelectedYear}
+                        >
+                          <Combobox.Label className="sr-only">
+                            Year
+                          </Combobox.Label>
+                          <div className="relative mt-1">
+                            <Combobox.Input
+                              className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
+                              onChange={(event) => setQuery(event.target.value)}
+                              placeholder="Year"
+                              displayValue={(year: { name: string }) =>
+                                year?.name
+                              }
                             />
-                            <p className="w-10">Year</p>
-                          </Menu.Button>
-                          <Transition
-                            as={Fragment}
-                            enter="transition ease-out duration-100"
-                            enterFrom="transform opacity-0 scale-95"
-                            enterTo="transform opacity-100 scale-100"
-                            leave="transition ease-in duration-75"
-                            leaveFrom="transform opacity-100 scale-100"
-                            leaveTo="transform opacity-0 scale-95"
-                          >
-                            <Menu.Items className="origin-top-right absolute right-0 mt-2 -mr-1 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
-                              <div className="py-1">
-                                {years.map((year) => (
-                                  <Menu.Item key={year.name}>
-                                    {({ active }) => (
-                                      <button
-                                        className={classNames(
-                                          active
-                                            ? "bg-gray-100 text-gray-900"
-                                            : "text-gray-700",
-                                          "block px-4 py-2 text-sm w-full text-left"
+                            <Combobox.Button className="absolute inset-y-0 right-0 flex items-center rounded-r-md px-2 focus:outline-none">
+                              <ChevronDownIcon
+                                className="h-5 w-5 text-gray-400"
+                                aria-hidden="true"
+                              />
+                            </Combobox.Button>
+
+                            {filteredYears.length > 0 && (
+                              <Combobox.Options className="absolute z-10 mt-1 max-h-60 w-[9rem] overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                                {filteredYears.map((year) => (
+                                  <Combobox.Option
+                                    key={year.name}
+                                    value={year}
+                                    className={({ active }) =>
+                                      classNames(
+                                        "relative cursor-default select-none py-2 pl-3 pr-9",
+                                        active
+                                          ? "bg-green-600 text-white"
+                                          : "text-gray-900"
+                                      )
+                                    }
+                                  >
+                                    {({ active, selected }) => (
+                                      <>
+                                        <div className="flex">
+                                          <span
+                                            className={classNames(
+                                              "truncate",
+                                              selected && "font-semibold"
+                                            )}
+                                          >
+                                            {year.name}
+                                          </span>
+                                        </div>
+
+                                        {selected && (
+                                          <span
+                                            className={classNames(
+                                              "absolute inset-y-0 right-0 flex items-center pr-4",
+                                              active
+                                                ? "text-white"
+                                                : "text-green-600"
+                                            )}
+                                          >
+                                            <CheckIcon
+                                              className="h-5 w-5"
+                                              aria-hidden="true"
+                                            />
+                                          </span>
                                         )}
-                                      >
-                                        {year.name}
-                                      </button>
+                                      </>
                                     )}
-                                  </Menu.Item>
+                                  </Combobox.Option>
                                 ))}
-                              </div>
-                            </Menu.Items>
-                          </Transition>
-                        </Menu>
-                      </div>
-                      {/* Quarter dropdown */}
-                      <div className="relative z-0 inline-flex shadow-sm rounded-md">
-                        <Menu as="div" className="-ml-px relative block">
-                          <Menu.Button className="relative inline-flex items-center px-2 py-2 rounded-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-green-800 focus:border-green-800">
-                            <span className="sr-only">Open options</span>
-                            <ChevronDownIcon
-                              className="h-5 w-5"
-                              aria-hidden="true"
+                              </Combobox.Options>
+                            )}
+                          </div>
+                        </Combobox>
+                        {/* SELECT QUARTER */}
+                        {/* SELECT QUARTER */}
+                        {/* SELECT QUARTER */}
+                        <Combobox
+                          className={"pr-1"}
+                          as="div"
+                          value={selectedQuarter}
+                          onChange={setSelectedQuarter}
+                        >
+                          <Combobox.Label className="sr-only">
+                            Year
+                          </Combobox.Label>
+                          <div className="relative mt-1">
+                            <Combobox.Input
+                              className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
+                              onChange={(event) => setQuery(event.target.value)}
+                              placeholder="Quarter"
+                              displayValue={(quarter: { name: string }) =>
+                                quarter?.name
+                              }
                             />
-                            <p className="w-18">Quarter</p>
-                          </Menu.Button>
-                          <Transition
-                            as={Fragment}
-                            enter="transition ease-out duration-100"
-                            enterFrom="transform opacity-0 scale-95"
-                            enterTo="transform opacity-100 scale-100"
-                            leave="transition ease-in duration-75"
-                            leaveFrom="transform opacity-100 scale-100"
-                            leaveTo="transform opacity-0 scale-95"
-                          >
-                            <Menu.Items className="origin-top-right absolute right-0 mt-2 -mr-1 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
-                              <div className="py-1">
-                                {quarters.map((quarter) => (
-                                  <Menu.Item key={quarter.name}>
-                                    {({ active }) => (
-                                      <button
-                                        className={classNames(
-                                          active
-                                            ? "bg-gray-100 text-gray-900"
-                                            : "text-gray-700",
-                                          "block px-4 py-2 text-sm w-full text-left"
+                            <Combobox.Button className="absolute inset-y-0 right-0 flex items-center rounded-r-md px-2 focus:outline-none">
+                              <ChevronDownIcon
+                                className="h-5 w-5 text-gray-400"
+                                aria-hidden="true"
+                              />
+                            </Combobox.Button>
+
+                            {filteredQuarters.length > 0 && (
+                              <Combobox.Options className="absolute z-10 mt-1 max-h-60 -right-4 w-[10rem] overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                                {filteredQuarters.map((quarter) => (
+                                  <Combobox.Option
+                                    key={quarter.name}
+                                    value={quarter}
+                                    className={({ active }) =>
+                                      classNames(
+                                        "relative cursor-default select-none py-2 pl-3 pr-9",
+                                        active
+                                          ? "bg-green-600 text-white"
+                                          : "text-gray-900"
+                                      )
+                                    }
+                                  >
+                                    {({ active, selected }) => (
+                                      <>
+                                        <div className="flex">
+                                          <span
+                                            className={classNames(
+                                              "truncate",
+                                              selected && "font-semibold"
+                                            )}
+                                          >
+                                            {quarter.name}
+                                          </span>
+                                        </div>
+
+                                        {selected && (
+                                          <span
+                                            className={classNames(
+                                              "absolute inset-y-0 right-0 flex items-center pr-4",
+                                              active
+                                                ? "text-white"
+                                                : "text-green-600"
+                                            )}
+                                          >
+                                            <CheckIcon
+                                              className="h-5 w-5"
+                                              aria-hidden="true"
+                                            />
+                                          </span>
                                         )}
-                                      >
-                                        {quarter.name}
-                                      </button>
+                                      </>
                                     )}
-                                  </Menu.Item>
+                                  </Combobox.Option>
                                 ))}
-                              </div>
-                            </Menu.Items>
-                          </Transition>
-                        </Menu>
+                              </Combobox.Options>
+                            )}
+                          </div>
+                        </Combobox>
+                        {/* SELECT SCHOOL */}
+                        {/* SELECT SCHOOL */}
+                        {/* SELECT SCHOOL */}
+                        <Combobox
+                          as="div"
+                          value={selectedSchool}
+                          onChange={setSelectedSchool}
+                        >
+                          <Combobox.Label className="sr-only">
+                            Year
+                          </Combobox.Label>
+                          <div className="relative mt-1">
+                            <Combobox.Input
+                              className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
+                              onChange={(event) => setQuery(event.target.value)}
+                              placeholder="School"
+                              displayValue={(school: { name: string }) =>
+                                school?.name
+                              }
+                            />
+                            <Combobox.Button className="absolute inset-y-0 right-0 flex items-center rounded-r-md px-2 focus:outline-none">
+                              <ChevronDownIcon
+                                className="h-5 w-5 text-gray-400"
+                                aria-hidden="true"
+                              />
+                            </Combobox.Button>
+
+                            {filteredSchools.length > 0 && (
+                              <Combobox.Options className="absolute z-10 mt-1 max-h-60 w-[25rem] -right-1 overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                                {filteredSchools.map((school) => (
+                                  <Combobox.Option
+                                    key={school.name}
+                                    value={school}
+                                    className={({ active }) =>
+                                      classNames(
+                                        "relative cursor-default select-none py-2 pl-3 pr-9",
+                                        active
+                                          ? "bg-green-600 text-white"
+                                          : "text-gray-900"
+                                      )
+                                    }
+                                  >
+                                    {({ active, selected }) => (
+                                      <>
+                                        <div className="flex">
+                                          <span
+                                            className={classNames(
+                                              "truncate",
+                                              selected && "font-semibold"
+                                            )}
+                                          >
+                                            {school.name}
+                                          </span>
+                                          <span
+                                            className={classNames(
+                                              "ml-2 truncate text-gray-500",
+                                              active
+                                                ? "text-green-200"
+                                                : "text-gray-500"
+                                            )}
+                                          >
+                                            {school.longName}
+                                          </span>
+                                        </div>
+
+                                        {selected && (
+                                          <span
+                                            className={classNames(
+                                              "absolute inset-y-0 right-0 flex items-center pr-4",
+                                              active
+                                                ? "text-white"
+                                                : "text-green-600"
+                                            )}
+                                          >
+                                            <CheckIcon
+                                              className="h-5 w-5"
+                                              aria-hidden="true"
+                                            />
+                                          </span>
+                                        )}
+                                      </>
+                                    )}
+                                  </Combobox.Option>
+                                ))}
+                              </Combobox.Options>
+                            )}
+                          </div>
+                        </Combobox>
                       </div>
                     </div>
                   </div>
@@ -454,6 +658,8 @@ const Home: React.FC = (): JSX.Element => {
                     Section title
                   </h2>
                   <div className="rounded-lg bg-white overflow-hidden shadow">
+                    {/* CALENDAR VIEW/SCHEDULE VIEW TOGGLE TOGGLE */}
+                    {/* CALENDAR VIEW/SCHEDULE VIEW TOGGLE TOGGLE */}
                     {/* CALENDAR VIEW/SCHEDULE VIEW TOGGLE TOGGLE */}
                     {calView && (
                       <div className="p-6">
