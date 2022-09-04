@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import SearchItem from "./SearchItem";
 import fetch from "cross-fetch";
 
+import { UndergraduateCourseDetail } from "../../types/courses";
+
 interface SearchProps {
   year: string | undefined;
   quarter: string | undefined;
@@ -53,8 +55,18 @@ const Search: React.FC<SearchProps> = ({
         throw new Error("Bad response from server");
       }
       const data = await response.json();
-      console.log(data);
-      setCourses(data[0].data);
+      const courseData = [];
+      // process the courses in a way that's useful
+      for (let i = 0; i < data.length; i++) {
+        for (let j = 0; j < data[i].data.length; j++) {
+          const courseDataShape = {
+            data: data[i].data[j],
+            school: data[i].school,
+          };
+          courseData.push(courseDataShape);
+        }
+      }
+      setCourses(courseData);
       setLoading(false);
     };
 
@@ -68,30 +80,30 @@ const Search: React.FC<SearchProps> = ({
       {/* All of the search results will be rendered here */}
       {/* All of the search results will be rendered here */}
       {/* All of the search results will be rendered here */}
-      {/* <SearchItem searchField={"Algorithms"} color={"bg-green-100"} />
-      <SearchItem searchField={"Intro to Psychology"} color={"bg-pink-100"} /> */}
       {/* LOADING STATE */}
-      {loading && (
+      {!courses && (
         <div className="bg-white shadow sm:rounded-lg mb-4 m-4">
           <div className="px-4 py-5 sm:p-6">
             <div className="mt-2 max-w-xl text-sm text-center text-black">
-              <p>Courses will appear here</p>
+              <p>Searching for courses...</p>
             </div>
           </div>
         </div>
       )}
-      {courses && (
-        <div className="bg-white shadow sm:rounded-lg mb-4 m-4">
-          <div className="px-4 py-5 sm:p-6">
-            <div className="mt-2 max-w-xl text-sm text-center text-black">
-              {courses.map((course: Record<string, any>) => (
-                <p>{course.courseTitle}</p>
-              ))}
-            </div>
-          </div>
-        </div>
-      )}
-      {/* No results state, just a boilerplate for now */}
+      {courses &&
+        courses.map((course: Record<string, any>) => {
+          return (
+            <SearchItem
+              school={course.school}
+              catalogNumber={course.data.catalogNumber}
+              section={course.data.section}
+              component={course.data.component}
+              courseTitle={course.data.courseTitle}
+              topic={course.data.topic}
+              color={"bg-green-100"}
+            />
+          );
+        })}
     </div>
   );
 };
