@@ -3,6 +3,8 @@ import dotenv from "dotenv";
 import request from "request";
 import cors from "cors";
 
+import { Term } from "./types/term";
+
 dotenv.config({ path: ".env.local" });
 
 const app = express();
@@ -11,6 +13,8 @@ const apiYearUrl =
   "https://northwestern-prod.apigee.net/student-system-termget/UGRD";
 const apiServiceURL =
   "https://northwestern-prod.apigee.net/student-system-classdescrallcls/4880/MEAS/COMP_SCI";
+const academicGroupsURL =
+  "https://northwestern-prod.apigee.net/student-system-acadgroupget/";
 
 app.use(express.json());
 
@@ -83,7 +87,7 @@ app.get("/api/v1/get_undergraduate_school_years", async (req, res) => {
 
 /**
  * method: GET
- * function: returns a list of quarters years
+ * function: returns a list of quarters
  */
 app.get("/api/v1/get_undergraduate_quarters", async (req, res) => {
   request(
@@ -112,6 +116,38 @@ app.get("/api/v1/get_undergraduate_quarters", async (req, res) => {
         status: 200,
         results: terms.length as number,
         quarters: data,
+      });
+    }
+  );
+});
+
+/**
+ * method: GET
+ * function: returns a TermID given a term description (school year and quarter)
+ */
+app.get("/api/v1/get_undergraduate_term_id/", async (req, res) => {
+  const checkTerm = (terms: Term) => {
+    return terms.TermDescr === req.query.year + " " + req.query.quarter;
+  };
+  request(
+    {
+      url: apiYearUrl,
+      headers: {
+        apikey: process.env.API_KEY as string,
+      },
+    },
+    (error, response, body) => {
+      if (error || response.statusCode !== 200) {
+        return res.status(500).json({ type: "error", message: response.body });
+      }
+
+      const terms = JSON.parse(body).NW_CD_TERM_RESP.TERM;
+      const term = terms.filter(checkTerm);
+
+      res.json({
+        status: 200,
+        results: term.length as number,
+        term: term === undefined ? term[0].TermID : null,
       });
     }
   );
