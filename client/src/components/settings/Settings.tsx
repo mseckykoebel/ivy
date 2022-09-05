@@ -1,4 +1,4 @@
-import {
+import React, {
   Fragment,
   SetStateAction,
   Dispatch,
@@ -7,11 +7,12 @@ import {
   useState,
   useEffect,
 } from "react";
+
 import { Dialog, Transition } from "@headlessui/react";
 
 import { useAuth } from "../../contexts/AuthContext";
 
-import { ProfilePicture } from "../profilePicture/ProfilePicture";
+import { ProfilePicture } from "../profile-picture/ProfilePicture";
 
 import { Majors } from "./Majors";
 import { Minors } from "./Minors";
@@ -33,15 +34,13 @@ import {
 } from "../../firebase/minorsService";
 
 interface SettingsProps {
-  open: boolean;
-  setOpenModal: Dispatch<SetStateAction<boolean>>;
-  cancelButtonRef: RefObject<HTMLButtonElement>;
+  openSettingsModal: boolean;
+  setOpenSettingsModal: Dispatch<SetStateAction<boolean>>;
 }
 
 export const Settings: React.FC<SettingsProps> = ({
-  open,
-  setOpenModal,
-  cancelButtonRef,
+  openSettingsModal,
+  setOpenSettingsModal,
 }): JSX.Element => {
   // contexts
   const { currentUser, updateEmail, updatePassword, updateDisplayName } =
@@ -197,13 +196,8 @@ export const Settings: React.FC<SettingsProps> = ({
   }, []);
 
   return (
-    <Transition.Root show={open} as={Fragment}>
-      <Dialog
-        as="div"
-        className="relative z-30"
-        initialFocus={cancelButtonRef}
-        onClose={setOpenModal}
-      >
+    <Transition.Root show={openSettingsModal} as={Fragment}>
+      <Dialog as="div" className="relative z-30" onClose={setOpenSettingsModal}>
         <Transition.Child
           as={Fragment}
           enter="ease-out duration-300"
@@ -385,15 +379,13 @@ export const Settings: React.FC<SettingsProps> = ({
                       loading ? "cursor-not-allowed" : ""
                     }`}
                     onClick={handleSubmit}
-                    ref={cancelButtonRef}
                   >
                     Save
                   </button>
                   <button
                     type="button"
                     className="mt-3 mr-2 px-4 py-2 w-40 inline-flex justify-center rounded-md border border-gray-500 text-sm font-medium text-black bg-white transition-all hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 hover:text-white"
-                    onClick={() => setOpenModal(false)}
-                    ref={cancelButtonRef}
+                    onClick={() => setOpenSettingsModal(false)}
                   >
                     Cancel
                   </button>

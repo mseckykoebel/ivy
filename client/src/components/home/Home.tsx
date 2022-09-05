@@ -16,10 +16,11 @@ import Schedule from "../schedule/Schedule";
 import { useAuth } from "../../contexts/AuthContext";
 import Search from "../search/Search";
 // avatars
-import { ProfilePicture } from "../profilePicture/ProfilePicture";
+import { ProfilePicture } from "../profile-picture/ProfilePicture";
 // API
 import fetch from "cross-fetch";
 import { CalendarCourse } from "../../types/courses";
+import { CourseDetail } from "../course-detail/CourseDetail";
 
 const navigation = [{ name: "Calendar view" }, { name: "Schedule view" }];
 
@@ -49,13 +50,12 @@ const Home: React.FC = (): JSX.Element => {
   } | null>(null);
   const [selectedSchool, setSelectedSchool] = useState<string | null>(null);
   // UI state
-  const [open, setOpen] = useState<boolean>(false);
+  const [openSettingsModal, setOpenSettingsModal] = useState<boolean>(false);
+  const [openDetailModal, setOpenDetailModal] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
   // context
   const { currentUser, logout } = useAuth();
-  // ref
-  const cancelButtonRef = useRef(null);
   const term = useRef(null); // handles termId globally
   // searching
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -258,7 +258,7 @@ const Home: React.FC = (): JSX.Element => {
       name: "⚙️ Settings",
       href: "",
       onClick: () => {
-        setOpen(true);
+        setOpenSettingsModal(true);
       },
     },
     {
@@ -268,9 +268,13 @@ const Home: React.FC = (): JSX.Element => {
     },
   ];
   // test to see if the modal closing works
-  const fromClose = (open: boolean) => {
-    setOpen(open);
+  const fromSettingsModalClose = (open: boolean) => {
+    setOpenSettingsModal(open);
   };
+
+  const fromDetailModalClose = (open: boolean) => {
+    setOpenDetailModal(open);
+  }
 
   return (
     <>
@@ -283,14 +287,16 @@ const Home: React.FC = (): JSX.Element => {
         ```
       */}
       <div className="min-h-full">
-        {/* MODAL */}
-        {open && (
+        {/* MODALS */}
+        {openSettingsModal && (
           <Settings
-            open={open}
-            setOpenModal={() => fromClose(false)}
-            cancelButtonRef={cancelButtonRef}
-            // cancelButtonRef={cancelButtonRef}
+            openSettingsModal={openSettingsModal}
+            setOpenSettingsModal={() => fromSettingsModalClose(false)}
           />
+        )}
+        {openCourseDetailModal && (
+          <CourseDetail
+          
         )}
         {/* REST OF THE COMPONENT */}
         <Popover as="header" className="pb-24 bg-green-500">
