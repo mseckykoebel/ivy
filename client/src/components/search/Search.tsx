@@ -110,19 +110,29 @@ const Search: React.FC<SearchProps> = ({
         </div>
       )}
 
+      {filteredCourses.length === 0 &&
+        searchQuery === "" &&
+        courses?.map((course: Record<string, any>) => {
+          return (
+            <SearchItem
+              key={course.id}
+              school={course.school}
+              subject={course.subject}
+              catalogNumber={course.data.catalogNumber}
+              section={course.data.section}
+              component={course.data.component}
+              courseTitle={course.data.courseTitle}
+              topic={course.data.topic}
+              color={getColorBySchool(course.school)}
+            />
+          );
+        })}
+
       {filteredCourses.length > 0 &&
         filteredCourses.map((course: Record<string, any>) => {
           return (
             <SearchItem
-              key={
-                course.school +
-                course.subject +
-                course.data.catalogNumber +
-                course.data.section +
-                course.data.component +
-                course.data.courseTitle +
-                course.data.topic
-              }
+              key={course.id}
               school={course.school}
               subject={course.subject}
               catalogNumber={course.data.catalogNumber}
