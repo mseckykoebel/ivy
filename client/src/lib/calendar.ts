@@ -2,11 +2,18 @@
 // ^ eslint being stupid
 // TODO : make this a list of the actual starting times
 type StartingTime = string;
+type ColStartClasses =
+  | "col-start-1"
+  | "col-start-2"
+  | "col-start-3"
+  | "col-start-4"
+  | "col-start-5";
 
 // // TODO: make this a list of the actual course lengths
 // type CourseLength = string;
 
-const getStartingTimeMap = (startingTime: StartingTime): string => {
+const getStartingTimeMap = (courseDays: StartingTime): string => {
+  const startingTime = courseDays.split(" ")[1];
   switch (startingTime) {
     // 8AM
     case "8:00AM":
@@ -336,17 +343,32 @@ const getStartingTimeMap = (startingTime: StartingTime): string => {
 };
 
 // ASSUMING THAT EVERY COURSE IS AT LEAST 50 MINUTES! Default to 50 minutes
+// TODO: make this more specific - won't work too well (eat the paint! )
 const getCourseLengthMap = (courseLength: string): string => {
   const lengthOfTimeInMinutes = getLengthOfTime(courseLength);
+  console.log("LENGTH: ", lengthOfTimeInMinutes);
   switch (lengthOfTimeInMinutes) {
     case 50:
-      return " span 30";
+      return " span 20";
+    case 55:
+      return " span 22";
+    case 60:
+      return " span 23";
+    case 65:
+      return " span ";
+    case 120:
+      return " span 42";
+    case 240:
+      return " span 82";
     default:
+      console.log("Triggering the default courseLength state");
       return " span 30";
   }
 };
 
-const getCourseDaysMap = (courseDays: string) => {};
+const getCourseDaysMap = (courseDays: string): ColStartClasses[] => {
+  return getCourseDays(courseDays);
+};
 
 const getLengthOfTime = (timeFrame: string): number => {
   const splitTime = timeFrame.split(" ");
@@ -367,6 +389,21 @@ const getLengthOfTime = (timeFrame: string): number => {
   if (endTimeSuffix === "PM") endTime = endTime + 12 * 60;
 
   return Number(endTime) - Number(startTime);
+};
+
+// return a CSS class list corresponding to the days when this class is offered
+const getCourseDays = (timeFrame: string): ColStartClasses[] => {
+  const splitTime = timeFrame.split(" ");
+  const daysOfWeek = splitTime[0];
+  const days: ColStartClasses[] = [];
+
+  if (new RegExp("Mo").test(daysOfWeek) === true) days.push("col-start-1");
+  if (new RegExp("Tu").test(daysOfWeek) === true) days.push("col-start-2");
+  if (new RegExp("We").test(daysOfWeek) === true) days.push("col-start-3");
+  if (new RegExp("Th").test(daysOfWeek) === true) days.push("col-start-4");
+  if (new RegExp("Fr").test(daysOfWeek) === true) days.push("col-start-5");
+
+  return days;
 };
 
 export { getStartingTimeMap, getCourseLengthMap, getCourseDaysMap };

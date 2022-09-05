@@ -1,6 +1,16 @@
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
+/* eslint-disable indent */
+// ^ yeah
 import { XIcon } from "@heroicons/react/outline";
 import React, { Dispatch, SetStateAction, useEffect, useRef } from "react";
 import { CalendarCourse } from "../../types/courses";
+
+// helpers
+import {
+  getStartingTimeMap,
+  getCourseLengthMap,
+  getCourseDaysMap,
+} from "../../lib/calendar";
 
 interface CalendarProps {
   calendarCourses: CalendarCourse[] | null;
@@ -33,9 +43,28 @@ const Calendar: React.FC<CalendarProps> = ({
 
   // keeping tabs on the calendar courses being changed (won't be needed soon)
   useEffect(() => {
-    !calendarCourses
-      ? ""
-      : console.log("CURRENT CALENDAR COURSE LIST", calendarCourses);
+    console.log("COURSES!", calendarCourses);
+    if (calendarCourses) {
+      // ONE
+      console.log(
+        "THIS IS HOW LONG THIS COURSE IS: ",
+        getCourseLengthMap(
+          calendarCourses![0].classMeetingInfo![0].MEETING_TIME
+        )
+      );
+      // TWO
+      console.log(
+        "THIS IS THE STARTING TIME OF THE COURSE: ",
+        getStartingTimeMap(
+          calendarCourses![0].classMeetingInfo![0].MEETING_TIME
+        )
+      );
+      // THREE
+      console.log(
+        "THIS IS THE DAYS THIS COURSE MEETS: ",
+        getCourseDaysMap(calendarCourses![0].classMeetingInfo![0].MEETING_TIME)
+      );
+    }
   }, [calendarCourses]);
 
   return (
@@ -249,29 +278,31 @@ const Calendar: React.FC<CalendarProps> = ({
                   gridTemplateRows: ".45rem repeat(288, minmax(0, 1fr)) auto",
                 }}
               >
-                <li
-                  className="relative mt-px flex sm:col-start-3"
-                  style={{ gridRow: "4 / span 30" }}
-                >
-                  <div className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-pink-50 p-2 text-xs leading-5 hover:bg-pink-100">
-                    <div className="absolute top-1 right-1 hidden pt-1 pr-1 sm:block">
-                      <button
-                        type="button"
-                        className="rounded-md bg-none text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
-                        onClick={() => console.log("Removed this course")}
-                      >
-                        <span className="sr-only">Close</span>
-                        <XIcon className="h-4 w-4" aria-hidden="true" />
-                      </button>
+                {calendarCourses && (
+                  <li
+                    className="relative mt-px flex sm:col-start-3"
+                    style={{ gridRow: "4 / span 82" }}
+                  >
+                    <div className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-pink-50 p-2 text-xs leading-5 hover:bg-pink-100">
+                      <div className="absolute top-1 right-1 hidden pt-1 pr-1 sm:block">
+                        <button
+                          type="button"
+                          className="rounded-md bg-none text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+                          onClick={() => console.log("Removed this course")}
+                        >
+                          <span className="sr-only">Close</span>
+                          <XIcon className="h-4 w-4" aria-hidden="true" />
+                        </button>
+                      </div>
+                      <p className="order-1 font-semibold text-pink-700">
+                        CS 211
+                      </p>
+                      <p className="text-pink-500 group-hover:text-pink-700">
+                        <time dateTime="2022-01-12T07:30">12:00pm</time>
+                      </p>
                     </div>
-                    <p className="order-1 font-semibold text-pink-700">
-                      CS 211
-                    </p>
-                    <p className="text-pink-500 group-hover:text-pink-700">
-                      <time dateTime="2022-01-12T07:30">12:00pm</time>
-                    </p>
-                  </div>
-                </li>
+                  </li>
+                )}
               </ol>
               {/* END OF RENDERING EVENTS ON THE CALENDAR */}
               {/* END OF RENDERING EVENTS ON THE CALENDAR */}

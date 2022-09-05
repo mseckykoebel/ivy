@@ -21,8 +21,10 @@ export interface CalendarCourse {
   courseNumber: string;
   school: string;
   section: string;
+  classMeetingInfo: { ROOM: string; MEETING_TIME: string }[] | [] | null;
 }
 
+// this is used for the course detail modal - ignore for all other things
 export interface CourseDetail {
   termId: string;
   school: string;

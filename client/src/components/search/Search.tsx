@@ -104,8 +104,6 @@ const Search: React.FC<SearchProps> = ({
       }
       courseData = shuffleArray(courseData);
 
-      console.log("COURSE DATA: ", courseData[0]);
-
       setCourses(courseData);
       setLoading(false);
     };
