@@ -10,7 +10,7 @@ import { getColorBySchool } from "../../lib/getColorBySchool";
 interface SearchProps {
   year: string | undefined;
   quarter: string | undefined;
-  school: string | null;
+  school: any | null;
   termId: string | null;
   searchQuery: string;
 }
@@ -28,9 +28,9 @@ const Search: React.FC<SearchProps> = ({
   // searching
   const [courses, setCourses] = useState<Record<string, any> | null>(null);
 
-  // handling filtering of the searchQuery
+  // handling filtering of all courses
   const filteredCourses =
-    searchQuery === ""
+    searchQuery === "" && school
       ? []
       : courses?.filter((course: Record<string, any>) => {
           return course.data.courseTitle
@@ -83,7 +83,7 @@ const Search: React.FC<SearchProps> = ({
       }
       courseData = shuffleArray(courseData);
 
-      console.log("COURSE DATA: ", courseData[0].data);
+      console.log("COURSE DATA: ", courseData[0]);
 
       setCourses(courseData);
       setLoading(false);
@@ -110,40 +110,52 @@ const Search: React.FC<SearchProps> = ({
         </div>
       )}
 
-      {filteredCourses.length === 0 &&
+      {filteredCourses &&
+        filteredCourses.length === 0 &&
         searchQuery === "" &&
-        courses?.map((course: Record<string, any>) => {
-          return (
-            <SearchItem
-              key={course.id}
-              school={course.school}
-              subject={course.subject}
-              catalogNumber={course.data.catalogNumber}
-              section={course.data.section}
-              component={course.data.component}
-              courseTitle={course.data.courseTitle}
-              topic={course.data.topic}
-              color={getColorBySchool(course.school)}
-            />
-          );
-        })}
+        courses
+          ?.filter((course: Record<string, any>) => {
+            if (course.school === undefined || !school) return filteredCourses;
+            return course.school.includes(school.school);
+          })
+          .map((course: Record<string, any>) => {
+            return (
+              <SearchItem
+                key={course.id}
+                school={course.school}
+                subject={course.subject}
+                catalogNumber={course.data.catalogNumber}
+                section={course.data.section}
+                component={course.data.component}
+                courseTitle={course.data.courseTitle}
+                topic={course.data.topic}
+                color={getColorBySchool(course.school)}
+              />
+            );
+          })}
 
-      {filteredCourses.length > 0 &&
-        filteredCourses.map((course: Record<string, any>) => {
-          return (
-            <SearchItem
-              key={course.id}
-              school={course.school}
-              subject={course.subject}
-              catalogNumber={course.data.catalogNumber}
-              section={course.data.section}
-              component={course.data.component}
-              courseTitle={course.data.courseTitle}
-              topic={course.data.topic}
-              color={getColorBySchool(course.school)}
-            />
-          );
-        })}
+      {filteredCourses &&
+        filteredCourses.length > 0 &&
+        filteredCourses
+          .filter((course: Record<string, any>) => {
+            if (course.school === undefined || !school) return filteredCourses;
+            return course.school.includes(school.school);
+          })
+          .map((course: Record<string, any>) => {
+            return (
+              <SearchItem
+                key={course.id}
+                school={course.school}
+                subject={course.subject}
+                catalogNumber={course.data.catalogNumber}
+                section={course.data.section}
+                component={course.data.component}
+                courseTitle={course.data.courseTitle}
+                topic={course.data.topic}
+                color={getColorBySchool(course.school)}
+              />
+            );
+          })}
 
       {searchQuery !== "" && filteredCourses.length === 0 && (
         <p className="p-4 text-sm text-gray-500">No courses found.</p>
