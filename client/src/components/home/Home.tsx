@@ -857,6 +857,7 @@ const Home: React.FC = (): JSX.Element => {
                     school={selectedSchool}
                     termId={term.current}
                     searchQuery={searchQuery}
+                    view={calView ? "Calendar" : "Schedule"}
                   />
                 </section>
                 {/* SUPER BASIC ERROR LOCATION */}

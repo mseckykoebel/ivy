@@ -13,6 +13,7 @@ interface SearchProps {
   school: any | null;
   termId: string | null;
   searchQuery: string;
+  view: "Calendar" | "Schedule";
 }
 
 const Search: React.FC<SearchProps> = ({
@@ -21,6 +22,7 @@ const Search: React.FC<SearchProps> = ({
   school,
   termId,
   searchQuery,
+  view,
 }): JSX.Element => {
   // UI state
   const [loading, setLoading] = useState(false);
@@ -139,6 +141,7 @@ const Search: React.FC<SearchProps> = ({
                 courseTitle={course.data.courseTitle}
                 topic={course.data.topic}
                 color={getColorBySchool(course.school)}
+                view={view}
               />
             );
           })}
@@ -162,6 +165,7 @@ const Search: React.FC<SearchProps> = ({
                 courseTitle={course.data.courseTitle}
                 topic={course.data.topic}
                 color={getColorBySchool(course.school)}
+                view={view}
               />
             );
           })}

@@ -10,6 +10,7 @@ interface SearchItemProps {
   topic: string;
   // additional color prop
   color: string;
+  view: "Calendar" | "Schedule";
 }
 
 const SearchItem: React.FC<SearchItemProps> = ({
@@ -21,6 +22,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
   courseTitle,
   topic,
   color,
+  view,
 }): JSX.Element => {
   return (
     <div
@@ -45,6 +47,17 @@ const SearchItem: React.FC<SearchItemProps> = ({
           >
             {" "}
             View more details <span aria-hidden="true">&rarr;</span>
+          </button>
+        </div>
+        <div className="mt-3 text-sm">
+          <button
+            className="font-medium text-indigo-600 hover:text-indigo-500 hover:underline"
+            onClick={() =>
+              console.log("View more details on this course was requested!")
+            }
+          >
+            {" "}
+            Add to {view} <span aria-hidden="true">&rarr;</span>
           </button>
         </div>
       </div>
