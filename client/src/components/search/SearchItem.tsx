@@ -21,6 +21,7 @@ interface SearchItemProps {
   // course detail (light prop drilling here)
   courseDetail: CourseDetail | null;
   setCourseDetail: Dispatch<SetStateAction<CourseDetail | null>>;
+  setOpenDetailModal: Dispatch<SetStateAction<boolean>>;
 }
 const SearchItem: React.FC<SearchItemProps> = ({
   termId,
@@ -39,6 +40,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
   setCalendarCourses,
   courseDetail,
   setCourseDetail,
+  setOpenDetailModal,
 }): JSX.Element => {
   // error state - just works with
   const [error, setError] = useState("");
@@ -86,7 +88,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
       subject: subject,
       courseNumber: courseNumber,
     }));
-    console.log("COURSE DETAIL: ", courseDetail);
+    setOpenDetailModal(() => true);
   };
 
   return (

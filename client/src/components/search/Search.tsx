@@ -21,6 +21,7 @@ interface SearchProps {
   // course detail (light prop drilling here)
   courseDetail: CourseDetail | null;
   setCourseDetail: Dispatch<SetStateAction<CourseDetail | null>>;
+  setOpenDetailModal: Dispatch<SetStateAction<boolean>>;
 }
 
 const Search: React.FC<SearchProps> = ({
@@ -34,6 +35,7 @@ const Search: React.FC<SearchProps> = ({
   setCalendarCourses,
   courseDetail,
   setCourseDetail,
+  setOpenDetailModal,
 }): JSX.Element => {
   // UI state
   const [loading, setLoading] = useState(false);
@@ -161,6 +163,7 @@ const Search: React.FC<SearchProps> = ({
                 // bad prop drilling
                 courseDetail={courseDetail}
                 setCourseDetail={setCourseDetail}
+                setOpenDetailModal={setOpenDetailModal}
               />
             );
           })}
@@ -193,6 +196,7 @@ const Search: React.FC<SearchProps> = ({
                 // bad prop drilling
                 courseDetail={courseDetail}
                 setCourseDetail={setCourseDetail}
+                setOpenDetailModal={setOpenDetailModal}
               />
             );
           })}

@@ -893,6 +893,7 @@ const Home: React.FC = (): JSX.Element => {
                     // bad prop drilling - fetch currently selected course from course details
                     courseDetail={courseDetail}
                     setCourseDetail={setCourseDetail}
+                    setOpenDetailModal={setOpenDetailModal}
                   />
                 </section>
                 {/* SUPER BASIC ERROR LOCATION */}
