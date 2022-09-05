@@ -419,8 +419,13 @@ const Home: React.FC = (): JSX.Element => {
                           <button
                             key={item.name}
                             className={classNames(
-                              calView === true ? "text-white" : "text-white",
-                              "text-sm font-medium rounded-md bg-white bg-opacity-0 px-3 py-2 hover:bg-opacity-10"
+                              calView === true && item.name === "Calendar view"
+                                ? "bg-white/10 text-white"
+                                : calView === false &&
+                                  item.name === "Schedule view"
+                                ? "bg-white/10 text-white"
+                                : "text-white",
+                              "text-sm font-medium rounded-md  bg-opacity-0 px-3 py-2 hover:bg-opacity-10"
                             )}
                             aria-current={item.name ? "page" : undefined}
                             onClick={() =>

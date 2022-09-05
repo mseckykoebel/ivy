@@ -8,7 +8,7 @@ interface CalendarProps {
 
 const Calendar: React.FC<CalendarProps> = ({
   calendarCourses,
-  setCalendarCourses,
+  setCalendarCourses, // for when you need to remove an item from the calendar
 }): JSX.Element => {
   // again, shitty
   const container: React.MutableRefObject<HTMLDivElement | null> = useRef(null);
@@ -17,7 +17,7 @@ const Calendar: React.FC<CalendarProps> = ({
   const containerOffset: React.MutableRefObject<HTMLDivElement | null> =
     useRef(null);
   // the height of the calendar in REM
-  const calHeight = 2.0;
+  const calHeight = 2.1;
 
   useEffect(() => {
     // Set the container scroll position based on the current time.
@@ -32,7 +32,9 @@ const Calendar: React.FC<CalendarProps> = ({
 
   // keeping tabs on the calendar courses being changed (won't be needed soon)
   useEffect(() => {
-    console.log("CURRENT CALENDAR COURSE LIST", calendarCourses);
+    !calendarCourses
+      ? ""
+      : console.log("CURRENT CALENDAR COURSE LIST", calendarCourses);
   }, [calendarCourses]);
 
   return (
@@ -129,10 +131,16 @@ const Calendar: React.FC<CalendarProps> = ({
               <div
                 className="col-start-1 col-end-2 row-start-1 grid divide-y divide-gray-100"
                 style={{
-                  gridTemplateRows: `repeat(19, minmax(${calHeight}rem, 1fr))`,
+                  gridTemplateRows: `repeat(29, minmax(${calHeight}rem, 1fr))`,
                 }}
               >
                 <div ref={containerOffset} className="row-end-1 h-5"></div>
+                <div>
+                  <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                    8AM
+                  </div>
+                </div>
+                <div />
                 <div>
                   <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
                     9AM
@@ -193,6 +201,29 @@ const Calendar: React.FC<CalendarProps> = ({
                   </div>
                 </div>
                 <div />
+                <div>
+                  <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                    7PM
+                  </div>
+                </div>
+                <div />
+                <div>
+                  <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                    8PM
+                  </div>
+                </div>
+                <div />
+                <div>
+                  <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                    9PM
+                  </div>
+                </div>
+                <div />
+                <div>
+                  <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                    10PM
+                  </div>
+                </div>
               </div>
 
               {/* Vertical lines on the calendar */}
@@ -221,7 +252,7 @@ const Calendar: React.FC<CalendarProps> = ({
               >
                 <li
                   className="relative mt-px flex sm:col-start-3"
-                  style={{ gridRow: "21 / span 30" }}
+                  style={{ gridRow: "4 / span 30" }}
                 >
                   <a
                     href="/"
