@@ -1,3 +1,4 @@
+import { XIcon } from "@heroicons/react/outline";
 import React, { Dispatch, SetStateAction, useEffect, useRef } from "react";
 import { CalendarCourse } from "../../types/courses";
 
@@ -254,33 +255,24 @@ const Calendar: React.FC<CalendarProps> = ({
                   className="relative mt-px flex sm:col-start-3"
                   style={{ gridRow: "4 / span 30" }}
                 >
-                  <a
-                    href="/"
-                    className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-pink-50 p-2 text-xs leading-5 hover:bg-pink-100"
-                  >
+                  <div className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-pink-50 p-2 text-xs leading-5 hover:bg-pink-100">
+                    <div className="absolute top-1 right-1 hidden pt-1 pr-1 sm:block">
+                      <button
+                        type="button"
+                        className="rounded-md bg-none text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+                        onClick={() => console.log("Removed this course")}
+                      >
+                        <span className="sr-only">Close</span>
+                        <XIcon className="h-4 w-4" aria-hidden="true" />
+                      </button>
+                    </div>
                     <p className="order-1 font-semibold text-pink-700">
                       CS 211
                     </p>
                     <p className="text-pink-500 group-hover:text-pink-700">
                       <time dateTime="2022-01-12T07:30">12:00pm</time>
                     </p>
-                  </a>
-                </li>
-                <li
-                  className="relative mt-px flex sm:col-start-4"
-                  style={{ gridRow: "130 / span 64" }}
-                >
-                  <a
-                    href="/"
-                    className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-blue-50 p-2 text-xs leading-5 hover:bg-blue-100"
-                  >
-                    <p className="order-1 font-semibold text-blue-700">
-                      CS 111
-                    </p>
-                    <p className="text-blue-500 group-hover:text-blue-700">
-                      <time dateTime="2022-01-12T06:00">1:00 PM</time>
-                    </p>
-                  </a>
+                  </div>
                 </li>
               </ol>
               {/* END OF RENDERING EVENTS ON THE CALENDAR */}
