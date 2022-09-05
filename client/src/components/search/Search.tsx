@@ -1,11 +1,12 @@
 /* eslint-disable indent */
 // ^ IDEK
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Dispatch, SetStateAction } from "react";
 import SearchItem from "./SearchItem";
 import fetch from "cross-fetch";
 
 import { shuffleArray } from "../../lib/randomizeList";
 import { getColorBySchool } from "../../lib/getColorBySchool";
+import { CalendarCourse } from "../../types/courses";
 
 interface SearchProps {
   year: string | undefined;
@@ -14,6 +15,9 @@ interface SearchProps {
   termId: string | null;
   searchQuery: string;
   view: "Calendar" | "Schedule";
+  // calendar (light prop drilling here)
+  calendarCourses: CalendarCourse[] | null;
+  setCalendarCourses: Dispatch<SetStateAction<CalendarCourse[] | null>>;
 }
 
 const Search: React.FC<SearchProps> = ({
@@ -23,6 +27,8 @@ const Search: React.FC<SearchProps> = ({
   termId,
   searchQuery,
   view,
+  calendarCourses,
+  setCalendarCourses,
 }): JSX.Element => {
   // UI state
   const [loading, setLoading] = useState(false);
@@ -144,6 +150,8 @@ const Search: React.FC<SearchProps> = ({
                 classMeetingInfo={course.data.classMeetingInfo}
                 color={getColorBySchool(course.school)}
                 view={view}
+                calendarCourses={calendarCourses}
+                setCalendarCourses={setCalendarCourses}
               />
             );
           })}
@@ -170,6 +178,8 @@ const Search: React.FC<SearchProps> = ({
                 classMeetingInfo={course.data.classMeetingInfo}
                 courseNumber={course.data.courseNumber}
                 view={view}
+                calendarCourses={calendarCourses}
+                setCalendarCourses={setCalendarCourses}
               />
             );
           })}

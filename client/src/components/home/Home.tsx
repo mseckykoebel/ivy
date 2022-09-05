@@ -19,6 +19,7 @@ import Search from "../search/Search";
 import { ProfilePicture } from "../profilePicture/ProfilePicture";
 // API
 import fetch from "cross-fetch";
+import { CalendarCourse } from "../../types/courses";
 
 const navigation = [{ name: "Calendar view" }, { name: "Schedule view" }];
 
@@ -58,6 +59,14 @@ const Home: React.FC = (): JSX.Element => {
   const term = useRef(null); // handles termId globally
   // searching
   const [searchQuery, setSearchQuery] = useState<string>("");
+  // calendar (array of courses that the UI figures out how to deal with)
+  const [calendarCourses, setCalendarCourses] = useState<
+    CalendarCourse[] | null
+  >(null);
+  // schedule (array of courses that the UI figures out how to deal with)
+  const [scheduleCourses, setScheduleCourses] = useState<
+    Record<string, string>[] | null
+  >(null);
 
   // for years and quarters
   useEffect(() => {
@@ -857,6 +866,8 @@ const Home: React.FC = (): JSX.Element => {
                     school={selectedSchool}
                     termId={term.current}
                     searchQuery={searchQuery}
+                    calendarCourses={calendarCourses}
+                    setCalendarCourses={setCalendarCourses}
                     view={calView ? "Calendar" : "Schedule"}
                   />
                 </section>

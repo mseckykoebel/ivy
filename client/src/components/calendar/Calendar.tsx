@@ -218,7 +218,7 @@ const Calendar: React.FC = (): JSX.Element => {
                 </li>
                 <li
                   className="relative mt-px flex sm:col-start-3"
-                  style={{ gridRow: "92 / span 30" }}
+                  style={{ gridRow: "88 / span 32" }}
                 >
                   <a
                     href="/"

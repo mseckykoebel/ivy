@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+import React, { Dispatch, SetStateAction, useState } from "react";
+import { CalendarCourse } from "../../types/courses";
 
 interface SearchItemProps {
   school: string;
@@ -13,8 +14,11 @@ interface SearchItemProps {
   color: string;
   classMeetingInfo: Record<string, string>[] | null;
   view: "Calendar" | "Schedule";
+  // calendar (light prop drilling here)
+  // calendar
+  calendarCourses: CalendarCourse[] | null;
+  setCalendarCourses: Dispatch<SetStateAction<CalendarCourse[] | null>>;
 }
-
 const SearchItem: React.FC<SearchItemProps> = ({
   school,
   subject,
@@ -27,7 +31,47 @@ const SearchItem: React.FC<SearchItemProps> = ({
   classMeetingInfo,
   color,
   view,
+  calendarCourses,
+  setCalendarCourses,
 }): JSX.Element => {
+  // error state - just works with
+  const [error, setError] = useState("");
+
+  const handleViewClick = () => {
+    console.log("CURRENT CALENDAR COURSE LIST: ", calendarCourses);
+    if (!calendarCourses) {
+      setCalendarCourses([
+        {
+          courseNumber: courseNumber,
+          school: school,
+          section: section,
+        },
+      ]);
+      return;
+    }
+    // see if this course is in the calendarCourses already. If not, add it
+    for (let i = 0; i < calendarCourses.length; i++) {
+      if (calendarCourses[i].courseNumber === courseNumber) {
+        setError("Course already present!");
+        setTimeout(() => {
+          setError("");
+        }, 3000);
+        return;
+      }
+    }
+    // update things - this is not present
+    const newCourseList = calendarCourses as CalendarCourse[];
+    newCourseList.push({
+      courseNumber: courseNumber,
+      school: school,
+      section: section,
+    });
+
+    setCalendarCourses(newCourseList);
+
+    return;
+  };
+
   return (
     <div
       className={`${color} shadow sm:rounded-lg mb-4 m-4 hover:scale-[101%] transition-all hover:cursor-pointer`}
@@ -59,12 +103,16 @@ const SearchItem: React.FC<SearchItemProps> = ({
             <button
               // disable
               className="font-medium text-indigo-600 hover:text-indigo-500 hover:underline"
-              onClick={() => console.log(classMeetingInfo)}
+              onClick={() => handleViewClick()}
             >
               {" "}
               Add to {view} <span aria-hidden="true">&rarr;</span>
             </button>
           )}
+        </div>
+        {/* If there were any errors */}
+        <div className="mt-2 max-w-xl text-sm text-gray-500">
+          {error && <p>Error: {error}</p>}
         </div>
       </div>
     </div>

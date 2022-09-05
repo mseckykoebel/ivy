@@ -15,5 +15,13 @@ type UndergraduateCourseDetail = {
   topic: string;
 };
 
+// this is a sub-type of a Course just for being displayed in the calendar UI
+// lots of props are not needed
+export interface CalendarCourse {
+  courseNumber: string;
+  school: string;
+  section: string;
+}
+
 // bless
 export type UndergraduateCourseDetails = Record<string, unknown>;
