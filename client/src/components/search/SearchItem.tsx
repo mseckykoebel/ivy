@@ -1,7 +1,8 @@
 import React, { Dispatch, SetStateAction, useState } from "react";
-import { CalendarCourse } from "../../types/courses";
+import { CalendarCourse, CourseDetail } from "../../types/courses";
 
 interface SearchItemProps {
+  termId: string;
   school: string;
   subject: string;
   catalogNumber: string;
@@ -15,11 +16,14 @@ interface SearchItemProps {
   classMeetingInfo: Record<string, string>[] | null;
   view: "Calendar" | "Schedule";
   // calendar (light prop drilling here)
-  // calendar
   calendarCourses: CalendarCourse[] | null;
   setCalendarCourses: any;
+  // course detail (light prop drilling here)
+  courseDetail: CourseDetail | null;
+  setCourseDetail: Dispatch<SetStateAction<CourseDetail | null>>;
 }
 const SearchItem: React.FC<SearchItemProps> = ({
+  termId,
   school,
   subject,
   catalogNumber,
@@ -33,6 +37,8 @@ const SearchItem: React.FC<SearchItemProps> = ({
   view,
   calendarCourses,
   setCalendarCourses,
+  courseDetail,
+  setCourseDetail,
 }): JSX.Element => {
   // error state - just works with
   const [error, setError] = useState("");
@@ -73,6 +79,16 @@ const SearchItem: React.FC<SearchItemProps> = ({
     return;
   };
 
+  const handleDetailClick = () => {
+    setCourseDetail(() => ({
+      termId: termId,
+      school: school,
+      subject: subject,
+      courseNumber: courseNumber,
+    }));
+    console.log("COURSE DETAIL: ", courseDetail);
+  };
+
   return (
     <div
       className={`${color} shadow sm:rounded-lg mb-4 m-4 hover:scale-[101%] transition-all hover:cursor-pointer`}
@@ -91,9 +107,10 @@ const SearchItem: React.FC<SearchItemProps> = ({
         <div className="mt-3 text-sm">
           <button
             className="font-medium text-indigo-600 hover:text-indigo-500 hover:underline"
-            onClick={() =>
-              console.log("View more details on this course was requested!")
-            }
+            onClick={() => {
+              console.log("View more details on this course was requested!");
+              handleDetailClick();
+            }}
           >
             {" "}
             View more details <span aria-hidden="true">&rarr;</span>

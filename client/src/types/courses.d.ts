@@ -23,5 +23,12 @@ export interface CalendarCourse {
   section: string;
 }
 
+export interface CourseDetail {
+  termId: string;
+  school: string;
+  subject: string;
+  courseNumber: string;
+}
+
 // bless
 export type UndergraduateCourseDetails = Record<string, unknown>;

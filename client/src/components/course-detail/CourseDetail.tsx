@@ -5,7 +5,6 @@ import React, {
   SetStateAction,
   useEffect,
   useState,
-  useRef,
 } from "react";
 
 interface CourseDetailProps {

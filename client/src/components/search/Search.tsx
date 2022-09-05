@@ -6,7 +6,7 @@ import fetch from "cross-fetch";
 
 import { shuffleArray } from "../../lib/randomizeList";
 import { getColorBySchool } from "../../lib/getColorBySchool";
-import { CalendarCourse } from "../../types/courses";
+import { CalendarCourse, CourseDetail } from "../../types/courses";
 
 interface SearchProps {
   year: string | undefined;
@@ -18,6 +18,9 @@ interface SearchProps {
   // calendar (light prop drilling here)
   calendarCourses: CalendarCourse[] | null;
   setCalendarCourses: any;
+  // course detail (light prop drilling here)
+  courseDetail: CourseDetail | null;
+  setCourseDetail: Dispatch<SetStateAction<CourseDetail | null>>;
 }
 
 const Search: React.FC<SearchProps> = ({
@@ -29,6 +32,8 @@ const Search: React.FC<SearchProps> = ({
   view,
   calendarCourses,
   setCalendarCourses,
+  courseDetail,
+  setCourseDetail,
 }): JSX.Element => {
   // UI state
   const [loading, setLoading] = useState(false);
@@ -139,6 +144,7 @@ const Search: React.FC<SearchProps> = ({
             return (
               <SearchItem
                 key={course.data.courseNumber}
+                termId={termId as string}
                 school={course.school}
                 subject={course.subject}
                 catalogNumber={course.data.catalogNumber}
@@ -152,6 +158,9 @@ const Search: React.FC<SearchProps> = ({
                 view={view}
                 calendarCourses={calendarCourses}
                 setCalendarCourses={setCalendarCourses}
+                // bad prop drilling
+                courseDetail={courseDetail}
+                setCourseDetail={setCourseDetail}
               />
             );
           })}
@@ -167,6 +176,7 @@ const Search: React.FC<SearchProps> = ({
             return (
               <SearchItem
                 key={course.id}
+                termId={termId as string}
                 school={course.school}
                 subject={course.subject}
                 catalogNumber={course.data.catalogNumber}
@@ -180,6 +190,9 @@ const Search: React.FC<SearchProps> = ({
                 view={view}
                 calendarCourses={calendarCourses}
                 setCalendarCourses={setCalendarCourses}
+                // bad prop drilling
+                courseDetail={courseDetail}
+                setCourseDetail={setCourseDetail}
               />
             );
           })}
