@@ -54,6 +54,7 @@ const getUndergraduateCourses = async (
               component: classDescriptions[i].COMPONENT,
               courseTitle: classDescriptions[i].COURSE_TITLE,
               topic: classDescriptions[i].TOPIC,
+              courseNumber: classDescriptions[i].CLASS_NBR,
               classMeetingInfo: classDescriptions[i].CLASS_MTG_INFO
                 ? classDescriptions[i].CLASS_MTG_INFO?.filter(
                     (info: Record<string, string>) =>

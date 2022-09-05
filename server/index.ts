@@ -240,9 +240,9 @@ app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
   const termId = req.query.termId as string;
   const cache = db(Number(termId));
   // see if we can cache the results
-  // if (termId && cache !== null) {
-  //   return res.json(cache);
-  // }
+  if (termId && cache !== null) {
+    return res.json(cache);
+  }
   // go into the depths of hell
   try {
     const result = (await getUndergraduateSchools(
