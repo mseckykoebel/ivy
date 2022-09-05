@@ -256,9 +256,8 @@ app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
     for (let i = 0; i < result.data.length; i++) {
       schools.push(result.data[i].school);
     }
-    // now we have the list of schools...
-    // NIPPLES
-    console.log("NIPPLES");
+
+    // we now have the list of schools
 
     // adding promises
     for (let i = 0; i < schools.length; i++) {
@@ -313,8 +312,8 @@ app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
           "There was some kind of error with fetching courses: ",
           err
         );
-        res.status(500).send({
-          error: 500,
+        res.status(404).send({
+          error: 404,
           message: err,
         });
       }
@@ -330,7 +329,7 @@ app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
       });
     }
   } catch (err) {
-    console.log("Error fetching schools: ", err);
+    console.log("Error fetching courses: ", err);
     res.status(500).send({
       error: 500,
       message: err,
