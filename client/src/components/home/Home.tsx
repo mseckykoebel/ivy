@@ -292,7 +292,7 @@ const Home: React.FC = (): JSX.Element => {
         <body class="h-full">
         ```
       */}
-      <div className="min-h-full">
+      <div className="min-h-full bg-green-50">
         {/* MODALS */}
         {openSettingsModal && (
           <Settings
@@ -311,7 +311,7 @@ const Home: React.FC = (): JSX.Element => {
           />
         )}
         {/* REST OF THE COMPONENT */}
-        <Popover as="header" className="pb-24 bg-green-500">
+        <Popover as="header" className="pb-24 bg-green-600">
           {({ open }) => (
             <>
               <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
