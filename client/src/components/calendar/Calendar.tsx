@@ -125,10 +125,9 @@ const Calendar: React.FC<CalendarProps> = ({
           <div className="flex flex-auto">
             <div className="sticky left-0 z-10 w-14 flex-none bg-white ring-1 ring-gray-100" />
             <div className="grid flex-auto grid-cols-1 grid-rows-1">
-              {/* Horizontal lines on the calendar */}
-              {/* Horizontal lines on the calendar */}
-              {/* Horizontal lines on the calendar */}
-              {/* Horizontal lines on the calendar */}
+              {/* HORIZONTAL LINES ON CALENDAR */}
+              {/* HORIZONTAL LINES ON CALENDAR */}
+              {/* HORIZONTAL LINES ON CALENDAR */}
               <div
                 className="col-start-1 col-end-2 row-start-1 grid divide-y divide-gray-100"
                 style={{
@@ -227,10 +226,10 @@ const Calendar: React.FC<CalendarProps> = ({
                 </div>
               </div>
 
-              {/* Vertical lines on the calendar */}
-              {/* Vertical lines on the calendar */}
-              {/* Vertical lines on the calendar */}
-              {/* Vertical lines on the calendar */}
+              {/* VERTICAL LINES ON CALENDAR */}
+              {/* VERTICAL LINES ON CALENDAR */}
+              {/* VERTICAL LINES ON CALENDAR */}
+
               <div className="col-start-1 col-end-2 row-start-1 hidden grid-cols-5 grid-rows-1 divide-x divide-gray-100 sm:grid sm:grid-cols-5">
                 <div className="col-start-1 row-span-full" />
                 <div className="col-start-2 row-span-full" />
@@ -240,10 +239,9 @@ const Calendar: React.FC<CalendarProps> = ({
                 <div className="col-start-6 row-span-full w-8" />
               </div>
 
-              {/* START OF RENDERING EVENTS ON THE CALENDAR */}
-              {/* START OF RENDERING EVENTS ON THE CALENDAR */}
-              {/* START OF RENDERING EVENTS ON THE CALENDAR */}
-              {/* START OF RENDERING EVENTS ON THE CALENDAR */}
+              {/* EVENTS BEING RENDERED ON CALENDAR */}
+              {/* EVENTS BEING RENDERED ON CALENDAR */}
+              {/* EVENTS BEING RENDERED ON CALENDAR */}
 
               <ol
                 className="col-start-1 col-end-2 row-start-1 grid grid-cols-1 sm:grid-cols-5 sm:pr-8"
@@ -253,7 +251,7 @@ const Calendar: React.FC<CalendarProps> = ({
               >
                 <li
                   className="relative mt-px flex sm:col-start-3"
-                  style={{ gridRow: "4 / span 30" }}
+                  style={{ gridRow: "259 / span 30" }}
                 >
                   <div className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-pink-50 p-2 text-xs leading-5 hover:bg-pink-100">
                     <div className="absolute top-1 right-1 hidden pt-1 pr-1 sm:block">
