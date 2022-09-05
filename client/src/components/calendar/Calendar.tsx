@@ -251,7 +251,7 @@ const Calendar: React.FC<CalendarProps> = ({
               >
                 <li
                   className="relative mt-px flex sm:col-start-3"
-                  style={{ gridRow: "259 / span 30" }}
+                  style={{ gridRow: "4 / span 30" }}
                 >
                   <div className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-pink-50 p-2 text-xs leading-5 hover:bg-pink-100">
                     <div className="absolute top-1 right-1 hidden pt-1 pr-1 sm:block">

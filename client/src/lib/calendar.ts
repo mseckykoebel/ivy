@@ -335,8 +335,38 @@ const getStartingTimeMap = (startingTime: StartingTime): string => {
   }
 };
 
-const getCourseLengthMap = (courseLength: string) => {};
+// ASSUMING THAT EVERY COURSE IS AT LEAST 50 MINUTES! Default to 50 minutes
+const getCourseLengthMap = (courseLength: string): string => {
+  const lengthOfTimeInMinutes = getLengthOfTime(courseLength);
+  switch (lengthOfTimeInMinutes) {
+    case 50:
+      return " span 30";
+    default:
+      return " span 30";
+  }
+};
 
 const getCourseDaysMap = (courseDays: string) => {};
+
+const getLengthOfTime = (timeFrame: string): number => {
+  const splitTime = timeFrame.split(" ");
+
+  let startTime = splitTime[1].slice(0, -2);
+  let endTime = splitTime[3].slice(0, -2);
+
+  const startTimeSuffix = splitTime[1].slice(-2);
+  const endTimeSuffix = splitTime[3].slice(-2);
+
+  startTime = startTime.split(":") as unknown as string;
+  startTime = (+startTime[0] * 60 + +startTime[1]) as unknown as string;
+  endTime = endTime.split(":") as unknown as string;
+  endTime = (+endTime[0] * 60 + +endTime[1]) as unknown as string;
+
+  // convert start time to hours since 12 AM
+  if (startTimeSuffix === "PM") startTime = startTime + 12 * 60;
+  if (endTimeSuffix === "PM") endTime = endTime + 12 * 60;
+
+  return Number(endTime) - Number(startTime);
+};
 
 export { getStartingTimeMap, getCourseLengthMap, getCourseDaysMap };
