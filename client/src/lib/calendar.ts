@@ -338,6 +338,7 @@ const getStartingTimeMap = (courseDays: StartingTime): string => {
     case "9:55PM":
       return "277/ ";
     default:
+      console.log("Triggering the default startingTime state");
       return "1/ "; // defaults to the top of the calendar
   }
 };

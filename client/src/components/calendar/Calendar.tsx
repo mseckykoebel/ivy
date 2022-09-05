@@ -14,7 +14,7 @@ import {
 
 interface CalendarProps {
   calendarCourses: CalendarCourse[] | null;
-  setCalendarCourses: Dispatch<SetStateAction<CalendarCourse[] | null>>;
+  setCalendarCourses: Dispatch<SetStateAction<CalendarCourse[] | []>>;
 }
 
 const Calendar: React.FC<CalendarProps> = ({
@@ -44,7 +44,7 @@ const Calendar: React.FC<CalendarProps> = ({
   // keeping tabs on the calendar courses being changed (won't be needed soon)
   useEffect(() => {
     console.log("COURSES!", calendarCourses);
-    if (calendarCourses) {
+    if (calendarCourses && calendarCourses.length > 0) {
       // ONE
       console.log(
         "THIS IS HOW LONG THIS COURSE IS: ",
@@ -66,6 +66,30 @@ const Calendar: React.FC<CalendarProps> = ({
       );
     }
   }, [calendarCourses]);
+
+  const handleRemoveCourse = (courseId: string) => {
+    const courseIndexToBeRemoved = (
+      calendarCourses as CalendarCourse[]
+    ).findIndex((course) => {
+      return course.courseNumber === courseId;
+    });
+    console.log("REMOVED: ", courseIndexToBeRemoved);
+
+    const newData = (calendarCourses as CalendarCourse[]).splice(
+      courseIndexToBeRemoved,
+      1
+    );
+
+    const updateCalendarCourses = () => {
+      setCalendarCourses((currentCourses: CalendarCourse[]) =>
+        currentCourses.filter((course) => {
+          return course.courseNumber !== courseId;
+        })
+      );
+    };
+
+    updateCalendarCourses();
+  };
 
   return (
     <div className="flex h-full flex-col z-2">
@@ -278,31 +302,37 @@ const Calendar: React.FC<CalendarProps> = ({
                   gridTemplateRows: ".45rem repeat(288, minmax(0, 1fr)) auto",
                 }}
               >
-                {calendarCourses && (
-                  <li
-                    className="relative mt-px flex sm:col-start-3"
-                    style={{ gridRow: "4 / span 82" }}
-                  >
-                    <div className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-pink-50 p-2 text-xs leading-5 hover:bg-pink-100">
-                      <div className="absolute top-1 right-1 hidden pt-1 pr-1 sm:block">
-                        <button
-                          type="button"
-                          className="rounded-md bg-none text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
-                          onClick={() => console.log("Removed this course")}
-                        >
-                          <span className="sr-only">Close</span>
-                          <XIcon className="h-4 w-4" aria-hidden="true" />
-                        </button>
-                      </div>
-                      <p className="order-1 font-semibold text-pink-700">
-                        CS 211
-                      </p>
-                      <p className="text-pink-500 group-hover:text-pink-700">
-                        <time dateTime="2022-01-12T07:30">12:00pm</time>
-                      </p>
-                    </div>
-                  </li>
-                )}
+                {calendarCourses &&
+                  calendarCourses.map((course) => {
+                    return (
+                      <li
+                        key={course.courseNumber}
+                        className="relative mt-px flex sm:col-start-3"
+                        style={{ gridRow: "4 / span 82" }}
+                      >
+                        <div className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-pink-50 p-2 text-xs leading-5 hover:bg-pink-100">
+                          <div className="absolute top-1 right-1 hidden pt-1 pr-1 sm:block">
+                            <button
+                              type="button"
+                              className="rounded-md bg-none text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+                              onClick={() =>
+                                handleRemoveCourse(course.courseNumber)
+                              }
+                            >
+                              <span className="sr-only">Close</span>
+                              <XIcon className="h-4 w-4" aria-hidden="true" />
+                            </button>
+                          </div>
+                          <p className="order-1 font-semibold text-pink-700">
+                            CS 211
+                          </p>
+                          <p className="text-pink-500 group-hover:text-pink-700">
+                            <time dateTime="2022-01-12T07:30">12:00pm</time>
+                          </p>
+                        </div>
+                      </li>
+                    );
+                  })}
               </ol>
               {/* END OF RENDERING EVENTS ON THE CALENDAR */}
               {/* END OF RENDERING EVENTS ON THE CALENDAR */}

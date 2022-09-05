@@ -62,9 +62,9 @@ const Home: React.FC = (): JSX.Element => {
   // searching
   const [searchQuery, setSearchQuery] = useState<string>("");
   // calendar (array of courses that the UI figures out how to deal with)
-  const [calendarCourses, setCalendarCourses] = useState<
-    CalendarCourse[] | null
-  >(null);
+  const [calendarCourses, setCalendarCourses] = useState<CalendarCourse[] | []>(
+    []
+  );
   // schedule (array of courses that the UI figures out how to deal with)
   // const [scheduleCourses, setScheduleCourses] = useState<
   //   Record<string, string>[] | null

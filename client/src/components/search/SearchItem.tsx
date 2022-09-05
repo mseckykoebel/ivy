@@ -17,7 +17,7 @@ interface SearchItemProps {
   classMeetingInfo: { ROOM: string; MEETING_TIME: string }[] | [] | null;
   view: "Calendar" | "Schedule";
   // calendar (light prop drilling here)
-  calendarCourses: CalendarCourse[] | null;
+  calendarCourses: CalendarCourse[] | [];
   setCalendarCourses: any;
   // course detail (light prop drilling here)
   courseDetail: CourseDetail | null;
