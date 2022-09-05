@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-function */
 /* eslint-disable indent */
 // The above is stupid but it's getting messed up with prettier
 import { Fragment, useEffect, useRef, useState } from "react";

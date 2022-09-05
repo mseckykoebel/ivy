@@ -407,4 +407,14 @@ const getCourseDays = (timeFrame: string): ColStartClasses[] => {
   return days;
 };
 
-export { getStartingTimeMap, getCourseLengthMap, getCourseDaysMap };
+const getCourseDaysJustDays = (timeFrame: string): string => {
+  const splitTime = timeFrame.split(" ");
+  return splitTime[0];
+};
+
+export {
+  getStartingTimeMap,
+  getCourseLengthMap,
+  getCourseDaysMap,
+  getCourseDaysJustDays,
+};

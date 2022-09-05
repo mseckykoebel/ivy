@@ -2,7 +2,13 @@
 /* eslint-disable indent */
 // ^ yeah
 import { XIcon } from "@heroicons/react/outline";
-import React, { Dispatch, SetStateAction, useEffect, useRef } from "react";
+import React, {
+  Dispatch,
+  SetStateAction,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import { CalendarCourse } from "../../types/courses";
 
 // helpers
@@ -10,10 +16,11 @@ import {
   getStartingTimeMap,
   getCourseLengthMap,
   getCourseDaysMap,
+  getCourseDaysJustDays,
 } from "../../lib/calendar";
 
 interface CalendarProps {
-  calendarCourses: CalendarCourse[] | null;
+  calendarCourses: CalendarCourse[] | [];
   setCalendarCourses: Dispatch<SetStateAction<CalendarCourse[] | []>>;
 }
 
@@ -29,6 +36,10 @@ const Calendar: React.FC<CalendarProps> = ({
     useRef(null);
   // the height of the calendar in REM
   const calHeight = 2.1;
+  // state (these are the courses that we are going to loop through)
+  const [renderedCourses, setRenderedCourses] = useState<CalendarCourse[] | []>(
+    []
+  );
 
   useEffect(() => {
     // Set the container scroll position based on the current time.
@@ -41,8 +52,32 @@ const Calendar: React.FC<CalendarProps> = ({
       1440;
   }, []);
 
-  // keeping tabs on the calendar courses being changed (won't be needed soon)
+  // updates the UI based on the courses present in the courses array
   useEffect(() => {
+    const renderedCourses: CalendarCourse[] = [];
+    // update the courses that are being rendered
+    for (let i = 0; i < calendarCourses.length; i++) {
+      // meeting info is going to be defined
+      for (let j = 0; j < calendarCourses[i].classMeetingInfo!.length; j++) {
+        console.log("IN HERE!");
+        const tempCourse = calendarCourses[i];
+        tempCourse.classMeetingInfo = [tempCourse.classMeetingInfo![j]];
+        const replace = getCourseDaysMap(
+          tempCourse.classMeetingInfo[j].MEETING_TIME
+        );
+        for (let k = 0; k < replace.length; k++) {
+          if (replace.length === 1) {
+            tempCourse.classMeetingInfo[j].MEETING_TIME =
+              tempCourse.classMeetingInfo[j].MEETING_TIME.replace(
+                new RegExp(replace[0]),
+                ""
+              );
+          }
+        }
+        renderedCourses.push(tempCourse);
+      }
+    }
+    console.log("RENDERED COURSES: ", renderedCourses);
     console.log("COURSES!", calendarCourses);
     if (calendarCourses && calendarCourses.length > 0) {
       // ONE
@@ -65,6 +100,7 @@ const Calendar: React.FC<CalendarProps> = ({
         getCourseDaysMap(calendarCourses![0].classMeetingInfo![0].MEETING_TIME)
       );
     }
+    //
   }, [calendarCourses]);
 
   const handleRemoveCourse = (courseId: string) => {
