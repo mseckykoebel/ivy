@@ -293,7 +293,7 @@ const Home: React.FC = (): JSX.Element => {
           />
         )}
         {/* REST OF THE COMPONENT */}
-        <Popover as="header" className="pb-24 bg-green-600">
+        <Popover as="header" className="pb-24 bg-green-500">
           {({ open }) => (
             <>
               <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">

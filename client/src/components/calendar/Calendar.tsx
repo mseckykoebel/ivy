@@ -212,31 +212,16 @@ const Calendar: React.FC<CalendarProps> = ({
               {/* START OF RENDERING EVENTS ON THE CALENDAR */}
               {/* START OF RENDERING EVENTS ON THE CALENDAR */}
               {/* START OF RENDERING EVENTS ON THE CALENDAR */}
+
               <ol
                 className="col-start-1 col-end-2 row-start-1 grid grid-cols-1 sm:grid-cols-5 sm:pr-8"
                 style={{
-                  gridTemplateRows: "1.75rem repeat(288, minmax(0, 1fr)) auto",
+                  gridTemplateRows: ".45rem repeat(288, minmax(0, 1fr)) auto",
                 }}
               >
                 <li
                   className="relative mt-px flex sm:col-start-3"
-                  style={{ gridRow: "130 / span 40" }}
-                >
-                  <a
-                    href="/"
-                    className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-blue-50 p-2 text-xs leading-5 hover:bg-blue-100"
-                  >
-                    <p className="order-1 font-semibold text-blue-700">
-                      CS 111
-                    </p>
-                    <p className="text-blue-500 group-hover:text-blue-700">
-                      <time dateTime="2022-01-12T06:00">6:00 AM</time>
-                    </p>
-                  </a>
-                </li>
-                <li
-                  className="relative mt-px flex sm:col-start-3"
-                  style={{ gridRow: "88 / span 32" }}
+                  style={{ gridRow: "21 / span 30" }}
                 >
                   <a
                     href="/"
@@ -246,7 +231,23 @@ const Calendar: React.FC<CalendarProps> = ({
                       CS 211
                     </p>
                     <p className="text-pink-500 group-hover:text-pink-700">
-                      <time dateTime="2022-01-12T07:30">7:30 AM</time>
+                      <time dateTime="2022-01-12T07:30">12:00pm</time>
+                    </p>
+                  </a>
+                </li>
+                <li
+                  className="relative mt-px flex sm:col-start-4"
+                  style={{ gridRow: "130 / span 64" }}
+                >
+                  <a
+                    href="/"
+                    className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-blue-50 p-2 text-xs leading-5 hover:bg-blue-100"
+                  >
+                    <p className="order-1 font-semibold text-blue-700">
+                      CS 111
+                    </p>
+                    <p className="text-blue-500 group-hover:text-blue-700">
+                      <time dateTime="2022-01-12T06:00">1:00 PM</time>
                     </p>
                   </a>
                 </li>
