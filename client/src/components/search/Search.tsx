@@ -30,7 +30,7 @@ const Search: React.FC<SearchProps> = ({
 
   // handling filtering of all courses
   const filteredCourses =
-    searchQuery === "" && school
+    searchQuery === "" || !courses
       ? []
       : courses?.filter((course: Record<string, any>) => {
           return course.data.courseTitle
@@ -48,6 +48,7 @@ const Search: React.FC<SearchProps> = ({
 
   const setAllCourses = () => {
     setCourses(null);
+    setError("");
     console.log("GETTING ALL COURSES WITH TERM ID: ", termId);
     const loadCourses = async () => {
       const coursesUrl =
@@ -62,11 +63,16 @@ const Search: React.FC<SearchProps> = ({
         },
       });
       if (response.status >= 400) {
-        setError("Uh oh! Error fetching school years");
-        setTimeout(() => {
-          setError("");
-        }, 3000);
-        throw new Error("Bad response from server");
+        setError(
+          "Uh oh! No courses like that are in the system 🥸. Please try a new query."
+        );
+        return;
+      }
+      if (response.status === 500) {
+        setError(
+          "Uh oh! Error fetching courses on our end. Please try a new query"
+        );
+        return;
       }
       const data = await response.json();
       let courseData = [];
@@ -100,11 +106,14 @@ const Search: React.FC<SearchProps> = ({
       {/* All of the search results will be rendered here */}
       {/* All of the search results will be rendered here */}
       {/* LOADING STATE */}
-      {!courses && termId && (
+      {!courses && termId && error === "" && (
         <div className="bg-white shadow-none sm:rounded-lg mb-4 m-4">
           <div className="px-4 py-5 sm:p-6">
             <div className="mt-2 max-w-xl text-sm text-center text-black">
-              <p>Searching for courses...</p>
+              <p>
+                Searching for courses...hang tight! Sometimes older searches can
+                take a while.
+              </p>
             </div>
           </div>
         </div>
@@ -157,9 +166,11 @@ const Search: React.FC<SearchProps> = ({
             );
           })}
 
-      {searchQuery !== "" && filteredCourses.length === 0 && (
+      {searchQuery !== "" && filteredCourses.length === 0 && error === "" && (
         <p className="p-4 text-sm text-gray-500">No courses found.</p>
       )}
+
+      {error && <p className="p-4 text-sm text-red-500">Error: {error}</p>}
     </div>
   );
 };
