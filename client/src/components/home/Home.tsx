@@ -273,7 +273,7 @@ const Home: React.FC = (): JSX.Element => {
         <body class="h-full">
         ```
       */}
-      <div className="min-h-full">
+      <div className="min-h-full bg-green-50">
         {/* MODAL */}
         {open && (
           <Settings
