@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 interface SearchItemProps {
   school: string;
@@ -8,8 +8,10 @@ interface SearchItemProps {
   component: string;
   courseTitle: string;
   topic: string;
+  courseNumber: string;
   // additional color prop
   color: string;
+  classMeetingInfo: Record<string, string>[] | null;
   view: "Calendar" | "Schedule";
 }
 
@@ -21,6 +23,8 @@ const SearchItem: React.FC<SearchItemProps> = ({
   component,
   courseTitle,
   topic,
+  courseNumber,
+  classMeetingInfo,
   color,
   view,
 }): JSX.Element => {
@@ -36,6 +40,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
           <p>School: {school}</p>
           <p>Section: {section}</p>
           <p>Type: {component}</p>
+          <p>Meeting info #: {courseNumber}</p>
           {topic.length > 0 && <p>Topic: {topic}</p>}
         </div>
         <div className="mt-3 text-sm">
@@ -50,15 +55,16 @@ const SearchItem: React.FC<SearchItemProps> = ({
           </button>
         </div>
         <div className="mt-3 text-sm">
-          <button
-            className="font-medium text-indigo-600 hover:text-indigo-500 hover:underline"
-            onClick={() =>
-              console.log("View more details on this course was requested!")
-            }
-          >
-            {" "}
-            Add to {view} <span aria-hidden="true">&rarr;</span>
-          </button>
+          {classMeetingInfo && classMeetingInfo?.length > 0 && (
+            <button
+              // disable
+              className="font-medium text-indigo-600 hover:text-indigo-500 hover:underline"
+              onClick={() => console.log(classMeetingInfo)}
+            >
+              {" "}
+              Add to {view} <span aria-hidden="true">&rarr;</span>
+            </button>
+          )}
         </div>
       </div>
     </div>

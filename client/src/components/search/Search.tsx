@@ -132,7 +132,7 @@ const Search: React.FC<SearchProps> = ({
           .map((course: Record<string, any>) => {
             return (
               <SearchItem
-                key={course.id}
+                key={course.data.courseNumber}
                 school={course.school}
                 subject={course.subject}
                 catalogNumber={course.data.catalogNumber}
@@ -140,6 +140,8 @@ const Search: React.FC<SearchProps> = ({
                 component={course.data.component}
                 courseTitle={course.data.courseTitle}
                 topic={course.data.topic}
+                courseNumber={course.data.courseNumber}
+                classMeetingInfo={course.data.classMeetingInfo}
                 color={getColorBySchool(course.school)}
                 view={view}
               />
@@ -165,6 +167,8 @@ const Search: React.FC<SearchProps> = ({
                 courseTitle={course.data.courseTitle}
                 topic={course.data.topic}
                 color={getColorBySchool(course.school)}
+                classMeetingInfo={course.data.classMeetingInfo}
+                courseNumber={course.data.courseNumber}
                 view={view}
               />
             );
