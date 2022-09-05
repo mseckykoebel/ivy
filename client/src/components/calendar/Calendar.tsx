@@ -68,27 +68,11 @@ const Calendar: React.FC<CalendarProps> = ({
   }, [calendarCourses]);
 
   const handleRemoveCourse = (courseId: string) => {
-    const courseIndexToBeRemoved = (
-      calendarCourses as CalendarCourse[]
-    ).findIndex((course) => {
-      return course.courseNumber === courseId;
-    });
-    console.log("REMOVED: ", courseIndexToBeRemoved);
-
-    const newData = (calendarCourses as CalendarCourse[]).splice(
-      courseIndexToBeRemoved,
-      1
+    setCalendarCourses((currentCourses: CalendarCourse[]) =>
+      currentCourses.filter((course) => {
+        return course.courseNumber !== courseId;
+      })
     );
-
-    const updateCalendarCourses = () => {
-      setCalendarCourses((currentCourses: CalendarCourse[]) =>
-        currentCourses.filter((course) => {
-          return course.courseNumber !== courseId;
-        })
-      );
-    };
-
-    updateCalendarCourses();
   };
 
   return (
@@ -307,8 +291,16 @@ const Calendar: React.FC<CalendarProps> = ({
                     return (
                       <li
                         key={course.courseNumber}
-                        className="relative mt-px flex sm:col-start-3"
-                        style={{ gridRow: "4 / span 82" }}
+                        className={`relative mt-px flex sm:${getCourseDaysMap(
+                          calendarCourses![0].classMeetingInfo![0].MEETING_TIME
+                        )}`}
+                        style={{
+                          gridRow: `${getStartingTimeMap(
+                            course.classMeetingInfo![0].MEETING_TIME
+                          )} ${getCourseLengthMap(
+                            course.classMeetingInfo![0].MEETING_TIME
+                          )}`,
+                        }}
                       >
                         <div className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-pink-50 p-2 text-xs leading-5 hover:bg-pink-100">
                           <div className="absolute top-1 right-1 hidden pt-1 pr-1 sm:block">
