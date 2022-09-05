@@ -384,7 +384,7 @@ export const Settings: React.FC<SettingsProps> = ({
                   </button>
                   <button
                     type="button"
-                    className="mt-3 mr-2 px-4 py-2 w-40 inline-flex justify-center rounded-md border border-gray-500 text-sm font-medium text-black bg-white transition-all hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 hover:text-white"
+                    className="mt-3 mr-2 px-4 py-2 w-40 inline-flex justify-center rounded-md border border-gray-500 text-sm font-medium text-black bg-white transition-all hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 hover:text-white"
                     onClick={() => setOpenSettingsModal(false)}
                   >
                     Cancel

@@ -81,6 +81,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
     return;
   };
 
+  // this updates the current course detail, and opens the course detail modal from the home page
   const handleDetailClick = () => {
     setCourseDetail(() => ({
       termId: termId,

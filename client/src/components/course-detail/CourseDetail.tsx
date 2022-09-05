@@ -1,4 +1,5 @@
 import { Dialog, Transition } from "@headlessui/react";
+import { XIcon } from "@heroicons/react/solid";
 import React, {
   Fragment,
   Dispatch,
@@ -64,7 +65,17 @@ export const CourseDetail: React.FC<CourseDetailProps> = ({
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative sm:min-w-[50rem] bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:max-w-lg sm:w-full sm:p-6">
+              <Dialog.Panel className="relative sm:min-w-[50rem] h-[50rem] bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-auto shadow-xl transform transition-all sm:my-8 sm:max-w-lg sm:w-full sm:p-6">
+                <div className="absolute top-6 right-6 hidden pt-4 pr-4 sm:block">
+                  <button
+                    type="button"
+                    className="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+                    onClick={() => setCourseDetail(false)}
+                  >
+                    <span className="sr-only">Close</span>
+                    <XIcon className="h-6 w-6" aria-hidden="true" />
+                  </button>
+                </div>
                 <div className="overflow-hidden bg-white shadow sm:rounded-lg">
                   <div className="flex justify-between px-4 py-5 sm:px-6">
                     <div className="inline-block align-middle`">
@@ -80,11 +91,131 @@ export const CourseDetail: React.FC<CourseDetailProps> = ({
                     <dl className="sm:divide-y sm:divide-gray-200">
                       <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
                         <dt className="text-sm font-medium text-gray-500">
-                          Paragraph
+                          Term ID
                         </dt>
                         <dd>
-                          <p className="block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm">
-                            This is a paragraph
+                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
+                            {termId}
+                          </p>
+                        </dd>
+                      </div>
+                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                        <dt className="text-sm font-medium text-gray-500">
+                          School
+                        </dt>
+                        <dd>
+                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
+                            {school}
+                          </p>
+                        </dd>
+                      </div>
+                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                        <dt className="text-sm font-medium text-gray-500">
+                          Term ID
+                        </dt>
+                        <dd>
+                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
+                            {subject}
+                          </p>
+                        </dd>
+                      </div>
+                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                        <dt className="text-sm font-medium text-gray-500">
+                          Term ID
+                        </dt>
+                        <dd>
+                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
+                            {subject}
+                          </p>
+                        </dd>
+                      </div>
+                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                        <dt className="text-sm font-medium text-gray-500">
+                          Term ID
+                        </dt>
+                        <dd>
+                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
+                            {subject}
+                          </p>
+                        </dd>
+                      </div>
+                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                        <dt className="text-sm font-medium text-gray-500">
+                          Term ID
+                        </dt>
+                        <dd>
+                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
+                            {subject}
+                          </p>
+                        </dd>
+                      </div>
+                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                        <dt className="text-sm font-medium text-gray-500">
+                          Term ID
+                        </dt>
+                        <dd>
+                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
+                            {subject}
+                          </p>
+                        </dd>
+                      </div>
+                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                        <dt className="text-sm font-medium text-gray-500">
+                          Term ID
+                        </dt>
+                        <dd>
+                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
+                            {subject}
+                          </p>
+                        </dd>
+                      </div>
+                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                        <dt className="text-sm font-medium text-gray-500">
+                          Term ID
+                        </dt>
+                        <dd>
+                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
+                            {subject}
+                          </p>
+                        </dd>
+                      </div>
+                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                        <dt className="text-sm font-medium text-gray-500">
+                          Term ID
+                        </dt>
+                        <dd>
+                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
+                            {subject}
+                          </p>
+                        </dd>
+                      </div>
+                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                        <dt className="text-sm font-medium text-gray-500">
+                          Term ID
+                        </dt>
+                        <dd>
+                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
+                            {subject}
+                          </p>
+                        </dd>
+                      </div>
+                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                        <dt className="text-sm font-medium text-gray-500">
+                          Term ID
+                        </dt>
+                        <dd>
+                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
+                            {subject}
+                          </p>
+                        </dd>
+                      </div>
+                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
+                        <dt className="text-sm font-medium text-gray-500">
+                          Term ID
+                        </dt>
+                        <dd>
+                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
+                            {subject}
                           </p>
                         </dd>
                       </div>
@@ -103,13 +234,6 @@ export const CourseDetail: React.FC<CourseDetailProps> = ({
                     {error}
                   </p>
                 )}
-                {/* SUBMIT/CANCEL AREA */}
-                {/* SUBMIT/CANCEL AREA */}
-                {/* SUBMIT/CANCEL AREA */}
-                {/* SUBMIT/CANCEL AREA */}
-                <div className="flex justify-center py-2 px-2 sm:px-6">
-                  <div>This is where the buttons were</div>
-                </div>
               </Dialog.Panel>
             </Transition.Child>
           </div>
