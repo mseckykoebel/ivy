@@ -54,6 +54,18 @@ const getUndergraduateCourses = async (
               component: classDescriptions[i].COMPONENT,
               courseTitle: classDescriptions[i].COURSE_TITLE,
               topic: classDescriptions[i].TOPIC,
+              courseNumber: classDescriptions[i].CLASS_NBR,
+              classMeetingInfo: classDescriptions[i].CLASS_MTG_INFO
+                ? classDescriptions[i].CLASS_MTG_INFO?.filter(
+                    (info: Record<string, string>) =>
+                      info.MEETING_TIME.includes("TBA") ||
+                      info.MEETING_TIME.includes("NO DATA") ||
+                      info.MEETING_TIME === "" ||
+                      info.MEETING_TIME.length === 0
+                        ? null
+                        : info.MEETING_TIME
+                  )
+                : null,
             });
           }
 

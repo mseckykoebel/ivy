@@ -1,11 +1,12 @@
 /* eslint-disable indent */
 // ^ IDEK
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Dispatch, SetStateAction } from "react";
 import SearchItem from "./SearchItem";
 import fetch from "cross-fetch";
 
 import { shuffleArray } from "../../lib/randomizeList";
 import { getColorBySchool } from "../../lib/getColorBySchool";
+import { CalendarCourse, CourseDetail } from "../../types/courses";
 
 interface SearchProps {
   year: string | undefined;
@@ -14,6 +15,13 @@ interface SearchProps {
   termId: string | null;
   searchQuery: string;
   view: "Calendar" | "Schedule";
+  // calendar (light prop drilling here)
+  calendarCourses: CalendarCourse[] | null;
+  setCalendarCourses: any;
+  // course detail (light prop drilling here)
+  courseDetail: CourseDetail | null;
+  setCourseDetail: Dispatch<SetStateAction<CourseDetail | null>>;
+  setOpenDetailModal: Dispatch<SetStateAction<boolean>>;
 }
 
 const Search: React.FC<SearchProps> = ({
@@ -23,6 +31,11 @@ const Search: React.FC<SearchProps> = ({
   termId,
   searchQuery,
   view,
+  calendarCourses,
+  setCalendarCourses,
+  courseDetail,
+  setCourseDetail,
+  setOpenDetailModal,
 }): JSX.Element => {
   // UI state
   const [loading, setLoading] = useState(false);
@@ -132,7 +145,8 @@ const Search: React.FC<SearchProps> = ({
           .map((course: Record<string, any>) => {
             return (
               <SearchItem
-                key={course.id}
+                key={course.data.courseNumber}
+                termId={termId as string}
                 school={course.school}
                 subject={course.subject}
                 catalogNumber={course.data.catalogNumber}
@@ -140,8 +154,16 @@ const Search: React.FC<SearchProps> = ({
                 component={course.data.component}
                 courseTitle={course.data.courseTitle}
                 topic={course.data.topic}
+                courseNumber={course.data.courseNumber}
+                classMeetingInfo={course.data.classMeetingInfo}
                 color={getColorBySchool(course.school)}
                 view={view}
+                calendarCourses={calendarCourses}
+                setCalendarCourses={setCalendarCourses}
+                // bad prop drilling
+                courseDetail={courseDetail}
+                setCourseDetail={setCourseDetail}
+                setOpenDetailModal={setOpenDetailModal}
               />
             );
           })}
@@ -157,6 +179,7 @@ const Search: React.FC<SearchProps> = ({
             return (
               <SearchItem
                 key={course.id}
+                termId={termId as string}
                 school={course.school}
                 subject={course.subject}
                 catalogNumber={course.data.catalogNumber}
@@ -165,7 +188,15 @@ const Search: React.FC<SearchProps> = ({
                 courseTitle={course.data.courseTitle}
                 topic={course.data.topic}
                 color={getColorBySchool(course.school)}
+                classMeetingInfo={course.data.classMeetingInfo}
+                courseNumber={course.data.courseNumber}
                 view={view}
+                calendarCourses={calendarCourses}
+                setCalendarCourses={setCalendarCourses}
+                // bad prop drilling
+                courseDetail={courseDetail}
+                setCourseDetail={setCourseDetail}
+                setOpenDetailModal={setOpenDetailModal}
               />
             );
           })}

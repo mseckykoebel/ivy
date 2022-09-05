@@ -8,28 +8,56 @@
         "section": "1",
         "component": "LEC",
         "courseTitle": "Introduction to Music",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40269",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA 1-160",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "170-0",
         "section": "2",
         "component": "LEC",
         "courseTitle": "Introduction to Music",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42413",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA 1-164",
+            "MEETING_TIME": "MoWeFr 1:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "175-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Selected Topics in Music Literature for Non-Majors",
-        "topic": "Understanding Popular Music"
+        "topic": "Understanding Popular Music",
+        "courseNumber": "40270",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA 1-160",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "175-0",
         "section": "2",
         "component": "LEC",
         "courseTitle": "Selected Topics in Music Literature for Non-Majors",
-        "topic": "The Beatles"
+        "topic": "The Beatles",
+        "courseNumber": "40271",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA 1-164",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ]
       }
     ],
     "school": "MUSIC",
@@ -44,7 +72,14 @@
         "section": "1",
         "component": "LEC",
         "courseTitle": "Producing in the Virtual Studio",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40272",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Lower Level 121",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ]
       }
     ],
     "school": "MUSIC",
@@ -59,14 +94,44 @@
         "section": "26",
         "component": "PED",
         "courseTitle": "Performance Workshop, One-Week",
-        "topic": "Vocal Career Seminar"
+        "topic": "Vocal Career Seminar",
+        "courseNumber": "40834",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          },
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "MoTuWeThFr 2:00PM - 5:00PM"
+          },
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "MoTuWeThFr 6:30PM - 10:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "315-0",
         "section": "26",
         "component": "PED",
         "courseTitle": "Performance Workshop, One-Week",
-        "topic": "Vocal Career Seminar"
+        "topic": "Vocal Career Seminar",
+        "courseNumber": "40835",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          },
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "MoTuWeThFr 2:00PM - 5:00PM"
+          },
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "MoTuWeThFr 6:30PM - 10:00PM"
+          }
+        ]
       }
     ],
     "school": "MUSIC",
@@ -81,56 +146,107 @@
         "section": "1",
         "component": "LEC",
         "courseTitle": "Business Associations",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42420",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "MoWe 7:00PM - 9:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "605D",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Contracts II:  UCC Article 2 (Sales Law)",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41284",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "631",
         "section": "1",
         "component": "SEM",
         "courseTitle": "Entrepreneurship Law",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41281",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "We 9:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "638",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Mergers and Acquisitions",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42131",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "MoTh 9:00AM - 11:00AM"
+          }
+        ]
       },
       {
         "catalogNumber": "667",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Corporate Restructuring:  Bankruptcy Reorganizations",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42134",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "We 6:00PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "670PS",
         "section": "1",
         "component": "LGL",
         "courseTitle": "Practicum: Corporate Counsel",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41283",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Tu 2:00PM - 4:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "690",
         "section": "1-ON",
         "component": "LEC",
         "courseTitle": "Basic Federal Income Taxation",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41285",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Tu 7:00PM - 8:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "690",
         "section": "2-ON",
         "component": "LEC",
         "courseTitle": "Basic Federal Income Taxation",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42111",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Mo 7:00PM - 8:00PM"
+          }
+        ]
       }
     ],
     "school": "LAW",
@@ -145,35 +261,65 @@
         "section": "1",
         "component": "LEC",
         "courseTitle": "Employment Discrimination",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42168",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "MoWe 5:00PM - 6:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "647D",
         "section": "1",
         "component": "LGL",
         "courseTitle": "Practicum:  Judicial",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41314",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "647S",
         "section": "1",
         "component": "LGL",
         "courseTitle": "Practicum: Judicial",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41298",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Tu 2:00PM - 4:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "740",
         "section": "1",
         "component": "SEM",
         "courseTitle": "Policing Chicago?s Communities:Examining historical & current practices & analyzing for reform",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41275",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Th 6:00PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "743",
         "section": "1",
         "component": "SEM",
         "courseTitle": "The Law of Whistleblowing",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42132",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "We 6:00PM - 9:00PM"
+          }
+        ]
       }
     ],
     "school": "LAW",
@@ -188,14 +334,52 @@
         "section": "1-ON",
         "component": "LEC",
         "courseTitle": "Patent Law",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42471",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Th 7:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Th 7:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Mo 7:00PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "910-0",
         "section": "1-ON",
         "component": "LEC",
         "courseTitle": "Patent Preparation & Prosecution Workshop",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42584",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "We 7:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "We 7:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "We 7:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "We 7:00AM - 9:00AM"
+          },
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "We 7:00PM - 9:00PM"
+          }
+        ]
       }
     ],
     "school": "LAW",
@@ -210,49 +394,105 @@
         "section": "1",
         "component": "LEC",
         "courseTitle": "Legal Issues in COVID-19 Crisis",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42421",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "TuTh 7:00PM - 8:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "623S",
         "section": "1",
         "component": "SEM",
         "courseTitle": "Effective Legal Writing",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42398",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Sa 9:00AM - 4:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "712",
         "section": "1",
         "component": "SEM",
         "courseTitle": "Advanced Legal Writing ? Communicating with Professionals",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41278",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "TuWeThFr 10:00AM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "712",
         "section": "2",
         "component": "SEM",
         "courseTitle": "Advanced Legal Writing ? Communicating with Professionals",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42396",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Sa 10:00AM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "721",
         "section": "1",
         "component": "SEM",
         "courseTitle": "Leading in the Law",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41282",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Tu 6:00PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "912-0",
         "section": "1-ON",
         "component": "SEM",
         "courseTitle": "Ethics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41276",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "930-0",
         "section": "1-ON",
         "component": "LEC",
         "courseTitle": "Corporate Criminal Law",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42468",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Tu 7:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Tu 7:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Tu 7:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Tu 7:00PM - 9:00PM"
+          }
+        ]
       }
     ],
     "school": "LAW",
@@ -267,28 +507,60 @@
         "section": "1",
         "component": "ADV",
         "courseTitle": "International Business Law & Negotiations",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42137",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "MoTu 12:00PM - 2:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "670S",
         "section": "1",
         "component": "ADV",
         "courseTitle": "Negotiation Workshop",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41280",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "We 5:30PM - 9:00PM"
+          },
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "SaSu 9:30AM - 3:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "729",
         "section": "1",
         "component": "CLN",
         "courseTitle": "Clinic Practice:  Environmental Advocacy",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42114",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Tu 10:00AM - 11:00AM"
+          }
+        ]
       },
       {
         "catalogNumber": "730",
         "section": "1",
         "component": "CLN",
         "courseTitle": "Clinic Practice: Complex Civil Litigation & Investor Protection",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41279",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Tu 4:00PM - 5:50PM"
+          }
+        ]
       }
     ],
     "school": "LAW",
@@ -303,7 +575,22 @@
         "section": "1-ON",
         "component": "SEM",
         "courseTitle": "Food Policy and Regulation",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42470",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Th 7:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Th 7:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Th 7:00PM - 9:00PM"
+          }
+        ]
       }
     ],
     "school": "LAW",
@@ -318,63 +605,91 @@
         "section": "21",
         "component": "LEC",
         "courseTitle": "Introduction to Integrated Marketing Communications",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42186",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 9:00AM - 1:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "402-6",
         "section": "40",
         "component": "LEC",
         "courseTitle": "Financial Accounting",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41180",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "409-0",
         "section": "20",
         "component": "PRA",
         "courseTitle": "Immersion Quarter Team Project",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41178",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "409-1",
         "section": "20",
         "component": "PRA",
         "courseTitle": "Immersion Quarter Individual Project",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41177",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "416-6",
         "section": "40",
         "component": "LEC",
         "courseTitle": "Brand Equity",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41183",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "424-6",
         "section": "40",
         "component": "LEC",
         "courseTitle": "Shopper Marketing",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41186",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "444-6",
         "section": "40",
         "component": "LEC",
         "courseTitle": "Crisis Communications",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41184",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "498-6",
         "section": "40",
         "component": "LEC",
         "courseTitle": "Practicum",
-        "topic": "Digital Marketing, Media, & Innovation"
+        "topic": "Digital Marketing, Media, & Innovation",
+        "courseNumber": "41185",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "498-6",
         "section": "41",
         "component": "LEC",
         "courseTitle": "Practicum",
-        "topic": "Digital Analytics"
+        "topic": "Digital Analytics",
+        "courseNumber": "42418",
+        "classMeetingInfo": []
       }
     ],
     "school": "JOUR",
@@ -389,154 +704,281 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "The Googlization of America",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42324",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuTh 9:00AM - 10:20AM"
+          }
+        ]
       },
       {
         "catalogNumber": "388-0",
         "section": "20",
         "component": "PRA",
         "courseTitle": "Internship",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40568",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "390-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Special Topics",
-        "topic": "Get Hired!"
+        "topic": "Get Hired!",
+        "courseNumber": "42325",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Fr 12:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "400-1",
         "section": "20",
         "component": "LAB",
         "courseTitle": "Journalism Methods",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40572",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Tu 9:00AM - 11:50AM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 9:00AM - 4:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "400-1",
         "section": "21",
         "component": "LAB",
         "courseTitle": "Journalism Methods",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40573",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Tu 9:00AM - 11:50AM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 9:00AM - 4:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "400-3",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Foundations of Interactive Journalism",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40594",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 1:00PM - 2:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "401-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Ethics & Law of Journalism",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40570",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 9:00AM - 10:20AM"
+          }
+        ]
       },
       {
         "catalogNumber": "440-0",
         "section": "20",
         "component": "RSC",
         "courseTitle": "Global Journalism Research",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40575",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "440-1",
         "section": "20",
         "component": "PRA",
         "courseTitle": "Global Journalism Residency",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40576",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "442-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Leadership Strategies",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42142",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "471-0",
         "section": "20",
         "component": "LAB",
         "courseTitle": "Master's Project",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42146",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Tu 9:00AM - 11:50AM"
+          }
+        ]
       },
       {
         "catalogNumber": "474-0",
         "section": "21",
         "component": "LEC",
         "courseTitle": "Inside Business to Business Media",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42160",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Fr 10:00AM - 12:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "480-0",
         "section": "20",
         "component": "LAB",
         "courseTitle": "Special Topics",
-        "topic": "Understanding Chicago for Journalists"
+        "topic": "Understanding Chicago for Journalists",
+        "courseNumber": "42141",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "We 6:00PM - 8:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "480-0",
         "section": "21",
         "component": "LAB",
         "courseTitle": "Special Topics",
-        "topic": "Chicago Public Housing Stories"
+        "topic": "Chicago Public Housing Stories",
+        "courseNumber": "42139",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Tu 6:00PM - 8:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "480-0",
         "section": "22",
         "component": "LAB",
         "courseTitle": "Special Topics",
-        "topic": "Crisis Reporting: Coronavirus and Beyond"
+        "topic": "Crisis Reporting: Coronavirus and Beyond",
+        "courseNumber": "42143",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Th 2:00PM - 4:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "480-0",
         "section": "23",
         "component": "LAB",
         "courseTitle": "Special Topics",
-        "topic": "Crisis Reporting: Coronavirus and Beyond"
+        "topic": "Crisis Reporting: Coronavirus and Beyond",
+        "courseNumber": "42145",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Tu 2:00PM - 4:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "480-0",
         "section": "24",
         "component": "LAB",
         "courseTitle": "Special Topics",
-        "topic": "Narrative Podcasting"
+        "topic": "Narrative Podcasting",
+        "courseNumber": "42166",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "We 9:00AM - 11:50AM"
+          }
+        ]
       },
       {
         "catalogNumber": "490-0",
         "section": "23",
         "component": "LAB",
         "courseTitle": "Special Topics",
-        "topic": "Sports Commentary"
+        "topic": "Sports Commentary",
+        "courseNumber": "42144",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 2:00PM - 3:20PM"
+          }
+        ]
       },
       {
         "catalogNumber": "490-0",
         "section": "24",
         "component": "LAB",
         "courseTitle": "Special Topics",
-        "topic": "Reporting on Politics and the Federal Government"
+        "topic": "Reporting on Politics and the Federal Government",
+        "courseNumber": "42176",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "TuWeThFr 9:00AM - 5:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "498-0",
         "section": "20",
         "component": "PRA",
         "courseTitle": "Practicum",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40601",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "498-0",
         "section": "21",
         "component": "PRA",
         "courseTitle": "Practicum",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42647",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "499-2",
         "section": "20",
         "component": "PRA",
         "courseTitle": "Internship",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40577",
+        "classMeetingInfo": []
       }
     ],
     "school": "JOUR",
@@ -551,7 +993,14 @@
         "section": "70",
         "component": "LEC",
         "courseTitle": "Topics in History",
-        "topic": "A Survey of US History"
+        "topic": "A Survey of US History",
+        "courseNumber": "41296",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 2-257",
+            "MEETING_TIME": "MoTuWeSu 1:00AM - 4:00AM"
+          }
+        ]
       }
     ],
     "school": "DOHA",
@@ -566,7 +1015,14 @@
         "section": "70",
         "component": "LEC",
         "courseTitle": "Special Topics",
-        "topic": "Islam, America, and the Media"
+        "topic": "Islam, America, and the Media",
+        "courseNumber": "41293",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 2-255",
+            "MEETING_TIME": "MoTuWeSu 4:30AM - 7:30AM"
+          }
+        ]
       }
     ],
     "school": "DOHA",
@@ -581,28 +1037,56 @@
         "section": "70",
         "component": "LEC",
         "courseTitle": "Undergraduate Seminar",
-        "topic": "Understanding Media Industries"
+        "topic": "Understanding Media Industries",
+        "courseNumber": "42120",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 3-203",
+            "MEETING_TIME": "MoTuWeSu 1:00AM - 4:00AM"
+          }
+        ]
       },
       {
         "catalogNumber": "360-0",
         "section": "70",
         "component": "LEC",
         "courseTitle": "Topics in Media Writing",
-        "topic": "Heroes & Villains"
+        "topic": "Heroes & Villains",
+        "courseNumber": "41289",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 3-216",
+            "MEETING_TIME": "MoTuWeSu 1:00AM - 4:00AM"
+          }
+        ]
       },
       {
         "catalogNumber": "398-0",
         "section": "70",
         "component": "LEC",
         "courseTitle": "Undergraduate Seminar",
-        "topic": "Digital Innovation and SMM"
+        "topic": "Digital Innovation and SMM",
+        "courseNumber": "41290",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 2-257",
+            "MEETING_TIME": "MoTuWeSu 4:30AM - 7:30AM"
+          }
+        ]
       },
       {
         "catalogNumber": "398-0",
         "section": "71",
         "component": "LEC",
         "courseTitle": "Undergraduate Seminar",
-        "topic": "Islam, America & Media"
+        "topic": "Islam, America & Media",
+        "courseNumber": "41291",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 2-255",
+            "MEETING_TIME": "MoTuWeSu 4:30AM - 7:30AM"
+          }
+        ]
       }
     ],
     "school": "DOHA",
@@ -617,7 +1101,14 @@
         "section": "70",
         "component": "LEC",
         "courseTitle": "Topics in Political Science",
-        "topic": "Introduction to Middle East Politics"
+        "topic": "Introduction to Middle East Politics",
+        "courseNumber": "41849",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 3-203",
+            "MEETING_TIME": "MoTuWeSu 4:30AM - 7:30AM"
+          }
+        ]
       }
     ],
     "school": "DOHA",
@@ -632,7 +1123,14 @@
         "section": "70",
         "component": "LEC",
         "courseTitle": "Advanced Topics in Religion Studies:",
-        "topic": "Islam, America & Media"
+        "topic": "Islam, America & Media",
+        "courseNumber": "41297",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 2-255",
+            "MEETING_TIME": "MoTuWeSu 4:30AM - 7:30AM"
+          }
+        ]
       }
     ],
     "school": "DOHA",
@@ -647,7 +1145,14 @@
         "section": "70",
         "component": "LEC",
         "courseTitle": "Media Planning",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41295",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 1-225",
+            "MEETING_TIME": "MoTuWeSu 1:00AM - 4:00AM"
+          }
+        ]
       }
     ],
     "school": "DOHA",
@@ -662,21 +1167,32 @@
         "section": "21",
         "component": "FLD",
         "courseTitle": "Internship",
-        "topic": "Chicago/Evanston"
+        "topic": "Chicago/Evanston",
+        "courseNumber": "40829",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Tu 7:00PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "340-0",
         "section": "40",
         "component": "FLD",
         "courseTitle": "Internship",
-        "topic": "Extra Credit"
+        "topic": "Extra Credit",
+        "courseNumber": "40830",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "410-0",
         "section": "20",
         "component": "FLD",
         "courseTitle": "MFA Internship",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40831",
+        "classMeetingInfo": []
       }
     ],
     "school": "SPCH",
@@ -691,49 +1207,88 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Public Speaking",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42414",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 9:30AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "205-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Theories of Persuasion",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40378",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "246-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Intro to Health Communication",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42415",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "341-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Communication and Aging",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40379",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 2:00PM - 4:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "352-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Social Network Analysis",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40490",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 9:30AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "353-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Collaboration Technology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42416",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 3:00PM - 5:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "364-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Collective Decision Making & Communication in Organizations",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42419",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 1:00PM - 4:00PM"
+          }
+        ]
       }
     ],
     "school": "SPCH",
@@ -748,147 +1303,224 @@
         "section": "1",
         "component": "RSC",
         "courseTitle": "Research Practicum in Communication Sciences and Disorders",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40811",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "409-4",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Foundations of Clinical and Professional Practice",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40819",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "409-8",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Foundations of Clinical and Professional Practice",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40820",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 12:30PM - 1:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "415-4",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Clinical Practicum in Audiology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40800",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "415-8",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Clinical Practicum in Audiology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40821",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "419-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Pediatric Audiology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40795",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2407",
+            "MEETING_TIME": "We 1:00PM - 3:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "428-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Fundamentals of Vestibular Science",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40812",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 5:15PM - 8:45PM"
+          }
+        ]
       },
       {
         "catalogNumber": "461-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Augmentative and Alternative Communication Across the Lifespan",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40797",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Tu 6:00PM - 9:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "462-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Professional Issues in Speech Language Pathology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40813",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "Th 6:30PM - 8:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "475-0",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Advanced Clinical Methods 1",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40815",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "477-0",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Advanced Clinical Methods 2",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40814",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "479-0",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Externship: Clinical Practicum",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40799",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "519-0",
         "section": "1",
         "component": "SEM",
         "courseTitle": "Pediatric Amplification",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40818",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 2:00PM - 3:20PM"
+          }
+        ]
       },
       {
         "catalogNumber": "522-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Hearing Loss Prevention and Conservation",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40796",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 8:00AM - 9:20AM"
+          }
+        ]
       },
       {
         "catalogNumber": "558-6",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Advanced Scientific Clinical Decision Making I",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41769",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "565-6",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Policy in Health and Education",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41060",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "566-6",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Digital Literacies for the Speech Language Pathologist",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40817",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "570-3",
         "section": "1",
         "component": "RSC",
         "courseTitle": "Seminar: Capstone Project",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40809",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "573-6B",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Professional Integration and Reflective Practice II",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40823",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "574-6",
         "section": "1",
         "component": "RSC",
         "courseTitle": "Culminating Project Design",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40822",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "580-4",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Clinical Externship",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40810",
+        "classMeetingInfo": []
       }
     ],
     "school": "SPCH",
@@ -903,42 +1535,79 @@
         "section": "2",
         "component": "LEC",
         "courseTitle": "Special Topics in Health Communication 1",
-        "topic": "Health Misinformation"
+        "topic": "Health Misinformation",
+        "courseNumber": "40252",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "469-0",
         "section": "3",
         "component": "LEC",
         "courseTitle": "Special Topics in Health Communication 1",
-        "topic": "Leading Dialogues and Change"
+        "topic": "Leading Dialogues and Change",
+        "courseNumber": "40253",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "469-0",
         "section": "4",
         "component": "LEC",
         "courseTitle": "Special Topics in Health Communication 1",
-        "topic": "Information Design"
+        "topic": "Information Design",
+        "courseNumber": "40254",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "469-0",
         "section": "5",
         "component": "LEC",
         "courseTitle": "Special Topics in Health Communication 1",
-        "topic": "Social Context of Illness"
+        "topic": "Social Context of Illness",
+        "courseNumber": "40255",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 2:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "469-0",
         "section": "6",
         "component": "LEC",
         "courseTitle": "Special Topics in Health Communication 1",
-        "topic": "Health and Media"
+        "topic": "Health and Media",
+        "courseNumber": "40256",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 2:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "479-0",
         "section": "4",
         "component": "LEC",
         "courseTitle": "Health Information Technology for Communication, Coordination and Integration",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40257",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 1:00PM - 2:00PM"
+          }
+        ]
       }
     ],
     "school": "SPCH",
@@ -953,63 +1622,101 @@
         "section": "1",
         "component": "LEC",
         "courseTitle": "Public Persuasion",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40781",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 2:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "482-0",
         "section": "2",
         "component": "LEC",
         "courseTitle": "Public Persuasion",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40791",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "494-6D",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Communication Skills Practicum",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40784",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "496-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Leadership & Decision Making",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40780",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "523-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Capstone",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40786",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "523-6",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Capstone",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40783",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "530-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Communication, Management & Ethics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40782",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 9:30AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "538-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Workplace Learning and Communities of Practice",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40785",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2370",
+            "MEETING_TIME": "Sa 2:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "539-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Content & Influencer Marketing Communication",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40787",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 1483",
+            "MEETING_TIME": "Sa 2:00PM - 5:00PM"
+          }
+        ]
       }
     ],
     "school": "SPCH",
@@ -1024,49 +1731,68 @@
         "section": "1",
         "component": "PRA",
         "courseTitle": "Summer Internship Seminar",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41047",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "498-0",
         "section": "20",
         "component": "THE",
         "courseTitle": "MSLCE Thesis",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41049",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "498-0",
         "section": "21",
         "component": "THE",
         "courseTitle": "MSLCE Thesis",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42617",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "529-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Special Topics in Creative Enterprises",
-        "topic": "Leadership and Ethics"
+        "topic": "Leadership and Ethics",
+        "courseNumber": "42163",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 5:00PM - 6:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "529-0",
         "section": "2",
         "component": "LEC",
         "courseTitle": "Special Topics in Creative Enterprises",
-        "topic": "Capstone"
+        "topic": "Capstone",
+        "courseNumber": "42164",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "598-0",
         "section": "1",
         "component": "IND",
         "courseTitle": "Independent Study",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42165",
+        "classMeetingInfo": null
       },
       {
         "catalogNumber": "599-0",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Internship Experience",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41048",
+        "classMeetingInfo": []
       }
     ],
     "school": "SPCH",
@@ -1081,7 +1807,14 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Performance Culture and Communication",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40268",
+        "classMeetingInfo": [
+          {
+            "ROOM": "AM Swift Krause Studio 103",
+            "MEETING_TIME": "MoWeFr 9:00AM - 12:20PM"
+          }
+        ]
       }
     ],
     "school": "SPCH",
@@ -1096,77 +1829,149 @@
         "section": "26",
         "component": "LEC",
         "courseTitle": "Analyzing Media Texts",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42331",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 1:00PM - 3:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "260-0",
         "section": "26",
         "component": "SEM",
         "courseTitle": "Foundations of Screenwriting",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42332",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "322-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Radio/Television/Film Genre",
-        "topic": "Melodrama"
+        "topic": "Melodrama",
+        "courseNumber": "41021",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 6:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "360-0",
         "section": "26",
         "component": "SEM",
         "courseTitle": "Topics in Media Writing",
-        "topic": "Writing the Horror Screenplay"
+        "topic": "Writing the Horror Screenplay",
+        "courseNumber": "41022",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annie May Swift Hall 109",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "360-0",
         "section": "36",
         "component": "SEM",
         "courseTitle": "Topics in Media Writing",
-        "topic": "Writing the Sitcom"
+        "topic": "Writing the Sitcom",
+        "courseNumber": "42333",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 3:00PM - 5:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "376-0",
         "section": "22",
         "component": "LEC",
         "courseTitle": "Topics in Interactive Media",
-        "topic": "Interactive Media Programming in MAX"
+        "topic": "Interactive Media Programming in MAX",
+        "courseNumber": "41028",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoTuWeTh 6:00PM - 9:45PM"
+          }
+        ]
       },
       {
         "catalogNumber": "378-0",
         "section": "25",
         "component": "LEC",
         "courseTitle": "Topics in Post-Production",
-        "topic": "Motion Graphics"
+        "topic": "Motion Graphics",
+        "courseNumber": "41029",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Fisk Hall B-1",
+            "MEETING_TIME": "MoWe 6:00PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "398-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Symposium: Issues in RTVF",
-        "topic": "#MeToo Media"
+        "topic": "#MeToo Media",
+        "courseNumber": "41023",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 6:00PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "398-0",
         "section": "36",
         "component": "LEC",
         "courseTitle": "Symposium: Issues in RTVF",
-        "topic": "Listening to Film"
+        "topic": "Listening to Film",
+        "courseNumber": "41024",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 2:00PM - 4:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "398-0",
         "section": "56",
         "component": "LEC",
         "courseTitle": "Symposium: Issues in RTVF",
-        "topic": "Mixed-Race Genders and Sexualities in Popular Cult"
+        "topic": "Mixed-Race Genders and Sexualities in Popular Cult",
+        "courseNumber": "42581",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "490-1",
         "section": "28",
         "component": "PRA",
         "courseTitle": "Summer Internship Seminar",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41030",
+        "classMeetingInfo": []
       }
     ],
     "school": "SPCH",
@@ -1181,14 +1986,18 @@
         "section": "20",
         "component": "SEM",
         "courseTitle": "Zero Credit Internship",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41655",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "580-0",
         "section": "20",
         "component": "SEM",
         "courseTitle": "Career Development in Sound",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41658",
+        "classMeetingInfo": []
       }
     ],
     "school": "SPCH",
@@ -1203,35 +2012,74 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Basic Acting",
-        "topic": "Acting for Non-Majors"
+        "topic": "Acting for Non-Majors",
+        "courseNumber": "42304",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuTh 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "256-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Musicianship for Actors",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42305",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuTh 1:00PM - 3:20PM"
+          }
+        ]
       },
       {
         "catalogNumber": "281-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Intro to Playwriting",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40543",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuTh 10:00AM - 12:20PM"
+          }
+        ]
       },
       {
         "catalogNumber": "332-1",
         "section": "20",
         "component": "LEC",
         "courseTitle": "The Art of Storytelling",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42122",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 1:00PM - 3:20PM"
+          }
+        ]
       },
       {
         "catalogNumber": "350-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Special Topics in Musical Theatre",
-        "topic": "Pop/Rock Musicals: Study and Performance"
+        "topic": "Pop/Rock Musicals: Study and Performance",
+        "courseNumber": "42306",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 10:00AM - 12:20PM"
+          },
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Fr 10:00AM - 10:50AM"
+          }
+        ]
       }
     ],
     "school": "SPCH",
@@ -1246,14 +2094,28 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Team Dynamics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42382",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Th 2:00PM - 4:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "351-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Special Topics in HDPS",
-        "topic": "Health Program Planning"
+        "topic": "Health Program Planning",
+        "courseNumber": "42381",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 5:00PM - 6:20PM"
+          }
+        ]
       }
     ],
     "school": "SESP",
@@ -1268,21 +2130,42 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Studies in Organizational Change",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42336",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Tu 10:00AM - 12:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "309-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Team Dynamics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42337",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Th 2:00PM - 4:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "313-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Learning and Thinking in Organizations",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42338",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 11:00AM - 12:20PM"
+          }
+        ]
       }
     ],
     "school": "SESP",
@@ -1297,84 +2180,168 @@
         "section": "26",
         "component": "LEC",
         "courseTitle": "Social Contexts of Education",
-        "topic": "Social Contexts"
+        "topic": "Social Contexts",
+        "courseNumber": "40945",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "405-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Child and Adolescent Development",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40965",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "410-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Foundations of Learning in a New Language",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40967",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 12:30PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "414-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Mathematics for Elementary Teachers",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40968",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 12:30PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "422-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Content Area Reading and Writing",
-        "topic": "Content Rdg & Wrtg"
+        "topic": "Content Rdg & Wrtg",
+        "courseNumber": "40958",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 3:30PM - 6:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "422-0",
         "section": "27",
         "component": "LEC",
         "courseTitle": "Content Area Reading and Writing",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40959",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 3:30PM - 6:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "427-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Educating Exceptional Children",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40956",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuTh 3:30PM - 6:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "431-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Instructional Coaching and Evaluation",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40957",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 12:30PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "451-0",
         "section": "22",
         "component": "LEC",
         "courseTitle": "Topics in Teaching and Learning",
-        "topic": "Online and Hybrid Learning Design"
+        "topic": "Online and Hybrid Learning Design",
+        "courseNumber": "40946",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 9:30AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "451-0",
         "section": "25",
         "component": "LEC",
         "courseTitle": "Topics in Teaching and Learning",
-        "topic": "Developing and Teaching with NGSS Storylines"
+        "topic": "Developing and Teaching with NGSS Storylines",
+        "courseNumber": "40949",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 1:00PM - 4:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "462-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Professional Development Design & Implementation",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42327",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 3:30PM - 6:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "463-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Leading for Equity",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42328",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 3:30PM - 6:00PM"
+          }
+        ]
       }
     ],
     "school": "SESP",
@@ -1389,28 +2356,59 @@
         "section": "21",
         "component": "LEC",
         "courseTitle": "Proseminar in Higher Education",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40953",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 6:30PM - 9:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "473-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Structure, Governance and Leadership in Higher Education",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40960",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 6:00PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "479-0",
         "section": "21",
         "component": "SEM",
         "courseTitle": "Advancing Diversity and Inclusion Through Intentional Leadership and Organizational Change",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42174",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Tu 7:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "485-0",
         "section": "20",
         "component": "PRA",
         "courseTitle": "Internship in Higher Education",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40961",
+        "classMeetingInfo": []
       }
     ],
     "school": "SESP",
@@ -1425,56 +2423,72 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Advancing Learning & Performance Solutions",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40855",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "440-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Executing Strategic Change",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40853",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "441-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Designing Sustainable Strategic Change",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40854",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "451-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Building Transformational Client Relationships",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40852",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "456-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Designing Solutions for Organizational Effectiveness",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42148",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "462-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Capstone II: Design & Measurement",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40856",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "495-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "MSLOC Internship",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40857",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "499-1",
         "section": "20",
         "component": "IND",
         "courseTitle": "Independent Study",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40858",
+        "classMeetingInfo": []
       }
     ],
     "school": "SESP",
@@ -1489,56 +2503,107 @@
         "section": "26",
         "component": "LEC",
         "courseTitle": "Summer Internship",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41679",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "201-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Human Development: Childhood and Adolescence",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42329",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "351-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Special Topics",
-        "topic": "The Life Story Interview: Career Narratives of Men"
+        "topic": "The Life Story Interview: Career Narratives of Men",
+        "courseNumber": "42405",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 2:00PM - 3:20PM"
+          }
+        ]
       },
       {
         "catalogNumber": "351-0",
         "section": "21",
         "component": "LEC",
         "courseTitle": "Special Topics",
-        "topic": "Memory, Monsters, and Magic: The Holocaust and Pop"
+        "topic": "Memory, Monsters, and Magic: The Holocaust and Pop",
+        "courseNumber": "42438",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWeFr 1:00PM - 4:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "382-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Practicum in Human Development; Learning Sciences",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41697",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Fr 10:00AM - 12:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "386-0",
         "section": "27",
         "component": "LEC",
         "courseTitle": "Practicum: Human Development & Psychological Svcs.",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41689",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Fr 10:00AM - 12:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "387-0",
         "section": "27",
         "component": "LEC",
         "courseTitle": "Practicum: Learning& Organizational Change",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41684",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Fr 10:00AM - 12:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "388-0",
         "section": "27",
         "component": "LEC",
         "courseTitle": "Practicum: Social Policy",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41681",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Fr 10:00AM - 12:50PM"
+          }
+        ]
       }
     ],
     "school": "SESP",
@@ -1553,14 +2618,28 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Special Topics in Social Policy",
-        "topic": "Federal Policy and Politics in the Covid-19 Crisis"
+        "topic": "Federal Policy and Politics in the Covid-19 Crisis",
+        "courseNumber": "42383",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Fr 10:00AM - 12:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "351-0",
         "section": "21",
         "component": "LEC",
         "courseTitle": "Special Topics in Social Policy",
-        "topic": "Catalysts for Change in the Court System"
+        "topic": "Catalysts for Change in the Court System",
+        "courseNumber": "42417",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ]
       }
     ],
     "school": "SESP",
@@ -1575,28 +2654,56 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Social Contexts of Education",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42385",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "310-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Foundations of Learning in a New Language",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42387",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 12:30PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "322-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Content Area Reading and Writing",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42386",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWe 3:30PM - 6:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "327-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Educating Exceptional Children",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42384",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuTh 3:30PM - 6:00PM"
+          }
+        ]
       }
     ],
     "school": "SESP",
@@ -1611,7 +2718,14 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Topics in African Studies",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40826",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -1626,21 +2740,42 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Introduction to African-American Studies",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40302",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 412",
+            "MEETING_TIME": "MoTuThFr 2:00PM - 4:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "380-0",
         "section": "21",
         "component": "LEC",
         "courseTitle": "Topics in African-American Studies",
-        "topic": "30 years of Black Film: 1990s to the Present"
+        "topic": "30 years of Black Film: 1990s to the Present",
+        "courseNumber": "40304",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 312",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 3:45PM"
+          }
+        ]
       },
       {
         "catalogNumber": "380-0",
         "section": "22",
         "component": "LEC",
         "courseTitle": "Topics in African-American Studies",
-        "topic": "Slavery on the Screen"
+        "topic": "Slavery on the Screen",
+        "courseNumber": "40305",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 418",
+            "MEETING_TIME": "MoWeFr 9:00AM - 1:40PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -1655,63 +2790,126 @@
         "section": "26",
         "component": "LEC",
         "courseTitle": "Evolution and Social Behavior: The Basics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40509",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "211-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Culture & Society",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40510",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "213-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Human Origins",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40511",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "214-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Archaeology: Unearthing History",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40512",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "215-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "The Study of Culture through Language",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40513",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm B07 - 1810 Hinmn",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "221-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Social and Health Inequalities",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42397",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "MoWeFr 4:00PM - 6:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "315-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Medical Anthropology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40533",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm B07 - 1810 Hinmn",
+            "MEETING_TIME": "TuTh 2:00PM - 4:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "341-0",
         "section": "20",
         "component": "SEM",
         "courseTitle": "Economic Anthropology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42366",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "TuTh 5:00PM - 8:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "390-0",
         "section": "20",
         "component": "SEM",
         "courseTitle": "Topics In Anthropology",
-        "topic": "Anthropology of Violence"
+        "topic": "Anthropology of Violence",
+        "courseNumber": "40514",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -1726,21 +2924,42 @@
         "section": "1",
         "component": "LEC",
         "courseTitle": "Arabic I",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40627",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-319",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "111-2",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Arabic I",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40628",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-319",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "111-3",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Arabic I",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40629",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-319",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -1755,7 +2974,14 @@
         "section": "24",
         "component": "LEC",
         "courseTitle": "Introduction to Photography",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40844",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge 1314 Photo Wet Lab",
+            "MEETING_TIME": "TuTh 9:30AM - 4:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -1770,7 +2996,14 @@
         "section": "26",
         "component": "LEC",
         "courseTitle": "Highlights of Astronomy",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40861",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -1785,70 +3018,120 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Introduction to Biological Sciences at Northwestern",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40772",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "217-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Physiology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40774",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoWeFr 9:30AM - 11:30AM"
+          }
+        ]
       },
       {
         "catalogNumber": "219-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Cell Biology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40773",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoWeFr 9:00AM - 11:30AM"
+          }
+        ]
       },
       {
         "catalogNumber": "220-0",
         "section": "20",
         "component": "LAB",
         "courseTitle": "Genetics and Molecular Processes Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40775",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "221-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Cellular Processes Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40776",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "222-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Investigative Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40777",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "301-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Principles of Biochemistry",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40757",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoWeFr 11:00AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "398-0",
         "section": "01",
         "component": "IND",
         "courseTitle": "Tutorial in Biology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40758",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "398-0",
         "section": "2",
         "component": "IND",
         "courseTitle": "Tutorial in Biology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40759",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "398-0",
         "section": "3",
         "component": "IND",
         "courseTitle": "Tutorial in Biology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40760",
+        "classMeetingInfo": []
       }
     ],
     "school": "WCAS",
@@ -1863,119 +3146,233 @@
         "section": "10",
         "component": "SEM",
         "courseTitle": "Field Studies in Business Culture",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40070",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 7:00PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "392-0",
         "section": "1",
         "component": "SEM",
         "courseTitle": "Field Studies in Public Health",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40069",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 6:00PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "393-1",
         "section": "10",
         "component": "SEM",
         "courseTitle": "Modern Workplace Culture",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40058",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Su 6:00PM - 7:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "393-1",
         "section": "11",
         "component": "SEM",
         "courseTitle": "Modern Workplace Culture",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42595",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Su 6:00PM - 7:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "393-2",
         "section": "10",
         "component": "SEM",
         "courseTitle": "Contemporary Issues in the Workplace",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40059",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Su 7:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "393-2",
         "section": "11",
         "component": "SEM",
         "courseTitle": "Contemporary Issues in the Workplace",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42596",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Su 7:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "394-1",
         "section": "10",
         "component": "SEM",
         "courseTitle": "Legal Culture & Process",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40060",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 6:00PM - 7:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "394-2",
         "section": "10",
         "component": "SEM",
         "courseTitle": "Contemporary Issues in Law",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40061",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 7:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "395-1",
         "section": "10",
         "component": "SEM",
         "courseTitle": "Business Workplace Culture",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40062",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Su 6:00PM - 7:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "395-1",
         "section": "11",
         "component": "SEM",
         "courseTitle": "Business Workplace Culture",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42597",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Tu 6:00PM - 7:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "395-1",
         "section": "12",
         "component": "SEM",
         "courseTitle": "Business Workplace Culture",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42648",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "Mo 6:00PM - 7:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "395-2",
         "section": "10",
         "component": "SEM",
         "courseTitle": "Contemporary Issues: Business Field Studies",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40063",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Su 7:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "395-2",
         "section": "11",
         "component": "SEM",
         "courseTitle": "Contemporary Issues: Business Field Studies",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42598",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Tu 7:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "395-2",
         "section": "12",
         "component": "SEM",
         "courseTitle": "Contemporary Issues: Business Field Studies",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42650",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "Mo 7:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "397-0",
         "section": "28",
         "component": "SEM",
         "courseTitle": "Field Studies in Civic Engagement",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40065",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "398-0",
         "section": "10",
         "component": "SEM",
         "courseTitle": "Field Studies in Humanities",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40068",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 6:00PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "495-0",
         "section": "1",
         "component": "SEM",
         "courseTitle": "Civic Engagement and Graduate Education",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40067",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 3:00PM - 6:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -1990,91 +3387,190 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Introduction to Calculus and Chemistry",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40655",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "100-BR",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Introduction to Problem Solving in Chemistry",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40656",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "110-0",
         "section": "01",
         "component": "LEC",
         "courseTitle": "Quantitative Problem Solving in Chemistry",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40658",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "131-0",
         "section": "01",
         "component": "LEC",
         "courseTitle": "General Chemistry 1",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40664",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "132-0",
         "section": "01",
         "component": "LEC",
         "courseTitle": "General Chemistry 2",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40665",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "141-0",
         "section": "33",
         "component": "LAB",
         "courseTitle": "General Chemistry Laboratory 1",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40711",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute HG10",
+            "MEETING_TIME": "MoWe 1:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "142-0",
         "section": "33",
         "component": "LAB",
         "courseTitle": "General Chemistry Laboratory 2",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40756",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute HG10",
+            "MEETING_TIME": "MoWe 1:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "199-BR",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Foundations of Organic Chemstry",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40657",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "210-1",
         "section": "23",
         "component": "LEC",
         "courseTitle": "Organic Chemistry",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40652",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWeFr 1:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "210-2",
         "section": "23",
         "component": "LEC",
         "courseTitle": "Organic Chemistry",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40653",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "210-3",
         "section": "23",
         "component": "LEC",
         "courseTitle": "Organic Chemistry",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40654",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "230-2",
         "section": "33",
         "component": "LAB",
         "courseTitle": "Organic Chemistry Lab I",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40697",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWeFr 1:00PM - 5:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "230-3",
         "section": "33",
         "component": "LAB",
         "courseTitle": "Organic Chemistry Lab II",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40699",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWeFr 1:00PM - 5:30PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -2089,21 +3585,42 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Chinese I",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42342",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "111-2",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Chinese I",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42343",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "111-3",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Chinese I",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42346",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 12:30PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -2118,7 +3635,14 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Reading Difference",
-        "topic": "Gender & Genius: Women?s Writing in the Global 19c"
+        "topic": "Gender & Genius: Women?s Writing in the Global 19c",
+        "courseNumber": "40372",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge 5531 Comp Lit. Sem. Rm.",
+            "MEETING_TIME": "MoWe 2:00PM - 4:30PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -2133,63 +3657,121 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Introduction to Problem-Solving in Economics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40371",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "201-0",
         "section": "25",
         "component": "LEC",
         "courseTitle": "Introduction to Macroeconomics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40359",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWeFr 9:30AM - 11:20AM"
+          }
+        ]
       },
       {
         "catalogNumber": "202-0",
         "section": "45",
         "component": "LEC",
         "courseTitle": "Introduction to Microeconomics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42191",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuWeTh 1:00PM - 2:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "310-1",
         "section": "25",
         "component": "LEC",
         "courseTitle": "Microeconomics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42192",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuWeTh 3:00PM - 4:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "310-2",
         "section": "25",
         "component": "LEC",
         "courseTitle": "Microeconomics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40364",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuWeTh 9:30AM - 11:20AM"
+          }
+        ]
       },
       {
         "catalogNumber": "311-0",
         "section": "25",
         "component": "LEC",
         "courseTitle": "Macroeconomics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40365",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoWeFr 3:00PM - 4:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "349-0",
         "section": "25",
         "component": "LEC",
         "courseTitle": "Industrial Economics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40367",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuWeTh 11:00AM - 12:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "361-0",
         "section": "25",
         "component": "LEC",
         "courseTitle": "International Trade",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40362",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoFr 9:30AM - 12:20PM"
+          }
+        ]
       },
       {
         "catalogNumber": "519-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Responsible Conduct of Research Training",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40370",
+        "classMeetingInfo": []
       }
     ],
     "school": "WCAS",
@@ -2204,91 +3786,177 @@
         "section": "20",
         "component": "SEM",
         "courseTitle": "Summer Academic Workshop in Writing",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40505",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoTuWeThFr 11:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "100-SW",
         "section": "21",
         "component": "SEM",
         "courseTitle": "Summer Academic Workshop in Writing",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40506",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoTuWeThFr 11:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "100-SW",
         "section": "22",
         "component": "SEM",
         "courseTitle": "Summer Academic Workshop in Writing",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40507",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoTuWeThFr 11:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "100-SW",
         "section": "23",
         "component": "SEM",
         "courseTitle": "Summer Academic Workshop in Writing",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42659",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoTuWeThFr 11:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "105-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Expository Writing",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40504",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "206-0",
         "section": "21",
         "component": "LEC",
         "courseTitle": "Reading & Writing Poetry",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42433",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWeFr 10:00AM - 11:50AM"
+          }
+        ]
       },
       {
         "catalogNumber": "282-0",
         "section": "1",
         "component": "SEM",
         "courseTitle": "Writing and Speaking in Business",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40508",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "282-0",
         "section": "2",
         "component": "SEM",
         "courseTitle": "Writing and Speaking in Business",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42193",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "307-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Advanced Creative Writing",
-        "topic": "Writing the Novella"
+        "topic": "Writing the Novella",
+        "courseNumber": "40604",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "332-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Renaissance Drama",
-        "topic": "Racial Impersonation Ren Stage"
+        "topic": "Racial Impersonation Ren Stage",
+        "courseNumber": "40605",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "386-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Studies in Literature and Film",
-        "topic": "Baseball in American Narrative"
+        "topic": "Baseball in American Narrative",
+        "courseNumber": "40606",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "386-0",
         "section": "27",
         "component": "LEC",
         "courseTitle": "Studies in Literature and Film",
-        "topic": "Ghost Stories in Literature and Film"
+        "topic": "Ghost Stories in Literature and Film",
+        "courseNumber": "40607",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "491-0",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Editorial Practicum",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40612",
+        "classMeetingInfo": []
       }
     ],
     "school": "WCAS",
@@ -2303,7 +3971,9 @@
         "section": "01",
         "component": "LEC",
         "courseTitle": "Special Topics in Environmental Sciences",
-        "topic": "GIS Level 1 (Geographic Information Systems 1)"
+        "topic": "GIS Level 1 (Geographic Information Systems 1)",
+        "courseNumber": "42380",
+        "classMeetingInfo": []
       }
     ],
     "school": "WCAS",
@@ -2318,49 +3988,93 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Elementary French",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40641",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "111-2",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Elementary French",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40642",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "111-3",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Elementary French",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40643",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "121-1",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Intermediate French",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40644",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "121-2",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Intermediate French",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40645",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "121-3",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Intermediate French",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40646",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "596-0",
         "section": "20",
         "component": "THE",
         "courseTitle": "PhD Thesis Tutorial",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40648",
+        "classMeetingInfo": []
       }
     ],
     "school": "WCAS",
@@ -2375,14 +4089,28 @@
         "section": "1",
         "component": "SEM",
         "courseTitle": "Special Topics in Global Health",
-        "topic": "Population and Reproductive Health"
+        "topic": "Population and Reproductive Health",
+        "courseNumber": "40995",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuTh 3:00PM - 5:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "390-0",
         "section": "2",
         "component": "SEM",
         "courseTitle": "Special Topics in Global Health",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "41018",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 6:00PM - 9:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -2397,42 +4125,84 @@
         "section": "1",
         "component": "LEC",
         "courseTitle": "Beginning German",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40633",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "101-2",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Beginning German",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40635",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "101-3",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Beginning German",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40636",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "102-1",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Intermediate German",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42157",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "102-2",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Intermediate German",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42158",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "102-3",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Intermediate German",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42159",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -2447,35 +4217,70 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Gender, Sexuality and History",
-        "topic": "Consent: Sexual Agency in Hist. Context"
+        "topic": "Consent: Sexual Agency in Hist. Context",
+        "courseNumber": "42399",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "332-0",
         "section": "21",
         "component": "LEC",
         "courseTitle": "Gender, Sexuality, and Health",
-        "topic": "Depression & Its Discontents"
+        "topic": "Depression & Its Discontents",
+        "courseNumber": "42457",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 10:00AM - 12:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "371-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Gender, Sexuality, and Popular Culture",
-        "topic": "Mixed-Race Genders and Sexualities in Popular Cult"
+        "topic": "Mixed-Race Genders and Sexualities in Popular Cult",
+        "courseNumber": "40825",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "372-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Gender, Sexuality, and Performance",
-        "topic": "Transnational Feminism & the Diva"
+        "topic": "Transnational Feminism & the Diva",
+        "courseNumber": "42330",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "490-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Topics in Gender and Sexuality Studies",
-        "topic": "Consent: Sexual Agency in Hist. Context"
+        "topic": "Consent: Sexual Agency in Hist. Context",
+        "courseNumber": "42512",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -2490,49 +4295,83 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "New Introductory Courses in History",
-        "topic": "Native American History"
+        "topic": "Native American History",
+        "courseNumber": "40537",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 2:00PM - 4:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "200-0",
         "section": "22",
         "component": "LEC",
         "courseTitle": "New Introductory Courses in History",
-        "topic": "The British Empire"
+        "topic": "The British Empire",
+        "courseNumber": "40538",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "201-1",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Europe in the Medieval and Early Modern World",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40534",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "210-2",
         "section": "20",
         "component": "LEC",
         "courseTitle": "History of the United States, Reconstruction to the Present",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42400",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "300-0",
         "section": "22",
         "component": "LEC",
         "courseTitle": "New Lectures in History",
-        "topic": "Food in United States History"
+        "topic": "Food in United States History",
+        "courseNumber": "40539",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "308-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "The American West",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40540",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 4:30PM - 6:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "319-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "History of US Foreign Relations",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42401",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 2:00PM - 5:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -2547,14 +4386,28 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Introduction to Critical Thinking in the Humanities and Social Sciences",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42608",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 4:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "100-2-BR",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Asking - and Answering - Questions in the Humanities and Social Sciences",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42609",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 5:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -2569,14 +4422,28 @@
         "section": "1",
         "component": "LEC",
         "courseTitle": "Rigor & Reproducibility in Research",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42116",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "Tu 10:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "421-0",
         "section": "2",
         "component": "LEC",
         "courseTitle": "Rigor & Reproducibility in Research",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42624",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "Th 10:00AM - 12:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -2591,21 +4458,42 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Elementary Italian",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40649",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "101-2",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Elementary Italian",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40650",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "101-3",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Elementary Italian",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40651",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -2620,7 +4508,14 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Korean I",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42334",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeTh 4:00PM - 6:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -2635,21 +4530,42 @@
         "section": "1",
         "component": "LEC",
         "courseTitle": "Topics in Latina and Latino Social and Political Issues",
-        "topic": "Acts of Memory, Mourning, and Protest"
+        "topic": "Acts of Memory, Mourning, and Protest",
+        "courseNumber": "40789",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeTh 1:30PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "393-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Topics in Latina and Latino Text and Representation",
-        "topic": "Latinx Film"
+        "topic": "Latinx Film",
+        "courseNumber": "40788",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeTh 1:30PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "393-0",
         "section": "2",
         "component": "LEC",
         "courseTitle": "Topics in Latina and Latino Text and Representation",
-        "topic": "Feminist Aesthetics of the Erotic"
+        "topic": "Feminist Aesthetics of the Erotic",
+        "courseNumber": "42133",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeTh 1:30PM - 5:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -2664,7 +4580,9 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Law and Society",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40845",
+        "classMeetingInfo": []
       }
     ],
     "school": "WCAS",
@@ -2679,42 +4597,69 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Formal Analysis of Words & Sentences",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40838",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 2:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "270-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Meaning",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42126",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "380-0",
         "section": "20",
         "component": "SEM",
         "courseTitle": "Spoken English for Nonnative Speakers",
-        "topic": "Culture, Conversation, and Fluency"
+        "topic": "Culture, Conversation, and Fluency",
+        "courseNumber": "40839",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 2:30PM - 4:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "480-0",
         "section": "20",
         "component": "SEM",
         "courseTitle": "American Academic Culture for Non-Native speakers of English",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40840",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 3:30PM - 4:50PM"
+          }
+        ]
       },
       {
         "catalogNumber": "482-0",
         "section": "20",
         "component": "LAB",
         "courseTitle": "Individual Speech and Language Instruction for Nonnative Speakers of English",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40843",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "483-0",
         "section": "20",
         "component": "LAB",
         "courseTitle": "Supported Online Speech Training for Nonnative Speakers of English",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40842",
+        "classMeetingInfo": []
       }
     ],
     "school": "WCAS",
@@ -2729,63 +4674,126 @@
         "section": "21",
         "component": "LEC",
         "courseTitle": "Quantitative Reasoning",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40979",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 4:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "220-1",
         "section": "28",
         "component": "LEC",
         "courseTitle": "Single-Variable Differential Calculus",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42063",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 1:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "220-2",
         "section": "28",
         "component": "LEC",
         "courseTitle": "Single-Variable Integral Calculus",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42064",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 1:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "230-1",
         "section": "28",
         "component": "LEC",
         "courseTitle": "Multivariable Differential Calculus",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42065",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 3:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "230-2",
         "section": "28",
         "component": "LEC",
         "courseTitle": "Multivariable Integral Calculus",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42066",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 3:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "240-0",
         "section": "28",
         "component": "LEC",
         "courseTitle": "Linear Algebra",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40978",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 10:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "250-0",
         "section": "28",
         "component": "LEC",
         "courseTitle": "Elementary Differential Equations",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42347",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 1:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "300-0",
         "section": "28",
         "component": "LEC",
         "courseTitle": "Foundations of Higher Mathematics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40974",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 10:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "334-0",
         "section": "28",
         "component": "LEC",
         "courseTitle": "Linear Algebra: Second Course",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40975",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 1:00PM - 3:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -2800,56 +4808,107 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Introduction to Philosophy",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40496",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "150-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Elementary Logic I",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40497",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWe 10:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "210-1",
         "section": "20",
         "component": "LEC",
         "courseTitle": "History of Philosophy - Ancient",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40498",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWeFr 2:00PM - 4:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "225-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Minds and Machines",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40503",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWeFr 10:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "260-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Introduction to Moral Philosophy",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42321",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "261-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Introduction to Political Philosophy",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40500",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "262-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Ethical Problems and Public Issues",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42437",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 1:00PM - 4:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "269-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Bioethics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40502",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 5:00PM - 8:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -2864,133 +4923,266 @@
         "section": "23",
         "component": "LEC",
         "courseTitle": "College Physics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40883",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "130-2",
         "section": "23",
         "component": "LEC",
         "courseTitle": "College Physics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40884",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "130-3",
         "section": "23",
         "component": "LEC",
         "courseTitle": "College Physics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40885",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "135-1",
         "section": "23",
         "component": "LEC",
         "courseTitle": "General Physics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40886",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "135-2",
         "section": "23",
         "component": "LEC",
         "courseTitle": "General Physics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40887",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "135-3",
         "section": "23",
         "component": "LEC",
         "courseTitle": "General Physics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40888",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "136-1",
         "section": "38",
         "component": "LAB",
         "courseTitle": "General Physics Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42187",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 7:00AM - 9:00AM"
+          }
+        ]
       },
       {
         "catalogNumber": "136-1",
         "section": "40",
         "component": "LAB",
         "courseTitle": "General Physics Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42613",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "136-1",
         "section": "48",
         "component": "LAB",
         "courseTitle": "General Physics Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42188",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "136-1",
         "section": "58",
         "component": "LAB",
         "courseTitle": "General Physics Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42189",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "136-2",
         "section": "38",
         "component": "LAB",
         "courseTitle": "General Physics Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42089",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 7:00AM - 9:00AM"
+          }
+        ]
       },
       {
         "catalogNumber": "136-2",
         "section": "40",
         "component": "LAB",
         "courseTitle": "General Physics Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42614",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "136-2",
         "section": "48",
         "component": "LAB",
         "courseTitle": "General Physics Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42090",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "136-2",
         "section": "50",
         "component": "LAB",
         "courseTitle": "General Physics Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42615",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "136-2",
         "section": "58",
         "component": "LAB",
         "courseTitle": "General Physics Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42091",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "136-3",
         "section": "38",
         "component": "LAB",
         "courseTitle": "General Physics Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42095",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 7:00AM - 9:00AM"
+          }
+        ]
       },
       {
         "catalogNumber": "136-3",
         "section": "40",
         "component": "LAB",
         "courseTitle": "General Physics Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42616",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "136-3",
         "section": "48",
         "component": "LAB",
         "courseTitle": "General Physics Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42096",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "136-3",
         "section": "58",
         "component": "LAB",
         "courseTitle": "General Physics Laboratory",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42097",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -3005,49 +5197,93 @@
         "section": "24",
         "component": "LEC",
         "courseTitle": "American Government and Politics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40666",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Scott Hall 212",
+            "MEETING_TIME": "TuWeTh 2:00PM - 4:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "348-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Globalization",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40706",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeTh 10:00AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "369-0",
         "section": "18",
         "component": "LEC",
         "courseTitle": "Politics of Post-Soviet Russia",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40707",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "377-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Drugs and Politics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40708",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "390-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Special Topics in Political Science",
-        "topic": "Politics of Corruption"
+        "topic": "Politics of Corruption",
+        "courseNumber": "40667",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Scott Hall 201 Ripton Room",
+            "MEETING_TIME": "TuTh 1:00PM - 4:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "390-0",
         "section": "21",
         "component": "LEC",
         "courseTitle": "Special Topics in Political Science",
-        "topic": "America in the 1960's: Politics of Popular Culture"
+        "topic": "America in the 1960's: Politics of Popular Culture",
+        "courseNumber": "41071",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 6:00PM - 9:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "490-0",
         "section": "20",
         "component": "SEM",
         "courseTitle": "Special Topics in Political Science",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42469",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 1:00PM - 3:50PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -3062,56 +5298,112 @@
         "section": "25",
         "component": "LEC",
         "courseTitle": "Introduction to Psychology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40307",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 10:30AM - 1:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "201-0",
         "section": "25",
         "component": "LEC",
         "courseTitle": "Statistical Methods in Psychology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40308",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 210",
+            "MEETING_TIME": "MoWe 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "215-0",
         "section": "25",
         "component": "LEC",
         "courseTitle": "Psychology of Personality",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40309",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "228-0",
         "section": "25",
         "component": "LEC",
         "courseTitle": "Cognitive Psychology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40310",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 2:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "303-0",
         "section": "25",
         "component": "LEC",
         "courseTitle": "Psychopathology",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40311",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 3:00PM - 5:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "341-0",
         "section": "25",
         "component": "LEC",
         "courseTitle": "Positive Psychology: The Science of Well-Being",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40358",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 6:15PM - 9:15PM"
+          }
+        ]
       },
       {
         "catalogNumber": "364-0",
         "section": "25",
         "component": "LEC",
         "courseTitle": "Social and Personality Development",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40312",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 10:00AM - 1:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "366-0",
         "section": "25",
         "component": "LEC",
         "courseTitle": "Stereotyping & Prejudice",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40357",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 1:00PM - 4:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -3126,21 +5418,32 @@
         "section": "26",
         "component": "LEC",
         "courseTitle": "Introduction to Buddhism",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40546",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 3:30PM - 5:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "230-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Introduction to Judaism",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40547",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "250-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Introduction to Islam",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42170",
+        "classMeetingInfo": []
       }
     ],
     "school": "WCAS",
@@ -3155,35 +5458,55 @@
         "section": "1",
         "component": "LEC",
         "courseTitle": "Social Problems",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42307",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "206-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Law and Society",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40846",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "226-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Sociological Analysis",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40847",
+        "classMeetingInfo": []
       },
       {
         "catalogNumber": "232-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Sexuality and Society",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40851",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ]
       },
       {
         "catalogNumber": "302-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Sociology of Organizations",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40848",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWe 2:00PM - 4:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -3198,63 +5521,126 @@
         "section": "23",
         "component": "LEC",
         "courseTitle": "Elementary Spanish",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40561",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "101-2",
         "section": "23",
         "component": "LEC",
         "courseTitle": "Elementary Spanish",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40562",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "101-3",
         "section": "23",
         "component": "LEC",
         "courseTitle": "Elementary Spanish",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40563",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "121-1",
         "section": "23",
         "component": "LEC",
         "courseTitle": "Intermediate Spanish",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40564",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "121-1",
         "section": "24",
         "component": "LEC",
         "courseTitle": "Intermediate Spanish",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42590",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "121-2",
         "section": "23",
         "component": "LEC",
         "courseTitle": "Intermediate Spanish",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40565",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "121-2",
         "section": "24",
         "component": "LEC",
         "courseTitle": "Intermediate Spanish",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42592",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "121-3",
         "section": "23",
         "component": "LEC",
         "courseTitle": "Intermediate Spanish",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40566",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ]
       },
       {
         "catalogNumber": "121-3",
         "section": "24",
         "component": "LEC",
         "courseTitle": "Intermediate Spanish",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "42593",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",
@@ -3269,7 +5655,14 @@
         "section": "24",
         "component": "LEC",
         "courseTitle": "Introduction to Statistics",
-        "topic": ""
+        "topic": "",
+        "courseNumber": "40778",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeTh 10:00AM - 12:00PM"
+          }
+        ]
       }
     ],
     "school": "WCAS",

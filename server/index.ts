@@ -303,7 +303,9 @@ app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
         // shit any casting for now
         for (let i = 0; i < courseData.length; i++) {
           if ((courseData[i] as any).value?.status) {
-            cleanedCourseData.push((courseData[i] as any).value);
+            cleanedCourseData.push(
+              (courseData[i] as any).value
+            );
           }
         }
         res.json(cleanedCourseData);

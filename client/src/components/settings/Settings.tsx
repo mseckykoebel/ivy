@@ -1,17 +1,17 @@
-import {
+import React, {
   Fragment,
   SetStateAction,
   Dispatch,
-  RefObject,
   useRef,
   useState,
   useEffect,
 } from "react";
+
 import { Dialog, Transition } from "@headlessui/react";
 
 import { useAuth } from "../../contexts/AuthContext";
 
-import { ProfilePicture } from "../profilePicture/ProfilePicture";
+import { ProfilePicture } from "../profile-picture/ProfilePicture";
 
 import { Majors } from "./Majors";
 import { Minors } from "./Minors";
@@ -31,17 +31,16 @@ import {
   getMinorsByUserId,
   updateMinor,
 } from "../../firebase/minorsService";
+import { XIcon } from "@heroicons/react/outline";
 
 interface SettingsProps {
-  open: boolean;
-  setOpenModal: Dispatch<SetStateAction<boolean>>;
-  cancelButtonRef: RefObject<HTMLButtonElement>;
+  openSettingsModal: boolean;
+  setOpenSettingsModal: Dispatch<SetStateAction<boolean>>;
 }
 
 export const Settings: React.FC<SettingsProps> = ({
-  open,
-  setOpenModal,
-  cancelButtonRef,
+  openSettingsModal,
+  setOpenSettingsModal,
 }): JSX.Element => {
   // contexts
   const { currentUser, updateEmail, updatePassword, updateDisplayName } =
@@ -197,13 +196,8 @@ export const Settings: React.FC<SettingsProps> = ({
   }, []);
 
   return (
-    <Transition.Root show={open} as={Fragment}>
-      <Dialog
-        as="div"
-        className="relative z-30"
-        initialFocus={cancelButtonRef}
-        onClose={setOpenModal}
-      >
+    <Transition.Root show={openSettingsModal} as={Fragment}>
+      <Dialog as="div" className="relative z-30" onClose={setOpenSettingsModal}>
         <Transition.Child
           as={Fragment}
           enter="ease-out duration-300"
@@ -228,9 +222,20 @@ export const Settings: React.FC<SettingsProps> = ({
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
               <Dialog.Panel className="relative sm:min-w-[50rem] bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:max-w-lg sm:w-full sm:p-6">
+                <div className="absolute top-6 right-6 hidden pt-4 pr-4 sm:block">
+                  <button
+                    type="button"
+                    className="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+                    onClick={() => setOpenSettingsModal(false)}
+                  >
+                    <span className="sr-only">Close</span>
+                    <XIcon className="h-6 w-6" aria-hidden="true" />
+                  </button>
+                </div>
                 <div className="overflow-hidden bg-white shadow sm:rounded-lg">
-                  <div className="flex justify-between px-4 py-5 sm:px-6">
-                    <div className="inline-block align-middle`">
+                  <div className="flex justify-start px-4 py-5 sm:px-6">
+                    <ProfilePicture size={50} />
+                    <div className="inline-block align-middle pl-5">
                       <h3 className="text-lg font-medium leading-6 text-gray-900">
                         ⚙️ Settings
                       </h3>
@@ -238,7 +243,6 @@ export const Settings: React.FC<SettingsProps> = ({
                         Your personal, major, and minor information
                       </p>
                     </div>
-                    <ProfilePicture size={50} />
                   </div>
                   <div className="border-t border-gray-200 px-4 py-5 sm:p-0">
                     <dl className="sm:divide-y sm:divide-gray-200">
@@ -385,17 +389,8 @@ export const Settings: React.FC<SettingsProps> = ({
                       loading ? "cursor-not-allowed" : ""
                     }`}
                     onClick={handleSubmit}
-                    ref={cancelButtonRef}
                   >
                     Save
-                  </button>
-                  <button
-                    type="button"
-                    className="mt-3 mr-2 px-4 py-2 w-40 inline-flex justify-center rounded-md border border-gray-500 text-sm font-medium text-black bg-white transition-all hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 hover:text-white"
-                    onClick={() => setOpenModal(false)}
-                    ref={cancelButtonRef}
-                  >
-                    Cancel
                   </button>
                 </div>
               </Dialog.Panel>

@@ -16,9 +16,11 @@ import Schedule from "../schedule/Schedule";
 import { useAuth } from "../../contexts/AuthContext";
 import Search from "../search/Search";
 // avatars
-import { ProfilePicture } from "../profilePicture/ProfilePicture";
+import { ProfilePicture } from "../profile-picture/ProfilePicture";
 // API
 import fetch from "cross-fetch";
+import { CalendarCourse, CourseDetail } from "../../types/courses";
+import { CourseDetail as CourseDetailModal } from "../course-detail/CourseDetail";
 
 const navigation = [{ name: "Calendar view" }, { name: "Schedule view" }];
 
@@ -33,6 +35,13 @@ const Home: React.FC = (): JSX.Element => {
   // state
   const [calView, setCalView] = useState<boolean>(true);
   const [query, setQuery] = useState<string>("");
+  // UI state
+  const [openSettingsModal, setOpenSettingsModal] = useState<boolean>(false);
+  const [openDetailModal, setOpenDetailModal] = useState<boolean>(false);
+  const [error, setError] = useState<string>("");
+  const [loading, setLoading] = useState<boolean>(false);
+  // TODO: this is bad prop drilling. Find a way to fire the modal from home without doing this!
+  const [courseDetail, setCourseDetail] = useState<CourseDetail | null>(null);
   // filtering (arrays)
   const [years, setYears] = useState<{ year: string }[] | null>(null);
   const [quarters, setQuarters] = useState<{ quarter: string }[] | null>(null);
@@ -47,17 +56,19 @@ const Home: React.FC = (): JSX.Element => {
     quarter: string;
   } | null>(null);
   const [selectedSchool, setSelectedSchool] = useState<string | null>(null);
-  // UI state
-  const [open, setOpen] = useState<boolean>(false);
-  const [error, setError] = useState<string>("");
-  const [loading, setLoading] = useState<boolean>(false);
   // context
   const { currentUser, logout } = useAuth();
-  // ref
-  const cancelButtonRef = useRef(null);
   const term = useRef(null); // handles termId globally
   // searching
   const [searchQuery, setSearchQuery] = useState<string>("");
+  // calendar (array of courses that the UI figures out how to deal with)
+  const [calendarCourses, setCalendarCourses] = useState<
+    CalendarCourse[] | null
+  >(null);
+  // schedule (array of courses that the UI figures out how to deal with)
+  // const [scheduleCourses, setScheduleCourses] = useState<
+  //   Record<string, string>[] | null
+  // >(null);
 
   // for years and quarters
   useEffect(() => {
@@ -249,7 +260,7 @@ const Home: React.FC = (): JSX.Element => {
       name: "⚙️ Settings",
       href: "",
       onClick: () => {
-        setOpen(true);
+        setOpenSettingsModal(true);
       },
     },
     {
@@ -259,9 +270,17 @@ const Home: React.FC = (): JSX.Element => {
     },
   ];
   // test to see if the modal closing works
-  const fromClose = (open: boolean) => {
-    setOpen(open);
+  const fromSettingsModalClose = (open: boolean) => {
+    setOpenSettingsModal(open);
   };
+
+  const fromDetailModalClose = (open: boolean) => {
+    setOpenDetailModal(open);
+  };
+
+  useEffect(() => {
+    setOpenDetailModal(true);
+  }, [courseDetail]);
 
   return (
     <>
@@ -273,18 +292,26 @@ const Home: React.FC = (): JSX.Element => {
         <body class="h-full">
         ```
       */}
-      <div className="min-h-full bg-green-50">
-        {/* MODAL */}
-        {open && (
+      <div className="min-h-full">
+        {/* MODALS */}
+        {openSettingsModal && (
           <Settings
-            open={open}
-            setOpenModal={() => fromClose(false)}
-            cancelButtonRef={cancelButtonRef}
-            // cancelButtonRef={cancelButtonRef}
+            openSettingsModal={openSettingsModal}
+            setOpenSettingsModal={() => fromSettingsModalClose(false)}
+          />
+        )}
+        {openDetailModal && courseDetail && (
+          <CourseDetailModal
+            termId={courseDetail.termId}
+            school={courseDetail.school}
+            subject={courseDetail.subject}
+            courseNumber={courseDetail.courseNumber}
+            courseDetail={openDetailModal}
+            setCourseDetail={() => fromDetailModalClose(false)}
           />
         )}
         {/* REST OF THE COMPONENT */}
-        <Popover as="header" className="pb-24 bg-green-600">
+        <Popover as="header" className="pb-24 bg-green-500">
           {({ open }) => (
             <>
               <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -831,7 +858,10 @@ const Home: React.FC = (): JSX.Element => {
                     {/* CALENDAR VIEW/SCHEDULE VIEW TOGGLE TOGGLE */}
                     {calView && (
                       <div className="p-6">
-                        <Calendar />
+                        <Calendar
+                          calendarCourses={calendarCourses}
+                          setCalendarCourses={setCalendarCourses}
+                        />
                       </div>
                     )}
                     {!calView && (
@@ -857,7 +887,13 @@ const Home: React.FC = (): JSX.Element => {
                     school={selectedSchool}
                     termId={term.current}
                     searchQuery={searchQuery}
+                    calendarCourses={calendarCourses}
+                    setCalendarCourses={setCalendarCourses}
                     view={calView ? "Calendar" : "Schedule"}
+                    // bad prop drilling - fetch currently selected course from course details
+                    courseDetail={courseDetail}
+                    setCourseDetail={setCourseDetail}
+                    setOpenDetailModal={setOpenDetailModal}
                   />
                 </section>
                 {/* SUPER BASIC ERROR LOCATION */}

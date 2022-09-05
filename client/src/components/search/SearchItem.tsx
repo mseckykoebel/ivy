@@ -1,6 +1,8 @@
-import React from "react";
+import React, { Dispatch, SetStateAction, useState } from "react";
+import { CalendarCourse, CourseDetail } from "../../types/courses";
 
 interface SearchItemProps {
+  termId: string;
   school: string;
   subject: string;
   catalogNumber: string;
@@ -8,12 +10,21 @@ interface SearchItemProps {
   component: string;
   courseTitle: string;
   topic: string;
+  courseNumber: string;
   // additional color prop
   color: string;
+  classMeetingInfo: Record<string, string>[] | null;
   view: "Calendar" | "Schedule";
+  // calendar (light prop drilling here)
+  calendarCourses: CalendarCourse[] | null;
+  setCalendarCourses: any;
+  // course detail (light prop drilling here)
+  courseDetail: CourseDetail | null;
+  setCourseDetail: Dispatch<SetStateAction<CourseDetail | null>>;
+  setOpenDetailModal: Dispatch<SetStateAction<boolean>>;
 }
-
 const SearchItem: React.FC<SearchItemProps> = ({
+  termId,
   school,
   subject,
   catalogNumber,
@@ -21,9 +32,66 @@ const SearchItem: React.FC<SearchItemProps> = ({
   component,
   courseTitle,
   topic,
+  courseNumber,
+  classMeetingInfo,
   color,
   view,
+  calendarCourses,
+  setCalendarCourses,
+  courseDetail,
+  setCourseDetail,
+  setOpenDetailModal,
 }): JSX.Element => {
+  // error state - just works with
+  const [error, setError] = useState("");
+
+  // this updates the calendar array!
+  const handleViewClick = () => {
+    if (!calendarCourses) {
+      setCalendarCourses([
+        {
+          courseNumber: courseNumber,
+          school: school,
+          section: section,
+        },
+      ]);
+      return;
+    }
+
+    // see if this course is in the calendarCourses already. If not, add it
+    for (let i = 0; i < calendarCourses.length; i++) {
+      if (calendarCourses[i].courseNumber === courseNumber) {
+        setError("Course already present!");
+        setTimeout(() => {
+          setError("");
+        }, 3000);
+        return;
+      }
+    }
+
+    setCalendarCourses((priorCourses: CalendarCourse[]) => [
+      ...priorCourses,
+      {
+        courseNumber: courseNumber,
+        school: school,
+        section: section,
+      },
+    ]);
+
+    return;
+  };
+
+  // this updates the current course detail, and opens the course detail modal from the home page
+  const handleDetailClick = () => {
+    setCourseDetail(() => ({
+      termId: termId,
+      school: school,
+      subject: subject,
+      courseNumber: courseNumber,
+    }));
+    setOpenDetailModal(() => true);
+  };
+
   return (
     <div
       className={`${color} shadow sm:rounded-lg mb-4 m-4 hover:scale-[101%] transition-all hover:cursor-pointer`}
@@ -36,29 +104,36 @@ const SearchItem: React.FC<SearchItemProps> = ({
           <p>School: {school}</p>
           <p>Section: {section}</p>
           <p>Type: {component}</p>
+          <p>Meeting info #: {courseNumber}</p>
           {topic.length > 0 && <p>Topic: {topic}</p>}
         </div>
         <div className="mt-3 text-sm">
           <button
             className="font-medium text-indigo-600 hover:text-indigo-500 hover:underline"
-            onClick={() =>
-              console.log("View more details on this course was requested!")
-            }
+            onClick={() => {
+              console.log("View more details on this course was requested!");
+              handleDetailClick();
+            }}
           >
             {" "}
             View more details <span aria-hidden="true">&rarr;</span>
           </button>
         </div>
         <div className="mt-3 text-sm">
-          <button
-            className="font-medium text-indigo-600 hover:text-indigo-500 hover:underline"
-            onClick={() =>
-              console.log("View more details on this course was requested!")
-            }
-          >
-            {" "}
-            Add to {view} <span aria-hidden="true">&rarr;</span>
-          </button>
+          {classMeetingInfo && classMeetingInfo?.length > 0 && (
+            <button
+              // disable
+              className="font-medium text-indigo-600 hover:text-indigo-500 hover:underline"
+              onClick={() => handleViewClick()}
+            >
+              {" "}
+              Add to {view} <span aria-hidden="true">&rarr;</span>
+            </button>
+          )}
+        </div>
+        {/* If there were any errors */}
+        <div className="mt-2 max-w-xl text-sm text-gray-500">
+          {error && <p>Error: {error}</p>}
         </div>
       </div>
     </div>
