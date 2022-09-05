@@ -1,8 +1,11 @@
-import { Fragment, useRef, useState } from "react";
+/* eslint-disable indent */
+// The above is stupid but it's getting messed up with prettier
+import { Fragment, useEffect, useRef, useState } from "react";
 import { Menu, Popover, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
-import { SearchIcon } from "@heroicons/react/solid";
+import { SearchIcon, CheckIcon } from "@heroicons/react/solid";
 import { ChevronDownIcon } from "@heroicons/react/solid";
+import { Combobox } from "@headlessui/react";
 import { Settings } from "../settings/Settings";
 import ivyLogo from "../../static/ivy_logo_full.png";
 import Calendar from "../calendar/Calendar";
@@ -14,40 +17,194 @@ import { useAuth } from "../../contexts/AuthContext";
 import Search from "../search/Search";
 // avatars
 import { ProfilePicture } from "../profilePicture/ProfilePicture";
+// API
+import fetch from "cross-fetch";
 
 const navigation = [{ name: "Calendar view" }, { name: "Schedule view" }];
 
-const years = [
-  { name: "2022" },
-  { name: "2021" },
-  { name: "2020" },
-  { name: "2019" },
-  { name: "2018" },
-];
-
-const quarters = [
-  { name: "🍃 Fall", href: "#" },
-  { name: "🌨️ Winter", href: "#" },
-  { name: "🌦️ Spring", href: "#" },
-];
-
-const classNames = (...classes: string[]): string => {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const classNames = (...classes: any[]) => {
   return classes.filter(Boolean).join(" ");
 };
 
 const Home: React.FC = (): JSX.Element => {
+  // navigate
   const navigate = useNavigate();
-  const [calView, setCalView] = useState(true);
-  const [open, setOpen] = useState(false);
-  // if there are issues logging out
-  const [error, setError] = useState("");
+  // state
+  const [calView, setCalView] = useState<boolean>(true);
+  const [query, setQuery] = useState<string>("");
+  // filtering (arrays)
+  const [years, setYears] = useState<{ year: string }[] | null>(null);
+  const [quarters, setQuarters] = useState<{ quarter: string }[] | null>(null);
+  const [schools, setSchools] = useState<
+    { school: string; schoolDescription: string }[] | null
+  >(null);
+  // filtering state (not arrays - individually selected items)
+  const [selectedYear, setSelectedYear] = useState<{ year: string } | null>(
+    null
+  );
+  const [selectedQuarter, setSelectedQuarter] = useState<{
+    quarter: string;
+  } | null>(null);
+  const [selectedSchool, setSelectedSchool] = useState<string | null>(null);
+  // UI state
+  const [open, setOpen] = useState<boolean>(false);
+  const [error, setError] = useState<string>("");
+  const [loading, setLoading] = useState<boolean>(false);
+  // context
   const { currentUser, logout } = useAuth();
-  // modal cancel ref
+  // ref
   const cancelButtonRef = useRef(null);
-  // the function that handles logging out
+  const term = useRef(null); // handles termId globally
+  // searching
+  const [searchQuery, setSearchQuery] = useState<string>("");
+
+  // for years and quarters
+  useEffect(() => {
+    const quartersUrl =
+      process.env.NODE_ENV !== "production"
+        ? "http://localhost:3001/api/v1/get_undergraduate_quarters"
+        : "https://ivy-api.fly.dev/api/v1/get_undergraduate_quarters";
+    const yearsUrl =
+      process.env.NODE_ENV !== "production"
+        ? "http://localhost:3001/api/v1/get_undergraduate_school_years"
+        : "https://ivy-api.fly.dev/api/v1/get_undergraduate_school_years";
+    // loading years
+    const loadYears = async () => {
+      setLoading(true);
+      const response = await fetch(yearsUrl, {
+        mode: "cors",
+        headers: {
+          "Content-type": "application/json",
+        },
+      });
+      if (response.status >= 400) {
+        setError("Uh oh! Error fetching school years");
+        setTimeout(() => {
+          setError("");
+        }, 3000);
+        throw new Error("Bad response from server");
+      }
+      const data = await response.json();
+      console.log(data.school_years);
+      setYears(data.school_years);
+      setLoading(false);
+    };
+    // loading quarters
+    const loadQuarters = async () => {
+      setLoading(true);
+      const response = await fetch(quartersUrl, {
+        mode: "cors",
+        headers: {
+          "Content-type": "application/json",
+        },
+      });
+      if (response.status >= 400) {
+        setError("Uh oh! Error fetching quarters");
+        setTimeout(() => {
+          setError("");
+        }, 3000);
+        throw new Error("Bad response from server");
+      }
+      const data = await response.json();
+      console.log(data.quarters);
+      setQuarters(data.quarters);
+      setLoading(false);
+    };
+    // 🐎🐎🐎
+    loadYears();
+    loadQuarters();
+  }, []);
+
+  useEffect(() => {
+    console.log("Firing!");
+    if (selectedYear?.year && selectedQuarter?.quarter) {
+      setTermId().then(() => setSchoolsFromTermId());
+    }
+  }, [selectedYear?.year, selectedQuarter?.quarter]);
+
+  // for schools (dependent on terms)
+  const setTermId = async () => {
+    console.log("Setting the term ID");
+    if (!selectedYear || !selectedQuarter) {
+      console.log("Year and quarter not selected");
+      setError("Please select a year and quarter before selecting a school");
+      setTimeout(() => {
+        setError("");
+      }, 3000);
+      return;
+    }
+
+    const termsUrl =
+      process.env.NODE_ENV !== "production"
+        ? `http://localhost:3001/api/v1/get_undergraduate_term_id/?year=${selectedYear.year}&quarter=${selectedQuarter.quarter}`
+        : `https://ivy-api.fly.dev/api/v1/get_undergraduate_term_id/?year=${selectedYear.year}&quarter=${selectedQuarter.quarter}`;
+
+    const loadTermID = async () => {
+      setLoading(true);
+      const termResponse = await fetch(termsUrl, {
+        mode: "cors",
+        headers: {
+          "Content-type": "application/json",
+        },
+      });
+      if (termResponse.status >= 400) {
+        setError("Uh oh! Error fetching term ID");
+        setTimeout(() => {
+          setError("");
+        }, 3000);
+        throw new Error("Bad response from server");
+      }
+      const termData = await termResponse.json();
+      console.log(termData.term);
+      if (term !== termData.term) {
+        term.current = termData.term;
+      }
+      setLoading(false);
+    };
+
+    return new Promise<void>((resolve) => {
+      loadTermID().then(() => resolve());
+    });
+  };
+
+  const setSchoolsFromTermId = () => {
+    console.log("CURRENT VALUE OF TERM ID:", term);
+
+    const loadSchools = async () => {
+      const schoolsUrl =
+        process.env.NODE_ENV !== "production"
+          ? `http://localhost:3001/api/v1/get_undergraduate_schools/?termId=${term.current}`
+          : `https://ivy-api.fly.dev/api/v1/get_undergraduate_schools/?termId=${term.current}`;
+
+      const schoolsResponse = await fetch(schoolsUrl, {
+        mode: "cors",
+        headers: {
+          "Content-type": "application/json",
+        },
+      });
+      if (schoolsResponse.status >= 400) {
+        setError("Uh oh! There aren't any schools for this term 🥸");
+        setSelectedSchool(null);
+        setSchools(null);
+        setTimeout(() => {
+          setError("");
+        }, 3000);
+        throw new Error("Bad response from server");
+      }
+      const schoolsData = await schoolsResponse.json();
+      console.log("SCHOOLS: ", schoolsData.data);
+      setLoading(false);
+      setSchools(schoolsData.data);
+    };
+
+    return new Promise<void>((resolve) => {
+      loadSchools().then(() => resolve());
+    });
+  };
+
   const handleLogout = async () => {
     setError("");
-
     try {
       await logout();
       navigate("/login");
@@ -55,6 +212,31 @@ const Home: React.FC = (): JSX.Element => {
       console.log("There was an error logging out: " + err);
     }
   };
+
+  // filtered years
+  const filteredYears =
+    query === ""
+      ? years
+      : years?.filter((year) => {
+          return year.year.toLowerCase().includes(query.toLowerCase());
+        });
+
+  // filtered quarters
+  const filteredQuarters =
+    query === ""
+      ? quarters
+      : quarters?.filter((quarter) => {
+          return quarter.quarter.toLowerCase().includes(query.toLowerCase());
+        });
+
+  // filtered schools
+  const filteredSchools =
+    query === ""
+      ? schools
+      : schools?.filter((school) => {
+          return school.school.toLowerCase().includes(query.toLowerCase());
+        });
+
   // user navigation structure
   const userNavigation = [
     {
@@ -79,7 +261,6 @@ const Home: React.FC = (): JSX.Element => {
   // test to see if the modal closing works
   const fromClose = (open: boolean) => {
     setOpen(open);
-    console.log("Modal has been closed");
   };
 
   return (
@@ -163,10 +344,10 @@ const Home: React.FC = (): JSX.Element => {
                     </Menu>
                   </div>
 
-                  {/* Search */}
+                  {/* SEARCH ON MOBILE */}
                   <div className="flex-1 min-w-0 px-12 lg:hidden">
                     <div className="max-w-xs w-full mx-auto">
-                      <label htmlFor="desktop-search" className="sr-only">
+                      <label htmlFor="mobile-search" className="sr-only">
                         Search
                       </label>
                       <div className="relative text-white focus-within:text-gray-600">
@@ -174,7 +355,10 @@ const Home: React.FC = (): JSX.Element => {
                           <SearchIcon className="h-5 w-5" aria-hidden="true" />
                         </div>
                         <input
-                          id="desktop-search"
+                          onChange={(event) =>
+                            setSearchQuery(event.target.value)
+                          }
+                          id="mobile-search"
                           className="block w-full bg-white bg-opacity-20 py-2 pl-10 pr-3 border border-transparent rounded-md leading-5 text-gray-900 placeholder-white focus:outline-none focus:bg-opacity-100 focus:border-transparent focus:placeholder-gray-500 focus:ring-0 sm:text-sm"
                           placeholder="Search"
                           type="search"
@@ -184,7 +368,7 @@ const Home: React.FC = (): JSX.Element => {
                     </div>
                   </div>
 
-                  {/* Menu button */}
+                  {/* MENU ON MOBILE  */}
                   <div className="absolute right-0 flex-shrink-0 lg:hidden">
                     {/* Mobile menu button */}
                     <Popover.Button className="bg-transparent p-2 rounded-md inline-flex items-center justify-center text-green-200 hover:text-white hover:bg-white hover:bg-opacity-10 focus:outline-none focus:ring-2 focus:ring-white">
@@ -223,10 +407,13 @@ const Home: React.FC = (): JSX.Element => {
                         ))}
                       </nav>
                     </div>
-                    <div className="flex flex-column justify-evenly">
-                      {/* Begin the search area */}
-                      <div className="max-w-md w-full mx-auto pr-2">
-                        <label htmlFor="mobile-search" className="sr-only">
+                    {/* SEARCH WRAP */}
+                    <div className="flex flex-col justify-evenly">
+                      {/* SEARCH AREA */}
+                      {/* SEARCH AREA */}
+                      {/* SEARCH AREA */}
+                      <div className="max-w-md w-full mx-auto pr-2 pl-2">
+                        <label htmlFor="desktop-search" className="sr-only">
                           Search
                         </label>
                         <div className="relative text-white focus-within:text-gray-600">
@@ -237,100 +424,285 @@ const Home: React.FC = (): JSX.Element => {
                             />
                           </div>
                           <input
-                            id="mobile-search"
-                            className="block w-full bg-white bg-opacity-20 py-2 pl-10 pr-3 border border-transparent rounded-md leading-5 text-gray-900 placeholder-white focus:outline-none focus:bg-opacity-100 focus:border-transparent focus:placeholder-gray-500 focus:ring-0 sm:text-sm"
-                            placeholder="Search"
+                            onChange={(event) => {
+                              setSearchQuery(event.target.value);
+                            }}
+                            id="desktop-search"
+                            className={`block w-full bg-white bg-opacity-20 py-2 pl-10 pr-3 border border-transparent rounded-md leading-5 text-gray-900 placeholder-white focus:outline-none focus:bg-opacity-100 focus:border-transparent focus:placeholder-gray-500 focus:ring-0 sm:text-sm ${
+                              !selectedYear?.year || !selectedQuarter?.quarter
+                                ? "select-none pointer-events-none"
+                                : ""
+                            }`}
+                            placeholder={
+                              !selectedYear || !selectedQuarter
+                                ? "Please select a year and quarter below"
+                                : "Search"
+                            }
                             type="search"
                             name="search"
                           />
                         </div>
                       </div>
-                      {/* End the search box */}
-                      {/* Begin the dropdown area */}
-                      <div className="relative z-0 inline-flex shadow-sm rounded-md pr-2">
-                        <Menu as="div" className="-ml-px relative block">
-                          <Menu.Button className="relative inline-flex items-center px-2 py-2 rounded-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-green-800 focus:border-green-800">
-                            <span className="sr-only">Open options</span>
-                            <ChevronDownIcon
-                              className="h-5 w-5"
-                              aria-hidden="true"
+                      {/* FILTERING AREA */}
+                      <div className="flex flex-row justify-evenly max-w-md w-full mx-auto pr-2 pl-2 pt-2">
+                        {/* SELECT YEAR */}
+                        {/* SELECT YEAR */}
+                        {/* SELECT YEAR */}
+                        <Combobox
+                          className={"pr-1"}
+                          as="div"
+                          value={selectedYear}
+                          onChange={setSelectedYear}
+                        >
+                          <Combobox.Label className="sr-only">
+                            Year
+                          </Combobox.Label>
+                          <div className="relative mt-1">
+                            <Combobox.Input
+                              className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
+                              onChange={(event) => setQuery(event.target.value)}
+                              placeholder={loading ? "..." : "Years"}
+                              displayValue={(year: { year: string }) =>
+                                year?.year
+                              }
                             />
-                            <p className="w-10">Year</p>
-                          </Menu.Button>
-                          <Transition
-                            as={Fragment}
-                            enter="transition ease-out duration-100"
-                            enterFrom="transform opacity-0 scale-95"
-                            enterTo="transform opacity-100 scale-100"
-                            leave="transition ease-in duration-75"
-                            leaveFrom="transform opacity-100 scale-100"
-                            leaveTo="transform opacity-0 scale-95"
-                          >
-                            <Menu.Items className="origin-top-right absolute right-0 mt-2 -mr-1 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
-                              <div className="py-1">
-                                {years.map((year) => (
-                                  <Menu.Item key={year.name}>
-                                    {({ active }) => (
-                                      <button
-                                        className={classNames(
+                            <Combobox.Button className="absolute inset-y-0 right-0 flex items-center rounded-r-md px-2 focus:outline-none">
+                              <ChevronDownIcon
+                                className="h-5 w-5 text-gray-400"
+                                aria-hidden="true"
+                              />
+                            </Combobox.Button>
+
+                            {!loading &&
+                              filteredYears &&
+                              filteredYears.length > 0 && (
+                                <Combobox.Options className="absolute z-10 mt-1 max-h-60 w-[9rem] overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                                  {filteredYears?.map((year) => (
+                                    <Combobox.Option
+                                      key={year.year}
+                                      value={year}
+                                      className={({ active }) =>
+                                        classNames(
+                                          "relative cursor-default select-none py-2 pl-3 pr-9",
                                           active
-                                            ? "bg-gray-100 text-gray-900"
-                                            : "text-gray-700",
-                                          "block px-4 py-2 text-sm w-full text-left"
-                                        )}
-                                      >
-                                        {year.name}
-                                      </button>
-                                    )}
-                                  </Menu.Item>
-                                ))}
-                              </div>
-                            </Menu.Items>
-                          </Transition>
-                        </Menu>
-                      </div>
-                      {/* Quarter dropdown */}
-                      <div className="relative z-0 inline-flex shadow-sm rounded-md">
-                        <Menu as="div" className="-ml-px relative block">
-                          <Menu.Button className="relative inline-flex items-center px-2 py-2 rounded-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-10 focus:outline-none focus:ring-1 focus:ring-green-800 focus:border-green-800">
-                            <span className="sr-only">Open options</span>
-                            <ChevronDownIcon
-                              className="h-5 w-5"
-                              aria-hidden="true"
+                                            ? "bg-green-600 text-white"
+                                            : "text-gray-900"
+                                        )
+                                      }
+                                    >
+                                      {({ active, selected }) => (
+                                        <>
+                                          <div className="flex">
+                                            <span
+                                              className={classNames(
+                                                "truncate",
+                                                selected && "font-semibold"
+                                              )}
+                                            >
+                                              {year.year}
+                                            </span>
+                                          </div>
+
+                                          {selected && (
+                                            <span
+                                              className={classNames(
+                                                "absolute inset-y-0 right-0 flex items-center pr-4",
+                                                active
+                                                  ? "text-white"
+                                                  : "text-green-600"
+                                              )}
+                                            >
+                                              <CheckIcon
+                                                className="h-5 w-5"
+                                                aria-hidden="true"
+                                              />
+                                            </span>
+                                          )}
+                                        </>
+                                      )}
+                                    </Combobox.Option>
+                                  ))}
+                                </Combobox.Options>
+                              )}
+                          </div>
+                        </Combobox>
+                        {/* SELECT QUARTER */}
+                        {/* SELECT QUARTER */}
+                        {/* SELECT QUARTER */}
+                        <Combobox
+                          className={"pr-1"}
+                          as="div"
+                          value={selectedQuarter}
+                          onChange={setSelectedQuarter}
+                        >
+                          <Combobox.Label className="sr-only">
+                            Quarter
+                          </Combobox.Label>
+                          <div className="relative mt-1">
+                            <Combobox.Input
+                              className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
+                              onChange={(event) => setQuery(event.target.value)}
+                              placeholder={loading ? "..." : "Quarters"}
+                              displayValue={(quarter: { quarter: string }) =>
+                                quarter?.quarter
+                              }
                             />
-                            <p className="w-18">Quarter</p>
-                          </Menu.Button>
-                          <Transition
-                            as={Fragment}
-                            enter="transition ease-out duration-100"
-                            enterFrom="transform opacity-0 scale-95"
-                            enterTo="transform opacity-100 scale-100"
-                            leave="transition ease-in duration-75"
-                            leaveFrom="transform opacity-100 scale-100"
-                            leaveTo="transform opacity-0 scale-95"
-                          >
-                            <Menu.Items className="origin-top-right absolute right-0 mt-2 -mr-1 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
-                              <div className="py-1">
-                                {quarters.map((quarter) => (
-                                  <Menu.Item key={quarter.name}>
-                                    {({ active }) => (
-                                      <button
-                                        className={classNames(
+                            <Combobox.Button className="absolute inset-y-0 right-0 flex items-center rounded-r-md px-2 focus:outline-none">
+                              <ChevronDownIcon
+                                className="h-5 w-5 text-gray-400"
+                                aria-hidden="true"
+                              />
+                            </Combobox.Button>
+
+                            {!loading &&
+                              filteredQuarters &&
+                              filteredQuarters.length > 0 && (
+                                <Combobox.Options className="absolute z-10 mt-1 max-h-60 -right-4 w-[10rem] overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                                  {filteredQuarters.map((quarter) => (
+                                    <Combobox.Option
+                                      key={quarter.quarter}
+                                      value={quarter}
+                                      className={({ active }) =>
+                                        classNames(
+                                          "relative cursor-default select-none py-2 pl-3 pr-9",
                                           active
-                                            ? "bg-gray-100 text-gray-900"
-                                            : "text-gray-700",
-                                          "block px-4 py-2 text-sm w-full text-left"
-                                        )}
-                                      >
-                                        {quarter.name}
-                                      </button>
-                                    )}
-                                  </Menu.Item>
-                                ))}
-                              </div>
-                            </Menu.Items>
-                          </Transition>
-                        </Menu>
+                                            ? "bg-green-600 text-white"
+                                            : "text-gray-900"
+                                        )
+                                      }
+                                    >
+                                      {({ active, selected }) => (
+                                        <>
+                                          <div className="flex">
+                                            <span
+                                              className={classNames(
+                                                "truncate",
+                                                selected && "font-semibold"
+                                              )}
+                                            >
+                                              {quarter.quarter}
+                                            </span>
+                                          </div>
+
+                                          {selected && (
+                                            <span
+                                              className={classNames(
+                                                "absolute inset-y-0 right-0 flex items-center pr-4",
+                                                active
+                                                  ? "text-white"
+                                                  : "text-green-600"
+                                              )}
+                                            >
+                                              <CheckIcon
+                                                className="h-5 w-5"
+                                                aria-hidden="true"
+                                              />
+                                            </span>
+                                          )}
+                                        </>
+                                      )}
+                                    </Combobox.Option>
+                                  ))}
+                                </Combobox.Options>
+                              )}
+                          </div>
+                        </Combobox>
+                        {/* SELECT SCHOOL */}
+                        {/* SELECT SCHOOL */}
+                        {/* SELECT SCHOOL */}
+                        <Combobox
+                          as="div"
+                          value={selectedSchool}
+                          onChange={setSelectedSchool}
+                          // onMouseEnter={setTermId}
+                        >
+                          <Combobox.Label className="sr-only">
+                            School
+                          </Combobox.Label>
+                          <div className="relative mt-1">
+                            <Combobox.Input
+                              disabled={!schools}
+                              className={`w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm ${
+                                !schools ? "cursor-not-allowed disabled" : ""
+                              }`}
+                              onChange={(event) => setQuery(event.target.value)}
+                              placeholder={"School"}
+                              displayValue={(school: {
+                                school: string;
+                                schoolDescription: string;
+                              }) => school?.school}
+                            />
+                            <Combobox.Button className="absolute inset-y-0 right-0 flex items-center rounded-r-md px-2 focus:outline-none">
+                              <ChevronDownIcon
+                                className="h-5 w-5 text-gray-400"
+                                aria-hidden="true"
+                              />
+                            </Combobox.Button>
+
+                            {!loading &&
+                              filteredSchools &&
+                              filteredSchools.length > 0 && (
+                                <Combobox.Options className="absolute z-10 mt-1 max-h-60 w-[25rem] -right-1 overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                                  {filteredSchools.map((school) => (
+                                    <Combobox.Option
+                                      key={school.school}
+                                      value={school}
+                                      className={({ active }) =>
+                                        classNames(
+                                          "relative cursor-default select-none py-2 pl-3 pr-9",
+                                          active
+                                            ? "bg-green-600 text-white"
+                                            : "text-gray-900"
+                                        )
+                                      }
+                                    >
+                                      {({ active, selected }) => (
+                                        <>
+                                          <div className="flex">
+                                            <span
+                                              className={classNames(
+                                                "truncate",
+                                                selected && "font-semibold"
+                                              )}
+                                            >
+                                              {school.school}
+                                            </span>
+                                            {/* LATER */}
+                                            <span
+                                              className={classNames(
+                                                "ml-2 truncate text-gray-500",
+                                                active
+                                                  ? "text-green-200"
+                                                  : "text-gray-500"
+                                              )}
+                                            >
+                                              {school.schoolDescription}
+                                            </span>
+                                          </div>
+
+                                          {selected && (
+                                            <span
+                                              className={classNames(
+                                                "absolute inset-y-0 right-0 flex items-center pr-4",
+                                                active
+                                                  ? "text-white"
+                                                  : "text-green-600"
+                                              )}
+                                            >
+                                              <CheckIcon
+                                                className="h-5 w-5"
+                                                aria-hidden="true"
+                                              />
+                                            </span>
+                                          )}
+                                        </>
+                                      )}
+                                    </Combobox.Option>
+                                  ))}
+                                </Combobox.Options>
+                              )}
+                          </div>
+                        </Combobox>
                       </div>
                     </div>
                   </div>
@@ -455,6 +827,8 @@ const Home: React.FC = (): JSX.Element => {
                   </h2>
                   <div className="rounded-lg bg-white overflow-hidden shadow">
                     {/* CALENDAR VIEW/SCHEDULE VIEW TOGGLE TOGGLE */}
+                    {/* CALENDAR VIEW/SCHEDULE VIEW TOGGLE TOGGLE */}
+                    {/* CALENDAR VIEW/SCHEDULE VIEW TOGGLE TOGGLE */}
                     {calView && (
                       <div className="p-6">
                         <Calendar />
@@ -477,8 +851,26 @@ const Home: React.FC = (): JSX.Element => {
                   </h2>
                   {/* THIS IS WHERE ALL OF THE SEARCHING IS HAPPENING */}
                   {/* IT WILL SOON GET ARGUMENTS PASSED TO IT THAT WERE SELECTED BY THE USER */}
-                  <Search courseNumber="4880" school="MEAS" course="COMP_SCI" />
+                  <Search
+                    year={selectedYear?.year}
+                    quarter={selectedQuarter?.quarter}
+                    school={selectedSchool}
+                    termId={term.current}
+                    searchQuery={searchQuery}
+                    view={calView ? "Calendar" : "Schedule"}
+                  />
                 </section>
+                {/* SUPER BASIC ERROR LOCATION */}
+                {error && (
+                  <section className="text-center text-red-500 text-sm">
+                    <p>{error}</p>
+                  </section>
+                )}
+                {loading && (
+                  <section className="text-center text-red-500 text-sm">
+                    <p>Fetching the latest data 🐎</p>
+                  </section>
+                )}
               </div>
             </div>
           </div>

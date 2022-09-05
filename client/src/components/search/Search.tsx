@@ -1,70 +1,180 @@
+/* eslint-disable indent */
+// ^ IDEK
 import React, { useState, useEffect } from "react";
 import SearchItem from "./SearchItem";
 import fetch from "cross-fetch";
 
-const Search: React.FC<{
-  courseNumber: string;
-  school: string;
-  course: string;
-}> = ({ courseNumber, school, course }): JSX.Element => {
-  const [loading, setLoading] = useState(false);
-  const [courses, setCourses] = useState<
-    { CLASSDESCR: { COURSE_TITLE: string } }[]
-  >([]);
-  const [searchResult, setSearchResult] = useState("");
+import { shuffleArray } from "../../lib/randomizeList";
+import { getColorBySchool } from "../../lib/getColorBySchool";
 
+interface SearchProps {
+  year: string | undefined;
+  quarter: string | undefined;
+  school: any | null;
+  termId: string | null;
+  searchQuery: string;
+  view: "Calendar" | "Schedule";
+}
+
+const Search: React.FC<SearchProps> = ({
+  year,
+  quarter,
+  school,
+  termId,
+  searchQuery,
+  view,
+}): JSX.Element => {
+  // UI state
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  // searching
+  const [courses, setCourses] = useState<Record<string, any> | null>(null);
+
+  // handling filtering of all courses
+  const filteredCourses =
+    searchQuery === "" || !courses
+      ? []
+      : courses?.filter((course: Record<string, any>) => {
+          return course.data.courseTitle
+            .toLowerCase()
+            .includes(searchQuery.toLowerCase());
+        });
+
+  // initiate a new query when query changes
   useEffect(() => {
-    const url =
-      process.env.NODE_ENV !== "production"
-        ? "http://localhost:3001/api/v1/get_academic_groups"
-        : "https://ivy-api.fly.dev/api/v1/get_academic_groups";
-    const loadPosts = async () => {
+    // exit this if searching is not prohibited
+    if (year && quarter && termId) {
+      setAllCourses();
+    }
+  }, [termId]);
+
+  const setAllCourses = () => {
+    setCourses(null);
+    setError("");
+    console.log("GETTING ALL COURSES WITH TERM ID: ", termId);
+    const loadCourses = async () => {
+      const coursesUrl =
+        process.env.NODE_ENV !== "production"
+          ? `http://localhost:3001/api/v1/get_all_undergraduate_courses/?termId=${termId}`
+          : `https://ivy-api.fly.dev/api/v1/get_all_undergraduate_courses/?termId=${termId}`;
       setLoading(true);
-      const response = await fetch(url, {
+      const response = await fetch(coursesUrl, {
         mode: "cors",
         headers: {
           "Content-type": "application/json",
         },
       });
       if (response.status >= 400) {
-        throw new Error("Bad response from server");
+        setError(
+          "Uh oh! No courses like that are in the system 🥸. Please try a new query."
+        );
+        return;
+      }
+      if (response.status === 500) {
+        setError(
+          "Uh oh! Error fetching courses on our end. Please try a new query"
+        );
+        return;
       }
       const data = await response.json();
-      console.log(data);
-      setSearchResult(data);
+      let courseData = [];
+      // process the courses in a way that's useful
+      for (let i = 0; i < data.length; i++) {
+        for (let j = 0; j < data[i].data.length; j++) {
+          const courseDataShape = {
+            data: data[i].data[j],
+            school: data[i].school,
+            subject: data[i].subject,
+          };
+          courseData.push(courseDataShape);
+        }
+      }
+      courseData = shuffleArray(courseData);
+
+      console.log("COURSE DATA: ", courseData[0]);
+
+      setCourses(courseData);
       setLoading(false);
     };
-    loadPosts();
-  }, []);
+
+    return new Promise<void>((resolve) => {
+      loadCourses().then(() => resolve());
+    });
+  };
 
   return (
-    <div className="rounded-lg bg-white overflow-hidden shadow min-h-[4rem]">
+    <div className="rounded-lg bg-white overflow-auto shadow h-[46rem]">
       {/* All of the search results will be rendered here */}
       {/* All of the search results will be rendered here */}
       {/* All of the search results will be rendered here */}
-      <SearchItem searchField={"Algorithms"} color={"bg-green-100"} />
-      <SearchItem searchField={"Intro to Psychology"} color={"bg-pink-100"} />
       {/* LOADING STATE */}
-      {loading ? (
-        <div className="bg-white shadow sm:rounded-lg mb-4 m-4">
+      {!courses && termId && error === "" && (
+        <div className="bg-white shadow-none sm:rounded-lg mb-4 m-4">
           <div className="px-4 py-5 sm:p-6">
             <div className="mt-2 max-w-xl text-sm text-center text-black">
               <p>
-                No results :(, try a different search, or wait for this to load
+                Searching for courses...hang tight! Sometimes older searches can
+                take a while.
               </p>
             </div>
           </div>
         </div>
-      ) : (
-        // SEARCH ITEMS NOT IN THE LOADING STATE
-        courses.map((course) => (
-          <SearchItem
-            searchField={course.CLASSDESCR.COURSE_TITLE}
-            color="bg-green-100"
-          />
-        ))
       )}
-      {/* No results state, just a boilerplate for now */}
+
+      {filteredCourses &&
+        filteredCourses.length === 0 &&
+        searchQuery === "" &&
+        courses
+          ?.filter((course: Record<string, any>) => {
+            if (course.school === undefined || !school) return filteredCourses;
+            return course.school.includes(school.school);
+          })
+          .map((course: Record<string, any>) => {
+            return (
+              <SearchItem
+                key={course.id}
+                school={course.school}
+                subject={course.subject}
+                catalogNumber={course.data.catalogNumber}
+                section={course.data.section}
+                component={course.data.component}
+                courseTitle={course.data.courseTitle}
+                topic={course.data.topic}
+                color={getColorBySchool(course.school)}
+                view={view}
+              />
+            );
+          })}
+
+      {filteredCourses &&
+        filteredCourses.length > 0 &&
+        filteredCourses
+          .filter((course: Record<string, any>) => {
+            if (course.school === undefined || !school) return filteredCourses;
+            return course.school.includes(school.school);
+          })
+          .map((course: Record<string, any>) => {
+            return (
+              <SearchItem
+                key={course.id}
+                school={course.school}
+                subject={course.subject}
+                catalogNumber={course.data.catalogNumber}
+                section={course.data.section}
+                component={course.data.component}
+                courseTitle={course.data.courseTitle}
+                topic={course.data.topic}
+                color={getColorBySchool(course.school)}
+                view={view}
+              />
+            );
+          })}
+
+      {searchQuery !== "" && filteredCourses.length === 0 && error === "" && (
+        <p className="p-4 text-sm text-gray-500">No courses found.</p>
+      )}
+
+      {error && <p className="p-4 text-sm text-red-500">Error: {error}</p>}
     </div>
   );
 };

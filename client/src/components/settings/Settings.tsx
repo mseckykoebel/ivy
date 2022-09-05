@@ -15,8 +15,8 @@ import { ProfilePicture } from "../profilePicture/ProfilePicture";
 
 import { Majors } from "./Majors";
 import { Minors } from "./Minors";
-import { majors as majorsList } from "../../lib/majors";
-import { minors as minorsList } from "../../lib/minors";
+import { majors as majorsList } from "../../db/majors";
+import { minors as minorsList } from "../../db/minors";
 
 import {
   createMajorFromMajorTitle,
@@ -31,7 +31,6 @@ import {
   getMinorsByUserId,
   updateMinor,
 } from "../../firebase/minorsService";
-
 
 interface SettingsProps {
   open: boolean;

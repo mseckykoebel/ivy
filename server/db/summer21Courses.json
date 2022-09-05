@@ -1,0 +1,7355 @@
+[
+  {
+    "status": 200,
+    "results": 10,
+    "data": [
+      {
+        "catalogNumber": "601S",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Business Associations",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "620",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Securities Regulation",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "631",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Entrepreneurship Law",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "633I",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Structuring Transactions:  Real Estate",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "638",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Mergers and Acquisitions",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "660",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Commercial Law:  Secured Transactions",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "667",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Corporate Restructuring:  Bankruptcy Reorganizations",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "670PS",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum: Corporate Counsel",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "701C",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Contracts (LLM)",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "925-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Employment Law",
+        "topic": ""
+      }
+    ],
+    "school": "LAW",
+    "subject": "BUSCOM"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "647",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum:  Judicial",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "647D",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum:  Judicial",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "740",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Policing Chicago?s Communities:Examining historical & current practices & analyzing for reform",
+        "topic": ""
+      }
+    ],
+    "school": "LAW",
+    "subject": "CONPUB"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "694",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Criminal Law, Race, and Blame",
+        "topic": ""
+      }
+    ],
+    "school": "LAW",
+    "subject": "CRIM"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "910-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Patent Preparation & Prosecution Workshop",
+        "topic": ""
+      }
+    ],
+    "school": "LAW",
+    "subject": "INTPROP"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "catalogNumber": "622",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Basics of Contract Drafting",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "659",
+        "section": "1",
+        "component": "FLD",
+        "courseTitle": "Law Practice Field Studies",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "716",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Advanced Legal Writing (LLM)",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "721",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Leading in the Law",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "912-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Ethics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "912-0",
+        "section": "2",
+        "component": "SEM",
+        "courseTitle": "Ethics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "923",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "American Legal Studies:Civil Procedure",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "930-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Corporate Criminal Law",
+        "topic": ""
+      }
+    ],
+    "school": "LAW",
+    "subject": "LAWSTUDY"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "catalogNumber": "600G",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Legal Ethics in a Global Legal Practice",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "604T",
+        "section": "1",
+        "component": "ADV",
+        "courseTitle": "International Business Law & Negotiations",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "670S",
+        "section": "1",
+        "component": "ADV",
+        "courseTitle": "Negotiation Workshop",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "670S",
+        "section": "2",
+        "component": "ADV",
+        "courseTitle": "Negotiation Workshop",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "730",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic Practice: Complex Civil Litigation & Investor Protection",
+        "topic": ""
+      }
+    ],
+    "school": "LAW",
+    "subject": "LITARB"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "catalogNumber": "508-0",
+        "section": "1",
+        "component": "IND",
+        "courseTitle": "M.S. Research Paper for non-thesis option",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "508-0",
+        "section": "2",
+        "component": "IND",
+        "courseTitle": "M.S. Research Paper for non-thesis option",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "508-0",
+        "section": "3",
+        "component": "IND",
+        "courseTitle": "M.S. Research Paper for non-thesis option",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "508-0",
+        "section": "4",
+        "component": "IND",
+        "courseTitle": "M.S. Research Paper for non-thesis option",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "508-0",
+        "section": "5",
+        "component": "IND",
+        "courseTitle": "M.S. Research Paper for non-thesis option",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "508-0",
+        "section": "6",
+        "component": "IND",
+        "courseTitle": "M.S. Research Paper for non-thesis option",
+        "topic": ""
+      }
+    ],
+    "school": "MEAS",
+    "subject": "CIV_ENV"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "catalogNumber": "214-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Data Structures & Algorithms",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "331-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Introduction to Computational Photography",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "349-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Machine Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "396-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Special Topics in Computer Science",
+        "topic": "Introduction to the Data Science Pipeline"
+      }
+    ],
+    "school": "MEAS",
+    "subject": "COMP_SCI"
+  },
+  {
+    "status": 200,
+    "results": 80,
+    "data": [
+      {
+        "catalogNumber": "310-1",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-1-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-2",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-2-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-3",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-3-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-4",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-4-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-5",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-5-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-6",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-6-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-7",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "Cooperative Engineering Education: Half-time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-7-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Cooperative Engineering Education: Half-Time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "311-1",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Professional Engineering Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "311-1-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "311-2",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Professional Engineering Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "311-2-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "311-3",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Professional Engineering Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "311-3-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "311-7",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "Engineering Internship: Half-time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "311-7-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Internship: Half-Time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "312-1",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Undergraduate Engineering Projects in Service Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "312-1-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Service Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "312-2",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Undergraduate Engineering Projects in Service Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "312-2-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Service Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "312-3",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Undergraduate Engineering Projects in Service Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "312-3-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Service Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "312-7",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "Engineering Projects in Service Learning: Half-time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "312-7-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Service Learning: Half-Time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "313-1",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "Undergraduate Engineering Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "313-1-GM",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "International Engineering Research Experience",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "313-2",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "Undergraduate Engineering Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "313-2-GM",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "International Engineering Research Experience",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "313-3",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "Undergraduate Engineering Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "313-3-GM",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "International Engineering Research Experience",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "313-7",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "Engineering Research Experience: Half-time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "313-7-GM",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "International Engineering Research Experience: Half-Time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-1",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-1-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-2",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-2-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-3",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-3-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-4",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-4-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Cooperative Engineering Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-7",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "Cooperative Engineering Education: Half-time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-7-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Cooperative Engineering Education: Half-Time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "411-1",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Professional Engineering Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "411-1-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "411-2",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Professional Engineering Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "411-2-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "411-3",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Professional Engineering Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "411-3-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "411-7",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "Engineering Internship: Half-time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "411-7-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Internship: Half-Time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "412-1",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Graduate Engineering Projects in Service Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "412-1-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Service Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "412-2",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Graduate Engineering Projects in Service Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "412-2-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Service Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "412-3",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "Graduate Engineering Projects in Service Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "412-3-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Service Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "412-7",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "Engineering Projects in Service Learning: Half-time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "412-7-GM",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "International Engineering Service Learning: Half-Time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "413-1",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "Engineering Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "413-1-GM",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "International Engineering Research Experience",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "413-2",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "Engineering Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "413-2-GM",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "International Engineering Research Experience",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "413-3",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "Engineering Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "413-3-GM",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "International Engineering Research Experience",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "413-7",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "Engineering Research Experience: Half-time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "413-7-GM",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "International Engineering Research Experience: Half-Time",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "414-1",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Career Development for Student Entrepreneurs",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "414-2",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Career Development for Student Entrepreneurs",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "414-3",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Career Development for Student Entrepreneurs",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "414-4",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Career Development for Student Entrepreneurs",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "414-5",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Career Development for Student Entrepreneurs",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "414-6",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Career Development for Student Entrepreneurs",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "414-7",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Career Development for Student Entrepreneurs",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "510-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Crown Family Graduate Internship",
+        "topic": ""
+      }
+    ],
+    "school": "MEAS",
+    "subject": "CRDV"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "460-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Innovation in Context",
+        "topic": ""
+      }
+    ],
+    "school": "MEAS",
+    "subject": "DSGN"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "395-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Electrical Engineering",
+        "topic": "Computational Photography Seminar"
+      },
+      {
+        "catalogNumber": "495-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Electrical Engineering",
+        "topic": "Computational Photography Seminar"
+      }
+    ],
+    "school": "MEAS",
+    "subject": "ELEC_ENG"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "519-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Responsible Conduct for Research Training",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "519-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Responsible Conduct for Research Training",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "519-0",
+        "section": "3",
+        "component": "LEC",
+        "courseTitle": "Responsible Conduct for Research Training",
+        "topic": ""
+      }
+    ],
+    "school": "MEAS",
+    "subject": "GEN_ENG"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "201-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Introduction to Statistics",
+        "topic": ""
+      }
+    ],
+    "school": "MEAS",
+    "subject": "IEMS"
+  },
+  {
+    "status": 200,
+    "results": 30,
+    "data": [
+      {
+        "catalogNumber": "596-0",
+        "section": "1",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "10",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "11",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "12",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "13",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "14",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "15",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "16",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "17",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "18",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "19",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "2",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "21",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "22",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "23",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "24",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "25",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "26",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "27",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "28",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "29",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "3",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "30",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "4",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "5",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "6",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "7",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "8",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "596-0",
+        "section": "9",
+        "component": "RSC",
+        "courseTitle": "MS Thesis Research",
+        "topic": ""
+      }
+    ],
+    "school": "MEAS",
+    "subject": "MAT_SCI"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "510-0",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "Biotechnology Research",
+        "topic": ""
+      }
+    ],
+    "school": "MEAS",
+    "subject": "MBIOTECH"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "catalogNumber": "300-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Integrated Marketing Communications",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "409-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Immersion Quarter Team Project",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "409-1",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Immersion Quarter Individual Project",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "424-6",
+        "section": "40",
+        "component": "LEC",
+        "courseTitle": "Shopper Marketing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "444-6",
+        "section": "40",
+        "component": "LEC",
+        "courseTitle": "Crisis Communications",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "490-6",
+        "section": "40",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "Advanced Brand Management"
+      },
+      {
+        "catalogNumber": "498-6",
+        "section": "40",
+        "component": "LEC",
+        "courseTitle": "Practicum",
+        "topic": "Digital Marketing, Media, & Innovation"
+      }
+    ],
+    "school": "JOUR",
+    "subject": "IMC"
+  },
+  {
+    "status": 200,
+    "results": 48,
+    "data": [
+      {
+        "catalogNumber": "190-BR",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Bridge Program",
+        "topic": "Pandemic and Protest: Journalism?s Urgency of Now"
+      },
+      {
+        "catalogNumber": "388-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Foundations of Video Journalism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-0",
+        "section": "20A",
+        "component": "LAB",
+        "courseTitle": "Foundations of Video Journalism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-0",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Foundations of Video Journalism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-0",
+        "section": "21A",
+        "component": "LAB",
+        "courseTitle": "Foundations of Video Journalism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-1",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-1",
+        "section": "20A",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-1",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-1",
+        "section": "21A",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-1",
+        "section": "22",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-1",
+        "section": "22A",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-1",
+        "section": "23",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-1",
+        "section": "23A",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Foundations of Interactive Journalism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-3",
+        "section": "20A",
+        "component": "LEC",
+        "courseTitle": "Foundations of Interactive Journalism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "401-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Ethics & Law of Journalism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "401-0",
+        "section": "20A",
+        "component": "LEC",
+        "courseTitle": "Ethics & Law of Journalism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "401-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Ethics & Law of Journalism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "401-0",
+        "section": "21A",
+        "component": "LEC",
+        "courseTitle": "Ethics & Law of Journalism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "425-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Health & Sciences Seminar",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "425-0",
+        "section": "20A",
+        "component": "SEM",
+        "courseTitle": "Health & Sciences Seminar",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "438-1",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Capstone: Washington Reporting",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "438-1",
+        "section": "20A",
+        "component": "PRA",
+        "courseTitle": "Capstone: Washington Reporting",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "438-1",
+        "section": "21",
+        "component": "PRA",
+        "courseTitle": "Capstone: Washington Reporting",
+        "topic": "Broadcast Media"
+      },
+      {
+        "catalogNumber": "438-1",
+        "section": "21A",
+        "component": "PRA",
+        "courseTitle": "Capstone: Washington Reporting",
+        "topic": "Broadcast Media"
+      },
+      {
+        "catalogNumber": "443-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Media Innovation & Content Strategy in Practice",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "471-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Master's Project",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "471-0",
+        "section": "20A",
+        "component": "LAB",
+        "courseTitle": "Master's Project",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "474-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Inside Business to Business Media",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "25",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Podcasting"
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "25A",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "26",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Food Journalism in Chicago's Neighborhoods"
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "28",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Intro to Food Journalism, Chicago-Style"
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "29",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Business Models for Media"
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "30",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Leading and Managing Media Organizations"
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "30A",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Leading and Managing Media Organizations"
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "31",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Reporting in the Digital Age"
+      },
+      {
+        "catalogNumber": "490-0",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "The Politics of Hope and Fear"
+      },
+      {
+        "catalogNumber": "490-0",
+        "section": "21A",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "The Politics of Hope and Fear"
+      },
+      {
+        "catalogNumber": "490-0",
+        "section": "22",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Foundations of Digital UX Design"
+      },
+      {
+        "catalogNumber": "490-0",
+        "section": "24",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Case Studies in Content Strategy"
+      },
+      {
+        "catalogNumber": "490-0",
+        "section": "26",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Investigative Seminar"
+      },
+      {
+        "catalogNumber": "490-0",
+        "section": "26A",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Investigative Seminar"
+      },
+      {
+        "catalogNumber": "490-0",
+        "section": "27",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Media Innovation & Content Strategy Seminar"
+      },
+      {
+        "catalogNumber": "490-0",
+        "section": "27A",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Media Innovation and Content Strategy Seminar"
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Practicum",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "499-2",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Internship",
+        "topic": ""
+      }
+    ],
+    "school": "JOUR",
+    "subject": "JOUR"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "202-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Interdisciplinary Topics Course",
+        "topic": "Chess and Strategic Thinking"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "INTERDIS"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "390-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "Photojournalism & Documentary"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "JOUR"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "298-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Undergraduate Seminar",
+        "topic": "Understanding Media Industries"
+      },
+      {
+        "catalogNumber": "360-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Topics in Media Writing",
+        "topic": "Heroes & Villains"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "MIT"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "306-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Media Planning",
+        "topic": ""
+      }
+    ],
+    "school": "DOHA",
+    "subject": "STRATCOM"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "340-0",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "340-0",
+        "section": "40",
+        "component": "FLD",
+        "courseTitle": "Internship",
+        "topic": "Extra Credit"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "CMN"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "catalogNumber": "102-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Public Speaking",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "102-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Public Speaking",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "205-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Theories of Persuasion",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "246-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intro to Health Communication",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "250-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Team Leadership and Decision Making",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "365-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Organizational Assessment",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "389-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Practicum in Communication Research",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "COMM_ST"
+  },
+  {
+    "status": 200,
+    "results": 40,
+    "data": [
+      {
+        "catalogNumber": "398-0",
+        "section": "21",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "22",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "23",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "24",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "25",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "26",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "27",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "28",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "29",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "30",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "31",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "32",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "33",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "34",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "35",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "36",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "37",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "38",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "39",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "40",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "409-4",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Foundations of Clinical and Professional Practice",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "409-8",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Foundations of Clinical and Professional Practice",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "415-4",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Clinical Practicum in Audiology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "415-8",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Clinical Practicum in Audiology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "419-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Pediatric Audiology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "428-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Fundamentals of Vestibular Science",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "461-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Augmentative and Alternative Communication Across the Lifespan",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "462-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Professional Issues in Speech Language Pathology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "475-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Advanced Clinical Methods 1",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "477-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Advanced Clinical Methods 2",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "479-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Externship: Clinical Practicum",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "519-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Pediatric Amplification and Educational Audiology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "522-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Hearing Loss Prevention and Conservation",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "558-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Advanced Scientific Clinical Decision Making I",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "563-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Leadership for Speech-Language Pathologists",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "566-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Digital Literacies for the Speech Language Pathologist",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "570-3",
+        "section": "1",
+        "component": "RSC",
+        "courseTitle": "Seminar: Capstone Project",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "573-6B",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Professional Integration and Reflective Practice II",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "574-6",
+        "section": "1",
+        "component": "RSC",
+        "courseTitle": "Culminating Project Design",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "580-4",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Clinical Externship",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "CSD"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "catalogNumber": "469-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Health Communication 1",
+        "topic": "Health Misinformation"
+      },
+      {
+        "catalogNumber": "469-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Health Communication 1",
+        "topic": "Leading Dialogues and Change"
+      },
+      {
+        "catalogNumber": "469-0",
+        "section": "3",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Health Communication 1",
+        "topic": "Social Context of Illness"
+      },
+      {
+        "catalogNumber": "469-0",
+        "section": "4",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Health Communication 1",
+        "topic": "Health and Media"
+      },
+      {
+        "catalogNumber": "479-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Health Information Technology for Communication, Coordination and Integration",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "489-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Health Communication Practicum",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "HLTH_COM"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "catalogNumber": "482-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Public Persuasion",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "482-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Public Persuasion",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "494-6D",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Communication Skills Practicum",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "496-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Leadership & Decision Making",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "523-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Capstone",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "523-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Capstone",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "530-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Communication, Management & Ethics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "538-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Workplace Learning and Communities of Practice",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "539-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Content & Influencer Marketing Communication",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "MSC"
+  },
+  {
+    "status": 200,
+    "results": 16,
+    "data": [
+      {
+        "catalogNumber": "497-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Summer Internship Seminar",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "1",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "10",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "11",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "12",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "2",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "3",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "4",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "5",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "6",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "7",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "8",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "9",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "529-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Creative Enterprises",
+        "topic": "Leadership and Ethics"
+      },
+      {
+        "catalogNumber": "598-0",
+        "section": "1",
+        "component": "IND",
+        "courseTitle": "Independent Study",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "599-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Internship Experience",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "MSLCE"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "203-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Performance Culture and Communication",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "330-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Topics in Performance Studies",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "PERF_ST"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "catalogNumber": "220-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Analyzing Media Texts",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "260-0",
+        "section": "26",
+        "component": "SEM",
+        "courseTitle": "Foundations of Screenwriting",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "298-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Studies in Media Topics",
+        "topic": "Animal Media"
+      },
+      {
+        "catalogNumber": "360-0",
+        "section": "25",
+        "component": "SEM",
+        "courseTitle": "Topics in Media Writing",
+        "topic": "Writing the Horror Screenplay"
+      },
+      {
+        "catalogNumber": "376-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Topics in Interactive Media",
+        "topic": "Interactive Media Programming in MAX"
+      },
+      {
+        "catalogNumber": "378-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Topics in Post-Production",
+        "topic": "Motion Graphics"
+      },
+      {
+        "catalogNumber": "490-1",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Professional Experience Practicum",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "490-1",
+        "section": "38",
+        "component": "PRA",
+        "courseTitle": "Professional Experience Practicum",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "RTVF"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "580-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Career Development in Sound",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "SAI"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "catalogNumber": "256-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Musicianship for Actors",
+        "topic": "Musicianship for Actors - Non-MT Certificate"
+      },
+      {
+        "catalogNumber": "350-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Musical Theatre",
+        "topic": "From HAIR to the Present: The Hist&Perf of P/R Mus"
+      },
+      {
+        "catalogNumber": "353-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Musical Theatre Techniques for Non-Music Theatre Cert",
+        "topic": "Acting the Song: Staying Human"
+      },
+      {
+        "catalogNumber": "353-0",
+        "section": "30",
+        "component": "LEC",
+        "courseTitle": "Musical Theatre Techniques for Non-Music Theatre Cert",
+        "topic": "Acting the Song: Staying Human"
+      },
+      {
+        "catalogNumber": "475-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Summer Performance",
+        "topic": ""
+      }
+    ],
+    "school": "SPCH",
+    "subject": "THEATRE"
+  },
+  {
+    "status": 200,
+    "results": 17,
+    "data": [
+      {
+        "catalogNumber": "402-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Social Contexts of Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "402-0",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Social Contexts of Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "405-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Child and Adolescent Development",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Foundations of Learning in a New Language",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "414-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Mathematics for Elementary Teachers",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "421-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Content Area Reading and Writing for Elementary Teachers",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "422-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Content Area Reading and Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "427-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Educating Exceptional Children",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "431-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Instructional Coaching and Evaluation",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "451-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Topics in Teaching and Learning",
+        "topic": "The Science of Social Emotional Learning"
+      },
+      {
+        "catalogNumber": "451-0",
+        "section": "30",
+        "component": "LEC",
+        "courseTitle": "Topics in Teaching and Learning",
+        "topic": "Theory in Action"
+      },
+      {
+        "catalogNumber": "451-0",
+        "section": "31",
+        "component": "LEC",
+        "courseTitle": "Topics in Teaching and Learning",
+        "topic": "Histories of Schooling Across Disciplines"
+      },
+      {
+        "catalogNumber": "451-0",
+        "section": "42",
+        "component": "LEC",
+        "courseTitle": "Topics in Teaching and Learning",
+        "topic": "AP U.S. History"
+      },
+      {
+        "catalogNumber": "451-0",
+        "section": "43",
+        "component": "LEC",
+        "courseTitle": "Topics in Teaching and Learning",
+        "topic": "AP English Literature and Composition"
+      },
+      {
+        "catalogNumber": "462-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Professional Development Design & Implementation",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "463-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Leading for Equity",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "486-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Clinical Residency and Seminar I",
+        "topic": ""
+      }
+    ],
+    "school": "SESP",
+    "subject": "MS_ED"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "catalogNumber": "460-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Proseminar in Higher Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "473-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Structure, Governance and Leadership in Higher Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "478-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Global Issues and Strategic Partnerships",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "479-0",
+        "section": "26",
+        "component": "SEM",
+        "courseTitle": "Advancing Diversity and Inclusion Through Intentional Leadership and Organizational Change",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "485-0",
+        "section": "26",
+        "component": "PRA",
+        "courseTitle": "Internship in Higher Education",
+        "topic": ""
+      }
+    ],
+    "school": "SESP",
+    "subject": "MS_HE"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "catalogNumber": "421-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Advancing Learning & Performance Solutions",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "440-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Executing Strategic Change",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "441-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Designing Sustainable Strategic Change",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "451-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Building Transformational Client Relationships",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "456-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Designing Solutions for Organizational Effectiveness",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "462-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Capstone II: Design & Measurement",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "495-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "MSLOC Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "499-1",
+        "section": "26",
+        "component": "IND",
+        "courseTitle": "Independent Study",
+        "topic": ""
+      }
+    ],
+    "school": "SESP",
+    "subject": "MS_LOC"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "catalogNumber": "114-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Summer Internship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "384-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Practicum in Human Development - Washington, D.C.",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "389-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Practicum in Human Development - San Francisco",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "392-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Experiential Learning: Practicum",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "392-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Experiential Learning: Practicum",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "392-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Experiential Learning: Practicum",
+        "topic": ""
+      }
+    ],
+    "school": "SESP",
+    "subject": "SESP"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "catalogNumber": "302-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Social Contexts of Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "302-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Social Contexts of Education",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Foundations of Learning in a New Language",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "322-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Content Area Reading and Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "327-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Educating Exceptional Children",
+        "topic": ""
+      }
+    ],
+    "school": "SESP",
+    "subject": "TEACH_ED"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "catalogNumber": "201-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Financial Accounting",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "202-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Managerial Accounting",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "208-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Income Tax I",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "210-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intermediate Accounting I",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "390-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Topics in Accounting:",
+        "topic": "International Accounting"
+      },
+      {
+        "catalogNumber": "390-DL",
+        "section": "43",
+        "component": "LEC",
+        "courseTitle": "Topics in Accounting:",
+        "topic": "Research and Communication"
+      }
+    ],
+    "school": "UC",
+    "subject": "ACCOUNT"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "catalogNumber": "170-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Concepts of Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "313-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Human Anatomy",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "316-CN",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Human Structure and Function",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "328-A",
+        "section": "28",
+        "component": "LAB",
+        "courseTitle": "Microbiology Lab",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "328-CN",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Microbiology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "355-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Immunobiology",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "BIOL_SCI"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "202-DL",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Modeling Methods",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "BUS_ANLY"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "catalogNumber": "212-CN",
+        "section": "12",
+        "component": "LEC",
+        "courseTitle": "Introduction to Object-Oriented Programming",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "326-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Data Engineering",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "413-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Telecommunications Networks",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "417-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Database Systems Design & Implementation",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "436-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Big Data Management and Analytics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "453-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Enterprise Security Strategy",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "494-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Project Management Concepts",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "496-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Information Technology Business Writing and Communication",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "CIS"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "403-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Clinical Research Design & Methodology",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "CLIN_RES"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "catalogNumber": "100-DL",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "High School Coding Camp",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "100-DL",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "High School Coding Camp",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "200-0",
+        "section": "75",
+        "component": "LEC",
+        "courseTitle": "Coding Boot Camp",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "200-0",
+        "section": "75",
+        "component": "LEC",
+        "courseTitle": "Coding Boot Camp",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "CODING"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "250-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Team Leadership and Decision Making",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "COMM_ST"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "catalogNumber": "301-DL",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Anatomy and Physiology of the Vocal Mechanism",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "305-DL",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Phonetics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "318-DL",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Introduction to Audiology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "319-DL",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Aural Rehabilitation",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "392-DL",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Language Development Usage",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "CSD"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "200-0",
+        "section": "6",
+        "component": "LEC",
+        "courseTitle": "Cybersecurity Boot Camp",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "CYBER_BC"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "catalogNumber": "200-0",
+        "section": "39",
+        "component": "LEC",
+        "courseTitle": "Data Science and Visualization Boot Camp",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "200-0",
+        "section": "39",
+        "component": "LEC",
+        "courseTitle": "Data Science and Visualization Boot Camp",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "200-0",
+        "section": "40",
+        "component": "LEC",
+        "courseTitle": "Data Science and Visualization Boot Camp",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "200-0",
+        "section": "40",
+        "component": "LEC",
+        "courseTitle": "Data Science and Visualization Boot Camp",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "DATA_BC"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "201-0",
+        "section": "43",
+        "component": "LEC",
+        "courseTitle": "Divorce Mediation",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "DIV_MED"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "111-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Writing Seminar II",
+        "topic": "The Pursuit of Happiness"
+      },
+      {
+        "catalogNumber": "113-CN",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Introduction to Literature",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "ENGLISH"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "202-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Finance",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "FINANCE"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "200-0",
+        "section": "6",
+        "component": "LEC",
+        "courseTitle": "FinTech Boot Camp",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "200-0",
+        "section": "6",
+        "component": "LEC",
+        "courseTitle": "FinTech Boot Camp",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "200-DL",
+        "section": "7",
+        "component": "LEC",
+        "courseTitle": "FinTech Boot Camp",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "FNTEC_BC"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "301-0",
+        "section": "43",
+        "component": "LEC",
+        "courseTitle": "Insurance Planning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "312-0",
+        "section": "43",
+        "component": "LEC",
+        "courseTitle": "Extended Program: Investment Planning",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "FN_EXTND"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "413-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Healthcare Billing Models & Systems",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "HC_COM"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "492-0",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "Black Activism in Chicago"
+      }
+    ],
+    "school": "UC",
+    "subject": "IPLS"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "201-A",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Writing for Media",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "JRN_WRIT"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "200-0",
+        "section": "42",
+        "component": "LEC",
+        "courseTitle": "Leading, Acting, and Thinking Strategically",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "204-0",
+        "section": "42",
+        "component": "LEC",
+        "courseTitle": "Developing People and Teams",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "LEAD_ART"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "480-DL",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Topics in Comparative Literature",
+        "topic": "Fictions of the City: Paris, New York, Los Angeles"
+      }
+    ],
+    "school": "UC",
+    "subject": "LIT"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "413-0",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Fiction Workshop",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "461-0",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Creative Non-Fiction Workshop",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "MCW"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "100-0",
+        "section": "42",
+        "component": "LEC",
+        "courseTitle": "Mediation Skills Training",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "MED_SKIL"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "catalogNumber": "403-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Fundamentals of Health Informatics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "406-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Decision Support Systems and Health Care",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "408-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Information System Acquisition & Lifecycle",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "413-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Consumer Digital Health",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "MHI"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "201-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Principles of Marketing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "320-CN",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Brand Management",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "MKTG"
+  },
+  {
+    "status": 200,
+    "results": 15,
+    "data": [
+      {
+        "catalogNumber": "402-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Elements of Public Finance and Budgeting",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "404-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Microeconomics for Public Policy Administration",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "405-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Statistics for Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "405-DL",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Statistics for Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "406-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Program Evaluation and Policy Analysis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "407-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Scope and Theory of Public Policy",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "408-0",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Public Organization Theory and Management",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "418-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Ethics and Leadership",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "421-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Administrative Law",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "430-0",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Behavioral Economics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "430-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Behavioral Economics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "432-0",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Intergovernmental Relations",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "440-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "International Institutions",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "50",
+        "component": "THE",
+        "courseTitle": "The Capstone Project",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-DL",
+        "section": "55",
+        "component": "THE",
+        "courseTitle": "The Capstone Project",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "MPPA"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "catalogNumber": "402-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Fundamentals of Sports Marketing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "403-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Sports Organizations: Leadership Theory & Application",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "405-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Legal and Ethical Issues in Sports Management",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "406-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Sports Public Relations and Crisis Management",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "424-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Event Management for Sports",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "451-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "The Technology of Sport",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "490-0",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-0",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Capstone Class",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "MSA"
+  },
+  {
+    "status": 200,
+    "results": 48,
+    "data": [
+      {
+        "catalogNumber": "400-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Math For Data Scientists",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-DL",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Math For Data Scientists",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "400-DL",
+        "section": "57",
+        "component": "LEC",
+        "courseTitle": "Math For Data Scientists",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "401-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Applied Statistics with R",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "401-DL",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Applied Statistics with R",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "401-DL",
+        "section": "57",
+        "component": "LEC",
+        "courseTitle": "Applied Statistics with R",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "402-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Introduction to Data Science",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "402-DL",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Introduction to Data Science",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "403-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Data Science in Practice",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Supervised Learning Methods",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-DL",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Supervised Learning Methods",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "411-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Unsupervised Learning Methods",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "413-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Times Series Analysis and Forecasting",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "420-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Database Systems and Data Preparation",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "420-DL",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Database Systems and Data Preparation",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "420-DL",
+        "section": "57",
+        "component": "LEC",
+        "courseTitle": "Database Systems and Data Preparation",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "422-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Practical Machine Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "422-DL",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Practical Machine Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "422-DL",
+        "section": "57",
+        "component": "LEC",
+        "courseTitle": "Practical Machine Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "422-DL",
+        "section": "58",
+        "component": "LEC",
+        "courseTitle": "Practical Machine Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "430-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Python for Data Analysis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "430-DL",
+        "section": "57",
+        "component": "LEC",
+        "courseTitle": "Python for Data Analysis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "430-DL",
+        "section": "58",
+        "component": "LEC",
+        "courseTitle": "Python for Data Analysis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "432-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Foundations for Data Engineering",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "434-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Analytics Application Engineering",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "440-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Real-Time Interactive Processing and Analytics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "452-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Web and Network Data Science",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "453-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Natural Language Processing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "453-DL",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Natural Language Processing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "455-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Data Visualization",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "456-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Sports Performance Analytics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "458-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Artificial Intelligence and Deep Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "458-DL",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Artificial Intelligence and Deep Learning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "460-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Decision Analytics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "460-DL",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Decision Analytics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "460-DL",
+        "section": "57",
+        "component": "LEC",
+        "courseTitle": "Decision Analytics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "470-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Analytics Entrepreneurship",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "474-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Accounting and Finance for Analytics Managers",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "475-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Project Management",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "475-DL",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Project Management",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "480-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Business Leadership and Communications",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "480-DL",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Business Leadership and Communications",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "485-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Data Governance, Ethics, and Law",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Capstone Class",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-DL",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Capstone Class",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "498-DL",
+        "section": "58",
+        "component": "LEC",
+        "courseTitle": "Capstone Class",
+        "topic": "Analytics and Modeling Capstone"
+      },
+      {
+        "catalogNumber": "498-DL",
+        "section": "60",
+        "component": "LEC",
+        "courseTitle": "Capstone Class",
+        "topic": "AI Capstone"
+      },
+      {
+        "catalogNumber": "590-DL",
+        "section": "51",
+        "component": "LEC",
+        "courseTitle": "Thesis Research",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "MSDS"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "catalogNumber": "410-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Research Methods",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "417-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Global Health Systems",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "450-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Sustainability of Global Health Initiatives",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "480-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Global Health Leadership",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "580-DL",
+        "section": "55",
+        "component": "THE",
+        "courseTitle": "Practicum Course",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "MSGH"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "catalogNumber": "401-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Programming for Health Analytics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "405-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Data Literacy and Analytics in Healthcare",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "407-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Data Security, Ethics and Governance",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "410-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Regression and Multivariate Analysis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "422-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Artificial Intelligence and Practical Machine Learning",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "MSHA"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "405-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Applied Research and Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "435-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Risk and Decision Management",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "MSRC"
+  },
+  {
+    "status": 200,
+    "results": 12,
+    "data": [
+      {
+        "catalogNumber": "401-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Models and Theories of User-Centered Design",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "403-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Effective Communication",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "405-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "User Research",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "407-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Information and Content Strategy",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "409-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Data Science, Management, and Business Strategy",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "411-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Information Design and Architecture",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "413-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Visual Communication",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "422-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Introduction to Learning Theory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "435-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Persuasion and Strategic Communication",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "453-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Introduction to Techniques of  Predictive Analytics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "455-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Visualization of Data and Text",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "481-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Leadership and Business Strategy",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "MS_IDS"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "370-DL",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Museum Origins and Issues",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "371-DL",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Successful Museum Management in Today's Environment",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "372-DL",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Learning and Museums",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "MUSEUM"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "catalogNumber": "301-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Organization Behavior",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "307-CN",
+        "section": "14",
+        "component": "LEC",
+        "courseTitle": "Leadership Principles and Practices",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-CN",
+        "section": "17",
+        "component": "LEC",
+        "courseTitle": "Organizational Change",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "367-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Strategic Planning and Management",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "368-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Project Management",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "395-CN",
+        "section": "17",
+        "component": "LEC",
+        "courseTitle": "Practicum",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "395-CN",
+        "section": "18",
+        "component": "LEC",
+        "courseTitle": "Practicum",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "ORG_BEH"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "315-0",
+        "section": "42",
+        "component": "LEC",
+        "courseTitle": "Donor Psychology and the Ask",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "335-0",
+        "section": "45",
+        "component": "LEC",
+        "courseTitle": "Nonprofit Resilience and Reinvention Through a Crisis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "380-0",
+        "section": "45",
+        "component": "LEC",
+        "courseTitle": "Grantsmanship for Research Professionals",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "PHIL_NP"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "catalogNumber": "204-0",
+        "section": "42",
+        "component": "LEC",
+        "courseTitle": "Developing People and Teams",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "225-0",
+        "section": "43",
+        "component": "LEC",
+        "courseTitle": "Power Excel Skills for Project Managers",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "365-0",
+        "section": "42",
+        "component": "LEC",
+        "courseTitle": "Supporting an Agile Transformation",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "401-0",
+        "section": "43",
+        "component": "LEC",
+        "courseTitle": "Essentials of Project Management",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "401-DL",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Essentials of Project Management",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "402-0",
+        "section": "44",
+        "component": "LEC",
+        "courseTitle": "Applied Project Management",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "402-DL",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Applied Project Management",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "403-0",
+        "section": "43",
+        "component": "LEC",
+        "courseTitle": "Agile for Practitioners",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "PROJ_PMI"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "396-A",
+        "section": "17",
+        "component": "SEM",
+        "courseTitle": "Professional Health Careers Proseminar I",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "PRO_HLTH"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "213-CN",
+        "section": "19",
+        "component": "LEC",
+        "courseTitle": "Social Psychology",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "PSYCH"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "420-DL",
+        "section": "55",
+        "component": "LEC",
+        "courseTitle": "Practical Quality Management",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "QARS"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "512-0",
+        "section": "50",
+        "component": "CON",
+        "courseTitle": "Continuous Registration",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "SPS"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "202-DL",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Statistics and Data Science",
+        "topic": ""
+      }
+    ],
+    "school": "UC",
+    "subject": "STAT"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "236-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to African-American Studies",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "250-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Race, Class and Gender",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "380-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Topics in African-American Studies",
+        "topic": "Hip-Hop Music and Film: The Golden Age"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "AF_AM_ST"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "catalogNumber": "211-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Culture & Society",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "213-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Human Origins",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "214-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Archaeology: Unearthing History",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "215-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "The Study of Culture through Language",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "315-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Medical Anthropology",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ANTHRO"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "250-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Introduction to Photography",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ART"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "101-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Modern Cosmology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "120-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Highlights of Astronomy",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ASTRON"
+  },
+  {
+    "status": 200,
+    "results": 211,
+    "data": [
+      {
+        "catalogNumber": "100-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Introduction to Biological Sciences at Northwestern",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "217-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Physiology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "219-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Cell Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "220-0",
+        "section": "1",
+        "component": "LAB",
+        "courseTitle": "Genetics and Molecular Processes Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "221-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Cellular Processes Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "222-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Investigative Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "301-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Principles of Biochemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "02",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "03",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "04",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "06",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "07",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "08",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "09",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "10",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "100",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "101",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "102",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "103",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "104",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "105",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "106",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "107",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "108",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "109",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "11",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "110",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "111",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "112",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "114",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "115",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "116",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "117",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "118",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "119",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "12",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "120",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "121",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "122",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "123",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "124",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "125",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "126",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "127",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "130",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "131",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "132",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "133",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "134",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "135",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "136",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "137",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "138",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "139",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "14",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "140",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "141",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "144",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "147",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "148",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "149",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "150",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "151",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "152",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "153",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "154",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "155",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "156",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "157",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "158",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "159",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "16",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "160",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "161",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "164",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "165",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "166",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "167",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "168",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "169",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "17",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "170",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "171",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "172",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "173",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "174",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "175",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "176",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "177",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "178",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "179",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "18",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "180",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "181",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "182",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "183",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "184",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "185",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "187",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "189",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "19",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "190",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "191",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "192",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "193",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "194",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "195",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "196",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "197",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "198",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "199",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "20",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "200",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "201",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "202",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "203",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "204",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "205",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "207",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "208",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "209",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "21",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "210",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "211",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "213",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "214",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "215",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "216",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "217",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "218",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "219",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "22",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "220",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "221",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "222",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "223",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "224",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "225",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "226",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "227",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "228",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "229",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "23",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "230",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "231",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "232",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "233",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "24",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "25",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "26",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "27",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "28",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "30",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "31",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "33",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "35",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "36",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "37",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "40",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "41",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "42",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "43",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "44",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "45",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "46",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "47",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "48",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "50",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "51",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "52",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "53",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "54",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "56",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "57",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "58",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "59",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "60",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "61",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "62",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "63",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "64",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "68",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "69",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "70",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "71",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "72",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "73",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "75",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "76",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "77",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "78",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "79",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "80",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "81",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "82",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "83",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "84",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "85",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "86",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "87",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "88",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "89",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "90",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "91",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "92",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "93",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "94",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "95",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "97",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "98",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "99",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "BIOL_SCI"
+  },
+  {
+    "status": 200,
+    "results": 17,
+    "data": [
+      {
+        "catalogNumber": "388-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Business Culture",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "392-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Public Health",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "393-1",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Modern Workplace Culture",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "393-1",
+        "section": "2",
+        "component": "SEM",
+        "courseTitle": "Modern Workplace Culture",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "393-1",
+        "section": "3",
+        "component": "SEM",
+        "courseTitle": "Modern Workplace Culture",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "393-2",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues in the Workplace",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "393-2",
+        "section": "2",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues in the Workplace",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "393-2",
+        "section": "3",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues in the Workplace",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "394-1",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Legal Culture & Process",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "394-2",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues in Law",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "395-1",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Business Workplace Culture",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "395-1",
+        "section": "2",
+        "component": "SEM",
+        "courseTitle": "Business Workplace Culture",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "395-2",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues: Business Field Studies",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "395-2",
+        "section": "2",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues: Business Field Studies",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "397-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Civic Engagement",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "398-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Humanities",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "495-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Civic Engagement and Graduate Education",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CFS"
+  },
+  {
+    "status": 200,
+    "results": 25,
+    "data": [
+      {
+        "catalogNumber": "100-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Calculus and Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "100-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Problem Solving in Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "100-BR",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Introduction to Problem Solving in Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "110-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Quantitative Problem Solving in Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "110-0",
+        "section": "02",
+        "component": "LEC",
+        "courseTitle": "Quantitative Problem Solving in Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "131-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "General Chemistry 1",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "131-0",
+        "section": "02",
+        "component": "LEC",
+        "courseTitle": "General Chemistry 1",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "132-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "General Chemistry 2",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "132-0",
+        "section": "02",
+        "component": "LEC",
+        "courseTitle": "General Chemistry 2",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "141-0",
+        "section": "133",
+        "component": "LAB",
+        "courseTitle": "General Chemistry Laboratory 1",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "141-0",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "General Chemistry Laboratory 1",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "142-0",
+        "section": "133",
+        "component": "LAB",
+        "courseTitle": "General Chemistry Laboratory 2",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "142-0",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "General Chemistry Laboratory 2",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "199-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Foundations of Organic Chemstry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "210-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "210-1",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "210-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "210-2",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "210-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "210-3",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "230-2",
+        "section": "133",
+        "component": "LAB",
+        "courseTitle": "Organic Chemistry Lab I",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "230-2",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "Organic Chemistry Lab I",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "230-3",
+        "section": "133",
+        "component": "LAB",
+        "courseTitle": "Organic Chemistry Lab II",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "230-3",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "Organic Chemistry Lab II",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "570-0",
+        "section": "01",
+        "component": "SEM",
+        "courseTitle": "Chemistry Colloquium",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CHEM"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "111-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Chinese I",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "111-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Chinese I",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "111-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Chinese I",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CHINESE"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "202-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Interpreting Culture",
+        "topic": "Strangers at Home: Race, Gender, & Citizenship in"
+      },
+      {
+        "catalogNumber": "301-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Studies in World Literature",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "COMP_LIT"
+  },
+  {
+    "status": 200,
+    "results": 14,
+    "data": [
+      {
+        "catalogNumber": "100-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Problem-Solving in Economics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "201-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Introduction to Macroeconomics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "202-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Introduction to Microeconomics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "202-0",
+        "section": "35",
+        "component": "LEC",
+        "courseTitle": "Introduction to Microeconomics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "308-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Money and Banking",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-1",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Microeconomics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-2",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Microeconomics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "310-2",
+        "section": "35",
+        "component": "LEC",
+        "courseTitle": "Microeconomics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "311-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Macroeconomics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "330-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Behavioral Economics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "349-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Industrial Economics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "350-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Monopoly Competition & Public Policy",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "373-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Natural Resource Economics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "519-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Responsible Conduct of Research Training",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ECON"
+  },
+  {
+    "status": 200,
+    "results": 11,
+    "data": [
+      {
+        "catalogNumber": "100-SW",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Summer Academic Workshop in Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "100-SW",
+        "section": "21",
+        "component": "SEM",
+        "courseTitle": "Summer Academic Workshop in Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "100-SW",
+        "section": "22",
+        "component": "SEM",
+        "courseTitle": "Summer Academic Workshop in Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "100-SW",
+        "section": "23",
+        "component": "SEM",
+        "courseTitle": "Summer Academic Workshop in Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "105-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Expository Writing",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "282-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Writing and Speaking in Business",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "307-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Advanced Creative Writing",
+        "topic": "Writing the Novella"
+      },
+      {
+        "catalogNumber": "313-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Studies in Fiction",
+        "topic": "Crime Scenes: Detective Fiction, Narrative Form, a"
+      },
+      {
+        "catalogNumber": "385-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Topics in Combined Studies",
+        "topic": "The Dark Side of Big Data"
+      },
+      {
+        "catalogNumber": "386-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Studies in Literature and Film",
+        "topic": "Baseball in American Narrative"
+      },
+      {
+        "catalogNumber": "491-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Editorial Practicum",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ENGLISH"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "catalogNumber": "111-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "111-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "111-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "FRENCH"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "307-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "International Perspectives on Mental Health",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "390-0",
+        "section": "2",
+        "component": "SEM",
+        "courseTitle": "Special Topics in Global Health",
+        "topic": "Managing Global Health Challenges"
+      },
+      {
+        "catalogNumber": "390-0",
+        "section": "3",
+        "component": "SEM",
+        "courseTitle": "Special Topics in Global Health",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "GBL_HLTH"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "101-1",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Beginning German",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "101-2",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Beginning German",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "101-3",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Beginning German",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "GERMAN"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "372-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Gender, Sexuality, and Performance",
+        "topic": "Trans & Queer Folklore of the Americas"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "GNDR_ST"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "catalogNumber": "200-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "New Introductory Courses in History",
+        "topic": "American Labor History"
+      },
+      {
+        "catalogNumber": "200-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "New Introductory Courses in History",
+        "topic": "The World in A Year: A Global History of 1948"
+      },
+      {
+        "catalogNumber": "200-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "New Introductory Courses in History",
+        "topic": "Native Americans and U.S. History"
+      },
+      {
+        "catalogNumber": "201-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Europe in the Medieval and Early Modern World",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "HISTORY"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "100-1-BR",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Introduction to Critical Thinking in the Humanities and Social Sciences",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "100-2-BR",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Asking - and Answering - Questions in the Humanities and Social Sciences",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "HUM"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "421-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Rigor & Reproducibility in Research",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "IBIS"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "393-0",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "Development in the Global Context: Participation, Power, and Social Change",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "INTL_ST"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "202-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Italian Through Performance",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ITALIAN"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "206-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Law and Society",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "LEGAL_ST"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "catalogNumber": "260-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Formal Analysis of Words & Sentences",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "270-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Meaning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "380-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Spoken English for Nonnative Speakers",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "American Academic Culture for Non-Native speakers of English",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "480-0",
+        "section": "21",
+        "component": "SEM",
+        "courseTitle": "American Academic Culture for Non-Native speakers of English",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "482-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Individual Speech and Language Instruction for Nonnative Speakers of English",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "483-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Supported Online Speech Training for Nonnative Speakers of English",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "LING"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "catalogNumber": "100-BR",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Quantitative Reasoning",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "220-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Single-Variable Differential Calculus",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "220-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Single-Variable Integral Calculus",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "230-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Multivariable Differential Calculus",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "230-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Multivariable Integral Calculus",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "240-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Linear Algebra",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "300-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Foundations of Higher Mathematics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "300-BR",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Foundations of Higher Mathematics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "334-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Linear Algebra: Second Course",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "MATH"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "catalogNumber": "110-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Philosophy",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "210-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "History of Philosophy - Ancient",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "259-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Metaphysics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "260-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Moral Philosophy",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "262-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Ethical Problems and Public Issues",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "266-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Philosophy of Religion",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "268-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Ethics and the Environment",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "269-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Bioethics",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PHIL"
+  },
+  {
+    "status": 200,
+    "results": 17,
+    "data": [
+      {
+        "catalogNumber": "130-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "130-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "130-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "135-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "135-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "135-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-1",
+        "section": "38",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-1",
+        "section": "40",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-1",
+        "section": "48",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-2",
+        "section": "38",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-2",
+        "section": "40",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-2",
+        "section": "48",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-2",
+        "section": "58",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-3",
+        "section": "38",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-3",
+        "section": "40",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-3",
+        "section": "48",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "136-3",
+        "section": "58",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PHYSICS"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "catalogNumber": "220-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "American Government and Politics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "301-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Classical Political Theory",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "369-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Politics of Post-Soviet Russia",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "377-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Drugs and Politics",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "378-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "America and the World",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "POLI_SCI"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "catalogNumber": "101-1",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Elementary Portuguese",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "101-2",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Elementary Portuguese",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "101-3",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Elementary Portuguese",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PORT"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "catalogNumber": "110-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Introduction to Psychology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "201-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Statistical Methods in Psychology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "213-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Social Psychology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "215-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Psychology of Personality",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "228-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Cognitive Psychology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "303-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Psychopathology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "341-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Positive Psychology: The Science of Well-Being",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "364-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Social and Personality Development",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "367-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Child Psychopathology",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PSYCH"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "catalogNumber": "170-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Religion",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "230-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Judaism",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "RELIGION"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "catalogNumber": "110-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Introduction to Sociology",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "206-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Law and Society",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "226-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Sociological Analysis",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "232-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Sexuality and Society",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "302-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Sociology of Organizations",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "SOCIOL"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "catalogNumber": "101-1",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Elementary Spanish",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "101-2",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Elementary Spanish",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "101-3",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Elementary Spanish",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-1",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-2",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "121-3",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "199-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Language in Context: Contemporary Spain",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "201-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Conversation on Human Rights: Latin America",
+        "topic": ""
+      },
+      {
+        "catalogNumber": "203-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Individual and Society through Written Expression",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "SPANISH"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "catalogNumber": "202-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Introduction to Statistics",
+        "topic": ""
+      }
+    ],
+    "school": "WCAS",
+    "subject": "STAT"
+  }
+]

@@ -3,12 +3,28 @@ import dotenv from "dotenv";
 import request from "request";
 import cors from "cors";
 
+import { Term } from "./types/term";
+
+import { getUndergraduateSchools } from "./lib/getUndergraduateSchools";
+import { getUndergraduateSubjects } from "./lib/getUndergraduateSubjects";
+import { getUndergraduateCourses } from "./lib/getUndergraduateCourses";
+import type { UndergraduateSubject } from "./types/subject";
+import type { UndergraduateSchools } from "./types/school";
+
+import { db } from "./db/db";
+
 dotenv.config({ path: ".env.local" });
 
 const app = express();
 const port = process.env.PORT || 3001;
-const apiServiceURL =
-  "https://northwestern-prod.apigee.net/student-system-classdescrallcls/4880/MEAS/COMP_SCI";
+const apiYearUrl =
+  "https://northwestern-prod.apigee.net/student-system-termget/UGRD";
+const academicGroupsURL =
+  "https://northwestern-prod.apigee.net/student-system-acadgroupget/";
+const subjectsURL =
+  "https://northwestern-prod.apigee.net/student-system-subjectsget/";
+const coursesURL =
+  "https://northwestern-prod.apigee.net/student-system-classdescrallcls/";
 
 app.use(express.json());
 
@@ -45,12 +61,12 @@ app.get("/info", (req, res, next) => {
 
 /**
  * method: GET
- * returns: A complete list of the academic groups - initially hard coded
+ * function: returns a list of school years
  */
-app.get("/api/v1/get_academic_groups", async (req, res, next) => {
+app.get("/api/v1/get_undergraduate_school_years", async (req, res) => {
   request(
     {
-      url: apiServiceURL,
+      url: apiYearUrl,
       headers: {
         apikey: process.env.API_KEY as string,
       },
@@ -59,9 +75,266 @@ app.get("/api/v1/get_academic_groups", async (req, res, next) => {
       if (error || response.statusCode !== 200) {
         return res.status(500).json({ type: "error", message: response.body });
       }
-      res.json(JSON.parse(body));
+      const terms = JSON.parse(body).NW_CD_TERM_RESP.TERM;
+      const data: { year: string }[] = [];
+      // keeping track of duplicate years that come up
+      const years: string[] = [];
+      // process terms
+      for (let i = 0; i < terms.length; i++) {
+        if (!years.includes(terms[i].TermDescr.substring(0, 4))) {
+          data.push({ year: terms[i].TermDescr.substring(0, 4) });
+          years.push(terms[i].TermDescr.substring(0, 4));
+        }
+      }
+      res.json({
+        status: 200,
+        results: terms.length as number,
+        school_years: data,
+      });
     }
   );
+});
+
+/**
+ * method: GET
+ * function: returns a list of quarters
+ */
+app.get("/api/v1/get_undergraduate_quarters", async (req, res) => {
+  request(
+    {
+      url: apiYearUrl,
+      headers: {
+        apikey: process.env.API_KEY as string,
+      },
+    },
+    (error, response, body) => {
+      if (error || response.statusCode !== 200) {
+        return res.status(500).json({ type: "error", message: response.body });
+      }
+      const terms = JSON.parse(body).NW_CD_TERM_RESP.TERM;
+      const data: { quarter: string }[] = [];
+      // keeping track of duplicate quarters that come up
+      const quarters: string[] = [];
+      // process terms
+      for (let i = 0; i < terms.length; i++) {
+        if (!quarters.includes(terms[i].TermDescr.split(" ").pop())) {
+          data.push({ quarter: terms[i].TermDescr.split(" ").pop() });
+          quarters.push(terms[i].TermDescr.split(" ").pop());
+        }
+      }
+      res.json({
+        status: 200,
+        results: terms.length as number,
+        quarters: data,
+      });
+    }
+  );
+});
+
+/**
+ * method: GET
+ * function: returns a TermID given a term description (school year and quarter)
+ */
+app.get("/api/v1/get_undergraduate_term_id/", async (req, res) => {
+  const checkTerm = (terms: Term) => {
+    return terms.TermDescr === req.query.year + " " + req.query.quarter;
+  };
+  request(
+    {
+      url: apiYearUrl,
+      headers: {
+        apikey: process.env.API_KEY as string,
+      },
+    },
+    (error, response, body) => {
+      if (error || response.statusCode !== 200) {
+        return res.status(500).json({ type: "error", message: response.body });
+      }
+
+      const terms = JSON.parse(body).NW_CD_TERM_RESP.TERM;
+      const term = terms.filter(checkTerm);
+
+      res.json({
+        status: 200,
+        results: term.length as number,
+        term: !term[0] ? null : term[0].TermID,
+      });
+    }
+  );
+});
+
+/**
+ * method: GET
+ * function: returns a list of undergraduate schools given a termId
+ */
+app.get("/api/v1/get_undergraduate_schools/", async (req, res) => {
+  try {
+    const result = await getUndergraduateSchools(
+      req.query.termId as string,
+      academicGroupsURL
+    );
+    return res.json(result);
+  } catch (err) {
+    console.log("ERROR ON SERVER: ", err);
+    if (err === undefined) {
+      res
+        .status(500)
+        .json({ type: "error", message: "response rejected: null termId" });
+      return;
+    }
+    if (err === 404) {
+      res.status(404).json({ type: "error", message: "No courses found!" });
+      return;
+    }
+  }
+});
+
+/**
+ * method: GET
+ * function: returns a list of all academic subjects given a termId
+ */
+app.get("/api/v1/get_undergraduate_subjects/", async (req, res) => {
+  const termId = req.query.termId as string;
+  try {
+    const result = (await getUndergraduateSchools(
+      termId,
+      academicGroupsURL
+    )) as UndergraduateSchools;
+    // initiate promises
+    const promises = [];
+    const schools: string[] = [];
+    // pluck the schools
+    for (let i = 0; i < result.data.length; i++) {
+      schools.push(result.data[i].school);
+    }
+    // now we have the list of schools...
+
+    // adding promises
+    for (let i = 0; i < schools.length; i++) {
+      promises.push(
+        getUndergraduateSubjects(termId, schools.pop(), subjectsURL)
+      );
+    }
+
+    // executing mass subject search
+    Promise.all(promises)
+      .then((d) => {
+        res.json(d);
+      })
+      .catch((err) => {
+        res.status(500).send({
+          error: 500,
+          message: err,
+        });
+      });
+  } catch (err) {
+    console.log(err);
+  }
+});
+
+/**
+ * method: GET
+ * function: returns a list of all undergraduate courses given a termId
+ */
+app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
+  const termId = req.query.termId as string;
+  const cache = db(Number(termId));
+  // see if we can cache the results
+  if (termId && cache !== null) {
+    return res.json(cache);
+  }
+  // go into the depths of hell
+  try {
+    const result = (await getUndergraduateSchools(
+      termId,
+      academicGroupsURL
+    )) as UndergraduateSchools;
+    // initiate promises
+    const promises = [];
+    const schools: string[] = [];
+    // pluck the schools
+    for (let i = 0; i < result.data.length; i++) {
+      schools.push(result.data[i].school);
+    }
+
+    // we now have the list of schools
+
+    // adding promises
+    for (let i = 0; i < schools.length; i++) {
+      promises.push(getUndergraduateSubjects(termId, schools[i], subjectsURL));
+    }
+
+    try {
+      const subjectData = await Promise.all(promises);
+      const cleanedSubjectData: UndergraduateSubject[] = [];
+      // first, remove 404's and 500's (promises that did not resolve)
+      for (let i = 0; i < subjectData.length; i++) {
+        if ((subjectData[i] as unknown as UndergraduateSubject).data) {
+          cleanedSubjectData.push(subjectData[i] as UndergraduateSubject);
+        }
+      }
+      const mergedSubjectData: { school: string; subject: string }[] = [];
+      // pluck the subject from subjectData
+      for (let i = 0; i < cleanedSubjectData.length; i++) {
+        for (let j = 0; j < cleanedSubjectData[i].data.length; j++) {
+          mergedSubjectData.push({
+            school: cleanedSubjectData[i].school,
+            subject: cleanedSubjectData[i].data[j].subject,
+          });
+        }
+      }
+      // now, execute operation gigaPromise
+      const coursePromises = [];
+      // Ready...aim... 🔫
+      for (let i = 0; i < mergedSubjectData.length; i++) {
+        coursePromises.push(
+          getUndergraduateCourses(
+            termId,
+            mergedSubjectData[i].school,
+            mergedSubjectData[i].subject,
+            coursesURL
+          )
+        );
+      }
+      // FIRE 🐎
+      try {
+        const courseData = await Promise.allSettled(coursePromises);
+        const cleanedCourseData = [];
+        // shit any casting for now
+        for (let i = 0; i < courseData.length; i++) {
+          if ((courseData[i] as any).value?.status) {
+            cleanedCourseData.push((courseData[i] as any).value);
+          }
+        }
+        res.json(cleanedCourseData);
+      } catch (err) {
+        console.log(
+          "There was some kind of error with fetching courses: ",
+          err
+        );
+        res.status(404).send({
+          error: 404,
+          message: err,
+        });
+      }
+      // res.json(coursePromises);
+    } catch (err) {
+      console.log(
+        "There was some kind of error with fetching subjects for course searching: ",
+        err
+      );
+      res.status(500).send({
+        error: 500,
+        message: err,
+      });
+    }
+  } catch (err) {
+    console.log("Error fetching courses: ", err);
+    res.status(500).send({
+      error: 500,
+      message: err,
+    });
+  }
 });
 
 app.get("/", (req, res) => {
