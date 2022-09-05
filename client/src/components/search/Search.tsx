@@ -142,6 +142,7 @@ const Search: React.FC<SearchProps> = ({
             if (course.school === undefined || !school) return filteredCourses;
             return course.school.includes(school.school);
           })
+          .slice(0, 100)
           .map((course: Record<string, any>) => {
             return (
               <SearchItem
@@ -175,6 +176,7 @@ const Search: React.FC<SearchProps> = ({
             if (course.school === undefined || !school) return filteredCourses;
             return course.school.includes(school.school);
           })
+          .slice(0, 100)
           .map((course: Record<string, any>) => {
             return (
               <SearchItem
