@@ -13,6 +13,8 @@ type UndergraduateCourseDetail = {
   component: string;
   courseTitle: string;
   topic: string;
+  // pretty sure on this
+  classMeetingInfo: Record<string, string>[] | null;
 };
 
 // bless
