@@ -64,9 +64,9 @@ const Home: React.FC = (): JSX.Element => {
     CalendarCourse[] | null
   >(null);
   // schedule (array of courses that the UI figures out how to deal with)
-  const [scheduleCourses, setScheduleCourses] = useState<
-    Record<string, string>[] | null
-  >(null);
+  // const [scheduleCourses, setScheduleCourses] = useState<
+  //   Record<string, string>[] | null
+  // >(null);
 
   // for years and quarters
   useEffect(() => {
@@ -840,7 +840,10 @@ const Home: React.FC = (): JSX.Element => {
                     {/* CALENDAR VIEW/SCHEDULE VIEW TOGGLE TOGGLE */}
                     {calView && (
                       <div className="p-6">
-                        <Calendar />
+                        <Calendar
+                          calendarCourses={calendarCourses}
+                          setCalendarCourses={setCalendarCourses}
+                        />
                       </div>
                     )}
                     {!calView && (

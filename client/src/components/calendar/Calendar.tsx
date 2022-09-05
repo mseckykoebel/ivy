@@ -1,23 +1,39 @@
-import React, { useEffect, useRef } from "react";
+import React, { Dispatch, SetStateAction, useEffect, useRef } from "react";
+import { CalendarCourse } from "../../types/courses";
 
-const Calendar: React.FC = (): JSX.Element => {
+interface CalendarProps {
+  calendarCourses: CalendarCourse[] | null;
+  setCalendarCourses: Dispatch<SetStateAction<CalendarCourse[] | null>>;
+}
+
+const Calendar: React.FC<CalendarProps> = ({
+  calendarCourses,
+  setCalendarCourses,
+}): JSX.Element => {
   // again, shitty
-  const container: React.MutableRefObject<any> = useRef(null);
-  const containerNav: React.MutableRefObject<any> = useRef(null);
-  const containerOffset: React.MutableRefObject<any> = useRef(null);
+  const container: React.MutableRefObject<HTMLDivElement | null> = useRef(null);
+  const containerNav: React.MutableRefObject<HTMLDivElement | null> =
+    useRef(null);
+  const containerOffset: React.MutableRefObject<HTMLDivElement | null> =
+    useRef(null);
   // the height of the calendar in REM
-  const calHeight = 2.0; 
+  const calHeight = 2.0;
 
   useEffect(() => {
     // Set the container scroll position based on the current time.
     const currentMinute = new Date().getHours() * 60;
-    container.current.scrollTop =
-      ((container.current.scrollHeight -
-        containerNav.current.offsetHeight -
-        containerOffset.current.offsetHeight) *
+    (container.current as HTMLDivElement).scrollTop =
+      (((container.current as HTMLDivElement).scrollHeight -
+        (container.current as HTMLDivElement).offsetHeight -
+        (container.current as HTMLDivElement).offsetHeight) *
         currentMinute) /
       1440;
   }, []);
+
+  // keeping tabs on the calendar courses being changed (won't be needed soon)
+  useEffect(() => {
+    console.log("CURRENT CALENDAR COURSE LIST", calendarCourses);
+  }, [calendarCourses]);
 
   return (
     <div className="flex h-full flex-col z-2">
@@ -112,7 +128,9 @@ const Calendar: React.FC = (): JSX.Element => {
               {/* Horizontal lines on the calendar */}
               <div
                 className="col-start-1 col-end-2 row-start-1 grid divide-y divide-gray-100"
-                style={{ gridTemplateRows: `repeat(19, minmax(${calHeight}rem, 1fr))` }}
+                style={{
+                  gridTemplateRows: `repeat(19, minmax(${calHeight}rem, 1fr))`,
+                }}
               >
                 <div ref={containerOffset} className="row-end-1 h-5"></div>
                 <div>

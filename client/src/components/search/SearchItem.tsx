@@ -17,7 +17,7 @@ interface SearchItemProps {
   // calendar (light prop drilling here)
   // calendar
   calendarCourses: CalendarCourse[] | null;
-  setCalendarCourses: Dispatch<SetStateAction<CalendarCourse[] | null>>;
+  setCalendarCourses: any;
 }
 const SearchItem: React.FC<SearchItemProps> = ({
   school,
@@ -37,8 +37,8 @@ const SearchItem: React.FC<SearchItemProps> = ({
   // error state - just works with
   const [error, setError] = useState("");
 
+  // this updates the calendar array!
   const handleViewClick = () => {
-    console.log("CURRENT CALENDAR COURSE LIST: ", calendarCourses);
     if (!calendarCourses) {
       setCalendarCourses([
         {
@@ -49,6 +49,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
       ]);
       return;
     }
+
     // see if this course is in the calendarCourses already. If not, add it
     for (let i = 0; i < calendarCourses.length; i++) {
       if (calendarCourses[i].courseNumber === courseNumber) {
@@ -59,15 +60,15 @@ const SearchItem: React.FC<SearchItemProps> = ({
         return;
       }
     }
-    // update things - this is not present
-    const newCourseList = calendarCourses as CalendarCourse[];
-    newCourseList.push({
-      courseNumber: courseNumber,
-      school: school,
-      section: section,
-    });
 
-    setCalendarCourses(newCourseList);
+    setCalendarCourses((priorCourses: CalendarCourse[]) => [
+      ...priorCourses,
+      {
+        courseNumber: courseNumber,
+        school: school,
+        section: section,
+      },
+    ]);
 
     return;
   };

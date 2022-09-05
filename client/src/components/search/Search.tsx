@@ -17,7 +17,7 @@ interface SearchProps {
   view: "Calendar" | "Schedule";
   // calendar (light prop drilling here)
   calendarCourses: CalendarCourse[] | null;
-  setCalendarCourses: Dispatch<SetStateAction<CalendarCourse[] | null>>;
+  setCalendarCourses: any;
 }
 
 const Search: React.FC<SearchProps> = ({
