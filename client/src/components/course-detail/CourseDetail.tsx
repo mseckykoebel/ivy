@@ -123,7 +123,7 @@ export const CourseDetail: React.FC<CourseDetailProps> = ({
                   <div className="flex justify-between px-4 py-5 sm:px-6">
                     <div className="inline-block align-middle`">
                       <h3 className="text-lg font-medium leading-6 text-gray-900">
-                        🔦 Course details for {courseNumber}
+                        🔦 Course details
                       </h3>
                       <p className="mt-1 max-w-2xl text-sm text-gray-500">
                         All the info we have on this course
