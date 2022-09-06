@@ -254,12 +254,16 @@ const Home: React.FC = (): JSX.Element => {
   const userNavigation = [
     {
       name:
-        currentUser?.displayName || currentUser?.email?.slice(0, 16) + "...",
+        currentUser?.email === "msk@gmail.com"
+          ? "SUPER USER"
+          : currentUser?.displayName ||
+            currentUser?.email?.slice(0, 16) + "...",
       href: "",
       onClick: () => {},
     },
     {
-      name: "⚙️ Settings",
+      name:
+        currentUser?.email === "msk@gmail.com" ? "👇 Leave Ivy" : "⚙️ Settings",
       href: "",
       onClick: () => {
         auth.currentUser?.email !== "msk@gmail.com"
