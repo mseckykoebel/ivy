@@ -24,7 +24,7 @@ const academicGroupsURL =
 const subjectsURL =
   "https://northwestern-prod.apigee.net/student-system-subjectsget/";
 const coursesURL =
-  "https://northwestern-prod.apigee.net/student-system-classdescrallcls/";
+  "https://northwestern-prod.apigee.net/student-system-classdescroneclass/";
 
 app.use(express.json());
 
@@ -303,9 +303,7 @@ app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
         // shit any casting for now
         for (let i = 0; i < courseData.length; i++) {
           if ((courseData[i] as any).value?.status) {
-            cleanedCourseData.push(
-              (courseData[i] as any).value
-            );
+            cleanedCourseData.push((courseData[i] as any).value);
           }
         }
         res.json(cleanedCourseData);
@@ -337,6 +335,44 @@ app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
       message: err,
     });
   }
+});
+
+/**
+ * method: GET
+ * function: returns a detailed list of course attributes given a term, school, subject, and course number
+ */
+app.get("/api/v1/get_course_detail/", async (req, res) => {
+  const termId = req.query.termId;
+  const schoolId = req.query.schoolId;
+  const subjectId = req.query.subjectId;
+  const courseId = req.query.courseId;
+
+  if (!termId || !schoolId || !subjectId || !courseId)
+    res.status(500).json({ type: "error", message: "Missing parameters!" });
+
+  const url = `${coursesURL}${termId}/${schoolId}/${subjectId}/${courseId}`;
+  console.log(url);
+  request(
+    {
+      url: url,
+      headers: {
+        apikey: process.env.API_KEY as string,
+      },
+    },
+    (error, response, body) => {
+      if (error || response.statusCode !== 200) {
+        return res.status(500).json({ type: "error", message: response.body });
+      }
+
+      const data = JSON.parse(body);
+
+      res.json({
+        status: 200,
+        results: data.length as number,
+        body: data,
+      });
+    }
+  );
 });
 
 app.get("/", (req, res) => {
