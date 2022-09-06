@@ -364,12 +364,55 @@ app.get("/api/v1/get_course_detail/", async (req, res) => {
         return res.status(500).json({ type: "error", message: response.body });
       }
 
-      const data = JSON.parse(body);
+      // "NW_CD_ONECLASS_RESP"
+      const oneClassData = JSON.parse(body).NW_CD_ONECLASS_RESP;
+      console.log(oneClassData);
+      const classDescription = oneClassData.CLASSDESCR[0];
+      // granular course description information
+      const classMeetingInfo = classDescription.CLASS_MTG_INFO[0];
+      const associatedClass = classDescription.ASSOCIATED_CLASS[0];
+      const classAttributes = classDescription.CLASS_ATTRIBUTES[0];
+      const enrollmentRequirement = classDescription.ENRL_REQUIREMENT[0];
+      const instructorInformation = classDescription.INSTRUCTOR[0];
+
+      // if there is an array of information, we take the first component (core assumption here)
+      const oneCourseData: Record<string, string> = {
+        dateVisible: oneClassData.DATE_VISIBLE_IN_SES,
+        termId: oneClassData.STRM,
+        termDescription: oneClassData.TermDescr,
+        schoolId: oneClassData.ACAD_GROUP,
+        subjectId: oneClassData.SUBJECT,
+        subjectDescription: oneClassData.DESCR,
+        // now, the granular shit
+        classNumber: classDescription.CLASS_NBR,
+        courseId: classDescription.CRSE_ID,
+        catalogueNumber: classDescription.CATALOG_NBR,
+        section: classDescription.SECTION,
+        component: classDescription.COMPONENT,
+        courseTitle: classDescription.COURSE_TITLE,
+        topic: classDescription.TITLE,
+        enrollmentCapacity: classDescription.ENRL_CAP,
+        startDate: classDescription.START_DT,
+        endDate: classDescription.END_DT,
+        // array data from above
+        classMeetingRoom: classMeetingInfo.ROOM,
+        classMeetingTime: classMeetingInfo.MEETING_TIME,
+        associatedClassSection: associatedClass.SECTION,
+        associatedClassComponent: associatedClass.COMPONENT,
+        classAttributes: classAttributes.CRSE_ATTR_VALUE,
+        enrollmentRequirements: enrollmentRequirement.ENRL_REQ_VALUE,
+        instructorName: instructorInformation.DISPLAY_NAME,
+        instructorPhone: instructorInformation.PHONE,
+        instructorCampusAddress: instructorInformation.CAMPUS_ADDR,
+        officeHours: instructorInformation.OFFICE_HOURS,
+        instructorBio: instructorInformation.INST_BIO,
+        websiteUrl: instructorInformation.URL,
+      };
 
       res.json({
         status: 200,
-        results: data.length as number,
-        body: data,
+        results: Object.keys(oneCourseData).length as number,
+        body: oneCourseData,
       });
     }
   );
