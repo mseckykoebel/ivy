@@ -28,16 +28,59 @@ export const CourseDetail: React.FC<CourseDetailProps> = ({
 }): JSX.Element => {
   // state
   const [loading, setLoading] = useState<boolean>(false);
+  const [courseDetails, setCourseDetails] = useState<Record<
+    string,
+    string
+  > | null>(null);
   const [error, setError] = useState<string>("");
 
   // getting the course information
   useEffect(() => {
-    const getCourseDetail = () => {
-      console.log("Getting course detail for course: ", courseNumber);
-    };
-
     getCourseDetail();
   }, []);
+
+  const getCourseDetail = () => {
+    setError("");
+    setCourseDetails(null);
+
+    console.log("GETTING COURSE DETAILS");
+
+    const loadDetails = async () => {
+      const detailsUrl =
+        process.env.NODE_ENV !== "production"
+          ? `http://localhost:3001/api/v1/get_course_detail/?termId=${termId}&schoolId=${school}&subjectId=${subject}&courseId=${courseNumber}`
+          : `https://ivy-api.fly.dev/api/v1/get_course_detail/?termId=${termId}&schoolId=${school}&subjectId=${subject}&courseId=${courseNumber}`;
+
+      setLoading(true);
+      const response = await fetch(detailsUrl, {
+        mode: "cors",
+        headers: {
+          "Content-type": "application/json",
+        },
+      });
+      if (response.status >= 400) {
+        setError(
+          "Uh oh! No courses like that are in the system 🥸. Please try a new query."
+        );
+        return;
+      }
+      if (response.status === 500) {
+        setError(
+          "Uh oh! Error fetching courses on our end. Please try a new query"
+        );
+        return;
+      }
+      // now, we set to be this
+      const data = await response.json();
+      // set data
+      setCourseDetails(data.body);
+      setLoading(false);
+    };
+
+    return new Promise<void>((resolve) => {
+      loadDetails().then(() => resolve());
+    });
+  };
 
   return (
     <Transition.Root show={courseDetail} as={Fragment}>
@@ -80,7 +123,7 @@ export const CourseDetail: React.FC<CourseDetailProps> = ({
                   <div className="flex justify-between px-4 py-5 sm:px-6">
                     <div className="inline-block align-middle`">
                       <h3 className="text-lg font-medium leading-6 text-gray-900">
-                        🔦 Course details for {courseNumber}
+                        🔦 Course details
                       </h3>
                       <p className="mt-1 max-w-2xl text-sm text-gray-500">
                         All the info we have on this course
@@ -89,149 +132,45 @@ export const CourseDetail: React.FC<CourseDetailProps> = ({
                   </div>
                   <div className="border-t border-gray-200 px-4 py-5 sm:p-0">
                     <dl className="sm:divide-y sm:divide-gray-200">
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-sm font-medium text-gray-500">
-                          Term ID
-                        </dt>
-                        <dd>
-                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
-                            {termId}
-                          </p>
-                        </dd>
-                      </div>
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-sm font-medium text-gray-500">
-                          School
-                        </dt>
-                        <dd>
-                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
-                            {school}
-                          </p>
-                        </dd>
-                      </div>
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-sm font-medium text-gray-500">
-                          Term ID
-                        </dt>
-                        <dd>
-                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
-                            {subject}
-                          </p>
-                        </dd>
-                      </div>
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-sm font-medium text-gray-500">
-                          Term ID
-                        </dt>
-                        <dd>
-                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
-                            {subject}
-                          </p>
-                        </dd>
-                      </div>
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-sm font-medium text-gray-500">
-                          Term ID
-                        </dt>
-                        <dd>
-                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
-                            {subject}
-                          </p>
-                        </dd>
-                      </div>
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-sm font-medium text-gray-500">
-                          Term ID
-                        </dt>
-                        <dd>
-                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
-                            {subject}
-                          </p>
-                        </dd>
-                      </div>
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-sm font-medium text-gray-500">
-                          Term ID
-                        </dt>
-                        <dd>
-                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
-                            {subject}
-                          </p>
-                        </dd>
-                      </div>
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-sm font-medium text-gray-500">
-                          Term ID
-                        </dt>
-                        <dd>
-                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
-                            {subject}
-                          </p>
-                        </dd>
-                      </div>
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-sm font-medium text-gray-500">
-                          Term ID
-                        </dt>
-                        <dd>
-                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
-                            {subject}
-                          </p>
-                        </dd>
-                      </div>
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-sm font-medium text-gray-500">
-                          Term ID
-                        </dt>
-                        <dd>
-                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
-                            {subject}
-                          </p>
-                        </dd>
-                      </div>
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-sm font-medium text-gray-500">
-                          Term ID
-                        </dt>
-                        <dd>
-                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
-                            {subject}
-                          </p>
-                        </dd>
-                      </div>
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-sm font-medium text-gray-500">
-                          Term ID
-                        </dt>
-                        <dd>
-                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
-                            {subject}
-                          </p>
-                        </dd>
-                      </div>
-                      <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-                        <dt className="text-sm font-medium text-gray-500">
-                          Term ID
-                        </dt>
-                        <dd>
-                          <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
-                            {subject}
-                          </p>
-                        </dd>
-                      </div>
+                      {courseDetails &&
+                        Object.keys(courseDetails).map((detail, id) => {
+                          return (
+                            <div
+                              key={id}
+                              className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6"
+                            >
+                              <dt className="text-sm font-medium text-gray-500">
+                                {detail}
+                              </dt>
+                              <dd>
+                                <p className="block w-full rounded-md border-gray-300 shadow-none focus:border-green-500 focus:ring-green-500 sm:text-sm">
+                                  {courseDetails[detail]}
+                                </p>
+                              </dd>
+                            </div>
+                          );
+                        })}
                     </dl>
                   </div>
                 </div>
-                {/* ERROR AREA */}
-                {/* ERROR AREA */}
-                {/* ERROR AREA */}
-                {/* ERROR AREA */}
+                {/* ERROR / LOADING AREA */}
+                {/* ERROR / LOADING AREA */}
+                {/* ERROR / LOADING AREA */}
+                {/* ERROR / LOADING AREA */}
                 {error.length >= 1 && (
                   <p
                     className="mt-5 text-center text-sm text-red-600"
                     id="loading-error"
                   >
                     {error}
+                  </p>
+                )}
+                {loading && (
+                  <p
+                    className="mt-5 text-center text-sm text-gray-600"
+                    id="loading-error"
+                  >
+                    Loading details...
                   </p>
                 )}
               </Dialog.Panel>

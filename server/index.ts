@@ -24,7 +24,7 @@ const academicGroupsURL =
 const subjectsURL =
   "https://northwestern-prod.apigee.net/student-system-subjectsget/";
 const coursesURL =
-  "https://northwestern-prod.apigee.net/student-system-classdescrallcls/";
+  "https://northwestern-prod.apigee.net/student-system-classdescroneclass/";
 
 app.use(express.json());
 
@@ -303,9 +303,7 @@ app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
         // shit any casting for now
         for (let i = 0; i < courseData.length; i++) {
           if ((courseData[i] as any).value?.status) {
-            cleanedCourseData.push(
-              (courseData[i] as any).value
-            );
+            cleanedCourseData.push((courseData[i] as any).value);
           }
         }
         res.json(cleanedCourseData);
@@ -337,6 +335,90 @@ app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
       message: err,
     });
   }
+});
+
+/**
+ * method: GET
+ * function: returns a detailed list of course attributes given a term, school, subject, and course number
+ */
+app.get("/api/v1/get_course_detail/", async (req, res) => {
+  const termId = req.query.termId;
+  const schoolId = req.query.schoolId;
+  const subjectId = req.query.subjectId;
+  const courseId = req.query.courseId;
+
+  if (!termId || !schoolId || !subjectId || !courseId)
+    res.status(500).json({ type: "error", message: "Missing parameters!" });
+
+  const url = `${coursesURL}${termId}/${schoolId}/${subjectId}/${courseId}`;
+  console.log(url);
+  request(
+    {
+      url: url,
+      headers: {
+        apikey: process.env.API_KEY as string,
+      },
+    },
+    (error, response, body) => {
+      if (error || response.statusCode !== 200) {
+        return res.status(500).json({ type: "error", message: response.body });
+      }
+
+      // "NW_CD_ONECLASS_RESP"
+      const oneClassData = JSON.parse(body).NW_CD_ONECLASS_RESP;
+      console.log(oneClassData);
+      const classDescription = oneClassData.CLASSDESCR[0];
+      // granular course description information
+      const classMeetingInfo = classDescription.CLASS_MTG_INFO[0];
+      const associatedClass = classDescription.ASSOCIATED_CLASS[0];
+      const classAttributes = classDescription.CLASS_ATTRIBUTES[0];
+      const enrollmentRequirement = classDescription.ENRL_REQUIREMENT[0];
+      const instructorInformation = classDescription.INSTRUCTOR[0];
+
+      // if there is an array of information, we take the first component (core assumption here)
+      const oneCourseData: Record<string, string> = {
+        "📖 Course title": classDescription.COURSE_TITLE,
+        "📚 Subject description": oneClassData.DESCR,
+        "🔍 Subject Id": oneClassData.SUBJECT,
+        "🐈 Catalogue number": classDescription.CATALOG_NBR,
+        "☝️ Section": classDescription.SECTION,
+        "👾 Component": classDescription.COMPONENT,
+
+        "📓 Description": oneClassData.TermDescr,
+        "🚌 School": oneClassData.ACAD_GROUP,
+
+        // now, the granular shit
+        "💯 Class number": classDescription.CLASS_NBR,
+
+        "🎙 Topic (if any)": classDescription.TITLE,
+        "🪑 Enrollment capacity": classDescription.ENRL_CAP,
+        "🐎 Start date": classDescription.START_DT,
+        "🏁 End date": classDescription.END_DT,
+        // array data from above
+        "🚪 Class meeting room": classMeetingInfo.ROOM,
+        "⏰ Class meeting time": classMeetingInfo.MEETING_TIME,
+        "😴 Associated class section (if any)": associatedClass.SECTION,
+        "☄️ Associated class component (if any)": associatedClass.COMPONENT,
+        "👔 Class attributes": classAttributes.CRSE_ATTR_VALUE,
+        "🤔 Enrollment requirements": enrollmentRequirement.ENRL_REQ_VALUE,
+        "🧑‍🏫 Instructor name": instructorInformation.DISPLAY_NAME,
+        "☎️ Instructor phone": instructorInformation.PHONE,
+        "🏡 Instructor campus address": instructorInformation.CAMPUS_ADDR,
+        "📌 Office hours": instructorInformation.OFFICE_HOURS,
+        "🤓 Bio": instructorInformation.INST_BIO,
+        "👨‍💻 Website": instructorInformation.URL,
+        "🧋 Term Id": oneClassData.STRM,
+        "🎢 Course Id": classDescription.CRSE_ID,
+        "🔮 Date visible in system": oneClassData.DATE_VISIBLE_IN_SES,
+      };
+
+      res.json({
+        status: 200,
+        results: Object.keys(oneCourseData).length as number,
+        body: oneCourseData,
+      });
+    }
+  );
 });
 
 app.get("/", (req, res) => {

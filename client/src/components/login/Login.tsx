@@ -31,6 +31,22 @@ const Login: React.FC = (): JSX.Element => {
     }
     setLoading(false);
   };
+  // superUserLogon
+  const handleSuperUserSubmit = async (
+    e: React.MouseEvent<HTMLButtonElement>
+  ) => {
+    e.preventDefault();
+
+    try {
+      setError("");
+      setLoading(true);
+      await login("msk@gmail.com", "Cat11cat1!cat!!");
+      navigate("/"); // when signed in, navigate to the home page!
+    } catch (err) {
+      setError(`Uh oh! There was an error signing you in: ${err}`);
+    }
+    setLoading(false);
+  };
   //   Return
   return (
     <div className="min-h-[100vh] flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-grey-500">
@@ -142,6 +158,19 @@ const Login: React.FC = (): JSX.Element => {
               >
                 {" "}
                 Forgot your password? &rarr;{" "}
+              </button>
+            </div>
+          </div>
+          {/* NO THANKS, JUST BROWSING */}
+          <div className="flex items-center justify-center">
+            <div className="flex items-center">
+              <button
+                onClick={handleSuperUserSubmit}
+                className="text-sm font-medium text-green-500 hover:text-green-500 hover:underline"
+              >
+                {" "}
+                No thanks, just browsing! Take me to Ivy without signing in
+                &rarr;{" "}
               </button>
             </div>
           </div>
