@@ -17,6 +17,7 @@ import {
   getCourseLengthMap,
   getCourseDaysMap,
   getCourseDaysJustDays,
+  getStartTime,
 } from "../../lib/calendar";
 
 interface CalendarProps {
@@ -52,55 +53,83 @@ const Calendar: React.FC<CalendarProps> = ({
       1440;
   }, []);
 
-  // updates the UI based on the courses present in the courses array
-  useEffect(() => {
-    const renderedCourses: CalendarCourse[] = [];
-    // update the courses that are being rendered
-    for (let i = 0; i < calendarCourses.length; i++) {
-      // meeting info is going to be defined
-      for (let j = 0; j < calendarCourses[i].classMeetingInfo!.length; j++) {
-        console.log("IN HERE!");
-        const tempCourse = calendarCourses[i];
-        tempCourse.classMeetingInfo = [tempCourse.classMeetingInfo![j]];
-        const replace = getCourseDaysMap(
-          tempCourse.classMeetingInfo[j].MEETING_TIME
+  const updateCourses = (coursesToUpdate: CalendarCourse[]) => {
+    // return currentCourses;
+    console.log("DONE!: ", coursesToUpdate);
+
+    const mustard = [
+      {
+        subject: "COMP_ENG",
+        catalogNumber: "203-0",
+        courseNumber: "14649",
+        classMeetingInfo: [
+          {
+            ROOM: "Technological Institute L361",
+            MEETING_TIME: "MoTuWeFr 11:00AM - 11:50AM",
+          },
+        ],
+        color: "bg-lime-100",
+      },
+    ];
+    // must find when courses are offered
+    const getNumberOfCourses = () => {
+      const newCourses: CalendarCourse[] = [];
+      console.log("CURRENT COURSE: ", mustard);
+      mustard.forEach((course) => {
+        const days: string[] = [];
+        const daysOfWeekThisCourseIsOffered = getCourseDaysJustDays(
+          course.classMeetingInfo![0].MEETING_TIME
         );
-        for (let k = 0; k < replace.length; k++) {
-          if (replace.length === 1) {
-            tempCourse.classMeetingInfo[j].MEETING_TIME =
-              tempCourse.classMeetingInfo[j].MEETING_TIME.replace(
-                new RegExp(replace[0]),
-                ""
-              );
-          }
+        const meetingTimeString = course.classMeetingInfo![0].MEETING_TIME;
+        if (new RegExp("Mo").test(daysOfWeekThisCourseIsOffered) === true)
+          days.push("Mo");
+        if (new RegExp("Tu").test(daysOfWeekThisCourseIsOffered) === true)
+          days.push("Tu");
+        if (new RegExp("We").test(daysOfWeekThisCourseIsOffered) === true)
+          days.push("We");
+        if (new RegExp("Th").test(daysOfWeekThisCourseIsOffered) === true)
+          days.push("Th");
+        if (new RegExp("Fr").test(daysOfWeekThisCourseIsOffered) === true)
+          days.push("Fr");
+        console.log("DAYS OF WEEK: ", days);
+
+        for (let j = 0; j < days.length; j++) {
+          console.log(
+            "COURSE MEETING TIME: ",
+            course.classMeetingInfo[0].MEETING_TIME
+          );
+          // now, let's do some replacements
+          const meetingTimeSplit = meetingTimeString.split(" ");
+          meetingTimeSplit.shift();
+          meetingTimeSplit.unshift(days[j]);
+          const newMeetingTime = meetingTimeSplit.join(" ");
+          console.log("NEW MEETING TIME: ", newMeetingTime);
+
+          console.log("WHAT IS THE COURSE???: ", course);
+          course.classMeetingInfo![0].MEETING_TIME = newMeetingTime;
+          console.log("BRAND NEW COURSE NOW: ", course);
+          newCourses.push(course);
+          console.log("NEW COURSES NOW: ", newCourses);
         }
-        renderedCourses.push(tempCourse);
-      }
-    }
-    console.log("RENDERED COURSES: ", renderedCourses);
-    console.log("COURSES!", calendarCourses);
-    if (calendarCourses && calendarCourses.length > 0) {
-      // ONE
-      console.log(
-        "THIS IS HOW LONG THIS COURSE IS: ",
-        getCourseLengthMap(
-          calendarCourses![0].classMeetingInfo![0].MEETING_TIME
-        )
-      );
-      // TWO
-      console.log(
-        "THIS IS THE STARTING TIME OF THE COURSE: ",
-        getStartingTimeMap(
-          calendarCourses![0].classMeetingInfo![0].MEETING_TIME
-        )
-      );
-      // THREE
-      console.log(
-        "THIS IS THE DAYS THIS COURSE MEETS: ",
-        getCourseDaysMap(calendarCourses![0].classMeetingInfo![0].MEETING_TIME)
-      );
-    }
-    //
+      });
+    };
+
+    getNumberOfCourses();
+  };
+
+  // updates the UI based on the courses present in the courses array
+  // BIG ASSUMPTION: assume that the first element in the classMeetingInfo
+  // array is accurate. Do not look at the others.
+  // Meaning - take the first element as gospel - this is when the course meets
+  useEffect(() => {
+    console.log(
+      "THE COURSES HAVE BEEN MODIFIED. THIS IS WHAT THEY LOOK LIKE: ",
+      calendarCourses
+    );
+
+    const allCurrentCourses = [...calendarCourses];
+
+    updateCourses(allCurrentCourses);
   }, [calendarCourses]);
 
   const handleRemoveCourse = (courseId: string) => {
@@ -322,13 +351,13 @@ const Calendar: React.FC<CalendarProps> = ({
                   gridTemplateRows: ".45rem repeat(288, minmax(0, 1fr)) auto",
                 }}
               >
-                {calendarCourses &&
-                  calendarCourses.map((course) => {
+                {renderedCourses &&
+                  renderedCourses.map((course, id) => {
                     return (
                       <li
-                        key={course.courseNumber}
+                        key={id}
                         className={`relative mt-px flex sm:${getCourseDaysMap(
-                          calendarCourses![0].classMeetingInfo![0].MEETING_TIME
+                          renderedCourses![0].classMeetingInfo![0].MEETING_TIME
                         )}`}
                         style={{
                           gridRow: `${getStartingTimeMap(
@@ -338,7 +367,9 @@ const Calendar: React.FC<CalendarProps> = ({
                           )}`,
                         }}
                       >
-                        <div className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-pink-50 p-2 text-xs leading-5 hover:bg-pink-100">
+                        <div
+                          className={`group absolute inset-1 flex flex-col overflow-y-auto rounded-lg ${course.color} p-2 text-xs leading-5 hover:${course.color}`}
+                        >
                           <div className="absolute top-1 right-1 hidden pt-1 pr-1 sm:block">
                             <button
                               type="button"
@@ -352,10 +383,18 @@ const Calendar: React.FC<CalendarProps> = ({
                             </button>
                           </div>
                           <p className="order-1 font-semibold text-pink-700">
-                            CS 211
+                            {course.subject}
+                          </p>
+                          <p className="order-1 font-semibold text-pink-700">
+                            {course.catalogNumber}
                           </p>
                           <p className="text-pink-500 group-hover:text-pink-700">
-                            <time dateTime="2022-01-12T07:30">12:00pm</time>
+                            <time dateTime="2022-01-12T07:30">
+                              {getStartTime(
+                                renderedCourses![0].classMeetingInfo![0]
+                                  .MEETING_TIME
+                              )}
+                            </time>
                           </p>
                         </div>
                       </li>

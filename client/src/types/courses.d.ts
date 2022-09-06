@@ -18,13 +18,14 @@ type UndergraduateCourseDetail = {
 // this is a sub-type of a Course just for being displayed in the calendar UI
 // lots of props are not needed
 export interface CalendarCourse {
+  subject: string;
+  catalogNumber: string;
   courseNumber: string;
-  school: string;
-  section: string;
   classMeetingInfo: { ROOM: string; MEETING_TIME: string }[] | [] | null;
+  color: string;
 }
 
-// this is used for the course detail modal - ignore for all other things
+// this is passed to the course detail modal to fetch the course details
 export interface CourseDetail {
   termId: string;
   school: string;

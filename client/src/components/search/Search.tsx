@@ -144,7 +144,7 @@ const Search: React.FC<SearchProps> = ({
           .map((course: Record<string, any>) => {
             return (
               <SearchItem
-                key={course.data.courseNumber}
+                key={course.id}
                 termId={termId as string}
                 school={course.school}
                 subject={course.subject}
