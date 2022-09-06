@@ -16,7 +16,7 @@ interface SearchProps {
   searchQuery: string;
   view: "Calendar" | "Schedule";
   // calendar (light prop drilling here)
-  calendarCourses: CalendarCourse[] | null;
+  calendarCourses: CalendarCourse[] | [];
   setCalendarCourses: any;
   // course detail (light prop drilling here)
   courseDetail: CourseDetail | null;
@@ -104,8 +104,6 @@ const Search: React.FC<SearchProps> = ({
       }
       courseData = shuffleArray(courseData);
 
-      console.log("COURSE DATA: ", courseData[0]);
-
       setCourses(courseData);
       setLoading(false);
     };
@@ -146,7 +144,7 @@ const Search: React.FC<SearchProps> = ({
           .map((course: Record<string, any>) => {
             return (
               <SearchItem
-                key={course.data.courseNumber}
+                key={course.id}
                 termId={termId as string}
                 school={course.school}
                 subject={course.subject}

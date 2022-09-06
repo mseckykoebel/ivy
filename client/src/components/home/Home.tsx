@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-function */
 /* eslint-disable indent */
 // The above is stupid but it's getting messed up with prettier
 import { Fragment, useEffect, useRef, useState } from "react";
@@ -62,9 +63,9 @@ const Home: React.FC = (): JSX.Element => {
   // searching
   const [searchQuery, setSearchQuery] = useState<string>("");
   // calendar (array of courses that the UI figures out how to deal with)
-  const [calendarCourses, setCalendarCourses] = useState<
-    CalendarCourse[] | null
-  >(null);
+  const [calendarCourses, setCalendarCourses] = useState<CalendarCourse[] | []>(
+    []
+  );
   // schedule (array of courses that the UI figures out how to deal with)
   // const [scheduleCourses, setScheduleCourses] = useState<
   //   Record<string, string>[] | null
@@ -419,8 +420,13 @@ const Home: React.FC = (): JSX.Element => {
                           <button
                             key={item.name}
                             className={classNames(
-                              calView === true ? "text-white" : "text-white",
-                              "text-sm font-medium rounded-md bg-white bg-opacity-0 px-3 py-2 hover:bg-opacity-10"
+                              calView === true && item.name === "Calendar view"
+                                ? "bg-white/10"
+                                : calView === false &&
+                                  item.name === "Schedule view"
+                                ? "bg-white/10"
+                                : "",
+                              "text-sm text-white font-medium rounded-md  bg-opacity-0 px-3 py-2 hover:bg-opacity-10"
                             )}
                             aria-current={item.name ? "page" : undefined}
                             onClick={() =>

@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 import React, { Dispatch, SetStateAction, useState } from "react";
 import { CalendarCourse, CourseDetail } from "../../types/courses";
 
@@ -13,10 +14,10 @@ interface SearchItemProps {
   courseNumber: string;
   // additional color prop
   color: string;
-  classMeetingInfo: Record<string, string>[] | null;
+  classMeetingInfo: { ROOM: string; MEETING_TIME: string }[] | [] | null;
   view: "Calendar" | "Schedule";
   // calendar (light prop drilling here)
-  calendarCourses: CalendarCourse[] | null;
+  calendarCourses: CalendarCourse[] | [];
   setCalendarCourses: any;
   // course detail (light prop drilling here)
   courseDetail: CourseDetail | null;
@@ -50,9 +51,11 @@ const SearchItem: React.FC<SearchItemProps> = ({
     if (!calendarCourses) {
       setCalendarCourses([
         {
+          subject: subject,
+          catalogNumber: catalogNumber,
           courseNumber: courseNumber,
-          school: school,
-          section: section,
+          classMeetingInfo: classMeetingInfo,
+          color: color,
         },
       ]);
       return;
@@ -72,9 +75,11 @@ const SearchItem: React.FC<SearchItemProps> = ({
     setCalendarCourses((priorCourses: CalendarCourse[]) => [
       ...priorCourses,
       {
+        subject: subject,
+        catalogNumber: catalogNumber,
         courseNumber: courseNumber,
-        school: school,
-        section: section,
+        classMeetingInfo: classMeetingInfo,
+        color: color,
       },
     ]);
 
@@ -120,7 +125,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
           </button>
         </div>
         <div className="mt-3 text-sm">
-          {classMeetingInfo && classMeetingInfo?.length > 0 && (
+          {classMeetingInfo && classMeetingInfo.length > 0 && (
             <button
               // disable
               className="font-medium text-indigo-600 hover:text-indigo-500 hover:underline"

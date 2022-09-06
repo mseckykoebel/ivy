@@ -1,14 +1,33 @@
-import React, { Dispatch, SetStateAction, useEffect, useRef } from "react";
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
+/* eslint-disable indent */
+// ^ yeah
+import { XIcon } from "@heroicons/react/outline";
+import React, {
+  Dispatch,
+  SetStateAction,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import { CalendarCourse } from "../../types/courses";
 
+// helpers
+import {
+  getStartingTimeMap,
+  getCourseLengthMap,
+  getCourseDaysMap,
+  getCourseDaysJustDays,
+  getStartTime,
+} from "../../lib/calendar";
+
 interface CalendarProps {
-  calendarCourses: CalendarCourse[] | null;
-  setCalendarCourses: Dispatch<SetStateAction<CalendarCourse[] | null>>;
+  calendarCourses: CalendarCourse[] | [];
+  setCalendarCourses: Dispatch<SetStateAction<CalendarCourse[] | []>>;
 }
 
 const Calendar: React.FC<CalendarProps> = ({
   calendarCourses,
-  setCalendarCourses,
+  setCalendarCourses, // for when you need to remove an item from the calendar
 }): JSX.Element => {
   // again, shitty
   const container: React.MutableRefObject<HTMLDivElement | null> = useRef(null);
@@ -17,7 +36,11 @@ const Calendar: React.FC<CalendarProps> = ({
   const containerOffset: React.MutableRefObject<HTMLDivElement | null> =
     useRef(null);
   // the height of the calendar in REM
-  const calHeight = 2.0;
+  const calHeight = 2.1;
+  // state (these are the courses that we are going to loop through)
+  const [renderedCourses, setRenderedCourses] = useState<CalendarCourse[] | []>(
+    []
+  );
 
   useEffect(() => {
     // Set the container scroll position based on the current time.
@@ -30,10 +53,92 @@ const Calendar: React.FC<CalendarProps> = ({
       1440;
   }, []);
 
-  // keeping tabs on the calendar courses being changed (won't be needed soon)
+  const updateCourses = (coursesToUpdate: CalendarCourse[]) => {
+    // return currentCourses;
+    console.log("DONE!: ", coursesToUpdate);
+
+    const mustard = [
+      {
+        subject: "COMP_ENG",
+        catalogNumber: "203-0",
+        courseNumber: "14649",
+        classMeetingInfo: [
+          {
+            ROOM: "Technological Institute L361",
+            MEETING_TIME: "MoTuWeFr 11:00AM - 11:50AM",
+          },
+        ],
+        color: "bg-lime-100",
+      },
+    ];
+    // must find when courses are offered
+    const getNumberOfCourses = () => {
+      const newCourses: CalendarCourse[] = [];
+      console.log("CURRENT COURSE: ", mustard);
+      mustard.forEach((course) => {
+        const days: string[] = [];
+        const daysOfWeekThisCourseIsOffered = getCourseDaysJustDays(
+          course.classMeetingInfo![0].MEETING_TIME
+        );
+        const meetingTimeString = course.classMeetingInfo![0].MEETING_TIME;
+        if (new RegExp("Mo").test(daysOfWeekThisCourseIsOffered) === true)
+          days.push("Mo");
+        if (new RegExp("Tu").test(daysOfWeekThisCourseIsOffered) === true)
+          days.push("Tu");
+        if (new RegExp("We").test(daysOfWeekThisCourseIsOffered) === true)
+          days.push("We");
+        if (new RegExp("Th").test(daysOfWeekThisCourseIsOffered) === true)
+          days.push("Th");
+        if (new RegExp("Fr").test(daysOfWeekThisCourseIsOffered) === true)
+          days.push("Fr");
+        console.log("DAYS OF WEEK: ", days);
+
+        for (let j = 0; j < days.length; j++) {
+          console.log(
+            "COURSE MEETING TIME: ",
+            course.classMeetingInfo[0].MEETING_TIME
+          );
+          // now, let's do some replacements
+          const meetingTimeSplit = meetingTimeString.split(" ");
+          meetingTimeSplit.shift();
+          meetingTimeSplit.unshift(days[j]);
+          const newMeetingTime = meetingTimeSplit.join(" ");
+          console.log("NEW MEETING TIME: ", newMeetingTime);
+
+          console.log("WHAT IS THE COURSE???: ", course);
+          course.classMeetingInfo![0].MEETING_TIME = newMeetingTime;
+          console.log("BRAND NEW COURSE NOW: ", course);
+          newCourses.push(course);
+          console.log("NEW COURSES NOW: ", newCourses);
+        }
+      });
+    };
+
+    getNumberOfCourses();
+  };
+
+  // updates the UI based on the courses present in the courses array
+  // BIG ASSUMPTION: assume that the first element in the classMeetingInfo
+  // array is accurate. Do not look at the others.
+  // Meaning - take the first element as gospel - this is when the course meets
   useEffect(() => {
-    console.log("CURRENT CALENDAR COURSE LIST", calendarCourses);
+    console.log(
+      "THE COURSES HAVE BEEN MODIFIED. THIS IS WHAT THEY LOOK LIKE: ",
+      calendarCourses
+    );
+
+    const allCurrentCourses = [...calendarCourses];
+
+    updateCourses(allCurrentCourses);
   }, [calendarCourses]);
+
+  const handleRemoveCourse = (courseId: string) => {
+    setCalendarCourses((currentCourses: CalendarCourse[]) =>
+      currentCourses.filter((course) => {
+        return course.courseNumber !== courseId;
+      })
+    );
+  };
 
   return (
     <div className="flex h-full flex-col z-2">
@@ -122,17 +227,22 @@ const Calendar: React.FC<CalendarProps> = ({
           <div className="flex flex-auto">
             <div className="sticky left-0 z-10 w-14 flex-none bg-white ring-1 ring-gray-100" />
             <div className="grid flex-auto grid-cols-1 grid-rows-1">
-              {/* Horizontal lines on the calendar */}
-              {/* Horizontal lines on the calendar */}
-              {/* Horizontal lines on the calendar */}
-              {/* Horizontal lines on the calendar */}
+              {/* HORIZONTAL LINES ON CALENDAR */}
+              {/* HORIZONTAL LINES ON CALENDAR */}
+              {/* HORIZONTAL LINES ON CALENDAR */}
               <div
                 className="col-start-1 col-end-2 row-start-1 grid divide-y divide-gray-100"
                 style={{
-                  gridTemplateRows: `repeat(19, minmax(${calHeight}rem, 1fr))`,
+                  gridTemplateRows: `repeat(29, minmax(${calHeight}rem, 1fr))`,
                 }}
               >
                 <div ref={containerOffset} className="row-end-1 h-5"></div>
+                <div>
+                  <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                    8AM
+                  </div>
+                </div>
+                <div />
                 <div>
                   <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
                     9AM
@@ -193,12 +303,35 @@ const Calendar: React.FC<CalendarProps> = ({
                   </div>
                 </div>
                 <div />
+                <div>
+                  <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                    7PM
+                  </div>
+                </div>
+                <div />
+                <div>
+                  <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                    8PM
+                  </div>
+                </div>
+                <div />
+                <div>
+                  <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                    9PM
+                  </div>
+                </div>
+                <div />
+                <div>
+                  <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                    10PM
+                  </div>
+                </div>
               </div>
 
-              {/* Vertical lines on the calendar */}
-              {/* Vertical lines on the calendar */}
-              {/* Vertical lines on the calendar */}
-              {/* Vertical lines on the calendar */}
+              {/* VERTICAL LINES ON CALENDAR */}
+              {/* VERTICAL LINES ON CALENDAR */}
+              {/* VERTICAL LINES ON CALENDAR */}
+
               <div className="col-start-1 col-end-2 row-start-1 hidden grid-cols-5 grid-rows-1 divide-x divide-gray-100 sm:grid sm:grid-cols-5">
                 <div className="col-start-1 row-span-full" />
                 <div className="col-start-2 row-span-full" />
@@ -208,10 +341,9 @@ const Calendar: React.FC<CalendarProps> = ({
                 <div className="col-start-6 row-span-full w-8" />
               </div>
 
-              {/* START OF RENDERING EVENTS ON THE CALENDAR */}
-              {/* START OF RENDERING EVENTS ON THE CALENDAR */}
-              {/* START OF RENDERING EVENTS ON THE CALENDAR */}
-              {/* START OF RENDERING EVENTS ON THE CALENDAR */}
+              {/* EVENTS BEING RENDERED ON CALENDAR */}
+              {/* EVENTS BEING RENDERED ON CALENDAR */}
+              {/* EVENTS BEING RENDERED ON CALENDAR */}
 
               <ol
                 className="col-start-1 col-end-2 row-start-1 grid grid-cols-1 sm:grid-cols-5 sm:pr-8"
@@ -219,38 +351,55 @@ const Calendar: React.FC<CalendarProps> = ({
                   gridTemplateRows: ".45rem repeat(288, minmax(0, 1fr)) auto",
                 }}
               >
-                <li
-                  className="relative mt-px flex sm:col-start-3"
-                  style={{ gridRow: "21 / span 30" }}
-                >
-                  <a
-                    href="/"
-                    className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-pink-50 p-2 text-xs leading-5 hover:bg-pink-100"
-                  >
-                    <p className="order-1 font-semibold text-pink-700">
-                      CS 211
-                    </p>
-                    <p className="text-pink-500 group-hover:text-pink-700">
-                      <time dateTime="2022-01-12T07:30">12:00pm</time>
-                    </p>
-                  </a>
-                </li>
-                <li
-                  className="relative mt-px flex sm:col-start-4"
-                  style={{ gridRow: "130 / span 64" }}
-                >
-                  <a
-                    href="/"
-                    className="group absolute inset-1 flex flex-col overflow-y-auto rounded-lg bg-blue-50 p-2 text-xs leading-5 hover:bg-blue-100"
-                  >
-                    <p className="order-1 font-semibold text-blue-700">
-                      CS 111
-                    </p>
-                    <p className="text-blue-500 group-hover:text-blue-700">
-                      <time dateTime="2022-01-12T06:00">1:00 PM</time>
-                    </p>
-                  </a>
-                </li>
+                {renderedCourses &&
+                  renderedCourses.map((course, id) => {
+                    return (
+                      <li
+                        key={id}
+                        className={`relative mt-px flex sm:${getCourseDaysMap(
+                          renderedCourses![0].classMeetingInfo![0].MEETING_TIME
+                        )}`}
+                        style={{
+                          gridRow: `${getStartingTimeMap(
+                            course.classMeetingInfo![0].MEETING_TIME
+                          )} ${getCourseLengthMap(
+                            course.classMeetingInfo![0].MEETING_TIME
+                          )}`,
+                        }}
+                      >
+                        <div
+                          className={`group absolute inset-1 flex flex-col overflow-y-auto rounded-lg ${course.color} p-2 text-xs leading-5 hover:${course.color}`}
+                        >
+                          <div className="absolute top-1 right-1 hidden pt-1 pr-1 sm:block">
+                            <button
+                              type="button"
+                              className="rounded-md bg-none text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+                              onClick={() =>
+                                handleRemoveCourse(course.courseNumber)
+                              }
+                            >
+                              <span className="sr-only">Close</span>
+                              <XIcon className="h-4 w-4" aria-hidden="true" />
+                            </button>
+                          </div>
+                          <p className="order-1 font-semibold text-pink-700">
+                            {course.subject}
+                          </p>
+                          <p className="order-1 font-semibold text-pink-700">
+                            {course.catalogNumber}
+                          </p>
+                          <p className="text-pink-500 group-hover:text-pink-700">
+                            <time dateTime="2022-01-12T07:30">
+                              {getStartTime(
+                                renderedCourses![0].classMeetingInfo![0]
+                                  .MEETING_TIME
+                              )}
+                            </time>
+                          </p>
+                        </div>
+                      </li>
+                    );
+                  })}
               </ol>
               {/* END OF RENDERING EVENTS ON THE CALENDAR */}
               {/* END OF RENDERING EVENTS ON THE CALENDAR */}
