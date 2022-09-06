@@ -2,16 +2,19 @@
   "name": "ivy",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
   "dependencies": {
     "@headlessui/react": "^1.6.6",
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.4.3",
-    "@types/jest": "^29.0.0",
-    "@types/node": "^18.7.15",
-    "@types/react": "^18.0.18",
-    "@types/react-dom": "^18.0.6",
     "boring-avatars": "^1.7.0",
     "cross-fetch": "^3.1.5",
     "firebase": "^9.9.4",
@@ -23,13 +26,17 @@
     "typescript": "^4.8.2",
     "web-vitals": "^3.0.1"
   },
-  "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+  "devDependencies": {
+    "@craco/craco": "^5.9.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "@types/node": "^18.7.15",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.23.0",
+    "eslint-plugin-tsdoc": "^0.2.16",
+    "tailwindcss": "^3.1.8"
   },
   "eslintConfig": {
     "extends": [
@@ -48,16 +55,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@craco/craco": "^5.9.0",
-    "@tailwindcss/forms": "^0.5.3",
-    "@typescript-eslint/eslint-plugin": "^5.36.2",
-    "@typescript-eslint/parser": "^5.36.2",
-    "autoprefixer": "^10.4.8",
-    "eslint": "^8.23.0",
-    "eslint-plugin-tsdoc": "^0.2.16",
-    "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8"
   }
 }
