@@ -22,6 +22,7 @@ import { ProfilePicture } from "../profile-picture/ProfilePicture";
 import fetch from "cross-fetch";
 import { CalendarCourse, CourseDetail } from "../../types/courses";
 import { CourseDetail as CourseDetailModal } from "../course-detail/CourseDetail";
+import { auth } from "../../firebase/firebase";
 
 const navigation = [{ name: "Calendar view" }, { name: "Schedule view" }];
 
@@ -261,7 +262,9 @@ const Home: React.FC = (): JSX.Element => {
       name: "⚙️ Settings",
       href: "",
       onClick: () => {
-        setOpenSettingsModal(true);
+        auth.currentUser?.email !== "msk@gmail.com"
+          ? setOpenSettingsModal(true)
+          : console.log("super user settings are not available");
       },
     },
     {
