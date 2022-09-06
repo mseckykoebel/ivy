@@ -23,6 +23,8 @@ const academicGroupsURL =
   "https://northwestern-prod.apigee.net/student-system-acadgroupget/";
 const subjectsURL =
   "https://northwestern-prod.apigee.net/student-system-subjectsget/";
+const allCoursesURL =
+  "https://northwestern-prod.apigee.net/student-system-classdescrallcls/";
 const coursesURL =
   "https://northwestern-prod.apigee.net/student-system-classdescroneclass/";
 
@@ -292,7 +294,7 @@ app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
             termId,
             mergedSubjectData[i].school,
             mergedSubjectData[i].subject,
-            coursesURL
+            allCoursesURL
           )
         );
       }

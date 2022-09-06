@@ -33,7 +33,7 @@ const getUndergraduateCourses = async (
           if (error || response.statusCode !== 200) {
             console.log("SHOULD REJECT");
             console.log("CODE: ", response.statusCode);
-            // console.log("ERROR!", response.body);
+            console.log("ERROR!", response.body);
             reject(500);
             return;
           }
