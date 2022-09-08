@@ -24,7 +24,7 @@ Ivy's client is the app that users see and interact with. **Ivy's currently in p
 ### Ivy v2.0 - Coming 2023
 
 1. **🪄 Course recommendations**: when enough people use Ivy, Ivy will become smart enough to be able to *predict* the courses you should take. The more people that use Ivy, the better predictions will become
-2. **😳 CTEC support**: we're going to gun for native CTEC support. View past course and instructor ratings right in Ivy.
+2. **😳 CTEC support**: we're going to gun for native CTEC support. View past course and instructor ratings right in Ivy
 
 And much, much more!
 
