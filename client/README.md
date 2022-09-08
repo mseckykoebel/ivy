@@ -4,7 +4,7 @@ Ivy's client is the app that users see and interact with. **Ivy's currently in p
 
 ## Roadmap and feature list
 
-## Ivy v1.0 - September 13th, 2022:
+### Ivy v1.0 - September 13th, 2022:
 
 1. **📚 Extensive, historical course catalogue**: Ivy supports searching for courses from as far back as 2004. Plan and record courses from any year or quarter in the past fifteen years. Instant next-quarter support - all real-time
 2. **🗓 Calendar view**: plan out a single quarter at NU by selecting courses based on year and quarter. Add and remove as many courses as you want
@@ -15,13 +15,13 @@ Ivy's client is the app that users see and interact with. **Ivy's currently in p
 7. **👑 Major and minor support**: enter up to one major and minor. In a future version of Ivy, this will be used to recommend courses to you
 8. **💙 Home-grown**: Ivy's a joint development effort between Raiso (https://raiso.org), and Northwestern IT. This means it'll last as long as NU does. Ivy isn't a side project - it's designed to be used by NU students for the rest of time.
 
-## Ivy v1.1 - November 1st, 2022
+### Ivy v1.1 - November 1st, 2022
 
 1. **🐎 Speed and stability improvements**: we're going to re-factor Ivy to use the least amount of code as possible. This will make it a lot quicker
 2. **💾 API improvements:** Ivy's API will be re-worked for speed and security.
 3. **🗓 Calendar and schedule improvements**: feature improvements and enhancements to calendar and schedule. Small hitlist: calendar exporting, and multiple schedules for one quarter. 
 
-## Ivy v2.0 - Coming 2023
+### Ivy v2.0 - Coming 2023
 
 1. **🪄 Course recommendations**: when enough people use Ivy, Ivy will become smart enough to be able to *predict* the courses you should take. The more people that use Ivy, the better predictions will become
 2. **😳 CTEC support**: we're going to gun for native CTEC support. View past course and instructor ratings right in Ivy.
@@ -32,7 +32,7 @@ With 💚,
 
 - Raiso + NUIT
 
-## FAQ
+### FAQ
 
 | Topic              | Answer                  | Comments                                                                                      |
 | ------------------ | ----------------------- | --------------------------------------------------------------------------------------------- |
@@ -46,7 +46,7 @@ With 💚,
 | **Storage**        | Firebase firestore      | noSQL, nested document -> collection syntax Tight integration with Firebase functions, and ML |
 | **Localhost**      | 3000                    | Default is http://localhost:3000/                                                             |
 
-## Quickstart for devs
+### Quickstart for devs
 
 - `cd ivy/client`
 - `npm i`
