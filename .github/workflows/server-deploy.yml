@@ -1,16 +1,16 @@
-name: Deploy server
+# name: Deploy server
 
-on:
-  push:
-    branches: [master]
+# on:
+#   push:
+#     branches: [master]
 
-jobs:
-  deploy:
-    name: Deploy server
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: superfly/flyctl-actions/setup-flyctl@master
-      - run: "flyctl deploy --remote-only --config server/fly.toml"
-        env:
-          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+# jobs:
+#   deploy:
+#     name: Deploy server
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - uses: superfly/flyctl-actions/setup-flyctl@master
+#       - run: "flyctl deploy --remote-only --config server/fly.toml"
+#         env:
+#           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
