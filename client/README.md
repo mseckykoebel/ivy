@@ -9,11 +9,11 @@ Ivy's client is the app that users see and interact with. **Ivy's currently in p
 1. **📚 Extensive, historical course catalogue**: Ivy supports searching for courses from as far back as 2004. Plan and record courses from any year or quarter in the past fifteen years. Instant next-quarter support - all real-time
 2. **🗓 Calendar view**: plan out a single quarter at NU by selecting courses based on year and quarter. Add and remove as many courses as you want
 3. **📖 Schedule view**: plan out your entire time at NU with our schedule view. We support an unlimited number of quarters
-4. **👀 Detailed course view**: Ivy knows as much as CAESAR: class number, enrollment capacity, enrollment requirements, and the name, phone, and office hours of the instructor.
+4. **👀 Detailed course view**: Ivy knows as much as CAESAR: class number, enrollment capacity, enrollment requirements, and the name, phone, and office hours of the instructor
 5. **🔐 Authentication**: pick up where you left off with storage and retrieval of calendar and schedule view. Your information is totally anonymous to our developers. No more saving links
 6. **🦹‍♂️ Superuser**: view and use Ivy without signing in. Search our entire knowledge base of past courses with no login friction
 7. **👑 Major and minor support**: enter up to one major and minor. In a future version of Ivy, this will be used to recommend courses to you
-8. **💙 Home-grown**: Ivy's a joint development effort between Raiso (https://raiso.org), and Northwestern IT. This means it'll last as long as NU does. Ivy isn't a side project - it's designed to be used by NU students for the rest of time.
+8. **💙 Home-grown**: Ivy's a joint development effort between Raiso (https://raiso.org), and Northwestern IT. This means it'll last as long as NU does. Ivy isn't a side project - it's designed to be used by NU students for the rest of time
 
 ### Ivy v1.1 - November 1st, 2022
 
