@@ -1,7 +1,8 @@
 {
   "name": "ivy",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
+  "author": "Mason Secky-Koebel, Raiso",
   "scripts": {
     "start": "craco start",
     "build": "craco build",

@@ -17,7 +17,7 @@
       "ts": "ts-node"
     }
   },
-  "author": "Mason Secky-Koebel",
+  "author": "Mason Secky-Koebel, Raiso",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
