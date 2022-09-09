@@ -9,7 +9,7 @@ import React, {
   useRef,
   useState,
 } from "react";
-import { CalendarCourse } from "../../types/courses";
+import { CalendarCourse } from "../../types/calendar";
 
 // helpers
 import {

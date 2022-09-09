@@ -20,10 +20,10 @@ interface SearchItemProps {
   view: "Calendar" | "Schedule";
   // calendar (light prop drilling here)
   calendarCourses: CalendarCourse[] | [];
-  setCalendarCourses: any;
+  setCalendarCourses: Dispatch<SetStateAction<CalendarCourse[] | []>>;
   // schedule (light prop drilling here)
   scheduleCourses: ScheduleCourse[] | [];
-  setScheduleCourses: any;
+  setScheduleCourses: Dispatch<SetStateAction<ScheduleCourse[] | []>>;
   // course detail (light prop drilling here)
   courseDetail: CourseDetail | null;
   setCourseDetail: Dispatch<SetStateAction<CourseDetail | null>>;
@@ -107,6 +107,16 @@ const SearchItem: React.FC<SearchItemProps> = ({
         return;
       }
 
+      if (scheduleCourses.length === 5) {
+        setError(
+          "Cannot add more than five courses. Please remove a course from your schedule"
+        );
+        setTimeout(() => {
+          setError("");
+        }, 3000);
+        return;
+      }
+
       // see if this course is in the calendarCourses already. If not, add it
       for (let i = 0; i < scheduleCourses.length; i++) {
         if (scheduleCourses[i].courseNumber === courseNumber) {
@@ -158,7 +168,6 @@ const SearchItem: React.FC<SearchItemProps> = ({
           <p>School: {school}</p>
           <p>Section: {section}</p>
           <p>Type: {component}</p>
-          <p>Meeting info #: {courseNumber}</p>
           {topic.length > 0 && <p>Topic: {topic}</p>}
         </div>
         <div className="mt-3 text-sm">

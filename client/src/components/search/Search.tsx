@@ -18,10 +18,10 @@ interface SearchProps {
   view: "Calendar" | "Schedule";
   // calendar (light prop drilling here)
   calendarCourses: CalendarCourse[] | [];
-  setCalendarCourses: any;
+  setCalendarCourses: Dispatch<SetStateAction<CalendarCourse[] | []>>;
   // schedule (light prop drilling here)
   scheduleCourses: ScheduleCourse[] | [];
-  setScheduleCourses: any;
+  setScheduleCourses: Dispatch<SetStateAction<ScheduleCourse[] | []>>;
   // course detail (light prop drilling here)
   courseDetail: CourseDetail | null;
   setCourseDetail: Dispatch<SetStateAction<CourseDetail | null>>;

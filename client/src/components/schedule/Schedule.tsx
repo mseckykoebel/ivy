@@ -1,64 +1,77 @@
-import React from "react";
+/* eslint-disable indent */
+import { XIcon } from "@heroicons/react/outline";
+import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
+import { ScheduleCourse } from "../../types/schedule";
 
-const people = [
-  {
-    name: "CS 212",
-    title: "Computer science for engineers",
-    role: "Major requirement",
-    email: "janecooper@example.com",
-    color: "bg-green-50",
-    telephone: "+1-202-555-0170",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-  },
-  {
-    name: "CS 213",
-    title: "Computer system software",
-    role: "Major requirement",
-    email: "margotcooper@example.com",
-    color: "bg-green-50",
-    telephone: "+1-202-555-0170",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-  },
-  {
-    name: "CS 214",
-    title: "Data structures",
-    role: "Major requirement",
-    email: "marycooper@example.com",
-    color: "bg-green-50",
-    telephone: "+1-202-555-0170",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-  },
-  // More people...
-];
+interface ScheduleProps {
+  scheduleCourses: ScheduleCourse[] | [];
+  setScheduleCourses: Dispatch<SetStateAction<ScheduleCourse[] | []>>;
+}
 
-const Schedule: React.FC = (): JSX.Element => {
+const Schedule: React.FC<ScheduleProps> = ({
+  scheduleCourses,
+  setScheduleCourses,
+}): JSX.Element => {
+  // UI state
+  const [loading, setLoading] = useState<boolean>(false);
+  const [error, setError] = useState<boolean>(false);
+
+  useEffect(() => {
+    console.log("SCHEDULE COURSES HAVE BEEN MODIFIED: ");
+
+    const allCurrentScheduleCourses = [...scheduleCourses];
+
+    console.log(allCurrentScheduleCourses);
+  }, [scheduleCourses]);
+
+  // remove a course based on the courseNumber
+  const handleRemoveCourse = (courseId: string) => {
+    setScheduleCourses((currentCourses: ScheduleCourse[]) =>
+      currentCourses.filter((course) => {
+        return course.courseNumber !== courseId;
+      })
+    );
+  };
+
   return (
-    <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {people.map((person) => (
+    <ul
+      className={`grid grid-cols-1 gap-6 sm:grid-cols-3 lg:${
+        scheduleCourses.length === 4
+          ? "grid-cols-4"
+          : scheduleCourses.length === 5
+          ? "grid-cols-5"
+          : "grid-cols-3"
+      }`}
+    >
+      {scheduleCourses.map((course, id) => (
         <li
-          key={person.email}
+          key={id}
           className="col-span-1 rounded-lg shadow divide-y divide-gray-200"
         >
           <div
-            className={`w-full flex items-center justify-between p-6 space-x-6 ${person.color}`}
+            className={`w-full flex items-center justify-between p-6 space-x-6 ${course.color}`}
           >
             <div className="flex-1 truncate">
               <div className="flex items-center space-x-3">
                 <h3 className="text-gray-900 text-sm font-medium truncate">
-                  {person.name}
+                  {course.subject} {course.catalogNumber}
                 </h3>
               </div>
               <p className="mt-1 text-gray-500 text-sm truncate">
-                {person.title}
+                {course.subject}
               </p>
-              {/* Requirement badge */}
+              {/* Requirement badge
               <span className="flex-shrink-0 inline-block px-2 py-0.5 text-green-800 text-xs font-medium bg-green-100 rounded-full">
                 {person.role}
               </span>
+               */}
             </div>
+            <span className="sr-only">Close</span>
+            <XIcon
+              className="relative bottom-5 left-2 text-gray-400 h-4 w-4 hover:cursor-pointer"
+              onClick={() => handleRemoveCourse(course.courseNumber)}
+              aria-hidden="true"
+            />
           </div>
           {/* 
           <div>
