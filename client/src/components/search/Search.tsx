@@ -3,10 +3,11 @@
 import React, { useState, useEffect, Dispatch, SetStateAction } from "react";
 import SearchItem from "./SearchItem";
 import fetch from "cross-fetch";
-
 import { shuffleArray } from "../../lib/randomizeList";
 import { getColorBySchool } from "../../lib/getColorBySchool";
-import { CalendarCourse, CourseDetail } from "../../types/courses";
+import { CourseDetail } from "../../types/courses";
+import { CalendarCourse } from "../../types/calendar";
+import { ScheduleCourse } from "../../types/schedule";
 
 interface SearchProps {
   year: string | undefined;
@@ -18,6 +19,9 @@ interface SearchProps {
   // calendar (light prop drilling here)
   calendarCourses: CalendarCourse[] | [];
   setCalendarCourses: any;
+  // schedule (light prop drilling here)
+  scheduleCourses: ScheduleCourse[] | [];
+  setScheduleCourses: any;
   // course detail (light prop drilling here)
   courseDetail: CourseDetail | null;
   setCourseDetail: Dispatch<SetStateAction<CourseDetail | null>>;
@@ -33,6 +37,8 @@ const Search: React.FC<SearchProps> = ({
   view,
   calendarCourses,
   setCalendarCourses,
+  scheduleCourses,
+  setScheduleCourses,
   courseDetail,
   setCourseDetail,
   setOpenDetailModal,
@@ -157,9 +163,13 @@ const Search: React.FC<SearchProps> = ({
                 classMeetingInfo={course.data.classMeetingInfo}
                 color={getColorBySchool(course.school)}
                 view={view}
+                // bad prop drilling
+                // calendar
                 calendarCourses={calendarCourses}
                 setCalendarCourses={setCalendarCourses}
-                // bad prop drilling
+                // schedule
+                scheduleCourses={scheduleCourses}
+                setScheduleCourses={setScheduleCourses}
                 courseDetail={courseDetail}
                 setCourseDetail={setCourseDetail}
                 setOpenDetailModal={setOpenDetailModal}
@@ -187,13 +197,17 @@ const Search: React.FC<SearchProps> = ({
                 component={course.data.component}
                 courseTitle={course.data.courseTitle}
                 topic={course.data.topic}
-                color={getColorBySchool(course.school)}
-                classMeetingInfo={course.data.classMeetingInfo}
                 courseNumber={course.data.courseNumber}
+                classMeetingInfo={course.data.classMeetingInfo}
+                color={getColorBySchool(course.school)}
                 view={view}
+                // bad prop drilling
+                // calendar
                 calendarCourses={calendarCourses}
                 setCalendarCourses={setCalendarCourses}
-                // bad prop drilling
+                // schedule
+                scheduleCourses={scheduleCourses}
+                setScheduleCourses={setScheduleCourses}
                 courseDetail={courseDetail}
                 setCourseDetail={setCourseDetail}
                 setOpenDetailModal={setOpenDetailModal}
