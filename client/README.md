@@ -6,7 +6,7 @@ Ivy's client is the app that users see and interact with. **Ivy's currently in p
 
 ### Ivy v1.0 - September 13th, 2022:
 
-1. **📚 Extensive, historical course catalogue**: Ivy supports searching for courses from as far back as 2004. Plan and record courses from any year or quarter in the past fifteen years. Instant next-quarter support. No need to re-fresh. All real-time
+1. **📚 Extensive, historical course catalogue**: Ivy supports searching for courses from as far back as 2004. Plan and record courses from any year or quarter in the past fifteen years. Instant next-quarter support, no waiting for courses to be released. All real-time
 2. **🗓 Calendar view**: plan out a single quarter at NU by selecting courses based on year and quarter. Add and remove as many courses as you want
 3. **📖 Schedule view**: plan out your entire time at NU with our schedule view. We support an unlimited number of quarters, and automatically determine the quarter based on the courses you add
 4. **👀 Detailed course view**: Ivy knows as much as CAESAR: class number, enrollment capacity, enrollment requirements, and the name, phone, and office hours of the instructor
