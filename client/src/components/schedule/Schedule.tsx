@@ -15,6 +15,8 @@ const Schedule: React.FC<ScheduleProps> = ({
   // UI state
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<boolean>(false);
+  // keep track of the different termIds for rendering the number of columns
+  const [termIds, setTermIds] = useState<number>(0);
 
   useEffect(() => {
     console.log("SCHEDULE COURSES HAVE BEEN MODIFIED: ");
@@ -34,78 +36,60 @@ const Schedule: React.FC<ScheduleProps> = ({
   };
 
   return (
-    <ul
-      className={`grid grid-cols-1 gap-6 sm:grid-cols-3 lg:${
-        scheduleCourses.length === 4
-          ? "grid-cols-4"
-          : scheduleCourses.length === 5
-          ? "grid-cols-5"
-          : "grid-cols-3"
-      }`}
-    >
-      {scheduleCourses.map((course, id) => (
-        <li
-          key={id}
-          className="col-span-1 rounded-lg shadow divide-y divide-gray-200"
-        >
-          <div
-            className={`w-full flex items-center justify-between p-6 space-x-6 ${course.color}`}
+    <>
+      {scheduleCourses.length === 0 && (
+        <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
+          <h1 className="text-l font-semibold text-gray-900">
+            Select a course from the search panel to start your schedule 🚀
+          </h1>
+        </div>
+      )}
+      {/* WILL BE THE TITLE OF THE RELEVANT COLUMN */}
+      {scheduleCourses.length !== 0 && (
+        <div className="mx-auto max-w-7xl pb-5 -ml-8 sm:px-6 md:px-8">
+          <h1 className="text-l font-semibold text-gray-900">Fall 2022</h1>
+        </div>
+      )}
+
+      <ul
+        className={`grid grid-cols-1 gap-6 sm:${
+          scheduleCourses.length === 5 ? "grid-cols-3" : "grid-cols-3"
+        } lg:${scheduleCourses.length === 5 ? "grid-cols-3" : "grid-cols-3"}`}
+      >
+        {scheduleCourses.map((course, id) => (
+          <li
+            key={id}
+            className="col-span-1 rounded-lg shadow divide-y divide-gray-200"
           >
-            <div className="flex-1 truncate">
-              <div className="flex items-center space-x-3">
-                <h3 className="text-gray-900 text-sm font-medium truncate">
-                  {course.subject} {course.catalogNumber}
-                </h3>
-              </div>
-              <p className="mt-1 text-gray-500 text-sm truncate">
-                {course.subject}
-              </p>
-              {/* Requirement badge
+            <div
+              className={`w-full flex items-center justify-between p-6 space-x-6 ${course.color}`}
+            >
+              <div className="flex-1 truncate">
+                <div className="flex items-center space-x-3">
+                  <h3 className="text-gray-900 text-sm font-medium truncate">
+                    {course.subject} {course.catalogNumber}
+                  </h3>
+                </div>
+                <p className="mt-1 text-gray-500 text-sm truncate">
+                  {course.subject}
+                </p>
+                {/* Requirement badge
               <span className="flex-shrink-0 inline-block px-2 py-0.5 text-green-800 text-xs font-medium bg-green-100 rounded-full">
                 {person.role}
               </span>
                */}
-            </div>
-            <span className="sr-only">Close</span>
-            <XIcon
-              className="relative bottom-5 left-2 text-gray-400 h-4 w-4 hover:cursor-pointer"
-              onClick={() => handleRemoveCourse(course.courseNumber)}
-              aria-hidden="true"
-            />
-          </div>
-          {/* 
-          <div>
-            <div className="-mt-px flex divide-x divide-gray-200">
-              <div className="w-0 flex-1 flex">
-                <a
-                  href={`mailto:${person.email}`}
-                  className="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500"
-                >
-                  <MailIcon
-                    className="w-5 h-5 text-gray-400"
-                    aria-hidden="true"
-                  />
-                  <span className="ml-3">Email</span>
-                </a>
               </div>
-              <div className="-ml-px w-0 flex-1 flex">
-                <a
-                  href={`tel:${person.telephone}`}
-                  className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500"
-                >
-                  <PhoneIcon
-                    className="w-5 h-5 text-gray-400"
-                    aria-hidden="true"
-                  />
-                  <span className="ml-3">Call</span>
-                </a>
-              </div>
+              <span className="sr-only">Close</span>
+              <XIcon
+                className="relative bottom-5 left-2 text-gray-400 h-4 w-4 hover:cursor-pointer"
+                onClick={() => handleRemoveCourse(course.courseNumber)}
+                aria-hidden="true"
+              />
             </div>
-          </div>
-           */}
-        </li>
-      ))}
-    </ul>
+          </li>
+        ))}
+      </ul>
+    </>
   );
 };
 
