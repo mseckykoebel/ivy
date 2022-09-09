@@ -18,7 +18,7 @@ Ivy's client is the app that users see and interact with. **Ivy's currently in p
 ### Ivy v1.1 - November 1st, 2022
 
 1. **🐎 Speed and stability improvements**: we're going to re-factor Ivy to use the least amount of code as possible. This will make it a lot quicker than it already is. And, it'll make it easier to contribute to
-2. **💾 API improvements:** Ivy's API will be re-worked for speed and security.
+2. **💾 API improvements:** Ivy's API will be re-worked for speed and security
 3. **🗓 Calendar and schedule improvements**: feature improvements and enhancements to calendar and schedule. Small hitlist: calendar exporting, course conflict detection, and multiple schedules for one quarter
 
 ### Ivy v2.0 - Coming 2023
