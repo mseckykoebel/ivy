@@ -1,22 +1,47 @@
 /* eslint-disable indent */
 import { XIcon } from "@heroicons/react/outline";
 import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
+import { CourseDetail } from "../../types/courses";
 import { ScheduleCourse } from "../../types/schedule";
 
 interface ScheduleProps {
+  // clicking on detail modal
+  courseDetail: CourseDetail | null;
+  setCourseDetail: Dispatch<SetStateAction<CourseDetail | null>>;
   scheduleCourses: ScheduleCourse[] | [];
   setScheduleCourses: Dispatch<SetStateAction<ScheduleCourse[] | []>>;
+  setOpenDetailModal: Dispatch<SetStateAction<boolean>>;
 }
 
 const Schedule: React.FC<ScheduleProps> = ({
+  courseDetail,
+  setCourseDetail,
   scheduleCourses,
   setScheduleCourses,
+  setOpenDetailModal,
 }): JSX.Element => {
   // UI state
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<boolean>(false);
   // keep track of the different termIds for rendering the number of columns
   const [quarterYearSets, setQuarterYearSets] = useState<string[] | []>([]);
+
+  // this updates the current course detail, and opens the course detail modal from the home page
+  const handleDetailClick = (
+    termId: string,
+    school: string,
+    subject: string,
+    courseNumber: string
+  ) => {
+    setCourseDetail(() => ({
+      termId: termId,
+      school: school,
+      subject: subject,
+      courseNumber: courseNumber,
+    }));
+
+    setOpenDetailModal(() => true);
+  };
 
   useEffect(() => {
     console.log("SCHEDULE COURSES HAVE BEEN MODIFIED: ");
@@ -60,7 +85,11 @@ const Schedule: React.FC<ScheduleProps> = ({
         <div key={id}>
           {/* WILL BE THE TITLE OF THE RELEVANT COLUMN */}
           {scheduleCourses.length !== 0 && (
-            <div className={`mx-auto max-w-7xl pb-5 ${id !== 0 ? "pt-5" : ""} -ml-8 sm:px-6 md:px-8`}>
+            <div
+              className={`mx-auto max-w-7xl pb-5 ${
+                id !== 0 ? "pt-5" : ""
+              } -ml-8 sm:px-6 md:px-8`}
+            >
               <h1 className="text-l font-semibold text-gray-900">
                 {quarterYear}
               </h1>
@@ -90,13 +119,33 @@ const Schedule: React.FC<ScheduleProps> = ({
                         </h3>
                       </div>
                       <p className="mt-1 text-gray-500 text-sm truncate">
-                        {course.subject}
+                        {course.courseTitle}
                       </p>
                       {/* Requirement badge
               <span className="flex-shrink-0 inline-block px-2 py-0.5 text-green-800 text-xs font-medium bg-green-100 rounded-full">
                 {person.role}
               </span>
                */}
+                      <div className="mt-3 text-[.75rem]">
+                        <button
+                          className="font-small text-indigo-600 hover:text-indigo-500 hover:underline"
+                          onClick={() => {
+                            console.log(
+                              "View more details on this course was requested!"
+                            );
+                            handleDetailClick(
+                              course.termId,
+                              course.school,
+                              course.subject,
+                              course.courseNumber
+                            );
+                          }}
+                        >
+                          {" "}
+                          View more details{" "}
+                          <span aria-hidden="true">&rarr;</span>
+                        </button>
+                      </div>
                     </div>
                     <span className="sr-only">Close</span>
                     <XIcon

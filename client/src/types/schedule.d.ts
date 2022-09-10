@@ -5,6 +5,7 @@ export interface ScheduleCourse {
   termId: string;
   school: string;
   subject: string;
+  courseTitle: string;
   catalogNumber: string;
   courseNumber: string;
   classMeetingInfo: { ROOM: string; MEETING_TIME: string }[] | [] | null;

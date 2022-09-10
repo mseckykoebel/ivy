@@ -879,8 +879,11 @@ const Home: React.FC = (): JSX.Element => {
                     {!calView && (
                       <div className={!calView ? "p-6" : ""}>
                         <Schedule
+                          courseDetail={courseDetail}
+                          setCourseDetail={setCourseDetail}
                           scheduleCourses={scheduleCourses}
                           setScheduleCourses={setScheduleCourses}
+                          setOpenDetailModal={setOpenDetailModal}
                         />
                       </div>
                     )}
