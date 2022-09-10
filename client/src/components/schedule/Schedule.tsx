@@ -107,10 +107,10 @@ const Schedule: React.FC<ScheduleProps> = ({
               .map((course, id) => (
                 <li
                   key={id}
-                  className="col-span-1 rounded-lg shadow divide-y divide-gray-200"
+                  className="col-span-1 shadow sm:rounded-lg hover:scale-[101%] transition-all hover:cursor-pointer divide-y divide-gray-200"
                 >
                   <div
-                    className={`w-full flex items-center justify-between p-6 space-x-6 ${course.color}`}
+                    className={`w-full flex items-center sm:rounded-lg justify-between p-6 space-x-6 ${course.color}`}
                   >
                     <div className="flex-1 truncate">
                       <div className="flex items-center space-x-3">
@@ -149,7 +149,7 @@ const Schedule: React.FC<ScheduleProps> = ({
                     </div>
                     <span className="sr-only">Close</span>
                     <XIcon
-                      className="relative bottom-5 left-2 text-gray-400 h-4 w-4 hover:cursor-pointer"
+                      className="relative bottom-7 left-2 text-gray-400 h-4 w-4 hover:cursor-pointer"
                       onClick={() => handleRemoveCourse(course.courseNumber)}
                       aria-hidden="true"
                     />

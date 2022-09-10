@@ -75,7 +75,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
       // see if this course is in the calendarCourses already. If not, add it
       for (let i = 0; i < calendarCourses.length; i++) {
         if (calendarCourses[i].courseNumber === courseNumber) {
-          setError("Course already present!");
+          setError(`Course already present in ${view.toLowerCase()}!`);
           setTimeout(() => {
             setError("");
           }, 3000);
@@ -124,7 +124,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
       // see if this course is in the calendarCourses already. If not, add it
       for (let i = 0; i < scheduleCourses.length; i++) {
         if (scheduleCourses[i].courseNumber === courseNumber) {
-          setError("Course already present!");
+          setError(`Course already present in ${view.toLowerCase()}!`);
           setTimeout(() => {
             setError("");
           }, 3000);
@@ -178,7 +178,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
         </div>
         <div className="mt-3 text-sm">
           <button
-            className="font-medium text-indigo-600 hover:text-indigo-500 hover:underline"
+            className="text-[.75rem] text-indigo-600 hover:text-indigo-500 hover:underline"
             onClick={() => {
               console.log("View more details on this course was requested!");
               handleDetailClick();
@@ -188,11 +188,11 @@ const SearchItem: React.FC<SearchItemProps> = ({
             View more details <span aria-hidden="true">&rarr;</span>
           </button>
         </div>
-        <div className="mt-3 text-sm">
+        <div className="text-sm">
           {classMeetingInfo && classMeetingInfo.length > 0 && (
             <button
               // disable
-              className="font-medium text-indigo-600 hover:text-indigo-500 hover:underline"
+              className="text-[.75rem] text-indigo-600 hover:text-indigo-500 hover:underline"
               onClick={() => handleViewClick(view)}
             >
               {" "}
