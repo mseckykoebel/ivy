@@ -66,6 +66,7 @@ const getUndergraduateCourses = async (
                         : info.MEETING_TIME
                   )
                 : null,
+              startDate: classDescriptions[i].START_DT,
             });
           }
 

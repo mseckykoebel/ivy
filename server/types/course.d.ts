@@ -16,6 +16,7 @@ type UndergraduateCourseDetail = {
   courseNumber: string;
   // pretty sure on this
   classMeetingInfo: Record<string, string>[] | null;
+  startDate: string;
 };
 
 // bless

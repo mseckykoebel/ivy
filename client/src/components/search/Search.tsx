@@ -161,6 +161,7 @@ const Search: React.FC<SearchProps> = ({
                 topic={course.data.topic}
                 courseNumber={course.data.courseNumber}
                 classMeetingInfo={course.data.classMeetingInfo}
+                startDate={course.startDate}
                 color={getColorBySchool(course.school)}
                 view={view}
                 // bad prop drilling
@@ -199,6 +200,7 @@ const Search: React.FC<SearchProps> = ({
                 topic={course.data.topic}
                 courseNumber={course.data.courseNumber}
                 classMeetingInfo={course.data.classMeetingInfo}
+                startDate={course.startDate}
                 color={getColorBySchool(course.school)}
                 view={view}
                 // bad prop drilling

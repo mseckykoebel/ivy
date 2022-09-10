@@ -17,6 +17,7 @@ interface SearchItemProps {
   // additional color prop
   color: string;
   classMeetingInfo: { ROOM: string; MEETING_TIME: string }[] | [] | null;
+  startDate: string;
   view: "Calendar" | "Schedule";
   // calendar (light prop drilling here)
   calendarCourses: CalendarCourse[] | [];
@@ -40,6 +41,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
   topic,
   courseNumber,
   classMeetingInfo,
+  startDate,
   color,
   view,
   calendarCourses,
@@ -101,6 +103,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
             catalogNumber: catalogNumber,
             courseNumber: courseNumber,
             classMeetingInfo: classMeetingInfo,
+            startDate: startDate,
             color: color,
           },
         ]);
@@ -138,6 +141,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
           courseNumber: courseNumber,
           classMeetingInfo: classMeetingInfo,
           color: color,
+          startDate: startDate
         },
       ]);
     }
