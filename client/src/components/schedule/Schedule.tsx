@@ -3,6 +3,8 @@ import { XIcon } from "@heroicons/react/outline";
 import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { CourseDetail } from "../../types/courses";
 import { ScheduleCourse } from "../../types/schedule";
+// auth CRUD
+import { useAuth } from "../../contexts/AuthContext";
 
 interface ScheduleProps {
   // clicking on detail modal
@@ -20,9 +22,16 @@ const Schedule: React.FC<ScheduleProps> = ({
   setScheduleCourses,
   setOpenDetailModal,
 }): JSX.Element => {
+  // init auth
+  const { currentUser } = useAuth();
   // UI state
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<boolean>(false);
+  // state
+  // these are the schedule courses after the cal has been added
+  const [scheduleWindowCoursesOnly, setScheduleWindowCoursesOnly] = useState<
+    ScheduleCourse[] | []
+  >([]);
   // keep track of the different termIds for rendering the number of columns
   const [quarterYearSets, setQuarterYearSets] = useState<string[] | []>([]);
 
@@ -44,8 +53,6 @@ const Schedule: React.FC<ScheduleProps> = ({
   };
 
   useEffect(() => {
-    console.log("SCHEDULE COURSES HAVE BEEN MODIFIED: ");
-
     const initQuarterYearSets = () => {
       const listOfQuarterYears: string[] = [];
       for (let i = 0; i < scheduleCourses.length; i++) {
@@ -60,6 +67,12 @@ const Schedule: React.FC<ScheduleProps> = ({
     setQuarterYearSets(initQuarterYearSets());
 
     console.log("QUARTER YEAR SETS: ", quarterYearSets);
+
+    // very important - clear this array when the component un-mounts
+    // return () => {
+    //   setQuarterYearSets([]);
+    //   setScheduleCourses([]);
+    // };
   }, [scheduleCourses]);
 
   // remove a course based on the courseNumber
