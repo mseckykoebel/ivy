@@ -5,6 +5,8 @@ export interface ScheduleRecord {
   data: ScheduleCourseData;
 }
 
-export interface ScheduleCourseData extends ScheduleCourse {
+export interface ScheduleCourseData {
   userId?: string;
+  coursesData: ScheduleCourse[];
+  // coursesData is the name of the next field here
 }

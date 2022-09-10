@@ -1,22 +1,38 @@
-import { getDocs, query, where, collection } from "firebase/firestore";
+import {
+  getDocs,
+  query,
+  where,
+  collection,
+  updateDoc,
+  arrayUnion,
+  doc,
+} from "firebase/firestore";
+import { ScheduleCourse } from "../types/schedule";
 import { db } from "./firebase";
 import { ScheduleCourseData, ScheduleRecord } from "./schedules";
 
+// get the current schedule of the logged in user by userId
 const getSchedulesByUserId = async (
   userId: string
-): Promise<ScheduleRecord[]> => {
+): Promise<ScheduleRecord> => {
   const majorsRef = collection(db, "schedules");
   const q = query(majorsRef, where("userId", "==", userId));
   const data = await getDocs(q);
-  const d = [];
-  for (let i = 0; i < data.docs.length; i++) {
-    const info = {
-      id: data.docs[i].id,
-      data: data.docs[i].data() as ScheduleCourseData,
-    };
-    d.push(info);
-  }
-  return d;
+  return {
+    id: data.docs[0].id,
+    data: data.docs[0].data() as ScheduleCourseData,
+  };
 };
 
-export { getSchedulesByUserId };
+// add an element to the schedules array
+const updateSchedulesArrayAddCourse = async (
+  scheduleId: string,
+  courseData: ScheduleCourse
+): Promise<void> => {
+  const schedulesRef = doc(db, "schedules", scheduleId);
+  await updateDoc(schedulesRef, {
+    coursesData: arrayUnion(courseData),
+  });
+};
+
+export { getSchedulesByUserId, updateSchedulesArrayAddCourse };

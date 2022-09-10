@@ -34,7 +34,10 @@ const createMajorFromMajorTitle = async (
   });
 };
 
-const updateMajor = async (majorTitle: string, documentId: string) => {
+const updateMajor = async (
+  majorTitle: string,
+  documentId: string
+): Promise<void> => {
   const majorsRef = doc(db, "majors", documentId);
 
   return await updateDoc(majorsRef, {
@@ -42,7 +45,7 @@ const updateMajor = async (majorTitle: string, documentId: string) => {
   });
 };
 
-const deleteMajor = async (documentId: string) => {
+const deleteMajor = async (documentId: string): Promise<void> => {
   return await deleteDoc(doc(db, "majors", documentId));
 };
 
