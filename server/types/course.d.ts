@@ -8,6 +8,7 @@ export type UndergraduateCourseSearch = {
 };
 
 type UndergraduateCourseDetail = {
+  termDescription: string;
   catalogNumber: string;
   section: string;
   component: string;

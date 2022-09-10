@@ -8,6 +8,6 @@ export interface ScheduleCourse {
   catalogNumber: string;
   courseNumber: string;
   classMeetingInfo: { ROOM: string; MEETING_TIME: string }[] | [] | null;
-  startDate: string;
+  termDescription: string;
   color: string;
 }
