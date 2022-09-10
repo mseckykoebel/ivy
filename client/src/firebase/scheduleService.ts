@@ -6,6 +6,7 @@ import {
   updateDoc,
   arrayUnion,
   doc,
+  arrayRemove,
 } from "firebase/firestore";
 import { ScheduleCourse } from "../types/schedule";
 import { db } from "./firebase";
@@ -35,4 +36,19 @@ const updateSchedulesArrayAddCourse = async (
   });
 };
 
-export { getSchedulesByUserId, updateSchedulesArrayAddCourse };
+// remove an element from the schedules array
+const updateSchedulesArrayRemoveCourse = async (
+  scheduleId: string,
+  courseData: ScheduleCourse
+): Promise<void> => {
+  const schedulesRef = doc(db, "schedules", scheduleId);
+  await updateDoc(schedulesRef, {
+    coursesData: arrayRemove(courseData),
+  });
+};
+
+export {
+  getSchedulesByUserId,
+  updateSchedulesArrayAddCourse,
+  updateSchedulesArrayRemoveCourse,
+};

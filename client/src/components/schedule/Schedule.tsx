@@ -8,6 +8,7 @@ import { useAuth } from "../../contexts/AuthContext";
 import {
   getSchedulesByUserId,
   updateSchedulesArrayAddCourse,
+  updateSchedulesArrayRemoveCourse,
 } from "../../firebase/scheduleService";
 
 interface ScheduleProps {
@@ -112,7 +113,11 @@ const Schedule: React.FC<ScheduleProps> = ({
 
   // remove a course based on the courseNumber
   const handleRemoveCourse = (courseId: string) => {
+    const courseToRemove = scheduleCourses.filter((course) => {
+      return course.courseNumber === courseId;
+    });
     // HANDLE DELETION FROM THE DB
+    updateSchedulesArrayRemoveCourse(scheduleId, courseToRemove[0]);
 
     // REMOVE FROM THE UI
     setScheduleCourses((currentCourses: ScheduleCourse[]) =>
