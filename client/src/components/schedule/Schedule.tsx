@@ -5,6 +5,8 @@ import { CourseDetail } from "../../types/courses";
 import { ScheduleCourse } from "../../types/schedule";
 // auth CRUD
 import { useAuth } from "../../contexts/AuthContext";
+import { getSchedulesByUserId } from "../../firebase/scheduleService";
+import { ScheduleCourseData, ScheduleRecord } from "../../firebase/schedules";
 
 interface ScheduleProps {
   // clicking on detail modal
@@ -29,9 +31,7 @@ const Schedule: React.FC<ScheduleProps> = ({
   const [error, setError] = useState<boolean>(false);
   // state
   // these are the schedule courses after the cal has been added
-  const [scheduleWindowCoursesOnly, setScheduleWindowCoursesOnly] = useState<
-    ScheduleCourse[] | []
-  >([]);
+  const [getSchedules, setGetSchedules] = useState<ScheduleCourse[] | []>([]);
   // keep track of the different termIds for rendering the number of columns
   const [quarterYearSets, setQuarterYearSets] = useState<string[] | []>([]);
 
@@ -52,31 +52,61 @@ const Schedule: React.FC<ScheduleProps> = ({
     setOpenDetailModal(() => true);
   };
 
+  // initial render - run this to
   useEffect(() => {
-    const initQuarterYearSets = () => {
-      const listOfQuarterYears: string[] = [];
-      for (let i = 0; i < scheduleCourses.length; i++) {
-        if (!listOfQuarterYears.includes(scheduleCourses[i].termDescription)) {
-          listOfQuarterYears.push(scheduleCourses[i].termDescription);
-        }
+    const getSchedules = async () => {
+      const dataWithoutDocumentId: ScheduleCourseData[] = [];
+      const dataWithoutUserId: ScheduleCourse[] = [];
+      // begin
+      const data = await getSchedulesByUserId(currentUser?.uid as string);
+      // remove the id
+      for (let i = 0; i < data.length; i++) {
+        dataWithoutDocumentId.push(data[i].data);
       }
-      console.log("THIS IS THE ARRAY OF QUARTER YEARS: ", listOfQuarterYears);
-      return listOfQuarterYears;
+      for (let i = 0; i < dataWithoutDocumentId.length; i++) {
+        const withNoUserId = dataWithoutDocumentId[i];
+        delete withNoUserId.userId;
+        dataWithoutUserId.push(withNoUserId);
+      }
+      console.log(
+        "ALL THE SCHEDULES FROM THE DB IN THEIR NEW RETURNED FORM: ",
+        dataWithoutUserId
+      );
+      // set
+      setScheduleCourses(dataWithoutUserId);
     };
 
-    setQuarterYearSets(initQuarterYearSets());
+    getSchedules().catch((err) => {
+      console.log("There was an error fetching courses from the DB: ", err);
+    });
+  }, []);
 
-    console.log("QUARTER YEAR SETS: ", quarterYearSets);
+  // determines how to render the UI based on the current list of schedules
+  useEffect(() => {
+    if (scheduleCourses.length > 0) {
+      const initQuarterYearSets = () => {
+        const listOfQuarterYears: string[] = [];
+        for (let i = 0; i < scheduleCourses.length; i++) {
+          if (
+            !listOfQuarterYears.includes(scheduleCourses[i].termDescription)
+          ) {
+            listOfQuarterYears.push(scheduleCourses[i].termDescription);
+          }
+        }
+        console.log("THIS IS THE ARRAY OF QUARTER YEARS: ", listOfQuarterYears);
+        return listOfQuarterYears;
+      };
 
-    // very important - clear this array when the component un-mounts
-    // return () => {
-    //   setQuarterYearSets([]);
-    //   setScheduleCourses([]);
-    // };
+      // set the quarter/year pairs
+      setQuarterYearSets(initQuarterYearSets());
+    }
   }, [scheduleCourses]);
 
   // remove a course based on the courseNumber
   const handleRemoveCourse = (courseId: string) => {
+    // HANDLE DELETION FROM THE DB
+
+    // REMOVE FROM THE UI
     setScheduleCourses((currentCourses: ScheduleCourse[]) =>
       currentCourses.filter((course) => {
         return course.courseNumber !== courseId;

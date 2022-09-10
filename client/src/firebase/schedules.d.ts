@@ -6,5 +6,5 @@ export interface ScheduleRecord {
 }
 
 export interface ScheduleCourseData extends ScheduleCourse {
-  userId: string;
+  userId?: string;
 }
