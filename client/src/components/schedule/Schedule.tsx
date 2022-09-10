@@ -129,10 +129,19 @@ const Schedule: React.FC<ScheduleProps> = ({
 
   return (
     <>
-      {scheduleCourses.length === 0 && (
+      {scheduleId === "" && (
         <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
           <h1 className="text-l font-semibold text-gray-900">
-            Select a course from the search panel to start your schedule 🚀
+            Welcome to Ivy's schedule pane! Select a course from the search
+            panel to start your schedule 👉
+          </h1>
+        </div>
+      )}
+
+      {scheduleId !== "" && (
+        <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
+          <h1 className="text-l font-semibold text-gray-900">
+            Select a course from the search panel to start your schedule 👉
           </h1>
         </div>
       )}
