@@ -20,16 +20,15 @@ import Search from "../search/Search";
 import { ProfilePicture } from "../profile-picture/ProfilePicture";
 // API
 import fetch from "cross-fetch";
-import { CalendarCourse, CourseDetail } from "../../types/courses";
+import { CourseDetail } from "../../types/courses";
+import { CalendarCourse } from "../../types/calendar";
 import { CourseDetail as CourseDetailModal } from "../course-detail/CourseDetail";
 import { auth } from "../../firebase/firebase";
+// utils
+import { classNames } from "../../lib/utils";
+import { ScheduleCourse } from "../../types/schedule";
 
 const navigation = [{ name: "Calendar view" }, { name: "Schedule view" }];
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const classNames = (...classes: any[]) => {
-  return classes.filter(Boolean).join(" ");
-};
 
 const Home: React.FC = (): JSX.Element => {
   // navigate
@@ -68,9 +67,9 @@ const Home: React.FC = (): JSX.Element => {
     []
   );
   // schedule (array of courses that the UI figures out how to deal with)
-  // const [scheduleCourses, setScheduleCourses] = useState<
-  //   Record<string, string>[] | null
-  // >(null);
+  const [scheduleCourses, setScheduleCourses] = useState<ScheduleCourse[] | []>(
+    []
+  );
 
   // for years and quarters
   useEffect(() => {
@@ -879,7 +878,13 @@ const Home: React.FC = (): JSX.Element => {
                     )}
                     {!calView && (
                       <div className={!calView ? "p-6" : ""}>
-                        <Schedule />
+                        <Schedule
+                          courseDetail={courseDetail}
+                          setCourseDetail={setCourseDetail}
+                          scheduleCourses={scheduleCourses}
+                          setScheduleCourses={setScheduleCourses}
+                          setOpenDetailModal={setOpenDetailModal}
+                        />
                       </div>
                     )}
                   </div>
@@ -900,10 +905,14 @@ const Home: React.FC = (): JSX.Element => {
                     school={selectedSchool}
                     termId={term.current}
                     searchQuery={searchQuery}
+                    // bad prop drilling - fetch currently selected course from course details
+                    // calendar
                     calendarCourses={calendarCourses}
                     setCalendarCourses={setCalendarCourses}
+                    // schedule
+                    scheduleCourses={scheduleCourses}
+                    setScheduleCourses={setScheduleCourses}
                     view={calView ? "Calendar" : "Schedule"}
-                    // bad prop drilling - fetch currently selected course from course details
                     courseDetail={courseDetail}
                     setCourseDetail={setCourseDetail}
                     setOpenDetailModal={setOpenDetailModal}

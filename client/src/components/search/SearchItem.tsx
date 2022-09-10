@@ -1,6 +1,8 @@
 /* eslint-disable indent */
 import React, { Dispatch, SetStateAction, useState } from "react";
-import { CalendarCourse, CourseDetail } from "../../types/courses";
+import { CourseDetail } from "../../types/courses";
+import { ScheduleCourse } from "../../types/schedule";
+import { CalendarCourse } from "../../types/calendar";
 
 interface SearchItemProps {
   termId: string;
@@ -15,10 +17,14 @@ interface SearchItemProps {
   // additional color prop
   color: string;
   classMeetingInfo: { ROOM: string; MEETING_TIME: string }[] | [] | null;
+  termDescription: string;
   view: "Calendar" | "Schedule";
   // calendar (light prop drilling here)
   calendarCourses: CalendarCourse[] | [];
-  setCalendarCourses: any;
+  setCalendarCourses: Dispatch<SetStateAction<CalendarCourse[] | []>>;
+  // schedule (light prop drilling here)
+  scheduleCourses: ScheduleCourse[] | [];
+  setScheduleCourses: Dispatch<SetStateAction<ScheduleCourse[] | []>>;
   // course detail (light prop drilling here)
   courseDetail: CourseDetail | null;
   setCourseDetail: Dispatch<SetStateAction<CourseDetail | null>>;
@@ -35,10 +41,13 @@ const SearchItem: React.FC<SearchItemProps> = ({
   topic,
   courseNumber,
   classMeetingInfo,
+  termDescription,
   color,
   view,
   calendarCourses,
   setCalendarCourses,
+  scheduleCourses,
+  setScheduleCourses,
   courseDetail,
   setCourseDetail,
   setOpenDetailModal,
@@ -46,10 +55,36 @@ const SearchItem: React.FC<SearchItemProps> = ({
   // error state - just works with
   const [error, setError] = useState("");
 
-  // this updates the calendar array!
-  const handleViewClick = () => {
-    if (!calendarCourses) {
-      setCalendarCourses([
+  // this updates either the schedule or the calendar array!
+  // refactor this in v1.1
+  const handleViewClick = (view: "Calendar" | "Schedule") => {
+    if (view === "Calendar") {
+      if (!calendarCourses) {
+        setCalendarCourses([
+          {
+            subject: subject,
+            catalogNumber: catalogNumber,
+            courseNumber: courseNumber,
+            classMeetingInfo: classMeetingInfo,
+            color: color,
+          },
+        ]);
+        return;
+      }
+
+      // see if this course is in the calendarCourses already. If not, add it
+      for (let i = 0; i < calendarCourses.length; i++) {
+        if (calendarCourses[i].courseNumber === courseNumber) {
+          setError(`Course already present in ${view.toLowerCase()}!`);
+          setTimeout(() => {
+            setError("");
+          }, 3000);
+          return;
+        }
+      }
+
+      setCalendarCourses((priorCourses: CalendarCourse[]) => [
+        ...priorCourses,
         {
           subject: subject,
           catalogNumber: catalogNumber,
@@ -58,30 +93,60 @@ const SearchItem: React.FC<SearchItemProps> = ({
           color: color,
         },
       ]);
-      return;
-    }
+    } else {
+      if (!scheduleCourses) {
+        setScheduleCourses([
+          {
+            termId: termId,
+            school: school,
+            subject: subject,
+            courseTitle: courseTitle,
+            catalogNumber: catalogNumber,
+            courseNumber: courseNumber,
+            classMeetingInfo: classMeetingInfo,
+            termDescription: termDescription,
+            color: color,
+          },
+        ]);
+        return;
+      }
 
-    // see if this course is in the calendarCourses already. If not, add it
-    for (let i = 0; i < calendarCourses.length; i++) {
-      if (calendarCourses[i].courseNumber === courseNumber) {
-        setError("Course already present!");
+      if (scheduleCourses.length === 5) {
+        setError(
+          "Cannot add more than five courses. Please remove a course from your schedule"
+        );
         setTimeout(() => {
           setError("");
         }, 3000);
         return;
       }
-    }
 
-    setCalendarCourses((priorCourses: CalendarCourse[]) => [
-      ...priorCourses,
-      {
-        subject: subject,
-        catalogNumber: catalogNumber,
-        courseNumber: courseNumber,
-        classMeetingInfo: classMeetingInfo,
-        color: color,
-      },
-    ]);
+      // see if this course is in the calendarCourses already. If not, add it
+      for (let i = 0; i < scheduleCourses.length; i++) {
+        if (scheduleCourses[i].courseNumber === courseNumber) {
+          setError(`Course already present in ${view.toLowerCase()}!`);
+          setTimeout(() => {
+            setError("");
+          }, 3000);
+          return;
+        }
+      }
+
+      setScheduleCourses((priorCourses: ScheduleCourse[]) => [
+        ...priorCourses,
+        {
+          termId: termId,
+          school: school,
+          subject: subject,
+          courseTitle: courseTitle,
+          catalogNumber: catalogNumber,
+          courseNumber: courseNumber,
+          classMeetingInfo: classMeetingInfo,
+          termDescription: termDescription,
+          color: color,
+        },
+      ]);
+    }
 
     return;
   };
@@ -109,12 +174,11 @@ const SearchItem: React.FC<SearchItemProps> = ({
           <p>School: {school}</p>
           <p>Section: {section}</p>
           <p>Type: {component}</p>
-          <p>Meeting info #: {courseNumber}</p>
           {topic.length > 0 && <p>Topic: {topic}</p>}
         </div>
         <div className="mt-3 text-sm">
           <button
-            className="font-medium text-indigo-600 hover:text-indigo-500 hover:underline"
+            className="text-[.75rem] text-indigo-600 hover:text-indigo-500 hover:underline"
             onClick={() => {
               console.log("View more details on this course was requested!");
               handleDetailClick();
@@ -124,12 +188,12 @@ const SearchItem: React.FC<SearchItemProps> = ({
             View more details <span aria-hidden="true">&rarr;</span>
           </button>
         </div>
-        <div className="mt-3 text-sm">
+        <div className="text-sm">
           {classMeetingInfo && classMeetingInfo.length > 0 && (
             <button
               // disable
-              className="font-medium text-indigo-600 hover:text-indigo-500 hover:underline"
-              onClick={() => handleViewClick()}
+              className="text-[.75rem] text-indigo-600 hover:text-indigo-500 hover:underline"
+              onClick={() => handleViewClick(view)}
             >
               {" "}
               Add to {view} <span aria-hidden="true">&rarr;</span>

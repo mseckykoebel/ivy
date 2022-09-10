@@ -39,6 +39,8 @@ const getUndergraduateCourses = async (
           }
           const classDescriptions =
             JSON.parse(body).NW_CD_DTL_ALLCLS_RESP.CLASSDESCR;
+          const termDescription =
+            JSON.parse(body).NW_CD_DTL_ALLCLS_RESP.TermDescr;
           if (!classDescriptions) {
             console.log("THIS FAILED HERE!");
             reject(404);
@@ -49,6 +51,7 @@ const getUndergraduateCourses = async (
           for (let i = 0; i < classDescriptions.length; i++) {
             // no duplicate checking - assuming all courses have a unique id
             data.push({
+              termDescription: termDescription,
               catalogNumber: classDescriptions[i].CATALOG_NBR,
               section: classDescriptions[i].SECTION,
               component: classDescriptions[i].COMPONENT,
@@ -66,6 +69,7 @@ const getUndergraduateCourses = async (
                         : info.MEETING_TIME
                   )
                 : null,
+              startDate: classDescriptions[i].START_DT,
             });
           }
 
