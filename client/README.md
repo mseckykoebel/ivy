@@ -6,9 +6,9 @@ Ivy's client is the app that users see and interact with. **Ivy's currently in p
 
 ### Ivy v1.0 - September 13th, 2022:
 
-1. **📚 Extensive, historical course catalogue**: Ivy supports searching for courses from as far back as 2004. Plan and record courses from any year or quarter in the past fifteen years. Instant next-quarter support - all real-time
+1. **📚 Extensive, historical course catalogue**: Ivy supports searching for courses from as far back as 2004. Plan and record courses from any year or quarter in the past fifteen years. Instant next-quarter support, no waiting for courses to be released. All real-time
 2. **🗓 Calendar view**: plan out a single quarter at NU by selecting courses based on year and quarter. Add and remove as many courses as you want
-3. **📖 Schedule view**: plan out your entire time at NU with our schedule view. We support an unlimited number of quarters
+3. **📖 Schedule view**: plan out your entire time at NU with our schedule view. We support an unlimited number of quarters, and automatically determine the quarter based on the courses you add
 4. **👀 Detailed course view**: Ivy knows as much as CAESAR: class number, enrollment capacity, enrollment requirements, and the name, phone, and office hours of the instructor
 5. **🔐 Authentication**: pick up where you left off with storage and retrieval of calendar and schedule view. Your information is totally anonymous to our developers. No more saving links
 6. **🦹‍♂️ Superuser**: view and use Ivy without signing in. Search our entire knowledge base of past courses with no login friction
@@ -17,8 +17,8 @@ Ivy's client is the app that users see and interact with. **Ivy's currently in p
 
 ### Ivy v1.1 - November 1st, 2022
 
-1. **🐎 Speed and stability improvements**: we're going to re-factor Ivy to use the least amount of code as possible. This will make it a lot quicker
-2. **💾 API improvements:** Ivy's API will be re-worked for speed and security.
+1. **🐎 Speed and stability improvements**: we're going to re-factor Ivy to use the least amount of code as possible. This will make it a lot quicker than it already is. And, it'll make it easier to contribute to
+2. **💾 API improvements:** Ivy's API will be re-worked for speed and security
 3. **🗓 Calendar and schedule improvements**: feature improvements and enhancements to calendar and schedule. Small hitlist: calendar exporting, course conflict detection, and multiple schedules for one quarter
 
 ### Ivy v2.0 - Coming 2023
