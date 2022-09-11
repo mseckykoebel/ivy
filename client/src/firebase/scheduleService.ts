@@ -7,6 +7,7 @@ import {
   arrayUnion,
   doc,
   arrayRemove,
+  addDoc,
 } from "firebase/firestore";
 import { ScheduleCourse } from "../types/schedule";
 import { db } from "./firebase";
@@ -37,6 +38,21 @@ const updateSchedulesArrayAddCourse = async (
   });
 };
 
+// create the schedules array if it does not already exist
+// returns the document Id for this schedule
+const createSchedulesArrayAddCourse = async (
+  userId: string,
+  courseData: ScheduleCourse
+): Promise<string> => {
+  const schedulesRef = collection(db, "schedules");
+  return await addDoc(schedulesRef, {
+    userId: userId,
+    coursesData: arrayUnion(courseData),
+  }).then((docRef) => {
+    return docRef.id;
+  });
+};
+
 // remove an element from the schedules array
 const updateSchedulesArrayRemoveCourse = async (
   scheduleId: string,
@@ -50,6 +66,7 @@ const updateSchedulesArrayRemoveCourse = async (
 
 export {
   getSchedulesByUserId,
+  createSchedulesArrayAddCourse,
   updateSchedulesArrayAddCourse,
   updateSchedulesArrayRemoveCourse,
 };

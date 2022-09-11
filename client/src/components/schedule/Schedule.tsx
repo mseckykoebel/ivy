@@ -1,11 +1,18 @@
 /* eslint-disable indent */
 import { XIcon } from "@heroicons/react/outline";
-import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
+import React, {
+  Dispatch,
+  SetStateAction,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import { CourseDetail } from "../../types/courses";
 import { ScheduleCourse } from "../../types/schedule";
 // auth CRUD
 import { useAuth } from "../../contexts/AuthContext";
 import {
+  createSchedulesArrayAddCourse,
   getSchedulesByUserId,
   updateSchedulesArrayAddCourse,
   updateSchedulesArrayRemoveCourse,
@@ -35,7 +42,7 @@ const Schedule: React.FC<ScheduleProps> = ({
   // init auth
   const { currentUser } = useAuth();
   // UI state
-  const [loading, setLoading] = useState<boolean>(false);
+  const loadingRef = useRef(false);
   const [error, setError] = useState<boolean>(false);
   // state
   // these are the schedule courses after the cal has been added
@@ -79,28 +86,28 @@ const Schedule: React.FC<ScheduleProps> = ({
   useEffect(() => {
     if (currentUser?.email !== "msk@gmail.com") {
       const getScheduleFromFirebase = async () => {
-        setLoading(true);
+        loadingRef.current = true;
         const courseDataFromDb: ScheduleCourse[] = [];
         // begin
         const scheduleRecords = await getSchedulesByUserId(
           currentUser?.uid as string
         );
-        setLoading(false);
         // if this is null, there are no schedule records, and we can continue
         if (!scheduleRecords) return;
-        // set the document ID for this schedule
-        setScheduleId(scheduleRecords.id);
         // remove the id
         for (let j = 0; j < scheduleRecords.data.coursesData.length; j++) {
           courseDataFromDb.push(scheduleRecords.data.coursesData[j]);
         }
-
-        // set
+        // set the document ID for this schedule, and the schedules for this course
+        setScheduleId(scheduleRecords.id);
         setScheduleCourses(courseDataFromDb);
       };
 
       getScheduleFromFirebase()
-        .then(() => setQuarterYearSets(initQuarterYearSets()))
+        .then(() => {
+          setQuarterYearSets(initQuarterYearSets());
+          loadingRef.current = false;
+        })
         .catch((err) => {
           console.log("There was an error fetching courses from the DB: ", err);
         });
@@ -108,9 +115,9 @@ const Schedule: React.FC<ScheduleProps> = ({
   }, []);
 
   // big 🎣
-  // determine how to re-render the UI based on interactions from the user
   // determines how to write to the DB with changes
   useEffect(() => {
+    console.log("LOADING: ", loadingRef.current);
     if (scheduleCourses.length > 0) {
       // set the quarter/year pairs
       setQuarterYearSets(initQuarterYearSets());
@@ -118,10 +125,19 @@ const Schedule: React.FC<ScheduleProps> = ({
       // handleRemoveCourse handles removal, so we know this is an addition!
       // and, we know the last added course is the newest. So, send that one to firebase
       if (currentUser?.email !== "msk@gmail.com") {
-        updateSchedulesArrayAddCourse(
-          scheduleId,
-          scheduleCourses[scheduleCourses.length - 1]
-        );
+        if (scheduleId === "" && loadingRef.current === false) {
+          createSchedulesArrayAddCourse(
+            currentUser?.uid as string,
+            scheduleCourses[scheduleCourses.length - 1]
+          ).then((documentId) => {
+            setScheduleId(documentId);
+          });
+        } else {
+          updateSchedulesArrayAddCourse(
+            scheduleId,
+            scheduleCourses[scheduleCourses.length - 1]
+          );
+        }
       }
     }
   }, [scheduleCourses]);
@@ -146,13 +162,13 @@ const Schedule: React.FC<ScheduleProps> = ({
 
   return (
     <>
-      {loading && scheduleCourses.length < 1 && (
+      {loadingRef.current && scheduleCourses.length < 1 && (
         <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
           <h1 className="text-xs font-semibold text-gray-900">Loading...</h1>
         </div>
       )}
 
-      {!loading && scheduleId === "" && scheduleCourses.length < 1 && (
+      {!loadingRef.current && scheduleId === "" && scheduleCourses.length < 1 && (
         <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
           <h1 className="text-l font-semibold text-gray-900">
             Welcome to Ivy's schedule pane! Select a course from the search
@@ -161,7 +177,7 @@ const Schedule: React.FC<ScheduleProps> = ({
         </div>
       )}
 
-      {!loading && scheduleId !== "" && scheduleCourses.length < 1 && (
+      {!loadingRef.current && scheduleId !== "" && scheduleCourses.length < 1 && (
         <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
           <h1 className="text-l font-semibold text-gray-900">
             Select a course from the search panel to start your schedule 👉
@@ -239,7 +255,7 @@ const Schedule: React.FC<ScheduleProps> = ({
                     </div>
                     <span className="sr-only">Close</span>
                     <XIcon
-                      className="relative bottom-7 left-2 text-gray-400 h-4 w-4 hover:cursor-pointer"
+                      className="relative bottom-10 left-2 text-gray-400 h-4 w-4 hover:cursor-pointer"
                       onClick={() => handleRemoveCourse(course.courseNumber)}
                       aria-hidden="true"
                     />
