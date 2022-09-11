@@ -41,7 +41,7 @@ const Register: React.FC = (): JSX.Element => {
   };
   //   Return
   return (
-    <div className="min-h-[100vh] flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-grey-500">
+    <div className="min-h-[100vh] bg-green-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-grey-500">
       <div className="max-w-md w-full space-y-8">
         <div>
           <IvyLottie />
