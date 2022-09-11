@@ -20,7 +20,7 @@ Ivy's client is the app that users see and interact with. **Ivy's currently in p
 1. **🐎 Speed and stability improvements**: we're going to re-factor Ivy to use the least amount of code as possible. This will make it a lot quicker than it already is. And, it'll make it easier to contribute to
 2. **💾 API improvements:** Ivy's API will be re-worked for speed and security
 3. **🗓 Calendar and schedule improvements**: feature improvements and enhancements to calendar and schedule. Small hitlist: calendar exporting to google calendar, course conflict detection, and multiple schedules for one quarter
-4. **🎨 Themes:** Customize Ivy's color scheme one of 22 available themes. We _might_ add the ability to add custom backgrounds 👀
+4. **🎨 Themes:** customize Ivy's color scheme one of 22 available themes. We _might_ add the ability to add custom backgrounds 👀
 
 ### Ivy v2.0 - Coming 2023
 
