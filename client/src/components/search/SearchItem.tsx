@@ -157,16 +157,20 @@ const SearchItem: React.FC<SearchItemProps> = ({
       className={`${color} shadow sm:rounded-lg mb-4 m-4 hover:scale-[101%] transition-all hover:cursor-pointer`}
     >
       <div className="px-4 py-5 sm:p-6">
-        <h3 className="text-lg leading-6 font-medium text-gray-900">
+        <h3 className="font-atkinson-bold text-lg leading-6 text-gray-900">
           {subject} {catalogNumber} - {courseTitle}
         </h3>
-        <div className="mt-2 max-w-xl text-sm text-gray-500">
-          <p>School: {school}</p>
+        <div className="font-atkinson mt-2 max-w-xl text-sm text-gray-500">
           <p>Section: {section}</p>
           <p>Type: {component}</p>
-          {topic.length > 0 && <p>Topic: {topic}</p>}
+          <p>
+            Meeting time:{" "}
+            {!classMeetingInfo || !classMeetingInfo.length
+              ? "N/A"
+              : classMeetingInfo[0].MEETING_TIME}
+          </p>
         </div>
-        <div className="mt-3 text-sm">
+        <div className="font-atkinson mt-3 text-sm">
           <button
             className="text-[.75rem] text-indigo-600 hover:text-indigo-500 hover:underline"
             onClick={() => {
@@ -178,7 +182,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
             View more details <span aria-hidden="true">&rarr;</span>
           </button>
         </div>
-        <div className="text-sm">
+        <div className="font-atkinson text-sm">
           {classMeetingInfo && classMeetingInfo.length > 0 && (
             <button
               // disable

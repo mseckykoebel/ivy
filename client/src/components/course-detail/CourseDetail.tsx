@@ -122,15 +122,15 @@ export const CourseDetail: React.FC<CourseDetailProps> = ({
                 <div className="overflow-hidden bg-white shadow sm:rounded-lg">
                   <div className="flex justify-between px-4 py-5 sm:px-6">
                     <div className="inline-block align-middle`">
-                      <h3 className="text-lg font-medium leading-6 text-gray-900">
+                      <h3 className="font-atkinson-bold text-lg font-medium leading-6 text-gray-900">
                         🔦 Course details
                       </h3>
-                      <p className="mt-1 max-w-2xl text-sm text-gray-500">
+                      <p className="font-atkinson mt-1 max-w-2xl text-sm text-gray-500">
                         All the info we have on this course
                       </p>
                     </div>
                   </div>
-                  <div className="border-t border-gray-200 px-4 py-5 sm:p-0">
+                  <div className="font-atkinson border-t border-gray-200 px-4 py-5 sm:p-0">
                     <dl className="sm:divide-y sm:divide-gray-200">
                       {courseDetails &&
                         Object.keys(courseDetails).map((detail, id) => {
@@ -159,7 +159,7 @@ export const CourseDetail: React.FC<CourseDetailProps> = ({
                 {/* ERROR / LOADING AREA */}
                 {error.length >= 1 && (
                   <p
-                    className="mt-5 text-center text-sm text-red-600"
+                    className="font-atkinson mt-5 text-center text-sm text-red-600"
                     id="loading-error"
                   >
                     {error}
@@ -167,7 +167,7 @@ export const CourseDetail: React.FC<CourseDetailProps> = ({
                 )}
                 {loading && (
                   <p
-                    className="mt-5 text-center text-sm text-gray-600"
+                    className="font-atkinson mt-5 text-center text-sm text-gray-600"
                     id="loading-error"
                   >
                     Loading details...

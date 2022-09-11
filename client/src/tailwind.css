@@ -3,13 +3,26 @@
 @tailwind utilities;
 
 @layer base {
+  /* Cooper font*/
   @font-face {
     font-family: "Cooper light";
     src: url("../public/fonts/CooperLightBT.ttf");
   }
-
   @font-face {
     font-family: "Cooper bold";
     src: url("../public/fonts/CooperBoldBT.ttf");
+  }
+  /* Atkinson font */
+  @font-face {
+    font-family: "Atkinson";
+    src: url("../public/fonts/AtkinsonHyperlegible-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Atkinson bold";
+    src: url("../public/fonts/AtkinsonHyperlegible-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Atkinson italic";
+    src: url("../public/fonts/AtkinsonHyperlegible-Italic.ttf");
   }
 }

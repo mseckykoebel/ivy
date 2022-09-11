@@ -332,8 +332,8 @@ const Home: React.FC = (): JSX.Element => {
                         style={{ lineHeight: "1.75rem" }}
                       >
                         Ivy{" "}
-                        <span className="inline-flex font-sans items-center align-middle px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-700 text-white">
-                          pre-release
+                        <span className="inline-flex font-atkinson items-center align-middle px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-700 text-white">
+                          v0.0.1 (pre-release)
                         </span>
                       </h1>
                     </Link>
@@ -367,7 +367,7 @@ const Home: React.FC = (): JSX.Element => {
                                 <button
                                   className={classNames(
                                     active ? "bg-gray-100" : "",
-                                    "block px-4 w-full text-left py-2 text-sm text-gray-700"
+                                    "font-atkinson block px-4 w-full text-left py-2 text-sm text-gray-700"
                                   )}
                                   onClick={item.onClick}
                                 >
@@ -435,7 +435,7 @@ const Home: React.FC = (): JSX.Element => {
                                   item.name === "Schedule view"
                                 ? "bg-white/10 border-white border-[1px]"
                                 : "",
-                              "text-sm text-white font-medium rounded-md  bg-opacity-0 px-3 py-2 hover:bg-opacity-10"
+                              "font-atkinson text-sm text-white font-medium rounded-md  bg-opacity-0 px-3 py-2 hover:bg-opacity-10"
                             )}
                             aria-current={item.name ? "page" : undefined}
                             onClick={() =>
@@ -470,7 +470,7 @@ const Home: React.FC = (): JSX.Element => {
                               setSearchQuery(event.target.value);
                             }}
                             id="desktop-search"
-                            className={`block w-full bg-white bg-opacity-20 py-2 pl-10 pr-3 border border-transparent rounded-md leading-5 text-gray-900 placeholder-white focus:outline-none focus:bg-opacity-100 focus:border-transparent focus:placeholder-gray-500 focus:ring-0 sm:text-sm ${
+                            className={`font-atkinson block w-full bg-white bg-opacity-20 py-2 pl-10 pr-3 border border-transparent rounded-md leading-5 text-gray-900 placeholder-white focus:outline-none focus:bg-opacity-100 focus:border-transparent focus:placeholder-gray-500 focus:ring-0 sm:text-sm ${
                               !selectedYear?.year || !selectedQuarter?.quarter
                                 ? "select-none pointer-events-none"
                                 : ""
@@ -501,7 +501,7 @@ const Home: React.FC = (): JSX.Element => {
                           </Combobox.Label>
                           <div className="relative mt-1">
                             <Combobox.Input
-                              className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
+                              className="font-atkinson w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
                               onChange={(event) => setQuery(event.target.value)}
                               placeholder={loading ? "..." : "Years"}
                               displayValue={(year: { year: string }) =>
@@ -525,7 +525,7 @@ const Home: React.FC = (): JSX.Element => {
                                       value={year}
                                       className={({ active }) =>
                                         classNames(
-                                          "relative cursor-default select-none py-2 pl-3 pr-9",
+                                          "font-atkinson relative cursor-default select-none py-2 pl-3 pr-9",
                                           active
                                             ? "bg-green-600 text-white"
                                             : "text-gray-900"
@@ -582,7 +582,7 @@ const Home: React.FC = (): JSX.Element => {
                           </Combobox.Label>
                           <div className="relative mt-1">
                             <Combobox.Input
-                              className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
+                              className="font-atkinson w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
                               onChange={(event) => setQuery(event.target.value)}
                               placeholder={loading ? "..." : "Quarters"}
                               displayValue={(quarter: { quarter: string }) =>
@@ -606,7 +606,7 @@ const Home: React.FC = (): JSX.Element => {
                                       value={quarter}
                                       className={({ active }) =>
                                         classNames(
-                                          "relative cursor-default select-none py-2 pl-3 pr-9",
+                                          "font-atkinson relative cursor-default select-none py-2 pl-3 pr-9",
                                           active
                                             ? "bg-green-600 text-white"
                                             : "text-gray-900"
@@ -664,7 +664,7 @@ const Home: React.FC = (): JSX.Element => {
                           <div className="relative mt-1">
                             <Combobox.Input
                               disabled={!schools}
-                              className={`w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm ${
+                              className={`font-atkinson w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm ${
                                 !schools ? "cursor-not-allowed disabled" : ""
                               }`}
                               onChange={(event) => setQuery(event.target.value)}
@@ -691,7 +691,7 @@ const Home: React.FC = (): JSX.Element => {
                                       value={school}
                                       className={({ active }) =>
                                         classNames(
-                                          "relative cursor-default select-none py-2 pl-3 pr-9",
+                                          "font-atkinson relative cursor-default select-none py-2 pl-3 pr-9",
                                           active
                                             ? "bg-green-600 text-white"
                                             : "text-gray-900"
@@ -925,12 +925,12 @@ const Home: React.FC = (): JSX.Element => {
                 </section>
                 {/* SUPER BASIC ERROR LOCATION */}
                 {error && (
-                  <section className="text-center text-red-500 text-sm">
+                  <section className="font-atkinson text-center text-red-500 text-sm">
                     <p>{error}</p>
                   </section>
                 )}
                 {loading && (
-                  <section className="text-center text-red-500 text-sm">
+                  <section className="font-atkinson text-center text-red-500 text-sm">
                     <p>Fetching the latest data 🐎</p>
                   </section>
                 )}

@@ -236,15 +236,15 @@ export const Settings: React.FC<SettingsProps> = ({
                   <div className="flex justify-start px-4 py-5 sm:px-6">
                     <ProfilePicture size={50} />
                     <div className="inline-block align-middle pl-5">
-                      <h3 className="text-lg font-medium leading-6 text-gray-900">
+                      <h3 className="font-atkinson-bold text-lg font-medium leading-6 text-gray-900">
                         ⚙️ Settings
                       </h3>
-                      <p className="mt-1 max-w-2xl text-sm text-gray-500">
+                      <p className="font-atkinson mt-1 max-w-2xl text-sm text-gray-500">
                         Your personal, major, and minor information
                       </p>
                     </div>
                   </div>
-                  <div className="border-t border-gray-200 px-4 py-5 sm:p-0">
+                  <div className="font-atkinson border-t border-gray-200 px-4 py-5 sm:p-0">
                     <dl className="sm:divide-y sm:divide-gray-200">
                       <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
                         <dt className="text-sm font-medium text-gray-500">
@@ -360,7 +360,7 @@ export const Settings: React.FC<SettingsProps> = ({
                 {/* ERROR AREA */}
                 {error.length >= 1 && (
                   <p
-                    className="mt-5 text-center text-sm text-red-600"
+                    className="font-atkinson mt-5 text-center text-sm text-red-600"
                     id="email-error"
                   >
                     {error}
@@ -372,7 +372,7 @@ export const Settings: React.FC<SettingsProps> = ({
                 {/* SUCCESS AREA */}
                 {success.length >= 1 && (
                   <p
-                    className="mt-5 text-center text-sm text-green-600"
+                    className="font-atkinson mt-5 text-center text-sm text-green-600"
                     id="email-error"
                   >
                     {success}
@@ -382,7 +382,7 @@ export const Settings: React.FC<SettingsProps> = ({
                 {/* SUBMIT/CANCEL AREA */}
                 {/* SUBMIT/CANCEL AREA */}
                 {/* SUBMIT/CANCEL AREA */}
-                <div className="flex justify-center py-2 px-2 sm:px-6">
+                <div className="font-atkinson flex justify-center py-2 px-2 sm:px-6">
                   <button
                     type="button"
                     className={`mt-3 mr-2 px-4 py-2 w-40 inline-flex justify-center rounded-md border border-transparent text-sm font-medium text-white bg-green-500 transition-all hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 ${

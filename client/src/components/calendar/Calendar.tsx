@@ -154,7 +154,7 @@ const Calendar: React.FC<CalendarProps> = ({
             ref={containerNav}
             className="sticky top-0 flex-none bg-white shadow ring-1 ring-black ring-opacity-5 sm:pr-8"
           >
-            <div className="grid grid-cols-5 text-sm leading-6 text-gray-500 sm:hidden">
+            <div className="font-atkinson grid grid-cols-5 text-sm leading-6 text-gray-500 sm:hidden">
               <button
                 type="button"
                 className="flex flex-col items-center pt-2 pb-3"
@@ -187,7 +187,7 @@ const Calendar: React.FC<CalendarProps> = ({
               </button>
             </div>
 
-            <div className="-mr-px hidden grid-cols-5 divide-x divide-gray-100 border-r border-gray-100 text-sm leading-6 text-gray-500 sm:grid">
+            <div className="font-atkinson -mr-px hidden grid-cols-5 divide-x divide-gray-100 border-r border-gray-100 text-sm leading-6 text-gray-500 sm:grid">
               <div className="col-end-1 w-14" />
               <div className="flex items-center justify-center py-3">
                 <span>Mon </span>
@@ -231,7 +231,7 @@ const Calendar: React.FC<CalendarProps> = ({
               {/* HORIZONTAL LINES ON CALENDAR */}
               {/* HORIZONTAL LINES ON CALENDAR */}
               <div
-                className="col-start-1 col-end-2 row-start-1 grid divide-y divide-gray-100"
+                className="font-atkinson col-start-1 col-end-2 row-start-1 grid divide-y divide-gray-100"
                 style={{
                   gridTemplateRows: `repeat(29, minmax(${calHeight}rem, 1fr))`,
                 }}
