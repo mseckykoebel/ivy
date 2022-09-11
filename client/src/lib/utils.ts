@@ -38,7 +38,7 @@ const quarterDisplayMap = (season: string): number => {
 const bubbleSortByYear = (arr: string[]) => {
   const len = arr.length;
   for (let i = 0; i < len; i++) {
-    for (let j = 0; j < len - 1; j++) {
+    for (let j = 0; j < len - i - 1; j++) {
       const arrTemp = arr;
       // compare the years, and put them in the right order
       if (
@@ -58,7 +58,7 @@ const bubbleSortByYear = (arr: string[]) => {
 const bubbleSortByQuarter = (arr: string[]) => {
   const len = arr.length;
   for (let i = 0; i < len; i++) {
-    for (let j = 0; j < len - 1; j++) {
+    for (let j = 0; j < len - i - 1; j++) {
       const arrTemp = arr;
       // compare the years, and put them in the right order
       if (
@@ -74,13 +74,5 @@ const bubbleSortByQuarter = (arr: string[]) => {
   }
   return arr;
 };
-
-// const getQuarterAndYearFromStartTime = (startTime: string): string => {
-//   const startTimeSplit = startTime.split("-");
-//   const year = startTimeSplit[0];
-//   switch(startTimeSplit[1]) {
-//     case "01"
-//   }
-// };
 
 export { classNames, bubbleSortByYear, bubbleSortByQuarter, quarterMap };

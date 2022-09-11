@@ -70,9 +70,8 @@ const Schedule: React.FC<ScheduleProps> = ({
       }
     }
     // sort the list of quarters
-
-    const sortedByYear = bubbleSortByYear(listOfQuarterYears);
-    return bubbleSortByQuarter(sortedByYear);
+    const sortedByQuarter = bubbleSortByQuarter(listOfQuarterYears);
+    return bubbleSortByYear(sortedByQuarter);
   };
 
   // initial render - run this to get the list of courses from the DB, and then
@@ -200,6 +199,9 @@ const Schedule: React.FC<ScheduleProps> = ({
                       </div>
                       <p className="mt-1 text-gray-500 text-sm truncate">
                         {course.courseTitle}
+                      </p>
+                      <p className="mt-1 text-gray-500 text-sm truncate">
+                        {course.school}
                       </p>
                       {/* Requirement badge
               <span className="flex-shrink-0 inline-block px-2 py-0.5 text-green-800 text-xs font-medium bg-green-100 rounded-full">
