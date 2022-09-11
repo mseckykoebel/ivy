@@ -50,14 +50,29 @@ const Search: React.FC<SearchProps> = ({
   const [courses, setCourses] = useState<Record<string, any> | null>(null);
 
   // handling filtering of all courses
-  const filteredCourses =
+  const filteredCoursesByTitle =
     searchQuery === "" || !courses
       ? []
       : courses?.filter((course: Record<string, any>) => {
+          // return the query that is the longest
           return course.data.courseTitle
             .toLowerCase()
             .includes(searchQuery.toLowerCase());
         });
+
+  const filteredCoursesBySubjectAndCatalogueNumber =
+    searchQuery === "" || !courses
+      ? []
+      : courses?.filter((course: Record<string, any>) => {
+          return `${course.subject} ${course.data.catalogNumber}`
+            .toLowerCase()
+            .includes(searchQuery.toLowerCase());
+        });
+
+  const filteredCourses =
+    filteredCoursesByTitle.length > filteredCoursesBySubjectAndCatalogueNumber
+      ? filteredCoursesByTitle
+      : filteredCoursesBySubjectAndCatalogueNumber;
 
   // initiate a new query when query changes
   useEffect(() => {
