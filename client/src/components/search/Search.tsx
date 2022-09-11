@@ -70,7 +70,7 @@ const Search: React.FC<SearchProps> = ({
         });
 
   const filteredCourses =
-    filteredCoursesByTitle.length > filteredCoursesBySubjectAndCatalogueNumber
+    filteredCoursesByTitle.length > filteredCoursesBySubjectAndCatalogueNumber.length
       ? filteredCoursesByTitle
       : filteredCoursesBySubjectAndCatalogueNumber;
 
