@@ -7,7 +7,7 @@ const Register: React.FC = (): JSX.Element => {
   // Navigation
   const navigate = useNavigate();
   //   Element references
-  const fullNameRef = useRef<HTMLInputElement>(null);
+  const usernameRef = useRef<HTMLInputElement>(null);
   const emailRef = useRef<HTMLInputElement>(null);
   const passwordRef = useRef<HTMLInputElement>(null);
   const confirmPasswordRef = useRef<HTMLInputElement>(null);
@@ -45,7 +45,7 @@ const Register: React.FC = (): JSX.Element => {
       <div className="max-w-md w-full space-y-8">
         <div>
           <IvyLottie />
-          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
+          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900 font-cooper-bold">
             Create an Ivy account
           </h2>
         </div>
@@ -53,24 +53,10 @@ const Register: React.FC = (): JSX.Element => {
           <input type="hidden" name="remember" value="true"></input>
           {/* FULL NAME */}
           <div className="rounded-md shadow-sm -space-y-px">
-            <div>
-              <label htmlFor="email-address" className="sr-only">
-                Full name
-              </label>
-              <input
-                id="full-name"
-                name="full-name"
-                type="text"
-                required
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm"
-                placeholder="Full name"
-                ref={fullNameRef}
-              ></input>
-            </div>
             {/* EMAIL ADDRESS */}
             <div>
               <label htmlFor="email-address" className="sr-only">
-                Northwestern email address
+                Email address
               </label>
               <input
                 id="email-address"
@@ -78,8 +64,8 @@ const Register: React.FC = (): JSX.Element => {
                 type="email"
                 autoComplete="email"
                 required
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm"
-                placeholder="Northwestern email address"
+                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm"
+                placeholder="Email address (NU preferred)"
                 ref={emailRef}
               ></input>
             </div>
