@@ -3,6 +3,18 @@ import { XIcon } from "@heroicons/react/outline";
 import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { CourseDetail } from "../../types/courses";
 import { ScheduleCourse } from "../../types/schedule";
+// auth CRUD
+import { useAuth } from "../../contexts/AuthContext";
+import {
+  getSchedulesByUserId,
+  updateSchedulesArrayAddCourse,
+  updateSchedulesArrayRemoveCourse,
+} from "../../firebase/scheduleService";
+import {
+  bubbleSortByQuarter,
+  bubbleSortByYear,
+  quarterMap,
+} from "../../lib/utils";
 
 interface ScheduleProps {
   // clicking on detail modal
@@ -20,11 +32,17 @@ const Schedule: React.FC<ScheduleProps> = ({
   setScheduleCourses,
   setOpenDetailModal,
 }): JSX.Element => {
+  // init auth
+  const { currentUser } = useAuth();
   // UI state
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<boolean>(false);
+  // state
+  // these are the schedule courses after the cal has been added
+  const [getSchedules, setGetSchedules] = useState<ScheduleCourse[] | []>([]);
   // keep track of the different termIds for rendering the number of columns
   const [quarterYearSets, setQuarterYearSets] = useState<string[] | []>([]);
+  const [scheduleId, setScheduleId] = useState<string>("");
 
   // this updates the current course detail, and opens the course detail modal from the home page
   const handleDetailClick = (
@@ -43,27 +61,75 @@ const Schedule: React.FC<ScheduleProps> = ({
     setOpenDetailModal(() => true);
   };
 
-  useEffect(() => {
-    console.log("SCHEDULE COURSES HAVE BEEN MODIFIED: ");
-
-    const initQuarterYearSets = () => {
-      const listOfQuarterYears: string[] = [];
-      for (let i = 0; i < scheduleCourses.length; i++) {
-        if (!listOfQuarterYears.includes(scheduleCourses[i].termDescription)) {
-          listOfQuarterYears.push(scheduleCourses[i].termDescription);
-        }
+  // this determines the array of "YEAR SEASON" combinations we have in the UI
+  const initQuarterYearSets = () => {
+    const listOfQuarterYears: string[] = [];
+    for (let i = 0; i < scheduleCourses.length; i++) {
+      if (!listOfQuarterYears.includes(scheduleCourses[i].termDescription)) {
+        listOfQuarterYears.push(scheduleCourses[i].termDescription);
       }
-      console.log("THIS IS THE ARRAY OF QUARTER YEARS: ", listOfQuarterYears);
-      return listOfQuarterYears;
+    }
+    // sort the list of quarters
+
+    const sortedByYear = bubbleSortByYear(listOfQuarterYears);
+    return bubbleSortByQuarter(sortedByYear);
+  };
+
+  // initial render - run this to get the list of courses from the DB, and then
+  // render them in the correct "YEAR SEASON" buckets
+  useEffect(() => {
+    const getScheduleFromFirebase = async () => {
+      setLoading(true);
+      const courseDataFromDb: ScheduleCourse[] = [];
+      // begin
+      const scheduleRecords = await getSchedulesByUserId(
+        currentUser?.uid as string
+      );
+      // set the document ID for this schedule
+      setScheduleId(scheduleRecords.id);
+      // remove the id
+      for (let j = 0; j < scheduleRecords.data.coursesData.length; j++) {
+        courseDataFromDb.push(scheduleRecords.data.coursesData[j]);
+      }
+
+      // set
+      setScheduleCourses(courseDataFromDb);
+      setLoading(false);
     };
 
-    setQuarterYearSets(initQuarterYearSets());
+    getScheduleFromFirebase()
+      .then(() => setQuarterYearSets(initQuarterYearSets()))
+      .catch((err) => {
+        console.log("There was an error fetching courses from the DB: ", err);
+      });
+  }, []);
 
-    console.log("QUARTER YEAR SETS: ", quarterYearSets);
+  // big 🎣
+  // determine how to re-render the UI based on interactions from the user
+  // determines how to write to the DB with changes
+  useEffect(() => {
+    if (scheduleCourses.length > 0) {
+      // set the quarter/year pairs
+      setQuarterYearSets(initQuarterYearSets());
+      // update the array of courses if something was added
+      // handleRemoveCourse handles removal, so we know this is an addition!
+      // and, we know the last added course is the newest. So, send that one to firebase
+      updateSchedulesArrayAddCourse(
+        scheduleId,
+        scheduleCourses[scheduleCourses.length - 1]
+      );
+    }
   }, [scheduleCourses]);
 
   // remove a course based on the courseNumber
   const handleRemoveCourse = (courseId: string) => {
+    const courseToRemove = scheduleCourses.filter((course) => {
+      return course.courseNumber === courseId;
+    });
+    // HANDLE DELETION FROM THE DB
+    updateSchedulesArrayRemoveCourse(scheduleId, courseToRemove[0]);
+
+    // REMOVE FROM THE UI
     setScheduleCourses((currentCourses: ScheduleCourse[]) =>
       currentCourses.filter((course) => {
         return course.courseNumber !== courseId;
@@ -73,16 +139,31 @@ const Schedule: React.FC<ScheduleProps> = ({
 
   return (
     <>
-      {scheduleCourses.length === 0 && (
+      {loading && scheduleCourses.length < 1 && (
+        <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
+          <h1 className="text-xs font-semibold text-gray-900">Loading...</h1>
+        </div>
+      )}
+
+      {!loading && scheduleId === "" && scheduleCourses.length < 1 && (
         <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
           <h1 className="text-l font-semibold text-gray-900">
-            Select a course from the search panel to start your schedule 🚀
+            Welcome to Ivy's schedule pane! Select a course from the search
+            panel to start your schedule 👉
+          </h1>
+        </div>
+      )}
+
+      {!loading && scheduleId !== "" && scheduleCourses.length < 1 && (
+        <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
+          <h1 className="text-l font-semibold text-gray-900">
+            Select a course from the search panel to start your schedule 👉
           </h1>
         </div>
       )}
 
       {quarterYearSets.map((quarterYear, id) => (
-        <div key={id}>
+        <div key={id} className="rounded-lg bg-white px-4 py-5 shadow-lg mb-5">
           {/* WILL BE THE TITLE OF THE RELEVANT COLUMN */}
           {scheduleCourses.length !== 0 && (
             <div
@@ -91,7 +172,7 @@ const Schedule: React.FC<ScheduleProps> = ({
               } -ml-8 sm:px-6 md:px-8`}
             >
               <h1 className="text-l font-semibold text-gray-900">
-                {quarterYear}
+                {quarterMap(quarterYear)}
               </h1>
             </div>
           )}
