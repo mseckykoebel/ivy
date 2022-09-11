@@ -46355,6 +46355,1237 @@
   },
   {
     "status": 200,
+    "results": 78,
+    "data": [
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "105-6",
+        "section": "02",
+        "component": "LEC",
+        "courseTitle": "First-Year Seminar",
+        "topic": "Science and the Scientist: How we communicate comp",
+        "courseNumber": "17076",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute B190",
+            "MEETING_TIME": "MoWeFr 10:00AM - 10:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "105-6",
+        "section": "03",
+        "component": "LEC",
+        "courseTitle": "First-Year Seminar",
+        "topic": "What's So Special About Nanomaterials?",
+        "courseNumber": "17077",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L168",
+            "MEETING_TIME": "TuTh 9:30AM - 10:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "110-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Quantitative Problem Solving in Chemistry",
+        "topic": "",
+        "courseNumber": "17111",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 10:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "110-0",
+        "section": "02",
+        "component": "LEC",
+        "courseTitle": "Quantitative Problem Solving in Chemistry",
+        "topic": "",
+        "courseNumber": "17112",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeThFr 11:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "110-SG",
+        "section": "01",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Quantitative Problem Solving in Chemistry",
+        "topic": "",
+        "courseNumber": "20292",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Allison Residential Comm 1021",
+            "MEETING_TIME": "Su 5:00PM - 7:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "110-SG",
+        "section": "02",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Quantitative Problem Solving in Chemistry",
+        "topic": "",
+        "courseNumber": "20293",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Elder Hall 030 Seminar Room",
+            "MEETING_TIME": "Su 12:00PM - 2:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "110-SG",
+        "section": "03",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Quantitative Problem Solving in Chemistry",
+        "topic": "",
+        "courseNumber": "20294",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute LG72",
+            "MEETING_TIME": "Tu 5:00PM - 7:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "110-SG",
+        "section": "04",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Quantitative Problem Solving in Chemistry",
+        "topic": "",
+        "courseNumber": "20295",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Willard Hall B06",
+            "MEETING_TIME": "Tu 7:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "110-SG",
+        "section": "05",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Quantitative Problem Solving in Chemistry",
+        "topic": "",
+        "courseNumber": "20337",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 101",
+            "MEETING_TIME": "We 6:00PM - 8:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "110-SG",
+        "section": "06",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Quantitative Problem Solving in Chemistry",
+        "topic": "",
+        "courseNumber": "20867",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Fisk Hall 114",
+            "MEETING_TIME": "We 2:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "110-SG",
+        "section": "07",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Quantitative Problem Solving in Chemistry",
+        "topic": "",
+        "courseNumber": "20868",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 418",
+            "MEETING_TIME": "Mo 5:00PM - 7:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "17113",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "MoTuWe 10:00AM - 10:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-0",
+        "section": "02",
+        "component": "LEC",
+        "courseTitle": "Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "17114",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "MoTuWe 11:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "01",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20296",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L170",
+            "MEETING_TIME": "Mo 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "02",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20297",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-319",
+            "MEETING_TIME": "Tu 4:00PM - 6:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "03",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20353",
+        "classMeetingInfo": [
+          {
+            "ROOM": "560 Lincoln St. Classroom 101A",
+            "MEETING_TIME": "Su 2:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "04",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20298",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 112",
+            "MEETING_TIME": "We 5:00PM - 7:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "05",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20299",
+        "classMeetingInfo": [
+          {
+            "ROOM": "560 Lincoln St. Classroom 101A",
+            "MEETING_TIME": "Su 12:00PM - 2:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "06",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20300",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Elder Hall 030 Seminar Room",
+            "MEETING_TIME": "Mo 5:30PM - 7:30PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "07",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20301",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Allison Residential Comm 1021",
+            "MEETING_TIME": "Su 11:00AM - 1:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "08",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20338",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Elder Hall 030 Seminar Room",
+            "MEETING_TIME": "We 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "09",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20302",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Elder Hall 032 Seminar Room",
+            "MEETING_TIME": "Sa 12:00PM - 2:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "10",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20303",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute M166",
+            "MEETING_TIME": "Tu 5:00PM - 7:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "11",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20304",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall G28",
+            "MEETING_TIME": "Mo 4:00PM - 6:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "12",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20305",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall G31",
+            "MEETING_TIME": "Th 4:00PM - 6:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "13",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20306",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Elder Hall 030 Seminar Room",
+            "MEETING_TIME": "Tu 7:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "15",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20307",
+        "classMeetingInfo": [
+          {
+            "ROOM": "555 Clark 230",
+            "MEETING_TIME": "Tu 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "16",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20308",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Locy Hall 314",
+            "MEETING_TIME": "We 2:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "17",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20339",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall G29",
+            "MEETING_TIME": "Su 12:00PM - 2:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "18",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20340",
+        "classMeetingInfo": [],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "19",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20355",
+        "classMeetingInfo": [],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "151-SG",
+        "section": "20",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Accelerated General Chemistry 1",
+        "topic": "",
+        "courseNumber": "20354",
+        "classMeetingInfo": [],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "161-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Accelerated General Chemistry Laboratory 1",
+        "topic": "",
+        "courseNumber": "17115",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "Fr 10:00AM - 10:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "161-0",
+        "section": "02",
+        "component": "LEC",
+        "courseTitle": "Accelerated General Chemistry Laboratory 1",
+        "topic": "",
+        "courseNumber": "17116",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "Fr 11:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "171-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Advanced General Inorganic Chemistry",
+        "topic": "",
+        "courseNumber": "17078",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "TuWeThFr 1:00PM - 1:50PM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "181-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Advanced General Inorganic Chemistry Laboratory",
+        "topic": "",
+        "courseNumber": "17099",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "Mo 1:00PM - 1:50PM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "212-1",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": "",
+        "courseNumber": "17083",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Pancoe Building Abbott Aud",
+            "MEETING_TIME": "MoTuWeFr 9:00AM - 9:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-1",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "18629",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Pancoe Building Abbott Aud",
+            "MEETING_TIME": "MoTuWeTh 10:00AM - 10:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-1",
+        "section": "02",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "18630",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeTh 9:00AM - 9:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-1",
+        "section": "03",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "18631",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeTh 8:00AM - 8:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-1",
+        "section": "04",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "18632",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L361",
+            "MEETING_TIME": "MoTuWeTh 11:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "01",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20902",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L158",
+            "MEETING_TIME": "Su 2:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "02",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20903",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute LG68",
+            "MEETING_TIME": "We 4:00PM - 6:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "03",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20905",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall G31",
+            "MEETING_TIME": "Mo 2:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "04",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20906",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-325",
+            "MEETING_TIME": "Th 4:00PM - 6:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "05",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20907",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute F280",
+            "MEETING_TIME": "Tu 5:00PM - 7:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "06",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20908",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute LG62",
+            "MEETING_TIME": "Su 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "07",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20909",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 3722",
+            "MEETING_TIME": "Tu 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "08",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20910",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute LG68",
+            "MEETING_TIME": "Mo 4:00PM - 6:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "09",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20911",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 213",
+            "MEETING_TIME": "Tu 5:00PM - 7:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "10",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20912",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L158",
+            "MEETING_TIME": "Su 6:00PM - 8:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "11",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20913",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L158",
+            "MEETING_TIME": "Su 12:00PM - 2:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "12",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20914",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 118",
+            "MEETING_TIME": "Su 12:00PM - 2:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "13",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20915",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall G28",
+            "MEETING_TIME": "Tu 6:00PM - 8:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "14",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20916",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall G29",
+            "MEETING_TIME": "Su 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "15",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20917",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute F281",
+            "MEETING_TIME": "Th 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "16",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20918",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 102",
+            "MEETING_TIME": "Tu 7:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "215-SG-1",
+        "section": "17",
+        "component": "TUT",
+        "courseTitle": "Peer-Guided Study Group: Organic Chemistry I",
+        "topic": "",
+        "courseNumber": "20919",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L158",
+            "MEETING_TIME": "Tu 5:00PM - 7:00PM"
+          }
+        ],
+        "startDate": "2021-09-27"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "232-1",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry Laboratory I",
+        "topic": "",
+        "courseNumber": "17104",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Pancoe Building Abbott Aud",
+            "MEETING_TIME": "Th 9:00AM - 9:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "235-1",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry Lab I",
+        "topic": "",
+        "courseNumber": "18633",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Pancoe Building Abbott Aud",
+            "MEETING_TIME": "Fr 10:00AM - 10:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "235-1",
+        "section": "02",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry Lab I",
+        "topic": "",
+        "courseNumber": "18634",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "Fr 9:00AM - 9:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "235-1",
+        "section": "03",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry Lab I",
+        "topic": "",
+        "courseNumber": "18635",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "Fr 8:00AM - 8:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "235-1",
+        "section": "04",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry Lab I",
+        "topic": "",
+        "courseNumber": "18636",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L361",
+            "MEETING_TIME": "Fr 11:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "302-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Principles of Inorganic Chemistry",
+        "topic": "",
+        "courseNumber": "17094",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L221",
+            "MEETING_TIME": "TuTh 5:00PM - 6:20PM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "307-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Materials and Nanochemistry",
+        "topic": "",
+        "courseNumber": "18627",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute M177",
+            "MEETING_TIME": "TuTh 11:00AM - 12:20PM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "313-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Advanced Organic Chemistry 1. Advanced concepts of organic reactivity and selectivity in synthesis.",
+        "topic": "",
+        "courseNumber": "17117",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute F281",
+            "MEETING_TIME": "MoWeFr 10:00AM - 10:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "333-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Inorganic Chemistry",
+        "topic": "",
+        "courseNumber": "17084",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG28",
+            "MEETING_TIME": "MoWeFr 10:00AM - 10:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "342-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Thermodynamics",
+        "topic": "",
+        "courseNumber": "17085",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG28",
+            "MEETING_TIME": "MoTuWeThFr 11:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "350-1",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Advanced Laboratory 1",
+        "topic": "",
+        "courseNumber": "17096",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute LG66",
+            "MEETING_TIME": "MoWeFr 9:00AM - 9:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "398-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Undergraduate Seminar",
+        "topic": "",
+        "courseNumber": "17086",
+        "classMeetingInfo": null,
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "402-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Principles of Inorganic Chemistry",
+        "topic": "",
+        "courseNumber": "17095",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L221",
+            "MEETING_TIME": "TuTh 5:00PM - 6:20PM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "407-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Materials and Nanochemistry",
+        "topic": "",
+        "courseNumber": "18628",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute M177",
+            "MEETING_TIME": "TuTh 11:00AM - 12:20PM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "412-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Organometallic Reaction Mechanisms",
+        "topic": "",
+        "courseNumber": "17087",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L150",
+            "MEETING_TIME": "TuTh 9:30AM - 10:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "413-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Advanced Organic Chemistry 1. Advanced concepts of organic reactivity and selectivity in synthesis.",
+        "topic": "",
+        "courseNumber": "17088",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute F281",
+            "MEETING_TIME": "MoWeFr 10:00AM - 10:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "415-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Advanced Organic Chemistry",
+        "topic": "Organic Nanomaterials",
+        "courseNumber": "17089",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 5",
+            "MEETING_TIME": "TuTh 5:00PM - 6:20PM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "433-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Structural Inorganic Chemistry",
+        "topic": "",
+        "courseNumber": "17090",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute M345",
+            "MEETING_TIME": "MoWeFr 8:00AM - 8:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "442-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Quantum Chemistry",
+        "topic": "",
+        "courseNumber": "17091",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L170",
+            "MEETING_TIME": "MoWeFr 9:00AM - 9:50AM"
+          }
+        ],
+        "startDate": "2021-09-21"
+      },
+      {
+        "termDescription": "2021 Fall",
+        "catalogNumber": "570-0",
+        "section": "01",
+        "component": "SEM",
+        "courseTitle": "Chemistry Colloquium",
+        "topic": "",
+        "courseNumber": "17093",
+        "classMeetingInfo": [],
+        "startDate": "2021-09-21"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CHEM"
+  },
+  {
+    "status": 200,
     "results": 16,
     "data": [
       {
@@ -47158,1101 +48389,6 @@
     ],
     "school": "WCAS",
     "subject": "EARTH"
-  },
-  {
-    "status": 200,
-    "results": 67,
-    "data": [
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "101-6",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "First-Year Seminar",
-        "topic": "Government and You",
-        "courseNumber": "16224",
-        "classMeetingInfo": [
-          {
-            "ROOM": "University Library 4770",
-            "MEETING_TIME": "TuTh 9:30AM - 10:50AM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "101-6",
-        "section": "30",
-        "component": "LEC",
-        "courseTitle": "First-Year Seminar",
-        "topic": "Art and Economics",
-        "courseNumber": "16225",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Technological Institute L168",
-            "MEETING_TIME": "MoWe 12:30PM - 1:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "101-6",
-        "section": "40",
-        "component": "LEC",
-        "courseTitle": "First-Year Seminar",
-        "topic": "Enlightenment 2021",
-        "courseNumber": "16226",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Annenberg Hall G29",
-            "MEETING_TIME": "MoWe 9:30AM - 10:50AM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "101-6",
-        "section": "50",
-        "component": "LEC",
-        "courseTitle": "First-Year Seminar",
-        "topic": "Topics in Politics, Philosophy and Economics",
-        "courseNumber": "16227",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Annenberg Hall G29",
-            "MEETING_TIME": "MoWe 11:00AM - 12:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "201-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Introduction to Macroeconomics",
-        "topic": "",
-        "courseNumber": "18519",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Lutkin Hall",
-            "MEETING_TIME": "MoWeFr 11:00AM - 11:50AM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "201-0",
-        "section": "40",
-        "component": "LEC",
-        "courseTitle": "Introduction to Macroeconomics",
-        "topic": "",
-        "courseNumber": "16228",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Tech Institute Lecture Room 3",
-            "MEETING_TIME": "TuTh 3:30PM - 4:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "201-SG",
-        "section": "01",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Introduction to Macroeconomics",
-        "topic": "",
-        "courseNumber": "20275",
-        "classMeetingInfo": [
-          {
-            "ROOM": "University Hall 318",
-            "MEETING_TIME": "Tu 1:00PM - 3:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "201-SG",
-        "section": "02",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Introduction to Macroeconomics",
-        "topic": "",
-        "courseNumber": "20276",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Shepard Hall B08/B09",
-            "MEETING_TIME": "We 5:00PM - 7:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "201-SG",
-        "section": "03",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Introduction to Macroeconomics",
-        "topic": "",
-        "courseNumber": "20277",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Elder Hall 032 Seminar Room",
-            "MEETING_TIME": "Su 3:00PM - 5:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "201-SG",
-        "section": "04",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Introduction to Macroeconomics",
-        "topic": "",
-        "courseNumber": "20278",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Annenberg Hall G28",
-            "MEETING_TIME": "Su 2:00PM - 4:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "201-SG",
-        "section": "05",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Introduction to Macroeconomics",
-        "topic": "",
-        "courseNumber": "20341",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Technological Institute LG62",
-            "MEETING_TIME": "Su 3:00PM - 5:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "201-SG",
-        "section": "06",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Introduction to Macroeconomics",
-        "topic": "",
-        "courseNumber": "20877",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Annenberg Hall G29",
-            "MEETING_TIME": "Th 1:00PM - 3:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "201-SG",
-        "section": "07",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Introduction to Macroeconomics",
-        "topic": "",
-        "courseNumber": "20878",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Technological Institute LG62",
-            "MEETING_TIME": "Mo 4:00PM - 6:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "201-SG",
-        "section": "08",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Introduction to Macroeconomics",
-        "topic": "",
-        "courseNumber": "21018",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Technological Institute LG62",
-            "MEETING_TIME": "We 5:00PM - 7:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "202-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Introduction to Microeconomics",
-        "topic": "",
-        "courseNumber": "16233",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Tech Institute Lecture Room 2",
-            "MEETING_TIME": "TuTh 12:30PM - 1:50PM"
-          },
-          {
-            "ROOM": "Location of Midterm TBD",
-            "MEETING_TIME": "Th 6:30PM - 8:30PM"
-          },
-          {
-            "ROOM": "Location of Midterm TBD",
-            "MEETING_TIME": "Th 6:30PM - 8:30PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "202-SG",
-        "section": "01",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Introduction to Microeconomics",
-        "topic": "",
-        "courseNumber": "20279",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Parkes Hall 215",
-            "MEETING_TIME": "Mo 3:00PM - 5:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "202-SG",
-        "section": "02",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Introduction to Microeconomics",
-        "topic": "",
-        "courseNumber": "20280",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Technological Institute F281",
-            "MEETING_TIME": "We 2:00PM - 4:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "202-SG",
-        "section": "03",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Introduction to Microeconomics",
-        "topic": "",
-        "courseNumber": "20281",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Parkes Hall 213",
-            "MEETING_TIME": "We 6:00PM - 8:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "202-SG",
-        "section": "04",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Introduction to Microeconomics",
-        "topic": "",
-        "courseNumber": "20882",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Elder Hall 032 Seminar Room",
-            "MEETING_TIME": "Su 1:00PM - 3:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "281-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Introduction to Applied Econometrics",
-        "topic": "",
-        "courseNumber": "16236",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Tech Institute Lecture Room 3",
-            "MEETING_TIME": "MoWeFr 9:00AM - 9:50AM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "307-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Economics of Medical Care",
-        "topic": "",
-        "courseNumber": "16241",
-        "classMeetingInfo": [
-          {
-            "ROOM": "University Hall 122",
-            "MEETING_TIME": "TuTh 12:30PM - 1:50PM"
-          },
-          {
-            "ROOM": "University Hall 122",
-            "MEETING_TIME": "Fr 1:00PM - 1:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "308-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Money and Banking",
-        "topic": "",
-        "courseNumber": "18538",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Tech Institute Lecture Room 4",
-            "MEETING_TIME": "MoWe 5:00PM - 6:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "310-1",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Microeconomics",
-        "topic": "",
-        "courseNumber": "16242",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Harris Hall 107",
-            "MEETING_TIME": "MoWeFr 10:00AM - 10:50AM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "310-2",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Microeconomics",
-        "topic": "",
-        "courseNumber": "16247",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Lutkin Hall",
-            "MEETING_TIME": "TuTh 11:00AM - 12:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "310-SG-1",
-        "section": "01",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Microeconomics I",
-        "topic": "",
-        "courseNumber": "20333",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Technological Institute LG72",
-            "MEETING_TIME": "Su 2:00PM - 4:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "310-SG-1",
-        "section": "02",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Microeconomics I",
-        "topic": "",
-        "courseNumber": "20334",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Annenberg Hall G30",
-            "MEETING_TIME": "Mo 3:00PM - 5:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "310-SG-1",
-        "section": "03",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Microeconomics I",
-        "topic": "",
-        "courseNumber": "20351",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Technological Institute M349",
-            "MEETING_TIME": "We 4:00PM - 6:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "310-SG-2",
-        "section": "01",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Microeconomics II",
-        "topic": "",
-        "courseNumber": "20309",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Technological Institute F280",
-            "MEETING_TIME": "We 2:00PM - 4:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "310-SG-2",
-        "section": "02",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Microeconomics II",
-        "topic": "",
-        "courseNumber": "20310",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kresge Centennial Hall 4-410",
-            "MEETING_TIME": "Su 5:00PM - 7:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "310-SG-2",
-        "section": "03",
-        "component": "TUT",
-        "courseTitle": "Peer-Guided Study Group: Microeconomics II",
-        "topic": "",
-        "courseNumber": "20311",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Technological Institute F280",
-            "MEETING_TIME": "Su 12:00PM - 2:00PM"
-          }
-        ],
-        "startDate": "2021-09-27"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "311-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Macroeconomics",
-        "topic": "",
-        "courseNumber": "16250",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Tech Institute Lecture Room 3",
-            "MEETING_TIME": "TuTh 2:00PM - 3:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "316-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Advanced Topics in Macroeconomics",
-        "topic": "",
-        "courseNumber": "17411",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Tech Institute Lecture Room 5",
-            "MEETING_TIME": "MoWeFr 3:30PM - 4:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "323-2",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Economic History of the United States 1865 to Present",
-        "topic": "",
-        "courseNumber": "18547",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Tech Institute Lecture Room 4",
-            "MEETING_TIME": "MoWe 6:30PM - 7:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "324-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Western Economic History",
-        "topic": "",
-        "courseNumber": "18548",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Harris Hall L07",
-            "MEETING_TIME": "TuTh 11:00AM - 12:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "326-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "The Economics of Developing Countries",
-        "topic": "",
-        "courseNumber": "17410",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Annenberg Hall G21",
-            "MEETING_TIME": "MoWeFr 11:00AM - 12:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "336-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Analytic Methods for Public Policy Analysis",
-        "topic": "",
-        "courseNumber": "18549",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Harris Hall L07",
-            "MEETING_TIME": "TuTh 9:30AM - 10:50AM"
-          },
-          {
-            "ROOM": "Harris Hall L07",
-            "MEETING_TIME": "Fr 10:00AM - 10:50AM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "337-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Economics of State and Local Governments",
-        "topic": "",
-        "courseNumber": "18550",
-        "classMeetingInfo": [
-          {
-            "ROOM": "University Hall 122",
-            "MEETING_TIME": "MoWeFr 9:30AM - 10:50AM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "339-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Labor Economics",
-        "topic": "",
-        "courseNumber": "17408",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Harris Hall L07",
-            "MEETING_TIME": "TuTh 3:30PM - 4:50PM"
-          },
-          {
-            "ROOM": "Harris Hall L07",
-            "MEETING_TIME": "Fr 3:00PM - 3:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "342-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Economics of Gender",
-        "topic": "",
-        "courseNumber": "17412",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Technological Institute L361",
-            "MEETING_TIME": "TuTh 9:30AM - 10:50AM"
-          },
-          {
-            "ROOM": "Location of Midterm TBD",
-            "MEETING_TIME": "Th 6:30PM - 8:30PM"
-          },
-          {
-            "ROOM": "Location of Midterm TBD",
-            "MEETING_TIME": "Th 6:30PM - 8:30PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "349-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Industrial Economics",
-        "topic": "",
-        "courseNumber": "16255",
-        "classMeetingInfo": [
-          {
-            "ROOM": "2122 Sheridan Rd Classroom 250",
-            "MEETING_TIME": "MoWeFr 9:30AM - 10:50AM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "354-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Issues in Urban and Regional Economics",
-        "topic": "",
-        "courseNumber": "18962",
-        "classMeetingInfo": [
-          {
-            "ROOM": "University Hall 102",
-            "MEETING_TIME": "MoWeFr 2:00PM - 3:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "355-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Transportation Economics and Public Policy",
-        "topic": "",
-        "courseNumber": "16284",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Harris Hall L07",
-            "MEETING_TIME": "MoWeFr 11:00AM - 12:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "362-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "International Finance",
-        "topic": "",
-        "courseNumber": "18537",
-        "classMeetingInfo": [
-          {
-            "ROOM": "2122 Sheridan Rd Classroom 250",
-            "MEETING_TIME": "TuTh 2:00PM - 3:20PM"
-          },
-          {
-            "ROOM": "2122 Sheridan Rd Classroom 250",
-            "MEETING_TIME": "Fr 2:00PM - 2:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "380-1",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Game Theory",
-        "topic": "",
-        "courseNumber": "16256",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Frances Searle Building 2407",
-            "MEETING_TIME": "MoWeFr 2:00PM - 3:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "398-1",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Senior Seminar",
-        "topic": "",
-        "courseNumber": "16257",
-        "classMeetingInfo": [],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "398-2",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Senior Seminar",
-        "topic": "",
-        "courseNumber": "16258",
-        "classMeetingInfo": [],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "401-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Mathematical Methods of Economic Theory",
-        "topic": "",
-        "courseNumber": "17725",
-        "classMeetingInfo": [],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "410-1",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Microeconomics",
-        "topic": "",
-        "courseNumber": "16259",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 1410",
-            "MEETING_TIME": "MoWe 9:00AM - 10:50AM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "411-1",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Macroeconomics",
-        "topic": "",
-        "courseNumber": "16261",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 1410",
-            "MEETING_TIME": "TuTh 9:00AM - 10:50AM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "412-1",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Economic Theory and Methods",
-        "topic": "",
-        "courseNumber": "16263",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 3301",
-            "MEETING_TIME": "TuTh 3:30PM - 5:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "414-1",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Economics of Information",
-        "topic": "",
-        "courseNumber": "16264",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 3301",
-            "MEETING_TIME": "MoWe 9:00AM - 10:50AM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "416-1",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Advanced Macroeconomics",
-        "topic": "",
-        "courseNumber": "16265",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 3301",
-            "MEETING_TIME": "TuTh 1:30PM - 3:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "425-1",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Development Economics",
-        "topic": "",
-        "courseNumber": "16266",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 3301",
-            "MEETING_TIME": "Mo 3:30PM - 5:20PM"
-          },
-          {
-            "ROOM": "Kellogg Econ Classroom 1410",
-            "MEETING_TIME": "We 3:30PM - 5:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "450-1",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Industrial Organization",
-        "topic": "",
-        "courseNumber": "16267",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 1410",
-            "MEETING_TIME": "MoWe 1:30PM - 3:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "480-1",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Econometrics",
-        "topic": "",
-        "courseNumber": "16268",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 1410",
-            "MEETING_TIME": "TuTh 1:00PM - 2:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "481-1",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Advanced Econometrics",
-        "topic": "",
-        "courseNumber": "16270",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 1410",
-            "MEETING_TIME": "MoWe 5:30PM - 7:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "482-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Applied Time-Series Econometrics",
-        "topic": "",
-        "courseNumber": "16271",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 1410",
-            "MEETING_TIME": "TuTh 11:00AM - 12:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "483-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Applied Microeconometrics",
-        "topic": "",
-        "courseNumber": "17409",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 3301",
-            "MEETING_TIME": "TuTh 9:00AM - 10:50AM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "501-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Graduate Student Seminar",
-        "topic": "",
-        "courseNumber": "16272",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 1410",
-            "MEETING_TIME": "MoWe 11:00AM - 11:50AM"
-          },
-          {
-            "ROOM": "Kellogg Econ Classroom 1410",
-            "MEETING_TIME": "Fr 2:00PM - 2:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "515-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Research Seminar in Economic Theory",
-        "topic": "",
-        "courseNumber": "16273",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Meets in Non-General PurposeRm",
-            "MEETING_TIME": "We 3:30PM - 4:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "519-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Responsible Conduct of Research Training",
-        "topic": "",
-        "courseNumber": "16280",
-        "classMeetingInfo": [],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "520-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Research Seminar in Economic History",
-        "topic": "",
-        "courseNumber": "16274",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 3301",
-            "MEETING_TIME": "We 3:30PM - 4:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "530-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Research Seminar in Macroeconomics",
-        "topic": "",
-        "courseNumber": "16275",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 1410",
-            "MEETING_TIME": "Mo 12:00PM - 1:20PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "535-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Research Seminar in Applied Microeconomics",
-        "topic": "",
-        "courseNumber": "16281",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 1410",
-            "MEETING_TIME": "Th 3:30PM - 4:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "550-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Research Seminar in Industrial Organization",
-        "topic": "",
-        "courseNumber": "16276",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 1410",
-            "MEETING_TIME": "Mo 3:30PM - 4:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "560-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Research Seminar in International Economics",
-        "topic": "",
-        "courseNumber": "16277",
-        "classMeetingInfo": [],
-        "startDate": "2021-09-21"
-      },
-      {
-        "termDescription": "2021 Fall",
-        "catalogNumber": "580-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Research Seminar in Econometrics",
-        "topic": "",
-        "courseNumber": "16278",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kellogg Econ Classroom 1410",
-            "MEETING_TIME": "Tu 3:30PM - 4:50PM"
-          }
-        ],
-        "startDate": "2021-09-21"
-      }
-    ],
-    "school": "WCAS",
-    "subject": "ECON"
   },
   {
     "status": 200,

@@ -10,6 +10,11 @@ import {
   updateSchedulesArrayAddCourse,
   updateSchedulesArrayRemoveCourse,
 } from "../../firebase/scheduleService";
+import {
+  bubbleSortByQuarter,
+  bubbleSortByYear,
+  quarterMap,
+} from "../../lib/utils";
 
 interface ScheduleProps {
   // clicking on detail modal
@@ -64,13 +69,17 @@ const Schedule: React.FC<ScheduleProps> = ({
         listOfQuarterYears.push(scheduleCourses[i].termDescription);
       }
     }
-    return listOfQuarterYears;
+    // sort the list of quarters
+
+    const sortedByYear = bubbleSortByYear(listOfQuarterYears);
+    return bubbleSortByQuarter(sortedByYear);
   };
 
   // initial render - run this to get the list of courses from the DB, and then
   // render them in the correct "YEAR SEASON" buckets
   useEffect(() => {
     const getScheduleFromFirebase = async () => {
+      setLoading(true);
       const courseDataFromDb: ScheduleCourse[] = [];
       // begin
       const scheduleRecords = await getSchedulesByUserId(
@@ -85,6 +94,7 @@ const Schedule: React.FC<ScheduleProps> = ({
 
       // set
       setScheduleCourses(courseDataFromDb);
+      setLoading(false);
     };
 
     getScheduleFromFirebase()
@@ -129,7 +139,13 @@ const Schedule: React.FC<ScheduleProps> = ({
 
   return (
     <>
-      {scheduleId === "" && (
+      {loading && scheduleCourses.length < 1 && (
+        <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
+          <h1 className="text-xs font-semibold text-gray-900">Loading...</h1>
+        </div>
+      )}
+
+      {!loading && scheduleId === "" && scheduleCourses.length < 1 && (
         <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
           <h1 className="text-l font-semibold text-gray-900">
             Welcome to Ivy's schedule pane! Select a course from the search
@@ -138,7 +154,7 @@ const Schedule: React.FC<ScheduleProps> = ({
         </div>
       )}
 
-      {scheduleId !== "" && (
+      {!loading && scheduleId !== "" && scheduleCourses.length < 1 && (
         <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
           <h1 className="text-l font-semibold text-gray-900">
             Select a course from the search panel to start your schedule 👉
@@ -147,7 +163,7 @@ const Schedule: React.FC<ScheduleProps> = ({
       )}
 
       {quarterYearSets.map((quarterYear, id) => (
-        <div key={id}>
+        <div key={id} className="rounded-lg bg-white px-4 py-5 shadow-lg mb-5">
           {/* WILL BE THE TITLE OF THE RELEVANT COLUMN */}
           {scheduleCourses.length !== 0 && (
             <div
@@ -156,7 +172,7 @@ const Schedule: React.FC<ScheduleProps> = ({
               } -ml-8 sm:px-6 md:px-8`}
             >
               <h1 className="text-l font-semibold text-gray-900">
-                {quarterYear}
+                {quarterMap(quarterYear)}
               </h1>
             </div>
           )}

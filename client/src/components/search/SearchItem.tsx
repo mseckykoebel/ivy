@@ -111,16 +111,6 @@ const SearchItem: React.FC<SearchItemProps> = ({
         return;
       }
 
-      if (scheduleCourses.length === 5) {
-        setError(
-          "Cannot add more than five courses. Please remove a course from your schedule"
-        );
-        setTimeout(() => {
-          setError("");
-        }, 3000);
-        return;
-      }
-
       // see if this course is in the calendarCourses already. If not, add it
       for (let i = 0; i < scheduleCourses.length; i++) {
         if (scheduleCourses[i].courseNumber === courseNumber) {
