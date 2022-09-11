@@ -163,14 +163,13 @@ const Schedule: React.FC<ScheduleProps> = ({
       )}
 
       {quarterYearSets.map((quarterYear, id) => (
-        <div key={id} className="rounded-lg bg-white px-4 py-5 shadow-lg mb-5">
+        <div
+          key={id}
+          className="rounded-lg bg-white px-4 py-5 border-[1px] border-gray-200 mb-5"
+        >
           {/* WILL BE THE TITLE OF THE RELEVANT COLUMN */}
           {scheduleCourses.length !== 0 && (
-            <div
-              className={`mx-auto max-w-7xl pb-5 ${
-                id !== 0 ? "pt-5" : ""
-              } -ml-8 sm:px-6 md:px-8`}
-            >
+            <div className="mx-auto max-w-7xl pb-5 -ml-8 sm:px-6 md:px-8">
               <h1 className="text-l font-semibold text-gray-900">
                 {quarterMap(quarterYear)}
               </h1>
