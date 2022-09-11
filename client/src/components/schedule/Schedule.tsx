@@ -163,13 +163,13 @@ const Schedule: React.FC<ScheduleProps> = ({
   return (
     <>
       {loadingRef.current && scheduleCourses.length < 1 && (
-        <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
+        <div className="font-atkinson mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
           <h1 className="text-xs font-semibold text-gray-900">Loading...</h1>
         </div>
       )}
 
       {!loadingRef.current && scheduleId === "" && scheduleCourses.length < 1 && (
-        <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
+        <div className="font-atkinson mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
           <h1 className="text-l font-semibold text-gray-900">
             Welcome to Ivy's schedule pane! Select a course from the search
             panel to start your schedule 👉
@@ -178,7 +178,7 @@ const Schedule: React.FC<ScheduleProps> = ({
       )}
 
       {!loadingRef.current && scheduleId !== "" && scheduleCourses.length < 1 && (
-        <div className="mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
+        <div className="font-atkinson mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
           <h1 className="text-l font-semibold text-gray-900">
             Select a course from the search panel to start your schedule 👉
           </h1>
@@ -193,7 +193,7 @@ const Schedule: React.FC<ScheduleProps> = ({
           {/* WILL BE THE TITLE OF THE RELEVANT COLUMN */}
           {scheduleCourses.length !== 0 && (
             <div className="mx-auto max-w-7xl pb-5 -ml-8 sm:px-6 md:px-8">
-              <h1 className="text-l font-semibold text-gray-900">
+              <h1 className="text-xl font-atkinson-bold text-gray-900">
                 {quarterMap(quarterYear)}
               </h1>
             </div>
@@ -217,14 +217,14 @@ const Schedule: React.FC<ScheduleProps> = ({
                   >
                     <div className="flex-1 truncate">
                       <div className="flex items-center space-x-3">
-                        <h3 className="text-gray-900 text-sm font-medium truncate">
+                        <h3 className="text-gray-900 text-sm font-medium font-atkinson-bold truncate">
                           {course.subject} {course.catalogNumber}
                         </h3>
                       </div>
-                      <p className="mt-1 text-gray-500 text-sm truncate">
+                      <p className="font-atkinson mt-1 text-gray-500 text-sm truncate">
                         {course.courseTitle}
                       </p>
-                      <p className="mt-1 text-gray-500 text-sm truncate">
+                      <p className="font-atkinson mt-1 text-gray-500 text-sm truncate">
                         {course.school}
                       </p>
                       {/* Requirement badge
@@ -232,7 +232,7 @@ const Schedule: React.FC<ScheduleProps> = ({
                 {person.role}
               </span>
                */}
-                      <div className="mt-3 text-[.75rem]">
+                      <div className="font-atkinson mt-3 text-[.75rem]">
                         <button
                           className="font-small text-indigo-600 hover:text-indigo-500 hover:underline"
                           onClick={() => {
