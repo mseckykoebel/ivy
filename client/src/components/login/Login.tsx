@@ -49,11 +49,11 @@ const Login: React.FC = (): JSX.Element => {
   };
   //   Return
   return (
-    <div className="min-h-[100vh] flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-grey-500">
+    <div className="min-h-[100vh] bg-green-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-grey-500">
       <div className="max-w-md w-full space-y-8">
         <div>
           <IvyLottie />
-          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
+          <h2 className="mt-6 text-center text-4xl font-extrabold text-gray-900 font-cooper-bold">
             Sign in to your Ivy account
           </h2>
         </div>
@@ -138,40 +138,42 @@ const Login: React.FC = (): JSX.Element => {
             </button>
           </div>
           {/* LOG IN INSTEAD */}
-          <div className="flex items-center justify-center">
-            <div className="flex items-center">
-              <button
-                onClick={() => navigate("/register")}
-                className="text-sm font-medium text-green-500 hover:text-green-500 hover:underline"
-              >
-                {" "}
-                Don't have an account? Click here to create one &rarr;{" "}
-              </button>
+          <div className="flex items-center flex-col space-y-1">
+            <div className="flex items-center justify-center">
+              <div className="flex items-center">
+                <button
+                  onClick={() => navigate("/register")}
+                  className="text-sm font-medium text-green-500 hover:text-green-500 hover:underline"
+                >
+                  {" "}
+                  Don't have an account? Click here to create one &rarr;{" "}
+                </button>
+              </div>
             </div>
-          </div>
-          {/* FORGOT PASSWORD */}
-          <div className="flex items-center justify-center">
-            <div className="flex items-center">
-              <button
-                onClick={() => navigate("/forgot-password")}
-                className="text-sm font-medium text-green-500 hover:text-green-500 hover:underline"
-              >
-                {" "}
-                Forgot your password? &rarr;{" "}
-              </button>
+            {/* FORGOT PASSWORD */}
+            <div className="flex items-center justify-center">
+              <div className="flex items-center">
+                <button
+                  onClick={() => navigate("/forgot-password")}
+                  className="text-sm font-medium text-green-500 hover:text-green-500 hover:underline"
+                >
+                  {" "}
+                  Forgot your password? &rarr;{" "}
+                </button>
+              </div>
             </div>
-          </div>
-          {/* NO THANKS, JUST BROWSING */}
-          <div className="flex items-center justify-center">
-            <div className="flex items-center">
-              <button
-                onClick={handleSuperUserSubmit}
-                className="text-sm font-medium text-green-500 hover:text-green-500 hover:underline"
-              >
-                {" "}
-                No thanks, just browsing! Take me to Ivy without signing in
-                &rarr;{" "}
-              </button>
+            {/* NO THANKS, JUST BROWSING */}
+            <div className="flex items-center justify-center">
+              <div className="flex items-center">
+                <button
+                  onClick={handleSuperUserSubmit}
+                  className="text-sm font-medium text-green-500 hover:text-green-500 hover:underline"
+                >
+                  {" "}
+                  No thanks, just browsing! Take me to Ivy without signing in
+                  &rarr;{" "}
+                </button>
+              </div>
             </div>
           </div>
         </form>

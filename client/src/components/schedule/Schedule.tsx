@@ -77,30 +77,34 @@ const Schedule: React.FC<ScheduleProps> = ({
   // initial render - run this to get the list of courses from the DB, and then
   // render them in the correct "YEAR SEASON" buckets
   useEffect(() => {
-    const getScheduleFromFirebase = async () => {
-      setLoading(true);
-      const courseDataFromDb: ScheduleCourse[] = [];
-      // begin
-      const scheduleRecords = await getSchedulesByUserId(
-        currentUser?.uid as string
-      );
-      // set the document ID for this schedule
-      setScheduleId(scheduleRecords.id);
-      // remove the id
-      for (let j = 0; j < scheduleRecords.data.coursesData.length; j++) {
-        courseDataFromDb.push(scheduleRecords.data.coursesData[j]);
-      }
+    if (currentUser?.email !== "msk@gmail.com") {
+      const getScheduleFromFirebase = async () => {
+        setLoading(true);
+        const courseDataFromDb: ScheduleCourse[] = [];
+        // begin
+        const scheduleRecords = await getSchedulesByUserId(
+          currentUser?.uid as string
+        );
+        setLoading(false);
+        // if this is null, there are no schedule records, and we can continue
+        if (!scheduleRecords) return;
+        // set the document ID for this schedule
+        setScheduleId(scheduleRecords.id);
+        // remove the id
+        for (let j = 0; j < scheduleRecords.data.coursesData.length; j++) {
+          courseDataFromDb.push(scheduleRecords.data.coursesData[j]);
+        }
 
-      // set
-      setScheduleCourses(courseDataFromDb);
-      setLoading(false);
-    };
+        // set
+        setScheduleCourses(courseDataFromDb);
+      };
 
-    getScheduleFromFirebase()
-      .then(() => setQuarterYearSets(initQuarterYearSets()))
-      .catch((err) => {
-        console.log("There was an error fetching courses from the DB: ", err);
-      });
+      getScheduleFromFirebase()
+        .then(() => setQuarterYearSets(initQuarterYearSets()))
+        .catch((err) => {
+          console.log("There was an error fetching courses from the DB: ", err);
+        });
+    }
   }, []);
 
   // big 🎣
@@ -113,10 +117,12 @@ const Schedule: React.FC<ScheduleProps> = ({
       // update the array of courses if something was added
       // handleRemoveCourse handles removal, so we know this is an addition!
       // and, we know the last added course is the newest. So, send that one to firebase
-      updateSchedulesArrayAddCourse(
-        scheduleId,
-        scheduleCourses[scheduleCourses.length - 1]
-      );
+      if (currentUser?.email !== "msk@gmail.com") {
+        updateSchedulesArrayAddCourse(
+          scheduleId,
+          scheduleCourses[scheduleCourses.length - 1]
+        );
+      }
     }
   }, [scheduleCourses]);
 
@@ -126,7 +132,9 @@ const Schedule: React.FC<ScheduleProps> = ({
       return course.courseNumber === courseId;
     });
     // HANDLE DELETION FROM THE DB
-    updateSchedulesArrayRemoveCourse(scheduleId, courseToRemove[0]);
+    if (currentUser?.email !== "msk@gmail.com") {
+      updateSchedulesArrayRemoveCourse(scheduleId, courseToRemove[0]);
+    }
 
     // REMOVE FROM THE UI
     setScheduleCourses((currentCourses: ScheduleCourse[]) =>

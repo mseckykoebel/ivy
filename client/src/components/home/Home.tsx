@@ -324,12 +324,15 @@ const Home: React.FC = (): JSX.Element => {
               <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <div className="relative py-5 flex items-center justify-center lg:justify-between">
                   {/* Logo */}
-                  <div className="relative left-0 flex-shrink 0 lg:static backdrop-blur-sm bg-white/10 p-2.5 pr-4 pl-4 rounded-md">
+                  <div className="relative left-0 flex-shrink 0 lg:static backdrop-blur-sm p-2.5 pr-4 pl-4 rounded-md">
                     <Link to="/">
                       <span className="sr-only">Ivy</span>
-                      <h1 className=" text-white text-xl font-bold">
-                        Ivy 🌿{" "}
-                        <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-900 text-white">
+                      <h1
+                        className=" text-white text-[2rem] font-bold font-cooper-bold"
+                        style={{ lineHeight: "1.75rem" }}
+                      >
+                        Ivy{" "}
+                        <span className="inline-flex font-sans items-center align-middle px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-700 text-white">
                           pre-release
                         </span>
                       </h1>
@@ -427,10 +430,10 @@ const Home: React.FC = (): JSX.Element => {
                             key={item.name}
                             className={classNames(
                               calView === true && item.name === "Calendar view"
-                                ? "bg-white/10"
+                                ? "bg-white/10 border-white border-[1px]"
                                 : calView === false &&
                                   item.name === "Schedule view"
-                                ? "bg-white/10"
+                                ? "bg-white/10 border-white border-[1px]"
                                 : "",
                               "text-sm text-white font-medium rounded-md  bg-opacity-0 px-3 py-2 hover:bg-opacity-10"
                             )}

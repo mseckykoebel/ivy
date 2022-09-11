@@ -3,7 +3,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: { 'cooper-bold': ['Cooper bold', 'serif'], }
+    },
   },
   plugins: [require('@tailwindcss/forms')],
 }

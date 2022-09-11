@@ -15,10 +15,11 @@ import { ScheduleCourseData, ScheduleRecord } from "./schedules";
 // get the current schedule of the logged in user by userId
 const getSchedulesByUserId = async (
   userId: string
-): Promise<ScheduleRecord> => {
+): Promise<ScheduleRecord | null> => {
   const majorsRef = collection(db, "schedules");
   const q = query(majorsRef, where("userId", "==", userId));
   const data = await getDocs(q);
+  if (data.docs.length === 0) return null;
   return {
     id: data.docs[0].id,
     data: data.docs[0].data() as ScheduleCourseData,
