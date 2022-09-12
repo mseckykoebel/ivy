@@ -76,11 +76,13 @@ const Calendar: React.FC<CalendarProps> = ({
       const newCourses: CalendarCourse[] = [];
       console.log("CURRENT COURSE: ", mustard);
       mustard.forEach((course) => {
-        const days: string[] = [];
+        const thisCoursesIteration = course;
+        const days = [];
         const daysOfWeekThisCourseIsOffered = getCourseDaysJustDays(
-          course.classMeetingInfo![0].MEETING_TIME
+          thisCoursesIteration.classMeetingInfo[0].MEETING_TIME
         );
-        const meetingTimeString = course.classMeetingInfo![0].MEETING_TIME;
+        const meetingTimeString =
+          thisCoursesIteration.classMeetingInfo[0].MEETING_TIME;
         if (new RegExp("Mo").test(daysOfWeekThisCourseIsOffered) === true)
           days.push("Mo");
         if (new RegExp("Tu").test(daysOfWeekThisCourseIsOffered) === true)
@@ -91,27 +93,34 @@ const Calendar: React.FC<CalendarProps> = ({
           days.push("Th");
         if (new RegExp("Fr").test(daysOfWeekThisCourseIsOffered) === true)
           days.push("Fr");
+
         console.log("DAYS OF WEEK: ", days);
 
+        const meetingTimeSplit =
+          thisCoursesIteration.classMeetingInfo[0].MEETING_TIME.split(" ");
+        // get just the meeting times
+        const meetingTimes: string[] = [];
         for (let j = 0; j < days.length; j++) {
+          const currentCoursePointer = thisCoursesIteration;
           console.log(
             "COURSE MEETING TIME: ",
-            course.classMeetingInfo[0].MEETING_TIME
+            currentCoursePointer.classMeetingInfo[0].MEETING_TIME
           );
-          // now, let's do some replacements
-          const meetingTimeSplit = meetingTimeString.split(" ");
+
           meetingTimeSplit.shift();
           meetingTimeSplit.unshift(days[j]);
           const newMeetingTime = meetingTimeSplit.join(" ");
           console.log("NEW MEETING TIME: ", newMeetingTime);
 
-          console.log("WHAT IS THE COURSE???: ", course);
-          course.classMeetingInfo![0].MEETING_TIME = newMeetingTime;
-          console.log("BRAND NEW COURSE NOW: ", course);
-          newCourses.push(course);
+          console.log("WHAT IS THE COURSE???: ", currentCoursePointer);
+          currentCoursePointer.classMeetingInfo[0].MEETING_TIME =
+            newMeetingTime;
+          console.log("BRAND NEW COURSE NOW: ", currentCoursePointer);
+          newCourses.push(currentCoursePointer);
           console.log("NEW COURSES NOW: ", newCourses);
         }
       });
+      return newCourses;
     };
 
     getNumberOfCourses();
