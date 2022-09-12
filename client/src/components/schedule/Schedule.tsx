@@ -193,7 +193,7 @@ const Schedule: React.FC<ScheduleProps> = ({
           {/* WILL BE THE TITLE OF THE RELEVANT COLUMN */}
           {scheduleCourses.length !== 0 && (
             <div className="mx-auto max-w-7xl pb-5 -ml-8 sm:px-6 md:px-8">
-              <h1 className="text-xl font-atkinson-bold text-gray-900">
+              <h1 className="text-2xl font-atkinson text-gray-900">
                 {quarterMap(quarterYear)}
               </h1>
             </div>
@@ -217,7 +217,7 @@ const Schedule: React.FC<ScheduleProps> = ({
                   >
                     <div className="flex-1 truncate">
                       <div className="flex items-center space-x-3">
-                        <h3 className="text-gray-900 text-sm font-medium font-atkinson-bold truncate">
+                        <h3 className="text-gray-900 text-md font-bold font-atkinson truncate">
                           {course.subject} {course.catalogNumber}
                         </h3>
                       </div>

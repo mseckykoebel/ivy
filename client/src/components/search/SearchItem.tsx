@@ -157,7 +157,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
       className={`${color} shadow sm:rounded-lg mb-4 m-4 hover:scale-[101%] transition-all hover:cursor-pointer`}
     >
       <div className="px-4 py-5 sm:p-6">
-        <h3 className="font-atkinson-bold text-lg leading-6 text-gray-900">
+        <h3 className="font-atkinson text-xl font-semibold leading-6 text-gray-900">
           {subject} {catalogNumber} - {courseTitle}
         </h3>
         <div className="font-atkinson mt-2 max-w-xl text-sm text-gray-500">
