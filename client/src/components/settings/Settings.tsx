@@ -334,6 +334,7 @@ export const Settings: React.FC<SettingsProps> = ({
                       {/* MAJORS */}
                       {/* MAJORS */}
                       {/* MAJORS */}
+                      {/*  
                       <Majors
                         majorRef={majorsRef}
                         major={major}
@@ -341,9 +342,6 @@ export const Settings: React.FC<SettingsProps> = ({
                         setError={setError}
                         setSuccess={setSuccess}
                       />
-                      {/* MINORS */}
-                      {/* MINORS */}
-                      {/* MINORS */}
                       <Minors
                         minorRef={minorsRef}
                         minor={minor}
@@ -351,6 +349,7 @@ export const Settings: React.FC<SettingsProps> = ({
                         setError={setError}
                         setSuccess={setSuccess}
                       />
+                      */}
                     </dl>
                   </div>
                 </div>
