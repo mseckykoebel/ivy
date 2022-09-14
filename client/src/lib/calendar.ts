@@ -367,10 +367,6 @@ const getCourseLengthMap = (courseLength: string): string => {
   }
 };
 
-const getCourseDaysMap = (courseDays: string): ColStartClasses[] => {
-  return getCourseDays(courseDays);
-};
-
 const getLengthOfTime = (timeFrame: string): number => {
   const splitTime = timeFrame.split(" ");
 
@@ -398,7 +394,7 @@ const getStartTime = (timeFrame: string) => {
 };
 
 // return a CSS class list corresponding to the days when this class is offered
-const getCourseDays = (timeFrame: string): ColStartClasses[] => {
+const getCourseDaysMap = (timeFrame: string): ColStartClasses => {
   const splitTime = timeFrame.split(" ");
   const daysOfWeek = splitTime[0];
   const days: ColStartClasses[] = [];
@@ -409,7 +405,7 @@ const getCourseDays = (timeFrame: string): ColStartClasses[] => {
   if (new RegExp("Th").test(daysOfWeek) === true) days.push("col-start-4");
   if (new RegExp("Fr").test(daysOfWeek) === true) days.push("col-start-5");
 
-  return days;
+  return days[0];
 };
 
 const getCourseDaysJustDays = (timeFrame: string): string => {

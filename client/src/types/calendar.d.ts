@@ -4,6 +4,6 @@ export interface CalendarCourse {
   subject: string;
   catalogNumber: string;
   courseNumber: string;
-  classMeetingInfo: { ROOM: string; MEETING_TIME: string }[] | [] | null;
+  classMeetingInfo: { ROOM: string; MEETING_TIME: string }[] | [];
   color: string;
 }

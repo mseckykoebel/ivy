@@ -54,9 +54,7 @@ const Calendar: React.FC<CalendarProps> = ({
   }, []);
 
   const updateCourses = (coursesToUpdate: CalendarCourse[]) => {
-    // return currentCourses;
-    console.log("DONE!: ", coursesToUpdate);
-
+    console.log("THESE ARE THE COURSES TO UPDATE: ", coursesToUpdate);
     const mustard = [
       {
         subject: "COMP_ENG",
@@ -70,19 +68,37 @@ const Calendar: React.FC<CalendarProps> = ({
         ],
         color: "bg-lime-100",
       },
+      {
+        subject: "COMP_SCI",
+        catalogNumber: "214-0",
+        courseNumber: "14649",
+        classMeetingInfo: [
+          {
+            ROOM: "Pepper Institute 123",
+            MEETING_TIME: "TuTh 2:00PM - 3:30PM",
+          },
+        ],
+        color: "bg-lime-100",
+      }
     ];
+
     // must find when courses are offered
     const getNumberOfCourses = () => {
       const newCourses: CalendarCourse[] = [];
-      console.log("CURRENT COURSE: ", mustard);
-      mustard.forEach((course) => {
-        const thisCoursesIteration = course;
-        const days = [];
+      console.log("CURRENT COURSES: ", mustard);
+      for (let i = 0; i < mustard.length; i++) {
+        const thisCoursesIteration = { ...mustard[i] };
+        console.log("NOW ITERATING: ", thisCoursesIteration);
+        const days: string[] = [];
         const daysOfWeekThisCourseIsOffered = getCourseDaysJustDays(
           thisCoursesIteration.classMeetingInfo[0].MEETING_TIME
         );
-        const meetingTimeString =
-          thisCoursesIteration.classMeetingInfo[0].MEETING_TIME;
+
+        console.log(
+          "THE WEEK THIS IS OFFERED: ",
+          daysOfWeekThisCourseIsOffered
+        );
+
         if (new RegExp("Mo").test(daysOfWeekThisCourseIsOffered) === true)
           days.push("Mo");
         if (new RegExp("Tu").test(daysOfWeekThisCourseIsOffered) === true)
@@ -94,36 +110,31 @@ const Calendar: React.FC<CalendarProps> = ({
         if (new RegExp("Fr").test(daysOfWeekThisCourseIsOffered) === true)
           days.push("Fr");
 
-        console.log("DAYS OF WEEK: ", days);
-
         const meetingTimeSplit =
           thisCoursesIteration.classMeetingInfo[0].MEETING_TIME.split(" ");
         // get just the meeting times
         const meetingTimes: string[] = [];
         for (let j = 0; j < days.length; j++) {
-          const currentCoursePointer = thisCoursesIteration;
-          console.log(
-            "COURSE MEETING TIME: ",
-            currentCoursePointer.classMeetingInfo[0].MEETING_TIME
-          );
-
           meetingTimeSplit.shift();
           meetingTimeSplit.unshift(days[j]);
           const newMeetingTime = meetingTimeSplit.join(" ");
-          console.log("NEW MEETING TIME: ", newMeetingTime);
-
-          console.log("WHAT IS THE COURSE???: ", currentCoursePointer);
-          currentCoursePointer.classMeetingInfo[0].MEETING_TIME =
-            newMeetingTime;
-          console.log("BRAND NEW COURSE NOW: ", currentCoursePointer);
-          newCourses.push(currentCoursePointer);
-          console.log("NEW COURSES NOW: ", newCourses);
+          meetingTimes.push(newMeetingTime);
         }
-      });
+        for (let j = 0; j < days.length; j++) {
+          newCourses.push({
+            ...thisCoursesIteration,
+            classMeetingInfo: thisCoursesIteration.classMeetingInfo.map(
+              (item) => ({ ...item })
+            ),
+          });
+          newCourses[j].classMeetingInfo[0].MEETING_TIME = meetingTimes[j];
+        }
+      }
+      console.log("NEW COURSES: ", newCourses);
+
       return newCourses;
     };
-
-    getNumberOfCourses();
+    setRenderedCourses(getNumberOfCourses);
   };
 
   // updates the UI based on the courses present in the courses array
@@ -131,13 +142,8 @@ const Calendar: React.FC<CalendarProps> = ({
   // array is accurate. Do not look at the others.
   // Meaning - take the first element as gospel - this is when the course meets
   useEffect(() => {
-    console.log(
-      "THE COURSES HAVE BEEN MODIFIED. THIS IS WHAT THEY LOOK LIKE: ",
-      calendarCourses
-    );
-
     const allCurrentCourses = [...calendarCourses];
-
+    console.log("ALL CALENDAR COURSES");
     updateCourses(allCurrentCourses);
   }, [calendarCourses]);
 
@@ -365,8 +371,8 @@ const Calendar: React.FC<CalendarProps> = ({
                     return (
                       <li
                         key={id}
-                        className={`relative mt-px flex sm:${getCourseDaysMap(
-                          renderedCourses![0].classMeetingInfo![0].MEETING_TIME
+                        className={`relative mt-px flex ${getCourseDaysMap(
+                          course.classMeetingInfo![0].MEETING_TIME
                         )}`}
                         style={{
                           gridRow: `${getStartingTimeMap(
@@ -400,8 +406,7 @@ const Calendar: React.FC<CalendarProps> = ({
                           <p className="text-pink-500 group-hover:text-pink-700">
                             <time dateTime="2022-01-12T07:30">
                               {getStartTime(
-                                renderedCourses![0].classMeetingInfo![0]
-                                  .MEETING_TIME
+                                course.classMeetingInfo![0].MEETING_TIME
                               )}
                             </time>
                           </p>

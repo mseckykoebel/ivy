@@ -16,7 +16,7 @@ interface SearchItemProps {
   courseNumber: string;
   // additional color prop
   color: string;
-  classMeetingInfo: { ROOM: string; MEETING_TIME: string }[] | [] | null;
+  classMeetingInfo: { ROOM: string; MEETING_TIME: string }[] | [];
   termDescription: string;
   view: "Calendar" | "Schedule";
   // calendar (light prop drilling here)

@@ -123,7 +123,8 @@ const Schedule: React.FC<ScheduleProps> = ({
       setQuarterYearSets(initQuarterYearSets());
       // update the array of courses if something was added
       // handleRemoveCourse handles removal, so we know this is an addition!
-      // and, we know the last added course is the newest. So, send that one to firebase
+      // and, we know the last added course is the newest. So, send that one to firebase...
+      // but first, superUser if for the superUser
       if (currentUser?.email !== "msk@gmail.com") {
         if (scheduleId === "" && loadingRef.current === false) {
           createSchedulesArrayAddCourse(
@@ -133,10 +134,12 @@ const Schedule: React.FC<ScheduleProps> = ({
             setScheduleId(documentId);
           });
         } else {
-          updateSchedulesArrayAddCourse(
-            scheduleId,
-            scheduleCourses[scheduleCourses.length - 1]
-          );
+          if (scheduleId !== "") {
+            updateSchedulesArrayAddCourse(
+              scheduleId,
+              scheduleCourses[scheduleCourses.length - 1]
+            );
+          }
         }
       }
     }
