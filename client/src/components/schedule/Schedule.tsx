@@ -191,7 +191,11 @@ const Schedule: React.FC<ScheduleProps> = ({
       {quarterYearSets.map((quarterYear, id) => (
         <div
           key={id}
-          className="rounded-lg bg-white px-4 py-5 border-[1px] border-gray-200 mb-5"
+          className={`rounded-lg bg-white px-4 py-5 ${
+            !loadingRef.current && scheduleId !== "" && scheduleCourses.length
+              ? "border-[1px] border-gray-200"
+              : "border-none"
+          }  mb-5"`}
         >
           {/* WILL BE THE TITLE OF THE RELEVANT COLUMN */}
           {scheduleCourses.length !== 0 && (

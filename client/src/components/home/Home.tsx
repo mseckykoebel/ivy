@@ -34,7 +34,7 @@ const Home: React.FC = (): JSX.Element => {
   // navigate
   const navigate = useNavigate();
   // state
-  const [calView, setCalView] = useState<boolean>(true);
+  const [calView, setCalView] = useState<boolean>(false);
   const [query, setQuery] = useState<string>("");
   // UI state
   const [openSettingsModal, setOpenSettingsModal] = useState<boolean>(false);
@@ -299,7 +299,7 @@ const Home: React.FC = (): JSX.Element => {
         <body class="h-full">
         ```
       */}
-      <div className="min-h-full bg-green-50">
+      <div className="min-h-full">
         {/* MODALS */}
         {openSettingsModal && (
           <Settings
@@ -430,7 +430,7 @@ const Home: React.FC = (): JSX.Element => {
                             key={item.name}
                             className={classNames(
                               calView === true && item.name === "Calendar view"
-                                ? "bg-white/10 border-white border-[1px]"
+                                ? "bg-white/10 border-white border-[1px] select-none pointer-events-none"
                                 : calView === false &&
                                   item.name === "Schedule view"
                                 ? "bg-white/10 border-white border-[1px]"
@@ -440,11 +440,13 @@ const Home: React.FC = (): JSX.Element => {
                             aria-current={item.name ? "page" : undefined}
                             onClick={() =>
                               item.name === "Calendar view"
-                                ? setCalView(true)
+                                ? ""
                                 : setCalView(false)
                             }
                           >
-                            {item.name}
+                            {item.name === "Calendar view"
+                              ? "Calendar view under construction 👀"
+                              : item.name}
                           </button>
                         ))}
                       </nav>
