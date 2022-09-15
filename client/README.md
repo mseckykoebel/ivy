@@ -39,7 +39,7 @@ Raiso + NUIT
 | ------------------ | ----------------------- | --------------------------------------------------------------------------------------------- |
 | **Runtime**        | Node                    | v16 and runs as an HTTP server                                                                |
 | **Lint**           | eslint                  | `npm run lint`                                                                                |
-| **Builds**         | swc                     | `npm run build`                                                                               |
+| **Builds**         | Node                     | `npm run build`                                                                               |
 | **Dev**            | Node                    | `npm run start`                                                                               |
 | **Env**            | .env.local              | process.env and .env.local are merged via dotenv                                              |
 | **Hosting**        | Firebase hosting        | https:ivy.raiso.org                                                                           |
