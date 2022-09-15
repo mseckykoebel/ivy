@@ -113,7 +113,7 @@ const Login: React.FC = (): JSX.Element => {
           <div>
             <button
               type="submit"
-              className={`group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 ${
+              className={`select-none pointer-events-none group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 ${
                 loading ? "cursor-not-allowed" : ""
               }`}
               onClick={handleSubmit}
@@ -134,7 +134,7 @@ const Login: React.FC = (): JSX.Element => {
                   />
                 </svg>
               </span>
-              Log in
+              Log in to Ivy (disabled for pre-release)
             </button>
           </div>
           {/* LOG IN INSTEAD */}
@@ -164,13 +164,13 @@ const Login: React.FC = (): JSX.Element => {
             </div>
             {/* NO THANKS, JUST BROWSING */}
             <div className="flex items-center justify-center">
-              <div className="flex items-center">
+              <div className="select-none pointer-events-none flex items-center">
                 <button
                   onClick={handleSuperUserSubmit}
                   className="text-sm font-medium text-green-500 hover:text-green-500 hover:underline"
                 >
                   {" "}
-                  No thanks, just browsing! Take me to Ivy without signing in
+                  No thanks, just browsing! Take me to Ivy without signing in (disabled for pre-release)
                   &rarr;{" "}
                 </button>
               </div>
