@@ -1,0 +1,6633 @@
+[
+  {
+    "status": 200,
+    "results": 29,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "388-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Internship",
+        "topic": "",
+        "courseNumber": "41276",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "400-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Journalism Methods:  Writing",
+        "topic": "",
+        "courseNumber": "41282",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Tribune 3127",
+            "MEETING_TIME": "WeThFr 9:00AM - 10:30AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "400-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Journalism Methods:  Editing",
+        "topic": "",
+        "courseNumber": "41284",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Tribune 3127",
+            "MEETING_TIME": "Mo 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "400-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Journalism by the Numbers",
+        "topic": "",
+        "courseNumber": "43030",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Tribune 3127",
+            "MEETING_TIME": "Mo 1:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "401-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Ethics & Law of Journalism",
+        "topic": "",
+        "courseNumber": "41220",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Tribune 3127",
+            "MEETING_TIME": "Tu 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "404-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Sports Reporting",
+        "topic": "",
+        "courseNumber": "43021",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Tu 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "405-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Advanced Interactive Storytelling",
+        "topic": "",
+        "courseNumber": "43005",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Tu 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "406-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "News Graphics & Design",
+        "topic": "",
+        "courseNumber": "43006",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Tribune 2131",
+            "MEETING_TIME": "Mo 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "410-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Global Journalism",
+        "topic": "",
+        "courseNumber": "41224",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "421-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Urban Issues Seminar",
+        "topic": "",
+        "courseNumber": "41354",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Fr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "421-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Urban Issues Reporting",
+        "topic": "",
+        "courseNumber": "41356",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuWeTh 9:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "421-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Advanced Public Policy Reporting",
+        "topic": "",
+        "courseNumber": "43031",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 9:00AM - 12:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 9:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "423-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Advanced Business and the Economy Reporting",
+        "topic": "",
+        "courseNumber": "43032",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 9:00AM - 12:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 9:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "424-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Magazine Writing",
+        "topic": "",
+        "courseNumber": "41242",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Fisk Hall 206",
+            "MEETING_TIME": "Tu 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "424-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Magazine Editing",
+        "topic": "",
+        "courseNumber": "41250",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Fisk Hall 206",
+            "MEETING_TIME": "Th 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "425-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Advanced Health and Science Reporting",
+        "topic": "",
+        "courseNumber": "43033",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "427-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Investigative Reporting / CAR",
+        "topic": "",
+        "courseNumber": "43022",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Fisk Hall 311",
+            "MEETING_TIME": "Tu 1:00PM - 4:00PM"
+          },
+          {
+            "ROOM": "Fisk Hall 311",
+            "MEETING_TIME": "Fr 9:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "428-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Covering Religion, Faith & Values",
+        "topic": "",
+        "courseNumber": "43026",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Tu 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "433-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Chicago Broadcast Reporting",
+        "topic": "",
+        "courseNumber": "41240",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "WeTh 8:00AM - 5:30PM"
+          },
+          {
+            "ROOM": "McCormick Tribune 4115-Studio",
+            "MEETING_TIME": "Fr 8:00AM - 5:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "433-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Advanced Video Storytelling",
+        "topic": "",
+        "courseNumber": "43024",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "436-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "The Art & Craft of Writing a Non-Fiction Book",
+        "topic": "",
+        "courseNumber": "43036",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Fisk Hall 206",
+            "MEETING_TIME": "Mo 10:00AM - 1:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "438-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Watchdog Journalism",
+        "topic": "",
+        "courseNumber": "41230",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "Mo 8:00AM - 10:30AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "438-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Public Affairs, Politics & Government Reporting",
+        "topic": "",
+        "courseNumber": "41232",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 6:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "438-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Covering Public Policy",
+        "topic": "",
+        "courseNumber": "41236",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "Mo 12:00AM - 12:00AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "438-4",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Covering Conflicts, Terrorism & National Security",
+        "topic": "",
+        "courseNumber": "43012",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 12:00AM - 12:00AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "455-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Audience Insight",
+        "topic": "",
+        "courseNumber": "43037",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "461-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Media Economics & Marketing",
+        "topic": "",
+        "courseNumber": "43038",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "490-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "Multimedia Journalism Workshop",
+        "courseNumber": "41364",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "499-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Internship",
+        "topic": "",
+        "courseNumber": "41246",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "JOUR",
+    "subject": "EDIT"
+  },
+  {
+    "status": 200,
+    "results": 33,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "440-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Global Residency Evaluation",
+        "topic": "",
+        "courseNumber": "42983",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "440-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Global Residency Seminar",
+        "topic": "",
+        "courseNumber": "42984",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "440-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Global Residency Presentation",
+        "topic": "",
+        "courseNumber": "42985",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Evaluation",
+        "topic": "",
+        "courseNumber": "42986",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Evaluation",
+        "topic": "",
+        "courseNumber": "42987",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Evaluation",
+        "topic": "",
+        "courseNumber": "42988",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Evaluation",
+        "topic": "",
+        "courseNumber": "42989",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Evaluation",
+        "topic": "",
+        "courseNumber": "42990",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Evaluation",
+        "topic": "",
+        "courseNumber": "42991",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Evaluation",
+        "topic": "",
+        "courseNumber": "42992",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-0",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Evaluation",
+        "topic": "",
+        "courseNumber": "42993",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Evaluation",
+        "topic": "",
+        "courseNumber": "42994",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Seminar",
+        "topic": "",
+        "courseNumber": "41310",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-1",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Seminar",
+        "topic": "",
+        "courseNumber": "41312",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-1",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Seminar",
+        "topic": "",
+        "courseNumber": "41314",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Seminar",
+        "topic": "",
+        "courseNumber": "41316",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-1",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Seminar",
+        "topic": "",
+        "courseNumber": "41318",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-1",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Seminar",
+        "topic": "",
+        "courseNumber": "41320",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-1",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Seminar",
+        "topic": "",
+        "courseNumber": "41322",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-1",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Seminar",
+        "topic": "",
+        "courseNumber": "41324",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Professional Residency Seminar",
+        "topic": "",
+        "courseNumber": "41326",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Professional Residency: Presentation",
+        "topic": "",
+        "courseNumber": "42996",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-2",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Professional Residency: Presentation",
+        "topic": "",
+        "courseNumber": "42997",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-2",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Professional Residency: Presentation",
+        "topic": "",
+        "courseNumber": "42998",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Professional Residency: Presentation",
+        "topic": "",
+        "courseNumber": "42999",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-2",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Professional Residency: Presentation",
+        "topic": "",
+        "courseNumber": "43000",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-2",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Professional Residency: Presentation",
+        "topic": "",
+        "courseNumber": "43001",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-2",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Professional Residency: Presentation",
+        "topic": "",
+        "courseNumber": "43002",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-2",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Professional Residency: Presentation",
+        "topic": "",
+        "courseNumber": "43003",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Professional Residency: Presentation",
+        "topic": "",
+        "courseNumber": "43004",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "458-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Communities",
+        "topic": "",
+        "courseNumber": "43020",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "498-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Practicum",
+        "topic": "Digital Marketing",
+        "courseNumber": "41254",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Loop 211: 210 S. Clark St.",
+            "MEETING_TIME": "Tu 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "498-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Practicum",
+        "topic": "Customer Lifetime Value / Application",
+        "courseNumber": "41256",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Loop 211: 210 S. Clark St.",
+            "MEETING_TIME": "We 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "JOUR",
+    "subject": "IMC"
+  },
+  {
+    "status": 200,
+    "results": 12,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "205-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Theo Persuasion",
+        "topic": "",
+        "courseNumber": "42146",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2107",
+            "MEETING_TIME": "MoWe 1:30PM - 4:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "221-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Speech Writing",
+        "topic": "",
+        "courseNumber": "42246",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 214",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "250-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Team Leadership and Decision Making",
+        "topic": "",
+        "courseNumber": "42623",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2107",
+            "MEETING_TIME": "MoWe 9:30AM - 12:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "270-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Theories of Mediated Communication",
+        "topic": "",
+        "courseNumber": "42545",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2107",
+            "MEETING_TIME": "TuTh 1:30PM - 4:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "343-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Health Communication",
+        "topic": "",
+        "courseNumber": "43055",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 512",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "389-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Practicum in Communication Research",
+        "topic": "",
+        "courseNumber": "42206",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "393-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Field Study in Communication",
+        "topic": "Field Study Evanston Campus",
+        "courseNumber": "42088",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2107",
+            "MEETING_TIME": "We 7:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-25"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "393-0",
+        "section": "29",
+        "component": "LEC",
+        "courseTitle": "Field Study in Communication",
+        "topic": "Field Study New York",
+        "courseNumber": "42178",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "393-0",
+        "section": "30",
+        "component": "LEC",
+        "courseTitle": "Field Study in Communication",
+        "topic": "Field Study Los Angeles",
+        "courseNumber": "42180",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "393-0",
+        "section": "38",
+        "component": "LEC",
+        "courseTitle": "Field Study in Communication",
+        "topic": "Other Cities",
+        "courseNumber": "42210",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "393-0",
+        "section": "40",
+        "component": "LEC",
+        "courseTitle": "Field Study in Communication",
+        "topic": "",
+        "courseNumber": "42212",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "395-Z",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Topics in Communication Studies",
+        "topic": "Th &Pr of Community Consulting",
+        "courseNumber": "42244",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Mo 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "COMM_ST"
+  },
+  {
+    "status": 200,
+    "results": 34,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "343-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Family Systems: Theory & Intervention Strategies in Early Intervention",
+        "topic": "",
+        "courseNumber": "42158",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2370",
+            "MEETING_TIME": "MoWe 2:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "369-1",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Speech and Language Pathology",
+        "topic": "Management of Feeding Disorders in Infants & Toddl",
+        "courseNumber": "42116",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2370",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 4:30PM"
+          }
+        ],
+        "startDate": "2008-06-16"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "369-2",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Speech and Language Pathology",
+        "topic": "Assesment & Treatment of Right Brain Damage & Trau",
+        "courseNumber": "42118",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2107",
+            "MEETING_TIME": "MoTuWeThFr 4:00PM - 6:00PM"
+          }
+        ],
+        "startDate": "2008-07-22"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "388-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Attention Deficit Disorder and Related Behavior Disorders",
+        "topic": "",
+        "courseNumber": "42120",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2407",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 4:30PM"
+          }
+        ],
+        "startDate": "2008-06-16"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "408-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Supervision in Audiology",
+        "topic": "",
+        "courseNumber": "42154",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2378",
+            "MEETING_TIME": "TuTh 10:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "415-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Clinical Study and Practicum in Audiology",
+        "topic": "",
+        "courseNumber": "42124",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2370",
+            "MEETING_TIME": "Th 3:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "415-6",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Clinical Study and Practicum in Audiology",
+        "topic": "",
+        "courseNumber": "42174",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "TuTh 12:30PM - 2:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "417-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Noise & Its Effect on People",
+        "topic": "",
+        "courseNumber": "42160",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2407",
+            "MEETING_TIME": "TuTh 8:30AM - 10:00AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "426-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Evaluation and Treatment of Balance Disorders",
+        "topic": "",
+        "courseNumber": "42122",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2370",
+            "MEETING_TIME": "TuTh 8:00AM - 9:30AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "440-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Alternative & Augmentative Communication",
+        "topic": "",
+        "courseNumber": "42114",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2107",
+            "MEETING_TIME": "TuTh 8:00AM - 10:00AM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "444-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Development and Disorders of Mathematics and Learning Disabilities",
+        "topic": "",
+        "courseNumber": "42625",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2370",
+            "MEETING_TIME": "MoWeFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "470-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Diagnostic Studies of Speech, Language and Learning Disabilities",
+        "topic": "",
+        "courseNumber": "42624",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "471-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Theory and Practice in Speech, Language and Learning Disabilities",
+        "topic": "",
+        "courseNumber": "42242",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "478-1",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Theory and Practice in Learning Disabilities and Related Disorders",
+        "topic": "",
+        "courseNumber": "42626",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "478-2",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Theory and Practice in Learning Disabilities and Related Disorders",
+        "topic": "",
+        "courseNumber": "42156",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "486-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Language Disorders in Children With Learning Disabilities and Related Problems",
+        "topic": "",
+        "courseNumber": "42218",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2407",
+            "MEETING_TIME": "TuTh 10:30AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "489-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Clinical Study-Research in Differential Diagnosis",
+        "topic": "",
+        "courseNumber": "42190",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "TuTh 8:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "491-2",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Advanced Articulation and Phonological Disorders in Children",
+        "topic": "",
+        "courseNumber": "42132",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2407",
+            "MEETING_TIME": "TuTh 12:00PM - 2:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "494-2",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Advanced Study in Disorders of Fluency",
+        "topic": "",
+        "courseNumber": "42192",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2370",
+            "MEETING_TIME": "MoWeFr 12:00PM - 2:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "508-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Research in Clinical  Audiology",
+        "topic": "",
+        "courseNumber": "42140",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2370",
+            "MEETING_TIME": "TuTh 11:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "530-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Professional Issues in Speech Language Pathology",
+        "topic": "",
+        "courseNumber": "42968",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoWeFr 11:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "532-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Treatment: Clinical Procedures in SLP",
+        "topic": "",
+        "courseNumber": "42134",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "532-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Treatment: Clinical Procedures in SLP",
+        "topic": "",
+        "courseNumber": "42627",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "533-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Adv ancedTreatment Clinical Procedures in SLP",
+        "topic": "",
+        "courseNumber": "42136",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "533-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Advanced Treatment:Clinical Procedures in SLP",
+        "topic": "",
+        "courseNumber": "42628",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "534-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Diagnostics: Clinical Procedures in SLP",
+        "topic": "",
+        "courseNumber": "42629",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "534-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Diagnostics: Clinical Procedures in SLP",
+        "topic": "",
+        "courseNumber": "42630",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "536-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Practicum in Health-Based Facilities: Clinical Procedure in SLP",
+        "topic": "",
+        "courseNumber": "42138",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "538-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Advanced Practicum in Health-Based Facilities: Clinical Procedures in SLP",
+        "topic": "",
+        "courseNumber": "42631",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "539-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Early Intervention: Clinical Procedures in SLP",
+        "topic": "",
+        "courseNumber": "42126",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "539-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Clinical Theory & Practice in Assessmentand Early Intervention",
+        "topic": "",
+        "courseNumber": "42128",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "575-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Advanced Seminar: Current Topics in Learning Disabilities",
+        "topic": "",
+        "courseNumber": "42142",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2378",
+            "MEETING_TIME": "MoWe 1:00PM - 2:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "580-4",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Clinical Externship",
+        "topic": "",
+        "courseNumber": "42194",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "593-3",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Clinical Theory & Practice in Assessmentand Early Intervention",
+        "topic": "",
+        "courseNumber": "42130",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "CSD"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "102-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Public Speaking",
+        "topic": "",
+        "courseNumber": "42148",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 214",
+            "MEETING_TIME": "MoWe 9:30AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "102-0",
+        "section": "38",
+        "component": "LEC",
+        "courseTitle": "Public Speaking",
+        "topic": "",
+        "courseNumber": "42162",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 214",
+            "MEETING_TIME": "TuTh 9:30AM - 11:50AM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "GEN_CMN"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "330-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Topics in Performance Studies",
+        "topic": "Food, Culture, and Performance",
+        "courseNumber": "42226",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 514",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "PERF_ST"
+  },
+  {
+    "status": 200,
+    "results": 19,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "119-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Media Apprenticeship",
+        "topic": "",
+        "courseNumber": "42090",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "260-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Foundations of Screenwriting",
+        "topic": "",
+        "courseNumber": "42092",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall G31",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "298-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Studies in Media Topics",
+        "topic": "Summer at the Movies",
+        "courseNumber": "42094",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 507",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "298-Z",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Studies in Media Topics",
+        "topic": "Television Across Europe",
+        "courseNumber": "42673",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "298-Z",
+        "section": "36",
+        "component": "LEC",
+        "courseTitle": "Studies in Media Topics",
+        "topic": "",
+        "courseNumber": "42674",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "322-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Film/TV Genre",
+        "topic": "French New Wave",
+        "courseNumber": "42164",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Louis Hall 118",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "322-0",
+        "section": "36",
+        "component": "LEC",
+        "courseTitle": "Film/TV Genre",
+        "topic": "Reality vs. Reality TV",
+        "courseNumber": "42572",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall G32",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "322-0",
+        "section": "46",
+        "component": "LEC",
+        "courseTitle": "Film/TV Genre",
+        "topic": "Dark Cinema: Film Noir",
+        "courseNumber": "42573",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall G30",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "348-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "RTVF Internship",
+        "topic": "Internship Evanston",
+        "courseNumber": "42096",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "348-0",
+        "section": "38",
+        "component": "LEC",
+        "courseTitle": "RTVF Internship",
+        "topic": "Internship New York",
+        "courseNumber": "42170",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "348-0",
+        "section": "48",
+        "component": "LEC",
+        "courseTitle": "RTVF Internship",
+        "topic": "Internship Los Angeles",
+        "courseNumber": "42182",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "348-0",
+        "section": "58",
+        "component": "LEC",
+        "courseTitle": "RTVF Internship",
+        "topic": "Other Cities",
+        "courseNumber": "42198",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "349-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Internship",
+        "topic": "",
+        "courseNumber": "42098",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall 101",
+            "MEETING_TIME": "Tu 7:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "349-0",
+        "section": "38",
+        "component": "LEC",
+        "courseTitle": "Internship",
+        "topic": "New York",
+        "courseNumber": "42172",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "349-0",
+        "section": "48",
+        "component": "LEC",
+        "courseTitle": "Internship",
+        "topic": "Los Angeles",
+        "courseNumber": "42184",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "349-0",
+        "section": "58",
+        "component": "LEC",
+        "courseTitle": "Internship",
+        "topic": "Other Cities",
+        "courseNumber": "42200",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "360-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Topics in Media Writing",
+        "topic": "Writing the Teen Romantic Comedy",
+        "courseNumber": "42575",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall G31",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "398-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Issues in RTVF",
+        "topic": "Electronic Media Management",
+        "courseNumber": "42196",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2370",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "419-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Graduate Summer Internship",
+        "topic": "",
+        "courseNumber": "42717",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "RTVF"
+  },
+  {
+    "status": 200,
+    "results": 12,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "119-0",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Production Laboratory",
+        "topic": "",
+        "courseNumber": "42546",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "MoTuWeThFr 12:00AM - 12:00AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "119-0",
+        "section": "22",
+        "component": "LAB",
+        "courseTitle": "Production Laboratory",
+        "topic": "",
+        "courseNumber": "42547",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "MoTuWeThFr 12:00AM - 12:00AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "119-0",
+        "section": "23",
+        "component": "LAB",
+        "courseTitle": "Production Laboratory",
+        "topic": "",
+        "courseNumber": "42548",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "242-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Stage Makeup",
+        "topic": "",
+        "courseNumber": "42166",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Theater Int Cntr Barber Makeup",
+            "MEETING_TIME": "TuTh 11:30AM - 2:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "243-1",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Acting I-Principles of Characterization",
+        "topic": "",
+        "courseNumber": "42549",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Theater Int Cntr Wallis",
+            "MEETING_TIME": "MoWe 9:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "312-1",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "The Art of Storytelling I",
+        "topic": "",
+        "courseNumber": "42102",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Theater Int Cntr South Studio",
+            "MEETING_TIME": "TuTh 9:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "330-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "The Monologue",
+        "courseNumber": "42230",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Theater Int Cntr South Studio",
+            "MEETING_TIME": "MoWe 11:30AM - 2:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "330-0",
+        "section": "36",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "Devising Theatre for Youth",
+        "courseNumber": "42550",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Theater Int Cntr Wallis",
+            "MEETING_TIME": "TuTh 11:30AM - 2:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "330-0",
+        "section": "46",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "Business of Show Business",
+        "courseNumber": "42551",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Theater Int Cntr Wallis",
+            "MEETING_TIME": "TuTh 9:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "349-3",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Acting III: Problems in Style",
+        "topic": "Acting for the Camera",
+        "courseNumber": "42144",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Louis Hall 106",
+            "MEETING_TIME": "TuTh 4:00PM - 6:30PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "372-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Music Theatre",
+        "topic": "1968: Year of the Barricades",
+        "courseNumber": "42552",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Theater Int Cntr Wallis",
+            "MEETING_TIME": "MoWe 11:30AM - 2:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "380-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Internship in Theatre Practice",
+        "topic": "",
+        "courseNumber": "42150",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "THEATRE"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "277-4",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Summer Jazz Band",
+        "topic": "",
+        "courseNumber": "41380",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music 011",
+            "MEETING_TIME": "TuWe 7:30PM - 9:30PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "282-4",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Summer Community Chorus",
+        "topic": "",
+        "courseNumber": "41382",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 109",
+            "MEETING_TIME": "MoTh 7:00PM - 9:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "283-4",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Summer Band",
+        "topic": "",
+        "courseNumber": "41384",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music 011",
+            "MEETING_TIME": "MoTuWe 5:30PM - 7:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "286-4",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Summer Orchestra",
+        "topic": "",
+        "courseNumber": "41386",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Pick-Staiger Rehearsal Room",
+            "MEETING_TIME": "MoTh 7:30PM - 10:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "323-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Marching Band Techniques",
+        "topic": "",
+        "courseNumber": "42599",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 219",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "335-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Selected Topics in Conducting",
+        "topic": "Choral Rehearsal",
+        "courseNumber": "41630",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 229",
+            "MEETING_TIME": "MoTuWeThFr 2:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "335-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Selected Topics in Conducting",
+        "topic": "Advanced Instrument Rehearsal Techniques",
+        "courseNumber": "41636",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music 143",
+            "MEETING_TIME": "TuTh 3:00PM - 5:00PM"
+          },
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "Fr 3:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "335-0",
+        "section": "36",
+        "component": "LEC",
+        "courseTitle": "Selected Topics in Conducting",
+        "topic": "Adv. Conduct Before the Downbeat",
+        "courseNumber": "42598",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 125",
+            "MEETING_TIME": "MoWe 2:00PM - 4:00PM"
+          },
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "Fr 2:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "440-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Seminar in Conducting",
+        "topic": "",
+        "courseNumber": "42605",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "CONDUCT"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "170-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Music",
+        "topic": "",
+        "courseNumber": "41376",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 109",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 1:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "175-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Selected Topics for Nonmajors",
+        "topic": "The Needle and the Rhyme:Developments in Rap Music",
+        "courseNumber": "41622",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 125",
+            "MEETING_TIME": "MoWe 2:00PM - 4:00PM"
+          },
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "Fr 2:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "175-0",
+        "section": "36",
+        "component": "LEC",
+        "courseTitle": "Selected Topics for Nonmajors",
+        "topic": "Opera as a Mirror of Culture",
+        "courseNumber": "42601",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 37",
+            "MEETING_TIME": "MoTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "175-0",
+        "section": "43",
+        "component": "LEC",
+        "courseTitle": "Selected Topics for Nonmajors",
+        "topic": "Song Writing",
+        "courseNumber": "41620",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 125",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-14"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "GEN_MUS"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "335-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Jazz",
+        "topic": "Jazz Arranging for the Public School Teacher",
+        "courseNumber": "42607",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music 143",
+            "MEETING_TIME": "MoWe 8:00AM - 10:00AM"
+          },
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "Fr 8:00AM - 9:00AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "JAZZ_ST"
+  },
+  {
+    "status": 200,
+    "results": 13,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "330-0",
+        "section": "11",
+        "component": "LEC",
+        "courseTitle": "Practicum in Performance",
+        "topic": "The Vocal Career Seminar",
+        "courseNumber": "41600",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 43",
+            "MEETING_TIME": "MoTuWeThFr 6:30PM - 10:00PM"
+          }
+        ],
+        "startDate": "2008-07-28"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "330-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Practicum in Performance",
+        "topic": "Tuba Master Class",
+        "courseNumber": "42647",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "MoTuWeThSu 12:00AM - 12:00AM"
+          }
+        ],
+        "startDate": "2008-06-29"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "330-0",
+        "section": "31",
+        "component": "LEC",
+        "courseTitle": "Practicum in Performance",
+        "topic": "Charlie Vernon Trombone Master Classes",
+        "courseNumber": "41644",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "MoWeThFr 12:00AM - 12:00AM"
+          }
+        ],
+        "startDate": "2008-07-28"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "330-0",
+        "section": "51",
+        "component": "LEC",
+        "courseTitle": "Practicum in Performance",
+        "topic": "Flute Piccolo Master Orch Perf",
+        "courseNumber": "41390",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Pick-Staiger Concert Stage",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
+          },
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "TuTh 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "330-0",
+        "section": "61",
+        "component": "LEC",
+        "courseTitle": "Practicum in Performance",
+        "topic": "Conducting, Wind Symposium",
+        "courseNumber": "41392",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music 011",
+            "MEETING_TIME": "MoTuWeThFr 8:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-07-07"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "330-0",
+        "section": "71",
+        "component": "LEC",
+        "courseTitle": "Practicum in Performance",
+        "topic": "Trumpet Master Classes",
+        "courseNumber": "41394",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music 011",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
+          },
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "MoTuWeThFr 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-06-16"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "430-0",
+        "section": "11",
+        "component": "LEC",
+        "courseTitle": "Materials Performance Practice & Pedagogy",
+        "topic": "The Vocal Career Seminar",
+        "courseNumber": "41598",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 43",
+            "MEETING_TIME": "MoTuWeThFr 6:30PM - 10:00PM"
+          }
+        ],
+        "startDate": "2008-07-28"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "430-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Materials Performance Practice & Pedagogy",
+        "topic": "Tuba Master Class",
+        "courseNumber": "42648",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "MoTuWeThSu 12:00AM - 12:00AM"
+          }
+        ],
+        "startDate": "2008-06-29"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "430-0",
+        "section": "31",
+        "component": "LEC",
+        "courseTitle": "Materials Performance Practice & Pedagogy",
+        "topic": "Charlie Vernon Trombone Master Class",
+        "courseNumber": "41646",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "MoWeThFr 12:00AM - 12:00AM"
+          }
+        ],
+        "startDate": "2008-07-28"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "430-0",
+        "section": "51",
+        "component": "LEC",
+        "courseTitle": "Materials Performance Practice & Pedagogy",
+        "topic": "Flute Piccolo Master Orch Perf",
+        "courseNumber": "41398",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Pick-Staiger Concert Stage",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "430-0",
+        "section": "61",
+        "component": "LEC",
+        "courseTitle": "Materials Performance Practice & Pedagogy",
+        "topic": "Conducting & Wind Symposium",
+        "courseNumber": "41400",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music 011",
+            "MEETING_TIME": "MoTuWeThFr 8:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-07-07"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "430-0",
+        "section": "71",
+        "component": "LEC",
+        "courseTitle": "Materials Performance Practice & Pedagogy",
+        "topic": "Trumpet Master Classes",
+        "courseNumber": "41402",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music 011",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-06-16"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "521-0",
+        "section": "20",
+        "component": "GEN",
+        "courseTitle": "DMus Continuation",
+        "topic": "",
+        "courseNumber": "42964",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "MUSIC"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "335-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Selected Topics in Music Literature",
+        "topic": "Opera at the Movies",
+        "courseNumber": "42586",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 125",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "335-0",
+        "section": "33",
+        "component": "LEC",
+        "courseTitle": "Selected Topics in Music Literature",
+        "topic": "Informal Music Ed in America",
+        "courseNumber": "42584",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 219",
+            "MEETING_TIME": "MoTuWeThFr 8:00AM - 10:00AM"
+          }
+        ],
+        "startDate": "2008-07-14"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "MUSICOL"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "335-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Selected Topics",
+        "topic": "School Orchestral Development",
+        "courseNumber": "41648",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music 143",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "335-0",
+        "section": "36",
+        "component": "LEC",
+        "courseTitle": "Selected Topics",
+        "topic": "Special Needs Learners in the Music Classroom",
+        "courseNumber": "42583",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 219",
+            "MEETING_TIME": "MoTuWeThFr 4:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "421-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Philosophical Basis of Music Education",
+        "topic": "",
+        "courseNumber": "42582",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 229",
+            "MEETING_TIME": "TuThFr 8:00AM - 10:00AM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "422-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Curriculum Development in Music Educatn",
+        "topic": "",
+        "courseNumber": "42581",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 229",
+            "MEETING_TIME": "MoWe 12:00PM - 2:00PM"
+          },
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "Fr 12:00PM - 1:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "438-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Creative Thinking in  Music",
+        "topic": "",
+        "courseNumber": "42580",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Music Administration Bldg 229",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-14"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "MUSIC_ED"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "312-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Composition",
+        "topic": "",
+        "courseNumber": "41606",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "412-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Composition",
+        "topic": "",
+        "courseNumber": "41608",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "MUS_COMP"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "322-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Recording and Basic Audio Systems",
+        "topic": "",
+        "courseNumber": "42606",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 1-370",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "434-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Computers, Technology & Music Experience",
+        "topic": "",
+        "courseNumber": "41404",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library Music",
+            "MEETING_TIME": "TuTh 12:00PM - 2:00PM"
+          },
+          {
+            "ROOM": "University Library Music",
+            "MEETING_TIME": "Fr 12:00PM - 1:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "MUS_TECH"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "335-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Selected Topics in Music Theory",
+        "topic": "Theory Review",
+        "courseNumber": "41596",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "TuTh 12:00PM - 2:00PM"
+          },
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "Fr 1:00PM - 2:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "MUS_THRY"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "161-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Piano",
+        "topic": "",
+        "courseNumber": "41406",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "261-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Piano",
+        "topic": "",
+        "courseNumber": "41408",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "361-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Piano",
+        "topic": "",
+        "courseNumber": "41592",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "461-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Piano",
+        "topic": "",
+        "courseNumber": "41410",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "561-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Piano",
+        "topic": "",
+        "courseNumber": "41412",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "PIANO"
+  },
+  {
+    "status": 200,
+    "results": 31,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "141-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Violin",
+        "topic": "",
+        "courseNumber": "41532",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "142-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Viola",
+        "topic": "",
+        "courseNumber": "41542",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "143-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Cello",
+        "topic": "",
+        "courseNumber": "41552",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "144-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Applied Double Bass",
+        "topic": "",
+        "courseNumber": "41562",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "151-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Applied Harp",
+        "topic": "",
+        "courseNumber": "41572",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "171-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Applied Guitar",
+        "topic": "",
+        "courseNumber": "41582",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "241-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Applied Violin",
+        "topic": "",
+        "courseNumber": "41534",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "242-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Applied Viola",
+        "topic": "",
+        "courseNumber": "41544",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "243-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Cello",
+        "topic": "",
+        "courseNumber": "41554",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "244-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Double Bass",
+        "topic": "",
+        "courseNumber": "41564",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "251-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Harp",
+        "topic": "",
+        "courseNumber": "41574",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "271-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Guitar",
+        "topic": "",
+        "courseNumber": "41584",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "341-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Violin",
+        "topic": "",
+        "courseNumber": "41536",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "342-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Viola",
+        "topic": "",
+        "courseNumber": "41546",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "343-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Cello",
+        "topic": "",
+        "courseNumber": "41556",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "343-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Cello",
+        "topic": "",
+        "courseNumber": "41618",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "344-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Double Bass",
+        "topic": "",
+        "courseNumber": "41566",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "351-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Harp",
+        "topic": "",
+        "courseNumber": "41576",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "371-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Guitar",
+        "topic": "",
+        "courseNumber": "41586",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "441-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Violin",
+        "topic": "",
+        "courseNumber": "41538",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "442-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Viola",
+        "topic": "",
+        "courseNumber": "41548",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "443-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Cello",
+        "topic": "",
+        "courseNumber": "41558",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "444-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Double Bass",
+        "topic": "",
+        "courseNumber": "41568",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "451-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Harp",
+        "topic": "",
+        "courseNumber": "41578",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "471-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Guitar",
+        "topic": "",
+        "courseNumber": "41588",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "541-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Violin",
+        "topic": "",
+        "courseNumber": "41540",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "542-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Viola",
+        "topic": "",
+        "courseNumber": "41550",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "543-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Cello",
+        "topic": "",
+        "courseNumber": "41560",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "544-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Double Bass",
+        "topic": "",
+        "courseNumber": "41570",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "551-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Harp",
+        "topic": "",
+        "courseNumber": "41580",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "571-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Guitar",
+        "topic": "",
+        "courseNumber": "41590",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "STRINGS"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "110-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Voice",
+        "topic": "",
+        "courseNumber": "41416",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "210-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Voice",
+        "topic": "",
+        "courseNumber": "41414",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "310-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Voice",
+        "topic": "",
+        "courseNumber": "41418",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "310-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Voice",
+        "topic": "",
+        "courseNumber": "42977",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "310-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Voice",
+        "topic": "",
+        "courseNumber": "42978",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "410-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Voice",
+        "topic": "",
+        "courseNumber": "41420",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "510-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Voice",
+        "topic": "",
+        "courseNumber": "41422",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "VOICE"
+  },
+  {
+    "status": 200,
+    "results": 56,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "111-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Flute",
+        "topic": "",
+        "courseNumber": "41424",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "112-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Oboe",
+        "topic": "",
+        "courseNumber": "41434",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "113-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Applied Clarinet",
+        "topic": "",
+        "courseNumber": "41444",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "114-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Saxophone",
+        "topic": "",
+        "courseNumber": "41454",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "115-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Bassoon",
+        "topic": "",
+        "courseNumber": "41464",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "121-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Trumpet",
+        "topic": "",
+        "courseNumber": "41472",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "122-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "French Horn",
+        "topic": "",
+        "courseNumber": "41482",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "123-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Euphonium",
+        "topic": "",
+        "courseNumber": "41492",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "124-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Trombone",
+        "topic": "",
+        "courseNumber": "41502",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "125-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Tuba",
+        "topic": "",
+        "courseNumber": "41512",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "131-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Percussion",
+        "topic": "",
+        "courseNumber": "41522",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "211-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Flute",
+        "topic": "",
+        "courseNumber": "41426",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "212-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Oboe",
+        "topic": "",
+        "courseNumber": "41436",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "213-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Clarinet",
+        "topic": "",
+        "courseNumber": "41446",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "214-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Saxophone",
+        "topic": "",
+        "courseNumber": "41456",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "215-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Bassoon",
+        "topic": "",
+        "courseNumber": "41594",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "221-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Trumpet",
+        "topic": "",
+        "courseNumber": "41474",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "222-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "French Horn",
+        "topic": "",
+        "courseNumber": "41484",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "223-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Euphonium",
+        "topic": "",
+        "courseNumber": "41494",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "224-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Trombone",
+        "topic": "",
+        "courseNumber": "41504",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "225-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Tuba",
+        "topic": "",
+        "courseNumber": "41514",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "231-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Percussion",
+        "topic": "",
+        "courseNumber": "41524",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "311-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Flute",
+        "topic": "",
+        "courseNumber": "41428",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "312-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Oboe",
+        "topic": "",
+        "courseNumber": "41438",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "312-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Oboe",
+        "topic": "",
+        "courseNumber": "41614",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "313-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Clarinet",
+        "topic": "",
+        "courseNumber": "41448",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "314-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Saxophone",
+        "topic": "",
+        "courseNumber": "41458",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "315-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Bassoon",
+        "topic": "",
+        "courseNumber": "41466",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "321-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Trumpet",
+        "topic": "",
+        "courseNumber": "41476",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "322-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "French Horn",
+        "topic": "",
+        "courseNumber": "41486",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "323-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Euphonium",
+        "topic": "",
+        "courseNumber": "41496",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "324-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Trombone",
+        "topic": "",
+        "courseNumber": "41506",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "325-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Tuba",
+        "topic": "",
+        "courseNumber": "41516",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "331-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Percussion",
+        "topic": "",
+        "courseNumber": "41526",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "411-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Flute",
+        "topic": "",
+        "courseNumber": "41430",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "412-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Oboe",
+        "topic": "",
+        "courseNumber": "41440",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "413-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Clarinet",
+        "topic": "",
+        "courseNumber": "41450",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "414-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Saxophone",
+        "topic": "",
+        "courseNumber": "41460",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "415-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Bassoon",
+        "topic": "",
+        "courseNumber": "41468",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "421-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Trumpet",
+        "topic": "",
+        "courseNumber": "41478",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "422-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "French Horn",
+        "topic": "",
+        "courseNumber": "41488",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "423-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Euphonium",
+        "topic": "",
+        "courseNumber": "41498",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "424-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Trombone",
+        "topic": "",
+        "courseNumber": "41508",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "425-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Tuba",
+        "topic": "",
+        "courseNumber": "41518",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "431-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Percussion",
+        "topic": "",
+        "courseNumber": "41528",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "511-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Flute",
+        "topic": "",
+        "courseNumber": "41432",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "512-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Oboe",
+        "topic": "",
+        "courseNumber": "41442",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "513-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Clarinet",
+        "topic": "",
+        "courseNumber": "41452",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "514-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Saxophone",
+        "topic": "",
+        "courseNumber": "41462",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "515-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Bassoon",
+        "topic": "",
+        "courseNumber": "41470",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "521-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Trumpet",
+        "topic": "",
+        "courseNumber": "41480",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "522-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "French Horn",
+        "topic": "",
+        "courseNumber": "41490",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "523-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Euphonium",
+        "topic": "",
+        "courseNumber": "41500",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "524-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Trombone",
+        "topic": "",
+        "courseNumber": "41510",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "525-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Tuba",
+        "topic": "",
+        "courseNumber": "41520",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "531-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Percussion",
+        "topic": "",
+        "courseNumber": "41530",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "WIND_PER"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "105-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Arabic I",
+        "topic": "",
+        "courseNumber": "40148",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-415",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "105-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Arabic I",
+        "topic": "",
+        "courseNumber": "40538",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-415",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-14"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "105-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Arabic I",
+        "topic": "",
+        "courseNumber": "40540",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-415",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-08-04"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "111-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Chinese",
+        "topic": "",
+        "courseNumber": "40556",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-440",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "111-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Chinese",
+        "topic": "",
+        "courseNumber": "40558",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-440",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2008-07-14"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "111-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Chinese",
+        "topic": "",
+        "courseNumber": "40560",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-440",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2008-08-04"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "AAL"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "380-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Topics in African-American Studies",
+        "topic": "",
+        "courseNumber": "42563",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 213",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "AF_AM_ST"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "105-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Fundamentals of Anthropology",
+        "topic": "",
+        "courseNumber": "40352",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "213-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Human Origins",
+        "topic": "",
+        "courseNumber": "40564",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "TuTh 12:00PM - 2:30PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "232-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Myth and Symbolism",
+        "topic": "",
+        "courseNumber": "42564",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ANTHRO"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "120-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Basic Painting",
+        "topic": "",
+        "courseNumber": "40008",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-335",
+            "MEETING_TIME": "TuTh 9:30AM - 4:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "150-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Basic Photography",
+        "topic": "",
+        "courseNumber": "40318",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 3-425",
+            "MEETING_TIME": "TuTh 9:30AM - 4:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ART"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "329-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Medieval Art",
+        "topic": "Medieval Narrative Arts",
+        "courseNumber": "42566",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 3-430",
+            "MEETING_TIME": "We 6:00PM - 9:15PM"
+          }
+        ],
+        "startDate": "2008-06-25"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "350-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "19Th Century Art: 1848-1900",
+        "topic": "",
+        "courseNumber": "42567",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 3-430",
+            "MEETING_TIME": "Tu 6:00PM - 9:15PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "360-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Twentieth Century Art",
+        "topic": "",
+        "courseNumber": "42568",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 3-430",
+            "MEETING_TIME": "Th 6:00PM - 9:15PM"
+          }
+        ],
+        "startDate": "2008-06-26"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "396-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Internship Arts",
+        "topic": "",
+        "courseNumber": "40680",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "405-Z",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "Art Historical Research",
+        "topic": "Istanbul",
+        "courseNumber": "42966",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ART_HIST"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "101-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Modern Cosmology",
+        "topic": "",
+        "courseNumber": "40568",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute M177",
+            "MEETING_TIME": "TuTh 2:00PM - 4:30PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ASTRON"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "110-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Biology: Genetics and Evolution",
+        "topic": "",
+        "courseNumber": "40010",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 4",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "110-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Molecular Biology and Biochemistry",
+        "topic": "",
+        "courseNumber": "40014",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 4",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2008-07-14"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "110-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Physiology and Cell Biology",
+        "topic": "",
+        "courseNumber": "40018",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 4",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2008-08-04"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "398-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Undergraduate Research Seminar",
+        "topic": "",
+        "courseNumber": "40692",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "398-0",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Undergraduate Research Seminar",
+        "topic": "",
+        "courseNumber": "40710",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "BIOL_SCI"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "393-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Organizational Behavior: Field Studies Modern Workplace",
+        "topic": "",
+        "courseNumber": "40660",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm B07 - 1810 Hinmn",
+            "MEETING_TIME": "We 6:15PM - 8:15PM"
+          }
+        ],
+        "startDate": "2008-06-25"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "393-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Qualitiative Research Methods: Field Studies Modern Workplace",
+        "topic": "",
+        "courseNumber": "40662",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm B07 - 1810 Hinmn",
+            "MEETING_TIME": "Fr 1:30PM - 3:30PM"
+          }
+        ],
+        "startDate": "2008-06-27"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "394-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Organizational Behavior:  Law",
+        "topic": "",
+        "courseNumber": "40664",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm B07 - 1810 Hinmn",
+            "MEETING_TIME": "Tu 6:15PM - 8:15PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "394-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Contemporary Issues in Law",
+        "topic": "",
+        "courseNumber": "40666",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm B07 - 1810 Hinmn",
+            "MEETING_TIME": "Fr 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-27"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "395-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Organizational Behavior: Business Field Studies",
+        "topic": "",
+        "courseNumber": "40668",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 4",
+            "MEETING_TIME": "We 6:15PM - 8:15PM"
+          }
+        ],
+        "startDate": "2008-06-25"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "395-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Contemporary Issues: Business Field Studies",
+        "topic": "",
+        "courseNumber": "40670",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 102",
+            "MEETING_TIME": "Fr 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-27"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "396-0",
+        "section": "28",
+        "component": "FLD",
+        "courseTitle": "Community Research",
+        "topic": "",
+        "courseNumber": "42569",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Lab A53 - 1810 Hinmn",
+            "MEETING_TIME": "We 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CFS"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "101-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Chemistry",
+        "topic": "",
+        "courseNumber": "40022",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "102-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Inorganic Chemistry",
+        "topic": "",
+        "courseNumber": "40026",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-14"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "103-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physical Chemistry",
+        "topic": "",
+        "courseNumber": "40030",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-08-04"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "210-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": "",
+        "courseNumber": "40034",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "210-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": "",
+        "courseNumber": "40038",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-14"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "210-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": "",
+        "courseNumber": "40042",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-08-04"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CHEM"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "260-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Classical Mythology",
+        "topic": "Greek Mythology",
+        "courseNumber": "40374",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 212",
+            "MEETING_TIME": "MoWe 2:00PM - 4:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CLASSICS"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "375-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Literature and the Arts",
+        "topic": "Murder-Homicide in Lit & Film",
+        "courseNumber": "42571",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 213",
+            "MEETING_TIME": "Mo 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "375-Z",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Literature and the Arts",
+        "topic": "Dalmatia & the Mediterranean",
+        "courseNumber": "40046",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "390-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Topics Comp Lit",
+        "topic": "Postmodern Cinema",
+        "courseNumber": "40048",
+        "classMeetingInfo": [
+          {
+            "ROOM": "MMLC 1-375 - Kresge",
+            "MEETING_TIME": "We 6:30PM - 9:30PM"
+          }
+        ],
+        "startDate": "2008-06-25"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "COMP_LIT"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "201-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Macroeconomics",
+        "topic": "",
+        "courseNumber": "40050",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 121",
+            "MEETING_TIME": "MoWeFr 1:00PM - 2:50PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "202-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Introduction to Microeconomics",
+        "topic": "",
+        "courseNumber": "40052",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 213",
+            "MEETING_TIME": "TuTh 11:00AM - 12:50PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "281-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Intro to Applied Econometrcs & Forecastg",
+        "topic": "",
+        "courseNumber": "40054",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 122",
+            "MEETING_TIME": "MoWeFr 11:00AM - 12:50PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "305-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Comparative Economic Systems",
+        "topic": "",
+        "courseNumber": "42537",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 122",
+            "MEETING_TIME": "TuTh 6:30PM - 8:20PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "310-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Microeconomics",
+        "topic": "",
+        "courseNumber": "40056",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 214",
+            "MEETING_TIME": "MoWe 3:00PM - 4:50PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "310-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Microeconomics",
+        "topic": "",
+        "courseNumber": "42534",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 213",
+            "MEETING_TIME": "TuTh 9:00AM - 10:50AM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "311-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Macroeconomics",
+        "topic": "",
+        "courseNumber": "40572",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute M152",
+            "MEETING_TIME": "TuTh 6:30PM - 8:20PM"
+          }
+        ],
+        "startDate": "2008-06-26"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "330-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Behavioral Economics",
+        "topic": "",
+        "courseNumber": "42535",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 122",
+            "MEETING_TIME": "MoWe 6:30PM - 8:20PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "350-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Monopoly Competition & Public Policy",
+        "topic": "",
+        "courseNumber": "42536",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute A110",
+            "MEETING_TIME": "TuTh 1:00PM - 2:50PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ECON"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "205-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Intermediate Composition",
+        "topic": "",
+        "courseNumber": "40330",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-435",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "338-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Studies in Renaissance Literature",
+        "topic": "Hi-tech Renaiss:Writ/Print Rev",
+        "courseNumber": "40356",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 101",
+            "MEETING_TIME": "We 6:00PM - 9:15PM"
+          }
+        ],
+        "startDate": "2008-06-25"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "339-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Shakespeare",
+        "topic": "Shakespeare in Love",
+        "courseNumber": "40060",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 121",
+            "MEETING_TIME": "TuTh 9:30AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "366-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Studies in African-American Literature",
+        "topic": "Early Black Writers",
+        "courseNumber": "42538",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 102",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "368-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Studies in 20th Century Literature",
+        "topic": "Novels and Nations in the 20th C",
+        "courseNumber": "42539",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 101",
+            "MEETING_TIME": "MoWe 1:00PM - 3:20PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "371-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "American Novel",
+        "topic": "Desperate American Housewives",
+        "courseNumber": "42540",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 101",
+            "MEETING_TIME": "MoWe 9:30AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "378-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Studies in American Literature",
+        "topic": "Crime & Criminal/ Am Narrative",
+        "courseNumber": "42541",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 101",
+            "MEETING_TIME": "TuTh 12:30PM - 3:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "378-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Studies in American Literature",
+        "topic": "The Real Thing",
+        "courseNumber": "42542",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 112",
+            "MEETING_TIME": "Tu 6:00PM - 9:15PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "422-0",
+        "section": "50",
+        "component": "LEC",
+        "courseTitle": "Studies in Medieval Literature",
+        "topic": "Malory's Le Morte",
+        "courseNumber": "42660",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 409",
+            "MEETING_TIME": "Mo 7:00PM - 9:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ENGLISH"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "201-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Earth, A Habitable Planet",
+        "topic": "",
+        "courseNumber": "42873",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L251",
+            "MEETING_TIME": "MoWe 9:30AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "390-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Internship in Environmental Sciences",
+        "topic": "Environmental Field Studies",
+        "courseNumber": "40062",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ENVR_SCI"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "111-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": "",
+        "courseNumber": "40064",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-345",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "111-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": "",
+        "courseNumber": "40066",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-345",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-11"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "111-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": "",
+        "courseNumber": "40068",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-345",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-30"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "121-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": "",
+        "courseNumber": "40358",
+        "classMeetingInfo": [
+          {
+            "ROOM": "MMLC 1-375 - Kresge",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "121-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": "",
+        "courseNumber": "40360",
+        "classMeetingInfo": [
+          {
+            "ROOM": "MMLC 1-375 - Kresge",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-11"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "121-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": "",
+        "courseNumber": "40362",
+        "classMeetingInfo": [
+          {
+            "ROOM": "MMLC 1-375 - Kresge",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-30"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "FRENCH"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "312-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Geography of Chicago & Its Region",
+        "topic": "",
+        "courseNumber": "42636",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L160",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "GEOG"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "101-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Beginning German",
+        "topic": "",
+        "courseNumber": "40070",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-500",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "101-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Beginning German",
+        "topic": "",
+        "courseNumber": "40072",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-500",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-11"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "101-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Beginning German",
+        "topic": "",
+        "courseNumber": "40074",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-500",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-30"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "GERMAN"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "395-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Sexuality and Its Discontents",
+        "topic": "",
+        "courseNumber": "42635",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-365",
+            "MEETING_TIME": "MoWe 3:00PM - 5:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "GNDR_ST"
+  },
+  {
+    "status": 200,
+    "results": 13,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "210-2",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Hist Of The U.S:  Reconstruction to the Present",
+        "topic": "",
+        "courseNumber": "42639",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-435",
+            "MEETING_TIME": "MoWe 2:00PM - 4:15PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "214-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Asian-American History",
+        "topic": "",
+        "courseNumber": "42640",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 101",
+            "MEETING_TIME": "Tu 6:00PM - 9:15PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "255-1",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Background to African Civ & Culture: Origins to Mid 18th Century",
+        "topic": "Agriculture Origins 18th C",
+        "courseNumber": "42641",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-435",
+            "MEETING_TIME": "TuTh 2:00PM - 4:30PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "255-3",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Background to African Civilization & Culture 1875-1994",
+        "topic": "1900-Present",
+        "courseNumber": "42642",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 102",
+            "MEETING_TIME": "MoWe 12:30PM - 3:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "314-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "The Civil War & Reconstruction",
+        "topic": "",
+        "courseNumber": "42637",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 101",
+            "MEETING_TIME": "Th 6:00PM - 9:15PM"
+          }
+        ],
+        "startDate": "2008-06-26"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "384-1",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "History of Modern Japan, 1860-1943",
+        "topic": "",
+        "courseNumber": "42638",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 121",
+            "MEETING_TIME": "MoWe 9:00AM - 11:15AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "391-Z",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Special Lectures",
+        "topic": "City & Civilization in E Mediterranean World",
+        "courseNumber": "40532",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "391-Z",
+        "section": "36",
+        "component": "LEC",
+        "courseTitle": "Special Lectures",
+        "topic": "Rise and Fall of Yugoslavia",
+        "courseNumber": "40534",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "391-Z",
+        "section": "46",
+        "component": "LEC",
+        "courseTitle": "Special Lectures",
+        "topic": "Milestones of Czech History & Civilization",
+        "courseNumber": "40536",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "392-0",
+        "section": "36",
+        "component": "LEC",
+        "courseTitle": "Topics In History",
+        "topic": "Vietnam Wars",
+        "courseNumber": "40632",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 3-420",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "392-0",
+        "section": "48",
+        "component": "LEC",
+        "courseTitle": "Topics In History",
+        "topic": "Novels: Literary Protest & Social Reality",
+        "courseNumber": "40630",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-410",
+            "MEETING_TIME": "Mo 6:00PM - 9:15PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "392-0",
+        "section": "56",
+        "component": "LEC",
+        "courseTitle": "Topics In History",
+        "topic": "Nationalism/Ethnic Cleansing",
+        "courseNumber": "40364",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 218",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "399-Z",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Independent Study",
+        "topic": "",
+        "courseNumber": "43014",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "HISTORY"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "201-2",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Global History II",
+        "topic": "",
+        "courseNumber": "40590",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 121",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "390-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Topics in International Studies",
+        "topic": "The Global Mafia Business",
+        "courseNumber": "40338",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 121",
+            "MEETING_TIME": "TuTh 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "390-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Topics in International Studies",
+        "topic": "Islam & Politics in the Middle East",
+        "courseNumber": "40640",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 121",
+            "MEETING_TIME": "Sa 9:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2008-06-28"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "390-Z",
+        "section": "38",
+        "component": "LEC",
+        "courseTitle": "Topics in International Studies",
+        "topic": "Uganda",
+        "courseNumber": "40690",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Tu 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "INTL_ST"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "101-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Italian",
+        "topic": "",
+        "courseNumber": "42587",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-410",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "101-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Italian",
+        "topic": "",
+        "courseNumber": "42588",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-410",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-11"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "101-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Italian",
+        "topic": "",
+        "courseNumber": "42589",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-410",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-30"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ITALIAN"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "250-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Sound Patterns in Human Language",
+        "topic": "",
+        "courseNumber": "40322",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-440",
+            "MEETING_TIME": "TuTh 9:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "270-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Meaning",
+        "topic": "",
+        "courseNumber": "42591",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 213",
+            "MEETING_TIME": "TuTh 2:30PM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "LING"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "220-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Differential Calculus of One Variable Functions",
+        "topic": "",
+        "courseNumber": "40144",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-416",
+            "MEETING_TIME": "MoTuWeTh 1:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "224-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Integral Calculus of One Variable Functions",
+        "topic": "",
+        "courseNumber": "40146",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-416",
+            "MEETING_TIME": "MoTuWeTh 1:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2008-07-21"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "230-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Differential Calculus of Multivariable Functions",
+        "topic": "",
+        "courseNumber": "40324",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "240-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Linear Algebra",
+        "topic": "",
+        "courseNumber": "40592",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 105",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "300-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Foundations of Higher Mathematics",
+        "topic": "",
+        "courseNumber": "40366",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 104",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "310-1",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Probability and Stochastic Processes",
+        "topic": "",
+        "courseNumber": "40658",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 105",
+            "MEETING_TIME": "TuTh 4:00PM - 6:20PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "MATH"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "110-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Philosophy",
+        "topic": "",
+        "courseNumber": "40326",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 215",
+            "MEETING_TIME": "MoWe 1:00PM - 3:15PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "150-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Elementary Logic I",
+        "topic": "",
+        "courseNumber": "40076",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 215",
+            "MEETING_TIME": "MoWeFr 10:00AM - 11:45AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "219-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Existentialism",
+        "topic": "",
+        "courseNumber": "40544",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 516",
+            "MEETING_TIME": "TuTh 2:00PM - 4:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "260-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Moral Philosophy",
+        "topic": "",
+        "courseNumber": "40596",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 215",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "269-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Bioethics",
+        "topic": "",
+        "courseNumber": "40368",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 102",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PHIL"
+  },
+  {
+    "status": 200,
+    "results": 18,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "130-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": "",
+        "courseNumber": "40522",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L211",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "130-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": "",
+        "courseNumber": "40520",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L211",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-11"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "130-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": "",
+        "courseNumber": "40518",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L211",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-30"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "135-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": "",
+        "courseNumber": "40078",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L221",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "135-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": "",
+        "courseNumber": "40080",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L221",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-11"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "135-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": "",
+        "courseNumber": "40334",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L221",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-30"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "136-1",
+        "section": "38",
+        "component": "GEN",
+        "courseTitle": "Physics Lab",
+        "topic": "",
+        "courseNumber": "40082",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "MoTuWeThFr 7:00AM - 9:00AM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "136-1",
+        "section": "48",
+        "component": "GEN",
+        "courseTitle": "Physics Lab",
+        "topic": "",
+        "courseNumber": "40084",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "136-1",
+        "section": "58",
+        "component": "GEN",
+        "courseTitle": "Physics Lab",
+        "topic": "",
+        "courseNumber": "40086",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "136-1",
+        "section": "68",
+        "component": "GEN",
+        "courseTitle": "Physics Lab",
+        "topic": "",
+        "courseNumber": "40088",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "MoTuWeThFr 5:00PM - 7:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "136-2",
+        "section": "38",
+        "component": "LAB",
+        "courseTitle": "Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40090",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "MoTuWeThFr 7:00AM - 9:00AM"
+          }
+        ],
+        "startDate": "2008-07-11"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "136-2",
+        "section": "48",
+        "component": "LAB",
+        "courseTitle": "Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40092",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2008-07-11"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "136-2",
+        "section": "58",
+        "component": "LAB",
+        "courseTitle": "Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40094",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-07-11"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "136-2",
+        "section": "68",
+        "component": "LAB",
+        "courseTitle": "Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40096",
+        "classMeetingInfo": [],
+        "startDate": "2008-07-11"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "136-3",
+        "section": "38",
+        "component": "LAB",
+        "courseTitle": "Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40098",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "MoTuWeThFr 7:00AM - 9:00AM"
+          }
+        ],
+        "startDate": "2008-07-30"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "136-3",
+        "section": "48",
+        "component": "LAB",
+        "courseTitle": "Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40100",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2008-07-30"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "136-3",
+        "section": "58",
+        "component": "LAB",
+        "courseTitle": "Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40102",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2008-07-30"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "136-3",
+        "section": "68",
+        "component": "LAB",
+        "courseTitle": "Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40104",
+        "classMeetingInfo": [
+          {
+            "ROOM": "GP ROOM TO BE ASSIGNED",
+            "MEETING_TIME": "MoTuWeThFr 7:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-07-30"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PHYSICS"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "201-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Political Theory",
+        "topic": "",
+        "courseNumber": "40108",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 507",
+            "MEETING_TIME": "MoWe 4:00PM - 6:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "220-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "American Government and Politics",
+        "topic": "",
+        "courseNumber": "42609",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-435",
+            "MEETING_TIME": "MoWe 7:00PM - 9:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "240-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to International Relations",
+        "topic": "",
+        "courseNumber": "40612",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 121",
+            "MEETING_TIME": "MoWe 4:00PM - 6:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "324-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Political Parties and Elections",
+        "topic": "",
+        "courseNumber": "42610",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 507",
+            "MEETING_TIME": "MoWe 7:00PM - 9:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "330-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "The Politics of Local Justice",
+        "topic": "",
+        "courseNumber": "40370",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-410",
+            "MEETING_TIME": "TuTh 12:30PM - 3:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "342-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "International Organizations",
+        "topic": "",
+        "courseNumber": "40336",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 101",
+            "MEETING_TIME": "TuTh 9:30AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "343-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "International Law",
+        "topic": "",
+        "courseNumber": "42611",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 512",
+            "MEETING_TIME": "TuTh 4:00PM - 6:30PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "361-Z",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Democratic Transitions",
+        "topic": "",
+        "courseNumber": "40678",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "POLI_SCI"
+  },
+  {
+    "status": 200,
+    "results": 13,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "110-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Psychology",
+        "topic": "",
+        "courseNumber": "40112",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute A110",
+            "MEETING_TIME": "MoWe 10:30AM - 1:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "201-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Statistical Methods in Psychology",
+        "topic": "",
+        "courseNumber": "40114",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2107",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "204-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Social Psychology",
+        "topic": "",
+        "courseNumber": "40116",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L251",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "205-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Research Methods in Psychology",
+        "topic": "",
+        "courseNumber": "40328",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 231",
+            "MEETING_TIME": "TuTh 2:00PM - 4:30PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "215-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Psychology of Personality",
+        "topic": "",
+        "courseNumber": "42590",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 417",
+            "MEETING_TIME": "Th 6:00PM - 9:15PM"
+          }
+        ],
+        "startDate": "2008-06-26"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "218-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Developmental Psychology",
+        "topic": "",
+        "courseNumber": "40600",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 210",
+            "MEETING_TIME": "MoWe 2:00PM - 4:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "228-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Cognitive Psychology",
+        "topic": "",
+        "courseNumber": "42592",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-410",
+            "MEETING_TIME": "MoWe 6:00PM - 8:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "303-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Psychopathology",
+        "topic": "",
+        "courseNumber": "40526",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 210",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "314-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Psychology",
+        "topic": "Emotion",
+        "courseNumber": "40602",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 231",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "314-0",
+        "section": "38",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Psychology",
+        "topic": "Self & Identity",
+        "courseNumber": "42593",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 101",
+            "MEETING_TIME": "Sa 1:00PM - 4:15PM"
+          }
+        ],
+        "startDate": "2008-06-28"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "314-0",
+        "section": "48",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Psychology",
+        "topic": "Health Psychology",
+        "courseNumber": "42594",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-415",
+            "MEETING_TIME": "Mo 6:00PM - 9:15PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "314-0",
+        "section": "58",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Psychology",
+        "topic": "The Psychology of Terrorism",
+        "courseNumber": "40118",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 406",
+            "MEETING_TIME": "Tu 6:00PM - 9:15PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "384-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Close Relationships",
+        "topic": "",
+        "courseNumber": "42595",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 210",
+            "MEETING_TIME": "Th 2:00PM - 5:15PM"
+          }
+        ],
+        "startDate": "2008-06-26"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PSYCH"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "210-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Buddhism",
+        "topic": "",
+        "courseNumber": "40528",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 102",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "230-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Judaism",
+        "topic": "",
+        "courseNumber": "42656",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 215",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "359-Z",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Topics in Islam",
+        "topic": "",
+        "courseNumber": "40620",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "RELIGION"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "106-Z",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Elementary Czech",
+        "topic": "",
+        "courseNumber": "40142",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-16"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "210-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Introduction to Russian Literature",
+        "topic": "",
+        "courseNumber": "42657",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 504",
+            "MEETING_TIME": "Tu 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "267-Z",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Czech Culture",
+        "topic": "Modern Czech Film & History on Screen",
+        "courseNumber": "40140",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-16"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "399-Z",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Independent Study",
+        "topic": "",
+        "courseNumber": "40384",
+        "classMeetingInfo": [],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "SLAVIC"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "110-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Introduction to Sociology",
+        "topic": "",
+        "courseNumber": "40122",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L251",
+            "MEETING_TIME": "TuTh 9:30AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "309-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Political Sociology",
+        "topic": "",
+        "courseNumber": "42577",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-410",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "376-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Topics in Sociological Analysis",
+        "topic": "Madness and Society",
+        "courseNumber": "40624",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 212",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "SOCIOL"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "101-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Span",
+        "topic": "",
+        "courseNumber": "40124",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-445",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "101-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Spanish",
+        "topic": "",
+        "courseNumber": "40126",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-445",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-11"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "101-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Spanish",
+        "topic": "",
+        "courseNumber": "40128",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-445",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-30"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "102-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": "",
+        "courseNumber": "40130",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-435",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "102-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermed Span",
+        "topic": "",
+        "courseNumber": "40132",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-435",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-11"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "102-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": "",
+        "courseNumber": "40134",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-435",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-07-30"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "199-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Language in Context: Contemporary Spain",
+        "topic": "",
+        "courseNumber": "42579",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-365",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "SPANISH"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "202-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Statistics",
+        "topic": "",
+        "courseNumber": "40136",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 102",
+            "MEETING_TIME": "TuTh 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-24"
+      },
+      {
+        "termDescription": "2008 Summer",
+        "catalogNumber": "210-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Intro Statistics for the Social Sciences",
+        "topic": "",
+        "courseNumber": "40138",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2378",
+            "MEETING_TIME": "MoWeFr 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2008-06-23"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "STAT"
+  }
+]
