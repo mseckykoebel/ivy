@@ -1,0 +1,5442 @@
+[
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "170-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Music",
+        "topic": "",
+        "courseNumber": "40288",
+        "classMeetingInfo": [
+          {
+            "ROOM": "MCB Lower Level 111",
+            "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "175-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Selected Topics in Music Literature for Non-Majors",
+        "topic": "Music, Media, & Technology",
+        "courseNumber": "40289",
+        "classMeetingInfo": [
+          {
+            "ROOM": "MCB Lower Level 111",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "176-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Selected Topics in Applied Music for Non-Majors",
+        "topic": "Pop Songwriting and Analysis",
+        "courseNumber": "40290",
+        "classMeetingInfo": [
+          {
+            "ROOM": "MCB 1-160",
+            "MEETING_TIME": "MoWeFr 10:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "GEN_MUS"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "322-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Recording Techniques",
+        "topic": "",
+        "courseNumber": "40292",
+        "classMeetingInfo": [
+          {
+            "ROOM": "MCB Lower Level 121",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "MUS_TECH"
+  },
+  {
+    "status": 200,
+    "results": 15,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "310-0",
+        "section": "20",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Voice Institute",
+        "courseNumber": "41953",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSaSu 10:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "310-0",
+        "section": "21",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Guitar Workshop",
+        "courseNumber": "41955",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThSaSu 9:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "310-0",
+        "section": "22",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Conducting and Wind Symposium",
+        "courseNumber": "41956",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSu 12:00AM - 12:00AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "310-0",
+        "section": "23",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Vocal Career Seminar",
+        "courseNumber": "41960",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 2:00PM - 10:30PM"
+          }
+        ],
+        "startDate": "2015-07-27"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "310-0",
+        "section": "24",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Percussion Symposium",
+        "courseNumber": "41962",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSaSu 9:00AM - 10:00PM"
+          }
+        ],
+        "startDate": "2015-07-06"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "310-0",
+        "section": "25",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Trombone Master Class",
+        "courseNumber": "41963",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSu 10:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "315-0",
+        "section": "20",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Voice Institute",
+        "courseNumber": "41954",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSaSu 10:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "315-0",
+        "section": "21",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Guitar Workshop",
+        "courseNumber": "41957",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThSaSu 9:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "315-0",
+        "section": "22",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Conducting&Wind Symposium",
+        "courseNumber": "41958",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSu 12:00AM - 12:00AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "315-0",
+        "section": "23",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Vocal Career Seminar",
+        "courseNumber": "41959",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 2:00PM - 10:30PM"
+          }
+        ],
+        "startDate": "2015-07-27"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "315-0",
+        "section": "24",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Percussion Symposium",
+        "courseNumber": "41961",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSaSu 9:00AM - 10:00PM"
+          }
+        ],
+        "startDate": "2015-07-06"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "315-0",
+        "section": "25",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Trombone Master Class",
+        "courseNumber": "41964",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSu 10:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "320-0",
+        "section": "20",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, Two-Week",
+        "topic": "Violin Institute",
+        "courseNumber": "41951",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSa 10:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "325-0",
+        "section": "20",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, Two-Week",
+        "topic": "Violin Institute",
+        "courseNumber": "41952",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSa 10:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "333-0",
+        "section": "20",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, Three-Day",
+        "topic": "",
+        "courseNumber": "41950",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "FrSaSu 9:30AM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-07-06"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "MUS_WKSP"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "110-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Applied Voice for Music Majors",
+        "topic": "",
+        "courseNumber": "42172",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "210-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Applied Voice for Music Majors",
+        "topic": "",
+        "courseNumber": "42108",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "VOICE"
+  },
+  {
+    "status": 200,
+    "results": 14,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "440-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Immersion Quarter Team Project",
+        "topic": "",
+        "courseNumber": "41886",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 11:00AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "441-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Immersion Quarter Individual Project",
+        "topic": "",
+        "courseNumber": "41885",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "450-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Financial Accounting",
+        "topic": "",
+        "courseNumber": "41887",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "451-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Statistics and Marketing Research",
+        "topic": "",
+        "courseNumber": "41888",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "455-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Consumer Insight",
+        "topic": "",
+        "courseNumber": "41889",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "457-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Managing Integration",
+        "topic": "",
+        "courseNumber": "41890",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "465-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Building Brand Equity",
+        "topic": "",
+        "courseNumber": "41894",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "475-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Crisis Communications",
+        "topic": "",
+        "courseNumber": "41884",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Loop 211: 210 S. Clark St.",
+            "MEETING_TIME": "We 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "475-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Crisis Communications",
+        "topic": "",
+        "courseNumber": "41895",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "490-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "Digital Storytelling",
+        "courseNumber": "41896",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "498-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Practicum",
+        "topic": "Int Comm w Real World Dynamics",
+        "courseNumber": "41883",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Loop 202: 210 S. Clark St.",
+            "MEETING_TIME": "Tu 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "498-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Practicum",
+        "topic": "Creating Outstanding Digital Experiences",
+        "courseNumber": "42017",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Loop 211: 210 S. Clark St.",
+            "MEETING_TIME": "Th 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "498-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Practicum",
+        "topic": "Digital Marketing Technologies",
+        "courseNumber": "42018",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "498-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Practicum",
+        "topic": "Digital Marketing, Media, & Innovation",
+        "courseNumber": "41897",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "JOUR",
+    "subject": "IMC"
+  },
+  {
+    "status": 200,
+    "results": 39,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "385-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Journalism Residency: Marketing Communications - Writing",
+        "topic": "",
+        "courseNumber": "41853",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "386-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Journalism Residency: Marketing Communications - Strategy",
+        "topic": "",
+        "courseNumber": "41854",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "388-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Internship",
+        "topic": "",
+        "courseNumber": "41817",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "388-1",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "Undergraduate Research",
+        "topic": "",
+        "courseNumber": "41837",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "400-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Jour Meth: Multimedia Reporting",
+        "topic": "",
+        "courseNumber": "41851",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Foundation Ctr 2111",
+            "MEETING_TIME": "Mo 1:00PM - 4:50PM"
+          }
+        ],
+        "startDate": "2015-07-27"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "400-0",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Jour Meth: Multimedia Reporting",
+        "topic": "",
+        "courseNumber": "41852",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Foundation Ctr 2107",
+            "MEETING_TIME": "Mo 1:00PM - 4:50PM"
+          }
+        ],
+        "startDate": "2015-07-27"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "400-1",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods: News Reporting - Writing",
+        "topic": "",
+        "courseNumber": "41821",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Loop 202: 210 S. Clark St.",
+            "MEETING_TIME": "TuTh 9:00AM - 4:50PM"
+          },
+          {
+            "ROOM": "Loop 202: 210 S. Clark St.",
+            "MEETING_TIME": "We 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "400-1",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods: News Reporting - Writing",
+        "topic": "",
+        "courseNumber": "41822",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Loop 211: 210 S. Clark St.",
+            "MEETING_TIME": "TuTh 9:00AM - 4:50PM"
+          },
+          {
+            "ROOM": "Loop 211: 210 S. Clark St.",
+            "MEETING_TIME": "We 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "400-2",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Intro to Editing & News Judgment",
+        "topic": "",
+        "courseNumber": "41823",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Loop 211: 210 S. Clark St.",
+            "MEETING_TIME": "We 1:00PM - 2:20PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "400-2",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Intro to Editing & News Judgment",
+        "topic": "",
+        "courseNumber": "41824",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Loop 211: 210 S. Clark St.",
+            "MEETING_TIME": "We 3:00PM - 4:20PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "400-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Foundations of Interactive Journalism",
+        "topic": "",
+        "courseNumber": "41838",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Foundation Ctr 2101",
+            "MEETING_TIME": "Mo 1:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "400-3",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Foundations of Interactive Journalism",
+        "topic": "",
+        "courseNumber": "41839",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Foundation Ctr 2131",
+            "MEETING_TIME": "Mo 1:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "401-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Ethics & Law of Journalism",
+        "topic": "",
+        "courseNumber": "41818",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Louis Hall 226",
+            "MEETING_TIME": "Mo 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "402-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Frameworks for Modern Journalism",
+        "topic": "",
+        "courseNumber": "41856",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Foundation Ctr 3107",
+            "MEETING_TIME": "Mo 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "404-1",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Sports Reporting",
+        "topic": "",
+        "courseNumber": "41842",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Foundation Ctr 2107",
+            "MEETING_TIME": "Mo 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "408-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Photojournalism",
+        "topic": "",
+        "courseNumber": "41846",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Foundation Ctr 3107",
+            "MEETING_TIME": "Mo 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "424-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Feature & Magazine Writing",
+        "topic": "",
+        "courseNumber": "41831",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Fisk Hall 206",
+            "MEETING_TIME": "Tu 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "433-1",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Advanced Video Journalism",
+        "topic": "",
+        "courseNumber": "41832",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Loop 233: 210 S. Clark St.",
+            "MEETING_TIME": "WeTh 9:00AM - 4:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "433-4",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Documentary",
+        "topic": "",
+        "courseNumber": "41848",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Foundation Ctr 3107",
+            "MEETING_TIME": "TuTh 1:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "433-5",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "TV News Producing and Performance",
+        "topic": "",
+        "courseNumber": "41855",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Foundation Ctr 4115",
+            "MEETING_TIME": "Tu 9:00AM - 4:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "435-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Interactive Innovation Project",
+        "topic": "",
+        "courseNumber": "41833",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Loop 204: 210 S. Clark St.",
+            "MEETING_TIME": "TuWeTh 9:00AM - 4:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "436-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Long Form Non-Fiction Narrative",
+        "topic": "",
+        "courseNumber": "41841",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Fisk Hall 206",
+            "MEETING_TIME": "TuTh 9:00AM - 4:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "438-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Watchdog Journalism",
+        "topic": "",
+        "courseNumber": "41819",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "Fr 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "438-1",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Public Affairs, Politics & Government Reporting",
+        "topic": "",
+        "courseNumber": "41829",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "MoTuWeTh 9:00AM - 5:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "438-1",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Public Affairs, Politics & Government Reporting",
+        "topic": "",
+        "courseNumber": "41830",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "MoTuWeTh 9:00AM - 5:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "438-2",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Covering Public Policy",
+        "topic": "News Site Practicum",
+        "courseNumber": "41835",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "TuWe 9:00AM - 4:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "438-2",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Covering Public Policy",
+        "topic": "Subject Site Practicum",
+        "courseNumber": "41836",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "ThFr 9:00AM - 4:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "438-4",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Covering Conflicts, Terrorism & National Security",
+        "topic": "",
+        "courseNumber": "41840",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "Mo 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "440-0",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "Global Journalism Research",
+        "topic": "",
+        "courseNumber": "41825",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "440-1",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Global Journalism Residency",
+        "topic": "",
+        "courseNumber": "41826",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "455-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Audience Insight",
+        "topic": "",
+        "courseNumber": "41843",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Foundation Ctr 3107",
+            "MEETING_TIME": "Mo 1:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "461-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "How 21st Century Media Work",
+        "topic": "",
+        "courseNumber": "41844",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Louis Hall 226",
+            "MEETING_TIME": "We 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "473-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Freelancing",
+        "topic": "",
+        "courseNumber": "41881",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Fisk Hall 206",
+            "MEETING_TIME": "Mo 1:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2015-07-27"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "477-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Media Design Research and Testing",
+        "topic": "",
+        "courseNumber": "41849",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Loop 232: 210 S. Clark St.",
+            "MEETING_TIME": "We 6:30PM - 9:20PM"
+          }
+        ],
+        "startDate": "2015-07-27"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "480-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Writing: Personal Narrative",
+        "courseNumber": "41850",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Fisk Hall 206",
+            "MEETING_TIME": "Mo 1:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "480-0",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Introduction to Cybersecurity",
+        "courseNumber": "41870",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick Foundation Ctr 2111",
+            "MEETING_TIME": "Mo 1:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "480-0",
+        "section": "22",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Interactive Storytelling with Javascript",
+        "courseNumber": "42032",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Loop 202: 210 S. Clark St.",
+            "MEETING_TIME": "Mo 6:30PM - 9:20PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "490-0",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Digital Framework for Reporting",
+        "courseNumber": "41871",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "Th 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "499-2",
+        "section": "21",
+        "component": "PRA",
+        "courseTitle": "Internship",
+        "topic": "",
+        "courseNumber": "42220",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "JOUR",
+    "subject": "JOUR"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "390-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "Islam, America & Media",
+        "courseNumber": "41327",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Carnegie Mellon Room 3046",
+            "MEETING_TIME": "MoTuWeSu 6:30AM - 9:30AM"
+          }
+        ],
+        "startDate": "2015-05-17"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "390-0",
+        "section": "71",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "Research in Media",
+        "courseNumber": "41339",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThSu 12:30AM - 3:59PM"
+          },
+          {
+            "ROOM": "Qatar Studio Building 021",
+            "MEETING_TIME": "MoTuWeThSu 1:00AM - 4:00AM"
+          }
+        ],
+        "startDate": "2015-05-17"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "390-0",
+        "section": "72",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "In the Wake of Ferguson: Ethical Media Coverage",
+        "courseNumber": "41340",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThSu 12:30AM - 3:59PM"
+          },
+          {
+            "ROOM": "Carnegie Mellon Room 3176",
+            "MEETING_TIME": "MoTuWeThSu 2:30AM - 4:30AM"
+          }
+        ],
+        "startDate": "2015-05-17"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "395-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Public Relations Residency",
+        "topic": "",
+        "courseNumber": "42014",
+        "classMeetingInfo": [],
+        "startDate": "2015-05-17"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "JOUR"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "398-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Undergraduate Seminar",
+        "topic": "Islam, America, and the Media",
+        "courseNumber": "41330",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Carnegie Mellon Room 3046",
+            "MEETING_TIME": "MoTuWeSu 6:30AM - 9:30AM"
+          }
+        ],
+        "startDate": "2015-05-17"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "398-0",
+        "section": "71",
+        "component": "LEC",
+        "courseTitle": "Undergraduate Seminar",
+        "topic": "Media & Politics in the Arab World",
+        "courseNumber": "41331",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Carnegie Mellon Room 3048",
+            "MEETING_TIME": "MoTuWeSu 5:30AM - 8:30AM"
+          }
+        ],
+        "startDate": "2015-05-17"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "398-0",
+        "section": "72",
+        "component": "LEC",
+        "courseTitle": "Undergraduate Seminar",
+        "topic": "Television Program Development",
+        "courseNumber": "41337",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Carnegie Mellon Room 3204",
+            "MEETING_TIME": "MoTuWe 2:00AM - 4:30AM"
+          }
+        ],
+        "startDate": "2015-05-17"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "398-0",
+        "section": "73",
+        "component": "LEC",
+        "courseTitle": "Undergraduate Seminar",
+        "topic": "Research in Media",
+        "courseNumber": "41341",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThSu 12:30AM - 3:59PM"
+          },
+          {
+            "ROOM": "Qatar Studio Building 021",
+            "MEETING_TIME": "MoTuWeThSu 1:00AM - 4:00AM"
+          }
+        ],
+        "startDate": "2015-05-17"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "398-0",
+        "section": "74",
+        "component": "LEC",
+        "courseTitle": "Undergraduate Seminar",
+        "topic": "In the Wake of Ferguson: Ethical Media Coverage",
+        "courseNumber": "41342",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThSu 12:30AM - 3:59PM"
+          },
+          {
+            "ROOM": "Carnegie Mellon Room 3176",
+            "MEETING_TIME": "MoTuWeThSu 2:30AM - 4:30AM"
+          }
+        ],
+        "startDate": "2015-05-17"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "MIT"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "390-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Political Science",
+        "topic": "Media & Politics in the Arab World",
+        "courseNumber": "41334",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Carnegie Mellon Room 3048",
+            "MEETING_TIME": "MoTuWeSu 5:30AM - 8:30AM"
+          }
+        ],
+        "startDate": "2015-05-17"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "POLI_SCI"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "340-0",
+        "section": "21",
+        "component": "FLD",
+        "courseTitle": "Internship",
+        "topic": "Chicago/Evanston",
+        "courseNumber": "41387",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annie May Swift Hall 110",
+            "MEETING_TIME": "Tu 7:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "340-0",
+        "section": "22",
+        "component": "FLD",
+        "courseTitle": "Internship",
+        "topic": "New York",
+        "courseNumber": "41388",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "340-0",
+        "section": "23",
+        "component": "FLD",
+        "courseTitle": "Internship",
+        "topic": "Los Angeles",
+        "courseNumber": "41389",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "340-0",
+        "section": "40",
+        "component": "FLD",
+        "courseTitle": "Internship",
+        "topic": "Extra Credit",
+        "courseNumber": "41390",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "410-0",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "MFA Internship",
+        "topic": "",
+        "courseNumber": "41391",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "CMN"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "205-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Theories of Persuasion",
+        "topic": "",
+        "courseNumber": "40096",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2107",
+            "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "395-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Topics in Communication Studies",
+        "topic": "Intro to Visual Rhetoric",
+        "courseNumber": "40097",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2370",
+            "MEETING_TIME": "TuTh 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "395-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Topics in Communication Studies",
+        "topic": "Food, Communication, & Culture",
+        "courseNumber": "40099",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2378",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "395-SA",
+        "section": "10",
+        "component": "LEC",
+        "courseTitle": "Topics in Communication Studies",
+        "topic": "Th and Practice of Comm Engage",
+        "courseNumber": "40243",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 2:00PM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "COMM_ST"
+  },
+  {
+    "status": 200,
+    "results": 26,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "388-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Attention Deficit Disorder and Related Disorders",
+        "topic": "",
+        "courseNumber": "40262",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 1483",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 4:30PM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "396-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Diagnostic Procedures",
+        "topic": "",
+        "courseNumber": "40251",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 1441",
+            "MEETING_TIME": "TuTh 2:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "398-0",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": "",
+        "courseNumber": "42035",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "415-2",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Clinical Study and Practicum in Audiology",
+        "topic": "",
+        "courseNumber": "40252",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2370",
+            "MEETING_TIME": "TuTh 3:00PM - 4:45PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "415-6",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Clinical Study and Practicum in Audiology",
+        "topic": "",
+        "courseNumber": "40253",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2370",
+            "MEETING_TIME": "TuTh 10:00AM - 11:45AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "417-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Noise and Its Effect on People",
+        "topic": "",
+        "courseNumber": "40254",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2370",
+            "MEETING_TIME": "TuTh 8:00AM - 9:45AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "429-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Evaluation and Treatment of Balance Disorders",
+        "topic": "",
+        "courseNumber": "40255",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2378",
+            "MEETING_TIME": "TuTh 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "435-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Neuromotor Speech Disorders",
+        "topic": "",
+        "courseNumber": "40256",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 1441",
+            "MEETING_TIME": "TuTh 8:00AM - 10:00AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "439-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "The Management of Feeding Disorders in Infants and Toddlers",
+        "topic": "",
+        "courseNumber": "40261",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 1441",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 4:30PM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "440-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Alternative and Augmentative Communication",
+        "topic": "",
+        "courseNumber": "40257",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2407",
+            "MEETING_TIME": "MoTuWeTh 4:00PM - 6:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "441-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Infant and Toddler Assessment",
+        "topic": "",
+        "courseNumber": "40258",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2378",
+            "MEETING_TIME": "MoWe 6:00PM - 8:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "465-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Hearing Impairment",
+        "topic": "",
+        "courseNumber": "40259",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2378",
+            "MEETING_TIME": "TuTh 9:30AM - 11:15AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "491-2",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Advanced Articulation and Phonological Disorders in Children",
+        "topic": "",
+        "courseNumber": "40260",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2407",
+            "MEETING_TIME": "We 8:00AM - 10:00AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "494-2",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Advanced Study in Disorders of Fluency",
+        "topic": "",
+        "courseNumber": "40263",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 1421",
+            "MEETING_TIME": "We 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "532-1",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Treatment: Clinical Procedures in Speech and Language Pathology",
+        "topic": "",
+        "courseNumber": "40264",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "532-2",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Treatment: Clinical Procedures in Speech and Language Pathology",
+        "topic": "",
+        "courseNumber": "40265",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "532-3",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Treatment: Clin Procedures Speech and Language Pathology",
+        "topic": "",
+        "courseNumber": "40266",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "533-1",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Advanced Treatment: Clinical Procedures in Speech and Language Pathology",
+        "topic": "",
+        "courseNumber": "40267",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "533-2",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Advanced Treatment:Clinical Procedures in Speech and Language Pathology",
+        "topic": "",
+        "courseNumber": "40268",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "534-1",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Diagnostics: Clinical Procedures in Speech and Language Pathology",
+        "topic": "",
+        "courseNumber": "40269",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "534-2",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Diagnostics: Clinical Procedures in Speech and Language Pathology",
+        "topic": "",
+        "courseNumber": "40270",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "536-0",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Practicum in Health-Based Facilities: Clinical Procedure in Speech and Language Pathology",
+        "topic": "",
+        "courseNumber": "40271",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "538-0",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Advanced Practicum in Health-Based Facilities: Clinical Procedures in Speech and Language Pathology",
+        "topic": "",
+        "courseNumber": "40272",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "539-0",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Early Intervention: Clinical Procedures in Speech and Language Pathology",
+        "topic": "",
+        "courseNumber": "40273",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "570-3",
+        "section": "28",
+        "component": "RSC",
+        "courseTitle": "Seminar: Capstone Project",
+        "topic": "",
+        "courseNumber": "40274",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 1:00PM - 2:45PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "580-4",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Clinical Externship",
+        "topic": "",
+        "courseNumber": "40275",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "CSD"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "102-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Public Speaking",
+        "topic": "",
+        "courseNumber": "40100",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 214",
+            "MEETING_TIME": "MoWe 10:30AM - 1:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "102-0",
+        "section": "36",
+        "component": "LEC",
+        "courseTitle": "Public Speaking",
+        "topic": "",
+        "courseNumber": "40102",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 214",
+            "MEETING_TIME": "TuTh 10:30AM - 1:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "GEN_CMN"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "455-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Human-Computer Interaction",
+        "topic": "",
+        "courseNumber": "41509",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "475-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Critical Analysis of Food and Drug Marketing",
+        "topic": "",
+        "courseNumber": "41508",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "479-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Health Information Technology for Communication, Coordination and Integration",
+        "topic": "",
+        "courseNumber": "41399",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 1:00PM - 2:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "489-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Health Communication Practicum",
+        "topic": "",
+        "courseNumber": "41398",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 9:00AM - 10:00AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "HLTH_COM"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "482-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Persuasion",
+        "topic": "",
+        "courseNumber": "41169",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 1441",
+            "MEETING_TIME": "Sa 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "494-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Public Speaking",
+        "topic": "",
+        "courseNumber": "41168",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2407",
+            "MEETING_TIME": "Sa 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "527-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Corporate Citizenship",
+        "topic": "",
+        "courseNumber": "41166",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 1483",
+            "MEETING_TIME": "Sa 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "530-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Communication, Management & Ethics",
+        "topic": "",
+        "courseNumber": "41167",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 1421",
+            "MEETING_TIME": "Sa 9:30AM - 12:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "532-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Privacy & Communication",
+        "topic": "",
+        "courseNumber": "41170",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2370",
+            "MEETING_TIME": "Sa 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "MSC"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "260-0",
+        "section": "26",
+        "component": "SEM",
+        "courseTitle": "Foundations of Screenwriting",
+        "topic": "",
+        "courseNumber": "40181",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 318",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "298-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Studies in Media Topics",
+        "topic": "Disney",
+        "courseNumber": "40182",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 312",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "298-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Studies in Media Topics",
+        "topic": "Summer at the Movies",
+        "courseNumber": "40183",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute M177",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "322-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Radio/Television/Film Genre",
+        "topic": "End of the World: Post Apocalyptic Film",
+        "courseNumber": "40184",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 504",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "326-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Film & TV Criticism",
+        "topic": "Quality TV",
+        "courseNumber": "40185",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 412",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "379-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Topics in Film/Video/Audio Production",
+        "topic": "Drawing Boot Camp",
+        "courseNumber": "40230",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 118",
+            "MEETING_TIME": "MoTuWeTh 6:00PM - 9:45PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "RTVF"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "242-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Stage Makeup",
+        "topic": "",
+        "courseNumber": "40187",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wirtz Center BARB MAKEUP",
+            "MEETING_TIME": "TuTh 11:30AM - 2:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "312-1",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "The Art of Storytelling I",
+        "topic": "",
+        "courseNumber": "41505",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wirtz Center SOUTH",
+            "MEETING_TIME": "MoWe 2:30PM - 4:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "330-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "Auditioning, A Method to the Madness",
+        "courseNumber": "40190",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wirtz Center SOUTH",
+            "MEETING_TIME": "MoWe 10:00AM - 12:20PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "335-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Playwriting",
+        "topic": "Introduction to Playwriting",
+        "courseNumber": "40194",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wirtz Center SOUTH",
+            "MEETING_TIME": "TuTh 10:00AM - 12:20PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "THEATRE"
+  },
+  {
+    "status": 200,
+    "results": 14,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "402-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Social Contexts of Education",
+        "topic": "Social Contexts",
+        "courseNumber": "40123",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute A110",
+            "MEETING_TIME": "TuTh 7:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "405-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Child and Adolescent Development",
+        "topic": "",
+        "courseNumber": "41782",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute A110",
+            "MEETING_TIME": "MoWe 7:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "408-0",
+        "section": "26",
+        "component": "SEM",
+        "courseTitle": "Research and Analysis III: Analysis, Intrepretation, and Dissemination",
+        "topic": "",
+        "courseNumber": "40124",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall G15",
+            "MEETING_TIME": "Mo 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "422-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Reading and Writing in the Content Area",
+        "topic": "Content Rdg & Wrtg",
+        "courseNumber": "40125",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute A110",
+            "MEETING_TIME": "MoWe 2:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "425-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Foundations of Writing Processes: Elementary Teaching",
+        "topic": "",
+        "courseNumber": "40126",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 121",
+            "MEETING_TIME": "We 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "427-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Educating Exceptional Children",
+        "topic": "",
+        "courseNumber": "40127",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute A110",
+            "MEETING_TIME": "TuTh 2:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "428-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Dynamics of Middle School Curriculum",
+        "topic": "",
+        "courseNumber": "40128",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute A110",
+            "MEETING_TIME": "MoWe 4:30PM - 6:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "430-0",
+        "section": "26",
+        "component": "SEM",
+        "courseTitle": "Seminar on Interpretive Discussion",
+        "topic": "",
+        "courseNumber": "40129",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 312",
+            "MEETING_TIME": "We 12:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "437-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Curriculum Design and Implementation",
+        "topic": "",
+        "courseNumber": "41783",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 418",
+            "MEETING_TIME": "TuTh 7:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "441-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Differentiating Instruction for Gifted Learners",
+        "topic": "",
+        "courseNumber": "40137",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "451-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Topics in Teaching and Learning",
+        "topic": "Undstnd Teacher Dvl & Grwth",
+        "courseNumber": "41862",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 412",
+            "MEETING_TIME": "MoTuWeThFr 8:00AM - 1:00PM"
+          }
+        ],
+        "startDate": "2015-07-06"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "451-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Topics in Teaching and Learning",
+        "topic": "Using Video for Professional Learning",
+        "courseNumber": "41861",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 412",
+            "MEETING_TIME": "MoTuWeThFr 8:00AM - 1:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "451-0",
+        "section": "62F",
+        "component": "LEC",
+        "courseTitle": "Topics in Teaching and Learning",
+        "topic": "AP Economics",
+        "courseNumber": "42070",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeTh 8:00AM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "461-0",
+        "section": "26",
+        "component": "SEM",
+        "courseTitle": "Teacher Leadership: Formative and Benchmark Assessment",
+        "topic": "",
+        "courseNumber": "40138",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 412",
+            "MEETING_TIME": "TuTh 4:30PM - 6:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "SESP",
+    "subject": "MS_ED"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "451-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Higher Education",
+        "topic": "",
+        "courseNumber": "41529",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Fr 6:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 9:00AM - 5:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Su 9:00AM - 12:00PM"
+          },
+          {
+            "ROOM": "No Room Needed",
+            "MEETING_TIME": "Th 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "460-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Proseminar in Higher Education",
+        "topic": "",
+        "courseNumber": "41530",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 6:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 9:30AM - 12:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "475-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Crisis Management and Mental Health Issues",
+        "topic": "",
+        "courseNumber": "41516",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 6:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "476-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Enrollment Management Theory and Practice",
+        "topic": "",
+        "courseNumber": "41880",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Fisk Hall 114",
+            "MEETING_TIME": "Tu 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "485-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Internship in Higher Education",
+        "topic": "",
+        "courseNumber": "41522",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "SESP",
+    "subject": "MS_HE"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "440-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Executing Strategic Change",
+        "topic": "",
+        "courseNumber": "41531",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "441-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Designing Sustainable Strategic Change",
+        "topic": "",
+        "courseNumber": "41532",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "451-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Building Transformational Client Relationships",
+        "topic": "",
+        "courseNumber": "41533",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "452-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Cognitive Design",
+        "topic": "",
+        "courseNumber": "41898",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "462-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Capstone II: Design & Measurement",
+        "topic": "",
+        "courseNumber": "41518",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "495-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "MSLOC Internship",
+        "topic": "",
+        "courseNumber": "41523",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "499-1",
+        "section": "20",
+        "component": "IND",
+        "courseTitle": "Independent Study",
+        "topic": "",
+        "courseNumber": "41524",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "SESP",
+    "subject": "MS_LOC"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "384-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Practicum in Human Development - Washington, D.C.",
+        "topic": "",
+        "courseNumber": "41874",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Fr 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "386-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Practicum: Human Development & Psychological Svcs.",
+        "topic": "",
+        "courseNumber": "41525",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Fisk Hall 114",
+            "MEETING_TIME": "Fr 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "387-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Practicum: Learning& Organizational Change",
+        "topic": "",
+        "courseNumber": "41526",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 312",
+            "MEETING_TIME": "Fr 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "387-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Practicum: Learning& Organizational Change",
+        "topic": "",
+        "courseNumber": "42176",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "MoTuWeTh 8:00AM - 8:00PM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "388-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Practicum: Social Policy",
+        "topic": "",
+        "courseNumber": "41527",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Fr 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "388-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Practicum: Social Policy",
+        "topic": "",
+        "courseNumber": "42178",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeTh 8:00AM - 8:00PM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "389-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Practicum in Human Development - San Francisco",
+        "topic": "",
+        "courseNumber": "41528",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Fr 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      }
+    ],
+    "school": "SESP",
+    "subject": "SESP"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "276-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "African Literature in Translation",
+        "topic": "",
+        "courseNumber": "40082",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 213",
+            "MEETING_TIME": "MoWe 10:00AM - 11:20AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "AFST"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "378-0",
+        "section": "26",
+        "component": "SEM",
+        "courseTitle": "Harlem Renaissance",
+        "topic": "",
+        "courseNumber": "41393",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Fisk Hall 114",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "AF_AM_ST"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "213-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Human Origins",
+        "topic": "",
+        "courseNumber": "40083",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "214-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Archaeology: Unearthing History",
+        "topic": "",
+        "courseNumber": "40084",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "232-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Myth and Symbolism",
+        "topic": "",
+        "courseNumber": "40086",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ANTHRO"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "111-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Arabic I",
+        "topic": "",
+        "courseNumber": "40034",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 3322",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "111-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Arabic I",
+        "topic": "",
+        "courseNumber": "40035",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 3322",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "111-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Arabic I",
+        "topic": "",
+        "courseNumber": "40036",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 3322",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ARABIC"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "150-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Photography",
+        "topic": "",
+        "courseNumber": "40232",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Norris University Center B044",
+            "MEETING_TIME": "TuTh 9:30AM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ART"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "405-SA",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "Art Historical Research",
+        "topic": "",
+        "courseNumber": "42247",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ART_HIST"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "101-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Modern Cosmology",
+        "topic": "",
+        "courseNumber": "40087",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute M164",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 11:00AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "120-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Highlights of Astronomy",
+        "topic": "",
+        "courseNumber": "40089",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute M128",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ASTRON"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "100-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Biological Sciences at Northwestern",
+        "topic": "",
+        "courseNumber": "40207",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute M120",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "216-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Cell Biology",
+        "topic": "",
+        "courseNumber": "40041",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 4",
+            "MEETING_TIME": "TuTh 8:00AM - 10:30AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "217-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Physiology",
+        "topic": "",
+        "courseNumber": "40047",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 4",
+            "MEETING_TIME": "TuTh 11:00AM - 1:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "218-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Biochemistry",
+        "topic": "",
+        "courseNumber": "40049",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Pancoe Life Sciences 1-401",
+            "MEETING_TIME": "MoTuWeThFr 11:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "220-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Genetics and Molecular Processes Laboratory",
+        "topic": "",
+        "courseNumber": "40050",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG72",
+            "MEETING_TIME": "TuWeTh 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "221-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Cellular Processes Laboratory",
+        "topic": "",
+        "courseNumber": "40052",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG72",
+            "MEETING_TIME": "TuWeTh 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "222-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Investigative Laboratory",
+        "topic": "",
+        "courseNumber": "40053",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG72",
+            "MEETING_TIME": "TuWeTh 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "398-0",
+        "section": "01",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": "",
+        "courseNumber": "42039",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "BIOL_SCI"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "239-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Marketing Management",
+        "topic": "",
+        "courseNumber": "40116",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute M164",
+            "MEETING_TIME": "MoWeFr 1:00PM - 2:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "394-0",
+        "section": "37",
+        "component": "LEC",
+        "courseTitle": "Professional Linkage Seminar",
+        "topic": "Sports Marketing in 21st Century",
+        "courseNumber": "41394",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute M164",
+            "MEETING_TIME": "MoTu 6:00PM - 8:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "BUS_INST"
+  },
+  {
+    "status": 200,
+    "results": 13,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "291-0",
+        "section": "28",
+        "component": "FLD",
+        "courseTitle": "Analysis of Field Experience",
+        "topic": "",
+        "courseNumber": "41395",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "291-0",
+        "section": "38",
+        "component": "FLD",
+        "courseTitle": "Analysis of Field Experience",
+        "topic": "",
+        "courseNumber": "41396",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "388-0",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Business Culture",
+        "topic": "",
+        "courseNumber": "41397",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 7:00PM - 8:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "388-0",
+        "section": "29",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Business Culture",
+        "topic": "",
+        "courseNumber": "42065",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 7:00PM - 8:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "391-0",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Social Justice",
+        "topic": "",
+        "courseNumber": "40217",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 318",
+            "MEETING_TIME": "Mo 5:00PM - 8:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "393-1",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Modern Workplace Culture",
+        "topic": "",
+        "courseNumber": "40219",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ULP Sem Room 103 - 1813 Hinman",
+            "MEETING_TIME": "Mo 5:00PM - 6:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "393-2",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues in the Workplace",
+        "topic": "",
+        "courseNumber": "40221",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ULP Sem Room 103 - 1813 Hinman",
+            "MEETING_TIME": "Mo 6:30PM - 8:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "394-1",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Legal Culture & Process",
+        "topic": "",
+        "courseNumber": "40223",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 801",
+            "MEETING_TIME": "Mo 10:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "394-2",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues in Law",
+        "topic": "",
+        "courseNumber": "40224",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 801",
+            "MEETING_TIME": "Mo 11:30AM - 1:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "395-1",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Business Workplace Culture",
+        "topic": "",
+        "courseNumber": "40225",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 112",
+            "MEETING_TIME": "Mo 5:00PM - 6:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "395-2",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues: Business Field Studies",
+        "topic": "",
+        "courseNumber": "40226",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 112",
+            "MEETING_TIME": "Mo 6:30PM - 8:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "397-0",
+        "section": "28",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Civic Engagement: Engage Chicago",
+        "topic": "",
+        "courseNumber": "40227",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "398-0",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Humanities",
+        "topic": "",
+        "courseNumber": "40211",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ULP Sem Room 103 - 1813 Hinman",
+            "MEETING_TIME": "Tu 5:00PM - 8:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CFS"
+  },
+  {
+    "status": 200,
+    "results": 14,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "100-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Calculus and Chemistry",
+        "topic": "",
+        "courseNumber": "40172",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "100-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Problem Solving in Chemistry",
+        "topic": "",
+        "courseNumber": "42229",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute A110",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          },
+          {
+            "ROOM": "Technological Institute A110",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-08-24"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "101-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Chemistry",
+        "topic": "",
+        "courseNumber": "40173",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "102-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Inorganic Chemistry",
+        "topic": "",
+        "courseNumber": "40174",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "103-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physical Chemistry",
+        "topic": "",
+        "courseNumber": "40175",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "121-0",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "General Chemistry Laboratory",
+        "topic": "",
+        "courseNumber": "40244",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute HG10",
+            "MEETING_TIME": "MoWe 1:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "122-0",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "General Inorganic Chem Lab",
+        "topic": "",
+        "courseNumber": "40178",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute HG10",
+            "MEETING_TIME": "MoWe 1:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "123-0",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "General Physical Chemistry Laboratory",
+        "topic": "",
+        "courseNumber": "40245",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute HG10",
+            "MEETING_TIME": "MoWe 1:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "199-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Foundations of Organic Chemstry",
+        "topic": "",
+        "courseNumber": "42248",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG28",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-08-17"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "210-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": "",
+        "courseNumber": "40191",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          },
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoWeFr 1:00PM - 2:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "210-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": "",
+        "courseNumber": "40193",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "210-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": "",
+        "courseNumber": "40195",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "230-2",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "Organic Chemistry Lab I",
+        "topic": "",
+        "courseNumber": "40246",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute D220",
+            "MEETING_TIME": "MoWeFr 1:00PM - 5:30PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "230-3",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "Organic Chemistry Lab II",
+        "topic": "",
+        "courseNumber": "40204",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute D220",
+            "MEETING_TIME": "MoWeFr 1:00PM - 5:30PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CHEM"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "111-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Chinese I",
+        "topic": "",
+        "courseNumber": "40092",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 3370",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "111-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Chinese I",
+        "topic": "",
+        "courseNumber": "40093",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 3370",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "111-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Chinese I",
+        "topic": "",
+        "courseNumber": "40095",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 3370",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CHINESE"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "260-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Classical Mythology",
+        "topic": "",
+        "courseNumber": "40119",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 212",
+            "MEETING_TIME": "TuTh 10:00AM - 12:20PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CLASSICS"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "100-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Problem-Solving in Economics",
+        "topic": "",
+        "courseNumber": "42249",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 105",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-08-24"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "201-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Macroeconomics",
+        "topic": "",
+        "courseNumber": "40153",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 101",
+            "MEETING_TIME": "MoWeFr 3:00PM - 4:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "202-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Microeconomics",
+        "topic": "",
+        "courseNumber": "40154",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 101",
+            "MEETING_TIME": "MoWeFr 11:00AM - 12:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "281-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Applied Econometrics",
+        "topic": "",
+        "courseNumber": "40155",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 101",
+            "MEETING_TIME": "MoTuWe 9:00AM - 10:50AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "308-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Money and Banking",
+        "topic": "",
+        "courseNumber": "40156",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 121",
+            "MEETING_TIME": "MoTuWe 1:00PM - 2:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "310-1",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Microeconomics",
+        "topic": "",
+        "courseNumber": "40157",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Jacobs Center 3245",
+            "MEETING_TIME": "TuTh 3:00PM - 4:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "310-2",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Microeconomics",
+        "topic": "",
+        "courseNumber": "40158",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Jacobs Center 3245",
+            "MEETING_TIME": "MoWeFr 3:00PM - 4:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "311-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Macroeconomics",
+        "topic": "",
+        "courseNumber": "40159",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Jacobs Center 3245",
+            "MEETING_TIME": "MoWeFr 11:00AM - 12:50PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "330-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Behavioral Economics",
+        "topic": "",
+        "courseNumber": "40160",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Jacobs Center 3245",
+            "MEETING_TIME": "TuTh 6:30PM - 8:20PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ECON"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "105-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Expository Writing",
+        "topic": "",
+        "courseNumber": "40111",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Harris Hall L04",
+            "MEETING_TIME": "MoWe 1:00PM - 3:20PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "313-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Studies in Fiction",
+        "topic": "Reading Postmodern & Digital Narratives",
+        "courseNumber": "40112",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 212",
+            "MEETING_TIME": "MoWe 9:30AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "332-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Renaissance Drama",
+        "topic": "Racial Impersonation Ren Stage",
+        "courseNumber": "40113",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 212",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "385-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Topics in Combined Studies",
+        "topic": "Lit & Envron: Living in Nature",
+        "courseNumber": "40114",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 212",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "386-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Studies in Literature and Film",
+        "topic": "Baseball in American Narrative",
+        "courseNumber": "40115",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 101",
+            "MEETING_TIME": "TuTh 12:30PM - 3:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ENGLISH"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "111-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": "",
+        "courseNumber": "40019",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 5746",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "111-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": "",
+        "courseNumber": "40020",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 5746",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "111-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": "",
+        "courseNumber": "40021",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 5746",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "121-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": "",
+        "courseNumber": "40022",
+        "classMeetingInfo": [
+          {
+            "ROOM": "FRIT Grad Sem Rm 2130 - Crowe",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "121-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": "",
+        "courseNumber": "40023",
+        "classMeetingInfo": [
+          {
+            "ROOM": "FRIT Grad Sem Rm 2130 - Crowe",
+            "MEETING_TIME": "MoTuWeThFr 9:30AM - 12:30PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "121-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": "",
+        "courseNumber": "40024",
+        "classMeetingInfo": [
+          {
+            "ROOM": "FRIT Grad Sem Rm 2130 - Crowe",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "596-0",
+        "section": "20",
+        "component": "THE",
+        "courseTitle": "PhD Thesis Tutorial",
+        "topic": "",
+        "courseNumber": "42202",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "FRENCH"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "310-SA",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "Supervised Global Health Research",
+        "topic": "Field Rsrch Pbl Hlth: Tanzania",
+        "courseNumber": "41984",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "GBL_HLTH"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "101-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Beginning German",
+        "topic": "",
+        "courseNumber": "40088",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 4670",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "101-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Beginning German",
+        "topic": "",
+        "courseNumber": "40090",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 4670",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "101-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Beginning German",
+        "topic": "",
+        "courseNumber": "40091",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 4670",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "101-SA-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Beginning German",
+        "topic": "",
+        "courseNumber": "41987",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "105-0",
+        "section": "20",
+        "component": "DIS",
+        "courseTitle": "German for Research",
+        "topic": "",
+        "courseNumber": "40094",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 3670",
+            "MEETING_TIME": "TuTh 9:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "205-SA",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Focus Writing",
+        "topic": "",
+        "courseNumber": "42010",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "222-SA",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "German History from 1789-1989",
+        "topic": "",
+        "courseNumber": "41989",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "GERMAN"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "361-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Gender, Sexuality, and Literature",
+        "topic": "Sexuality & Shakespeare",
+        "courseNumber": "41503",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 212",
+            "MEETING_TIME": "MoWe 3:30PM - 6:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "GNDR_ST"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "201-1",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "European Civilization: High Medieval Thru Mid-18th C",
+        "topic": "",
+        "courseNumber": "40017",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 506",
+            "MEETING_TIME": "TuTh 6:00PM - 8:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "300-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "New Lectures in History",
+        "topic": "International History and International Relations",
+        "courseNumber": "40028",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 505",
+            "MEETING_TIME": "MoWe 6:00PM - 8:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "315-3",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "The United States Since 1900: Late 20th C. to Present",
+        "topic": "",
+        "courseNumber": "40029",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Harris Hall L04",
+            "MEETING_TIME": "TuTh 2:00PM - 4:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "316-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "The Sixties",
+        "topic": "",
+        "courseNumber": "40018",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Harris Hall L06",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "392-0",
+        "section": "26",
+        "component": "SEM",
+        "courseTitle": "Topics In History",
+        "topic": "Ideas in U.S. Foreign Policy",
+        "courseNumber": "40031",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Harris Hall L06",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "HISTORY"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "290-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Topics in International Studies",
+        "topic": "From Nationalism to Revolution:",
+        "courseNumber": "40121",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Harris Hall L06",
+            "MEETING_TIME": "MoWe 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "393-SA",
+        "section": "10",
+        "component": "FLD",
+        "courseTitle": "Development in the Global Context: Participation, Power, and Social Change",
+        "topic": "",
+        "courseNumber": "40242",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSaSu 2:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-15"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "INTL_ST"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "350-SA",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Energy Technology & Policy in China",
+        "topic": "",
+        "courseNumber": "42015",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ISEN"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "111-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Japanese I",
+        "topic": "",
+        "courseNumber": "40098",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 5722",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "JAPANESE"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "260-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Formal Analysis of Words & Sentences",
+        "topic": "Formal Analysis of Words and Sentences",
+        "courseNumber": "40103",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 318",
+            "MEETING_TIME": "MoWe 2:30PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "LING"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "100-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Quantitative Reasoning",
+        "topic": "",
+        "courseNumber": "42250",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-08-10"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "220-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Differential Calculus of One-Variable Functions",
+        "topic": "",
+        "courseNumber": "40054",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "MoTuWeTh 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "224-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Integral Calculus of One Variable Functions",
+        "topic": "",
+        "courseNumber": "40055",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "MoTuWeTh 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2015-07-20"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "230-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Differential Calculus of Multivariable Functions",
+        "topic": "",
+        "courseNumber": "40056",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "MoWe 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "234-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Multiple Integration and Vector Calculus",
+        "topic": "",
+        "courseNumber": "40057",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "TuTh 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "240-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Linear Algebra",
+        "topic": "",
+        "courseNumber": "40058",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "MoWe 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "300-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Foundations of Higher Mathematics",
+        "topic": "",
+        "courseNumber": "40059",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "TuTh 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "334-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Linear Algebra: Second Course",
+        "topic": "",
+        "courseNumber": "40060",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "TuTh 7:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "MATH"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "110-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Philosophy",
+        "topic": "",
+        "courseNumber": "40139",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 215",
+            "MEETING_TIME": "TuTh 10:00AM - 12:15PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "150-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Elementary Logic I",
+        "topic": "",
+        "courseNumber": "40140",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 215",
+            "MEETING_TIME": "TuTh 1:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "260-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Moral Philosophy",
+        "topic": "",
+        "courseNumber": "40248",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Crowe Hall 1-140 Art T&P Room",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "261-0",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Introduction to Political Philosophy",
+        "topic": "",
+        "courseNumber": "40141",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 213",
+            "MEETING_TIME": "TuTh 1:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "269-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Bioethics",
+        "topic": "",
+        "courseNumber": "40143",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 102",
+            "MEETING_TIME": "MoWe 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PHIL"
+  },
+  {
+    "status": 200,
+    "results": 15,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "130-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": "",
+        "courseNumber": "40062",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L211",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "130-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": "",
+        "courseNumber": "40063",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L211",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "130-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": "",
+        "courseNumber": "40064",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L211",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "135-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": "",
+        "courseNumber": "40065",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L221",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "135-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": "",
+        "courseNumber": "40066",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L221",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "135-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": "",
+        "courseNumber": "40067",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L221",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "136-1",
+        "section": "38",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "41308",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 7:00AM - 9:00AM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "136-1",
+        "section": "48",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "41309",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "136-1",
+        "section": "58",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "41310",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "136-2",
+        "section": "38",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "41311",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 7:00AM - 9:00AM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "136-2",
+        "section": "48",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "41312",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "136-2",
+        "section": "58",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "41313",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "136-3",
+        "section": "38",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "41314",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 7:00AM - 9:00AM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "136-3",
+        "section": "48",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "41315",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "136-3",
+        "section": "58",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "41316",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PHYSICS"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "220-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "American Government and Politics",
+        "topic": "",
+        "courseNumber": "40149",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 223",
+            "MEETING_TIME": "TuTh 2:00PM - 4:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "240-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to International Relations",
+        "topic": "",
+        "courseNumber": "40151",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 223",
+            "MEETING_TIME": "TuWeTh 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "259-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Contemporary African Politics",
+        "topic": "African Politics",
+        "courseNumber": "40120",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 224",
+            "MEETING_TIME": "TuTh 6:00PM - 8:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "369-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Politics of Post-Soviet Russia",
+        "topic": "",
+        "courseNumber": "40152",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Harris Hall L28",
+            "MEETING_TIME": "We 6:00PM - 9:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "POLI_SCI"
+  },
+  {
+    "status": 200,
+    "results": 11,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "110-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Introduction to Psychology",
+        "topic": "",
+        "courseNumber": "40042",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 107",
+            "MEETING_TIME": "TuTh 10:30AM - 1:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "201-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Statistical Methods in Psychology",
+        "topic": "",
+        "courseNumber": "40043",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 210",
+            "MEETING_TIME": "MoWe 10:30AM - 1:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "204-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Social Psychology",
+        "topic": "",
+        "courseNumber": "40044",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 413",
+            "MEETING_TIME": "MoWe 6:00PM - 8:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "205-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Research Methods in Psychology",
+        "topic": "",
+        "courseNumber": "40045",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 210",
+            "MEETING_TIME": "MoWe 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "218-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Developmental Psychology",
+        "topic": "",
+        "courseNumber": "40046",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 105",
+            "MEETING_TIME": "MoWe 6:00PM - 8:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "303-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Psychopathology",
+        "topic": "",
+        "courseNumber": "40051",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 210",
+            "MEETING_TIME": "TuTh 2:30PM - 5:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "314-0",
+        "section": "35",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Psychology",
+        "topic": "Positive Psychology- The Science of Well-Being",
+        "courseNumber": "40068",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 223",
+            "MEETING_TIME": "MoWe 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "314-0",
+        "section": "44",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Psychology",
+        "topic": "Moral Psychology",
+        "courseNumber": "40073",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 223",
+            "MEETING_TIME": "MoWe 1:30PM - 5:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "324-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Perception",
+        "topic": "Perception",
+        "courseNumber": "40076",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L150",
+            "MEETING_TIME": "Th 1:00PM - 4:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "344-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Cultural Psychology",
+        "topic": "",
+        "courseNumber": "40080",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute M128",
+            "MEETING_TIME": "TuTh 5:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "384-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Close Relationships",
+        "topic": "Relationship",
+        "courseNumber": "40085",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 224",
+            "MEETING_TIME": "TuTh 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PSYCH"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "210-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Buddhism",
+        "topic": "",
+        "courseNumber": "40106",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 224",
+            "MEETING_TIME": "MoWe 6:30PM - 8:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "RELIGION"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "110-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Sociology",
+        "topic": "",
+        "courseNumber": "40208",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Harris Hall L04",
+            "MEETING_TIME": "TuTh 9:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2015-07-20"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "216-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Gender and Society",
+        "topic": "",
+        "courseNumber": "40209",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 213",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "220-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Health, Biomedicine, Culture, and Society",
+        "topic": "",
+        "courseNumber": "40210",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 213",
+            "MEETING_TIME": "TuTh 9:30AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "318-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Sociology of Law",
+        "topic": "",
+        "courseNumber": "40212",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 516",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "319-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Sociology of Science",
+        "topic": "",
+        "courseNumber": "40213",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Harris Hall L04",
+            "MEETING_TIME": "MoWe 9:30AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "SOCIOL"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "101-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Spanish",
+        "topic": "",
+        "courseNumber": "40214",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 3722",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "101-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Spanish",
+        "topic": "",
+        "courseNumber": "40215",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 3722",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "101-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Spanish",
+        "topic": "",
+        "courseNumber": "40216",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 3722",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "121-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": "",
+        "courseNumber": "40218",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 3722",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "121-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": "",
+        "courseNumber": "40220",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 3722",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2015-07-13"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "121-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": "",
+        "courseNumber": "40222",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Library 3722",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2015-08-03"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "215-SA",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Cuban Culture & Society",
+        "topic": "",
+        "courseNumber": "42009",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "380-SA",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Topics in Film: The Silver Screen in Latin America and/or Spain",
+        "topic": "Cuban Cinema Since 1960",
+        "courseNumber": "41990",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "395-SA",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Topics in Latin American, Latina/o, and Iberian Literatures and Cultures",
+        "topic": "Cuban Literature Since 1960",
+        "courseNumber": "41991",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "SPANISH"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "202-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Statistics",
+        "topic": "",
+        "courseNumber": "40109",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 215",
+            "MEETING_TIME": "MoWeFr 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "210-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introductory Statistics for the Social Sciences",
+        "topic": "",
+        "courseNumber": "40110",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 224",
+            "MEETING_TIME": "MoWeFr 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "STAT"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "111-SA-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Swahili I",
+        "topic": "",
+        "courseNumber": "41983",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      },
+      {
+        "termDescription": "2015 Summer",
+        "catalogNumber": "121-SA-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Swahili II",
+        "topic": "",
+        "courseNumber": "42012",
+        "classMeetingInfo": [],
+        "startDate": "2015-06-22"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "SWAHILI"
+  }
+]

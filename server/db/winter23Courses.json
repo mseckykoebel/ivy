@@ -2381,12 +2381,7 @@
         "courseTitle": "Topics in Performance Studies",
         "topic": "",
         "courseNumber": "28379",
-        "classMeetingInfo": [
-          {
-            "ROOM": "TBA",
-            "MEETING_TIME": "We 2:00PM - 4:50PM"
-          }
-        ],
+        "classMeetingInfo": [],
         "startDate": "2023-01-03"
       },
       {
@@ -3599,7 +3594,7 @@
   },
   {
     "status": 200,
-    "results": 97,
+    "results": 98,
     "data": [
       {
         "termDescription": "2023 Winter",
@@ -4852,6 +4847,22 @@
       },
       {
         "termDescription": "2023 Winter",
+        "catalogNumber": "450-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Topics in Stage Design",
+        "topic": "Advanced Problems in Lighting Design",
+        "courseNumber": "28453",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wirtz 205 Dry Design Studio",
+            "MEETING_TIME": "Tu 10:00AM - 12:50PM"
+          }
+        ],
+        "startDate": "2023-01-03"
+      },
+      {
+        "termDescription": "2023 Winter",
         "catalogNumber": "451-1",
         "section": "20",
         "component": "LEC",
@@ -5033,24 +5044,8 @@
   },
   {
     "status": 200,
-    "results": 33,
+    "results": 29,
     "data": [
-      {
-        "termDescription": "2023 Winter",
-        "catalogNumber": "101-6",
-        "section": "20",
-        "component": "SEM",
-        "courseTitle": "First-Year Seminar",
-        "topic": "Black Life. Trans Life.",
-        "courseNumber": "26930",
-        "classMeetingInfo": [
-          {
-            "ROOM": "TBA",
-            "MEETING_TIME": "TuTh 9:30AM - 10:50AM"
-          }
-        ],
-        "startDate": "2023-01-03"
-      },
       {
         "termDescription": "2023 Winter",
         "catalogNumber": "101-6",
@@ -5069,27 +5064,11 @@
       },
       {
         "termDescription": "2023 Winter",
-        "catalogNumber": "210-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Introduction to African American Literature",
-        "topic": "",
-        "courseNumber": "27184",
-        "classMeetingInfo": [
-          {
-            "ROOM": "TBA",
-            "MEETING_TIME": "TuTh 2:00PM - 3:20PM"
-          }
-        ],
-        "startDate": "2023-01-03"
-      },
-      {
-        "termDescription": "2023 Winter",
         "catalogNumber": "211-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Literatures of the Black World",
-        "topic": "Black Classicism",
+        "topic": "",
         "courseNumber": "27195",
         "classMeetingInfo": [
           {
@@ -5101,28 +5080,44 @@
       },
       {
         "termDescription": "2023 Winter",
-        "catalogNumber": "236-0",
+        "catalogNumber": "212-2",
         "section": "20",
         "component": "LEC",
-        "courseTitle": "Introduction to African-American Studies",
+        "courseTitle": "Introduction to African American History: Emancipation to Civil Rights Movement",
         "topic": "",
-        "courseNumber": "27185",
+        "courseNumber": "28460",
         "classMeetingInfo": [
           {
             "ROOM": "TBA",
-            "MEETING_TIME": "MoWe 11:00AM - 12:20PM"
+            "MEETING_TIME": "TuTh 3:30PM - 4:50PM"
           }
         ],
         "startDate": "2023-01-03"
       },
       {
         "termDescription": "2023 Winter",
-        "catalogNumber": "259-0",
+        "catalogNumber": "213-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "History of the Black World",
+        "topic": "",
+        "courseNumber": "28464",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "TuTh 9:30AM - 10:50AM"
+          }
+        ],
+        "startDate": "2023-01-03"
+      },
+      {
+        "termDescription": "2023 Winter",
+        "catalogNumber": "251-0",
         "section": "20",
         "component": "LEC",
-        "courseTitle": "Introduction to African-American Drama",
-        "topic": "African American Theatre",
-        "courseNumber": "27741",
+        "courseTitle": "The Mixed Race Experience",
+        "topic": "",
+        "courseNumber": "28463",
         "classMeetingInfo": [
           {
             "ROOM": "TBA",
@@ -5137,7 +5132,7 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Politics of Black Popular Culture",
-        "topic": "",
+        "topic": "Contemporary Black Popular Music",
         "courseNumber": "26959",
         "classMeetingInfo": [
           {
@@ -5149,32 +5144,16 @@
       },
       {
         "termDescription": "2023 Winter",
-        "catalogNumber": "360-0",
+        "catalogNumber": "345-0",
         "section": "20",
         "component": "LEC",
-        "courseTitle": "Major Authors",
-        "topic": "James Baldwin and Black Political Thought",
-        "courseNumber": "27186",
+        "courseTitle": "Afro-Latin America",
+        "topic": "Politics of Afro-Latin America",
+        "courseNumber": "28459",
         "classMeetingInfo": [
           {
             "ROOM": "TBA",
-            "MEETING_TIME": "TuTh 3:30PM - 4:50PM"
-          }
-        ],
-        "startDate": "2023-01-03"
-      },
-      {
-        "termDescription": "2023 Winter",
-        "catalogNumber": "379-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Black Women Writers",
-        "topic": "",
-        "courseNumber": "27187",
-        "classMeetingInfo": [
-          {
-            "ROOM": "TBA",
-            "MEETING_TIME": "MoWe 3:30PM - 4:50PM"
+            "MEETING_TIME": "TuTh 12:30PM - 1:50PM"
           }
         ],
         "startDate": "2023-01-03"
@@ -5185,12 +5164,12 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Topics in African-American Studies",
-        "topic": "Debates in African American Literature",
+        "topic": "Africans and African Americans: Cultural Entanglem",
         "courseNumber": "26931",
         "classMeetingInfo": [
           {
             "ROOM": "TBA",
-            "MEETING_TIME": "MoWe 2:00PM - 3:20PM"
+            "MEETING_TIME": "TuTh 2:00PM - 3:20PM"
           }
         ],
         "startDate": "2023-01-03"
@@ -5224,28 +5203,12 @@
       },
       {
         "termDescription": "2023 Winter",
-        "catalogNumber": "403-0",
+        "catalogNumber": "420-0",
         "section": "20",
         "component": "LEC",
-        "courseTitle": "Theorizing Blackness and Diaspora",
+        "courseTitle": "Expressive Arts and Cultural Studies",
         "topic": "",
-        "courseNumber": "27192",
-        "classMeetingInfo": [
-          {
-            "ROOM": "TBA",
-            "MEETING_TIME": "Tu 9:00AM - 11:50AM"
-          }
-        ],
-        "startDate": "2023-01-03"
-      },
-      {
-        "termDescription": "2023 Winter",
-        "catalogNumber": "480-0",
-        "section": "20",
-        "component": "SEM",
-        "courseTitle": "Graduate Topics in African American Studies",
-        "topic": "Black Life",
-        "courseNumber": "26961",
+        "courseNumber": "28461",
         "classMeetingInfo": [
           {
             "ROOM": "TBA",
@@ -5256,28 +5219,12 @@
       },
       {
         "termDescription": "2023 Winter",
-        "catalogNumber": "480-0",
-        "section": "21",
-        "component": "SEM",
-        "courseTitle": "Graduate Topics in African American Studies",
-        "topic": "On Black Education: Towards a Liberatory Praxis",
-        "courseNumber": "26960",
-        "classMeetingInfo": [
-          {
-            "ROOM": "TBA",
-            "MEETING_TIME": "Mo 2:00PM - 4:50PM"
-          }
-        ],
-        "startDate": "2023-01-03"
-      },
-      {
-        "termDescription": "2023 Winter",
-        "catalogNumber": "480-0",
-        "section": "24",
-        "component": "SEM",
-        "courseTitle": "Graduate Topics in African American Studies",
-        "topic": "Black Speculative Fiction",
-        "courseNumber": "27194",
+        "catalogNumber": "444-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Civil Rights/Black Liberation",
+        "topic": "",
+        "courseNumber": "28462",
         "classMeetingInfo": [
           {
             "ROOM": "TBA",
@@ -6047,7 +5994,7 @@
   },
   {
     "status": 200,
-    "results": 20,
+    "results": 22,
     "data": [
       {
         "termDescription": "2023 Winter",
@@ -6075,7 +6022,7 @@
         "courseNumber": "25876",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1-345 Art Drawing Studi",
             "MEETING_TIME": "TuTh 9:00AM - 11:50AM"
           }
         ],
@@ -6091,7 +6038,7 @@
         "courseNumber": "25877",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1-345 Art Drawing Studi",
             "MEETING_TIME": "TuTh 1:00PM - 3:50PM"
           }
         ],
@@ -6107,7 +6054,7 @@
         "courseNumber": "25901",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1-345 Art Drawing Studi",
             "MEETING_TIME": "MoWe 9:00AM - 11:50AM"
           }
         ],
@@ -6123,7 +6070,7 @@
         "courseNumber": "27555",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1-345 Art Drawing Studi",
             "MEETING_TIME": "MoWe 1:00PM - 3:50PM"
           }
         ],
@@ -6139,7 +6086,7 @@
         "courseNumber": "25873",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1335 Painting Studio",
             "MEETING_TIME": "MoWe 9:00AM - 11:50AM"
           }
         ],
@@ -6155,7 +6102,7 @@
         "courseNumber": "25874",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1335 Painting Studio",
             "MEETING_TIME": "MoWe 1:00PM - 3:50PM"
           }
         ],
@@ -6171,8 +6118,24 @@
         "courseNumber": "25875",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1335 Painting Studio",
             "MEETING_TIME": "TuTh 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-03"
+      },
+      {
+        "termDescription": "2023 Winter",
+        "catalogNumber": "220-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Painting",
+        "topic": "",
+        "courseNumber": "28454",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge 1335 Painting Studio",
+            "MEETING_TIME": "TuTh 1:00PM - 3:50PM"
           }
         ],
         "startDate": "2023-01-03"
@@ -6187,7 +6150,7 @@
         "courseNumber": "26760",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1319 Art Room",
             "MEETING_TIME": "TuTh 1:00PM - 3:50PM"
           }
         ],
@@ -6203,7 +6166,7 @@
         "courseNumber": "25878",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1425 Sculpture Room",
             "MEETING_TIME": "MoWe 9:00AM - 11:50AM"
           }
         ],
@@ -6219,7 +6182,7 @@
         "courseNumber": "25879",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1425 Sculpture Room",
             "MEETING_TIME": "MoWe 1:00PM - 3:50PM"
           }
         ],
@@ -6235,7 +6198,7 @@
         "courseNumber": "25880",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1310 Photo Classroom",
             "MEETING_TIME": "TuTh 9:00AM - 11:50AM"
           }
         ],
@@ -6251,7 +6214,7 @@
         "courseNumber": "25881",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1310 Photo Classroom",
             "MEETING_TIME": "TuTh 1:00PM - 3:50PM"
           }
         ],
@@ -6267,7 +6230,7 @@
         "courseNumber": "25894",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1305 Flex Seminar",
             "MEETING_TIME": "MoWe 1:00PM - 3:50PM"
           }
         ],
@@ -6283,8 +6246,8 @@
         "courseNumber": "25882",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
-            "MEETING_TIME": "Mo 5:00PM - 7:50PM"
+            "ROOM": "Kresge 1410 Art Flex/Seminar",
+            "MEETING_TIME": "Th 1:00PM - 3:50PM"
           }
         ],
         "startDate": "2023-01-03"
@@ -6299,8 +6262,8 @@
         "courseNumber": "25883",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
-            "MEETING_TIME": "We 1:00PM - 3:50PM"
+            "ROOM": "Kresge 1410 Art Flex/Seminar",
+            "MEETING_TIME": "We 1:00PM - 4:00PM"
           }
         ],
         "startDate": "2023-01-03"
@@ -6311,11 +6274,11 @@
         "section": "1",
         "component": "SEM",
         "courseTitle": "Studio/Seminar",
-        "topic": "Painting Topics",
+        "topic": "",
         "courseNumber": "26761",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1319 Art Room",
             "MEETING_TIME": "TuTh 9:00AM - 11:50AM"
           }
         ],
@@ -6331,8 +6294,8 @@
         "courseNumber": "25884",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
-            "MEETING_TIME": "TuTh 5:00PM - 7:50PM"
+            "ROOM": "Kresge 1319 Art Room",
+            "MEETING_TIME": "TuTh 4:00PM - 6:50PM"
           }
         ],
         "startDate": "2023-01-03"
@@ -6343,12 +6306,28 @@
         "section": "3",
         "component": "LEC",
         "courseTitle": "Studio",
-        "topic": "Cut and Paste // Collage",
+        "topic": "",
         "courseNumber": "27556",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Kresge 1305 Flex Seminar",
             "MEETING_TIME": "TuTh 1:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2023-01-03"
+      },
+      {
+        "termDescription": "2023 Winter",
+        "catalogNumber": "390-0",
+        "section": "4",
+        "component": "LEC",
+        "courseTitle": "Studio",
+        "topic": "Video Art",
+        "courseNumber": "28455",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge 1540 Art T&P Presentati",
+            "MEETING_TIME": "MoWe 1:00PM - 3:50PM"
           }
         ],
         "startDate": "2023-01-03"
@@ -6363,7 +6342,7 @@
         "courseNumber": "25893",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Crowe Hall 1-140 Art T&P Room",
             "MEETING_TIME": "We 5:00PM - 7:50PM"
           }
         ],
@@ -6565,24 +6544,8 @@
   },
   {
     "status": 200,
-    "results": 7,
+    "results": 6,
     "data": [
-      {
-        "termDescription": "2023 Winter",
-        "catalogNumber": "203-0",
-        "section": "1",
-        "component": "LEC",
-        "courseTitle": "Topics in Asian American Social and Cultural Analysis",
-        "topic": "",
-        "courseNumber": "28381",
-        "classMeetingInfo": [
-          {
-            "ROOM": "TBA",
-            "MEETING_TIME": "TuTh 12:30PM - 1:50PM"
-          }
-        ],
-        "startDate": "2023-01-03"
-      },
       {
         "termDescription": "2023 Winter",
         "catalogNumber": "214-0",
@@ -6642,7 +6605,7 @@
         "classMeetingInfo": [
           {
             "ROOM": "TBA",
-            "MEETING_TIME": "MoWe 2:00PM - 3:20PM"
+            "MEETING_TIME": "MoWe 11:00AM - 12:20PM"
           }
         ],
         "startDate": "2023-01-03"
@@ -6671,12 +6634,7 @@
         "courseTitle": "Studies in Arts and Performance",
         "topic": "Fire & Ice: Performances of Citizenship",
         "courseNumber": "26780",
-        "classMeetingInfo": [
-          {
-            "ROOM": "TBA",
-            "MEETING_TIME": "We 2:00PM - 4:50PM"
-          }
-        ],
+        "classMeetingInfo": [],
         "startDate": "2023-01-03"
       }
     ],
@@ -7072,7 +7030,7 @@
   },
   {
     "status": 200,
-    "results": 136,
+    "results": 135,
     "data": [
       {
         "termDescription": "2023 Winter",
@@ -7220,22 +7178,6 @@
           {
             "ROOM": "TBA",
             "MEETING_TIME": "MoWeFr 10:00AM - 10:50AM"
-          }
-        ],
-        "startDate": "2023-01-03"
-      },
-      {
-        "termDescription": "2023 Winter",
-        "catalogNumber": "319-0",
-        "section": "1",
-        "component": "LEC",
-        "courseTitle": "Biology of Animal Viruses",
-        "topic": "",
-        "courseNumber": "28412",
-        "classMeetingInfo": [
-          {
-            "ROOM": "TBA",
-            "MEETING_TIME": "MoWeFr 3:00PM - 3:50PM"
           }
         ],
         "startDate": "2023-01-03"

@@ -1,0 +1,5476 @@
+[
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "170-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Introduction to Music",
+        "topic": "",
+        "courseNumber": "40266",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA 1-160",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "250-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "History of Rock",
+        "topic": "",
+        "courseNumber": "40272",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA 1-160",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "GEN_MUS"
+  },
+  {
+    "status": 200,
+    "results": 13,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "310-0",
+        "section": "20",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Guitar Workshop",
+        "courseNumber": "40463",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 5:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Su 12:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2019-06-17"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "310-0",
+        "section": "21",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Voice Institute",
+        "courseNumber": "40550",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSaSu 10:00AM - 7:30PM"
+          }
+        ],
+        "startDate": "2019-06-17"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "310-0",
+        "section": "22",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Trombone Master Class",
+        "courseNumber": "40551",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWe 8:30AM - 5:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 9:30AM - 6:30PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Fr 10:00AM - 1:30PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Su 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "310-0",
+        "section": "23",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Conducting and Wind Symposium",
+        "courseNumber": "40755",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 8:00AM - 6:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Su 3:00PM - 7:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "310-0",
+        "section": "24",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Vocal Career Seminar",
+        "courseNumber": "40532",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 10:00PM"
+          }
+        ],
+        "startDate": "2019-07-22"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "315-0",
+        "section": "20",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Guitar Workshop",
+        "courseNumber": "40464",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeTh 9:00AM - 5:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Su 12:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2019-06-17"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "315-0",
+        "section": "21",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Voice Institute",
+        "courseNumber": "40552",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSaSu 10:00AM - 7:30PM"
+          }
+        ],
+        "startDate": "2019-06-17"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "315-0",
+        "section": "22",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Trombone Master Class",
+        "courseNumber": "40553",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWe 8:30AM - 5:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 9:30AM - 6:30PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Fr 10:00AM - 1:30PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Su 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "315-0",
+        "section": "23",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Conducting&Wind Symposium",
+        "courseNumber": "40756",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 8:00AM - 6:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Su 3:00PM - 7:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "315-0",
+        "section": "24",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, One-Week",
+        "topic": "Vocal Career Seminar",
+        "courseNumber": "40540",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 10:00PM"
+          }
+        ],
+        "startDate": "2019-07-22"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "320-0",
+        "section": "20",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, Two-Week",
+        "topic": "Violin Institute",
+        "courseNumber": "40548",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 5:30PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 10:30AM - 4:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "325-0",
+        "section": "20",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, Two-Week",
+        "topic": "Violin Institute",
+        "courseNumber": "40549",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 5:30PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 10:30AM - 4:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "333-0",
+        "section": "20",
+        "component": "PED",
+        "courseTitle": "Performance Workshop, Three-Day",
+        "topic": "Summer Voice Institute II",
+        "courseNumber": "40700",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWe 10:00AM - 5:30PM"
+          }
+        ],
+        "startDate": "2019-07-01"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "MUS_WKSP"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "601S",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Business Associations",
+        "topic": "",
+        "courseNumber": "40781",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 108 - Wigmore",
+            "MEETING_TIME": "TuFr 8:30AM - 11:00AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "605D",
+        "section": "1-ON",
+        "component": "LEC",
+        "courseTitle": "Contracts II:  UCC Article 2 (Sales Law)",
+        "topic": "",
+        "courseNumber": "40894",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "631",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Entrepreneurship Law",
+        "topic": "",
+        "courseNumber": "40820",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 254 - Savner",
+            "MEETING_TIME": "We 9:00AM - 1:00PM"
+          },
+          {
+            "ROOM": "Rubloff Building 254 - Savner",
+            "MEETING_TIME": "We 4:00PM - 6:00PM"
+          },
+          {
+            "ROOM": "Rubloff Building 254 - Savner",
+            "MEETING_TIME": "We 4:00PM - 6:00PM"
+          },
+          {
+            "ROOM": "Rubloff Building 254 - Savner",
+            "MEETING_TIME": "Tu 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "670PS",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum: Corporate Counsel",
+        "topic": "",
+        "courseNumber": "40821",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 101",
+            "MEETING_TIME": "We 2:00PM - 4:50PM"
+          },
+          {
+            "ROOM": "Levy Mayer 101",
+            "MEETING_TIME": "We 1:00PM - 3:50PM"
+          },
+          {
+            "ROOM": "Levy Mayer 101",
+            "MEETING_TIME": "We 2:00PM - 4:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "690",
+        "section": "1-ON",
+        "component": "LEC",
+        "courseTitle": "Basic Federal Income Taxation",
+        "topic": "",
+        "courseNumber": "40782",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "904-0",
+        "section": "1-ON",
+        "component": "LEC",
+        "courseTitle": "Contract Drafting",
+        "topic": "",
+        "courseNumber": "40745",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "We 2:00PM - 6:00PM"
+          },
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Fr 9:00AM - 1:00PM"
+          }
+        ],
+        "startDate": "2019-05-19"
+      }
+    ],
+    "school": "LAW",
+    "subject": "BUSCOM"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "647D",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum:  Judicial",
+        "topic": "",
+        "courseNumber": "40895",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "647S",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum: Judicial",
+        "topic": "",
+        "courseNumber": "40892",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "Tu 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "LAW",
+    "subject": "CONPUB"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "905-0",
+        "section": "1-ON",
+        "component": "LEC",
+        "courseTitle": "Patent Law",
+        "topic": "",
+        "courseNumber": "40053",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "LAW",
+    "subject": "INTPROP"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "647B",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Authenticity in Legal Practice",
+        "topic": "",
+        "courseNumber": "40920",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 285 - Hoffman Hall",
+            "MEETING_TIME": "Tu 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "647B",
+        "section": "1-ON",
+        "component": "SEM",
+        "courseTitle": "Authenticity in Legal Practice",
+        "topic": "",
+        "courseNumber": "41472",
+        "classMeetingInfo": [
+          {
+            "ROOM": "DISTANCE COURSE",
+            "MEETING_TIME": "Tu 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "712",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Advanced Legal Writing ? Communicating with Professionals",
+        "topic": "",
+        "courseNumber": "40819",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 185 - Sidley Hall",
+            "MEETING_TIME": "MoTuWeTh 10:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-05-01"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "721",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Leading in the Law",
+        "topic": "",
+        "courseNumber": "40942",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "FrSaSu 9:00AM - 5:30PM"
+          }
+        ],
+        "startDate": "2019-05-10"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "901-0",
+        "section": "1-ON",
+        "component": "LEC",
+        "courseTitle": "Negotiation Skills & Strategies",
+        "topic": "",
+        "courseNumber": "40705",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 101",
+            "MEETING_TIME": "Su 12:00PM - 5:00PM"
+          },
+          {
+            "ROOM": "Levy Mayer 101",
+            "MEETING_TIME": "Mo 9:00AM - 5:00PM"
+          },
+          {
+            "ROOM": "Levy Mayer 101",
+            "MEETING_TIME": "Tu 9:00AM - 4:00PM"
+          }
+        ],
+        "startDate": "2019-05-19"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "912-0",
+        "section": "1-ON",
+        "component": "SEM",
+        "courseTitle": "Ethics",
+        "topic": "",
+        "courseNumber": "40704",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "We 9:00AM - 12:00PM"
+          },
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Th 9:00AM - 2:30PM"
+          },
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Sa 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-05-13"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "930-0",
+        "section": "1-ON",
+        "component": "LEC",
+        "courseTitle": "Corporate Criminal Law",
+        "topic": "",
+        "courseNumber": "40746",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "LAW",
+    "subject": "LAWSTUDY"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "604T",
+        "section": "1",
+        "component": "ADV",
+        "courseTitle": "International Business Law & Negotiations",
+        "topic": "",
+        "courseNumber": "40918",
+        "classMeetingInfo": [],
+        "startDate": "2019-05-01"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "670S",
+        "section": "1",
+        "component": "ADV",
+        "courseTitle": "Negotiation Workshop",
+        "topic": "",
+        "courseNumber": "40941",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 101",
+            "MEETING_TIME": "SaSu 9:00AM - 6:00PM"
+          }
+        ],
+        "startDate": "2019-06-10"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "729",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic Practice:  Environmental Advocacy",
+        "topic": "",
+        "courseNumber": "40919",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 885",
+            "MEETING_TIME": "Tu 10:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "730",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic Practice: Complex Civil Litigation & Investor Protection",
+        "topic": "",
+        "courseNumber": "40893",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 801",
+            "MEETING_TIME": "Tu 4:00PM - 5:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "LAW",
+    "subject": "LITARB"
+  },
+  {
+    "status": 200,
+    "results": 13,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "300-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Integrated Marketing Communications",
+        "topic": "",
+        "courseNumber": "41285",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Louis Hall 226",
+            "MEETING_TIME": "TuTh 9:00AM - 12:15PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "400-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Consumer Insight",
+        "topic": "",
+        "courseNumber": "41289",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "402-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Financial Accounting",
+        "topic": "",
+        "courseNumber": "41288",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "409-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Immersion Quarter Team Project",
+        "topic": "",
+        "courseNumber": "41287",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "409-1",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Immersion Quarter Individual Project",
+        "topic": "",
+        "courseNumber": "41286",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "416-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Brand Equity",
+        "topic": "",
+        "courseNumber": "41291",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "421-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Brand Communication Decisions",
+        "topic": "",
+        "courseNumber": "41290",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "424-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Shopper Marketing",
+        "topic": "",
+        "courseNumber": "41294",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "444-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Crisis Communications",
+        "topic": "",
+        "courseNumber": "41284",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "444-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Crisis Communications",
+        "topic": "",
+        "courseNumber": "41292",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "498-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Practicum",
+        "topic": "Digital Marketing, Media and Innovation",
+        "courseNumber": "41282",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Th 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "498-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Practicum",
+        "topic": "Digital Analytics",
+        "courseNumber": "41283",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Mo 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "498-6",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Practicum",
+        "topic": "Digital Marketing, Media, & Innovation",
+        "courseNumber": "41293",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "JOUR",
+    "subject": "IMC"
+  },
+  {
+    "status": 200,
+    "results": 27,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "388-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Internship",
+        "topic": "",
+        "courseNumber": "41927",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "400-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Foundations of Video Journalism",
+        "topic": "",
+        "courseNumber": "41442",
+        "classMeetingInfo": [
+          {
+            "ROOM": "303 E. Wacker Dr. 1624-B",
+            "MEETING_TIME": "MoWe 9:30AM - 11:20AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "400-0",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Foundations of Video Journalism",
+        "topic": "",
+        "courseNumber": "41443",
+        "classMeetingInfo": [
+          {
+            "ROOM": "303 E. Wacker Dr. 1624-A",
+            "MEETING_TIME": "MoWe 9:30AM - 11:20AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "400-1",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods: News Reporting - Writing",
+        "topic": "",
+        "courseNumber": "41430",
+        "classMeetingInfo": [
+          {
+            "ROOM": "303 E. Wacker Dr. 1623",
+            "MEETING_TIME": "Tu 9:00AM - 11:50AM"
+          },
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Th 9:00AM - 4:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "400-1",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods: News Reporting - Writing",
+        "topic": "",
+        "courseNumber": "41431",
+        "classMeetingInfo": [
+          {
+            "ROOM": "303 E. Wacker Dr. 1624-B",
+            "MEETING_TIME": "Tu 9:00AM - 11:50AM"
+          },
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Th 9:00AM - 4:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "400-1",
+        "section": "22",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods: News Reporting - Writing",
+        "topic": "",
+        "courseNumber": "41432",
+        "classMeetingInfo": [
+          {
+            "ROOM": "303 E. Wacker Dr. 1624-A",
+            "MEETING_TIME": "Tu 9:00AM - 11:50AM"
+          },
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Th 9:00AM - 4:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "400-1",
+        "section": "23",
+        "component": "LAB",
+        "courseTitle": "Journalism Methods: News Reporting - Writing",
+        "topic": "",
+        "courseNumber": "42368",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Tu 9:00AM - 11:50AM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 9:00AM - 4:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "400-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Foundations of Interactive Journalism",
+        "topic": "",
+        "courseNumber": "41440",
+        "classMeetingInfo": [
+          {
+            "ROOM": "303 E. Wacker Dr. 1623",
+            "MEETING_TIME": "MoWe 9:30AM - 11:20AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "401-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Ethics & Law of Journalism",
+        "topic": "",
+        "courseNumber": "41428",
+        "classMeetingInfo": [
+          {
+            "ROOM": "303 E. Wacker Dr. 1623",
+            "MEETING_TIME": "We 1:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "401-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Ethics & Law of Journalism",
+        "topic": "",
+        "courseNumber": "41429",
+        "classMeetingInfo": [
+          {
+            "ROOM": "303 E. Wacker Dr. 1623",
+            "MEETING_TIME": "Tu 1:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "402-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Frameworks for Modern Journalism",
+        "topic": "",
+        "courseNumber": "41444",
+        "classMeetingInfo": [
+          {
+            "ROOM": "303 E. Wacker Dr. 1623",
+            "MEETING_TIME": "Mo 1:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "438-1",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Capstone: Washington Reporting",
+        "topic": "",
+        "courseNumber": "41436",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "TuWeThFr 9:00AM - 5:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "438-1",
+        "section": "21",
+        "component": "PRA",
+        "courseTitle": "Capstone: Washington Reporting",
+        "topic": "Broadcast Media",
+        "courseNumber": "41437",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "TuWeThFr 9:00AM - 5:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "438-2",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Washington DC Practicum",
+        "topic": "",
+        "courseNumber": "41438",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "MoTu 9:00AM - 5:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "438-2",
+        "section": "21",
+        "component": "PRA",
+        "courseTitle": "Washington DC Practicum",
+        "topic": "",
+        "courseNumber": "41439",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "MoTu 9:00AM - 5:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "440-0",
+        "section": "20",
+        "component": "RSC",
+        "courseTitle": "Global Journalism Research",
+        "topic": "",
+        "courseNumber": "41433",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "440-1",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Global Journalism Residency",
+        "topic": "",
+        "courseNumber": "41434",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "442-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Leadership Strategies",
+        "topic": "",
+        "courseNumber": "41445",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "445-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intro to Cybersecurity",
+        "topic": "",
+        "courseNumber": "41446",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "Th 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "457-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Digital Frameworks",
+        "topic": "",
+        "courseNumber": "41447",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Washington, DC Bureau",
+            "MEETING_TIME": "Tu 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "474-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Inside Business to Business Media",
+        "topic": "",
+        "courseNumber": "41441",
+        "classMeetingInfo": [
+          {
+            "ROOM": "303 E. Wacker Dr. 1624-B",
+            "MEETING_TIME": "Mo 12:00PM - 2:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "479-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Personal Narrative",
+        "topic": "",
+        "courseNumber": "41448",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "480-0",
+        "section": "22",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Chicago Public Housing Stories",
+        "courseNumber": "42272",
+        "classMeetingInfo": [
+          {
+            "ROOM": "303 E. Wacker Dr. 1624-B",
+            "MEETING_TIME": "We 6:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2019-07-29"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "490-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Masters Project",
+        "courseNumber": "41435",
+        "classMeetingInfo": [
+          {
+            "ROOM": "303 E. Wacker Dr. 1624-B",
+            "MEETING_TIME": "We 1:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "490-0",
+        "section": "21",
+        "component": "LAB",
+        "courseTitle": "Special Topics",
+        "topic": "Investigative Practices",
+        "courseNumber": "42276",
+        "classMeetingInfo": [
+          {
+            "ROOM": "303 E. Wacker Dr. 1624-A",
+            "MEETING_TIME": "Tu 1:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "498-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Practicum",
+        "topic": "",
+        "courseNumber": "41449",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "499-2",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Internship",
+        "topic": "",
+        "courseNumber": "41928",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "JOUR",
+    "subject": "JOUR"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "242-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Topics in History",
+        "topic": "A Survey of US History",
+        "courseNumber": "40765",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 2-257",
+            "MEETING_TIME": "MoTuWeThSu 1:00AM - 4:00AM"
+          }
+        ],
+        "startDate": "2019-05-19"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "HISTORY"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "99-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Pre-Collegiate Media Program",
+        "topic": "",
+        "courseNumber": "42393",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThSu 12:30AM - 9:30AM"
+          }
+        ],
+        "startDate": "2019-05-19"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "99-0",
+        "section": "71",
+        "component": "LEC",
+        "courseTitle": "Pre-Collegiate Media Program",
+        "topic": "",
+        "courseNumber": "42394",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThSu 12:30AM - 9:30AM"
+          }
+        ],
+        "startDate": "2019-05-19"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "INTERDIS"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "390-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Special Topics",
+        "topic": "Islam, America, and the Media",
+        "courseNumber": "40764",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 2-255",
+            "MEETING_TIME": "MoTuWeThSu 4:30AM - 7:30AM"
+          }
+        ],
+        "startDate": "2019-05-19"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "JOUR"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "205-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Theories of Persuasion",
+        "topic": "",
+        "courseNumber": "40759",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 1-300",
+            "MEETING_TIME": "MoTuWeThSu 4:30AM - 7:30AM"
+          }
+        ],
+        "startDate": "2019-05-19"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "360-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Topics in Media Writing",
+        "topic": "Heroes & Villains",
+        "courseNumber": "40760",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 2-227",
+            "MEETING_TIME": "MoTuWeThSu 1:00AM - 4:00AM"
+          }
+        ],
+        "startDate": "2019-05-19"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "398-0",
+        "section": "71",
+        "component": "LEC",
+        "courseTitle": "Undergraduate Seminar",
+        "topic": "Islam, America & Media",
+        "courseNumber": "40762",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 2-255",
+            "MEETING_TIME": "MoTuWeThSu 4:30AM - 7:30AM"
+          }
+        ],
+        "startDate": "2019-05-19"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "398-0",
+        "section": "72",
+        "component": "LEC",
+        "courseTitle": "Undergraduate Seminar",
+        "topic": "Media & Politics in Arab World",
+        "courseNumber": "40763",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 2-201",
+            "MEETING_TIME": "MoTuWeThSu 4:30AM - 7:30AM"
+          }
+        ],
+        "startDate": "2019-05-19"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "MIT"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "390-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Political Science",
+        "topic": "Media & Politics in Arab World",
+        "courseNumber": "40766",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 2-201",
+            "MEETING_TIME": "MoTuWeThSu 4:30AM - 7:30AM"
+          }
+        ],
+        "startDate": "2019-05-19"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "POLI_SCI"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "306-0",
+        "section": "70",
+        "component": "LEC",
+        "courseTitle": "Media Planning",
+        "topic": "",
+        "courseNumber": "40921",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Northwestern Qatar Room 1-225",
+            "MEETING_TIME": "MoTuWeThSu 1:00AM - 4:00AM"
+          }
+        ],
+        "startDate": "2019-05-19"
+      }
+    ],
+    "school": "DOHA",
+    "subject": "STRATCOM"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "340-0",
+        "section": "21",
+        "component": "FLD",
+        "courseTitle": "Internship",
+        "topic": "Chicago/Evanston",
+        "courseNumber": "40232",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Tu 7:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "340-0",
+        "section": "40",
+        "component": "FLD",
+        "courseTitle": "Internship",
+        "topic": "Extra Credit",
+        "courseNumber": "40234",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "410-0",
+        "section": "20",
+        "component": "FLD",
+        "courseTitle": "MFA Internship",
+        "topic": "",
+        "courseNumber": "40235",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "CMN"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "102-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Public Speaking",
+        "topic": "",
+        "courseNumber": "40730",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2378",
+            "MEETING_TIME": "TuTh 10:00AM - 1:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "102-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Public Speaking",
+        "topic": "",
+        "courseNumber": "40731",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2378",
+            "MEETING_TIME": "TuTh 1:30PM - 4:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "205-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Theories of Persuasion",
+        "topic": "",
+        "courseNumber": "40116",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 3220",
+            "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "COMM_ST"
+  },
+  {
+    "status": 200,
+    "results": 19,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "369-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Communication Sciences and Disorders",
+        "topic": "",
+        "courseNumber": "41658",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 3220",
+            "MEETING_TIME": "TuTh 12:00PM - 1:45PM"
+          }
+        ],
+        "startDate": "2019-07-22"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "398-0",
+        "section": "1",
+        "component": "RSC",
+        "courseTitle": "Research Practicum in Communication Sciences and Disorders",
+        "topic": "",
+        "courseNumber": "40575",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "409-4",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Foundations of Clinical and Professional Practice",
+        "topic": "",
+        "courseNumber": "40584",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 3220",
+            "MEETING_TIME": "Th 4:00PM - 5:45PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "415-4",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Clinical Practicum in Audiology",
+        "topic": "",
+        "courseNumber": "40560",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "415-6",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Clinical Study and Practicum in Audiology",
+        "topic": "",
+        "courseNumber": "40574",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 3220",
+            "MEETING_TIME": "TuTh 2:00PM - 3:45PM"
+          }
+        ],
+        "startDate": "2019-07-22"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "419-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Pediatric Audiology",
+        "topic": "",
+        "courseNumber": "40554",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2407",
+            "MEETING_TIME": "Tu 5:00PM - 8:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "428-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Fundamentals of Vestibular Science",
+        "topic": "",
+        "courseNumber": "40576",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 1441",
+            "MEETING_TIME": "We 5:15PM - 8:45PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "458-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Scientific Clinical Decision Making",
+        "topic": "",
+        "courseNumber": "40583",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "461-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Augmentative and Alternative Communication Across the Lifespan",
+        "topic": "",
+        "courseNumber": "40556",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 1441",
+            "MEETING_TIME": "Tu 6:00PM - 9:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "462-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Professional Issues in Speech Language Pathology",
+        "topic": "",
+        "courseNumber": "40577",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 1421",
+            "MEETING_TIME": "We 6:00PM - 9:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "475-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Advanced Clinical Methods 1",
+        "topic": "",
+        "courseNumber": "40579",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "477-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Advanced Clinical Methods 2",
+        "topic": "",
+        "courseNumber": "40578",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "479-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Externship: Clinical Practicum",
+        "topic": "",
+        "courseNumber": "40559",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "522-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Hearing Loss Prevention and Conservation",
+        "topic": "",
+        "courseNumber": "40555",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 3220",
+            "MEETING_TIME": "TuTh 8:00AM - 9:45AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "563-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Leadership for Speech-Language Pathologists",
+        "topic": "",
+        "courseNumber": "40580",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "566-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Digital Literacies for the Speech Language Pathologist",
+        "topic": "",
+        "courseNumber": "40581",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-17"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "570-3",
+        "section": "1",
+        "component": "RSC",
+        "courseTitle": "Seminar: Capstone Project",
+        "topic": "",
+        "courseNumber": "40572",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "573-6",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Clinical Specialization",
+        "topic": "",
+        "courseNumber": "40582",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-17"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "580-4",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Clinical Externship",
+        "topic": "",
+        "courseNumber": "40573",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "CSD"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "469-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Health Communication 1",
+        "topic": "Social Relations and Health Outcomes",
+        "courseNumber": "40950",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "469-0",
+        "section": "3",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Health Communication 1",
+        "topic": "Leading Dialogues and Change",
+        "courseNumber": "40951",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "469-0",
+        "section": "4",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Health Communication 1",
+        "topic": "Information Design",
+        "courseNumber": "40952",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "469-0",
+        "section": "5",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Health Communication 1",
+        "topic": "Health Marketing and Communication",
+        "courseNumber": "40953",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "469-0",
+        "section": "6",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Health Communication 1",
+        "topic": "Health and Media",
+        "courseNumber": "42333",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "479-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Health Information Technology for Communication, Coordination and Integration",
+        "topic": "",
+        "courseNumber": "40954",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 1:00PM - 2:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "HLTH_COM"
+  },
+  {
+    "status": 200,
+    "results": 10,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "482-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Public Persuasion",
+        "topic": "",
+        "courseNumber": "41464",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2107",
+            "MEETING_TIME": "Sa 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "492-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Understanding & Leveraging Networks",
+        "topic": "",
+        "courseNumber": "41466",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "493-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Independent Study",
+        "topic": "",
+        "courseNumber": "42378",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "494-6D",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Communication Skills Practicum",
+        "topic": "",
+        "courseNumber": "41468",
+        "classMeetingInfo": [],
+        "startDate": "2019-07-29"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "523-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Capstone",
+        "topic": "",
+        "courseNumber": "41470",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "523-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Capstone",
+        "topic": "",
+        "courseNumber": "41467",
+        "classMeetingInfo": [],
+        "startDate": "2019-07-29"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "529-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Master of Science in Communication Seminar Topics",
+        "topic": "Public Speaking",
+        "courseNumber": "41475",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 1483",
+            "MEETING_TIME": "Sa 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "530-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Communication, Management & Ethics",
+        "topic": "",
+        "courseNumber": "41465",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 1421",
+            "MEETING_TIME": "Sa 9:30AM - 12:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "538-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Workplace Learning and Communities of Practice",
+        "topic": "",
+        "courseNumber": "41469",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2378",
+            "MEETING_TIME": "Sa 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "539-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Content & Influencer Marketing Communication",
+        "topic": "",
+        "courseNumber": "41471",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 3417",
+            "MEETING_TIME": "Sa 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "MSC"
+  },
+  {
+    "status": 200,
+    "results": 3,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "497-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Summer Internship Seminar",
+        "topic": "",
+        "courseNumber": "42273",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "498-0",
+        "section": "20",
+        "component": "THE",
+        "courseTitle": "MSLCE Thesis",
+        "topic": "",
+        "courseNumber": "42275",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "599-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Internship Experience",
+        "topic": "",
+        "courseNumber": "42274",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "MSLCE"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "203-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Performance Culture and Communication",
+        "topic": "",
+        "courseNumber": "40276",
+        "classMeetingInfo": [
+          {
+            "ROOM": "AM Swift Krause Studio 103",
+            "MEETING_TIME": "MoWeFr 9:00AM - 12:20PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "PERF_ST"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "298-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Studies in Media Topics",
+        "topic": "Summer at the Movies",
+        "courseNumber": "40689",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wieboldt Hall 710",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "322-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Radio/Television/Film Genre",
+        "topic": "Reality TV",
+        "courseNumber": "40690",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-331",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "372-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Editing",
+        "topic": "",
+        "courseNumber": "40696",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Fisk Hall B-1",
+            "MEETING_TIME": "MoWe 6:30PM - 9:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "376-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Topics in Interactive Media",
+        "topic": "Interactive Media Programming in MAX",
+        "courseNumber": "40695",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle 1101 SoundTank",
+            "MEETING_TIME": "MoTuWeTh 6:00PM - 9:45PM"
+          }
+        ],
+        "startDate": "2019-07-08"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "490-1",
+        "section": "28",
+        "component": "PRA",
+        "courseTitle": "Summer Internship Seminar",
+        "topic": "",
+        "courseNumber": "40697",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "RTVF"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "490-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Zero Credit Internship",
+        "topic": "",
+        "courseNumber": "41881",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "580-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Career Development in Sound",
+        "topic": "",
+        "courseNumber": "41882",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "SAI"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "121-0",
+        "section": "1",
+        "component": "LAB",
+        "courseTitle": "Production Laboratory",
+        "topic": "",
+        "courseNumber": "41313",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "332-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "The Art of Storytelling",
+        "topic": "",
+        "courseNumber": "40698",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Wirtz 230 Instruct Black Box 1",
+            "MEETING_TIME": "TuTh 9:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "SPCH",
+    "subject": "THEATRE"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "214-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Culture and Cognition",
+        "topic": "Leader Labs",
+        "courseNumber": "40828",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall 303",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-08-28"
+      }
+    ],
+    "school": "SESP",
+    "subject": "LOC"
+  },
+  {
+    "status": 200,
+    "results": 11,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "402-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Social Contexts of Education",
+        "topic": "Social Contexts",
+        "courseNumber": "40869",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-425",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "405-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Child and Adolescent Development",
+        "topic": "",
+        "courseNumber": "40885",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-425",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "410-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Foundations of Learning in a New Language",
+        "topic": "",
+        "courseNumber": "40886",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-325",
+            "MEETING_TIME": "MoWe 12:30PM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "414-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Mathematics for Elementary Teachers",
+        "topic": "",
+        "courseNumber": "40887",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 318",
+            "MEETING_TIME": "TuTh 12:30PM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "422-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Content Area Reading and Writing",
+        "topic": "Content Rdg & Wrtg",
+        "courseNumber": "40878",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-410",
+            "MEETING_TIME": "MoWe 3:30PM - 6:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "427-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Educating Exceptional Children",
+        "topic": "",
+        "courseNumber": "40876",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-410",
+            "MEETING_TIME": "TuTh 3:30PM - 6:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "431-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Instructional Coaching and Evaluation",
+        "topic": "",
+        "courseNumber": "40877",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-410",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "449-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Teacher Leadership: Teacher Thinking and Learning",
+        "topic": "",
+        "courseNumber": "40879",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-410",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "451-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Topics in Teaching and Learning",
+        "topic": "Foundations of Social & Emotional Learning",
+        "courseNumber": "40871",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 418",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "451-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Topics in Teaching and Learning",
+        "topic": "SEL and School Climate: Building Positive School C",
+        "courseNumber": "40944",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 418",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-07-08"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "451-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Topics in Teaching and Learning",
+        "topic": "Developing and Teaching with NGSS Storylines",
+        "courseNumber": "40946",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall 101",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-07-08"
+      }
+    ],
+    "school": "SESP",
+    "subject": "MS_ED"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "460-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Proseminar in Higher Education",
+        "topic": "",
+        "courseNumber": "40873",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 7:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 9:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "475-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Crisis Management and Mental Health Issues",
+        "topic": "",
+        "courseNumber": "40884",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Tu 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "478-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Global Issues and Strategic Partnerships",
+        "topic": "",
+        "courseNumber": "40888",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "Th 7:00PM - 9:00PM"
+          },
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Sa 9:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "485-0",
+        "section": "20",
+        "component": "PRA",
+        "courseTitle": "Internship in Higher Education",
+        "topic": "",
+        "courseNumber": "40880",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "SESP",
+    "subject": "MS_HE"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "440-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Executing Strategic Change",
+        "topic": "",
+        "courseNumber": "40823",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "441-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Designing Sustainable Strategic Change",
+        "topic": "",
+        "courseNumber": "40824",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "451-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Building Transformational Client Relationships",
+        "topic": "",
+        "courseNumber": "40822",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "456-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Designing Solutions for Organizational Effectiveness",
+        "topic": "",
+        "courseNumber": "40829",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "462-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Capstone II: Design & Measurement",
+        "topic": "",
+        "courseNumber": "40825",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "495-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "MSLOC Internship",
+        "topic": "",
+        "courseNumber": "40826",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "499-1",
+        "section": "20",
+        "component": "IND",
+        "courseTitle": "Independent Study",
+        "topic": "",
+        "courseNumber": "40827",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "SESP",
+    "subject": "MS_LOC"
+  },
+  {
+    "status": 200,
+    "results": 8,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "114-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Summer Internship",
+        "topic": "",
+        "courseNumber": "40768",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "382-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Practicum in Human Development; Learning Sciences",
+        "topic": "",
+        "courseNumber": "40779",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-420",
+            "MEETING_TIME": "Fr 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "384-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Practicum in Human Development - Washington, D.C.",
+        "topic": "",
+        "courseNumber": "40775",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Fr 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "386-0",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Practicum: Human Development & Psychological Svcs.",
+        "topic": "",
+        "courseNumber": "40773",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-430",
+            "MEETING_TIME": "Fr 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "387-0",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Practicum: Learning& Organizational Change",
+        "topic": "",
+        "courseNumber": "40771",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-440",
+            "MEETING_TIME": "Fr 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "387-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Practicum: Learning& Organizational Change",
+        "topic": "",
+        "courseNumber": "41923",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Fr 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "388-0",
+        "section": "27",
+        "component": "LEC",
+        "courseTitle": "Practicum: Social Policy",
+        "topic": "",
+        "courseNumber": "40769",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-339",
+            "MEETING_TIME": "Fr 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "389-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Practicum in Human Development - San Francisco",
+        "topic": "",
+        "courseNumber": "40777",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Fr 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "SESP",
+    "subject": "SESP"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "390-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Topics in African Studies",
+        "topic": "Anthropology of African Civil Wars",
+        "courseNumber": "40074",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "AFST"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "380-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Topics in African-American Studies",
+        "topic": "Introduction to Black Affect Studies",
+        "courseNumber": "40072",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 412",
+            "MEETING_TIME": "MoWeFr 12:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "AF_AM_ST"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "105-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Evolution and Social Behavior: The Basics",
+        "topic": "",
+        "courseNumber": "40075",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "211-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Culture & Society",
+        "topic": "",
+        "courseNumber": "40076",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "213-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Human Origins",
+        "topic": "",
+        "courseNumber": "40077",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "214-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Archaeology: Unearthing History",
+        "topic": "",
+        "courseNumber": "40078",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "390-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Topics In Anthropology",
+        "topic": "Anthropology of African Civil Wars",
+        "courseNumber": "40079",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ANTHRO"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "250-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Introduction to Photography",
+        "topic": "",
+        "courseNumber": "40767",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge 1310 Photo Classroom",
+            "MEETING_TIME": "TuTh 9:30AM - 4:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ART"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "405-0",
+        "section": "1",
+        "component": "FLD",
+        "courseTitle": "Art Historical Research",
+        "topic": "London",
+        "courseNumber": "41312",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ART_HIST"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "120-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Highlights of Astronomy",
+        "topic": "",
+        "courseNumber": "40605",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute F281",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ASTRON"
+  },
+  {
+    "status": 200,
+    "results": 10,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "100-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Biological Sciences at Northwestern",
+        "topic": "",
+        "courseNumber": "40480",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "217-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Physiology",
+        "topic": "",
+        "courseNumber": "40482",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute F281",
+            "MEETING_TIME": "TuTh 9:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "219-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Cell Biology",
+        "topic": "",
+        "courseNumber": "40481",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute A110",
+            "MEETING_TIME": "TuTh 9:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "220-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Genetics and Molecular Processes Laboratory",
+        "topic": "",
+        "courseNumber": "40484",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "221-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Cellular Processes Laboratory",
+        "topic": "",
+        "courseNumber": "40485",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2019-07-08"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "222-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Investigative Laboratory",
+        "topic": "",
+        "courseNumber": "40486",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
+          }
+        ],
+        "startDate": "2019-07-22"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "308-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Biochemistry",
+        "topic": "",
+        "courseNumber": "40483",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute A110",
+            "MEETING_TIME": "MoWeFr 11:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "398-0",
+        "section": "01",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": "",
+        "courseNumber": "40466",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "398-0",
+        "section": "2",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": "",
+        "courseNumber": "40467",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "398-0",
+        "section": "3",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": "",
+        "courseNumber": "40468",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "BIOL_SCI"
+  },
+  {
+    "status": 200,
+    "results": 13,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "291-0",
+        "section": "38",
+        "component": "SEM",
+        "courseTitle": "Analysis of Field Experience",
+        "topic": "",
+        "courseNumber": "40115",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "388-0",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Business Culture",
+        "topic": "",
+        "courseNumber": "40110",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 7:00PM - 8:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "388-0",
+        "section": "29",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Business Culture",
+        "topic": "",
+        "courseNumber": "40111",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Tu 7:00PM - 8:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "388-0",
+        "section": "30",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Business Culture",
+        "topic": "",
+        "courseNumber": "40112",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Tu 9:00AM - 10:30AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "393-1",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Modern Workplace Culture",
+        "topic": "",
+        "courseNumber": "40098",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 412",
+            "MEETING_TIME": "We 6:00PM - 7:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "393-2",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues in the Workplace",
+        "topic": "",
+        "courseNumber": "40099",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 412",
+            "MEETING_TIME": "We 7:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "394-1",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Legal Culture & Process",
+        "topic": "",
+        "courseNumber": "40100",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Harris Hall L28",
+            "MEETING_TIME": "Tu 6:00PM - 7:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "394-2",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues in Law",
+        "topic": "",
+        "courseNumber": "40101",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Harris Hall L28",
+            "MEETING_TIME": "Tu 7:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "395-1",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Business Workplace Culture",
+        "topic": "",
+        "courseNumber": "40102",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 412",
+            "MEETING_TIME": "Tu 6:00PM - 7:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "395-2",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Contemporary Issues: Business Field Studies",
+        "topic": "",
+        "courseNumber": "40104",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 412",
+            "MEETING_TIME": "Tu 7:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "397-0",
+        "section": "28",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Civic Engagement",
+        "topic": "",
+        "courseNumber": "40107",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "398-0",
+        "section": "10",
+        "component": "SEM",
+        "courseTitle": "Field Studies in Humanities",
+        "topic": "",
+        "courseNumber": "40108",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 4-410",
+            "MEETING_TIME": "Tu 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "495-0",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Civic Engagement and Graduate Education",
+        "topic": "",
+        "courseNumber": "41937",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CFS"
+  },
+  {
+    "status": 200,
+    "results": 13,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "100-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Calculus and Chemistry",
+        "topic": "",
+        "courseNumber": "40709",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "100-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Problem Solving in Chemistry",
+        "topic": "",
+        "courseNumber": "40533",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute A110",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          },
+          {
+            "ROOM": "Technological Institute A110",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "110-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "Quantitative Problem Solving in Chemistry",
+        "topic": "",
+        "courseNumber": "40538",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "131-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "General Chemistry 1",
+        "topic": "",
+        "courseNumber": "40544",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "132-0",
+        "section": "01",
+        "component": "LEC",
+        "courseTitle": "General Chemistry 2",
+        "topic": "",
+        "courseNumber": "40545",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 3",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-08-05"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "141-0",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "General Chemistry Laboratory 1",
+        "topic": "",
+        "courseNumber": "40546",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute HG10",
+            "MEETING_TIME": "MoWe 1:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "142-0",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "General Chemistry Laboratory 2",
+        "topic": "",
+        "courseNumber": "40547",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute HG10",
+            "MEETING_TIME": "MoWe 1:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-08-05"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "199-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Foundations of Organic Chemstry",
+        "topic": "",
+        "courseNumber": "40537",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-08-26"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "210-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": "",
+        "courseNumber": "40487",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          },
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoWeFr 1:00PM - 2:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "210-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": "",
+        "courseNumber": "40488",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "210-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Organic Chemistry",
+        "topic": "",
+        "courseNumber": "40489",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Tech Institute Lecture Room 2",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-08-05"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "230-2",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "Organic Chemistry Lab I",
+        "topic": "",
+        "courseNumber": "40536",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute D220",
+            "MEETING_TIME": "MoWeFr 1:00PM - 5:30PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "230-3",
+        "section": "33",
+        "component": "LAB",
+        "courseTitle": "Organic Chemistry Lab II",
+        "topic": "",
+        "courseNumber": "40735",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute D220",
+            "MEETING_TIME": "MoWeFr 1:00PM - 5:30PM"
+          }
+        ],
+        "startDate": "2019-08-05"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "CHEM"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "202-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Interpreting Culture",
+        "topic": "Reading Addiction",
+        "courseNumber": "40236",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge 5531 Comp Lit. Sem. Rm.",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "COMP_LIT"
+  },
+  {
+    "status": 200,
+    "results": 10,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "100-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Problem-Solving in Economics",
+        "topic": "",
+        "courseNumber": "40063",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-319",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "201-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Introduction to Macroeconomics",
+        "topic": "",
+        "courseNumber": "40054",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kellogg Econ Classroom 1410",
+            "MEETING_TIME": "MoWeFr 9:30AM - 11:20AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "202-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Introduction to Microeconomics",
+        "topic": "",
+        "courseNumber": "40055",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kellogg Econ Classroom 1410",
+            "MEETING_TIME": "TuTh 9:30AM - 12:20PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "281-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Introduction to Applied Econometrics",
+        "topic": "",
+        "courseNumber": "40056",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kellogg Econ Classroom 3301",
+            "MEETING_TIME": "TuWeTh 1:00PM - 2:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "310-1",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Microeconomics",
+        "topic": "",
+        "courseNumber": "40057",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kellogg Econ Classroom 3301",
+            "MEETING_TIME": "TuWeTh 10:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "310-2",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Microeconomics",
+        "topic": "",
+        "courseNumber": "40058",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 121",
+            "MEETING_TIME": "MoWe 9:30AM - 12:20PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "311-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Macroeconomics",
+        "topic": "",
+        "courseNumber": "40059",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kellogg Econ Classroom 3301",
+            "MEETING_TIME": "MoWeFr 3:00PM - 4:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "350-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Monopoly Competition & Public Policy",
+        "topic": "",
+        "courseNumber": "40060",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kellogg Econ Classroom 1410",
+            "MEETING_TIME": "TuWeTh 1:00PM - 2:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "372-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Environmental Economics",
+        "topic": "",
+        "courseNumber": "40065",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kellogg Econ Classroom 1410",
+            "MEETING_TIME": "MoWe 6:15PM - 9:15PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "519-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Responsible Conduct of Research Training",
+        "topic": "",
+        "courseNumber": "40062",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ECON"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "100-SW",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Summer Academic Workshop in Writing",
+        "topic": "",
+        "courseNumber": "40413",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-420",
+            "MEETING_TIME": "MoTuWeThFr 9:30AM - 11:30AM"
+          }
+        ],
+        "startDate": "2019-08-26"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "100-SW",
+        "section": "21",
+        "component": "SEM",
+        "courseTitle": "Summer Academic Workshop in Writing",
+        "topic": "",
+        "courseNumber": "40414",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-430",
+            "MEETING_TIME": "MoTuWeThFr 9:30AM - 11:30AM"
+          }
+        ],
+        "startDate": "2019-08-26"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "100-SW",
+        "section": "22",
+        "component": "SEM",
+        "courseTitle": "Summer Academic Workshop in Writing",
+        "topic": "",
+        "courseNumber": "40415",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-440",
+            "MEETING_TIME": "MoTuWeThFr 9:30AM - 11:30AM"
+          }
+        ],
+        "startDate": "2019-08-26"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "105-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Expository Writing",
+        "topic": "",
+        "courseNumber": "40412",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 312",
+            "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "307-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Advanced Creative Writing",
+        "topic": "Writing the Novella",
+        "courseNumber": "40238",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 418",
+            "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "332-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Renaissance Drama",
+        "topic": "Racial Impersonation Ren Stage",
+        "courseNumber": "40239",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-319",
+            "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "378-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Studies in American Literature",
+        "topic": "Travel Writing as Genre in American Literature",
+        "courseNumber": "40240",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-430",
+            "MEETING_TIME": "MoWe 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "386-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Studies in Literature and Film",
+        "topic": "Baseball in American Narrative",
+        "courseNumber": "40241",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 121",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "491-0",
+        "section": "1",
+        "component": "PRA",
+        "courseTitle": "Editorial Practicum",
+        "topic": "",
+        "courseNumber": "41948",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ENGLISH"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "390-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Environmental Sciences",
+        "topic": "GIS Level 1 (Geographic Information Systems 1)",
+        "courseNumber": "41474",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG51",
+            "MEETING_TIME": "TuTh 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ENVR_SCI"
+  },
+  {
+    "status": 200,
+    "results": 7,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "111-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": "",
+        "courseNumber": "40245",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-331",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "111-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": "",
+        "courseNumber": "40246",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-331",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "111-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary French",
+        "topic": "",
+        "courseNumber": "40247",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-331",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-08-05"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "121-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": "",
+        "courseNumber": "40248",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-335",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "121-2",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": "",
+        "courseNumber": "40249",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-335",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "121-3",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Intermediate French",
+        "topic": "",
+        "courseNumber": "40250",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-335",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-08-05"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "596-0",
+        "section": "20",
+        "component": "THE",
+        "courseTitle": "PhD Thesis Tutorial",
+        "topic": "",
+        "courseNumber": "40252",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "FRENCH"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "371-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Gender, Sexuality, and Popular Culture",
+        "topic": "LGBTQ Television",
+        "courseNumber": "40256",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-440",
+            "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "372-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Gender, Sexuality, and Performance",
+        "topic": "Intersectionality of AIDS: Social Justice Perspect",
+        "courseNumber": "40708",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-440",
+            "MEETING_TIME": "MoWe 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "GNDR_ST"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "200-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "New Introductory Courses in History",
+        "topic": "Latino/a Immigration History",
+        "courseNumber": "40263",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-435",
+            "MEETING_TIME": "Tu 9:30AM - 1:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "201-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "European Civilization: High Medieval Thru Mid-18th C",
+        "topic": "",
+        "courseNumber": "40257",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Harris Hall L28",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "300-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "New Lectures in History",
+        "topic": "From Anarchy to Order: A Global History from the A",
+        "courseNumber": "40264",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-420",
+            "MEETING_TIME": "MoWe 2:30PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "300-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "New Lectures in History",
+        "topic": "The Age of Total War, 1789-1945",
+        "courseNumber": "40265",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-420",
+            "MEETING_TIME": "MoWe 9:30AM - 11:20AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "325-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "History of American Technology",
+        "topic": "",
+        "courseNumber": "40707",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-420",
+            "MEETING_TIME": "TuTh 11:00AM - 1:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "HISTORY"
+  },
+  {
+    "status": 200,
+    "results": 2,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "100-1-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Critical Thinking in the Humanities and Social Sciences",
+        "topic": "",
+        "courseNumber": "42375",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 4:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "100-2-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Asking - and Answering - Questions in the Humanities and Social Sciences",
+        "topic": "",
+        "courseNumber": "42376",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-415",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "HUM"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "421-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Rigor & Reproducibility in Research",
+        "topic": "",
+        "courseNumber": "41452",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "TuTh 1:30PM - 3:30PM"
+          }
+        ],
+        "startDate": "2019-07-29"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "IBIS"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "393-SA",
+        "section": "101",
+        "component": "FLD",
+        "courseTitle": "Development in the Global Context: Participation, Power, and Social Change",
+        "topic": "Ghana: NU Gbl Eng Stds Inst",
+        "courseNumber": "40066",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSaSu 2:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-17"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "393-SA",
+        "section": "102",
+        "component": "FLD",
+        "courseTitle": "Development in the Global Context: Participation, Power, and Social Change",
+        "topic": "Uganda: NU Gbl Eng Stds Inst",
+        "courseNumber": "40067",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSaSu 2:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-17"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "393-SA",
+        "section": "201",
+        "component": "FLD",
+        "courseTitle": "Development in the Global Context: Participation, Power, and Social Change",
+        "topic": "Bolivia: NU Gbl Eng Stds Inst",
+        "courseNumber": "40068",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSaSu 2:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-17"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "393-SA",
+        "section": "202",
+        "component": "FLD",
+        "courseTitle": "Development in the Global Context: Participation, Power, and Social Change",
+        "topic": "Costa Rica: NU GESI",
+        "courseNumber": "40069",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSaSu 2:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-17"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "393-SA",
+        "section": "203",
+        "component": "FLD",
+        "courseTitle": "Development in the Global Context: Participation, Power, and Social Change",
+        "topic": "Guatemala: NU Gbl Eng Stds Inst",
+        "courseNumber": "40070",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSaSu 2:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-17"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "393-SA",
+        "section": "301",
+        "component": "FLD",
+        "courseTitle": "Development in the Global Context: Participation, Power, and Social Change",
+        "topic": "Vietnam: NU GESI",
+        "courseNumber": "40071",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFrSaSu 2:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-17"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "INTL_ST"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "350-SA",
+        "section": "21",
+        "component": "SEM",
+        "courseTitle": "Energy Technology & Policy in China",
+        "topic": "",
+        "courseNumber": "41497",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-17"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ISEN"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "101-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary Italian",
+        "topic": "",
+        "courseNumber": "40253",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-325",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "ITALIAN"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "111-1",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Japanese I",
+        "topic": "",
+        "courseNumber": "40465",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-329",
+            "MEETING_TIME": "MoTuWeThFr 10:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "JAPANESE"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "206-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Law and Society",
+        "topic": "",
+        "courseNumber": "41295",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 214",
+            "MEETING_TIME": "MoWe 1:30PM - 4:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "LEGAL_ST"
+  },
+  {
+    "status": 200,
+    "results": 4,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "380-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Spoken English for Non-Native Speakers",
+        "topic": "Culture, Conversation, and Fluency",
+        "courseNumber": "41277",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-325",
+            "MEETING_TIME": "TuTh 2:30PM - 4:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "480-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "American Academic Culture for Non-Native speakers of English",
+        "topic": "",
+        "courseNumber": "41278",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-329",
+            "MEETING_TIME": "TuTh 3:30PM - 4:50PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "482-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Individual Speech and Language Instruction for Nonnative Speakers of English",
+        "topic": "",
+        "courseNumber": "41281",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "483-0",
+        "section": "20",
+        "component": "LAB",
+        "courseTitle": "Supported Online Speech Training for Nonnative Speakers of English",
+        "topic": "",
+        "courseNumber": "41280",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "LING"
+  },
+  {
+    "status": 200,
+    "results": 9,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "100-BR",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Quantitative Reasoning",
+        "topic": "",
+        "courseNumber": "40603",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 9:50AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "100-BR",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Quantitative Reasoning",
+        "topic": "",
+        "courseNumber": "40604",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 4:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "220-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Differential Calculus of One-Variable Functions",
+        "topic": "",
+        "courseNumber": "40594",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "MoWe 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "224-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Integral Calculus of One-Variable Functions",
+        "topic": "",
+        "courseNumber": "40595",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "TuTh 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "230-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Differential Calculus of Multivariable Functions",
+        "topic": "",
+        "courseNumber": "40596",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "MoWe 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "234-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Multiple Integration and Vector Calculus",
+        "topic": "",
+        "courseNumber": "40597",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "TuTh 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "240-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Linear Algebra",
+        "topic": "",
+        "courseNumber": "40602",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "MoWe 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "300-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Foundations of Higher Mathematics",
+        "topic": "",
+        "courseNumber": "40598",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "TuTh 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "334-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Linear Algebra: Second Course",
+        "topic": "",
+        "courseNumber": "40599",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 105",
+            "MEETING_TIME": "TuTh 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "MATH"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "110-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Philosophy",
+        "topic": "",
+        "courseNumber": "40277",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-331",
+            "MEETING_TIME": "WeFr 2:00PM - 5:30PM"
+          },
+          {
+            "ROOM": "Kresge Centennial Hall 2-331",
+            "MEETING_TIME": "MoWe 2:00PM - 5:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "150-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Elementary Logic I",
+        "topic": "",
+        "courseNumber": "40278",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-430",
+            "MEETING_TIME": "MoTuWe 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "225-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Minds and Machines",
+        "topic": "",
+        "courseNumber": "40284",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-331",
+            "MEETING_TIME": "MoWe 1:30PM - 4:30PM"
+          }
+        ],
+        "startDate": "2019-07-29"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "260-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Moral Philosophy",
+        "topic": "",
+        "courseNumber": "40279",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-435",
+            "MEETING_TIME": "MoWe 9:00AM - 11:30AM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "261-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Introduction to Political Philosophy",
+        "topic": "",
+        "courseNumber": "40280",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-420",
+            "MEETING_TIME": "TuTh 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-07-29"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "269-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Bioethics",
+        "topic": "",
+        "courseNumber": "40283",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 122",
+            "MEETING_TIME": "MoWe 5:00PM - 8:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PHIL"
+  },
+  {
+    "status": 200,
+    "results": 14,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "130-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": "",
+        "courseNumber": "40626",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L211",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "130-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": "",
+        "courseNumber": "40627",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L211",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "130-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "College Physics",
+        "topic": "",
+        "courseNumber": "40628",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L211",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-08-05"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "135-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": "",
+        "courseNumber": "40629",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L221",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "135-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": "",
+        "courseNumber": "40630",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L221",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "135-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "General Physics",
+        "topic": "",
+        "courseNumber": "40631",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute L221",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-08-05"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "136-1",
+        "section": "48",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40737",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG35",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "136-1",
+        "section": "58",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "42322",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG35",
+            "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "136-2",
+        "section": "38",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40739",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG35",
+            "MEETING_TIME": "MoTuWeThFr 7:00AM - 9:00AM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "136-2",
+        "section": "48",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40740",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG35",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "136-2",
+        "section": "58",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40741",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG35",
+            "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "136-3",
+        "section": "38",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40742",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG35",
+            "MEETING_TIME": "MoTuWeThFr 7:00AM - 9:00AM"
+          }
+        ],
+        "startDate": "2019-08-05"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "136-3",
+        "section": "48",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40743",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG35",
+            "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-08-05"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "136-3",
+        "section": "58",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "40744",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG35",
+            "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-08-05"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PHYSICS"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "201-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Introduction to Political Theory",
+        "topic": "",
+        "courseNumber": "40322",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-415",
+            "MEETING_TIME": "TuWeTh 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "220-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "American Government and Politics",
+        "topic": "",
+        "courseNumber": "40285",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-435",
+            "MEETING_TIME": "TuWeTh 2:00PM - 4:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "369-0",
+        "section": "18",
+        "component": "LEC",
+        "courseTitle": "Politics of Post-Soviet Russia",
+        "topic": "",
+        "courseNumber": "40323",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-430",
+            "MEETING_TIME": "TuTh 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "390-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Political Science",
+        "topic": "1968: The year of 'revolution'",
+        "courseNumber": "40286",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 3-410",
+            "MEETING_TIME": "MoWe 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "390-0",
+        "section": "35",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Political Science",
+        "topic": "Humanitarian Disasters and International Intervent",
+        "courseNumber": "40287",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 3-410",
+            "MEETING_TIME": "TuTh 6:00PM - 9:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "POLI_SCI"
+  },
+  {
+    "status": 200,
+    "results": 11,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "110-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Introduction to Psychology",
+        "topic": "",
+        "courseNumber": "40326",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 107",
+            "MEETING_TIME": "TuTh 10:30AM - 1:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "201-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Statistical Methods in Psychology",
+        "topic": "",
+        "courseNumber": "40327",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 231",
+            "MEETING_TIME": "MoWe 10:00AM - 1:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "215-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Psychology of Personality",
+        "topic": "",
+        "courseNumber": "40328",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 122",
+            "MEETING_TIME": "MoTuWeTh 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "218-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Developmental Psychology",
+        "topic": "",
+        "courseNumber": "40329",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 214",
+            "MEETING_TIME": "MoWe 10:30AM - 1:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "228-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Cognitive Psychology",
+        "topic": "",
+        "courseNumber": "40330",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 107",
+            "MEETING_TIME": "TuTh 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "303-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Psychopathology",
+        "topic": "",
+        "courseNumber": "40331",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 210",
+            "MEETING_TIME": "MoWe 2:00PM - 5:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "306-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Introduction to Clinical Psychology",
+        "topic": "",
+        "courseNumber": "40332",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 214",
+            "MEETING_TIME": "TuTh 10:30AM - 1:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "341-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Positive Psychology: The Science of Well-Being",
+        "topic": "",
+        "courseNumber": "40378",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-435",
+            "MEETING_TIME": "MoWe 6:15PM - 9:15PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "343-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Psychology of Beauty",
+        "topic": "",
+        "courseNumber": "40379",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 102",
+            "MEETING_TIME": "MoWe 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "377-0",
+        "section": "25",
+        "component": "LEC",
+        "courseTitle": "Child Psychopathology",
+        "topic": "",
+        "courseNumber": "40377",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Swift Hall 231",
+            "MEETING_TIME": "MoWe 1:30PM - 4:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "397-2",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Advanced Supervised Research 2",
+        "topic": "",
+        "courseNumber": "42403",
+        "classMeetingInfo": [],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "PSYCH"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "210-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Introduction to Buddhism",
+        "topic": "",
+        "courseNumber": "40380",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 214",
+            "MEETING_TIME": "TuTh 4:30PM - 7:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "RELIGION"
+  },
+  {
+    "status": 200,
+    "results": 5,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "206-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Law and Society",
+        "topic": "",
+        "courseNumber": "40385",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 214",
+            "MEETING_TIME": "MoWe 1:30PM - 4:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "226-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Sociological Analysis",
+        "topic": "",
+        "courseNumber": "40386",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-343",
+            "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "232-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Sexuality and Society",
+        "topic": "",
+        "courseNumber": "40391",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-440",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "307-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "School and Society",
+        "topic": "",
+        "courseNumber": "40387",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 312",
+            "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "376-0",
+        "section": "26",
+        "component": "LEC",
+        "courseTitle": "Topics in Sociological Analysis",
+        "topic": "College Life",
+        "courseNumber": "40388",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 312",
+            "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "SOCIOL"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "101-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Spanish",
+        "topic": "",
+        "courseNumber": "40392",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-425",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "101-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Spanish",
+        "topic": "",
+        "courseNumber": "40393",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-425",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "101-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Elementary Spanish",
+        "topic": "",
+        "courseNumber": "40394",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-425",
+            "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-08-05"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "121-1",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": "",
+        "courseNumber": "40395",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-425",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-06-24"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "121-2",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": "",
+        "courseNumber": "40396",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-425",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      },
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "121-3",
+        "section": "23",
+        "component": "LEC",
+        "courseTitle": "Intermediate Spanish",
+        "topic": "",
+        "courseNumber": "40397",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-425",
+            "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
+          }
+        ],
+        "startDate": "2019-08-05"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "SPANISH"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2019 Summer",
+        "catalogNumber": "202-0",
+        "section": "24",
+        "component": "LEC",
+        "courseTitle": "Introduction to Statistics",
+        "topic": "",
+        "courseNumber": "40399",
+        "classMeetingInfo": [
+          {
+            "ROOM": "University Hall 101",
+            "MEETING_TIME": "MoTuWeTh 10:00AM - 12:00PM"
+          }
+        ],
+        "startDate": "2019-07-15"
+      }
+    ],
+    "school": "WCAS",
+    "subject": "STAT"
+  }
+]

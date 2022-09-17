@@ -1,0 +1,2902 @@
+[
+  {
+    "status": 200,
+    "results": 30,
+    "data": [
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "510",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Contracts",
+        "topic": "",
+        "courseNumber": "38311",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 195 - Strawn Hall",
+            "MEETING_TIME": "ThFr 8:50AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "597",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Planning and Designing a Distressed Corporate Restructuring",
+        "topic": "",
+        "courseNumber": "38339",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 101",
+            "MEETING_TIME": "Tu 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "599",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Internal Corporate Investigations",
+        "topic": "",
+        "courseNumber": "30140",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "Tu 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "601S",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Business Associations",
+        "topic": "",
+        "courseNumber": "30027",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff 150 - Aspen Hall",
+            "MEETING_TIME": "ThFr 4:10PM - 5:35PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "601S",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Business Associations",
+        "topic": "",
+        "courseNumber": "30028",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 180",
+            "MEETING_TIME": "MoTuWe 1:30PM - 2:25PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "601S",
+        "section": "3",
+        "component": "LEC",
+        "courseTitle": "Business Associations",
+        "topic": "",
+        "courseNumber": "30029",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 180",
+            "MEETING_TIME": "MoTuWe 9:50AM - 10:45AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "609",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Corporate Governance",
+        "topic": "",
+        "courseNumber": "30070",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 175",
+            "MEETING_TIME": "Tu 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "620",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Securities Regulation",
+        "topic": "",
+        "courseNumber": "30069",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 140",
+            "MEETING_TIME": "ThFr 1:30PM - 3:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "620",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Securities Regulation",
+        "topic": "",
+        "courseNumber": "38394",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 140",
+            "MEETING_TIME": "TuTh 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "624",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Securities Regulation: Enforcement & Liability",
+        "topic": "",
+        "courseNumber": "38319",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 175",
+            "MEETING_TIME": "MoTuWe 9:50AM - 10:45AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "630",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Labor Law",
+        "topic": "",
+        "courseNumber": "30127",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 175",
+            "MEETING_TIME": "Tu 6:10PM - 9:10PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "631",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Entrepreneurship Law",
+        "topic": "",
+        "courseNumber": "30196",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 195 - Strawn Hall",
+            "MEETING_TIME": "Mo 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "633I",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Structuring Transactions:  Real Estate",
+        "topic": "",
+        "courseNumber": "38385",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 371",
+            "MEETING_TIME": "We 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "633K",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Structuring Transactions: International Investments",
+        "topic": "",
+        "courseNumber": "38344",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 381 - Cutting Hall",
+            "MEETING_TIME": "Th 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "633M",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Structuring Transactions:  Mergers and Acquisitions",
+        "topic": "",
+        "courseNumber": "38321",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 381 - Cutting Hall",
+            "MEETING_TIME": "We 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "637",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Media and Entertainment Law",
+        "topic": "",
+        "courseNumber": "30131",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 371",
+            "MEETING_TIME": "ThFr 8:50AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "638",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Mergers and Acquisitions",
+        "topic": "",
+        "courseNumber": "38317",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 140",
+            "MEETING_TIME": "ThFr 8:50AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "639",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Entertainment Law and Business",
+        "topic": "",
+        "courseNumber": "30096",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 185 - Sidley Hall",
+            "MEETING_TIME": "Tu 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "642",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Business Planning",
+        "topic": "",
+        "courseNumber": "38388",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 175",
+            "MEETING_TIME": "Th 6:10PM - 9:10PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "645",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Corporate Finance II",
+        "topic": "",
+        "courseNumber": "38340",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 204 - Booth Hall",
+            "MEETING_TIME": "ThFr 9:20AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "660",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Commercial Law:  Secured Transactions",
+        "topic": "",
+        "courseNumber": "38351",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "Mo 6:10PM - 9:10PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "663",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "International Securities Law",
+        "topic": "",
+        "courseNumber": "30182",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 175 - Getz Hall",
+            "MEETING_TIME": "Th 8:25AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "665B",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Bankruptcy",
+        "topic": "",
+        "courseNumber": "38328",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "ThFr 10:25AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "670",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Practical Issues in Business Law",
+        "topic": "",
+        "courseNumber": "30020",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "Mo 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "690",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Basic Federal Income Taxation",
+        "topic": "",
+        "courseNumber": "30067",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 195 - Strawn Hall",
+            "MEETING_TIME": "MoTu 8:15AM - 9:40AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "706",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "International Investment",
+        "topic": "",
+        "courseNumber": "30048",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 317 - Hoyne Hall",
+            "MEETING_TIME": "We 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "722",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Innovation Lab",
+        "topic": "",
+        "courseNumber": "30049",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RB135 - Thorne Auditorium",
+            "MEETING_TIME": "Tu 2:35PM - 5:30PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "724",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Partnership Tax (JD/Gen.LLM)",
+        "topic": "",
+        "courseNumber": "38330",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RB135 - Thorne Auditorium",
+            "MEETING_TIME": "Th 8:50AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "732",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Blockchain, Cryptocurrencies, and Smart Contracts",
+        "topic": "",
+        "courseNumber": "38333",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 185 - Sidley Hall",
+            "MEETING_TIME": "Mo 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "736",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Advanced Contract Drafting for Entrepreneurs",
+        "topic": "",
+        "courseNumber": "38356",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 175 - Getz Hall",
+            "MEETING_TIME": "Tu 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      }
+    ],
+    "school": "LAW",
+    "subject": "BUSCOM"
+  },
+  {
+    "status": 200,
+    "results": 39,
+    "data": [
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "500",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Constitutional Law",
+        "topic": "",
+        "courseNumber": "30003",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 140",
+            "MEETING_TIME": "MoTuWe 2:35PM - 3:30PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "500",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Constitutional Law",
+        "topic": "",
+        "courseNumber": "30004",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 175",
+            "MEETING_TIME": "MoTuWe 10:55AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "500",
+        "section": "3",
+        "component": "LEC",
+        "courseTitle": "Constitutional Law",
+        "topic": "",
+        "courseNumber": "30005",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff 150 - Aspen Hall",
+            "MEETING_TIME": "MoTuWe 10:55AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "500",
+        "section": "4",
+        "component": "LEC",
+        "courseTitle": "Constitutional Law",
+        "topic": "",
+        "courseNumber": "30115",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 180",
+            "MEETING_TIME": "MoTuWe 10:55AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "600",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Administrative Law",
+        "topic": "",
+        "courseNumber": "30105",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RB135 - Thorne Auditorium",
+            "MEETING_TIME": "MoTuWe 10:55AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "605C",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Comparative Constitutional Law Seminar",
+        "topic": "",
+        "courseNumber": "30113",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 381 - Cutting Hall",
+            "MEETING_TIME": "Tu 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "608",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Telecommunications",
+        "topic": "",
+        "courseNumber": "38303",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 203",
+            "MEETING_TIME": "Mo 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "610",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "First Amendment",
+        "topic": "",
+        "courseNumber": "30010",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 180",
+            "MEETING_TIME": "ThFr 10:25AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "617S",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Local Government Law",
+        "topic": "",
+        "courseNumber": "30181",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 175",
+            "MEETING_TIME": "MoTuWe 1:30PM - 2:25PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "618",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Classical Athenian Law",
+        "topic": "",
+        "courseNumber": "38341",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 371",
+            "MEETING_TIME": "Tu 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "619",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Employment Discrimination",
+        "topic": "",
+        "courseNumber": "30006",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 175",
+            "MEETING_TIME": "ThFr 10:25AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "633",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "American Indian Law",
+        "topic": "",
+        "courseNumber": "30017",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "MoTuWe 8:45AM - 9:40AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "638",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum: Public Interest Law",
+        "topic": "",
+        "courseNumber": "30021",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "Th 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "640",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Critical Race Theory",
+        "topic": "",
+        "courseNumber": "38348",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 317 - Hoyne Hall",
+            "MEETING_TIME": "Tu 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "642",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Critical Theory/Critical Lawyering",
+        "topic": "",
+        "courseNumber": "38343",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "We 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "644",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Legislation",
+        "topic": "",
+        "courseNumber": "30015",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff 150 - Aspen Hall",
+            "MEETING_TIME": "MoTuWe 9:50AM - 10:45AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "645",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Law and Social Change",
+        "topic": "",
+        "courseNumber": "38391",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "ThFr 10:25AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "647",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum:  Judicial",
+        "topic": "",
+        "courseNumber": "30012",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "650",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Federal Jurisdiction",
+        "topic": "",
+        "courseNumber": "30009",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 140",
+            "MEETING_TIME": "MoTuWe 9:50AM - 10:45AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "656",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum:  Civil Government",
+        "topic": "",
+        "courseNumber": "30033",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 107 - Williams",
+            "MEETING_TIME": "We 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "660",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Immigration Law",
+        "topic": "",
+        "courseNumber": "38318",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 180",
+            "MEETING_TIME": "We 6:10PM - 9:10PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "664",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Animal Law",
+        "topic": "",
+        "courseNumber": "30125",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 204 - Booth Hall",
+            "MEETING_TIME": "ThFr 10:25AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "676",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum: Media Law and Government Transparency",
+        "topic": "",
+        "courseNumber": "30141",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 175 - Getz Hall",
+            "MEETING_TIME": "Fr 1:30PM - 3:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "682",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Women, Gender and Human Rights",
+        "topic": "",
+        "courseNumber": "38383",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 203",
+            "MEETING_TIME": "Th 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "691",
+        "section": "1",
+        "component": "FLD",
+        "courseTitle": "International Team Project",
+        "topic": "",
+        "courseNumber": "38364",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 175 - Getz Hall",
+            "MEETING_TIME": "We 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "691",
+        "section": "2",
+        "component": "FLD",
+        "courseTitle": "International Team Project",
+        "topic": "",
+        "courseNumber": "38365",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 254 - Savner",
+            "MEETING_TIME": "Mo 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "691",
+        "section": "3",
+        "component": "FLD",
+        "courseTitle": "International Team Project",
+        "topic": "",
+        "courseNumber": "38366",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 185 - Sidley Hall",
+            "MEETING_TIME": "We 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "691",
+        "section": "4",
+        "component": "FLD",
+        "courseTitle": "International Team Project",
+        "topic": "",
+        "courseNumber": "38367",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 887",
+            "MEETING_TIME": "Th 1:30PM - 3:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "695",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "International Criminal Law",
+        "topic": "",
+        "courseNumber": "30129",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RB135 - Thorne Auditorium",
+            "MEETING_TIME": "ThFr 10:25AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "703",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Colloquium: International Human Rights",
+        "topic": "",
+        "courseNumber": "30001",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 185 - Sidley Hall",
+            "MEETING_TIME": "Tu 2:35PM - 4:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "707",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Business and Human Rights",
+        "topic": "",
+        "courseNumber": "38354",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 101",
+            "MEETING_TIME": "Mo 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "720",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Topics in Government Secrecy",
+        "topic": "",
+        "courseNumber": "38324",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 203",
+            "MEETING_TIME": "We 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "722L",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Comparative Law",
+        "topic": "",
+        "courseNumber": "38325",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 185 - Sidley Hall",
+            "MEETING_TIME": "MoWe 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "728",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Land Use and Local Government",
+        "topic": "",
+        "courseNumber": "38326",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 175 - Getz Hall",
+            "MEETING_TIME": "Th 1:30PM - 3:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "734",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Anti-Discrimination Law",
+        "topic": "",
+        "courseNumber": "30186",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 204 - Booth Hall",
+            "MEETING_TIME": "MoTuWe 1:30PM - 2:25PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "749",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Sexual Orientation and Gender Identity Law",
+        "topic": "",
+        "courseNumber": "38331",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 254 - Savner",
+            "MEETING_TIME": "Fr 1:30PM - 3:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "755",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Global Freedom of Expression and the Press",
+        "topic": "",
+        "courseNumber": "38386",
+        "classMeetingInfo": [],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "758",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Reproductive Justice Seminar",
+        "topic": "",
+        "courseNumber": "38389",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 1:30PM - 3:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "765",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Constitutional Controversy in the Public Arena",
+        "topic": "",
+        "courseNumber": "30247",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 371",
+            "MEETING_TIME": "Tu 6:10PM - 9:10PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      }
+    ],
+    "school": "LAW",
+    "subject": "CONPUB"
+  },
+  {
+    "status": 200,
+    "results": 6,
+    "data": [
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "520",
+        "section": "4",
+        "component": "LEC",
+        "courseTitle": "Criminal Law",
+        "topic": "",
+        "courseNumber": "30116",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 175",
+            "MEETING_TIME": "ThFr 8:50AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "608",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum: Criminal Law",
+        "topic": "",
+        "courseNumber": "30107",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 801",
+            "MEETING_TIME": "Th 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "610",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Constitutional Criminal Procedure",
+        "topic": "",
+        "courseNumber": "30174",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 195 - Strawn Hall",
+            "MEETING_TIME": "ThFr 10:25AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "620",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Criminal Process",
+        "topic": "",
+        "courseNumber": "38312",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 195 - Strawn Hall",
+            "MEETING_TIME": "ThFr 1:30PM - 2:55PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "692",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Mass Incarceration",
+        "topic": "",
+        "courseNumber": "38332",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Tu 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "693",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Restorative Justice, Community Building, and Practice",
+        "topic": "",
+        "courseNumber": "30215",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 185 - Sidley Hall",
+            "MEETING_TIME": "Th 4:10PM - 7:10PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      }
+    ],
+    "school": "LAW",
+    "subject": "CRIM"
+  },
+  {
+    "status": 200,
+    "results": 34,
+    "data": [
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "541",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Communication and Legal Reasoning II",
+        "topic": "",
+        "courseNumber": "30117",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 381 - Cutting Hall",
+            "MEETING_TIME": "ThFr 8:50AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "541",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Communication and Legal Reasoning II",
+        "topic": "",
+        "courseNumber": "30118",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 180",
+            "MEETING_TIME": "ThFr 8:50AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "541",
+        "section": "3",
+        "component": "LEC",
+        "courseTitle": "Communication and Legal Reasoning II",
+        "topic": "",
+        "courseNumber": "30119",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 175",
+            "MEETING_TIME": "ThFr 1:30PM - 2:55PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "541",
+        "section": "4",
+        "component": "LEC",
+        "courseTitle": "Communication and Legal Reasoning II",
+        "topic": "",
+        "courseNumber": "30120",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 180",
+            "MEETING_TIME": "ThFr 1:30PM - 2:55PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "541",
+        "section": "5",
+        "component": "LEC",
+        "courseTitle": "Communication and Legal Reasoning II",
+        "topic": "",
+        "courseNumber": "30180",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 101",
+            "MEETING_TIME": "ThFr 1:30PM - 2:55PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "541",
+        "section": "6",
+        "component": "LEC",
+        "courseTitle": "Communication and Legal Reasoning II",
+        "topic": "",
+        "courseNumber": "30121",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 371",
+            "MEETING_TIME": "ThFr 1:30PM - 2:55PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "541",
+        "section": "7",
+        "component": "LEC",
+        "courseTitle": "Communication and Legal Reasoning II",
+        "topic": "",
+        "courseNumber": "30122",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 203",
+            "MEETING_TIME": "ThFr 1:30PM - 2:55PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "541",
+        "section": "8",
+        "component": "LEC",
+        "courseTitle": "Communication and Legal Reasoning II",
+        "topic": "",
+        "courseNumber": "30123",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "ThFr 1:30PM - 2:55PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "541",
+        "section": "9",
+        "component": "LEC",
+        "courseTitle": "Communication and Legal Reasoning II",
+        "topic": "",
+        "courseNumber": "30124",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 381 - Cutting Hall",
+            "MEETING_TIME": "ThFr 1:30PM - 2:55PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "591",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "The Law of Racial & Social Justice Movements",
+        "topic": "",
+        "courseNumber": "30285",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "Th 6:10PM - 9:10PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "593",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Historical Perspectives on Ethical Lawyering and the Regulation of Lawyers",
+        "topic": "",
+        "courseNumber": "30139",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 180",
+            "MEETING_TIME": "We 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "615",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Law and Rhetoric",
+        "topic": "",
+        "courseNumber": "38322",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "Tu 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "619",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "French Law Seminar",
+        "topic": "",
+        "courseNumber": "38323",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 101",
+            "MEETING_TIME": "Th 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "620",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Advanced Legal Research",
+        "topic": "",
+        "courseNumber": "30002",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 254 - Savner",
+            "MEETING_TIME": "MoWe 9:50AM - 10:45AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "620A",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Advanced Legal Writing: Argument, Advocacy, Drafting",
+        "topic": "",
+        "courseNumber": "30128",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "MoTuWe 1:30PM - 2:25PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "622",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Basics of Contract Drafting",
+        "topic": "",
+        "courseNumber": "30032",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 254 - Savner",
+            "MEETING_TIME": "TuWe 8:45AM - 9:40AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "622",
+        "section": "2",
+        "component": "SEM",
+        "courseTitle": "Basics of Contract Drafting",
+        "topic": "",
+        "courseNumber": "30142",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 254 - Savner",
+            "MEETING_TIME": "Tu 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "622",
+        "section": "3",
+        "component": "SEM",
+        "courseTitle": "Basics of Contract Drafting",
+        "topic": "",
+        "courseNumber": "30178",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 371",
+            "MEETING_TIME": "We 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "628",
+        "section": "1",
+        "component": "ADV",
+        "courseTitle": "Advanced Legal Writing: Writing for the Court",
+        "topic": "",
+        "courseNumber": "38327",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 185 - Sidley Hall",
+            "MEETING_TIME": "Fr 1:30PM - 3:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "629",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Foreign, Comparative, and International Legal Research",
+        "topic": "",
+        "courseNumber": "30208",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 254 - Savner",
+            "MEETING_TIME": "MoWe 10:55AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "631L",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Economic Analysis of Law",
+        "topic": "",
+        "courseNumber": "38320",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "ThFr 8:50AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "633",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Colloquium: Law and Economics",
+        "topic": "",
+        "courseNumber": "30030",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Th 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "647B",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Authenticity in Legal Practice",
+        "topic": "",
+        "courseNumber": "30045",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 381 - Cutting Hall",
+            "MEETING_TIME": "Th 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "667",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "JDPhD Workshop",
+        "topic": "",
+        "courseNumber": "30147",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 285 - Hoffman Hall",
+            "MEETING_TIME": "We 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "672",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Pro Bono in Large Law Firms",
+        "topic": "",
+        "courseNumber": "38350",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 254 - Savner",
+            "MEETING_TIME": "Th 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "698",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Access to Justice in the U.S. & the Developing World",
+        "topic": "",
+        "courseNumber": "38337",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 381 - Cutting Hall",
+            "MEETING_TIME": "We 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "704",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Colloquium: Public Law",
+        "topic": "",
+        "courseNumber": "30108",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 185 - Sidley Hall",
+            "MEETING_TIME": "Th 1:30PM - 3:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "710",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Privacy Law",
+        "topic": "",
+        "courseNumber": "30050",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RB135 - Thorne Auditorium",
+            "MEETING_TIME": "MoTuWe 1:30PM - 2:25PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "716",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Advanced Legal Writing (LLM)",
+        "topic": "",
+        "courseNumber": "30209",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "ThFr 10:25AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "718",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Law of Artificial Intelligence and Robotics",
+        "topic": "",
+        "courseNumber": "38355",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 175 - Getz Hall",
+            "MEETING_TIME": "Tu 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "722",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Economic Analysis of Corp. Securities Law",
+        "topic": "",
+        "courseNumber": "38334",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff 150 - Aspen Hall",
+            "MEETING_TIME": "Th 1:30PM - 3:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "726",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "The Legal Profession: Careers of Law Graduates",
+        "topic": "",
+        "courseNumber": "30068",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 101",
+            "MEETING_TIME": "MoTuWe 1:30PM - 2:25PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "850",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "The Surveillance State",
+        "topic": "",
+        "courseNumber": "30195",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 381 - Cutting Hall",
+            "MEETING_TIME": "Mo 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "922",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "American Legal Studies:Con Law",
+        "topic": "",
+        "courseNumber": "30112",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff 150 - Aspen Hall",
+            "MEETING_TIME": "Tu 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      }
+    ],
+    "school": "LAW",
+    "subject": "LAWSTUDY"
+  },
+  {
+    "status": 200,
+    "results": 39,
+    "data": [
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "510",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Complex Civil Litigation - The Judicial Perspective",
+        "topic": "",
+        "courseNumber": "38335",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 101",
+            "MEETING_TIME": "We 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "600",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Legal Ethics",
+        "topic": "",
+        "courseNumber": "30014",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Mo 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "600",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Legal Ethics",
+        "topic": "",
+        "courseNumber": "38316",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "Tu 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "600",
+        "section": "3",
+        "component": "LEC",
+        "courseTitle": "Legal Ethics",
+        "topic": "",
+        "courseNumber": "38315",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "Mo 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "600G",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Legal Ethics in a Global Legal Practice",
+        "topic": "",
+        "courseNumber": "30047",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Mo 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "601",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Legal Ethics and Professional Responsibility",
+        "topic": "",
+        "courseNumber": "30217",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 195 - Strawn Hall",
+            "MEETING_TIME": "MoTuWe 9:50AM - 10:45AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "603",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Poverty Law",
+        "topic": "",
+        "courseNumber": "38338",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "We 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "608",
+        "section": "1",
+        "component": "ADV",
+        "courseTitle": "Litigation, Crises and Strategic Communications",
+        "topic": "",
+        "courseNumber": "30039",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 371",
+            "MEETING_TIME": "Th 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "620",
+        "section": "1",
+        "component": "ADV",
+        "courseTitle": "Advanced Trial Practice",
+        "topic": "",
+        "courseNumber": "30172",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff 155 - Parrillo Courtro",
+            "MEETING_TIME": "Mo 2:35PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "627",
+        "section": "1",
+        "component": "ADV",
+        "courseTitle": "Dispute Resolution",
+        "topic": "",
+        "courseNumber": "30053",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 175 - Getz Hall",
+            "MEETING_TIME": "Th 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "635",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Evidence",
+        "topic": "",
+        "courseNumber": "30051",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 195 - Strawn Hall",
+            "MEETING_TIME": "MoTuWe 10:55AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "635",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Evidence",
+        "topic": "",
+        "courseNumber": "30052",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "ThFr 10:25AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "636",
+        "section": "1",
+        "component": "ADV",
+        "courseTitle": "Advanced Evidence",
+        "topic": "",
+        "courseNumber": "38360",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 254 - Savner",
+            "MEETING_TIME": "We 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "650",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Civil Procedure II",
+        "topic": "",
+        "courseNumber": "30173",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff 150 - Aspen Hall",
+            "MEETING_TIME": "MoTuWe 1:30PM - 2:25PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "656",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Remedies",
+        "topic": "",
+        "courseNumber": "30110",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "ThFr 10:25AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "659",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Federal Civil Discovery",
+        "topic": "",
+        "courseNumber": "30126",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 180",
+            "MEETING_TIME": "Th 4:10PM - 7:10PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "670",
+        "section": "1",
+        "component": "ADV",
+        "courseTitle": "Negotiation",
+        "topic": "",
+        "courseNumber": "30111",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Online",
+            "MEETING_TIME": "Th 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "670",
+        "section": "2",
+        "component": "ADV",
+        "courseTitle": "Negotiation",
+        "topic": "",
+        "courseNumber": "30018",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 175 - Getz Hall",
+            "MEETING_TIME": "We 6:10PM - 9:10PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "670",
+        "section": "3",
+        "component": "ADV",
+        "courseTitle": "Negotiation",
+        "topic": "",
+        "courseNumber": "30019",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 203",
+            "MEETING_TIME": "Tu 6:10PM - 9:10PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "676",
+        "section": "1",
+        "component": "LGL",
+        "courseTitle": "Practicum:  Mediation Practice",
+        "topic": "",
+        "courseNumber": "30024",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 887",
+            "MEETING_TIME": "Th 12:00PM - 1:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "686",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Contemporary Problems in Complex Litigation",
+        "topic": "",
+        "courseNumber": "38329",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 185 - Sidley Hall",
+            "MEETING_TIME": "Th 8:25AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "699",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Trial Team II",
+        "topic": "",
+        "courseNumber": "30072",
+        "classMeetingInfo": [],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "699",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Trial Team II",
+        "topic": "",
+        "courseNumber": "30073",
+        "classMeetingInfo": [],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "700",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic: DPELC Entrepreneurship Law",
+        "topic": "",
+        "courseNumber": "30025",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 375 - Smith Hall",
+            "MEETING_TIME": "Mo 2:35PM - 3:50PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "705",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic Practice: Tenant Advocacy",
+        "topic": "",
+        "courseNumber": "38378",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 885",
+            "MEETING_TIME": "We 2:35PM - 3:50PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "708",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic Practice: Center on Wrongful Convictions",
+        "topic": "",
+        "courseNumber": "30071",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 371",
+            "MEETING_TIME": "Mo 2:35PM - 3:50PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "708",
+        "section": "2",
+        "component": "CLN",
+        "courseTitle": "Clinic Practice: Center on Wrongful Convictions",
+        "topic": "",
+        "courseNumber": "30099",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 885",
+            "MEETING_TIME": "Mo 2:35PM - 3:50PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "714",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic: International Human Rights Advocacy",
+        "topic": "",
+        "courseNumber": "30031",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 836",
+            "MEETING_TIME": "Mo 2:35PM - 3:50PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "719",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic: Federal Appellate Practice",
+        "topic": "",
+        "courseNumber": "30210",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 887",
+            "MEETING_TIME": "We 4:00PM - 5:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "721",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic: Civil Rights Litigation",
+        "topic": "",
+        "courseNumber": "30034",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 317 - Hoyne Hall",
+            "MEETING_TIME": "Mo 2:35PM - 3:50PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "722",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic Practice: The United States Supreme Court",
+        "topic": "",
+        "courseNumber": "30035",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 887",
+            "MEETING_TIME": "Fr 12:00PM - 1:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "728",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic Practice:  Immigration Law",
+        "topic": "",
+        "courseNumber": "30037",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 801",
+            "MEETING_TIME": "Mo 4:00PM - 5:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "729",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic Practice:  Environmental Advocacy",
+        "topic": "",
+        "courseNumber": "30038",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 836",
+            "MEETING_TIME": "Mo 4:00PM - 5:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "730",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic Practice: Complex Civil Litigation & Investor Protection",
+        "topic": "",
+        "courseNumber": "30040",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 885",
+            "MEETING_TIME": "Mo 4:00PM - 5:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "733",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic Juvenile Justice Pre-Trial, Trial, Appeal and Post-Dispositional / Post-Conviction Advocacy",
+        "topic": "",
+        "courseNumber": "30042",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "We 2:35PM - 3:50PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "734",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic: Second Chances for Youth: Decarceration, Diversion and Post-Sentencing Advocacy",
+        "topic": "",
+        "courseNumber": "30043",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 887",
+            "MEETING_TIME": "We 2:35PM - 3:50PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "740",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Civil Rights Lawyering Seminar",
+        "topic": "",
+        "courseNumber": "38390",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Tu 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "745",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic Practice: Women and Children's Human Rights Advocacy: International and Domestic",
+        "topic": "",
+        "courseNumber": "30098",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 801",
+            "MEETING_TIME": "Mo 2:35PM - 3:50PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "746",
+        "section": "1",
+        "component": "CLN",
+        "courseTitle": "Clinic: Community Justice and Civil Rights Litigation",
+        "topic": "",
+        "courseNumber": "30102",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 887",
+            "MEETING_TIME": "Mo 2:35PM - 3:50PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      }
+    ],
+    "school": "LAW",
+    "subject": "LITARB"
+  },
+  {
+    "status": 200,
+    "results": 12,
+    "data": [
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "530",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Property",
+        "topic": "",
+        "courseNumber": "30114",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 140",
+            "MEETING_TIME": "MoTuWe 10:55AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "530",
+        "section": "3",
+        "component": "LEC",
+        "courseTitle": "Property",
+        "topic": "",
+        "courseNumber": "30022",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff 150 - Aspen Hall",
+            "MEETING_TIME": "ThFr 8:50AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "610",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Environmental Law",
+        "topic": "",
+        "courseNumber": "30007",
+        "classMeetingInfo": [
+          {
+            "ROOM": "McCormick 195 - Strawn Hall",
+            "MEETING_TIME": "MoTuWe 1:30PM - 2:25PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "620",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Family Law",
+        "topic": "",
+        "courseNumber": "38314",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff 150 - Aspen Hall",
+            "MEETING_TIME": "ThFr 10:25AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "625",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Estates and Trusts",
+        "topic": "",
+        "courseNumber": "30008",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 140",
+            "MEETING_TIME": "ThFr 10:25AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "642",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Medical Innovation II",
+        "topic": "",
+        "courseNumber": "30143",
+        "classMeetingInfo": [],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "645",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Colloquium:  Climate Change",
+        "topic": "",
+        "courseNumber": "30205",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Th 1:30PM - 3:20PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "650",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Intellectual Property",
+        "topic": "",
+        "courseNumber": "30011",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "MoTuWe 10:55AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "651",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Patent Law",
+        "topic": "",
+        "courseNumber": "30175",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 140",
+            "MEETING_TIME": "MoTuWe 1:30PM - 2:25PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "658",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Disability Law",
+        "topic": "",
+        "courseNumber": "38349",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "MoTuWe 10:55AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "688",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Health Law",
+        "topic": "",
+        "courseNumber": "30188",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "ThFr 10:25AM - 11:50AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "693",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Health and Human Rights",
+        "topic": "",
+        "courseNumber": "30044",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Mo 6:10PM - 9:10PM"
+          }
+        ],
+        "startDate": "2023-01-02"
+      }
+    ],
+    "school": "LAW",
+    "subject": "PPTYTORT"
+  },
+  {
+    "status": 200,
+    "results": 19,
+    "data": [
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "602",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "S Corporations and Other Specially Taxed Entities",
+        "topic": "",
+        "courseNumber": "38282",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Th 8:25AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "613",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Corporate Reorganizations",
+        "topic": "",
+        "courseNumber": "30064",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "We 2:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "618",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Tax Aspects of Private Equity Transactions",
+        "topic": "",
+        "courseNumber": "30065",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "We 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "621",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Advanced Partnership Taxation",
+        "topic": "",
+        "courseNumber": "30055",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Tu 8:25AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "631",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Controlled Foreign Corporations",
+        "topic": "",
+        "courseNumber": "30061",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 180",
+            "MEETING_TIME": "Tu 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "632",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "International Estate Planning",
+        "topic": "",
+        "courseNumber": "30062",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Mo 8:25AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "641",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Advanced Taxation of Property Transactions",
+        "topic": "",
+        "courseNumber": "30054",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "We 8:25AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "642",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Taxation of Structured Real Estate Transactions",
+        "topic": "",
+        "courseNumber": "30060",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 101",
+            "MEETING_TIME": "We 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "643",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "European Union Taxation",
+        "topic": "",
+        "courseNumber": "30100",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Levy Mayer 310 - Hurd",
+            "MEETING_TIME": "Th 2:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "644",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Taxation of Debt Instruments and other Financial Transactions",
+        "topic": "",
+        "courseNumber": "30104",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Tu 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "651",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Estate Planning",
+        "topic": "",
+        "courseNumber": "30056",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 175",
+            "MEETING_TIME": "Mo 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "655",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Income Taxation of Trusts and Estates",
+        "topic": "",
+        "courseNumber": "30170",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Th 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "669",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "International Taxation of Partnerships",
+        "topic": "",
+        "courseNumber": "30066",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 180",
+            "MEETING_TIME": "Mo 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "673",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Advanced International Corporate Tax Transactions",
+        "topic": "",
+        "courseNumber": "30057",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Mo 2:00PM - 3:50PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "676",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Tax Audits, Appeals, and Litigation",
+        "topic": "",
+        "courseNumber": "30058",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 203",
+            "MEETING_TIME": "Tu 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "681",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Investigation, Prosecution and Defense of Tax Crimes",
+        "topic": "",
+        "courseNumber": "30171",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 175",
+            "MEETING_TIME": "We 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "682",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "ERISA and Employee Benefits",
+        "topic": "",
+        "courseNumber": "30063",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 175",
+            "MEETING_TIME": "Mo 6:10PM - 8:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "689",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Consolidated Returns",
+        "topic": "",
+        "courseNumber": "30059",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 180",
+            "MEETING_TIME": "Mo 4:10PM - 6:00PM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      },
+      {
+        "termDescription": "2023 Spring",
+        "catalogNumber": "902",
+        "section": "1",
+        "component": "SEM",
+        "courseTitle": "Tax Excel Modeling",
+        "topic": "",
+        "courseNumber": "30295",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Rubloff Building 339",
+            "MEETING_TIME": "Fr 8:25AM - 10:15AM"
+          }
+        ],
+        "startDate": "2023-01-09"
+      }
+    ],
+    "school": "LAW",
+    "subject": "TAXLAW"
+  }
+]
