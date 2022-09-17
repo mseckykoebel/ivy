@@ -172,10 +172,10 @@ const Schedule: React.FC<ScheduleProps> = ({
       )}
 
       {!loadingRef.current && scheduleId === "" && scheduleCourses.length < 1 && (
-        <div className="font-atkinson mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
+        <div className="font-atkinson mx-auto h-16 max-w-7xl pb-0 -ml-8 mt-4 sm:px-6 md:px-8">
           <h1 className="text-l font-semibold text-gray-900">
-            Welcome to Ivy's schedule pane! Select a course from the search
-            panel to start your schedule 👉
+            Welcome to Ivy's schedule pane! Select a year and quarter to search
+            for courses and build your entire schedule 👉
           </h1>
         </div>
       )}
