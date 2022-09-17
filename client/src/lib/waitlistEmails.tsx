@@ -22,13 +22,14 @@ const waitlistEmails = [
   "daniellee2025@u.northwestern.edu",
   "isaacmiller2024@u.northwestern.edu",
   "justindong2025.1@u.northwestern.edu",
-  "AnirudhPoranki2024@u.northwestern.edu",
   "laurenlee2025@u.northwestern.edu",
   "kellymei2024@u.northwestern.edu",
   "Lingxiaoshi2023@u.northwestern.edu",
   "brunodeclerck2025@u.northwestern.edu",
   "andyxu2023@u.northwestern.edu",
-  "mseckykoebel@gmail.com"
+  "mseckykoebel@gmail.com",
+  "vishaal.mali98@gmail.com",
+  "AnirudhPoranki2024@u.northwestern.edu",
 ];
 
 export { waitlistEmails };
