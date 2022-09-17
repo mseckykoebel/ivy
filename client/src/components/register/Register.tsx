@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
+import { waitlistEmails } from "../../lib/waitlistEmails";
 import IvyLottie from "../login/IvyLottie";
 
 const Register: React.FC = (): JSX.Element => {
@@ -19,6 +20,11 @@ const Register: React.FC = (): JSX.Element => {
   //   sign up function
   const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
+    // pre-release logic
+    if (!waitlistEmails.includes(emailRef.current?.value as string)) {
+      setError("Only authorized for waitlist sign-ups at this time");
+      return;
+    }
     // check if the passwords are the same
     console.log(passwordRef.current?.value);
     if (passwordRef.current?.value !== confirmPasswordRef.current?.value) {
@@ -120,7 +126,7 @@ const Register: React.FC = (): JSX.Element => {
           <div>
             <button
               type="submit"
-              className={`select-none pointer-events-none group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 ${
+              className={`group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 ${
                 loading ? "cursor-not-allowed" : ""
               }`}
               onClick={handleSubmit}
