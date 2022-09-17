@@ -22,15 +22,15 @@ const quarterMap = (quarter: string): string => {
 const quarterDisplayMap = (season: string): number => {
   switch (season) {
     case "Fall":
-      return 3;
+      return 4;
     case "Summer":
-      return 2;
+      return 3;
     case "Spring":
-      return 1;
+      return 2;
     case "Winter":
-      return 0;
+      return 1;
     default:
-      return 0;
+      return 1;
   }
 };
 
