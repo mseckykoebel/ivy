@@ -21,7 +21,14 @@ const Register: React.FC = (): JSX.Element => {
   const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     // pre-release logic
-    if (!waitlistEmails.includes(emailRef.current?.value as string)) {
+    waitlistEmails.forEach((email) => {
+      return email.toLowerCase();
+    });
+    if (
+      !waitlistEmails.includes(
+        (emailRef.current?.value as string).toLowerCase()
+      )
+    ) {
       setError("Only authorized for waitlist sign-ups at this time");
       return;
     }
