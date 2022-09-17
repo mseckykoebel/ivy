@@ -4,6 +4,7 @@
     "results": 4,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "170-0",
         "section": "1",
         "component": "LEC",
@@ -15,9 +16,11 @@
             "ROOM": "RCMA 1-160",
             "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "170-0",
         "section": "2",
         "component": "LEC",
@@ -29,9 +32,11 @@
             "ROOM": "RCMA 1-164",
             "MEETING_TIME": "MoWeFr 1:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "175-0",
         "section": "1",
         "component": "LEC",
@@ -43,9 +48,11 @@
             "ROOM": "RCMA 1-160",
             "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "175-0",
         "section": "2",
         "component": "LEC",
@@ -57,7 +64,8 @@
             "ROOM": "RCMA 1-164",
             "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "MUSIC",
@@ -68,6 +76,7 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "321-0",
         "section": "1",
         "component": "LEC",
@@ -79,7 +88,8 @@
             "ROOM": "RCMA Lower Level 121",
             "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "MUSIC",
@@ -90,6 +100,7 @@
     "results": 2,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "310-0",
         "section": "26",
         "component": "PED",
@@ -109,9 +120,11 @@
             "ROOM": "RCMA Choral Room 1-190",
             "MEETING_TIME": "MoTuWeThFr 6:30PM - 10:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "315-0",
         "section": "26",
         "component": "PED",
@@ -131,7 +144,8 @@
             "ROOM": "RCMA Choral Room 1-190",
             "MEETING_TIME": "MoTuWeThFr 6:30PM - 10:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       }
     ],
     "school": "MUSIC",
@@ -142,6 +156,7 @@
     "results": 8,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "601S",
         "section": "1",
         "component": "LEC",
@@ -153,18 +168,22 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "MoWe 7:00PM - 9:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "605D",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Contracts II:  UCC Article 2 (Sales Law)",
         "topic": "",
         "courseNumber": "41284",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "631",
         "section": "1",
         "component": "SEM",
@@ -176,9 +195,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "We 9:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "638",
         "section": "1",
         "component": "LEC",
@@ -190,9 +211,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "MoTh 9:00AM - 11:00AM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "667",
         "section": "1",
         "component": "LEC",
@@ -204,9 +227,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "We 6:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-05-20"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "670PS",
         "section": "1",
         "component": "LGL",
@@ -218,9 +243,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "Tu 2:00PM - 4:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "690",
         "section": "1-ON",
         "component": "LEC",
@@ -232,9 +259,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "Tu 7:00PM - 8:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "690",
         "section": "2-ON",
         "component": "LEC",
@@ -246,7 +275,8 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "Mo 7:00PM - 8:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "LAW",
@@ -257,6 +287,7 @@
     "results": 5,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "619",
         "section": "1",
         "component": "LEC",
@@ -268,18 +299,22 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "MoWe 5:00PM - 6:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-06"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "647D",
         "section": "1",
         "component": "LGL",
         "courseTitle": "Practicum:  Judicial",
         "topic": "",
         "courseNumber": "41314",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "647S",
         "section": "1",
         "component": "LGL",
@@ -291,9 +326,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "Tu 2:00PM - 4:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-05-24"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "740",
         "section": "1",
         "component": "SEM",
@@ -305,9 +342,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "Th 6:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "743",
         "section": "1",
         "component": "SEM",
@@ -319,7 +358,8 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "We 6:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "LAW",
@@ -330,6 +370,7 @@
     "results": 2,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "905-0",
         "section": "1-ON",
         "component": "LEC",
@@ -349,9 +390,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "Mo 7:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-25"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "910-0",
         "section": "1-ON",
         "component": "LEC",
@@ -379,7 +422,8 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "We 7:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-01"
       }
     ],
     "school": "LAW",
@@ -390,6 +434,7 @@
     "results": 7,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "546",
         "section": "1",
         "component": "LEC",
@@ -401,9 +446,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "TuTh 7:00PM - 8:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "623S",
         "section": "1",
         "component": "SEM",
@@ -415,9 +462,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "Sa 9:00AM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-06"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "712",
         "section": "1",
         "component": "SEM",
@@ -429,9 +478,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "TuWeThFr 10:00AM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-05-01"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "712",
         "section": "2",
         "component": "SEM",
@@ -443,9 +494,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "Sa 10:00AM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-06"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "721",
         "section": "1",
         "component": "SEM",
@@ -457,18 +510,22 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "Tu 6:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-05-24"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "912-0",
         "section": "1-ON",
         "component": "SEM",
         "courseTitle": "Ethics",
         "topic": "",
         "courseNumber": "41276",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-05-01"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "930-0",
         "section": "1-ON",
         "component": "LEC",
@@ -492,7 +549,8 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "Tu 7:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-23"
       }
     ],
     "school": "LAW",
@@ -503,6 +561,7 @@
     "results": 4,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "604T",
         "section": "1",
         "component": "ADV",
@@ -514,9 +573,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "MoTu 12:00PM - 2:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-05-01"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "670S",
         "section": "1",
         "component": "ADV",
@@ -532,9 +593,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "SaSu 9:30AM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-08"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "729",
         "section": "1",
         "component": "CLN",
@@ -546,9 +609,11 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "Tu 10:00AM - 11:00AM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "730",
         "section": "1",
         "component": "CLN",
@@ -560,7 +625,8 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "Tu 4:00PM - 5:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "LAW",
@@ -571,6 +637,7 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "975-0",
         "section": "1-ON",
         "component": "SEM",
@@ -590,7 +657,8 @@
             "ROOM": "DISTANCE COURSE",
             "MEETING_TIME": "Th 7:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-09"
       }
     ],
     "school": "LAW",
@@ -601,6 +669,7 @@
     "results": 9,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "300-0",
         "section": "21",
         "component": "LEC",
@@ -612,18 +681,22 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 9:00AM - 1:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "402-6",
         "section": "40",
         "component": "LEC",
         "courseTitle": "Financial Accounting",
         "topic": "",
         "courseNumber": "41180",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "409-0",
         "section": "20",
         "component": "PRA",
@@ -635,61 +708,74 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "409-1",
         "section": "20",
         "component": "PRA",
         "courseTitle": "Immersion Quarter Individual Project",
         "topic": "",
         "courseNumber": "41177",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "416-6",
         "section": "40",
         "component": "LEC",
         "courseTitle": "Brand Equity",
         "topic": "",
         "courseNumber": "41183",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "424-6",
         "section": "40",
         "component": "LEC",
         "courseTitle": "Shopper Marketing",
         "topic": "",
         "courseNumber": "41186",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "444-6",
         "section": "40",
         "component": "LEC",
         "courseTitle": "Crisis Communications",
         "topic": "",
         "courseNumber": "41184",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "498-6",
         "section": "40",
         "component": "LEC",
         "courseTitle": "Practicum",
         "topic": "Digital Marketing, Media, & Innovation",
         "courseNumber": "41185",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "498-6",
         "section": "41",
         "component": "LEC",
         "courseTitle": "Practicum",
         "topic": "Digital Analytics",
         "courseNumber": "42418",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "JOUR",
@@ -700,6 +786,7 @@
     "results": 22,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "343-0",
         "section": "20",
         "component": "LEC",
@@ -711,18 +798,22 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuTh 9:00AM - 10:20AM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "388-0",
         "section": "20",
         "component": "PRA",
         "courseTitle": "Internship",
         "topic": "",
         "courseNumber": "40568",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "390-0",
         "section": "20",
         "component": "LEC",
@@ -734,9 +825,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Fr 12:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "400-1",
         "section": "20",
         "component": "LAB",
@@ -752,9 +845,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Th 9:00AM - 4:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "400-1",
         "section": "21",
         "component": "LAB",
@@ -770,9 +865,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Th 9:00AM - 4:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "400-3",
         "section": "20",
         "component": "LEC",
@@ -784,9 +881,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 1:00PM - 2:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "401-0",
         "section": "20",
         "component": "LEC",
@@ -798,36 +897,44 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 9:00AM - 10:20AM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "440-0",
         "section": "20",
         "component": "RSC",
         "courseTitle": "Global Journalism Research",
         "topic": "",
         "courseNumber": "40575",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "440-1",
         "section": "20",
         "component": "PRA",
         "courseTitle": "Global Journalism Residency",
         "topic": "",
         "courseNumber": "40576",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "442-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Leadership Strategies",
         "topic": "",
         "courseNumber": "42142",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "471-0",
         "section": "20",
         "component": "LAB",
@@ -839,9 +946,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Tu 9:00AM - 11:50AM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "474-0",
         "section": "21",
         "component": "LEC",
@@ -853,9 +962,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Fr 10:00AM - 12:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "480-0",
         "section": "20",
         "component": "LAB",
@@ -867,9 +978,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "We 6:00PM - 8:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "480-0",
         "section": "21",
         "component": "LAB",
@@ -881,9 +994,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Tu 6:00PM - 8:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "480-0",
         "section": "22",
         "component": "LAB",
@@ -895,9 +1010,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Th 2:00PM - 4:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "480-0",
         "section": "23",
         "component": "LAB",
@@ -909,9 +1026,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Tu 2:00PM - 4:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "480-0",
         "section": "24",
         "component": "LAB",
@@ -923,9 +1042,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "We 9:00AM - 11:50AM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "490-0",
         "section": "23",
         "component": "LAB",
@@ -937,9 +1058,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 2:00PM - 3:20PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "490-0",
         "section": "24",
         "component": "LAB",
@@ -951,34 +1074,41 @@
             "ROOM": "Washington, DC Bureau",
             "MEETING_TIME": "TuWeThFr 9:00AM - 5:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "498-0",
         "section": "20",
         "component": "PRA",
         "courseTitle": "Practicum",
         "topic": "",
         "courseNumber": "40601",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "498-0",
         "section": "21",
         "component": "PRA",
         "courseTitle": "Practicum",
         "topic": "",
         "courseNumber": "42647",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "499-2",
         "section": "20",
         "component": "PRA",
         "courseTitle": "Internship",
         "topic": "",
         "courseNumber": "40577",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "JOUR",
@@ -989,6 +1119,7 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "242-0",
         "section": "70",
         "component": "LEC",
@@ -1000,7 +1131,8 @@
             "ROOM": "Northwestern Qatar Room 2-257",
             "MEETING_TIME": "MoTuWeSu 1:00AM - 4:00AM"
           }
-        ]
+        ],
+        "startDate": "2020-05-17"
       }
     ],
     "school": "DOHA",
@@ -1011,6 +1143,7 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "390-0",
         "section": "70",
         "component": "LEC",
@@ -1022,7 +1155,8 @@
             "ROOM": "Northwestern Qatar Room 2-255",
             "MEETING_TIME": "MoTuWeSu 4:30AM - 7:30AM"
           }
-        ]
+        ],
+        "startDate": "2020-05-17"
       }
     ],
     "school": "DOHA",
@@ -1033,6 +1167,7 @@
     "results": 4,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "298-0",
         "section": "70",
         "component": "LEC",
@@ -1044,9 +1179,11 @@
             "ROOM": "Northwestern Qatar Room 3-203",
             "MEETING_TIME": "MoTuWeSu 1:00AM - 4:00AM"
           }
-        ]
+        ],
+        "startDate": "2020-05-17"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "360-0",
         "section": "70",
         "component": "LEC",
@@ -1058,9 +1195,11 @@
             "ROOM": "Northwestern Qatar Room 3-216",
             "MEETING_TIME": "MoTuWeSu 1:00AM - 4:00AM"
           }
-        ]
+        ],
+        "startDate": "2020-05-17"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "398-0",
         "section": "70",
         "component": "LEC",
@@ -1072,9 +1211,11 @@
             "ROOM": "Northwestern Qatar Room 2-257",
             "MEETING_TIME": "MoTuWeSu 4:30AM - 7:30AM"
           }
-        ]
+        ],
+        "startDate": "2020-05-17"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "398-0",
         "section": "71",
         "component": "LEC",
@@ -1086,7 +1227,8 @@
             "ROOM": "Northwestern Qatar Room 2-255",
             "MEETING_TIME": "MoTuWeSu 4:30AM - 7:30AM"
           }
-        ]
+        ],
+        "startDate": "2020-05-17"
       }
     ],
     "school": "DOHA",
@@ -1097,6 +1239,7 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "242-0",
         "section": "70",
         "component": "LEC",
@@ -1108,7 +1251,8 @@
             "ROOM": "Northwestern Qatar Room 3-203",
             "MEETING_TIME": "MoTuWeSu 4:30AM - 7:30AM"
           }
-        ]
+        ],
+        "startDate": "2020-05-17"
       }
     ],
     "school": "DOHA",
@@ -1119,6 +1263,7 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "387-0",
         "section": "70",
         "component": "LEC",
@@ -1130,7 +1275,8 @@
             "ROOM": "Northwestern Qatar Room 2-255",
             "MEETING_TIME": "MoTuWeSu 4:30AM - 7:30AM"
           }
-        ]
+        ],
+        "startDate": "2020-05-17"
       }
     ],
     "school": "DOHA",
@@ -1141,6 +1287,7 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "306-0",
         "section": "70",
         "component": "LEC",
@@ -1152,7 +1299,8 @@
             "ROOM": "Northwestern Qatar Room 1-225",
             "MEETING_TIME": "MoTuWeSu 1:00AM - 4:00AM"
           }
-        ]
+        ],
+        "startDate": "2020-05-17"
       }
     ],
     "school": "DOHA",
@@ -1163,6 +1311,7 @@
     "results": 3,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "340-0",
         "section": "21",
         "component": "FLD",
@@ -1174,25 +1323,30 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Tu 7:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "340-0",
         "section": "40",
         "component": "FLD",
         "courseTitle": "Internship",
         "topic": "Extra Credit",
         "courseNumber": "40830",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "410-0",
         "section": "20",
         "component": "FLD",
         "courseTitle": "MFA Internship",
         "topic": "",
         "courseNumber": "40831",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SPCH",
@@ -1203,6 +1357,7 @@
     "results": 7,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "102-0",
         "section": "20",
         "component": "LEC",
@@ -1214,27 +1369,33 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 9:30AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "205-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Theories of Persuasion",
         "topic": "",
         "courseNumber": "40378",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "246-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Intro to Health Communication",
         "topic": "",
         "courseNumber": "42415",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "341-0",
         "section": "20",
         "component": "LEC",
@@ -1246,9 +1407,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 2:00PM - 4:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "352-0",
         "section": "20",
         "component": "LEC",
@@ -1260,9 +1423,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 9:30AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "353-0",
         "section": "20",
         "component": "LEC",
@@ -1274,9 +1439,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Mo 3:00PM - 5:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "364-0",
         "section": "20",
         "component": "LEC",
@@ -1288,7 +1455,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 1:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SPCH",
@@ -1299,24 +1467,29 @@
     "results": 21,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "398-0",
         "section": "1",
         "component": "RSC",
         "courseTitle": "Research Practicum in Communication Sciences and Disorders",
         "topic": "",
         "courseNumber": "40811",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "409-4",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Foundations of Clinical and Professional Practice",
         "topic": "",
         "courseNumber": "40819",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "409-8",
         "section": "1",
         "component": "LEC",
@@ -1328,27 +1501,33 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 12:30PM - 1:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "415-4",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Clinical Practicum in Audiology",
         "topic": "",
         "courseNumber": "40800",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "415-8",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Clinical Practicum in Audiology",
         "topic": "",
         "courseNumber": "40821",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "419-0",
         "section": "1",
         "component": "LEC",
@@ -1360,9 +1539,11 @@
             "ROOM": "Frances Searle Building 2407",
             "MEETING_TIME": "We 1:00PM - 3:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "428-0",
         "section": "1",
         "component": "LEC",
@@ -1374,9 +1555,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "We 5:15PM - 8:45PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "461-0",
         "section": "1",
         "component": "LEC",
@@ -1388,9 +1571,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Tu 6:00PM - 9:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "462-0",
         "section": "1",
         "component": "LEC",
@@ -1402,36 +1587,44 @@
             "ROOM": "Online",
             "MEETING_TIME": "Th 6:30PM - 8:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "475-0",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Advanced Clinical Methods 1",
         "topic": "",
         "courseNumber": "40815",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "477-0",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Advanced Clinical Methods 2",
         "topic": "",
         "courseNumber": "40814",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "479-0",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Externship: Clinical Practicum",
         "topic": "",
         "courseNumber": "40799",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "519-0",
         "section": "1",
         "component": "SEM",
@@ -1443,9 +1636,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 2:00PM - 3:20PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "522-0",
         "section": "1",
         "component": "LEC",
@@ -1457,70 +1652,85 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 8:00AM - 9:20AM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "558-6",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Advanced Scientific Clinical Decision Making I",
         "topic": "",
         "courseNumber": "41769",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "565-6",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Policy in Health and Education",
         "topic": "",
         "courseNumber": "41060",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "566-6",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Digital Literacies for the Speech Language Pathologist",
         "topic": "",
         "courseNumber": "40817",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "570-3",
         "section": "1",
         "component": "RSC",
         "courseTitle": "Seminar: Capstone Project",
         "topic": "",
         "courseNumber": "40809",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "573-6B",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Professional Integration and Reflective Practice II",
         "topic": "",
         "courseNumber": "40823",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "574-6",
         "section": "1",
         "component": "RSC",
         "courseTitle": "Culminating Project Design",
         "topic": "",
         "courseNumber": "40822",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "580-4",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Clinical Externship",
         "topic": "",
         "courseNumber": "40810",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SPCH",
@@ -1531,6 +1741,7 @@
     "results": 6,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "469-0",
         "section": "2",
         "component": "LEC",
@@ -1542,9 +1753,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Sa 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "469-0",
         "section": "3",
         "component": "LEC",
@@ -1556,18 +1769,22 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Sa 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "469-0",
         "section": "4",
         "component": "LEC",
         "courseTitle": "Special Topics in Health Communication 1",
         "topic": "Information Design",
         "courseNumber": "40254",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "469-0",
         "section": "5",
         "component": "LEC",
@@ -1579,9 +1796,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Sa 2:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "469-0",
         "section": "6",
         "component": "LEC",
@@ -1593,9 +1812,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Sa 2:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "479-0",
         "section": "4",
         "component": "LEC",
@@ -1607,7 +1828,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Sa 1:00PM - 2:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SPCH",
@@ -1618,6 +1840,7 @@
     "results": 9,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "482-0",
         "section": "1",
         "component": "LEC",
@@ -1629,54 +1852,66 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Sa 2:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "482-0",
         "section": "2",
         "component": "LEC",
         "courseTitle": "Public Persuasion",
         "topic": "",
         "courseNumber": "40791",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "494-6D",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Communication Skills Practicum",
         "topic": "",
         "courseNumber": "40784",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "496-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Leadership & Decision Making",
         "topic": "",
         "courseNumber": "40780",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "523-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Capstone",
         "topic": "",
         "courseNumber": "40786",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "523-6",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Capstone",
         "topic": "",
         "courseNumber": "40783",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "530-0",
         "section": "1",
         "component": "LEC",
@@ -1688,9 +1923,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Sa 9:30AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "538-0",
         "section": "1",
         "component": "LEC",
@@ -1702,9 +1939,11 @@
             "ROOM": "Frances Searle Building 2370",
             "MEETING_TIME": "Sa 2:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "539-0",
         "section": "1",
         "component": "LEC",
@@ -1716,7 +1955,8 @@
             "ROOM": "Frances Searle Building 1483",
             "MEETING_TIME": "Sa 2:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SPCH",
@@ -1727,33 +1967,40 @@
     "results": 7,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "497-0",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Summer Internship Seminar",
         "topic": "",
         "courseNumber": "41047",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "498-0",
         "section": "20",
         "component": "THE",
         "courseTitle": "MSLCE Thesis",
         "topic": "",
         "courseNumber": "41049",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "498-0",
         "section": "21",
         "component": "THE",
         "courseTitle": "MSLCE Thesis",
         "topic": "",
         "courseNumber": "42617",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "529-0",
         "section": "1",
         "component": "LEC",
@@ -1765,34 +2012,41 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Mo 5:00PM - 6:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "529-0",
         "section": "2",
         "component": "LEC",
         "courseTitle": "Special Topics in Creative Enterprises",
         "topic": "Capstone",
         "courseNumber": "42164",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "598-0",
         "section": "1",
         "component": "IND",
         "courseTitle": "Independent Study",
         "topic": "",
         "courseNumber": "42165",
-        "classMeetingInfo": null
+        "classMeetingInfo": null,
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "599-0",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Internship Experience",
         "topic": "",
         "courseNumber": "41048",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SPCH",
@@ -1803,6 +2057,7 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "203-0",
         "section": "20",
         "component": "LEC",
@@ -1814,7 +2069,8 @@
             "ROOM": "AM Swift Krause Studio 103",
             "MEETING_TIME": "MoWeFr 9:00AM - 12:20PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SPCH",
@@ -1825,6 +2081,7 @@
     "results": 11,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "220-0",
         "section": "26",
         "component": "LEC",
@@ -1836,9 +2093,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "We 1:00PM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "260-0",
         "section": "26",
         "component": "SEM",
@@ -1850,9 +2109,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "322-0",
         "section": "26",
         "component": "LEC",
@@ -1864,9 +2125,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Th 6:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "360-0",
         "section": "26",
         "component": "SEM",
@@ -1878,9 +2141,11 @@
             "ROOM": "Annie May Swift Hall 109",
             "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "360-0",
         "section": "36",
         "component": "SEM",
@@ -1892,9 +2157,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 3:00PM - 5:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "376-0",
         "section": "22",
         "component": "LEC",
@@ -1906,9 +2173,11 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoTuWeTh 6:00PM - 9:45PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "378-0",
         "section": "25",
         "component": "LEC",
@@ -1920,9 +2189,11 @@
             "ROOM": "Fisk Hall B-1",
             "MEETING_TIME": "MoWe 6:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "398-0",
         "section": "26",
         "component": "LEC",
@@ -1934,9 +2205,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "We 6:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "398-0",
         "section": "36",
         "component": "LEC",
@@ -1948,9 +2221,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Th 2:00PM - 4:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "398-0",
         "section": "56",
         "component": "LEC",
@@ -1962,16 +2237,19 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "490-1",
         "section": "28",
         "component": "PRA",
         "courseTitle": "Summer Internship Seminar",
         "topic": "",
         "courseNumber": "41030",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SPCH",
@@ -1982,22 +2260,26 @@
     "results": 2,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "490-0",
         "section": "20",
         "component": "SEM",
         "courseTitle": "Zero Credit Internship",
         "topic": "",
         "courseNumber": "41655",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "580-0",
         "section": "20",
         "component": "SEM",
         "courseTitle": "Career Development in Sound",
         "topic": "",
         "courseNumber": "41658",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SPCH",
@@ -2008,6 +2290,7 @@
     "results": 5,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "171-0",
         "section": "20",
         "component": "LEC",
@@ -2019,9 +2302,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuTh 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "256-0",
         "section": "20",
         "component": "LEC",
@@ -2033,9 +2318,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuTh 1:00PM - 3:20PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "281-0",
         "section": "20",
         "component": "LEC",
@@ -2047,9 +2334,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuTh 10:00AM - 12:20PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "332-1",
         "section": "20",
         "component": "LEC",
@@ -2061,9 +2350,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 1:00PM - 3:20PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "350-0",
         "section": "20",
         "component": "LEC",
@@ -2079,7 +2370,8 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Fr 10:00AM - 10:50AM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SPCH",
@@ -2090,6 +2382,7 @@
     "results": 2,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "309-0",
         "section": "20",
         "component": "LEC",
@@ -2101,9 +2394,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Th 2:00PM - 4:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "351-0",
         "section": "20",
         "component": "LEC",
@@ -2115,7 +2410,8 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 5:00PM - 6:20PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SESP",
@@ -2126,6 +2422,7 @@
     "results": 3,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "306-0",
         "section": "20",
         "component": "LEC",
@@ -2137,9 +2434,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Tu 10:00AM - 12:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "309-0",
         "section": "20",
         "component": "LEC",
@@ -2151,9 +2450,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Th 2:00PM - 4:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "313-0",
         "section": "20",
         "component": "LEC",
@@ -2165,7 +2466,8 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 11:00AM - 12:20PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SESP",
@@ -2176,6 +2478,7 @@
     "results": 12,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "402-0",
         "section": "26",
         "component": "LEC",
@@ -2187,9 +2490,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "405-0",
         "section": "26",
         "component": "LEC",
@@ -2201,9 +2506,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "410-0",
         "section": "26",
         "component": "LEC",
@@ -2215,9 +2522,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 12:30PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "414-0",
         "section": "26",
         "component": "LEC",
@@ -2229,9 +2538,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 12:30PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "422-0",
         "section": "26",
         "component": "LEC",
@@ -2243,9 +2554,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 3:30PM - 6:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "422-0",
         "section": "27",
         "component": "LEC",
@@ -2257,9 +2570,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 3:30PM - 6:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "427-0",
         "section": "26",
         "component": "LEC",
@@ -2271,9 +2586,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuTh 3:30PM - 6:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "431-0",
         "section": "26",
         "component": "LEC",
@@ -2285,9 +2602,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 12:30PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "451-0",
         "section": "22",
         "component": "LEC",
@@ -2299,9 +2618,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 9:30AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "451-0",
         "section": "25",
         "component": "LEC",
@@ -2313,9 +2634,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 1:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "462-0",
         "section": "26",
         "component": "LEC",
@@ -2327,9 +2650,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 3:30PM - 6:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "463-0",
         "section": "26",
         "component": "LEC",
@@ -2341,7 +2666,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 3:30PM - 6:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SESP",
@@ -2352,6 +2678,7 @@
     "results": 4,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "460-0",
         "section": "21",
         "component": "LEC",
@@ -2367,9 +2694,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Sa 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "473-0",
         "section": "20",
         "component": "LEC",
@@ -2381,9 +2710,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Th 6:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "479-0",
         "section": "21",
         "component": "SEM",
@@ -2399,16 +2730,19 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Sa 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "485-0",
         "section": "20",
         "component": "PRA",
         "courseTitle": "Internship in Higher Education",
         "topic": "",
         "courseNumber": "40961",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SESP",
@@ -2419,76 +2753,92 @@
     "results": 8,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "421-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Advancing Learning & Performance Solutions",
         "topic": "",
         "courseNumber": "40855",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "440-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Executing Strategic Change",
         "topic": "",
         "courseNumber": "40853",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "441-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Designing Sustainable Strategic Change",
         "topic": "",
         "courseNumber": "40854",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "451-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Building Transformational Client Relationships",
         "topic": "",
         "courseNumber": "40852",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "456-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Designing Solutions for Organizational Effectiveness",
         "topic": "",
         "courseNumber": "42148",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "462-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Capstone II: Design & Measurement",
         "topic": "",
         "courseNumber": "40856",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "495-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "MSLOC Internship",
         "topic": "",
         "courseNumber": "40857",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "499-1",
         "section": "20",
         "component": "IND",
         "courseTitle": "Independent Study",
         "topic": "",
         "courseNumber": "40858",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SESP",
@@ -2499,15 +2849,18 @@
     "results": 8,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "114-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Summer Internship",
         "topic": "",
         "courseNumber": "41679",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-15"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "201-0",
         "section": "20",
         "component": "LEC",
@@ -2519,9 +2872,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "351-0",
         "section": "20",
         "component": "LEC",
@@ -2533,9 +2888,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 2:00PM - 3:20PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "351-0",
         "section": "21",
         "component": "LEC",
@@ -2547,9 +2904,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWeFr 1:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "382-0",
         "section": "26",
         "component": "LEC",
@@ -2561,9 +2920,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Fr 10:00AM - 12:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "386-0",
         "section": "27",
         "component": "LEC",
@@ -2575,9 +2936,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Fr 10:00AM - 12:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "387-0",
         "section": "27",
         "component": "LEC",
@@ -2589,9 +2952,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Fr 10:00AM - 12:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "388-0",
         "section": "27",
         "component": "LEC",
@@ -2603,7 +2968,8 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Fr 10:00AM - 12:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SESP",
@@ -2614,6 +2980,7 @@
     "results": 2,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "351-0",
         "section": "20",
         "component": "LEC",
@@ -2625,9 +2992,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Fr 10:00AM - 12:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "351-0",
         "section": "21",
         "component": "LEC",
@@ -2639,7 +3008,8 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SESP",
@@ -2650,6 +3020,7 @@
     "results": 4,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "302-0",
         "section": "20",
         "component": "LEC",
@@ -2661,9 +3032,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "310-0",
         "section": "20",
         "component": "LEC",
@@ -2675,9 +3048,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 12:30PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "322-0",
         "section": "20",
         "component": "LEC",
@@ -2689,9 +3064,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWe 3:30PM - 6:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "327-0",
         "section": "20",
         "component": "LEC",
@@ -2703,7 +3080,8 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuTh 3:30PM - 6:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "SESP",
@@ -2714,6 +3092,7 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "390-0",
         "section": "20",
         "component": "LEC",
@@ -2725,7 +3104,8 @@
             "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
             "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -2736,6 +3116,7 @@
     "results": 3,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "236-0",
         "section": "20",
         "component": "LEC",
@@ -2747,9 +3128,11 @@
             "ROOM": "University Hall 412",
             "MEETING_TIME": "MoTuThFr 2:00PM - 4:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "380-0",
         "section": "21",
         "component": "LEC",
@@ -2761,9 +3144,11 @@
             "ROOM": "University Hall 312",
             "MEETING_TIME": "MoTuWeThFr 10:00AM - 3:45PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "380-0",
         "section": "22",
         "component": "LEC",
@@ -2775,7 +3160,8 @@
             "ROOM": "University Hall 418",
             "MEETING_TIME": "MoWeFr 9:00AM - 1:40PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -2786,6 +3172,7 @@
     "results": 9,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "105-0",
         "section": "26",
         "component": "LEC",
@@ -2797,9 +3184,11 @@
             "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
             "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "211-0",
         "section": "26",
         "component": "LEC",
@@ -2811,9 +3200,11 @@
             "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
             "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "213-0",
         "section": "26",
         "component": "LEC",
@@ -2825,9 +3216,11 @@
             "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
             "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "214-0",
         "section": "26",
         "component": "LEC",
@@ -2839,9 +3232,11 @@
             "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
             "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "215-0",
         "section": "26",
         "component": "LEC",
@@ -2853,9 +3248,11 @@
             "ROOM": "ANTHRO Sem Rm B07 - 1810 Hinmn",
             "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "221-0",
         "section": "26",
         "component": "LEC",
@@ -2867,9 +3264,11 @@
             "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
             "MEETING_TIME": "MoWeFr 4:00PM - 6:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-20"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "315-0",
         "section": "26",
         "component": "LEC",
@@ -2881,9 +3280,11 @@
             "ROOM": "ANTHRO Sem Rm B07 - 1810 Hinmn",
             "MEETING_TIME": "TuTh 2:00PM - 4:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "341-0",
         "section": "20",
         "component": "SEM",
@@ -2895,9 +3296,11 @@
             "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
             "MEETING_TIME": "TuTh 5:00PM - 8:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "390-0",
         "section": "20",
         "component": "SEM",
@@ -2909,7 +3312,8 @@
             "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
             "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -2920,6 +3324,7 @@
     "results": 3,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "111-1",
         "section": "1",
         "component": "LEC",
@@ -2931,9 +3336,11 @@
             "ROOM": "Kresge Centennial Hall 2-319",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "111-2",
         "section": "1",
         "component": "LEC",
@@ -2945,9 +3352,11 @@
             "ROOM": "Kresge Centennial Hall 2-319",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "111-3",
         "section": "1",
         "component": "LEC",
@@ -2959,7 +3368,8 @@
             "ROOM": "Kresge Centennial Hall 2-319",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       }
     ],
     "school": "WCAS",
@@ -2970,6 +3380,7 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "250-0",
         "section": "24",
         "component": "LEC",
@@ -2981,7 +3392,8 @@
             "ROOM": "Kresge 1314 Photo Wet Lab",
             "MEETING_TIME": "TuTh 9:30AM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -2992,6 +3404,7 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "120-0",
         "section": "26",
         "component": "LEC",
@@ -3003,7 +3416,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -3014,15 +3428,18 @@
     "results": 10,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "100-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Introduction to Biological Sciences at Northwestern",
         "topic": "",
         "courseNumber": "40772",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "217-0",
         "section": "20",
         "component": "LEC",
@@ -3034,9 +3451,11 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoWeFr 9:30AM - 11:30AM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "219-0",
         "section": "20",
         "component": "LEC",
@@ -3048,9 +3467,11 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoWeFr 9:00AM - 11:30AM"
           }
-        ]
+        ],
+        "startDate": "2020-07-20"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "220-0",
         "section": "20",
         "component": "LAB",
@@ -3062,9 +3483,11 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "221-0",
         "section": "20",
         "component": "LEC",
@@ -3076,9 +3499,11 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-06"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "222-0",
         "section": "20",
         "component": "LEC",
@@ -3090,9 +3515,11 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-20"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "301-0",
         "section": "1",
         "component": "LEC",
@@ -3104,34 +3531,41 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoWeFr 11:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "398-0",
         "section": "01",
         "component": "IND",
         "courseTitle": "Tutorial in Biology",
         "topic": "",
         "courseNumber": "40758",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "398-0",
         "section": "2",
         "component": "IND",
         "courseTitle": "Tutorial in Biology",
         "topic": "",
         "courseNumber": "40759",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "398-0",
         "section": "3",
         "component": "IND",
         "courseTitle": "Tutorial in Biology",
         "topic": "",
         "courseNumber": "40760",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -3142,6 +3576,7 @@
     "results": 17,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "388-0",
         "section": "10",
         "component": "SEM",
@@ -3153,9 +3588,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Mo 7:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "392-0",
         "section": "1",
         "component": "SEM",
@@ -3167,9 +3604,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Th 6:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "393-1",
         "section": "10",
         "component": "SEM",
@@ -3181,9 +3620,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Su 6:00PM - 7:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "393-1",
         "section": "11",
         "component": "SEM",
@@ -3195,9 +3636,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Su 6:00PM - 7:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "393-2",
         "section": "10",
         "component": "SEM",
@@ -3209,9 +3652,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Su 7:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "393-2",
         "section": "11",
         "component": "SEM",
@@ -3223,9 +3668,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Su 7:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "394-1",
         "section": "10",
         "component": "SEM",
@@ -3237,9 +3684,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Mo 6:00PM - 7:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "394-2",
         "section": "10",
         "component": "SEM",
@@ -3251,9 +3700,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Mo 7:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "395-1",
         "section": "10",
         "component": "SEM",
@@ -3265,9 +3716,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Su 6:00PM - 7:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "395-1",
         "section": "11",
         "component": "SEM",
@@ -3279,9 +3732,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Tu 6:00PM - 7:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "395-1",
         "section": "12",
         "component": "SEM",
@@ -3293,9 +3748,11 @@
             "ROOM": "Online",
             "MEETING_TIME": "Mo 6:00PM - 7:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "395-2",
         "section": "10",
         "component": "SEM",
@@ -3307,9 +3764,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Su 7:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "395-2",
         "section": "11",
         "component": "SEM",
@@ -3321,9 +3780,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Tu 7:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "395-2",
         "section": "12",
         "component": "SEM",
@@ -3335,18 +3796,22 @@
             "ROOM": "Online",
             "MEETING_TIME": "Mo 7:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "397-0",
         "section": "28",
         "component": "SEM",
         "courseTitle": "Field Studies in Civic Engagement",
         "topic": "",
         "courseNumber": "40065",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "398-0",
         "section": "10",
         "component": "SEM",
@@ -3358,9 +3823,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "We 6:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "495-0",
         "section": "1",
         "component": "SEM",
@@ -3372,7 +3839,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "We 3:00PM - 6:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -3383,6 +3851,7 @@
     "results": 13,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "100-0",
         "section": "20",
         "component": "LEC",
@@ -3394,9 +3863,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "100-BR",
         "section": "20",
         "component": "LEC",
@@ -3412,9 +3883,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 1:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "110-0",
         "section": "01",
         "component": "LEC",
@@ -3426,9 +3899,11 @@
             "ROOM": "Tech Institute Lecture Room 3",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "131-0",
         "section": "01",
         "component": "LEC",
@@ -3440,9 +3915,11 @@
             "ROOM": "Tech Institute Lecture Room 3",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "132-0",
         "section": "01",
         "component": "LEC",
@@ -3454,9 +3931,11 @@
             "ROOM": "Tech Institute Lecture Room 3",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "141-0",
         "section": "33",
         "component": "LAB",
@@ -3468,9 +3947,11 @@
             "ROOM": "Technological Institute HG10",
             "MEETING_TIME": "MoWe 1:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "142-0",
         "section": "33",
         "component": "LAB",
@@ -3482,9 +3963,11 @@
             "ROOM": "Technological Institute HG10",
             "MEETING_TIME": "MoWe 1:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "199-BR",
         "section": "20",
         "component": "LEC",
@@ -3496,9 +3979,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "210-1",
         "section": "23",
         "component": "LEC",
@@ -3514,9 +3999,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWeFr 1:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "210-2",
         "section": "23",
         "component": "LEC",
@@ -3528,9 +4015,11 @@
             "ROOM": "Tech Institute Lecture Room 2",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "210-3",
         "section": "23",
         "component": "LEC",
@@ -3542,9 +4031,11 @@
             "ROOM": "Tech Institute Lecture Room 2",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "230-2",
         "section": "33",
         "component": "LAB",
@@ -3556,9 +4047,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWeFr 1:00PM - 5:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "230-3",
         "section": "33",
         "component": "LAB",
@@ -3570,7 +4063,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWeFr 1:00PM - 5:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       }
     ],
     "school": "WCAS",
@@ -3581,6 +4075,7 @@
     "results": 3,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "111-1",
         "section": "20",
         "component": "LEC",
@@ -3592,9 +4087,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "111-2",
         "section": "20",
         "component": "LEC",
@@ -3606,9 +4103,11 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoTuWeThFr 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "111-3",
         "section": "20",
         "component": "LEC",
@@ -3620,7 +4119,8 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoTuWeThFr 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       }
     ],
     "school": "WCAS",
@@ -3631,6 +4131,7 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "205-0",
         "section": "20",
         "component": "LEC",
@@ -3642,7 +4143,8 @@
             "ROOM": "Kresge 5531 Comp Lit. Sem. Rm.",
             "MEETING_TIME": "MoWe 2:00PM - 4:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -3653,6 +4155,7 @@
     "results": 9,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "100-BR",
         "section": "20",
         "component": "LEC",
@@ -3664,9 +4167,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "201-0",
         "section": "25",
         "component": "LEC",
@@ -3678,9 +4183,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWeFr 9:30AM - 11:20AM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "202-0",
         "section": "45",
         "component": "LEC",
@@ -3692,9 +4199,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuWeTh 1:00PM - 2:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "310-1",
         "section": "25",
         "component": "LEC",
@@ -3706,9 +4215,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuWeTh 3:00PM - 4:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "310-2",
         "section": "25",
         "component": "LEC",
@@ -3720,9 +4231,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuWeTh 9:30AM - 11:20AM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "311-0",
         "section": "25",
         "component": "LEC",
@@ -3734,9 +4247,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoWeFr 3:00PM - 4:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "349-0",
         "section": "25",
         "component": "LEC",
@@ -3748,9 +4263,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuWeTh 11:00AM - 12:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "361-0",
         "section": "25",
         "component": "LEC",
@@ -3762,16 +4279,19 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoFr 9:30AM - 12:20PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "519-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Responsible Conduct of Research Training",
         "topic": "",
         "courseNumber": "40370",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -3782,6 +4302,7 @@
     "results": 13,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "100-SW",
         "section": "20",
         "component": "SEM",
@@ -3793,9 +4314,11 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoTuWeThFr 11:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-17"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "100-SW",
         "section": "21",
         "component": "SEM",
@@ -3807,9 +4330,11 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoTuWeThFr 11:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-17"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "100-SW",
         "section": "22",
         "component": "SEM",
@@ -3821,9 +4346,11 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoTuWeThFr 11:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-17"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "100-SW",
         "section": "23",
         "component": "SEM",
@@ -3835,9 +4362,11 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoTuWeThFr 11:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-17"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "105-0",
         "section": "20",
         "component": "LEC",
@@ -3849,9 +4378,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "206-0",
         "section": "21",
         "component": "LEC",
@@ -3863,9 +4394,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWeFr 10:00AM - 11:50AM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "282-0",
         "section": "1",
         "component": "SEM",
@@ -3877,9 +4410,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "282-0",
         "section": "2",
         "component": "SEM",
@@ -3891,9 +4426,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "307-0",
         "section": "20",
         "component": "LEC",
@@ -3905,9 +4442,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 6:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "332-0",
         "section": "20",
         "component": "LEC",
@@ -3919,9 +4458,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 6:30PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "386-0",
         "section": "26",
         "component": "LEC",
@@ -3933,9 +4474,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "386-0",
         "section": "27",
         "component": "LEC",
@@ -3947,16 +4490,19 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "491-0",
         "section": "1",
         "component": "PRA",
         "courseTitle": "Editorial Practicum",
         "topic": "",
         "courseNumber": "40612",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -3967,13 +4513,15 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "390-0",
         "section": "01",
         "component": "LEC",
         "courseTitle": "Special Topics in Environmental Sciences",
         "topic": "GIS Level 1 (Geographic Information Systems 1)",
         "courseNumber": "42380",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-07-20"
       }
     ],
     "school": "WCAS",
@@ -3984,6 +4532,7 @@
     "results": 7,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "111-1",
         "section": "20",
         "component": "LEC",
@@ -3995,9 +4544,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "111-2",
         "section": "20",
         "component": "LEC",
@@ -4009,9 +4560,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "111-3",
         "section": "20",
         "component": "LEC",
@@ -4023,9 +4576,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "121-1",
         "section": "20",
         "component": "LEC",
@@ -4037,9 +4592,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "121-2",
         "section": "20",
         "component": "LEC",
@@ -4051,9 +4608,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "121-3",
         "section": "20",
         "component": "LEC",
@@ -4065,16 +4624,19 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "596-0",
         "section": "20",
         "component": "THE",
         "courseTitle": "PhD Thesis Tutorial",
         "topic": "",
         "courseNumber": "40648",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -4085,6 +4647,7 @@
     "results": 2,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "390-0",
         "section": "1",
         "component": "SEM",
@@ -4096,9 +4659,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuTh 3:00PM - 5:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-20"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "390-0",
         "section": "2",
         "component": "SEM",
@@ -4110,7 +4675,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "Mo 6:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -4121,6 +4687,7 @@
     "results": 6,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "101-1",
         "section": "1",
         "component": "LEC",
@@ -4132,9 +4699,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "101-2",
         "section": "1",
         "component": "LEC",
@@ -4146,9 +4715,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "101-3",
         "section": "1",
         "component": "LEC",
@@ -4160,9 +4731,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "102-1",
         "section": "1",
         "component": "LEC",
@@ -4174,9 +4747,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "102-2",
         "section": "1",
         "component": "LEC",
@@ -4188,9 +4763,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "102-3",
         "section": "1",
         "component": "LEC",
@@ -4202,7 +4779,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 1:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       }
     ],
     "school": "WCAS",
@@ -4213,6 +4791,7 @@
     "results": 5,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "321-0",
         "section": "20",
         "component": "LEC",
@@ -4224,9 +4803,11 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "332-0",
         "section": "21",
         "component": "LEC",
@@ -4238,9 +4819,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 10:00AM - 12:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "371-0",
         "section": "20",
         "component": "LEC",
@@ -4252,9 +4835,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "372-0",
         "section": "20",
         "component": "LEC",
@@ -4266,9 +4851,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 1:00PM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "490-0",
         "section": "20",
         "component": "LEC",
@@ -4280,7 +4867,8 @@
             "ROOM": "Online",
             "MEETING_TIME": "MoWe 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -4291,6 +4879,7 @@
     "results": 7,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "200-0",
         "section": "20",
         "component": "LEC",
@@ -4302,18 +4891,22 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 2:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "200-0",
         "section": "22",
         "component": "LEC",
         "courseTitle": "New Introductory Courses in History",
         "topic": "The British Empire",
         "courseNumber": "40538",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "201-1",
         "section": "20",
         "component": "LEC",
@@ -4325,27 +4918,33 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "210-2",
         "section": "20",
         "component": "LEC",
         "courseTitle": "History of the United States, Reconstruction to the Present",
         "topic": "",
         "courseNumber": "42400",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-07-27"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "300-0",
         "section": "22",
         "component": "LEC",
         "courseTitle": "New Lectures in History",
         "topic": "Food in United States History",
         "courseNumber": "40539",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "308-0",
         "section": "20",
         "component": "LEC",
@@ -4357,9 +4956,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "We 4:30PM - 6:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "319-0",
         "section": "20",
         "component": "LEC",
@@ -4371,7 +4972,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 2:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -4382,6 +4984,7 @@
     "results": 2,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "100-1-BR",
         "section": "20",
         "component": "LEC",
@@ -4393,9 +4996,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "100-2-BR",
         "section": "20",
         "component": "LEC",
@@ -4407,7 +5012,8 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -4418,6 +5024,7 @@
     "results": 2,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "421-0",
         "section": "1",
         "component": "LEC",
@@ -4429,9 +5036,11 @@
             "ROOM": "Online",
             "MEETING_TIME": "Tu 10:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "421-0",
         "section": "2",
         "component": "LEC",
@@ -4443,7 +5052,8 @@
             "ROOM": "Online",
             "MEETING_TIME": "Th 10:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -4454,6 +5064,7 @@
     "results": 3,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "101-1",
         "section": "20",
         "component": "LEC",
@@ -4465,9 +5076,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "101-2",
         "section": "20",
         "component": "LEC",
@@ -4479,9 +5092,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "101-3",
         "section": "20",
         "component": "LEC",
@@ -4493,7 +5108,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       }
     ],
     "school": "WCAS",
@@ -4504,6 +5120,7 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "111-1",
         "section": "20",
         "component": "LEC",
@@ -4515,7 +5132,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeTh 4:00PM - 6:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -4526,6 +5144,7 @@
     "results": 3,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "392-0",
         "section": "1",
         "component": "LEC",
@@ -4537,9 +5156,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeTh 1:30PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-06"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "393-0",
         "section": "1",
         "component": "LEC",
@@ -4551,9 +5172,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeTh 1:30PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "393-0",
         "section": "2",
         "component": "LEC",
@@ -4565,7 +5188,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeTh 1:30PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-20"
       }
     ],
     "school": "WCAS",
@@ -4576,13 +5200,15 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "206-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Law and Society",
         "topic": "",
         "courseNumber": "40845",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -4593,6 +5219,7 @@
     "results": 6,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "260-0",
         "section": "20",
         "component": "LEC",
@@ -4604,18 +5231,22 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 2:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "270-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Meaning",
         "topic": "",
         "courseNumber": "42126",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "380-0",
         "section": "20",
         "component": "SEM",
@@ -4627,9 +5258,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 2:30PM - 4:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "480-0",
         "section": "20",
         "component": "SEM",
@@ -4641,25 +5274,30 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 3:30PM - 4:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "482-0",
         "section": "20",
         "component": "LAB",
         "courseTitle": "Individual Speech and Language Instruction for Nonnative Speakers of English",
         "topic": "",
         "courseNumber": "40843",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "483-0",
         "section": "20",
         "component": "LAB",
         "courseTitle": "Supported Online Speech Training for Nonnative Speakers of English",
         "topic": "",
         "courseNumber": "40842",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -4670,6 +5308,7 @@
     "results": 9,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "100-BR",
         "section": "21",
         "component": "LEC",
@@ -4681,9 +5320,11 @@
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "220-1",
         "section": "28",
         "component": "LEC",
@@ -4695,9 +5336,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 1:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "220-2",
         "section": "28",
         "component": "LEC",
@@ -4709,9 +5352,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 1:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "230-1",
         "section": "28",
         "component": "LEC",
@@ -4723,9 +5368,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 3:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "230-2",
         "section": "28",
         "component": "LEC",
@@ -4737,9 +5384,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 3:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "240-0",
         "section": "28",
         "component": "LEC",
@@ -4751,9 +5400,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 10:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "250-0",
         "section": "28",
         "component": "LEC",
@@ -4765,9 +5416,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 1:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "300-0",
         "section": "28",
         "component": "LEC",
@@ -4779,9 +5432,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 10:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "334-0",
         "section": "28",
         "component": "LEC",
@@ -4793,7 +5448,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 1:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -4804,6 +5460,7 @@
     "results": 8,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "110-0",
         "section": "20",
         "component": "LEC",
@@ -4815,9 +5472,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "150-0",
         "section": "20",
         "component": "LEC",
@@ -4829,9 +5488,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWe 10:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "210-1",
         "section": "20",
         "component": "LEC",
@@ -4843,9 +5504,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWeFr 2:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "225-0",
         "section": "20",
         "component": "LEC",
@@ -4857,9 +5520,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWeFr 10:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "260-0",
         "section": "20",
         "component": "LEC",
@@ -4871,18 +5536,22 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 1:00PM - 3:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "261-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Introduction to Political Philosophy",
         "topic": "",
         "courseNumber": "40500",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "262-0",
         "section": "20",
         "component": "LEC",
@@ -4894,9 +5563,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 1:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "269-0",
         "section": "20",
         "component": "LEC",
@@ -4908,7 +5579,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 5:00PM - 8:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       }
     ],
     "school": "WCAS",
@@ -4919,6 +5591,7 @@
     "results": 19,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "130-1",
         "section": "23",
         "component": "LEC",
@@ -4930,9 +5603,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "130-2",
         "section": "23",
         "component": "LEC",
@@ -4944,9 +5619,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "130-3",
         "section": "23",
         "component": "LEC",
@@ -4958,9 +5635,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "135-1",
         "section": "23",
         "component": "LEC",
@@ -4972,9 +5651,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "135-2",
         "section": "23",
         "component": "LEC",
@@ -4986,9 +5667,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "135-3",
         "section": "23",
         "component": "LEC",
@@ -5000,9 +5683,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "136-1",
         "section": "38",
         "component": "LAB",
@@ -5014,9 +5699,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 7:00AM - 9:00AM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "136-1",
         "section": "40",
         "component": "LAB",
@@ -5028,9 +5715,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "136-1",
         "section": "48",
         "component": "LAB",
@@ -5042,9 +5731,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "136-1",
         "section": "58",
         "component": "LAB",
@@ -5056,9 +5747,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "136-2",
         "section": "38",
         "component": "LAB",
@@ -5070,9 +5763,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 7:00AM - 9:00AM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "136-2",
         "section": "40",
         "component": "LAB",
@@ -5084,9 +5779,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "136-2",
         "section": "48",
         "component": "LAB",
@@ -5098,9 +5795,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "136-2",
         "section": "50",
         "component": "LAB",
@@ -5112,9 +5811,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "136-2",
         "section": "58",
         "component": "LAB",
@@ -5126,9 +5827,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "136-3",
         "section": "38",
         "component": "LAB",
@@ -5140,9 +5843,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 7:00AM - 9:00AM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "136-3",
         "section": "40",
         "component": "LAB",
@@ -5154,9 +5859,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "136-3",
         "section": "48",
         "component": "LAB",
@@ -5168,9 +5875,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 1:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "136-3",
         "section": "58",
         "component": "LAB",
@@ -5182,7 +5891,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 3:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       }
     ],
     "school": "WCAS",
@@ -5193,6 +5903,7 @@
     "results": 7,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "220-0",
         "section": "24",
         "component": "LEC",
@@ -5204,9 +5915,11 @@
             "ROOM": "Scott Hall 212",
             "MEETING_TIME": "TuWeTh 2:00PM - 4:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "348-0",
         "section": "20",
         "component": "LEC",
@@ -5218,9 +5931,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeTh 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "369-0",
         "section": "18",
         "component": "LEC",
@@ -5232,18 +5947,22 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "377-0",
         "section": "20",
         "component": "LEC",
         "courseTitle": "Drugs and Politics",
         "topic": "",
         "courseNumber": "40708",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "390-0",
         "section": "20",
         "component": "LEC",
@@ -5255,9 +5974,11 @@
             "ROOM": "Scott Hall 201 Ripton Room",
             "MEETING_TIME": "TuTh 1:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "390-0",
         "section": "21",
         "component": "LEC",
@@ -5269,9 +5990,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 6:00PM - 9:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "490-0",
         "section": "20",
         "component": "SEM",
@@ -5283,7 +6006,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 1:00PM - 3:50PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       }
     ],
     "school": "WCAS",
@@ -5294,6 +6018,7 @@
     "results": 8,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "110-0",
         "section": "25",
         "component": "LEC",
@@ -5305,9 +6030,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 10:30AM - 1:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "201-0",
         "section": "25",
         "component": "LEC",
@@ -5319,9 +6046,11 @@
             "ROOM": "Swift Hall 210",
             "MEETING_TIME": "MoWe 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "215-0",
         "section": "25",
         "component": "LEC",
@@ -5333,9 +6062,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "228-0",
         "section": "25",
         "component": "LEC",
@@ -5347,9 +6078,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 2:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "303-0",
         "section": "25",
         "component": "LEC",
@@ -5361,9 +6094,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 3:00PM - 5:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "341-0",
         "section": "25",
         "component": "LEC",
@@ -5375,9 +6110,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 6:15PM - 9:15PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "364-0",
         "section": "25",
         "component": "LEC",
@@ -5389,9 +6126,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 10:00AM - 1:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "366-0",
         "section": "25",
         "component": "LEC",
@@ -5403,7 +6142,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 1:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-27"
       }
     ],
     "school": "WCAS",
@@ -5414,6 +6154,7 @@
     "results": 3,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "210-0",
         "section": "26",
         "component": "LEC",
@@ -5425,25 +6166,30 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 3:30PM - 5:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "230-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Introduction to Judaism",
         "topic": "",
         "courseNumber": "40547",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "250-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Introduction to Islam",
         "topic": "",
         "courseNumber": "42170",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -5454,33 +6200,40 @@
     "results": 5,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "202-0",
         "section": "1",
         "component": "LEC",
         "courseTitle": "Social Problems",
         "topic": "",
         "courseNumber": "42307",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "206-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Law and Society",
         "topic": "",
         "courseNumber": "40846",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "226-0",
         "section": "26",
         "component": "LEC",
         "courseTitle": "Sociological Analysis",
         "topic": "",
         "courseNumber": "40847",
-        "classMeetingInfo": []
+        "classMeetingInfo": [],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "232-0",
         "section": "26",
         "component": "LEC",
@@ -5492,9 +6245,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "TuTh 10:00AM - 12:30PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "302-0",
         "section": "1",
         "component": "LEC",
@@ -5506,7 +6261,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoWe 2:00PM - 4:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       }
     ],
     "school": "WCAS",
@@ -5517,6 +6273,7 @@
     "results": 9,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "101-1",
         "section": "23",
         "component": "LEC",
@@ -5528,9 +6285,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "101-2",
         "section": "23",
         "component": "LEC",
@@ -5542,9 +6301,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "101-3",
         "section": "23",
         "component": "LEC",
@@ -5556,9 +6317,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 9:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "121-1",
         "section": "23",
         "component": "LEC",
@@ -5570,9 +6333,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "121-1",
         "section": "24",
         "component": "LEC",
@@ -5584,9 +6349,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-06-22"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "121-2",
         "section": "23",
         "component": "LEC",
@@ -5598,9 +6365,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "121-2",
         "section": "24",
         "component": "LEC",
@@ -5612,9 +6381,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "121-3",
         "section": "23",
         "component": "LEC",
@@ -5626,9 +6397,11 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       },
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "121-3",
         "section": "24",
         "component": "LEC",
@@ -5640,7 +6413,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeThFr 12:00PM - 3:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-08-02"
       }
     ],
     "school": "WCAS",
@@ -5651,6 +6425,7 @@
     "results": 1,
     "data": [
       {
+        "termDescription": "2020 Summer",
         "catalogNumber": "202-0",
         "section": "24",
         "component": "LEC",
@@ -5662,7 +6437,8 @@
             "ROOM": "TBA",
             "MEETING_TIME": "MoTuWeTh 10:00AM - 12:00PM"
           }
-        ]
+        ],
+        "startDate": "2020-07-13"
       }
     ],
     "school": "WCAS",
