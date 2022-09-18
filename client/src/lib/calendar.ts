@@ -393,6 +393,11 @@ const getStartTime = (timeFrame: string) => {
   return splitTime[1].slice(0, -2);
 };
 
+const getEndTime = (timeFrame: string) => {
+  const splitTime = timeFrame.split(" ");
+  return splitTime[3].slice(0, 7);
+};
+
 // return a CSS class list corresponding to the days when this class is offered
 const getCourseDaysMap = (timeFrame: string): ColStartClasses => {
   const splitTime = timeFrame.split(" ");
@@ -419,4 +424,5 @@ export {
   getCourseDaysMap,
   getCourseDaysJustDays,
   getStartTime,
+  getEndTime,
 };

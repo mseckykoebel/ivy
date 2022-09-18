@@ -18,6 +18,7 @@ import {
   getCourseDaysMap,
   getCourseDaysJustDays,
   getStartTime,
+  getEndTime,
 } from "../../lib/calendar";
 
 interface CalendarProps {
@@ -54,7 +55,6 @@ const Calendar: React.FC<CalendarProps> = ({
   }, []);
 
   const updateCourses = (coursesToUpdate: CalendarCourse[]) => {
-
     // must find when courses are offered
     const getNumberOfCourses = () => {
       const newCourses: CalendarCourse[] = [];
@@ -357,7 +357,7 @@ const Calendar: React.FC<CalendarProps> = ({
                         }}
                       >
                         <div
-                          className={`group absolute inset-1 flex flex-col overflow-y-auto rounded-lg ${course.color} p-2 text-xs leading-5 hover:${course.color}`}
+                          className={`font-atkinson group absolute inset-1 flex flex-col overflow-y-auto rounded-lg ${course.color} p-2 text-xs leading-5 hover:${course.color} hover:cursor-pointer hover:scale-[101%] transition-all`}
                         >
                           <div className="absolute top-1 right-1 hidden pt-1 pr-1 sm:block">
                             <button
@@ -371,15 +371,16 @@ const Calendar: React.FC<CalendarProps> = ({
                               <XIcon className="h-4 w-4" aria-hidden="true" />
                             </button>
                           </div>
-                          <p className="order-1 font-semibold text-pink-700">
-                            {course.subject}
+                          <p className="order-1 font-semibold text-gray-700">
+                            {course.subject} {course.catalogNumber}
                           </p>
-                          <p className="order-1 font-semibold text-pink-700">
-                            {course.catalogNumber}
-                          </p>
-                          <p className="text-pink-500 group-hover:text-pink-700">
+                          <p className="text-gray-400 group-hover:text-gray-700 transition-all">
                             <time dateTime="2022-01-12T07:30">
                               {getStartTime(
+                                course.classMeetingInfo![0].MEETING_TIME
+                              )}{" "}
+                              -{" "}
+                              {getEndTime(
                                 course.classMeetingInfo![0].MEETING_TIME
                               )}
                             </time>
