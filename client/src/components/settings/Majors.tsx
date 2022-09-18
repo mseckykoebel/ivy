@@ -17,14 +17,16 @@ export const Majors: React.FC<MajorsProps> = ({
 }): JSX.Element => {
   return (
     <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
-      <dt className="text-sm font-medium text-gray-500">Majors</dt>
+      <dt className="text-sm font-medium text-gray-500">
+        Majors (disabled for pre-release)
+      </dt>
       <dd>
         <input
           ref={majorRef}
           type="search"
           name="majors"
           id="majors"
-          className="block w-[29.5rem] rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm"
+          className="pointer-events-none select-none block w-[29.5rem] rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm"
           placeholder="Not specified"
           value={major ? major.majorTitle : ""}
           onChange={() => {
