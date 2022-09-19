@@ -357,7 +357,7 @@ const Calendar: React.FC<CalendarProps> = ({
                         }}
                       >
                         <div
-                          className={`font-atkinson group absolute inset-1 flex flex-col overflow-y-auto rounded-lg ${course.color} p-2 text-xs leading-5 hover:${course.color} hover:cursor-pointer hover:scale-[101%] transition-all`}
+                          className={`font-atkinson group absolute inset-1 flex flex-col overflow-y-auto rounded-lg ${course.color} p-2 text-xs leading-5 hover:${course.color} hover:cursor-pointer hover:scale-[101%] hover:z-10 transition-all`}
                         >
                           <div className="absolute top-1 right-1 hidden pt-1 pr-1 sm:block">
                             <button
