@@ -2686,7 +2686,7 @@
         "courseNumber": "18900",
         "classMeetingInfo": [
           {
-            "ROOM": "RCMA Lower Level 113",
+            "ROOM": "RCMA Lower Level 121",
             "MEETING_TIME": "MoWe 9:30AM - 10:50AM"
           }
         ],
@@ -2848,7 +2848,7 @@
         "courseNumber": "18908",
         "classMeetingInfo": [
           {
-            "ROOM": "RCMA Lower Level 113",
+            "ROOM": "RCMA Lower Level 121",
             "MEETING_TIME": "MoWe 9:30AM - 10:50AM"
           }
         ],
@@ -3737,7 +3737,7 @@
         "catalogNumber": "325-0",
         "section": "1",
         "component": "LEC",
-        "courseTitle": "Schema Theory",
+        "courseTitle": "Style and Phrase",
         "topic": "",
         "courseNumber": "19671",
         "classMeetingInfo": [
@@ -3867,7 +3867,7 @@
         "catalogNumber": "425-0",
         "section": "1",
         "component": "LEC",
-        "courseTitle": "Schema Theory",
+        "courseTitle": "Style and Phrase",
         "topic": "",
         "courseNumber": "19673",
         "classMeetingInfo": [
@@ -7416,6 +7416,1960 @@
   },
   {
     "status": 200,
+    "results": 156,
+    "data": [
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "111-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Flute for Music Majors",
+        "topic": "",
+        "courseNumber": "14013",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "112-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Oboe for Music Majors",
+        "topic": "",
+        "courseNumber": "14014",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "112-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Applied Oboe for Music Majors",
+        "topic": "",
+        "courseNumber": "14015",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "113-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Clarinet for Music Majors",
+        "topic": "",
+        "courseNumber": "14016",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "114-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Saxophone for Music Majors",
+        "topic": "",
+        "courseNumber": "14018",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "115-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Bassoon for Music Majors",
+        "topic": "",
+        "courseNumber": "14019",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "121-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Trumpet for Music Majors",
+        "topic": "",
+        "courseNumber": "14020",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "122-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied French Horn for Music Majors",
+        "topic": "",
+        "courseNumber": "14021",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "123-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Euphonium for Music Majors",
+        "topic": "",
+        "courseNumber": "14022",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "124-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Trombone for Music Majors",
+        "topic": "",
+        "courseNumber": "14023",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "125-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Tuba for Music Majors",
+        "topic": "",
+        "courseNumber": "14024",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "131-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Percussion for Music Majors",
+        "topic": "",
+        "courseNumber": "14025",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "211-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Flute for Music Majors",
+        "topic": "",
+        "courseNumber": "14026",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "212-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Oboe for Music Majors",
+        "topic": "",
+        "courseNumber": "14027",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "212-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Applied Oboe for Music Majors",
+        "topic": "",
+        "courseNumber": "14028",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "213-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Clarinet for Music Majors",
+        "topic": "",
+        "courseNumber": "14029",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "214-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Saxophone for Music Majors",
+        "topic": "",
+        "courseNumber": "14031",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "215-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Bassoon for Music Majors",
+        "topic": "",
+        "courseNumber": "14032",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "221-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Trumpet for Music Majors",
+        "topic": "",
+        "courseNumber": "14033",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "222-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied French Horn for Music Majors",
+        "topic": "",
+        "courseNumber": "14034",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "223-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Euphonium for Music Majors",
+        "topic": "",
+        "courseNumber": "14035",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "224-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Trombone for Music Majors",
+        "topic": "",
+        "courseNumber": "14036",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "225-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Tuba for Music Majors",
+        "topic": "",
+        "courseNumber": "14037",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "231-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Percussion for Music Majors",
+        "topic": "",
+        "courseNumber": "14038",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "302-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Warm-Up Class",
+        "topic": "Tuba/Euphonium Warm-Up",
+        "courseNumber": "14235",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "Fr 8:00AM - 8:50AM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "305-0",
+        "section": "1",
+        "component": "PED",
+        "courseTitle": "Optional Recital",
+        "topic": "",
+        "courseNumber": "14161",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "305-0",
+        "section": "10",
+        "component": "PED",
+        "courseTitle": "Optional Recital",
+        "topic": "",
+        "courseNumber": "19156",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "305-0",
+        "section": "11",
+        "component": "PED",
+        "courseTitle": "Optional Recital",
+        "topic": "",
+        "courseNumber": "19158",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "305-0",
+        "section": "2",
+        "component": "PED",
+        "courseTitle": "Optional Recital",
+        "topic": "",
+        "courseNumber": "14165",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "305-0",
+        "section": "3",
+        "component": "PED",
+        "courseTitle": "Optional Recital",
+        "topic": "",
+        "courseNumber": "14166",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "305-0",
+        "section": "4",
+        "component": "PED",
+        "courseTitle": "Optional Recital",
+        "topic": "",
+        "courseNumber": "14167",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "305-0",
+        "section": "5",
+        "component": "PED",
+        "courseTitle": "Optional Recital",
+        "topic": "",
+        "courseNumber": "19151",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "305-0",
+        "section": "6",
+        "component": "PED",
+        "courseTitle": "Optional Recital",
+        "topic": "",
+        "courseNumber": "19152",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "305-0",
+        "section": "7",
+        "component": "PED",
+        "courseTitle": "Optional Recital",
+        "topic": "",
+        "courseNumber": "19153",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "305-0",
+        "section": "8",
+        "component": "PED",
+        "courseTitle": "Optional Recital",
+        "topic": "",
+        "courseNumber": "19154",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "305-0",
+        "section": "9",
+        "component": "PED",
+        "courseTitle": "Optional Recital",
+        "topic": "",
+        "courseNumber": "19155",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "311-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Flute for Music Majors",
+        "topic": "",
+        "courseNumber": "14039",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "312-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Oboe for Music Majors",
+        "topic": "",
+        "courseNumber": "14040",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "312-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Applied Oboe for Music Majors",
+        "topic": "",
+        "courseNumber": "14041",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "313-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Clarinet for Music Majors",
+        "topic": "",
+        "courseNumber": "14042",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "314-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Saxophone for Music Majors",
+        "topic": "",
+        "courseNumber": "14044",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "315-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Bassoon for Music Majors",
+        "topic": "",
+        "courseNumber": "14045",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "321-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Trumpet for Music Majors",
+        "topic": "",
+        "courseNumber": "14046",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "322-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied French Horn for Music Majors",
+        "topic": "",
+        "courseNumber": "14047",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "323-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Euphonium for Music Majors",
+        "topic": "",
+        "courseNumber": "14048",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "324-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Trombone for Music Majors",
+        "topic": "",
+        "courseNumber": "14049",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "325-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Tuba for Music Majors",
+        "topic": "",
+        "courseNumber": "14050",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "331-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Percussion for Music Majors",
+        "topic": "",
+        "courseNumber": "14051",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "357-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Reed Making",
+        "topic": "Double Reed",
+        "courseNumber": "14052",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Tu 4:30PM - 5:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "357-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Reed Making",
+        "topic": "Double Reed",
+        "courseNumber": "14353",
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Th 4:30PM - 5:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "359-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Teaching Techniques",
+        "topic": "",
+        "courseNumber": "14053",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Lower Level 115",
+            "MEETING_TIME": "Th 11:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "370-0",
+        "section": "1",
+        "component": "PED",
+        "courseTitle": "Junior Recital",
+        "topic": "",
+        "courseNumber": "14148",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "370-0",
+        "section": "10",
+        "component": "PED",
+        "courseTitle": "Junior Recital",
+        "topic": "",
+        "courseNumber": "14149",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "370-0",
+        "section": "11",
+        "component": "PED",
+        "courseTitle": "Junior Recital",
+        "topic": "",
+        "courseNumber": "14150",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "370-0",
+        "section": "2",
+        "component": "PED",
+        "courseTitle": "Junior Recital",
+        "topic": "",
+        "courseNumber": "14152",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "370-0",
+        "section": "3",
+        "component": "PED",
+        "courseTitle": "Junior Recital",
+        "topic": "",
+        "courseNumber": "14153",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "370-0",
+        "section": "4",
+        "component": "PED",
+        "courseTitle": "Junior Recital",
+        "topic": "",
+        "courseNumber": "14154",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "370-0",
+        "section": "5",
+        "component": "PED",
+        "courseTitle": "Junior Recital",
+        "topic": "",
+        "courseNumber": "14155",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "370-0",
+        "section": "6",
+        "component": "PED",
+        "courseTitle": "Junior Recital",
+        "topic": "",
+        "courseNumber": "14156",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "370-0",
+        "section": "7",
+        "component": "PED",
+        "courseTitle": "Junior Recital",
+        "topic": "",
+        "courseNumber": "14157",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "370-0",
+        "section": "8",
+        "component": "PED",
+        "courseTitle": "Junior Recital",
+        "topic": "",
+        "courseNumber": "14158",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "370-0",
+        "section": "9",
+        "component": "PED",
+        "courseTitle": "Junior Recital",
+        "topic": "",
+        "courseNumber": "14159",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "380-0",
+        "section": "1",
+        "component": "PED",
+        "courseTitle": "Senior Recital",
+        "topic": "",
+        "courseNumber": "14054",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "380-0",
+        "section": "10",
+        "component": "PED",
+        "courseTitle": "Senior Recital",
+        "topic": "",
+        "courseNumber": "14055",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "380-0",
+        "section": "11",
+        "component": "PED",
+        "courseTitle": "Senior Recital",
+        "topic": "",
+        "courseNumber": "14056",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "380-0",
+        "section": "2",
+        "component": "PED",
+        "courseTitle": "Senior Recital",
+        "topic": "",
+        "courseNumber": "14058",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "380-0",
+        "section": "3",
+        "component": "PED",
+        "courseTitle": "Senior Recital",
+        "topic": "",
+        "courseNumber": "14059",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "380-0",
+        "section": "4",
+        "component": "PED",
+        "courseTitle": "Senior Recital",
+        "topic": "",
+        "courseNumber": "14060",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "380-0",
+        "section": "5",
+        "component": "PED",
+        "courseTitle": "Senior Recital",
+        "topic": "",
+        "courseNumber": "14061",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "380-0",
+        "section": "6",
+        "component": "PED",
+        "courseTitle": "Senior Recital",
+        "topic": "",
+        "courseNumber": "14062",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "380-0",
+        "section": "7",
+        "component": "PED",
+        "courseTitle": "Senior Recital",
+        "topic": "",
+        "courseNumber": "14063",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "380-0",
+        "section": "8",
+        "component": "PED",
+        "courseTitle": "Senior Recital",
+        "topic": "",
+        "courseNumber": "14064",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "380-0",
+        "section": "9",
+        "component": "PED",
+        "courseTitle": "Senior Recital",
+        "topic": "",
+        "courseNumber": "14065",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "390-0",
+        "section": "1",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Flute",
+        "courseNumber": "14179",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "Fr 12:30PM - 1:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "390-0",
+        "section": "10",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Percussion",
+        "courseNumber": "14180",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "We 12:00PM - 1:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "390-0",
+        "section": "2",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Oboe",
+        "courseNumber": "14181",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "Mo 6:00PM - 6:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "390-0",
+        "section": "3",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Clarinet",
+        "courseNumber": "14182",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "Mo 6:30PM - 7:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "390-0",
+        "section": "4",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Saxophone",
+        "courseNumber": "14183",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "We 6:30PM - 8:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "390-0",
+        "section": "5",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Bassoon",
+        "courseNumber": "14184",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "Th 4:30PM - 5:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "390-0",
+        "section": "6",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Trumpet",
+        "courseNumber": "14185",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Pick-Staiger Rehearsal Room",
+            "MEETING_TIME": "Tu 12:00PM - 1:30PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "390-0",
+        "section": "7",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Horn",
+        "courseNumber": "14186",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "We 6:00PM - 7:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "390-0",
+        "section": "8",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Trombone",
+        "courseNumber": "14187",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Opera Theater 1-140",
+            "MEETING_TIME": "Mo 5:00PM - 6:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "390-0",
+        "section": "9",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Tuba / Euphonium",
+        "courseNumber": "14188",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "We 7:30PM - 8:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "392-0",
+        "section": "1",
+        "component": "PED",
+        "courseTitle": "Studio Ensemble for Music Majors",
+        "topic": "Brass Choir",
+        "courseNumber": "14138",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Pick-Staiger Rehearsal Room",
+            "MEETING_TIME": "MoWe 12:00PM - 1:30PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "392-0",
+        "section": "2",
+        "component": "PED",
+        "courseTitle": "Studio Ensemble for Music Majors",
+        "topic": "Saxophone Ensemble",
+        "courseNumber": "14139",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "Th 12:30PM - 1:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "392-0",
+        "section": "3",
+        "component": "PED",
+        "courseTitle": "Studio Ensemble for Music Majors",
+        "topic": "Saxophone Quartet",
+        "courseNumber": "14324",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "392-0",
+        "section": "4",
+        "component": "PED",
+        "courseTitle": "Studio Ensemble for Music Majors",
+        "topic": "Trombone Choir",
+        "courseNumber": "14208",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "Su 5:30PM - 7:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "392-0",
+        "section": "5",
+        "component": "PED",
+        "courseTitle": "Studio Ensemble for Music Majors",
+        "topic": "Percussion Ensemble",
+        "courseNumber": "14140",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music 011",
+            "MEETING_TIME": "TuWe 7:00PM - 9:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "393-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Repertoire Studies",
+        "topic": "Wind, Brass, Percussion Orchestral Repertoire",
+        "courseNumber": "14189",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Pick-Staiger Rehearsal Room",
+            "MEETING_TIME": "Th 12:00PM - 1:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "393-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Repertoire Studies",
+        "topic": "Flute Orchestral Excerpts",
+        "courseNumber": "14190",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "Th 2:00PM - 2:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "393-0",
+        "section": "3",
+        "component": "LEC",
+        "courseTitle": "Repertoire Studies",
+        "topic": "Clarinet Orchestral Studies",
+        "courseNumber": "14191",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "Mo 8:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "393-0",
+        "section": "4",
+        "component": "LEC",
+        "courseTitle": "Repertoire Studies",
+        "topic": "Bassoon Orchestral Studies",
+        "courseNumber": "14192",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Lower Level 113",
+            "MEETING_TIME": "We 4:30PM - 5:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "393-0",
+        "section": "5",
+        "component": "LEC",
+        "courseTitle": "Repertoire Studies",
+        "topic": "Trumpet Orchestral Studies",
+        "courseNumber": "14193",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "Tu 3:30PM - 4:30PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "393-0",
+        "section": "6",
+        "component": "LEC",
+        "courseTitle": "Repertoire Studies",
+        "topic": "Horn Orchestral Studies",
+        "courseNumber": "14194",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "Mo 11:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "393-0",
+        "section": "7",
+        "component": "LEC",
+        "courseTitle": "Repertoire Studies",
+        "topic": "Tuba/Euphonium",
+        "courseNumber": "14195",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "We 8:30PM - 9:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "411-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Flute for Music Majors",
+        "topic": "",
+        "courseNumber": "14067",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "412-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Oboe for Music Majors",
+        "topic": "",
+        "courseNumber": "14068",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "412-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Applied Oboe for Music Majors",
+        "topic": "",
+        "courseNumber": "14069",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "413-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Clarinet for Music Majors",
+        "topic": "",
+        "courseNumber": "14070",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "414-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Saxophone for Music Majors",
+        "topic": "",
+        "courseNumber": "14072",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "415-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Bassoon for Music Majors",
+        "topic": "",
+        "courseNumber": "14073",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "421-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Trumpet for Music Majors",
+        "topic": "",
+        "courseNumber": "14074",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "422-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied French Horn for Music Majors",
+        "topic": "",
+        "courseNumber": "14075",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "423-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Euphonium for Music Majors",
+        "topic": "",
+        "courseNumber": "14076",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "424-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Trombone for Music Majors",
+        "topic": "",
+        "courseNumber": "14077",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "425-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Tuba for Music Majors",
+        "topic": "",
+        "courseNumber": "14078",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "431-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Percussion for Music Majors",
+        "topic": "",
+        "courseNumber": "14079",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "480-0",
+        "section": "1",
+        "component": "PED",
+        "courseTitle": "MM Recital",
+        "topic": "",
+        "courseNumber": "14080",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "480-0",
+        "section": "10",
+        "component": "PED",
+        "courseTitle": "MM Recital",
+        "topic": "",
+        "courseNumber": "14081",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "480-0",
+        "section": "11",
+        "component": "PED",
+        "courseTitle": "MM Recital",
+        "topic": "",
+        "courseNumber": "14082",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "480-0",
+        "section": "2",
+        "component": "PED",
+        "courseTitle": "MM Recital",
+        "topic": "",
+        "courseNumber": "14084",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "480-0",
+        "section": "3",
+        "component": "PED",
+        "courseTitle": "MM Recital",
+        "topic": "",
+        "courseNumber": "14085",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "480-0",
+        "section": "4",
+        "component": "PED",
+        "courseTitle": "MM Recital",
+        "topic": "",
+        "courseNumber": "14086",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "480-0",
+        "section": "5",
+        "component": "PED",
+        "courseTitle": "MM Recital",
+        "topic": "",
+        "courseNumber": "14087",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "480-0",
+        "section": "6",
+        "component": "PED",
+        "courseTitle": "MM Recital",
+        "topic": "",
+        "courseNumber": "14088",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "480-0",
+        "section": "7",
+        "component": "PED",
+        "courseTitle": "MM Recital",
+        "topic": "",
+        "courseNumber": "14089",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "480-0",
+        "section": "8",
+        "component": "PED",
+        "courseTitle": "MM Recital",
+        "topic": "",
+        "courseNumber": "14090",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "480-0",
+        "section": "9",
+        "component": "PED",
+        "courseTitle": "MM Recital",
+        "topic": "",
+        "courseNumber": "14091",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "490-0",
+        "section": "1",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Flute",
+        "courseNumber": "14196",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "Fr 12:30PM - 1:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "490-0",
+        "section": "10",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Percussion",
+        "courseNumber": "14197",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "We 12:00PM - 1:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "490-0",
+        "section": "2",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Oboe",
+        "courseNumber": "14198",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "Mo 6:00PM - 6:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "490-0",
+        "section": "3",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Clarinet",
+        "courseNumber": "14199",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "Mo 6:30PM - 7:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "490-0",
+        "section": "4",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Saxophone",
+        "courseNumber": "14209",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "We 6:30PM - 8:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "490-0",
+        "section": "5",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Bassoon",
+        "courseNumber": "14210",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "Th 4:30PM - 5:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "490-0",
+        "section": "6",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Trumpet",
+        "courseNumber": "14211",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Pick-Staiger Rehearsal Room",
+            "MEETING_TIME": "Tu 12:00PM - 1:30PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "490-0",
+        "section": "7",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Horn Class",
+        "courseNumber": "14212",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "We 6:00PM - 7:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "490-0",
+        "section": "8",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Trombone",
+        "courseNumber": "14213",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Opera Theater 1-140",
+            "MEETING_TIME": "Mo 5:00PM - 6:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "490-0",
+        "section": "9",
+        "component": "PED",
+        "courseTitle": "Studio Class",
+        "topic": "Tuba / Euphonium",
+        "courseNumber": "14214",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "We 7:30PM - 8:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "492-0",
+        "section": "1",
+        "component": "PED",
+        "courseTitle": "Studio Ensemble for Music Majors",
+        "topic": "Brass Choir",
+        "courseNumber": "14222",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Pick-Staiger Rehearsal Room",
+            "MEETING_TIME": "MoWe 12:00PM - 1:30PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "492-0",
+        "section": "2",
+        "component": "PED",
+        "courseTitle": "Studio Ensemble for Music Majors",
+        "topic": "Saxophone Ensemble",
+        "courseNumber": "14223",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "Th 12:30PM - 1:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "492-0",
+        "section": "3",
+        "component": "PED",
+        "courseTitle": "Studio Ensemble for Music Majors",
+        "topic": "Saxophone Quartet",
+        "courseNumber": "14327",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "492-0",
+        "section": "4",
+        "component": "PED",
+        "courseTitle": "Studio Ensemble for Music Majors",
+        "topic": "Trombone Choir",
+        "courseNumber": "14224",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "Su 5:30PM - 7:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "492-0",
+        "section": "5",
+        "component": "PED",
+        "courseTitle": "Studio Ensemble for Music Majors",
+        "topic": "Percussion Ensemble",
+        "courseNumber": "14225",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music 011",
+            "MEETING_TIME": "TuWe 7:00PM - 9:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "493-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Repertoire Studies",
+        "topic": "Wind, Brass, Percussion Orchestral Repertoire",
+        "courseNumber": "14215",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Pick-Staiger Rehearsal Room",
+            "MEETING_TIME": "Th 12:00PM - 1:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "493-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Repertoire Studies",
+        "topic": "Flute Orchestral Excerpts",
+        "courseNumber": "14216",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "Th 2:00PM - 2:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "493-0",
+        "section": "3",
+        "component": "LEC",
+        "courseTitle": "Repertoire Studies",
+        "topic": "Clarinet Orchestral Repertoire",
+        "courseNumber": "14217",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "Mo 8:00PM - 8:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "493-0",
+        "section": "4",
+        "component": "LEC",
+        "courseTitle": "Repertoire Studies",
+        "topic": "Bassoon Orchestral Studies",
+        "courseNumber": "14218",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Lower Level 113",
+            "MEETING_TIME": "We 4:30PM - 5:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "493-0",
+        "section": "5",
+        "component": "LEC",
+        "courseTitle": "Repertoire Studies",
+        "topic": "Trumpet Orchestral Studies",
+        "courseNumber": "14219",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "Tu 3:30PM - 4:30PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "493-0",
+        "section": "6",
+        "component": "LEC",
+        "courseTitle": "Repertoire Studies",
+        "topic": "Horn Orchestral Studies",
+        "courseNumber": "14220",
+        "classMeetingInfo": [
+          {
+            "ROOM": "RCMA Choral Room 1-190",
+            "MEETING_TIME": "Mo 11:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "493-0",
+        "section": "7",
+        "component": "LEC",
+        "courseTitle": "Repertoire Studies",
+        "topic": "Tuba/Euphonium",
+        "courseNumber": "14221",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Regenstein Hall of Music MCR",
+            "MEETING_TIME": "We 8:30PM - 9:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "511-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Flute for Music Majors",
+        "topic": "",
+        "courseNumber": "14093",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "512-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Oboe for Music Majors",
+        "topic": "",
+        "courseNumber": "14094",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "512-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Applied Oboe for Music Majors",
+        "topic": "",
+        "courseNumber": "14095",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "513-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Clarinet for Music Majors",
+        "topic": "",
+        "courseNumber": "14096",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "514-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Saxophone for Music Majors",
+        "topic": "",
+        "courseNumber": "14098",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "515-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Bassoon for Music Majors",
+        "topic": "",
+        "courseNumber": "14099",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "521-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Trumpet for Music Majors",
+        "topic": "",
+        "courseNumber": "14100",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "522-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied French Horn for Music Majors",
+        "topic": "",
+        "courseNumber": "14101",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "523-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Euphonium for Music Majors",
+        "topic": "",
+        "courseNumber": "14102",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "524-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Trombone for Music Majors",
+        "topic": "",
+        "courseNumber": "14103",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "525-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Tuba for Music Majors",
+        "topic": "",
+        "courseNumber": "14104",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "531-0",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Applied Percussion for Music Majors",
+        "topic": "",
+        "courseNumber": "14105",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "580-0",
+        "section": "1",
+        "component": "PED",
+        "courseTitle": "DMA Recital",
+        "topic": "",
+        "courseNumber": "14106",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "585-0",
+        "section": "1",
+        "component": "PED",
+        "courseTitle": "DMA Lecture Recital",
+        "topic": "Document",
+        "courseNumber": "14107",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "585-0",
+        "section": "2",
+        "component": "PED",
+        "courseTitle": "DMA Lecture Recital",
+        "topic": "Coursework",
+        "courseNumber": "14108",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "595-0",
+        "section": "1",
+        "component": "IND",
+        "courseTitle": "DMA Research Document",
+        "topic": "",
+        "courseNumber": "14200",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      }
+    ],
+    "school": "MUSIC",
+    "subject": "WIND_PER"
+  },
+  {
+    "status": 200,
     "results": 50,
     "data": [
       {
@@ -8412,7 +10366,7 @@
         "courseNumber": "10100",
         "classMeetingInfo": [
           {
-            "ROOM": "Levy Mayer 317 - Hoyne Hall",
+            "ROOM": "Rubloff Building 180",
             "MEETING_TIME": "Th 6:10PM - 9:10PM"
           }
         ],
@@ -9216,11 +11170,11 @@
         "courseNumber": "10117",
         "classMeetingInfo": [
           {
-            "ROOM": "Rubloff Building 890",
+            "ROOM": "Levy Mayer 104 - Lincoln",
             "MEETING_TIME": "MoTuSu 1:00PM - 5:00PM"
           },
           {
-            "ROOM": "Rubloff Building 890",
+            "ROOM": "Levy Mayer 104 - Lincoln",
             "MEETING_TIME": "MoSu 9:00AM - 12:00PM"
           }
         ],
@@ -9276,7 +11230,7 @@
         "courseNumber": "10089",
         "classMeetingInfo": [
           {
-            "ROOM": "Rubloff Building 203",
+            "ROOM": "Levy Mayer 204 - Booth Hall",
             "MEETING_TIME": "MoWe 2:35PM - 4:00PM"
           }
         ],
@@ -11270,7 +13224,7 @@
         "courseNumber": "15053",
         "classMeetingInfo": [
           {
-            "ROOM": "TBA",
+            "ROOM": "Rubloff Building 175",
             "MEETING_TIME": "We 6:00PM - 9:00PM"
           }
         ],
@@ -11602,7 +13556,7 @@
         "courseNumber": "14551",
         "classMeetingInfo": [
           {
-            "ROOM": "Technological Institute L168",
+            "ROOM": "Technological Institute M120",
             "MEETING_TIME": "MoWeFr 9:00AM - 9:50AM"
           }
         ],
@@ -15013,7 +16967,7 @@
   },
   {
     "status": 200,
-    "results": 18,
+    "results": 19,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -15302,6 +17256,22 @@
           }
         ],
         "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "495-0",
+        "section": "77",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Electrical Engineering",
+        "topic": "Machine Learning for Medical Imaging",
+        "courseNumber": "20418",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute M228",
+            "MEETING_TIME": "TuTh 2:00PM - 3:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
       }
     ],
     "school": "MEAS",
@@ -15401,7 +17371,7 @@
         "courseNumber": "19217",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "Rubloff Building 175",
             "MEETING_TIME": "We 6:00PM - 9:00PM"
           }
         ],
@@ -16178,7 +18148,7 @@
         "courseTitle": "Continuous Registration",
         "topic": "",
         "courseNumber": "14944",
-        "classMeetingInfo": null,
+        "classMeetingInfo": [],
         "startDate": "2022-09-20"
       },
       {
@@ -16191,7 +18161,7 @@
         "courseNumber": "14629",
         "classMeetingInfo": [
           {
-            "ROOM": "Technological Institute M120",
+            "ROOM": "Online",
             "MEETING_TIME": "Tu 5:00PM - 7:00PM"
           }
         ],
@@ -16915,7 +18885,7 @@
         "courseNumber": "19037",
         "classMeetingInfo": [
           {
-            "ROOM": "Technological Institute M128",
+            "ROOM": "Technological Institute MG28",
             "MEETING_TIME": "Mo 2:30PM - 5:20PM"
           }
         ],
@@ -18121,7 +20091,7 @@
             "MEETING_TIME": "MoTh 10:30AM - 12:00PM"
           }
         ],
-        "startDate": "2022-09-20"
+        "startDate": "2022-09-19"
       },
       {
         "termDescription": "2022 Fall",
@@ -18819,7 +20789,7 @@
         "courseNumber": "14584",
         "classMeetingInfo": [
           {
-            "ROOM": "Locy Hall 301",
+            "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "TuTh 11:00AM - 12:20PM"
           }
         ],
@@ -19669,8 +21639,8 @@
         "courseNumber": "13177",
         "classMeetingInfo": [
           {
-            "ROOM": "Technological Institute LG52",
-            "MEETING_TIME": "Tu 4:00PM - 4:50PM"
+            "ROOM": "Harris Hall L06",
+            "MEETING_TIME": "Mo 6:30PM - 7:20PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -21461,7 +23431,7 @@
         "courseNumber": "14392",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "303 E. Wacker Dr. 1624-A",
             "MEETING_TIME": "MoFr 9:00AM - 10:50AM"
           }
         ],
@@ -21513,11 +23483,11 @@
         "courseNumber": "14382",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "303 E. Wacker Dr. 1602 Control",
             "MEETING_TIME": "Tu 9:00AM - 11:50AM"
           },
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "303 E. Wacker Dr. 1602 Control",
             "MEETING_TIME": "Th 9:00AM - 4:50PM"
           }
         ],
@@ -21553,11 +23523,11 @@
         "courseNumber": "14384",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "303 E. Wacker Dr. 1624-A",
             "MEETING_TIME": "Tu 9:00AM - 11:50AM"
           },
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "303 E. Wacker Dr. 1624-A",
             "MEETING_TIME": "Th 9:00AM - 4:50PM"
           }
         ],
@@ -21573,11 +23543,11 @@
         "courseNumber": "14385",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "303 E. Wacker Dr. 1624-B",
             "MEETING_TIME": "Tu 9:00AM - 11:50AM"
           },
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "303 E. Wacker Dr. 1624-B",
             "MEETING_TIME": "Th 9:00AM - 4:50PM"
           }
         ],
@@ -21625,7 +23595,7 @@
         "courseNumber": "14379",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "303 E. Wacker Dr. 1623",
             "MEETING_TIME": "MoWe 1:00PM - 2:20PM"
           }
         ],
@@ -21641,7 +23611,7 @@
         "courseNumber": "19553",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "303 E. Wacker Dr. 1624 A&B",
             "MEETING_TIME": "MoWe 1:00PM - 2:20PM"
           }
         ],
@@ -21673,7 +23643,7 @@
         "courseNumber": "14394",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "303 E. Wacker Dr. 1609A",
             "MEETING_TIME": "TuTh 9:00AM - 11:50AM"
           }
         ],
@@ -21705,7 +23675,7 @@
         "courseNumber": "19172",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "303 E. Wacker Dr. 1623",
             "MEETING_TIME": "Tu 3:00PM - 5:50PM"
           }
         ],
@@ -21721,7 +23691,7 @@
         "courseNumber": "19118",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "303 E. Wacker Dr. 1623",
             "MEETING_TIME": "Th 1:30PM - 4:20PM"
           }
         ],
@@ -21817,7 +23787,7 @@
         "courseNumber": "14388",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "303 E. Wacker Dr. 1602 Control",
             "MEETING_TIME": "Tu 1:00PM - 3:50PM"
           }
         ],
@@ -24088,7 +26058,7 @@
         "courseNumber": "18877",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "Frances Searle Building 1483",
             "MEETING_TIME": "TuTh 3:30PM - 4:50PM"
           }
         ],
@@ -24905,7 +26875,7 @@
         "courseNumber": "15434",
         "classMeetingInfo": [
           {
-            "ROOM": "Wirtz 215 Instruct Black Box 3",
+            "ROOM": "Wirtz Center Cellar",
             "MEETING_TIME": "We 3:00PM - 4:20PM"
           }
         ],
@@ -24985,7 +26955,7 @@
   },
   {
     "status": 200,
-    "results": 12,
+    "results": 16,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -24997,7 +26967,7 @@
         "courseNumber": "15437",
         "classMeetingInfo": [
           {
-            "ROOM": "Frances Searle Building 2370",
+            "ROOM": "Technological Institute AUD",
             "MEETING_TIME": "TuTh 2:00PM - 3:30PM"
           }
         ],
@@ -25070,6 +27040,17 @@
       },
       {
         "termDescription": "2022 Fall",
+        "catalogNumber": "523-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Capstone",
+        "topic": "",
+        "courseNumber": "20411",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
         "catalogNumber": "529-0",
         "section": "4",
         "component": "LEC",
@@ -25078,7 +27059,7 @@
         "courseNumber": "18391",
         "classMeetingInfo": [
           {
-            "ROOM": "Frances Searle Building 1483",
+            "ROOM": "Frances Searle Building 3417",
             "MEETING_TIME": "Mo 9:00AM - 12:00PM"
           }
         ],
@@ -25110,7 +27091,7 @@
         "courseNumber": "20199",
         "classMeetingInfo": [
           {
-            "ROOM": "Frances Searle Building 1483",
+            "ROOM": "Frances Searle Building 3417",
             "MEETING_TIME": "Sa 9:30AM - 12:30PM"
           }
         ],
@@ -25157,6 +27138,39 @@
             "MEETING_TIME": "Sa 2:00PM - 5:00PM"
           }
         ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "540-6",
+        "section": "1",
+        "component": "LEC",
+        "courseTitle": "Leading Collaboration",
+        "topic": "",
+        "courseNumber": "20420",
+        "classMeetingInfo": [],
+        "startDate": "2022-10-24"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "544-0",
+        "section": "1",
+        "component": "IND",
+        "courseTitle": "Creative Branding & Design",
+        "topic": "",
+        "courseNumber": "20409",
+        "classMeetingInfo": null,
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "544-6",
+        "section": "1",
+        "component": "IND",
+        "courseTitle": "Creative Branding & Design",
+        "topic": "",
+        "courseNumber": "20410",
+        "classMeetingInfo": null,
         "startDate": "2022-09-20"
       }
     ],
@@ -25560,7 +27574,12 @@
         "courseTitle": "Studies in Performance",
         "topic": "",
         "courseNumber": "15585",
-        "classMeetingInfo": [],
+        "classMeetingInfo": [
+          {
+            "ROOM": "AM Swift Krause Studio 103",
+            "MEETING_TIME": "Fr 3:00PM - 5:50PM"
+          }
+        ],
         "startDate": "2022-09-20"
       },
       {
@@ -25605,7 +27624,7 @@
         "courseNumber": "18911",
         "classMeetingInfo": [
           {
-            "ROOM": "Wirtz 235 Seminar Room 1",
+            "ROOM": "Wirtz 240 Seminar Room 2",
             "MEETING_TIME": "We 2:00PM - 4:50PM"
           }
         ],
@@ -25617,7 +27636,7 @@
   },
   {
     "status": 200,
-    "results": 53,
+    "results": 54,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -25695,6 +27714,22 @@
           {
             "ROOM": "Annie May Swift Hall 219",
             "MEETING_TIME": "We 9:00AM - 11:50AM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "260-0",
+        "section": "23",
+        "component": "SEM",
+        "courseTitle": "Foundations of Screenwriting",
+        "topic": "",
+        "courseNumber": "15367",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annie May Swift Hall 109",
+            "MEETING_TIME": "Tu 6:00PM - 8:50PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -25953,7 +27988,7 @@
         "courseNumber": "19009",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "Annie May Swift Hall 109",
             "MEETING_TIME": "We 6:00PM - 8:50PM"
           }
         ],
@@ -25985,7 +28020,7 @@
         "courseNumber": "15611",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "Wirtz 215 Instruct Black Box 3",
             "MEETING_TIME": "MoWe 3:00PM - 4:50PM"
           }
         ],
@@ -26353,7 +28388,7 @@
         "section": "21",
         "component": "LEC",
         "courseTitle": "Seminar: Studies in Film and Video Prod",
-        "topic": "",
+        "topic": "Open Your Ears: The Practice of Field Recording",
         "courseNumber": "20388",
         "classMeetingInfo": [
           {
@@ -26531,7 +28566,7 @@
         "section": "22",
         "component": "LEC",
         "courseTitle": "Topics in Sound Production",
-        "topic": "",
+        "topic": "Open Your Ears: The Practice of Field Recording",
         "courseNumber": "20385",
         "classMeetingInfo": [
           {
@@ -26963,8 +28998,8 @@
         "courseNumber": "15620",
         "classMeetingInfo": [
           {
-            "ROOM": "Wirtz 230 Instruct Black Box 1",
-            "MEETING_TIME": "Th 11:00AM - 2:00PM"
+            "ROOM": "Wirtz 225 Instruct Black Box 2",
+            "MEETING_TIME": "We 11:00AM - 1:50PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -27063,7 +29098,7 @@
         "courseNumber": "15462",
         "classMeetingInfo": [
           {
-            "ROOM": "Wirtz 206 Computer Lab",
+            "ROOM": "Wirtz 230 Instruct Black Box 1",
             "MEETING_TIME": "We 8:00AM - 10:50AM"
           }
         ],
@@ -27567,7 +29602,7 @@
         "courseNumber": "15623",
         "classMeetingInfo": [
           {
-            "ROOM": "Meets in Non-General PurposeRm",
+            "ROOM": "Wirtz 215 Instruct Black Box 3",
             "MEETING_TIME": "MoWe 3:00PM - 4:50PM"
           }
         ],
@@ -27615,8 +29650,12 @@
         "courseNumber": "15483",
         "classMeetingInfo": [
           {
-            "ROOM": "Wirtz 240 Seminar Room 2",
-            "MEETING_TIME": "We 12:00PM - 2:50PM"
+            "ROOM": "Meets in Non-General PurposeRm",
+            "MEETING_TIME": "We 12:00PM - 1:00PM"
+          },
+          {
+            "ROOM": "Wirtz 235 Seminar Room 1",
+            "MEETING_TIME": "We 1:00PM - 2:50PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -27852,7 +29891,7 @@
         "courseNumber": "18801",
         "classMeetingInfo": [
           {
-            "ROOM": "Abbott Hall Wirtz Chicago 212",
+            "ROOM": "Abbott Hall Wirtz Chicago 104",
             "MEETING_TIME": "Th 2:00PM - 5:00PM"
           }
         ],
@@ -28034,7 +30073,7 @@
         "courseNumber": "15210",
         "classMeetingInfo": [
           {
-            "ROOM": "Annenberg Hall G22",
+            "ROOM": "Technological Institute LG66",
             "MEETING_TIME": "We 2:00PM - 4:00PM"
           }
         ],
@@ -28291,7 +30330,7 @@
         "classMeetingInfo": [
           {
             "ROOM": "Annenberg Hall 101",
-            "MEETING_TIME": "Th 9:30AM - 12:20PM"
+            "MEETING_TIME": "Tu 9:30AM - 12:20PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -28413,7 +30452,7 @@
         "courseNumber": "15232",
         "classMeetingInfo": [
           {
-            "ROOM": "Annenberg Hall G22",
+            "ROOM": "Technological Institute LG66",
             "MEETING_TIME": "We 2:00PM - 4:00PM"
           }
         ],
@@ -28425,7 +30464,7 @@
   },
   {
     "status": 200,
-    "results": 23,
+    "results": 25,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -28490,6 +30529,28 @@
           }
         ],
         "startDate": "2022-09-07"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "416-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Research and Analysis in Teacher Leadership I",
+        "topic": "",
+        "courseNumber": "20428",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "417-0",
+        "section": "20",
+        "component": "LEC",
+        "courseTitle": "Research and Analysis in Teacher Leadership II",
+        "topic": "",
+        "courseNumber": "20429",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
       },
       {
         "termDescription": "2022 Fall",
@@ -29214,7 +31275,7 @@
         "courseNumber": "19512",
         "classMeetingInfo": [
           {
-            "ROOM": "Kresge Centennial Hall 2-425",
+            "ROOM": "Annenberg Hall 317",
             "MEETING_TIME": "Th 5:00PM - 7:50PM"
           }
         ],
@@ -30670,24 +32731,8 @@
   },
   {
     "status": 200,
-    "results": 5,
+    "results": 4,
     "data": [
-      {
-        "termDescription": "2022 Fall",
-        "catalogNumber": "102-CN",
-        "section": "14",
-        "component": "LEC",
-        "courseTitle": "Public Speaking",
-        "topic": "",
-        "courseNumber": "18096",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Wieboldt Hall 406",
-            "MEETING_TIME": "Tu 6:15PM - 9:15PM"
-          }
-        ],
-        "startDate": "2022-09-20"
-      },
       {
         "termDescription": "2022 Fall",
         "catalogNumber": "205-DL",
@@ -31072,7 +33117,7 @@
   },
   {
     "status": 200,
-    "results": 3,
+    "results": 1,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -31085,38 +33130,6 @@
         "classMeetingInfo": [
           {
             "ROOM": "Wieboldt Hall 406",
-            "MEETING_TIME": "Mo 6:15PM - 9:15PM"
-          }
-        ],
-        "startDate": "2022-09-20"
-      },
-      {
-        "termDescription": "2022 Fall",
-        "catalogNumber": "281-CN",
-        "section": "16",
-        "component": "LEC",
-        "courseTitle": "Introduction to Applied Econometrics",
-        "topic": "",
-        "courseNumber": "19895",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Wieboldt Hall 406",
-            "MEETING_TIME": "Th 6:15PM - 9:15PM"
-          }
-        ],
-        "startDate": "2022-09-20"
-      },
-      {
-        "termDescription": "2022 Fall",
-        "catalogNumber": "358-CN",
-        "section": "62",
-        "component": "LEC",
-        "courseTitle": "Economics of Art and Culture",
-        "topic": "",
-        "courseNumber": "20116",
-        "classMeetingInfo": [
-          {
-            "ROOM": "University Hall 121",
             "MEETING_TIME": "Mo 6:15PM - 9:15PM"
           }
         ],
@@ -32044,7 +34057,7 @@
   },
   {
     "status": 200,
-    "results": 12,
+    "results": 11,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -32138,22 +34151,6 @@
           {
             "ROOM": "Online",
             "MEETING_TIME": "Mo 7:00PM - 9:30PM"
-          }
-        ],
-        "startDate": "2022-09-20"
-      },
-      {
-        "termDescription": "2022 Fall",
-        "catalogNumber": "412-0",
-        "section": "50",
-        "component": "LEC",
-        "courseTitle": "Fundamentals of Sponsorship for Sports Marketers and Administrators",
-        "topic": "",
-        "courseNumber": "18218",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Wieboldt Hall 504",
-            "MEETING_TIME": "Tu 7:00PM - 9:30PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -34667,7 +36664,7 @@
   },
   {
     "status": 200,
-    "results": 9,
+    "results": 10,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -34715,6 +36712,17 @@
             "MEETING_TIME": "Th 2:00PM - 5:00PM"
           }
         ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "412-3",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Cognitive Psychology",
+        "topic": "",
+        "courseNumber": "20431",
+        "classMeetingInfo": [],
         "startDate": "2022-09-20"
       },
       {
@@ -38771,7 +40779,7 @@
   },
   {
     "status": 200,
-    "results": 19,
+    "results": 18,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -38783,7 +40791,7 @@
         "courseNumber": "15875",
         "classMeetingInfo": [
           {
-            "ROOM": "Locy Hall 318",
+            "ROOM": "Kresge Cent. Hall 2-380 Kaplan",
             "MEETING_TIME": "We 11:30AM - 12:30PM"
           }
         ],
@@ -38863,7 +40871,7 @@
         "courseNumber": "15877",
         "classMeetingInfo": [
           {
-            "ROOM": "Locy Hall 318",
+            "ROOM": "Kresge Cent. Hall 2-380 Kaplan",
             "MEETING_TIME": "We 8:30AM - 11:30AM"
           }
         ],
@@ -38927,7 +40935,7 @@
         "courseNumber": "15869",
         "classMeetingInfo": [
           {
-            "ROOM": "Parkes Hall 214",
+            "ROOM": "Kresge Centennial Hall 2-435",
             "MEETING_TIME": "Th 8:30AM - 11:30AM"
           }
         ],
@@ -38975,7 +40983,7 @@
         "courseNumber": "15940",
         "classMeetingInfo": [
           {
-            "ROOM": "Locy Hall 318",
+            "ROOM": "University Hall 121",
             "MEETING_TIME": "Th 12:30PM - 3:30PM"
           }
         ],
@@ -39025,22 +41033,6 @@
           {
             "ROOM": "Meets in Non-General PurposeRm",
             "MEETING_TIME": "Tu 12:00PM - 1:30PM"
-          }
-        ],
-        "startDate": "2022-09-20"
-      },
-      {
-        "termDescription": "2022 Fall",
-        "catalogNumber": "481-0",
-        "section": "1",
-        "component": "PRA",
-        "courseTitle": "Internship in Marriage and Family Therapy",
-        "topic": "",
-        "courseNumber": "16031",
-        "classMeetingInfo": [
-          {
-            "ROOM": "TBA",
-            "MEETING_TIME": "We 12:30PM - 3:30PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -39215,7 +41207,7 @@
         "courseNumber": "15736",
         "classMeetingInfo": [
           {
-            "ROOM": "Kresge Centennial Hall 2-435",
+            "ROOM": "Technological Institute A110",
             "MEETING_TIME": "TuTh 9:10AM - 10:50AM"
           }
         ],
@@ -39259,7 +41251,7 @@
   },
   {
     "status": 200,
-    "results": 20,
+    "results": 19,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -39434,17 +41426,6 @@
       },
       {
         "termDescription": "2022 Fall",
-        "catalogNumber": "414-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Injury and Violence Prevention",
-        "topic": "",
-        "courseNumber": "20048",
-        "classMeetingInfo": [],
-        "startDate": "2022-09-20"
-      },
-      {
-        "termDescription": "2022 Fall",
         "catalogNumber": "415-0",
         "section": "20",
         "component": "LEC",
@@ -39562,7 +41543,7 @@
   },
   {
     "status": 200,
-    "results": 2,
+    "results": 3,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -39573,6 +41554,17 @@
         "topic": "",
         "courseNumber": "15972",
         "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "401-0",
+        "section": "2",
+        "component": "LEC",
+        "courseTitle": "Research Techniques, Writing & Presentation",
+        "topic": "",
+        "courseNumber": "20408",
+        "classMeetingInfo": null,
         "startDate": "2022-09-20"
       },
       {
@@ -39672,6 +41664,25 @@
     ],
     "school": "TGS",
     "subject": "REPR_SCI"
+  },
+  {
+    "status": 200,
+    "results": 1,
+    "data": [
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "517-0",
+        "section": "20",
+        "component": "SEM",
+        "courseTitle": "Skills and Careers in Science Writing",
+        "topic": "",
+        "courseNumber": "20435",
+        "classMeetingInfo": null,
+        "startDate": "2022-09-20"
+      }
+    ],
+    "school": "TGS",
+    "subject": "SCIMEDIA"
   },
   {
     "status": 200,
@@ -39791,7 +41802,7 @@
   },
   {
     "status": 200,
-    "results": 30,
+    "results": 29,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -39892,22 +41903,6 @@
       {
         "termDescription": "2022 Fall",
         "catalogNumber": "381-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Topics in Transnational Black Studies",
-        "topic": "An Introduction to Africa",
-        "courseNumber": "18385",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Locy Hall 214",
-            "MEETING_TIME": "Th 4:00PM - 6:50PM"
-          }
-        ],
-        "startDate": "2022-09-20"
-      },
-      {
-        "termDescription": "2022 Fall",
-        "catalogNumber": "381-0",
         "section": "21",
         "component": "LEC",
         "courseTitle": "Topics in Transnational Black Studies",
@@ -39974,7 +41969,7 @@
         "courseNumber": "17026",
         "classMeetingInfo": [
           {
-            "ROOM": "University Library 3622",
+            "ROOM": "Kresge Centennial Hall 2-339",
             "MEETING_TIME": "Th 2:00PM - 4:50PM"
           }
         ],
@@ -40256,7 +42251,7 @@
   },
   {
     "status": 200,
-    "results": 24,
+    "results": 23,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -40268,24 +42263,8 @@
         "courseNumber": "17027",
         "classMeetingInfo": [
           {
-            "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
+            "ROOM": "Parkes Hall 223",
             "MEETING_TIME": "WeFr 3:30PM - 4:50PM"
-          }
-        ],
-        "startDate": "2022-09-20"
-      },
-      {
-        "termDescription": "2022 Fall",
-        "catalogNumber": "101-6",
-        "section": "22",
-        "component": "SEM",
-        "courseTitle": "First-Year Seminar",
-        "topic": "Biological Thought & Action",
-        "courseNumber": "16282",
-        "classMeetingInfo": [
-          {
-            "ROOM": "University Hall 101",
-            "MEETING_TIME": "TuTh 4:20PM - 5:40PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -40541,7 +42520,7 @@
         "classMeetingInfo": [
           {
             "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
-            "MEETING_TIME": "We 1:00PM - 3:30PM"
+            "MEETING_TIME": "We 2:00PM - 4:30PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -40625,7 +42604,7 @@
           },
           {
             "ROOM": "ANTHRO Sem Rm 104 - 1810 Hinmn",
-            "MEETING_TIME": "Fr 2:00PM - 3:00PM"
+            "MEETING_TIME": "Fr 1:00PM - 2:00PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -41825,7 +43804,7 @@
   },
   {
     "status": 200,
-    "results": 269,
+    "results": 271,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -42211,7 +44190,7 @@
         "courseNumber": "16188",
         "classMeetingInfo": [
           {
-            "ROOM": "Kresge Centennial Hall 2-435",
+            "ROOM": "Technological Institute A110",
             "MEETING_TIME": "TuTh 9:10AM - 10:50AM"
           }
         ],
@@ -44323,6 +46302,28 @@
       {
         "termDescription": "2022 Fall",
         "catalogNumber": "398-0",
+        "section": "337",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": "",
+        "courseNumber": "20417",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "398-0",
+        "section": "338",
+        "component": "IND",
+        "courseTitle": "Tutorial in Biology",
+        "topic": "",
+        "courseNumber": "20430",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "398-0",
         "section": "35",
         "component": "IND",
         "courseTitle": "Tutorial in Biology",
@@ -45755,7 +47756,7 @@
         "classMeetingInfo": [
           {
             "ROOM": "Locy Hall 213",
-            "MEETING_TIME": "Sa 12:00PM - 2:00PM"
+            "MEETING_TIME": "Su 12:00PM - 2:00PM"
           }
         ],
         "startDate": "2022-09-26"
@@ -46892,7 +48893,7 @@
   },
   {
     "status": 200,
-    "results": 4,
+    "results": 5,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -46904,7 +48905,7 @@
         "courseNumber": "16114",
         "classMeetingInfo": [
           {
-            "ROOM": "Garage Workspace Classroom 1",
+            "ROOM": "Harris Hall 107",
             "MEETING_TIME": "TuTh 12:30PM - 1:50PM"
           }
         ],
@@ -46934,6 +48935,17 @@
         "courseTitle": "Senior Thesis Seminar",
         "topic": "",
         "courseNumber": "16113",
+        "classMeetingInfo": [],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "398-1",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Senior Thesis Seminar",
+        "topic": "",
+        "courseNumber": "20427",
         "classMeetingInfo": [],
         "startDate": "2022-09-20"
       },
@@ -46987,7 +48999,7 @@
         "courseNumber": "17402",
         "classMeetingInfo": [
           {
-            "ROOM": "Locy Hall 301",
+            "ROOM": "555 Clark B03",
             "MEETING_TIME": "MoWe 1:00PM - 1:50PM"
           }
         ],
@@ -48485,7 +50497,7 @@
         "courseNumber": "17408",
         "classMeetingInfo": [
           {
-            "ROOM": "University Library 3722",
+            "ROOM": "Kresge Centennial Hall 3-410",
             "MEETING_TIME": "TuTh 11:00AM - 12:20PM"
           }
         ],
@@ -49714,7 +51726,7 @@
   },
   {
     "status": 200,
-    "results": 11,
+    "results": 12,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -49888,6 +51900,22 @@
           {
             "ROOM": "University Hall 218",
             "MEETING_TIME": "MoWe 9:30AM - 10:50AM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "390-0",
+        "section": "28",
+        "component": "LEC",
+        "courseTitle": "Special Topics in Environmental Policy and Culture",
+        "topic": "",
+        "courseNumber": "20436",
+        "classMeetingInfo": [
+          {
+            "ROOM": "ANTHRO Sem Rm B07 - 1810 Hinmn",
+            "MEETING_TIME": "TuTh 11:00AM - 12:20PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -50142,8 +52170,8 @@
         "courseNumber": "16907",
         "classMeetingInfo": [
           {
-            "ROOM": "Kresge Centennial Hall 2-339",
-            "MEETING_TIME": "MoTuWeTh 1:00PM - 1:50PM"
+            "ROOM": "University Hall 118",
+            "MEETING_TIME": "MoTuWeTh 10:00AM - 10:50AM"
           }
         ],
         "startDate": "2022-09-20"
@@ -50286,7 +52314,7 @@
         "courseNumber": "16911",
         "classMeetingInfo": [
           {
-            "ROOM": "Locy Hall 110",
+            "ROOM": "Harris Hall L05",
             "MEETING_TIME": "MoWeFr 2:00PM - 2:50PM"
           }
         ],
@@ -50442,7 +52470,7 @@
         "section": "20",
         "component": "LEC",
         "courseTitle": "Topics in Literary Theory",
-        "topic": "",
+        "topic": "Materialist/Marxist Theory",
         "courseNumber": "20036",
         "classMeetingInfo": [
           {
@@ -50855,7 +52883,12 @@
         "courseTitle": "UPAL: Strategies for Advancing Learning",
         "topic": "",
         "courseNumber": "19930",
-        "classMeetingInfo": [],
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 213",
+            "MEETING_TIME": "Mo 4:00PM - 5:00PM"
+          }
+        ],
         "startDate": "2022-10-03"
       },
       {
@@ -50866,7 +52899,12 @@
         "courseTitle": "UPAL: Strategies for Advancing Learning",
         "topic": "",
         "courseNumber": "19986",
-        "classMeetingInfo": [],
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 103",
+            "MEETING_TIME": "Tu 6:00PM - 7:00PM"
+          }
+        ],
         "startDate": "2022-10-03"
       },
       {
@@ -50877,7 +52915,12 @@
         "courseTitle": "UPAL: Strategies for Advancing Learning",
         "topic": "",
         "courseNumber": "19987",
-        "classMeetingInfo": [],
+        "classMeetingInfo": [
+          {
+            "ROOM": "Annenberg Hall G01",
+            "MEETING_TIME": "We 5:00PM - 6:00PM"
+          }
+        ],
         "startDate": "2022-10-03"
       },
       {
@@ -50888,7 +52931,12 @@
         "courseTitle": "UPAL: Strategies for Advancing Learning",
         "topic": "",
         "courseNumber": "19988",
-        "classMeetingInfo": [],
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "We 6:00PM - 7:00PM"
+          }
+        ],
         "startDate": "2022-10-03"
       },
       {
@@ -50899,7 +52947,12 @@
         "courseTitle": "UPAL: Strategies for Advancing Learning",
         "topic": "",
         "courseNumber": "19989",
-        "classMeetingInfo": [],
+        "classMeetingInfo": [
+          {
+            "ROOM": "Lunt Hall 107",
+            "MEETING_TIME": "Th 5:00PM - 6:00PM"
+          }
+        ],
         "startDate": "2022-10-03"
       },
       {
@@ -50910,7 +52963,12 @@
         "courseTitle": "UPAL: Strategies for Advancing Learning",
         "topic": "",
         "courseNumber": "20015",
-        "classMeetingInfo": [],
+        "classMeetingInfo": [
+          {
+            "ROOM": "TBA",
+            "MEETING_TIME": "Su 12:00PM - 1:00PM"
+          }
+        ],
         "startDate": "2022-10-03"
       }
     ],
@@ -51131,7 +53189,7 @@
         "courseNumber": "19521",
         "classMeetingInfo": [
           {
-            "ROOM": "Parkes Hall 214",
+            "ROOM": "Kresge Centennial Hall 2-435",
             "MEETING_TIME": "MoWeFr 2:00PM - 2:50PM"
           }
         ],
@@ -51147,7 +53205,7 @@
         "courseNumber": "17135",
         "classMeetingInfo": [
           {
-            "ROOM": "Locy Hall 301",
+            "ROOM": "555 Clark B03",
             "MEETING_TIME": "MoWe 1:00PM - 1:50PM"
           }
         ],
@@ -51223,7 +53281,7 @@
   },
   {
     "status": 200,
-    "results": 19,
+    "results": 21,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -51323,6 +53381,22 @@
       },
       {
         "termDescription": "2022 Fall",
+        "catalogNumber": "332-0",
+        "section": "22",
+        "component": "LEC",
+        "courseTitle": "Gender, Sexuality, and Health",
+        "topic": "",
+        "courseNumber": "20434",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Parkes Hall 214",
+            "MEETING_TIME": "MoWe 12:30PM - 1:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
         "catalogNumber": "340-0",
         "section": "20",
         "component": "LEC",
@@ -51395,7 +53469,7 @@
         "courseNumber": "19079",
         "classMeetingInfo": [
           {
-            "ROOM": "Kresge Cent. Hall 2-380 Kaplan",
+            "ROOM": "Kresge Cent. Hall 2-530 MADS",
             "MEETING_TIME": "MoWe 11:00AM - 12:20PM"
           }
         ],
@@ -51413,6 +53487,22 @@
           {
             "ROOM": "555 Clark B01",
             "MEETING_TIME": "MoWe 12:30PM - 1:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "382-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Race, Gender, and Sexuality",
+        "topic": "",
+        "courseNumber": "20416",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Frances Searle Building 2407",
+            "MEETING_TIME": "TuTh 2:00PM - 3:20PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -52075,7 +54165,7 @@
         "courseNumber": "18834",
         "classMeetingInfo": [
           {
-            "ROOM": "Kresge Cent. Hall 2-380 Kaplan",
+            "ROOM": "University Hall 101",
             "MEETING_TIME": "MoWe 9:30AM - 10:50AM"
           }
         ],
@@ -53429,7 +55519,7 @@
         "classMeetingInfo": [
           {
             "ROOM": "Harris Hall L40",
-            "MEETING_TIME": "Tu 2:00PM - 4:50PM"
+            "MEETING_TIME": "Tu 9:30AM - 12:00PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -54028,56 +56118,8 @@
   },
   {
     "status": 200,
-    "results": 10,
+    "results": 7,
     "data": [
-      {
-        "termDescription": "2022 Fall",
-        "catalogNumber": "101-6",
-        "section": "23",
-        "component": "SEM",
-        "courseTitle": "First-Year Seminar",
-        "topic": "Islands",
-        "courseNumber": "17493",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kresge Centennial Hall 2-343",
-            "MEETING_TIME": "TuTh 3:30PM - 4:50PM"
-          }
-        ],
-        "startDate": "2022-09-20"
-      },
-      {
-        "termDescription": "2022 Fall",
-        "catalogNumber": "101-6",
-        "section": "24",
-        "component": "SEM",
-        "courseTitle": "First-Year Seminar",
-        "topic": "Revolutions: Visualizing Radicalism",
-        "courseNumber": "17494",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kresge Centennial Hall 2-335",
-            "MEETING_TIME": "TuTh 3:30PM - 4:50PM"
-          }
-        ],
-        "startDate": "2022-09-20"
-      },
-      {
-        "termDescription": "2022 Fall",
-        "catalogNumber": "101-6",
-        "section": "25",
-        "component": "SEM",
-        "courseTitle": "First-Year Seminar",
-        "topic": "Revolutions: Visualizing Radicalism",
-        "courseNumber": "17495",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Kresge Centennial Hall 4-410",
-            "MEETING_TIME": "TuTh 3:30PM - 4:50PM"
-          }
-        ],
-        "startDate": "2022-09-20"
-      },
       {
         "termDescription": "2022 Fall",
         "catalogNumber": "210-0",
@@ -54976,7 +57018,7 @@
         "courseNumber": "18547",
         "classMeetingInfo": [
           {
-            "ROOM": "555 Clark B01",
+            "ROOM": "Kresge Centennial Hall 2-430",
             "MEETING_TIME": "TuTh 9:30AM - 10:50AM"
           }
         ],
@@ -55076,7 +57118,7 @@
         "classMeetingInfo": [
           {
             "ROOM": "Tech Institute Lecture Room 3",
-            "MEETING_TIME": "TuTh 3:30PM - 5:00PM"
+            "MEETING_TIME": "TuTh 4:00PM - 5:30PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -55659,7 +57701,7 @@
         "courseNumber": "18815",
         "classMeetingInfo": [
           {
-            "ROOM": "Kresge Centennial Hall 3-410",
+            "ROOM": "Locy Hall 110",
             "MEETING_TIME": "MoWe 11:00AM - 12:20PM"
           }
         ],
@@ -55747,7 +57789,7 @@
         "courseNumber": "18686",
         "classMeetingInfo": [
           {
-            "ROOM": "Kresge Centennial Hall 2-435",
+            "ROOM": "Parkes Hall 214",
             "MEETING_TIME": "We 2:00PM - 4:50PM"
           }
         ],
@@ -55811,7 +57853,7 @@
   },
   {
     "status": 200,
-    "results": 2,
+    "results": 3,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -55824,6 +57866,22 @@
         "classMeetingInfo": [
           {
             "ROOM": "Parkes Hall 214",
+            "MEETING_TIME": "TuTh 2:00PM - 3:20PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "391-0",
+        "section": "21",
+        "component": "LEC",
+        "courseTitle": "Topics in Latin American and Caribbean Studies",
+        "topic": "",
+        "courseNumber": "20419",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Kresge Centennial Hall 2-343",
             "MEETING_TIME": "TuTh 2:00PM - 3:20PM"
           }
         ],
@@ -56159,7 +58217,7 @@
         "courseNumber": "18791",
         "classMeetingInfo": [
           {
-            "ROOM": "Kresge 2524 Media & Design",
+            "ROOM": "Technological Institute MG51",
             "MEETING_TIME": "TuTh 12:30PM - 1:50PM"
           }
         ],
@@ -59285,7 +61343,7 @@
   },
   {
     "status": 200,
-    "results": 90,
+    "results": 92,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -59754,6 +61812,22 @@
       {
         "termDescription": "2022 Fall",
         "catalogNumber": "136-1",
+        "section": "57",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "20425",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG32",
+            "MEETING_TIME": "Tu 6:00PM - 7:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "136-1",
         "section": "64",
         "component": "LAB",
         "courseTitle": "General Physics Laboratory",
@@ -59779,6 +61853,22 @@
           {
             "ROOM": "Technological Institute MG32",
             "MEETING_TIME": "We 4:00PM - 5:50PM"
+          }
+        ],
+        "startDate": "2022-09-20"
+      },
+      {
+        "termDescription": "2022 Fall",
+        "catalogNumber": "136-1",
+        "section": "71",
+        "component": "LAB",
+        "courseTitle": "General Physics Laboratory",
+        "topic": "",
+        "courseNumber": "20426",
+        "classMeetingInfo": [
+          {
+            "ROOM": "Technological Institute MG32",
+            "MEETING_TIME": "Th 8:00AM - 9:50AM"
           }
         ],
         "startDate": "2022-09-20"
@@ -60607,7 +62697,7 @@
   },
   {
     "status": 200,
-    "results": 39,
+    "results": 38,
     "data": [
       {
         "termDescription": "2022 Fall",
@@ -60731,7 +62821,7 @@
         "courseNumber": "20041",
         "classMeetingInfo": [
           {
-            "ROOM": "Fisk Hall 217",
+            "ROOM": "University Hall 122",
             "MEETING_TIME": "MoWe 3:30PM - 4:50PM"
           }
         ],
@@ -60859,7 +62949,7 @@
         "courseNumber": "18611",
         "classMeetingInfo": [
           {
-            "ROOM": "555 Clark B01",
+            "ROOM": "Kresge Centennial Hall 2-430",
             "MEETING_TIME": "TuTh 9:30AM - 10:50AM"
           }
         ],
@@ -60893,22 +62983,6 @@
           {
             "ROOM": "University Hall 102",
             "MEETING_TIME": "MoWe 11:00AM - 12:20PM"
-          }
-        ],
-        "startDate": "2022-09-20"
-      },
-      {
-        "termDescription": "2022 Fall",
-        "catalogNumber": "368-0",
-        "section": "20",
-        "component": "LEC",
-        "courseTitle": "Political Economy of Development",
-        "topic": "",
-        "courseNumber": "20042",
-        "classMeetingInfo": [
-          {
-            "ROOM": "Harris Hall L28",
-            "MEETING_TIME": "TuTh 12:30PM - 1:50PM"
           }
         ],
         "startDate": "2022-09-20"
@@ -64430,7 +66504,7 @@
         "courseNumber": "18642",
         "classMeetingInfo": [
           {
-            "ROOM": "Technological Institute L170",
+            "ROOM": "Kresge Centennial Hall 2-430",
             "MEETING_TIME": "MoWeFr 3:00PM - 3:50PM"
           }
         ],
@@ -64993,7 +67067,7 @@
         "courseNumber": "19509",
         "classMeetingInfo": [
           {
-            "ROOM": "Kresge Centennial Hall 2-435",
+            "ROOM": "Harris Hall L28",
             "MEETING_TIME": "Mo 2:00PM - 4:50PM"
           }
         ],
@@ -65674,7 +67748,7 @@
         "courseNumber": "16277",
         "classMeetingInfo": [
           {
-            "ROOM": "Harris Hall L06",
+            "ROOM": "University Library 5722",
             "MEETING_TIME": "MoWeFr 10:00AM - 10:50AM"
           }
         ],
@@ -65690,7 +67764,7 @@
         "courseNumber": "16278",
         "classMeetingInfo": [
           {
-            "ROOM": "Harris Hall L28",
+            "ROOM": "University Library 4770",
             "MEETING_TIME": "MoWeFr 1:00PM - 1:50PM"
           }
         ],
@@ -65706,7 +67780,7 @@
         "courseNumber": "16279",
         "classMeetingInfo": [
           {
-            "ROOM": "Annenberg Hall G32",
+            "ROOM": "University Library 5722",
             "MEETING_TIME": "MoWeFr 11:00AM - 11:50AM"
           }
         ],

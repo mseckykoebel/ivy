@@ -11,7 +11,6 @@ const getUndergraduateCourses = async (
   subjectId: string,
   coursesURL: string
 ): Promise<null | 404 | 500 | UndergraduateCourseSearch> => {
-  let numFailures = 0;
   const url = coursesURL + termId + "/" + schoolId + "/" + subjectId;
   const req = async (): Promise<
     UndergraduateCourseSearch | null | 404 | 500
@@ -31,7 +30,6 @@ const getUndergraduateCourses = async (
         (error, response, body) => {
           if (error || response.statusCode !== 200) {
             console.log("ERROR!", response.body);
-            numFailures += 1;
             reject(500);
             return;
           }
@@ -73,7 +71,6 @@ const getUndergraduateCourses = async (
           resolve({
             status: 200,
             results: data.length as number,
-            numberOfFailures: numFailures,
             data: data,
             school: schoolId,
             subject: subjectId,
