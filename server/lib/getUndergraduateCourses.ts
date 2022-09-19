@@ -11,9 +11,8 @@ const getUndergraduateCourses = async (
   subjectId: string,
   coursesURL: string
 ): Promise<null | 404 | 500 | UndergraduateCourseSearch> => {
-  console.log("RUNNING WITH SCHOOL: ", schoolId);
+  let numFailures = 0;
   const url = coursesURL + termId + "/" + schoolId + "/" + subjectId;
-  console.log("URL: ", url);
   const req = async (): Promise<
     UndergraduateCourseSearch | null | 404 | 500
   > => {
@@ -31,9 +30,8 @@ const getUndergraduateCourses = async (
         },
         (error, response, body) => {
           if (error || response.statusCode !== 200) {
-            console.log("SHOULD REJECT");
-            console.log("CODE: ", response.statusCode);
             console.log("ERROR!", response.body);
+            numFailures += 1;
             reject(500);
             return;
           }
@@ -42,7 +40,6 @@ const getUndergraduateCourses = async (
           const termDescription =
             JSON.parse(body).NW_CD_DTL_ALLCLS_RESP.TermDescr;
           if (!classDescriptions) {
-            console.log("THIS FAILED HERE!");
             reject(404);
             return;
           }
@@ -76,6 +73,7 @@ const getUndergraduateCourses = async (
           resolve({
             status: 200,
             results: data.length as number,
+            numberOfFailures: numFailures,
             data: data,
             school: schoolId,
             subject: subjectId,

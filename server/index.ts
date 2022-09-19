@@ -241,17 +241,17 @@ app.get("/api/v1/get_undergraduate_subjects/", async (req, res) => {
 app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
   const brokenTermIds = [4210, 4280, 4300, 4320, 4360, 4410];
   const termId = req.query.termId as string;
-  if (brokenTermIds.includes(Number(req.query.termId))) {
-    return res.status(404).send({
-      error: 404,
-      message: "Courses not stable yet for this year and quarter",
-    });
-  }
-  const cache = db(Number(termId));
-  // see if we can cache the results
-  if (termId && cache !== null) {
-    return res.json(cache);
-  }
+  // if (brokenTermIds.includes(Number(req.query.termId))) {
+  //   return res.status(404).send({
+  //     error: 404,
+  //     message: "Courses not stable yet for this year and quarter",
+  //   });
+  // }
+  // const cache = db(Number(termId));
+  // // see if we can cache the results
+  // if (termId && cache !== null) {
+  //   return res.json(cache);
+  // }
   // go into the depths of hell
   try {
     const result = (await getUndergraduateSchools(
@@ -373,7 +373,6 @@ app.get("/api/v1/get_course_detail/", async (req, res) => {
         return res.status(500).json({ type: "error", message: response.body });
       }
 
-      // "NW_CD_ONECLASS_RESP"
       const oneClassData = JSON.parse(body).NW_CD_ONECLASS_RESP;
       console.log(oneClassData);
       const classDescription = oneClassData.CLASSDESCR[0];
