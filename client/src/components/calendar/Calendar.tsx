@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 /* eslint-disable indent */
 // ^ yeah
-import { XIcon } from "@heroicons/react/outline";
+import { InformationCircleIcon, XIcon } from "@heroicons/react/outline";
 import React, {
   Dispatch,
   SetStateAction,
@@ -20,15 +20,20 @@ import {
   getStartTime,
   getEndTime,
 } from "../../lib/calendar";
+import { CourseDetail } from "../../types/courses";
 
 interface CalendarProps {
   calendarCourses: CalendarCourse[] | [];
   setCalendarCourses: Dispatch<SetStateAction<CalendarCourse[] | []>>;
+  setOpenDetailModal: Dispatch<SetStateAction<boolean>>;
+  setCourseDetail: Dispatch<SetStateAction<CourseDetail | null>>;
 }
 
 const Calendar: React.FC<CalendarProps> = ({
   calendarCourses,
   setCalendarCourses, // for when you need to remove an item from the calendar
+  setOpenDetailModal,
+  setCourseDetail,
 }): JSX.Element => {
   // again, shitty
   const container: React.MutableRefObject<HTMLDivElement | null> = useRef(null);
@@ -127,6 +132,22 @@ const Calendar: React.FC<CalendarProps> = ({
         return course.courseNumber !== courseId;
       })
     );
+  };
+
+  // this updates the current course detail, and opens the course detail modal from the home page
+  const handleDetailClick = (
+    termId: string,
+    school: string,
+    subject: string,
+    courseNumber: string
+  ) => {
+    setCourseDetail(() => ({
+      termId: termId,
+      school: school,
+      subject: subject,
+      courseNumber: courseNumber,
+    }));
+    setOpenDetailModal(() => true);
   };
 
   return (
@@ -371,9 +392,41 @@ const Calendar: React.FC<CalendarProps> = ({
                               <XIcon className="h-4 w-4" aria-hidden="true" />
                             </button>
                           </div>
-                          <p className="order-1 font-semibold text-gray-700">
-                            {course.subject} {course.catalogNumber}
-                          </p>
+                          <div className="absolute top-6 right-1 hidden pt-1 pr-1 sm:block">
+                            <button
+                              type="button"
+                              className="rounded-md bg-none text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+                              onClick={() =>
+                                handleDetailClick(
+                                  course.termId,
+                                  course.school,
+                                  course.subject,
+                                  course.courseNumber
+                                )
+                              }
+                            >
+                              <span className="sr-only">Close</span>
+                              <InformationCircleIcon
+                                className="h-4 w-4"
+                                aria-hidden="true"
+                              />
+                            </button>
+                          </div>
+                          {course.subject.length <= 7 && (
+                            <p className="order-1 font-semibold text-gray-700">
+                              {course.subject} {course.catalogNumber}
+                            </p>
+                          )}
+                          {course.subject.length > 7 && (
+                            <>
+                              <p className="order-1 font-semibold text-gray-700">
+                                {course.subject}
+                              </p>
+                              <p className="order-1 font-semibold text-gray-700">
+                                {course.catalogNumber}
+                              </p>
+                            </>
+                          )}
                           <p className="text-gray-400 group-hover:text-gray-700 transition-all">
                             <time dateTime="2022-01-12T07:30">
                               {getStartTime(

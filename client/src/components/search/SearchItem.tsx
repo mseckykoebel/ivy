@@ -62,6 +62,8 @@ const SearchItem: React.FC<SearchItemProps> = ({
       if (!calendarCourses) {
         setCalendarCourses([
           {
+            termId: termId,
+            school: school,
             subject: subject,
             catalogNumber: catalogNumber,
             courseNumber: courseNumber,
@@ -86,6 +88,8 @@ const SearchItem: React.FC<SearchItemProps> = ({
       setCalendarCourses((priorCourses: CalendarCourse[]) => [
         ...priorCourses,
         {
+          termId: termId,
+          school: school,
           subject: subject,
           catalogNumber: catalogNumber,
           courseNumber: courseNumber,

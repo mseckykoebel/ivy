@@ -291,14 +291,6 @@ const Home: React.FC = (): JSX.Element => {
 
   return (
     <>
-      {/*
-        This example requires updating your template:
-
-        ```
-        <html class="h-full bg-gray-100">
-        <body class="h-full">
-        ```
-      */}
       <div className="min-h-full">
         {/* MODALS */}
         {openSettingsModal && (
@@ -878,6 +870,8 @@ const Home: React.FC = (): JSX.Element => {
                         <Calendar
                           calendarCourses={calendarCourses}
                           setCalendarCourses={setCalendarCourses}
+                          setOpenDetailModal={setOpenDetailModal}
+                          setCourseDetail={setCourseDetail}
                         />
                       </div>
                     )}
