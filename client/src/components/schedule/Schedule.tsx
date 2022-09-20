@@ -164,9 +164,11 @@ const Schedule: React.FC<ScheduleProps> = ({
 
   return (
     <>
-      {loadingRef.current && scheduleCourses.length < 1 && (
-        <div className="font-atkinson mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
-          <h1 className="text-xs font-semibold text-gray-900">Loading...</h1>
+      {loadingRef.current && (
+        <div className="font-atkinson mx-auto h-16 max-w-7xl pb-0 -ml-8 mt-4 sm:px-6 md:px-8">
+          <p className="text-l font-semibold text-gray-900">
+            Loading schedule...
+          </p>
         </div>
       )}
 

@@ -347,7 +347,6 @@ const getStartingTimeMap = (courseDays: StartingTime): string => {
 // TODO: make this more specific - won't work too well (eat the paint! )
 const getCourseLengthMap = (courseLength: string): string => {
   const lengthOfTimeInMinutes = getLengthOfTime(courseLength);
-  console.log("LENGTH: ", lengthOfTimeInMinutes);
   switch (lengthOfTimeInMinutes) {
     case 50:
       return " span 20";
