@@ -422,7 +422,7 @@ const Home: React.FC = (): JSX.Element => {
                             key={item.name}
                             className={classNames(
                               calView === true && item.name === "Calendar view"
-                                ? "bg-white/10 border-white border-[1px]"
+                                ? "bg-white/10 border-white border-[1px] select-none pointer-events-none"
                                 : calView === false &&
                                   item.name === "Schedule view"
                                 ? "bg-white/10 border-white border-[1px]"
@@ -432,11 +432,13 @@ const Home: React.FC = (): JSX.Element => {
                             aria-current={item.name ? "page" : undefined}
                             onClick={() =>
                               item.name === "Calendar view"
-                                ? setCalView(true)
+                                ? ""
                                 : setCalView(false)
                             }
                           >
-                            {item.name}
+                            {item.name === "Calendar view"
+                              ? "Calendar view under construction 👀"
+                              : item.name}
                           </button>
                         ))}
                       </nav>

@@ -373,7 +373,6 @@ app.get("/api/v1/get_course_detail/", async (req, res) => {
         return res.status(500).json({ type: "error", message: response.body });
       }
 
-      // "NW_CD_ONECLASS_RESP"
       const oneClassData = JSON.parse(body).NW_CD_ONECLASS_RESP;
       console.log(oneClassData);
       const classDescription = oneClassData.CLASSDESCR[0];

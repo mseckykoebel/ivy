@@ -1,3 +1,4 @@
+import { ACADGROUPS_DB } from "../db/academicGroups";
 import request from "request";
 
 import { UndergraduateSchools } from "../types/school";
@@ -27,12 +28,15 @@ const getUndergraduateSchools = async (
             reject(500);
             return;
           }
-          const academic_groups =
+          // bug in the course API - straight up, just return them all. Don't worry about
+          // the year specifics
+          let academic_groups =
             JSON.parse(body).NW_CD_ACADGROUP_RESP.ACADGROUPS;
           if (!academic_groups) {
             reject(404);
             return;
           }
+          if (Number(termId) === 4870) academic_groups = ACADGROUPS_DB;
           const data: { school: string; schoolDescription: string }[] = [];
           // keeping track of duplicate quarters that come up
           const schools: string[] = [];
