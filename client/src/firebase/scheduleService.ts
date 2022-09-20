@@ -47,6 +47,7 @@ const createSchedulesArrayAddCourse = async (
   const schedulesRef = collection(db, "schedules");
   return await addDoc(schedulesRef, {
     userId: userId,
+    title: "",
     coursesData: arrayUnion(courseData),
   }).then((docRef) => {
     return docRef.id;
