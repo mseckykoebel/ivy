@@ -356,9 +356,75 @@ const getCourseLengthMap = (courseLength: string): string => {
     case 60:
       return " span 23";
     case 65:
-      return " span ";
+      return " span 25";
+    case 70:
+      return " span 26";
+    case 75:
+      return " span 28";
+    case 80:
+      return " span 29";
+    case 85:
+      return " span 31";
+    case 90:
+      return " span 32";
+    case 95:
+      return " span 34";
+    case 100:
+      return " span 35";
+    case 105:
+      return " span 37";
+    case 110:
+      return " span 39";
+    case 115:
+      return " span 41";
     case 120:
       return " span 42";
+    case 125:
+      return " span 44";
+    case 130:
+      return " span 46";
+    case 135:
+      return " span 47";
+    case 140:
+      return " span 49";
+    case 145:
+      return " span 50";
+    case 150:
+      return " span 52";
+    case 155:
+      return " span 54";
+    case 160:
+      return " span 55";
+    case 165:
+      return " span 57";
+    case 170:
+      return " span 59";
+    case 175:
+      return " span 60";
+    case 180:
+      return " span 62";
+    case 185:
+      return " span 64";
+    case 190:
+      return " span 65";
+    case 195:
+      return " span 67";
+    case 200:
+      return " span 68";
+    case 205:
+      return " span 70";
+    case 210:
+      return " span 72";
+    case 215:
+      return " span 73";
+    case 220:
+      return " span 75";
+    case 225:
+      return " span 77";
+    case 230:
+      return " span 78";
+    case 235:
+      return " span 80";
     case 240:
       return " span 82";
     default:

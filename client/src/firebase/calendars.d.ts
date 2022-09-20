@@ -7,6 +7,7 @@ export interface CalendarRecord {
 
 export interface CalendarCourseData {
   userId?: string;
+  title?: string;
   coursesData: CalendarCourse[];
   // coursesData is the name of the next field here
 }
