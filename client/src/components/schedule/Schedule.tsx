@@ -117,13 +117,13 @@ const Schedule: React.FC<ScheduleProps> = ({
   // big 🎣
   // determines how to write to the DB with changes
   useEffect(() => {
-    console.log("LOADING: ", loadingRef.current);
     if (scheduleCourses.length > 0) {
       // set the quarter/year pairs
       setQuarterYearSets(initQuarterYearSets());
       // update the array of courses if something was added
       // handleRemoveCourse handles removal, so we know this is an addition!
-      // and, we know the last added course is the newest. So, send that one to firebase
+      // and, we know the last added course is the newest. So, send that one to firebase...
+      // but first, superUser if for the superUser
       if (currentUser?.email !== "msk@gmail.com") {
         if (scheduleId === "" && loadingRef.current === false) {
           createSchedulesArrayAddCourse(
@@ -133,10 +133,12 @@ const Schedule: React.FC<ScheduleProps> = ({
             setScheduleId(documentId);
           });
         } else {
-          updateSchedulesArrayAddCourse(
-            scheduleId,
-            scheduleCourses[scheduleCourses.length - 1]
-          );
+          if (scheduleId !== "") {
+            updateSchedulesArrayAddCourse(
+              scheduleId,
+              scheduleCourses[scheduleCourses.length - 1]
+            );
+          }
         }
       }
     }
@@ -162,9 +164,11 @@ const Schedule: React.FC<ScheduleProps> = ({
 
   return (
     <>
-      {loadingRef.current && scheduleCourses.length < 1 && (
-        <div className="font-atkinson mx-auto max-w-7xl pb-0 -ml-8 sm:px-6 md:px-8">
-          <h1 className="text-xs font-semibold text-gray-900">Loading...</h1>
+      {loadingRef.current && (
+        <div className="font-atkinson mx-auto h-16 max-w-7xl pb-0 -ml-8 mt-4 sm:px-6 md:px-8">
+          <p className="text-l font-semibold text-gray-900">
+            Loading schedule...
+          </p>
         </div>
       )}
 
@@ -186,14 +190,7 @@ const Schedule: React.FC<ScheduleProps> = ({
       )}
 
       {quarterYearSets.map((quarterYear, id) => (
-        <div
-          key={id}
-          className={`rounded-lg bg-white px-4 py-5 ${
-            !loadingRef.current && scheduleId !== "" && scheduleCourses.length
-              ? "border-[1px] border-gray-200"
-              : "border-none"
-          }  mb-5"`}
-        >
+        <div key={id} className={`rounded-lg bg-white px-4 py-3 mb-5"`}>
           {/* WILL BE THE TITLE OF THE RELEVANT COLUMN */}
           {scheduleCourses.length !== 0 && (
             <div className="mx-auto max-w-7xl pb-5 -ml-8 sm:px-6 md:px-8">
@@ -231,11 +228,6 @@ const Schedule: React.FC<ScheduleProps> = ({
                       <p className="font-atkinson mt-1 text-gray-500 text-sm truncate">
                         {course.school}
                       </p>
-                      {/* Requirement badge
-              <span className="flex-shrink-0 inline-block px-2 py-0.5 text-green-800 text-xs font-medium bg-green-100 rounded-full">
-                {person.role}
-              </span>
-               */}
                       <div className="font-atkinson mt-3 text-[.75rem]">
                         <button
                           className="font-small text-indigo-600 hover:text-indigo-500 hover:underline"
@@ -267,6 +259,7 @@ const Schedule: React.FC<ScheduleProps> = ({
                 </li>
               ))}
           </ul>
+          <hr className="mt-8 h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
         </div>
       ))}
     </>

@@ -42,9 +42,6 @@ export const CourseDetail: React.FC<CourseDetailProps> = ({
   const getCourseDetail = () => {
     setError("");
     setCourseDetails(null);
-
-    console.log("GETTING COURSE DETAILS");
-
     const loadDetails = async () => {
       const detailsUrl =
         process.env.NODE_ENV !== "production"

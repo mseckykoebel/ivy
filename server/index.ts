@@ -377,11 +377,26 @@ app.get("/api/v1/get_course_detail/", async (req, res) => {
       console.log(oneClassData);
       const classDescription = oneClassData.CLASSDESCR[0];
       // granular course description information
-      const classMeetingInfo = classDescription.CLASS_MTG_INFO[0];
-      const associatedClass = classDescription.ASSOCIATED_CLASS[0];
-      const classAttributes = classDescription.CLASS_ATTRIBUTES[0];
-      const enrollmentRequirement = classDescription.ENRL_REQUIREMENT[0];
-      const instructorInformation = classDescription.INSTRUCTOR[0];
+      const classMeetingInfo =
+        classDescription.CLASS_MTG_INFO === undefined
+          ? null
+          : classDescription.CLASS_MTG_INFO[0];
+      const associatedClass =
+        classDescription.ASSOCIATED_CLASS === undefined
+          ? null
+          : classDescription.ASSOCIATED_CLASS[0];
+      const classAttributes =
+        classDescription.CLASS_ATTRIBUTES === undefined
+          ? null
+          : classDescription.CLASS_ATTRIBUTES[0];
+      const enrollmentRequirement =
+        classDescription.ENRL_REQUIREMENT === undefined
+          ? null
+          : classDescription.ENRL_REQUIREMENT[0];
+      const instructorInformation =
+        classDescription.INSTRUCTOR === undefined
+          ? null
+          : classDescription.INSTRUCTOR[0];
 
       // if there is an array of information, we take the first component (core assumption here)
       const oneCourseData: Record<string, string> = {
@@ -403,18 +418,40 @@ app.get("/api/v1/get_course_detail/", async (req, res) => {
         "🐎 Start date": classDescription.START_DT,
         "🏁 End date": classDescription.END_DT,
         // array data from above
-        "🚪 Class meeting room": classMeetingInfo.ROOM,
-        "⏰ Class meeting time": classMeetingInfo.MEETING_TIME,
-        "😴 Associated class section (if any)": associatedClass.SECTION,
-        "☄️ Associated class component (if any)": associatedClass.COMPONENT,
-        "👔 Class attributes": classAttributes.CRSE_ATTR_VALUE,
-        "🤔 Enrollment requirements": enrollmentRequirement.ENRL_REQ_VALUE,
-        "🧑‍🏫 Instructor name": instructorInformation.DISPLAY_NAME,
-        "☎️ Instructor phone": instructorInformation.PHONE,
-        "🏡 Instructor campus address": instructorInformation.CAMPUS_ADDR,
-        "📌 Office hours": instructorInformation.OFFICE_HOURS,
-        "🤓 Bio": instructorInformation.INST_BIO,
-        "👨‍💻 Website": instructorInformation.URL,
+        "🚪 Class meeting room": classMeetingInfo
+          ? classMeetingInfo.ROOM
+          : "N/A",
+        "⏰ Class meeting time": classMeetingInfo
+          ? classMeetingInfo.MEETING_TIME
+          : "N/A",
+        "😴 Associated classes": associatedClass
+          ? associatedClass.SECTION
+          : "N/A",
+        "☄️ Associated classes": associatedClass
+          ? associatedClass.COMPONENT
+          : "N/A",
+        "👔 Class attributes": classAttributes
+          ? classAttributes.CRSE_ATTR_VALUE
+          : "N/A",
+        "🤔 Enrollment requirements": enrollmentRequirement
+          ? enrollmentRequirement.ENRL_REQ_VALUE
+          : "N/A",
+        "🧑‍🏫 Instructor name": instructorInformation
+          ? instructorInformation.DISPLAY_NAME
+          : "N/A",
+        "☎️ Instructor phone": instructorInformation
+          ? instructorInformation.PHONE
+          : "N/A",
+        "🏡 Instructor campus address": instructorInformation
+          ? instructorInformation.CAMPUS_ADDR
+          : "N/A",
+        "📌 Office hours": instructorInformation
+          ? instructorInformation.OFFICE_HOURS
+          : "N/A",
+        "🤓 Bio": instructorInformation
+          ? instructorInformation.INST_BIO
+          : "N/A",
+        "👨‍💻 Website": instructorInformation ? instructorInformation.URL : "N/A",
         "🧋 Term Id": oneClassData.STRM,
         "🎢 Course Id": classDescription.CRSE_ID,
         "🔮 Date visible in system": oneClassData.DATE_VISIBLE_IN_SES,
