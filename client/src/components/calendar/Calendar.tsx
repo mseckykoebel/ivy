@@ -98,7 +98,9 @@ const Calendar: React.FC<CalendarProps> = ({
 
       getCalendarFromFirebase()
         .then(() => {
+          console.log("Done loading!");
           loadingRef.current = false;
+          console.log(loadingRef.current);
         })
         .catch((err) => {
           console.log("There was an error fetching courses from the DB: ", err);
@@ -232,14 +234,6 @@ const Calendar: React.FC<CalendarProps> = ({
 
   return (
     <div className="flex h-full flex-col z-2">
-      {loadingRef.current && (
-        <div className="font-atkinson mx-auto h-16 max-w-7xl pb-0 -ml-8 mt-4 sm:px-6 md:px-8">
-          <p className="text-l font-semibold text-gray-900">
-            Loading calendar...
-          </p>
-        </div>
-      )}
-
       {calendarId === "" && calendarCourses.length < 1 && (
         <div className="font-atkinson mx-auto h-16 max-w-7xl pb-0 -ml-8 mt-4 sm:px-6 md:px-8">
           <h1 className="text-l font-semibold text-gray-900">
