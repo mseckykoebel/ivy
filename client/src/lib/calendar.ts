@@ -338,8 +338,337 @@ const getStartingTimeMap = (courseDays: StartingTime): string => {
     case "9:55PM":
       return "277/ ";
     default:
-      console.log("Triggering the default startingTime state");
       return "1/ "; // defaults to the top of the calendar
+  }
+};
+
+const getStartingTimeInMinutesSinceTwelve = (
+  courseDays: StartingTime
+): number => {
+  const startingTime = courseDays.split(" ")[1];
+  switch (startingTime) {
+    // 8AM
+    case "8:00AM":
+      return 480;
+    case "8:10AM":
+      return 490;
+    case "8:15AM":
+      return 495;
+    case "8:20AM":
+      return 500;
+    case "8:25AM":
+      return 505;
+    case "8:30AM":
+      return 510;
+    case "8:35AM":
+      return 515;
+    case "8:40AM":
+      return 520;
+    case "8:45AM":
+      return 525;
+    case "8:50AM":
+      return 530;
+    case "8:55AM":
+      return 535;
+    // 9AM
+    case "9:00AM":
+      return 540;
+    case "9:10AM":
+      return 550;
+    case "9:15AM":
+      return 555;
+    case "9:20AM":
+      return 560;
+    case "9:25AM":
+      return 565;
+    case "9:30AM":
+      return 570;
+    case "9:35AM":
+      return 575;
+    case "9:40AM":
+      return 580;
+    case "9:45AM":
+      return 585;
+    case "9:50AM":
+      return 590;
+    case "9:55AM":
+      return 595;
+    // 10 AM
+    case "10:00AM":
+      return 600;
+    case "10:10AM":
+      return 610;
+    case "10:15AM":
+      return 615;
+    case "10:20AM":
+      return 620;
+    case "10:25AM":
+      return 625;
+    case "10:30AM":
+      return 630;
+    case "10:35AM":
+      return 635;
+    case "10:40AM":
+      return 640;
+    case "10:45AM":
+      return 645;
+    case "10:50AM":
+      return 650;
+    case "10:55AM":
+      return 655;
+    // 11AM
+    case "11:00AM":
+      return 660;
+    case "11:10AM":
+      return 670;
+    case "11:15AM":
+      return 675;
+    case "11:20AM":
+      return 680;
+    case "11:25AM":
+      return 685;
+    case "11:30AM":
+      return 690;
+    case "11:35AM":
+      return 695;
+    case "11:40AM":
+      return 700;
+    case "11:45AM":
+      return 705;
+    case "11:50AM":
+      return 710;
+    case "11:55AM":
+      return 715;
+    // 12 PM
+    case "12:00PM":
+      return 720;
+    case "12:10PM":
+      return 730;
+    case "12:20PM":
+      return 740;
+    case "12:25PM":
+      return 745;
+    case "12:30PM":
+      return 750;
+    case "12:35PM":
+      return 755;
+    case "12:40PM":
+      return 760;
+    case "12:45PM":
+      return 765;
+    case "12:50PM":
+      return 770;
+    case "12:55PM":
+      return 775;
+    // 1 PM
+    case "1:00PM":
+      return 780;
+    case "1:10PM":
+      return 790;
+    case "1:15PM":
+      return 795;
+    case "1:20PM":
+      return 800;
+    case "1:25PM":
+      return 805;
+    case "1:30PM":
+      return 810;
+    case "1:35PM":
+      return 815;
+    case "1:40PM":
+      return 820;
+    case "1:45PM":
+      return 825;
+    case "1:50PM":
+      return 850;
+    case "1:55PM":
+      return 855;
+    // 2 PM
+    case "2:00PM":
+      return 860;
+    case "2:10PM":
+      return 870;
+    case "2:15PM":
+      return 875;
+    case "2:20PM":
+      return 880;
+    case "2:25PM":
+      return 885;
+    case "2:30PM":
+      return 890;
+    case "2:35PM":
+      return 895;
+    case "2:40PM":
+      return 900;
+    case "2:45PM":
+      return 905;
+    case "2:50PM":
+      return 910;
+    case "2:55PM":
+      return 915;
+    // 3 PM
+    case "3:00PM":
+      return 920;
+    case "3:10PM":
+      return 930;
+    case "3:15PM":
+      return 935;
+    case "3:20PM":
+      return 940;
+    case "3:25PM":
+      return 945;
+    case "3:30PM":
+      return 950;
+    case "3:35PM":
+      return 955;
+    case "3:40PM":
+      return 960;
+    case "3:45PM":
+      return 965;
+    case "3:50PM":
+      return 970;
+    case "3:55PM":
+      return 975;
+    // 4 PM
+    case "4:00PM":
+      return 980;
+    case "4:10PM":
+      return 990;
+    case "4:15PM":
+      return 995;
+    case "4:20PM":
+      return 1000;
+    case "4:25PM":
+      return 1005;
+    case "4:30PM":
+      return 1010;
+    case "4:35PM":
+      return 1015;
+    case "4:40PM":
+      return 1020;
+    case "4:45PM":
+      return 1025;
+    case "4:50PM":
+      return 1030;
+    case "4:55PM":
+      return 1035;
+    // 5 PM
+    case "5:00PM":
+      return 1040;
+    case "5:10PM":
+      return 1050;
+    case "5:15PM":
+      return 1055;
+    case "5:20PM":
+      return 1060;
+    case "5:25PM":
+      return 1065;
+    case "5:30PM":
+      return 1070;
+    case "5:35PM":
+      return 1075;
+    case "5:40PM":
+      return 1080;
+    case "5:45PM":
+      return 1085;
+    case "5:50PM":
+      return 1090;
+    case "5:55PM":
+      return 1095;
+    // 6 PM
+    case "6:00PM":
+      return 1100;
+    case "6:10PM":
+      return 1110;
+    case "6:15PM":
+      return 1115;
+    case "6:20PM":
+      return 1120;
+    case "6:25PM":
+      return 1125;
+    case "6:30PM":
+      return 1130;
+    case "6:35PM":
+      return 1135;
+    case "6:40PM":
+      return 1140;
+    case "6:45PM":
+      return 1145;
+    case "6:50PM":
+      return 1150;
+    case "6:55PM":
+      return 1155;
+    // 7 PM
+    case "7:00PM":
+      return 1160;
+    case "7:10PM":
+      return 1170;
+    case "7:15PM":
+      return 1175;
+    case "7:20PM":
+      return 1180;
+    case "7:25PM":
+      return 1185;
+    case "7:30PM":
+      return 1190;
+    case "7:35PM":
+      return 1195;
+    case "7:40PM":
+      return 1200;
+    case "7:45PM":
+      return 1205;
+    case "7:50PM":
+      return 1210;
+    case "7:55PM":
+      return 1215;
+    // 8 PM
+    case "8:00PM":
+      return 1220;
+    case "8:10PM":
+      return 1230;
+    case "8:15PM":
+      return 1235;
+    case "8:20PM":
+      return 1240;
+    case "8:25PM":
+      return 1245;
+    case "8:30PM":
+      return 1250;
+    case "8:35PM":
+      return 1255;
+    case "8:40PM":
+      return 1260;
+    case "8:45PM":
+      return 1265;
+    case "8:50PM":
+      return 1270;
+    case "8:55PM":
+      return 1275;
+    // 9 PM
+    case "9:00PM":
+      return 1280;
+    case "9:10PM":
+      return 1290;
+    case "9:15PM":
+      return 1295;
+    case "9:20PM":
+      return 1300;
+    case "9:25PM":
+      return 1305;
+    case "9:30PM":
+      return 1310;
+    case "9:35PM":
+      return 1315;
+    case "9:40PM":
+      return 1320;
+    case "9:45PM":
+      return 1325;
+    case "9:50PM":
+      return 1350;
+    case "9:55PM":
+      return 1355;
+    default:
+      return 480; // defaults to the top of the calendar
   }
 };
 
@@ -490,4 +819,6 @@ export {
   getCourseDaysJustDays,
   getStartTime,
   getEndTime,
+  getLengthOfTime,
+  getStartingTimeInMinutesSinceTwelve
 };

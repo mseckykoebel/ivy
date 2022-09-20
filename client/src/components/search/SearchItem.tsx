@@ -1,8 +1,15 @@
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
 /* eslint-disable indent */
 import React, { Dispatch, SetStateAction, useState } from "react";
 import { CourseDetail } from "../../types/courses";
 import { ScheduleCourse } from "../../types/schedule";
 import { CalendarCourse } from "../../types/calendar";
+import { Warning } from "../notifications/Warning";
+import {
+  getCourseDaysJustDays,
+  getLengthOfTime,
+  getStartingTimeInMinutesSinceTwelve,
+} from "../../lib/calendar";
 
 interface SearchItemProps {
   termId: string;
@@ -54,10 +61,65 @@ const SearchItem: React.FC<SearchItemProps> = ({
 }): JSX.Element => {
   // error state - just works with
   const [error, setError] = useState("");
+  // warning modal
+  const [warningModal, setWarningModal] = useState<boolean>(false);
+  const [courseCollision, setCourseCollision] = useState<boolean>(false);
+  const [conflictingCourse, setConflictingCourse] = useState<
+    CalendarCourse | ""
+  >("");
 
   // this updates either the schedule or the calendar array!
   // refactor this in v1.1
+
+  const handleCollisionCheck = () => {
+    // first, see if there is a collision with existing courses
+    getStartingTimeInMinutesSinceTwelve;
+    const thisCoursesStartTime = getStartingTimeInMinutesSinceTwelve(
+      classMeetingInfo[0].MEETING_TIME
+    );
+    const thisCoursesLength = getLengthOfTime(classMeetingInfo[0].MEETING_TIME);
+
+    const courseLengths = [];
+    const courseStartTimes = [];
+    const courseDays = [];
+    for (let i = 0; i < calendarCourses.length; i++) {
+      courseLengths.push(
+        getLengthOfTime(calendarCourses[i].classMeetingInfo![0].MEETING_TIME)
+      );
+      courseStartTimes.push(
+        getStartingTimeInMinutesSinceTwelve(
+          calendarCourses[i].classMeetingInfo![0].MEETING_TIME
+        )
+      );
+      courseDays.push(
+        getCourseDaysJustDays(
+          calendarCourses[i].classMeetingInfo![0].MEETING_TIME
+        )
+      );
+    }
+
+    // TODO: course collision detection happens here
+    for (let i = 0; i < courseLengths.length; i++) {
+      if (
+        thisCoursesStartTime < courseStartTimes[i] + courseLengths[i] ||
+        thisCoursesStartTime + thisCoursesLength <
+          courseStartTimes[i] + courseLengths[i]
+      ) {
+        console.log("CONFLICT!");
+        // no complicated conflict handling yet
+        // setConflictingCourse(calendarCourses[i]);
+        // setCourseCollision(true);
+        // setWarningModal(true);
+        // return;
+      }
+    }
+    handleViewClick("Calendar");
+  };
+
   const handleViewClick = (view: "Calendar" | "Schedule") => {
+    // CALENDAR
+    // CALENDAR
+    // CALENDAR
     if (view === "Calendar") {
       if (!calendarCourses) {
         setCalendarCourses([
@@ -97,6 +159,10 @@ const SearchItem: React.FC<SearchItemProps> = ({
           color: color,
         },
       ]);
+      // SCHEDULES
+      // SCHEDULES
+      // SCHEDULES
+      // SCHEDULES
     } else {
       if (!scheduleCourses) {
         setScheduleCourses([
@@ -160,6 +226,18 @@ const SearchItem: React.FC<SearchItemProps> = ({
     <div
       className={`${color} shadow sm:rounded-lg mb-4 m-4 hover:scale-[101%] transition-all hover:cursor-pointer`}
     >
+      {/* MODALS */}
+      {courseCollision && (
+        <Warning
+          warningDetail={`Selecting this course conflicts with another course you added to the calendar. Do you want to add it anyway?`}
+          warningMessage="Warning: collision with "
+          openWarningModal={warningModal}
+          setOpenWarningModal={setWarningModal}
+          handleViewClick={handleViewClick}
+          conflictingCourse={conflictingCourse}
+        />
+      )}
+
       <div className="px-4 py-5 sm:p-6">
         <h3 className="font-atkinson text-xl font-semibold leading-6 text-gray-900">
           {subject} {catalogNumber} - {courseTitle}
@@ -190,7 +268,11 @@ const SearchItem: React.FC<SearchItemProps> = ({
             <button
               // disable
               className="text-[.75rem] text-indigo-600 hover:text-indigo-500 hover:underline"
-              onClick={() => handleViewClick(view)}
+              onClick={() =>
+                view !== "Calendar"
+                  ? handleViewClick(view)
+                  : handleCollisionCheck()
+              }
             >
               {" "}
               Add to {view} <span aria-hidden="true">&rarr;</span>
