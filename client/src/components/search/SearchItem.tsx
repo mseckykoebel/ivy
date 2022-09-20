@@ -178,7 +178,6 @@ const SearchItem: React.FC<SearchItemProps> = ({
           <button
             className="text-[.75rem] text-indigo-600 hover:text-indigo-500 hover:underline"
             onClick={() => {
-              console.log("View more details on this course was requested!");
               handleDetailClick();
             }}
           >

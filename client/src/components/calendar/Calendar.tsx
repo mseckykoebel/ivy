@@ -21,6 +21,13 @@ import {
   getEndTime,
 } from "../../lib/calendar";
 import { CourseDetail } from "../../types/courses";
+import { useAuth } from "../../contexts/AuthContext";
+import {
+  createCalendarArrayAddCourse,
+  getCalendarByUserId,
+  updateCalendarArrayAddCourse,
+  updateCalendarArrayRemoveCourse,
+} from "../../firebase/calendarService";
 
 interface CalendarProps {
   calendarCourses: CalendarCourse[] | [];
@@ -35,6 +42,8 @@ const Calendar: React.FC<CalendarProps> = ({
   setOpenDetailModal,
   setCourseDetail,
 }): JSX.Element => {
+  // init auth
+  const { currentUser } = useAuth();
   // again, shitty
   const container: React.MutableRefObject<HTMLDivElement | null> = useRef(null);
   const containerNav: React.MutableRefObject<HTMLDivElement | null> =
@@ -47,6 +56,10 @@ const Calendar: React.FC<CalendarProps> = ({
   const [renderedCourses, setRenderedCourses] = useState<CalendarCourse[] | []>(
     []
   );
+  // current calendar
+  const [calendarId, setCalendarId] = useState<string>("");
+  // ref
+  const loadingRef = useRef(false);
 
   useEffect(() => {
     // Set the container scroll position based on the current time.
@@ -58,6 +71,60 @@ const Calendar: React.FC<CalendarProps> = ({
         currentMinute) /
       1440;
   }, []);
+
+  // initial render - get the list of calendars from the DB
+  useEffect(() => {
+    if (currentUser?.email !== "msk@gmail.com") {
+      const getCalendarFromFirebase = async () => {
+        loadingRef.current = true;
+        const courseDataFromDb: CalendarCourse[] = [];
+        const calendarRecords = await getCalendarByUserId(
+          currentUser?.uid as string
+        );
+        // if this is null, there are no calendar record, and we can continue
+        if (!calendarRecords) return;
+        // remove the id
+        for (let j = 0; j < calendarRecords.data.coursesData.length; j++) {
+          courseDataFromDb.push(calendarRecords.data.coursesData[j]);
+        }
+        // set the document ID for this schedule, and the schedules for this course
+        setCalendarId(calendarRecords.id);
+        setCalendarCourses(courseDataFromDb);
+      };
+
+      getCalendarFromFirebase()
+        .then(() => {
+          loadingRef.current = false;
+        })
+        .catch((err) => {
+          console.log("There was an error fetching courses from the DB: ", err);
+        });
+    }
+  }, []);
+
+  // update to the DB when the current list of courses changes
+  useEffect(() => {
+    console.log("THIS FIRED");
+    if (calendarCourses.length > 0) {
+      if (currentUser?.email !== "msk@gmail.com") {
+        if (calendarId === "" && loadingRef.current === false) {
+          createCalendarArrayAddCourse(
+            currentUser?.uid as string,
+            calendarCourses[calendarCourses.length - 1]
+          ).then((documentId) => {
+            setCalendarId(documentId);
+          });
+        } else {
+          if (calendarId !== "") {
+            updateCalendarArrayAddCourse(
+              calendarId,
+              calendarCourses[calendarCourses.length - 1]
+            );
+          }
+        }
+      }
+    }
+  }, [calendarCourses]);
 
   const updateCourses = (coursesToUpdate: CalendarCourse[]) => {
     // must find when courses are offered
@@ -127,6 +194,15 @@ const Calendar: React.FC<CalendarProps> = ({
   }, [calendarCourses]);
 
   const handleRemoveCourse = (courseId: string) => {
+    // GET THE COURSE WE ARE REMOVING
+    const courseToRemove = calendarCourses.filter((course) => {
+      return course.courseNumber === courseId;
+    });
+    // HANDLE DELETION FROM THE DB
+    if (currentUser?.email !== "msk@gmail.com") {
+      updateCalendarArrayRemoveCourse(calendarId, courseToRemove[0]);
+    }
+    // REMOVE FROM THE UI
     setCalendarCourses((currentCourses: CalendarCourse[]) =>
       currentCourses.filter((course) => {
         return course.courseNumber !== courseId;

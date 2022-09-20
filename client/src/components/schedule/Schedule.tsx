@@ -117,7 +117,6 @@ const Schedule: React.FC<ScheduleProps> = ({
   // big 🎣
   // determines how to write to the DB with changes
   useEffect(() => {
-    console.log("LOADING: ", loadingRef.current);
     if (scheduleCourses.length > 0) {
       // set the quarter/year pairs
       setQuarterYearSets(initQuarterYearSets());
@@ -234,11 +233,6 @@ const Schedule: React.FC<ScheduleProps> = ({
                       <p className="font-atkinson mt-1 text-gray-500 text-sm truncate">
                         {course.school}
                       </p>
-                      {/* Requirement badge
-              <span className="flex-shrink-0 inline-block px-2 py-0.5 text-green-800 text-xs font-medium bg-green-100 rounded-full">
-                {person.role}
-              </span>
-               */}
                       <div className="font-atkinson mt-3 text-[.75rem]">
                         <button
                           className="font-small text-indigo-600 hover:text-indigo-500 hover:underline"
