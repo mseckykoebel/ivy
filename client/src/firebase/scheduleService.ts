@@ -1,3 +1,4 @@
+import firebase from "firebase/compat/app";
 import {
   getDocs,
   query,
@@ -34,6 +35,7 @@ const updateSchedulesArrayAddCourse = async (
 ): Promise<void> => {
   const schedulesRef = doc(db, "schedules", scheduleId);
   await updateDoc(schedulesRef, {
+    lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
     coursesData: arrayUnion(courseData),
   });
 };
@@ -48,6 +50,7 @@ const createSchedulesArrayAddCourse = async (
   return await addDoc(schedulesRef, {
     userId: userId,
     title: "",
+    lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
     coursesData: arrayUnion(courseData),
   }).then((docRef) => {
     return docRef.id;
@@ -61,6 +64,7 @@ const updateSchedulesArrayRemoveCourse = async (
 ): Promise<void> => {
   const schedulesRef = doc(db, "schedules", scheduleId);
   await updateDoc(schedulesRef, {
+    lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
     coursesData: arrayRemove(courseData),
   });
 };
