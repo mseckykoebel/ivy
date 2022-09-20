@@ -188,14 +188,7 @@ const Schedule: React.FC<ScheduleProps> = ({
       )}
 
       {quarterYearSets.map((quarterYear, id) => (
-        <div
-          key={id}
-          className={`rounded-lg bg-white px-4 py-5 ${
-            !loadingRef.current && scheduleId !== "" && scheduleCourses.length
-              ? "border-[1px] border-gray-200"
-              : "border-none"
-          }  mb-5"`}
-        >
+        <div key={id} className={`rounded-lg bg-white px-4 py-3 mb-5"`}>
           {/* WILL BE THE TITLE OF THE RELEVANT COLUMN */}
           {scheduleCourses.length !== 0 && (
             <div className="mx-auto max-w-7xl pb-5 -ml-8 sm:px-6 md:px-8">
@@ -264,6 +257,7 @@ const Schedule: React.FC<ScheduleProps> = ({
                 </li>
               ))}
           </ul>
+          <hr className="mt-8 h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
         </div>
       ))}
     </>
