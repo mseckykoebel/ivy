@@ -1,10 +1,10 @@
 # 💻 Ivy/client
 
-Ivy's client is the app that users see and interact with. **Ivy's currently in pre-release. This means not all v1.0 features are available, or stable. Ivy 1.0 is slated for release on September 21st, 2022.**
+Ivy's client is the app that users see and interact with. **Ivy's currently in pre-release. This means not all v1.0 features are available, or stable. Ivy 1.0 is slated for release by ~September 25th, 2022.**
 
 ## Roadmap and feature list
 
-### Ivy v1.0 - September 21st, 2022:
+### Ivy v1.0 - September 25th, 2022:
 
 1. **📚 Extensive, historical course catalogue**: Ivy supports searching for courses from as far back as 2004. Plan and record courses from any year or quarter in the past fifteen years. Instant next-quarter support, no waiting for courses to be released. All real-time
 2. **🗓 Calendar view**: plan out a single quarter at NU by selecting courses based on year and quarter. Add and remove as many courses as you want
