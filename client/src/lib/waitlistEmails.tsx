@@ -31,7 +31,8 @@ const waitlistEmails = [
   "vishaal.mali98@gmail.com",
   "AnirudhPoranki2024@u.northwestern.edu",
   "tiffanylou2024@u.northwestern.edu",
-  "dustin.levell@northwestern.edu"
+  "dustin.levell@northwestern.edu",
+  "pdhanoa@u.northwestern.edu"
 ];
 
 export { waitlistEmails };
