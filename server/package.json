@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "build": "NODE_ENV=production NODE_OPTIONS='--max-old-space-size=8192' tsc",
+    "build": "NPM_CONFIG_PRODUCTION=true NODE_OPTIONS='--max-old-space-size=8192' tsc",
     "prestart": "npm run build",
     "start": "NODE_ENV=production node dist/index.js",
     "dev": "nodemon index.ts",
@@ -17,7 +17,7 @@
       "ts": "ts-node"
     }
   },
-  "author": "Mason Secky-Koebel, Raiso",
+  "author": "Raiso",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
