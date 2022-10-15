@@ -199,11 +199,16 @@ const Calendar: React.FC<CalendarProps> = ({
     updateCourses(allCurrentCourses);
   }, [calendarCourses]);
 
-  const handleRemoveCourse = (courseId: string) => {
+  const handleRemoveCourse = (courseId: string, section?: string) => {
     // GET THE COURSE WE ARE REMOVING
     const courseToRemove = calendarCourses.filter((course) => {
-      return course.courseNumber === courseId;
+      if (section) {
+        return course.section === section;
+      } else {
+        return course.courseNumber === courseId;
+      }
     });
+    console.log(courseToRemove);
     // HANDLE DELETION FROM THE DB
     if (currentUser?.email !== "msk@gmail.com") {
       updateCalendarArrayRemoveCourse(calendarId, courseToRemove[0]);
@@ -211,7 +216,11 @@ const Calendar: React.FC<CalendarProps> = ({
     // REMOVE FROM THE UI
     setCalendarCourses((currentCourses: CalendarCourse[]) =>
       currentCourses.filter((course) => {
-        return course.courseNumber !== courseId;
+        if (section) {
+          return course.section != section;
+        } else {
+          return course.courseNumber != courseId;
+        }
       })
     );
   };
@@ -506,7 +515,10 @@ const Calendar: React.FC<CalendarProps> = ({
                                     type="button"
                                     className="rounded-md bg-none text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
                                     onClick={() =>
-                                      handleRemoveCourse(course.courseNumber)
+                                      handleRemoveCourse(
+                                        course.courseNumber,
+                                        course.section
+                                      )
                                     }
                                   >
                                     <span className="sr-only">Close</span>
@@ -538,7 +550,7 @@ const Calendar: React.FC<CalendarProps> = ({
                                 </div>
                                 {course.subject.length <= 7 && (
                                   <p className="order-1 font-semibold text-gray-700">
-                                    {course.courseNumber.length > 5
+                                    {course.section
                                       ? course.catalogNumber +
                                         " " +
                                         "Discussion"

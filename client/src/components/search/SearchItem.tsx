@@ -227,6 +227,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
   const addAssociatedClassTo = (
     view: "Calendar" | "Schedule",
     associatedCourse: {
+      SECTION: string;
       COMPONENT: string;
       CLASS_MTG_INFO2: { ROOM: string; MEETING_TIME: string }[];
     },
@@ -248,10 +249,10 @@ const SearchItem: React.FC<SearchItemProps> = ({
           classMeetingInfo: associatedCourse.CLASS_MTG_INFO2,
           termDescription: termDescription,
           color: color,
+          section: associatedCourse.SECTION,
         },
       ]);
     } else {
-      console.log("CALENDAR UPDATE");
       setCalendarCourses((priorCourses: CalendarCourse[]) => [
         ...priorCourses,
         {
@@ -259,9 +260,10 @@ const SearchItem: React.FC<SearchItemProps> = ({
           school: school,
           subject: subject,
           catalogNumber: catalogNumber,
-          courseNumber: courseNumber + discussion_index,
+          courseNumber: courseNumber,
           classMeetingInfo: associatedCourse.CLASS_MTG_INFO2,
           color: color,
+          section: associatedCourse.SECTION,
         },
       ]);
     }
@@ -401,6 +403,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
               {associatedClasses.map(
                 (
                   course: {
+                    SECTION: string;
                     COMPONENT: string;
                     CLASS_MTG_INFO2: { ROOM: string; MEETING_TIME: string }[];
                   },
