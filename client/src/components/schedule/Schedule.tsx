@@ -219,11 +219,20 @@ const Schedule: React.FC<ScheduleProps> = ({
                     <div className="flex-1 truncate">
                       <div className="flex items-center space-x-3">
                         <h3 className="text-gray-900 text-md font-bold font-atkinson truncate">
-                          {course.subject} {course.catalogNumber}
+                          {course.subject} {course.catalogNumber}{" "}
+                          {course.courseTitle
+                            .toLocaleLowerCase()
+                            .includes("Dis".toLowerCase())
+                            ? "Discussion"
+                            : ""}
                         </h3>
                       </div>
                       <p className="font-atkinson mt-1 text-gray-500 text-sm truncate">
-                        {course.courseTitle}
+                        {course.courseTitle
+                          .toLocaleLowerCase()
+                          .includes("Dis".toLowerCase())
+                          ? course.catalogNumber + " " + "Discussion"
+                          : course.courseTitle}
                       </p>
                       <p className="font-atkinson mt-1 text-gray-500 text-sm truncate">
                         {course.school}

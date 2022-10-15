@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 /* eslint-disable indent */
-import React, { Dispatch, SetStateAction, useState } from "react";
+import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { CourseDetail } from "../../types/courses";
 import { ScheduleCourse } from "../../types/schedule";
 import { CalendarCourse } from "../../types/calendar";
@@ -14,6 +14,7 @@ import { XIcon } from "@heroicons/react/outline";
 
 interface SearchItemProps {
   termId: string;
+  searchQuery: string;
   school: string;
   subject: string;
   catalogNumber: string;
@@ -40,6 +41,7 @@ interface SearchItemProps {
 }
 const SearchItem: React.FC<SearchItemProps> = ({
   termId,
+  searchQuery,
   school,
   subject,
   catalogNumber,
@@ -76,6 +78,10 @@ const SearchItem: React.FC<SearchItemProps> = ({
 
   // this updates either the schedule or the calendar array!
   // refactor this in v1.1
+
+  useEffect(() => {
+    setAreThereAssociatedClasses(false);
+  }, [searchQuery]);
 
   const handleCollisionCheck = () => {
     // first, see if there is a collision with existing courses
@@ -218,6 +224,49 @@ const SearchItem: React.FC<SearchItemProps> = ({
     return;
   };
 
+  const addAssociatedClassTo = (
+    view: "Calendar" | "Schedule",
+    associatedCourse: {
+      COMPONENT: string;
+      CLASS_MTG_INFO2: { ROOM: string; MEETING_TIME: string }[];
+    },
+    discussion_index: number
+  ) => {
+    if (view === "Schedule") {
+      setScheduleCourses((priorCourses: ScheduleCourse[]) => [
+        ...priorCourses,
+        {
+          termId: termId,
+          school: school,
+          subject: subject,
+          courseTitle:
+            courseTitle + associatedCourse.COMPONENT === "DIS"
+              ? "Discussion"
+              : associatedCourse.COMPONENT,
+          catalogNumber: catalogNumber,
+          courseNumber: courseNumber + discussion_index,
+          classMeetingInfo: associatedCourse.CLASS_MTG_INFO2,
+          termDescription: termDescription,
+          color: color,
+        },
+      ]);
+    } else {
+      console.log("CALENDAR UPDATE");
+      setCalendarCourses((priorCourses: CalendarCourse[]) => [
+        ...priorCourses,
+        {
+          termId: termId,
+          school: school,
+          subject: subject,
+          catalogNumber: catalogNumber,
+          courseNumber: courseNumber + discussion_index,
+          classMeetingInfo: associatedCourse.CLASS_MTG_INFO2,
+          color: color,
+        },
+      ]);
+    }
+  };
+
   const checkForAssociatedCourses = () => {
     const fetchAssociatedCourses = async () => {
       const associatedCoursesUrl =
@@ -349,35 +398,48 @@ const SearchItem: React.FC<SearchItemProps> = ({
               />
             </div>
             <ul role="list" className="divide-y divide-gray-200">
-              {associatedClasses.map((course, id) => (
-                <li
-                  key={id}
-                  className="hover:scale-[101%] transition-all hover:cursor-pointer hover:bg-white/30"
-                >
-                  <a
-                    onClick={() => setAreThereAssociatedClasses(false)}
-                    className="block hover:bg-gray-50"
+              {associatedClasses.map(
+                (
+                  course: {
+                    COMPONENT: string;
+                    CLASS_MTG_INFO2: { ROOM: string; MEETING_TIME: string }[];
+                  },
+                  id: number
+                ) => (
+                  <li
+                    key={id}
+                    className="hover:scale-[101%] transition-all hover:cursor-pointer hover:bg-white/30"
                   >
-                    <div className="px-4 py-4 sm:px-6">
-                      <div className="flex items-center justify-between">
-                        <p className="truncate text-sm font-medium text-gray-900">
-                          {course.COMPONENT === "DIS"
-                            ? "Discussion"
-                            : course.COMPONENT}
-                        </p>
-                        <div className="ml-2 flex flex-shrink-0">
-                          <p className={`inline-flex rounded-full bg-green-500 px-2 text-xs font-semibold leading-5 text-white`}>
-                            {course.CLASS_MTG_INFO2[0].MEETING_TIME}
+                    <a
+                      onClick={() => addAssociatedClassTo(view, course, id)}
+                      className="block hover:bg-gray-50"
+                    >
+                      <div className="px-4 py-4 sm:px-6">
+                        <div className="flex items-center justify-between">
+                          <p className="truncate text-sm font-medium text-gray-900">
+                            {course.COMPONENT === "DIS"
+                              ? "Discussion"
+                              : course.COMPONENT}
                           </p>
+                          <div className="ml-2 flex flex-shrink-0">
+                            <p
+                              className={`inline-flex rounded-full bg-green-500 px-2 text-xs font-semibold leading-5 text-white`}
+                            >
+                              {course.CLASS_MTG_INFO2[0].MEETING_TIME}
+                            </p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </a>
-                </li>
-              ))}
+                    </a>
+                  </li>
+                )
+              )}
             </ul>
           </div>
         )}
+        <div className="mt-2 max-w-xl text-sm text-gray-500">
+          {loading && <p>Searching for associated courses...</p>}
+        </div>
       </div>
     </div>
   );

@@ -538,7 +538,13 @@ const Calendar: React.FC<CalendarProps> = ({
                                 </div>
                                 {course.subject.length <= 7 && (
                                   <p className="order-1 font-semibold text-gray-700">
-                                    {course.subject} {course.catalogNumber}
+                                    {course.courseNumber.length > 5
+                                      ? course.catalogNumber +
+                                        " " +
+                                        "Discussion"
+                                      : course.subject +
+                                        " " +
+                                        course.catalogNumber}
                                   </p>
                                 )}
                                 {course.subject.length > 7 && (
