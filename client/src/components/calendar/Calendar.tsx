@@ -195,7 +195,6 @@ const Calendar: React.FC<CalendarProps> = ({
   // Meaning - take the first element as gospel - this is when the course meets
   useEffect(() => {
     const allCurrentCourses = [...calendarCourses];
-    console.log("ALL CALENDAR COURSES");
     updateCourses(allCurrentCourses);
   }, [calendarCourses]);
 

@@ -230,10 +230,19 @@ const SearchItem: React.FC<SearchItemProps> = ({
       SECTION: string;
       COMPONENT: string;
       CLASS_MTG_INFO2: { ROOM: string; MEETING_TIME: string }[];
-    },
-    discussion_index: number
+    }
   ) => {
     if (view === "Schedule") {
+      // see if this course is in the calendarCourses already. If not, add it
+      for (let i = 0; i < scheduleCourses.length; i++) {
+        if (scheduleCourses[i].section === associatedCourse.SECTION) {
+          setError(`This section is already present in ${view.toLowerCase()}!`);
+          setTimeout(() => {
+            setError("");
+          }, 3000);
+          return;
+        }
+      }
       setScheduleCourses((priorCourses: ScheduleCourse[]) => [
         ...priorCourses,
         {
@@ -245,7 +254,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
               ? "Discussion"
               : associatedCourse.COMPONENT,
           catalogNumber: catalogNumber,
-          courseNumber: courseNumber + discussion_index,
+          courseNumber: courseNumber,
           classMeetingInfo: associatedCourse.CLASS_MTG_INFO2,
           termDescription: termDescription,
           color: color,
@@ -253,6 +262,16 @@ const SearchItem: React.FC<SearchItemProps> = ({
         },
       ]);
     } else {
+      // see if this course is in the calendarCourses already. If not, add it
+      for (let i = 0; i < calendarCourses.length; i++) {
+        if (calendarCourses[i].section === associatedCourse.SECTION) {
+          setError(`Course already present in ${view.toLowerCase()}!`);
+          setTimeout(() => {
+            setError("");
+          }, 3000);
+          return;
+        }
+      }
       setCalendarCourses((priorCourses: CalendarCourse[]) => [
         ...priorCourses,
         {
@@ -414,7 +433,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
                     className="hover:scale-[101%] transition-all hover:cursor-pointer hover:bg-white/30"
                   >
                     <a
-                      onClick={() => addAssociatedClassTo(view, course, id)}
+                      onClick={() => addAssociatedClassTo(view, course)}
                       className="block hover:bg-gray-50"
                     >
                       <div className="px-4 py-4 sm:px-6">
@@ -441,7 +460,9 @@ const SearchItem: React.FC<SearchItemProps> = ({
           </div>
         )}
         <div className="mt-2 max-w-xl text-sm text-gray-500">
-          {loading && <p>Searching for associated courses...</p>}
+          {loading && !areThereAssociatedClasses && (
+            <p>Searching for associated courses...</p>
+          )}
         </div>
       </div>
     </div>

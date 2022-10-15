@@ -64,7 +64,6 @@ const Schedule: React.FC<ScheduleProps> = ({
       subject: subject,
       courseNumber: courseNumber,
     }));
-
     setOpenDetailModal(() => true);
   };
 
@@ -145,9 +144,13 @@ const Schedule: React.FC<ScheduleProps> = ({
   }, [scheduleCourses]);
 
   // remove a course based on the courseNumber
-  const handleRemoveCourse = (courseId: string) => {
+  const handleRemoveCourse = (courseId: string, section?: string) => {
     const courseToRemove = scheduleCourses.filter((course) => {
-      return course.courseNumber === courseId;
+      if (section) {
+        return course.section === section;
+      } else {
+        return course.courseNumber === courseId;
+      }
     });
     // HANDLE DELETION FROM THE DB
     if (currentUser?.email !== "msk@gmail.com") {
@@ -157,7 +160,11 @@ const Schedule: React.FC<ScheduleProps> = ({
     // REMOVE FROM THE UI
     setScheduleCourses((currentCourses: ScheduleCourse[]) =>
       currentCourses.filter((course) => {
-        return course.courseNumber !== courseId;
+        if (section) {
+          return course.section != section;
+        } else {
+          return course.courseNumber != courseId;
+        }
       })
     );
   };
@@ -241,9 +248,6 @@ const Schedule: React.FC<ScheduleProps> = ({
                         <button
                           className="font-small text-indigo-600 hover:text-indigo-500 hover:underline"
                           onClick={() => {
-                            console.log(
-                              "View more details on this course was requested!"
-                            );
                             handleDetailClick(
                               course.termId,
                               course.school,
@@ -261,7 +265,9 @@ const Schedule: React.FC<ScheduleProps> = ({
                     <span className="sr-only">Close</span>
                     <XIcon
                       className="relative bottom-10 left-2 text-gray-400 h-4 w-4 hover:cursor-pointer"
-                      onClick={() => handleRemoveCourse(course.courseNumber)}
+                      onClick={() =>
+                        handleRemoveCourse(course.courseNumber, course.section)
+                      }
                       aria-hidden="true"
                     />
                   </div>
