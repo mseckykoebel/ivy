@@ -466,6 +466,50 @@ app.get("/api/v1/get_course_detail/", async (req, res) => {
   );
 });
 
+/**
+ * method: GET
+ * function: returns a detailed list of course attributes given a term, school, subject, and course number
+ */
+app.get("/api/v1/get_course_associated_classes/", async (req, res) => {
+  const termId = req.query.termId;
+  const schoolId = req.query.schoolId;
+  const subjectId = req.query.subjectId;
+  const courseId = req.query.courseId;
+
+  if (!termId || !schoolId || !subjectId || !courseId)
+    res.status(500).json({ type: "error", message: "Missing parameters!" });
+
+  const url = `${coursesURL}${termId}/${schoolId}/${subjectId}/${courseId}`;
+
+  request(
+    {
+      url: url,
+      headers: {
+        apikey: process.env.API_KEY as string,
+      },
+    },
+    (error, response, body) => {
+      if (error || response.statusCode !== 200) {
+        return res.status(500).json({ type: "error", message: response.body });
+      }
+
+      const oneClassData = JSON.parse(body).NW_CD_ONECLASS_RESP;
+      console.log(oneClassData);
+      const classDescription = oneClassData.CLASSDESCR[0];
+      const associatedClasses =
+        classDescription.ASSOCIATED_CLASS === undefined
+          ? null
+          : classDescription.ASSOCIATED_CLASS;
+
+      res.json({
+        status: 200,
+        results: associatedClasses.length,
+        body: associatedClasses,
+      });
+    }
+  );
+});
+
 app.get("/", (req, res) => {
   res.status(200).send({ ok: true });
 });
