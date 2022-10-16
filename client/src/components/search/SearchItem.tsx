@@ -376,6 +376,9 @@ const SearchItem: React.FC<SearchItemProps> = ({
             Meeting time:{" "}
             {!classMeetingInfo || !classMeetingInfo.length
               ? "N/A"
+              : classMeetingInfo[0].MEETING_TIME.includes("Sa") ||
+                classMeetingInfo[0].MEETING_TIME.includes("Su")
+              ? "N/A"
               : classMeetingInfo[0].MEETING_TIME}
           </p>
         </div>
@@ -391,20 +394,23 @@ const SearchItem: React.FC<SearchItemProps> = ({
           </button>
         </div>
         <div className="font-atkinson text-sm">
-          {classMeetingInfo && classMeetingInfo.length > 0 && (
-            <button
-              // disable
-              className="text-[.75rem] text-indigo-600 hover:text-indigo-500 hover:underline"
-              onClick={() =>
-                view !== "Calendar"
-                  ? handleViewClick(view)
-                  : handleCollisionCheck()
-              }
-            >
-              {" "}
-              Add to {view} <span aria-hidden="true">&rarr;</span>
-            </button>
-          )}
+          {classMeetingInfo &&
+            classMeetingInfo.length > 0 &&
+            !(classMeetingInfo[0].MEETING_TIME.includes("Sa") ||
+              classMeetingInfo[0].MEETING_TIME.includes("Su")) && (
+              <button
+                // disable
+                className="text-[.75rem] text-indigo-600 hover:text-indigo-500 hover:underline"
+                onClick={() =>
+                  view !== "Calendar"
+                    ? handleViewClick(view)
+                    : handleCollisionCheck()
+                }
+              >
+                {" "}
+                Add to {view} <span aria-hidden="true">&rarr;</span>
+              </button>
+            )}
         </div>
         {/* If there were any errors */}
         <div className="mt-2 max-w-xl text-sm text-gray-500">
@@ -448,7 +454,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
                           <p className="truncate text-sm font-medium text-gray-900">
                             {course.COMPONENT === "DIS"
                               ? "Section " + course.SECTION
-                              : course.COMPONENT}
+                              : "Lab " + course.SECTION}
                           </p>
                           <div className="ml-2 flex flex-shrink-0">
                             <p

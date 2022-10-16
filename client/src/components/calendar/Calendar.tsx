@@ -553,6 +553,9 @@ const Calendar: React.FC<CalendarProps> = ({
                                       {course.subject} {course.catalogNumber}
                                     </p>
                                     <p className="order-1 font-semibold text-gray-700">
+                                      {course.section ? "Discussion/Lab" : ""}
+                                    </p>
+                                    <p className="order-1 font-semibold text-gray-700">
                                       {course.section
                                         ? "Section " + course.section
                                         : ""}
@@ -566,6 +569,9 @@ const Calendar: React.FC<CalendarProps> = ({
                                     </p>
                                     <p className="order-1 font-semibold text-gray-700">
                                       {course.catalogNumber}
+                                    </p>
+                                    <p className="order-1 font-semibold text-gray-700">
+                                      {course.section ? "Discussion/Lab" : ""}
                                     </p>
                                     <p className="order-1 font-semibold text-gray-700">
                                       {course.section
