@@ -63,6 +63,7 @@ const updateCalendarArrayRemoveCourse = async (
   courseData: CalendarCourse
 ): Promise<void> => {
   const calendarRef = doc(db, "calendars", calendarId);
+  console.log(courseData);
   await updateDoc(calendarRef, {
     lastUpdated: firebase.firestore.FieldValue.serverTimestamp(),
     coursesData: arrayRemove(courseData),

@@ -167,6 +167,7 @@ const Search: React.FC<SearchProps> = ({
             return (
               <SearchItem
                 key={course.id}
+                searchQuery={searchQuery}
                 termId={termId as string}
                 school={course.school}
                 subject={course.subject}
@@ -206,6 +207,7 @@ const Search: React.FC<SearchProps> = ({
             return (
               <SearchItem
                 key={course.id}
+                searchQuery={searchQuery}
                 termId={termId as string}
                 school={course.school}
                 subject={course.subject}

@@ -11,4 +11,6 @@ export interface ScheduleCourse {
   classMeetingInfo: { ROOM: string; MEETING_TIME: string }[] | [] | null;
   termDescription: string;
   color: string;
+  // for discussions
+  section?: string;
 }

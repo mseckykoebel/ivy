@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 /* eslint-disable indent */
-import React, { Dispatch, SetStateAction, useState } from "react";
+import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { CourseDetail } from "../../types/courses";
 import { ScheduleCourse } from "../../types/schedule";
 import { CalendarCourse } from "../../types/calendar";
@@ -10,9 +10,11 @@ import {
   getLengthOfTime,
   getStartingTimeInMinutesSinceTwelve,
 } from "../../lib/calendar";
+import { XIcon } from "@heroicons/react/outline";
 
 interface SearchItemProps {
   termId: string;
+  searchQuery: string;
   school: string;
   subject: string;
   catalogNumber: string;
@@ -39,6 +41,7 @@ interface SearchItemProps {
 }
 const SearchItem: React.FC<SearchItemProps> = ({
   termId,
+  searchQuery,
   school,
   subject,
   catalogNumber,
@@ -61,6 +64,11 @@ const SearchItem: React.FC<SearchItemProps> = ({
 }): JSX.Element => {
   // error state - just works with
   const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+  // associated classes
+  const [associatedClasses, setAssociatedClasses] = useState<any[]>([]);
+  const [areThereAssociatedClasses, setAreThereAssociatedClasses] =
+    useState(false);
   // warning modal
   const [warningModal, setWarningModal] = useState<boolean>(false);
   const [courseCollision, setCourseCollision] = useState<boolean>(false);
@@ -70,6 +78,10 @@ const SearchItem: React.FC<SearchItemProps> = ({
 
   // this updates either the schedule or the calendar array!
   // refactor this in v1.1
+
+  useEffect(() => {
+    setAreThereAssociatedClasses(false);
+  }, [searchQuery]);
 
   const handleCollisionCheck = () => {
     // first, see if there is a collision with existing courses
@@ -208,7 +220,122 @@ const SearchItem: React.FC<SearchItemProps> = ({
       ]);
     }
 
+    checkForAssociatedCourses();
     return;
+  };
+
+  const addAssociatedClassTo = (
+    view: "Calendar" | "Schedule",
+    associatedCourse: {
+      SECTION: string;
+      COMPONENT: string;
+      CLASS_MTG_INFO2: { ROOM: string; MEETING_TIME: string }[];
+    }
+  ) => {
+    if (view === "Schedule") {
+      // see if this course is in the calendarCourses already. If not, add it
+      for (let i = 0; i < scheduleCourses.length; i++) {
+        if (scheduleCourses[i].section === associatedCourse.SECTION) {
+          setError(`This section is already present in ${view.toLowerCase()}!`);
+          setTimeout(() => {
+            setError("");
+          }, 3000);
+          return;
+        }
+      }
+      setScheduleCourses((priorCourses: ScheduleCourse[]) => [
+        ...priorCourses,
+        {
+          termId: termId,
+          school: school,
+          subject: subject,
+          courseTitle:
+            courseTitle + associatedCourse.COMPONENT === "DIS"
+              ? "Discussion"
+              : associatedCourse.COMPONENT,
+          catalogNumber: catalogNumber,
+          courseNumber: courseNumber,
+          classMeetingInfo: associatedCourse.CLASS_MTG_INFO2,
+          termDescription: termDescription,
+          color: color,
+          section: associatedCourse.SECTION,
+        },
+      ]);
+    } else {
+      // see if this course is in the calendarCourses already. If not, add it
+      for (let i = 0; i < calendarCourses.length; i++) {
+        if (calendarCourses[i].section === associatedCourse.SECTION) {
+          setError(`Course already present in ${view.toLowerCase()}!`);
+          setTimeout(() => {
+            setError("");
+          }, 3000);
+          return;
+        }
+      }
+      setCalendarCourses((priorCourses: CalendarCourse[]) => [
+        ...priorCourses,
+        {
+          termId: termId,
+          school: school,
+          subject: subject,
+          catalogNumber: catalogNumber,
+          courseNumber: courseNumber,
+          classMeetingInfo: associatedCourse.CLASS_MTG_INFO2,
+          color: color,
+          section: associatedCourse.SECTION,
+        },
+      ]);
+    }
+  };
+
+  const checkForAssociatedCourses = () => {
+    const fetchAssociatedCourses = async () => {
+      const associatedCoursesUrl =
+        process.env.NODE_ENV !== "production"
+          ? `http://localhost:3001/api/v1/get_course_associated_classes/?termId=${termId}&schoolId=${school}&subjectId=${subject}&courseId=${courseNumber}`
+          : `https://ivy-api.fly.dev/api/v1/get_course_associated_classes/?termId=${termId}&schoolId=${school}&subjectId=${subject}&courseId=${courseNumber}`;
+
+      setLoading(true);
+      const response = await fetch(associatedCoursesUrl, {
+        mode: "cors",
+        headers: {
+          "Content-type": "application/json",
+        },
+      });
+      if (response.status >= 400) {
+        setError(
+          "Uh oh! There was an error fetching lab and discussion sections for this course. If this course has known lab and/or discussion sections, remove and re-add this course to try again"
+        );
+        return;
+      }
+      if (response.status === 500) {
+        setError(
+          "Uh oh! Error fetching courses on our end. Please try a new query"
+        );
+        return;
+      }
+      const data = await response.json();
+      setLoading(false);
+      return data;
+    };
+
+    return new Promise<void>((resolve) => {
+      fetchAssociatedCourses().then((data) => {
+        console.log(data.body);
+        const filteredCourses: Record<string, any>[] = [];
+        for (let i = 0; i < data.body.length; i++) {
+          if (data.body[i].CLASS_MTG_INFO2[0].MEETING_TIME === "NO DATA") {
+            continue;
+          }
+          filteredCourses.push(data.body[i]);
+        }
+        if (filteredCourses.length > 1) {
+          setAssociatedClasses(filteredCourses);
+          setAreThereAssociatedClasses(true);
+        }
+        resolve();
+      });
+    });
   };
 
   // this updates the current course detail, and opens the course detail modal from the home page
@@ -224,7 +351,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
 
   return (
     <div
-      className={`${color} shadow sm:rounded-lg mb-4 m-4 hover:scale-[101%] transition-all hover:cursor-pointer`}
+      className={`${color} shadow sm:rounded-lg mb-4 m-4 hover:scale-[101%] transition-all`}
     >
       {/* MODALS */}
       {courseCollision && (
@@ -249,6 +376,9 @@ const SearchItem: React.FC<SearchItemProps> = ({
             Meeting time:{" "}
             {!classMeetingInfo || !classMeetingInfo.length
               ? "N/A"
+              : classMeetingInfo[0].MEETING_TIME.includes("Sa") ||
+                classMeetingInfo[0].MEETING_TIME.includes("Su")
+              ? "N/A"
               : classMeetingInfo[0].MEETING_TIME}
           </p>
         </div>
@@ -264,24 +394,88 @@ const SearchItem: React.FC<SearchItemProps> = ({
           </button>
         </div>
         <div className="font-atkinson text-sm">
-          {classMeetingInfo && classMeetingInfo.length > 0 && (
-            <button
-              // disable
-              className="text-[.75rem] text-indigo-600 hover:text-indigo-500 hover:underline"
-              onClick={() =>
-                view !== "Calendar"
-                  ? handleViewClick(view)
-                  : handleCollisionCheck()
-              }
-            >
-              {" "}
-              Add to {view} <span aria-hidden="true">&rarr;</span>
-            </button>
-          )}
+          {classMeetingInfo &&
+            classMeetingInfo.length > 0 &&
+            !(classMeetingInfo[0].MEETING_TIME.includes("Sa") ||
+              classMeetingInfo[0].MEETING_TIME.includes("Su")) && (
+              <button
+                // disable
+                className="text-[.75rem] text-indigo-600 hover:text-indigo-500 hover:underline"
+                onClick={() =>
+                  view !== "Calendar"
+                    ? handleViewClick(view)
+                    : handleCollisionCheck()
+                }
+              >
+                {" "}
+                Add to {view} <span aria-hidden="true">&rarr;</span>
+              </button>
+            )}
         </div>
         {/* If there were any errors */}
         <div className="mt-2 max-w-xl text-sm text-gray-500">
           {error && <p>Error: {error}</p>}
+        </div>
+        {areThereAssociatedClasses && (
+          <div
+            className={`bg-white/40 overflow-hidden shadow sm:rounded-md mt-5`}
+          >
+            <div className="px-4 pt-4 pb-0.5 sm:px-6">
+              <p className="font-atkinson text-xs font-semibold text-gray-900 pr-5 ">
+                Choose a {associatedClasses[0].section?.toLowerCase()} section
+                for {subject} {catalogNumber} (optional):
+              </p>
+              <XIcon
+                className="relative bottom-6 left-60 text-gray-400 h-4 w-4 hover:cursor-pointer"
+                onClick={() => setAreThereAssociatedClasses(false)}
+                aria-hidden="true"
+              />
+            </div>
+            <ul role="list" className="divide-y divide-gray-200">
+              {associatedClasses.map(
+                (
+                  course: {
+                    SECTION: string;
+                    COMPONENT: string;
+                    CLASS_MTG_INFO2: { ROOM: string; MEETING_TIME: string }[];
+                  },
+                  id: number
+                ) => (
+                  <li
+                    key={id}
+                    className="hover:scale-[101%] transition-all hover:cursor-pointer hover:bg-white/30"
+                  >
+                    <a
+                      onClick={() => addAssociatedClassTo(view, course)}
+                      className="block hover:bg-gray-50"
+                    >
+                      <div className="px-4 py-4 sm:px-6">
+                        <div className="flex items-center justify-between">
+                          <p className="truncate text-sm font-medium text-gray-900">
+                            {course.COMPONENT === "DIS"
+                              ? "Section " + course.SECTION
+                              : "Lab " + course.SECTION}
+                          </p>
+                          <div className="ml-2 flex flex-shrink-0">
+                            <p
+                              className={`inline-flex rounded-full bg-green-500 px-2 text-xs font-semibold leading-5 text-white`}
+                            >
+                              {course.CLASS_MTG_INFO2[0].MEETING_TIME}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
+        )}
+        <div className="mt-2 max-w-xl text-sm text-gray-500">
+          {loading && !areThereAssociatedClasses && (
+            <p>Searching for associated courses...</p>
+          )}
         </div>
       </div>
     </div>

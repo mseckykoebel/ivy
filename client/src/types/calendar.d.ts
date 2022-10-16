@@ -8,4 +8,6 @@ export interface CalendarCourse {
   courseNumber: string;
   classMeetingInfo: { ROOM: string; MEETING_TIME: string }[] | [];
   color: string;
+  // for discussion sections
+  section?: string;
 }
