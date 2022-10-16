@@ -548,15 +548,16 @@ const Calendar: React.FC<CalendarProps> = ({
                                   </button>
                                 </div>
                                 {course.subject.length <= 7 && (
-                                  <p className="order-1 font-semibold text-gray-700">
-                                    {course.section
-                                      ? course.catalogNumber +
-                                        " " +
-                                        "Discussion"
-                                      : course.subject +
-                                        " " +
-                                        course.catalogNumber}
-                                  </p>
+                                  <>
+                                    <p className="order-1 font-semibold text-gray-700">
+                                      {course.subject} {course.catalogNumber}
+                                    </p>
+                                    <p className="order-1 font-semibold text-gray-700">
+                                      {course.section
+                                        ? "Section " + course.section
+                                        : ""}
+                                    </p>
+                                  </>
                                 )}
                                 {course.subject.length > 7 && (
                                   <>
@@ -565,6 +566,11 @@ const Calendar: React.FC<CalendarProps> = ({
                                     </p>
                                     <p className="order-1 font-semibold text-gray-700">
                                       {course.catalogNumber}
+                                    </p>
+                                    <p className="order-1 font-semibold text-gray-700">
+                                      {course.section
+                                        ? "Section " + course.section
+                                        : ""}
                                     </p>
                                   </>
                                 )}
