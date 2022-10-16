@@ -321,9 +321,16 @@ const SearchItem: React.FC<SearchItemProps> = ({
 
     return new Promise<void>((resolve) => {
       fetchAssociatedCourses().then((data) => {
-        if (data.body.length > 1) {
-          console.log(data.body);
-          setAssociatedClasses(data.body);
+        console.log(data.body);
+        const filteredCourses: Record<string, any>[] = [];
+        for (let i = 0; i < data.body.length; i++) {
+          if (data.body[i].CLASS_MTG_INFO2[0].MEETING_TIME === "NO DATA") {
+            continue;
+          }
+          filteredCourses.push(data.body[i]);
+        }
+        if (filteredCourses.length > 1) {
+          setAssociatedClasses(filteredCourses);
           setAreThereAssociatedClasses(true);
         }
         resolve();
@@ -409,8 +416,8 @@ const SearchItem: React.FC<SearchItemProps> = ({
           >
             <div className="px-4 pt-4 pb-0.5 sm:px-6">
               <p className="font-atkinson text-xs font-semibold text-gray-900 pr-5 ">
-                Choose a discussion section for {subject} {catalogNumber}{" "}
-                (optional):
+                Choose a {associatedClasses[0].section?.toLowerCase()} section
+                for {subject} {catalogNumber} (optional):
               </p>
               <XIcon
                 className="relative bottom-6 left-60 text-gray-400 h-4 w-4 hover:cursor-pointer"
@@ -440,7 +447,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
                         <div className="flex items-center justify-between">
                           <p className="truncate text-sm font-medium text-gray-900">
                             {course.COMPONENT === "DIS"
-                              ? "Discussion"
+                              ? "Section " + course.SECTION
                               : course.COMPONENT}
                           </p>
                           <div className="ml-2 flex flex-shrink-0">
