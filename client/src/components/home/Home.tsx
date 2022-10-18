@@ -325,7 +325,7 @@ const Home: React.FC = (): JSX.Element => {
                       >
                         Ivy{" "}
                         <span className="inline-flex font-atkinson items-center align-middle px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-700 text-white">
-                          v0.1.3 (pre-release)
+                          v0.1.4 (pre-release)
                         </span>
                       </h1>
                     </Link>
