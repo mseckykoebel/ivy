@@ -20,23 +20,6 @@ const Register: React.FC = (): JSX.Element => {
   //   sign up function
   const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    // pre-release logic
-    const filteredEmails = waitlistEmails.filter((email) => {
-      return (
-        email.toLowerCase() ===
-        (emailRef.current?.value as string).toLowerCase()
-      );
-    });
-    waitlistEmails.forEach((email) => {
-      return email.toLowerCase();
-    });
-    if (filteredEmails.length === 0) {
-      setError(
-        ("Only authorized for waitlist sign-ups at this time: " +
-          emailRef.current?.value) as string
-      );
-      return;
-    }
     // check if the passwords are the same
     console.log(passwordRef.current?.value);
     if (passwordRef.current?.value !== confirmPasswordRef.current?.value) {
