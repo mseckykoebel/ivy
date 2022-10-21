@@ -97,7 +97,7 @@ export const Settings: React.FC<SettingsProps> = ({
       return;
     }
 
-    if (displayNameRef.current?.value.length === 0) {
+    if (displayNameRef.current?.value.includes(" ")) {
       setError("Display name must not be blank");
       return;
     }
