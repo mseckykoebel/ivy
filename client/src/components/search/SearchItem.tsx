@@ -321,7 +321,6 @@ const SearchItem: React.FC<SearchItemProps> = ({
 
     return new Promise<void>((resolve) => {
       fetchAssociatedCourses().then((data) => {
-        console.log(data.body);
         if (data.body[0].CLASS_MTG_INFO2) {
           const filteredCourses: Record<string, any>[] = [];
           for (let i = 0; i < data.body.length; i++) {

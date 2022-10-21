@@ -98,9 +98,7 @@ const Calendar: React.FC<CalendarProps> = ({
 
       getCalendarFromFirebase()
         .then(() => {
-          console.log("Done loading!");
           loadingRef.current = false;
-          console.log(loadingRef.current);
         })
         .catch((err) => {
           console.log("There was an error fetching courses from the DB: ", err);
@@ -135,18 +133,11 @@ const Calendar: React.FC<CalendarProps> = ({
     // must find when courses are offered
     const getNumberOfCourses = () => {
       const newCourses: CalendarCourse[] = [];
-      console.log("CURRENT COURSES: ", coursesToUpdate);
       for (let i = 0; i < coursesToUpdate.length; i++) {
         const thisCoursesIteration = { ...coursesToUpdate[i] };
-        console.log("NOW ITERATING: ", thisCoursesIteration);
         const days: string[] = [];
         const daysOfWeekThisCourseIsOffered = getCourseDaysJustDays(
           thisCoursesIteration.classMeetingInfo[0].MEETING_TIME
-        );
-
-        console.log(
-          "THE WEEK THIS IS OFFERED: ",
-          daysOfWeekThisCourseIsOffered
         );
 
         if (new RegExp("Mo").test(daysOfWeekThisCourseIsOffered) === true)
@@ -205,7 +196,7 @@ const Calendar: React.FC<CalendarProps> = ({
         return course.courseNumber === courseId;
       }
     });
-    console.log(courseToRemove);
+    
     // HANDLE DELETION FROM THE DB
     if (currentUser?.email !== "msk@gmail.com") {
       updateCalendarArrayRemoveCourse(calendarId, courseToRemove[0]);

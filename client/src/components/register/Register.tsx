@@ -20,7 +20,6 @@ const Register: React.FC = (): JSX.Element => {
   const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     // check if the passwords are the same
-    console.log(passwordRef.current?.value);
     if (passwordRef.current?.value !== confirmPasswordRef.current?.value) {
       // set
       console.log("passwords do not match");
