@@ -315,8 +315,8 @@ const Home: React.FC = (): JSX.Element => {
                         style={{ lineHeight: "1.75rem" }}
                       >
                         Ivy{" "}
-                        <span className="inline-flex font-atkinson items-center align-middle px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-700 text-white">
-                          v1.0.0 (pre-release)
+                        <span className="inline-flex font-atkinson items-center align-middle px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-800 text-white">
+                          Beta v1.0.0
                         </span>
                       </h1>
                     </Link>
