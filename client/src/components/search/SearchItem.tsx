@@ -329,7 +329,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
           }
           filteredCourses.push(data.body[i]);
         }
-        if (filteredCourses.length > 1) {
+        if (filteredCourses.length > 0) {
           setAssociatedClasses(filteredCourses);
           setAreThereAssociatedClasses(true);
         }

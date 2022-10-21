@@ -110,7 +110,6 @@ const Calendar: React.FC<CalendarProps> = ({
 
   // update to the DB when the current list of courses changes
   useEffect(() => {
-    console.log("THIS FIRED");
     if (calendarCourses.length > 0) {
       if (currentUser?.email !== "msk@gmail.com") {
         if (calendarId === "" && loadingRef.current === false) {
@@ -182,7 +181,6 @@ const Calendar: React.FC<CalendarProps> = ({
             meetingTimes[j];
         }
       }
-      console.log("NEW COURSES: ", newCourses);
 
       return newCourses;
     };

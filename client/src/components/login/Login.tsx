@@ -164,13 +164,14 @@ const Login: React.FC = (): JSX.Element => {
             </div>
             {/* NO THANKS, JUST BROWSING */}
             <div className="flex items-center justify-center">
-              <div className="select-none pointer-events-none flex items-center">
+              <div className="flex items-center">
                 <button
                   onClick={handleSuperUserSubmit}
                   className="text-sm font-medium text-green-500 hover:text-green-500 hover:underline"
                 >
                   {" "}
                   No thanks, just browsing! Take me to Ivy without signing in
+                  &rarr;{" "}
                 </button>
               </div>
             </div>
