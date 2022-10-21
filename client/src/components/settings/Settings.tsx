@@ -242,6 +242,25 @@ export const Settings: React.FC<SettingsProps> = ({
                       <p className="font-atkinson mt-1 max-w-2xl text-sm text-gray-500">
                         Your personal, major, and minor information
                       </p>
+                      <p className="font-atkinson mt-1 max-w-2xl text-sm text-gray-500">
+                        Click{" "}
+                        <a
+                          href="https://github.com/mseckykoebel/ivy/blob/master/client/src/db/majors.ts"
+                          target="_blank"
+                          className="text-sm font-medium text-gray-500 underline"
+                        >
+                          here
+                        </a>{" "}
+                        for our list of supported majors, and{" "}
+                        <a
+                          href="https://github.com/mseckykoebel/ivy/blob/master/client/src/db/minors.ts"
+                          target="_blank"
+                          className="text-sm font-medium text-gray-500 underline"
+                        >
+                          here
+                        </a>{" "}
+                        for our list of supported minors. We currently support entering only one minor and major
+                      </p>
                     </div>
                   </div>
                   <div className="font-atkinson border-t border-gray-200 px-4 py-5 sm:p-0">

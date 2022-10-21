@@ -18,7 +18,7 @@ export const Minors: React.FC<MinorsProps> = ({
   return (
     <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5 sm:px-6">
       <dt className="text-sm font-medium text-gray-500">
-        Minor (only one minor supported at this time)
+        Minor
       </dt>
       <dd>
         <input
