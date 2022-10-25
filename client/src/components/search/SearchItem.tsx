@@ -321,19 +321,22 @@ const SearchItem: React.FC<SearchItemProps> = ({
 
     return new Promise<void>((resolve) => {
       fetchAssociatedCourses().then((data) => {
-        console.log(data.body);
-        const filteredCourses: Record<string, any>[] = [];
-        for (let i = 0; i < data.body.length; i++) {
-          if (data.body[i].CLASS_MTG_INFO2[0].MEETING_TIME === "NO DATA") {
-            continue;
+        if (data.body[0].CLASS_MTG_INFO2) {
+          const filteredCourses: Record<string, any>[] = [];
+          for (let i = 0; i < data.body.length; i++) {
+            if (data.body[i].CLASS_MTG_INFO2[0].MEETING_TIME === "NO DATA") {
+              continue;
+            }
+            filteredCourses.push(data.body[i]);
           }
-          filteredCourses.push(data.body[i]);
+          if (filteredCourses.length > 0) {
+            setAssociatedClasses(filteredCourses);
+            setAreThereAssociatedClasses(true);
+          }
+          resolve();
+        } else {
+          resolve();
         }
-        if (filteredCourses.length > 1) {
-          setAssociatedClasses(filteredCourses);
-          setAreThereAssociatedClasses(true);
-        }
-        resolve();
       });
     });
   };
@@ -396,8 +399,10 @@ const SearchItem: React.FC<SearchItemProps> = ({
         <div className="font-atkinson text-sm">
           {classMeetingInfo &&
             classMeetingInfo.length > 0 &&
-            !(classMeetingInfo[0].MEETING_TIME.includes("Sa") ||
-              classMeetingInfo[0].MEETING_TIME.includes("Su")) && (
+            !(
+              classMeetingInfo[0].MEETING_TIME.includes("Sa") ||
+              classMeetingInfo[0].MEETING_TIME.includes("Su")
+            ) && (
               <button
                 // disable
                 className="text-[.75rem] text-indigo-600 hover:text-indigo-500 hover:underline"

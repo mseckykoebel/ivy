@@ -177,7 +177,6 @@ app.get("/api/v1/get_undergraduate_schools/", async (req, res) => {
     );
     return res.json(result);
   } catch (err) {
-    console.log("ERROR ON SERVER: ", err);
     if (err === undefined) {
       res
         .status(500)
@@ -338,7 +337,6 @@ app.get("/api/v1/get_all_undergraduate_courses/", async (req, res) => {
       });
     }
   } catch (err) {
-    console.log("Error fetching courses: ", err);
     res.status(500).send({
       error: 500,
       message: err,
@@ -360,7 +358,7 @@ app.get("/api/v1/get_course_detail/", async (req, res) => {
     res.status(500).json({ type: "error", message: "Missing parameters!" });
 
   const url = `${coursesURL}${termId}/${schoolId}/${subjectId}/${courseId}`;
-  console.log(url);
+
   request(
     {
       url: url,
@@ -374,7 +372,6 @@ app.get("/api/v1/get_course_detail/", async (req, res) => {
       }
 
       const oneClassData = JSON.parse(body).NW_CD_ONECLASS_RESP;
-      console.log(oneClassData);
       const classDescription = oneClassData.CLASSDESCR[0];
       // granular course description information
       const classMeetingInfo =
@@ -494,7 +491,6 @@ app.get("/api/v1/get_course_associated_classes/", async (req, res) => {
       }
 
       const oneClassData = JSON.parse(body).NW_CD_ONECLASS_RESP;
-      console.log(oneClassData);
       const classDescription = oneClassData.CLASSDESCR[0];
       const associatedClasses =
         classDescription.ASSOCIATED_CLASS === undefined

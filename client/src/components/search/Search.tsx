@@ -86,7 +86,6 @@ const Search: React.FC<SearchProps> = ({
   const setAllCourses = () => {
     setCourses(null);
     setError("");
-    console.log("GETTING ALL COURSES WITH TERM ID: ", termId);
     const loadCourses = async () => {
       const coursesUrl =
         process.env.NODE_ENV !== "production"

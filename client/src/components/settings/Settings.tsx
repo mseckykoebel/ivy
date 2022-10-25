@@ -97,8 +97,8 @@ export const Settings: React.FC<SettingsProps> = ({
       return;
     }
 
-    if (displayNameRef.current?.value.length === 0) {
-      setError("Display name must not be blank");
+    if (displayNameRef.current?.value.includes(" ")) {
+      setError("username name must not be blank");
       return;
     }
 
@@ -241,6 +241,25 @@ export const Settings: React.FC<SettingsProps> = ({
                       </h3>
                       <p className="font-atkinson mt-1 max-w-2xl text-sm text-gray-500">
                         Your personal, major, and minor information
+                      </p>
+                      <p className="font-atkinson mt-1 max-w-2xl text-sm text-gray-500">
+                        Click{" "}
+                        <a
+                          href="https://github.com/mseckykoebel/ivy/blob/master/client/src/db/majors.ts"
+                          target="_blank"
+                          className="text-sm font-medium text-gray-500 underline"
+                        >
+                          here
+                        </a>{" "}
+                        for our list of supported majors, and{" "}
+                        <a
+                          href="https://github.com/mseckykoebel/ivy/blob/master/client/src/db/minors.ts"
+                          target="_blank"
+                          className="text-sm font-medium text-gray-500 underline"
+                        >
+                          here
+                        </a>{" "}
+                        for our list of supported minors. We currently support entering only one minor and major
                       </p>
                     </div>
                   </div>

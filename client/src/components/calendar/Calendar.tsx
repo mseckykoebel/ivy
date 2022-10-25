@@ -98,9 +98,7 @@ const Calendar: React.FC<CalendarProps> = ({
 
       getCalendarFromFirebase()
         .then(() => {
-          console.log("Done loading!");
           loadingRef.current = false;
-          console.log(loadingRef.current);
         })
         .catch((err) => {
           console.log("There was an error fetching courses from the DB: ", err);
@@ -110,7 +108,6 @@ const Calendar: React.FC<CalendarProps> = ({
 
   // update to the DB when the current list of courses changes
   useEffect(() => {
-    console.log("THIS FIRED");
     if (calendarCourses.length > 0) {
       if (currentUser?.email !== "msk@gmail.com") {
         if (calendarId === "" && loadingRef.current === false) {
@@ -136,18 +133,11 @@ const Calendar: React.FC<CalendarProps> = ({
     // must find when courses are offered
     const getNumberOfCourses = () => {
       const newCourses: CalendarCourse[] = [];
-      console.log("CURRENT COURSES: ", coursesToUpdate);
       for (let i = 0; i < coursesToUpdate.length; i++) {
         const thisCoursesIteration = { ...coursesToUpdate[i] };
-        console.log("NOW ITERATING: ", thisCoursesIteration);
         const days: string[] = [];
         const daysOfWeekThisCourseIsOffered = getCourseDaysJustDays(
           thisCoursesIteration.classMeetingInfo[0].MEETING_TIME
-        );
-
-        console.log(
-          "THE WEEK THIS IS OFFERED: ",
-          daysOfWeekThisCourseIsOffered
         );
 
         if (new RegExp("Mo").test(daysOfWeekThisCourseIsOffered) === true)
@@ -182,7 +172,6 @@ const Calendar: React.FC<CalendarProps> = ({
             meetingTimes[j];
         }
       }
-      console.log("NEW COURSES: ", newCourses);
 
       return newCourses;
     };
@@ -207,7 +196,7 @@ const Calendar: React.FC<CalendarProps> = ({
         return course.courseNumber === courseId;
       }
     });
-    console.log(courseToRemove);
+    
     // HANDLE DELETION FROM THE DB
     if (currentUser?.email !== "msk@gmail.com") {
       updateCalendarArrayRemoveCourse(calendarId, courseToRemove[0]);
@@ -268,65 +257,63 @@ const Calendar: React.FC<CalendarProps> = ({
           style={{ width: "165%" }}
           className="flex max-w-full flex-none flex-col sm:max-w-none md:max-w-full"
         >
-          {!loadingRef.current &&
-            calendarId !== "" &&
-            calendarCourses.length >= 1 && (
-              <>
-                <div
-                  ref={containerNav}
-                  className="sticky top-0 flex-none bg-white shadow ring-1 ring-black ring-opacity-5 sm:pr-8"
-                >
-                  <div className="font-atkinson grid grid-cols-5 text-sm leading-6 text-gray-500 sm:hidden">
-                    <button
-                      type="button"
-                      className="flex flex-col items-center pt-2 pb-3"
-                    >
-                      M{" "}
-                    </button>
-                    <button
-                      type="button"
-                      className="flex flex-col items-center pt-2 pb-3"
-                    >
-                      T{" "}
-                    </button>
-                    <button
-                      type="button"
-                      className="flex flex-col items-center pt-2 pb-3"
-                    >
-                      W{" "}
-                    </button>
-                    <button
-                      type="button"
-                      className="flex flex-col items-center pt-2 pb-3"
-                    >
-                      T{" "}
-                    </button>
-                    <button
-                      type="button"
-                      className="flex flex-col items-center pt-2 pb-3"
-                    >
-                      F{" "}
-                    </button>
-                  </div>
+          {!loadingRef.current && calendarCourses.length >= 1 && (
+            <>
+              <div
+                ref={containerNav}
+                className="sticky top-0 flex-none bg-white shadow ring-1 ring-black ring-opacity-5 sm:pr-8"
+              >
+                <div className="font-atkinson grid grid-cols-5 text-sm leading-6 text-gray-500 sm:hidden">
+                  <button
+                    type="button"
+                    className="flex flex-col items-center pt-2 pb-3"
+                  >
+                    M{" "}
+                  </button>
+                  <button
+                    type="button"
+                    className="flex flex-col items-center pt-2 pb-3"
+                  >
+                    T{" "}
+                  </button>
+                  <button
+                    type="button"
+                    className="flex flex-col items-center pt-2 pb-3"
+                  >
+                    W{" "}
+                  </button>
+                  <button
+                    type="button"
+                    className="flex flex-col items-center pt-2 pb-3"
+                  >
+                    T{" "}
+                  </button>
+                  <button
+                    type="button"
+                    className="flex flex-col items-center pt-2 pb-3"
+                  >
+                    F{" "}
+                  </button>
+                </div>
 
-                  <div className="font-atkinson -mr-px hidden grid-cols-5 divide-x divide-gray-100 border-r border-gray-100 text-sm leading-6 text-gray-500 sm:grid">
-                    <div className="col-end-1 w-14" />
-                    <div className="flex items-center justify-center py-3">
-                      <span>Mon </span>
-                    </div>
-                    <div className="flex items-center justify-center py-3">
-                      <span>Tue </span>
-                    </div>
-                    <div className="flex items-center justify-center py-3">
-                      <span className="flex items-baseline">Wed </span>
-                    </div>
-                    <div className="flex items-center justify-center py-3">
-                      <span>Thu </span>
-                    </div>
-                    <div className="flex items-center justify-center py-3">
-                      <span>Fri </span>
-                    </div>
-                    {/* WEEKENDS ARE NOT SUPPORTED YET
+                <div className="font-atkinson -mr-px hidden grid-cols-5 divide-x divide-gray-100 border-r border-gray-100 text-sm leading-6 text-gray-500 sm:grid">
+                  <div className="col-end-1 w-14" />
+                  <div className="flex items-center justify-center py-3">
+                    <span>Mon </span>
+                  </div>
+                  <div className="flex items-center justify-center py-3">
+                    <span>Tue </span>
+                  </div>
+                  <div className="flex items-center justify-center py-3">
+                    <span className="flex items-baseline">Wed </span>
+                  </div>
+                  <div className="flex items-center justify-center py-3">
+                    <span>Thu </span>
+                  </div>
+                  <div className="flex items-center justify-center py-3">
+                    <span>Fri </span>
+                  </div>
+                  {/* WEEKENDS ARE NOT SUPPORTED YET
               <div className="flex items-center justify-center py-3">
                 <span>
                   Sat{" "}
@@ -344,265 +331,262 @@ const Calendar: React.FC<CalendarProps> = ({
                 </span>
               </div> 
               */}
-                  </div>
                 </div>
-                <div className="flex flex-auto">
-                  <div className="sticky left-0 z-10 w-14 flex-none bg-white ring-1 ring-gray-100" />
-                  <div className="grid flex-auto grid-cols-1 grid-rows-1">
-                    {/* HORIZONTAL LINES ON CALENDAR */}
-                    {/* HORIZONTAL LINES ON CALENDAR */}
-                    {/* HORIZONTAL LINES ON CALENDAR */}
-                    <div
-                      className="font-atkinson col-start-1 col-end-2 row-start-1 grid divide-y divide-gray-100"
-                      style={{
-                        gridTemplateRows: `repeat(29, minmax(${calHeight}rem, 1fr))`,
-                      }}
-                    >
-                      <div
-                        ref={containerOffset}
-                        className="row-end-1 h-5"
-                      ></div>
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          8AM
-                        </div>
-                      </div>
-                      <div />
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          9AM
-                        </div>
-                      </div>
-                      <div />
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          10AM
-                        </div>
-                      </div>
-                      <div />
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          11AM
-                        </div>
-                      </div>
-                      <div />
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          12PM
-                        </div>
-                      </div>
-                      <div />
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          1PM
-                        </div>
-                      </div>
-                      <div />
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          2PM
-                        </div>
-                      </div>
-                      <div />
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          3PM
-                        </div>
-                      </div>
-                      <div />
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          4PM
-                        </div>
-                      </div>
-                      <div />
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          5PM
-                        </div>
-                      </div>
-                      <div />
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          6PM
-                        </div>
-                      </div>
-                      <div />
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          7PM
-                        </div>
-                      </div>
-                      <div />
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          8PM
-                        </div>
-                      </div>
-                      <div />
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          9PM
-                        </div>
-                      </div>
-                      <div />
-                      <div>
-                        <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
-                          10PM
-                        </div>
+              </div>
+              <div className="flex flex-auto">
+                <div className="sticky left-0 z-10 w-14 flex-none bg-white ring-1 ring-gray-100" />
+                <div className="grid flex-auto grid-cols-1 grid-rows-1">
+                  {/* HORIZONTAL LINES ON CALENDAR */}
+                  {/* HORIZONTAL LINES ON CALENDAR */}
+                  {/* HORIZONTAL LINES ON CALENDAR */}
+                  <div
+                    className="font-atkinson col-start-1 col-end-2 row-start-1 grid divide-y divide-gray-100"
+                    style={{
+                      gridTemplateRows: `repeat(29, minmax(${calHeight}rem, 1fr))`,
+                    }}
+                  >
+                    <div ref={containerOffset} className="row-end-1 h-5"></div>
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        8AM
                       </div>
                     </div>
-
-                    {/* VERTICAL LINES ON CALENDAR */}
-                    {/* VERTICAL LINES ON CALENDAR */}
-                    {/* VERTICAL LINES ON CALENDAR */}
-
-                    <div className="col-start-1 col-end-2 row-start-1 hidden grid-cols-5 grid-rows-1 divide-x divide-gray-100 sm:grid sm:grid-cols-5">
-                      <div className="col-start-1 row-span-full" />
-                      <div className="col-start-2 row-span-full" />
-                      <div className="col-start-3 row-span-full" />
-                      <div className="col-start-4 row-span-full" />
-                      <div className="col-start-5 row-span-full" />
-                      <div className="col-start-6 row-span-full w-8" />
+                    <div />
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        9AM
+                      </div>
                     </div>
+                    <div />
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        10AM
+                      </div>
+                    </div>
+                    <div />
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        11AM
+                      </div>
+                    </div>
+                    <div />
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        12PM
+                      </div>
+                    </div>
+                    <div />
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        1PM
+                      </div>
+                    </div>
+                    <div />
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        2PM
+                      </div>
+                    </div>
+                    <div />
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        3PM
+                      </div>
+                    </div>
+                    <div />
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        4PM
+                      </div>
+                    </div>
+                    <div />
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        5PM
+                      </div>
+                    </div>
+                    <div />
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        6PM
+                      </div>
+                    </div>
+                    <div />
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        7PM
+                      </div>
+                    </div>
+                    <div />
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        8PM
+                      </div>
+                    </div>
+                    <div />
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        9PM
+                      </div>
+                    </div>
+                    <div />
+                    <div>
+                      <div className="sticky left-0 z-20 -mt-2.5 -ml-14 w-14 pr-2 text-right text-xs leading-5 text-gray-400">
+                        10PM
+                      </div>
+                    </div>
+                  </div>
 
-                    {/* EVENTS BEING RENDERED ON CALENDAR */}
-                    {/* EVENTS BEING RENDERED ON CALENDAR */}
-                    {/* EVENTS BEING RENDERED ON CALENDAR */}
+                  {/* VERTICAL LINES ON CALENDAR */}
+                  {/* VERTICAL LINES ON CALENDAR */}
+                  {/* VERTICAL LINES ON CALENDAR */}
 
-                    <ol
-                      className="col-start-1 col-end-2 row-start-1 grid grid-cols-1 sm:grid-cols-5 sm:pr-8"
-                      style={{
-                        gridTemplateRows:
-                          ".45rem repeat(288, minmax(0, 1fr)) auto",
-                      }}
-                    >
-                      {renderedCourses &&
-                        renderedCourses.map((course, id) => {
-                          return (
-                            <li
-                              key={id}
-                              className={`relative mt-px flex ${getCourseDaysMap(
+                  <div className="col-start-1 col-end-2 row-start-1 hidden grid-cols-5 grid-rows-1 divide-x divide-gray-100 sm:grid sm:grid-cols-5">
+                    <div className="col-start-1 row-span-full" />
+                    <div className="col-start-2 row-span-full" />
+                    <div className="col-start-3 row-span-full" />
+                    <div className="col-start-4 row-span-full" />
+                    <div className="col-start-5 row-span-full" />
+                    <div className="col-start-6 row-span-full w-8" />
+                  </div>
+
+                  {/* EVENTS BEING RENDERED ON CALENDAR */}
+                  {/* EVENTS BEING RENDERED ON CALENDAR */}
+                  {/* EVENTS BEING RENDERED ON CALENDAR */}
+
+                  <ol
+                    className="col-start-1 col-end-2 row-start-1 grid grid-cols-1 sm:grid-cols-5 sm:pr-8"
+                    style={{
+                      gridTemplateRows:
+                        ".45rem repeat(288, minmax(0, 1fr)) auto",
+                    }}
+                  >
+                    {renderedCourses &&
+                      renderedCourses.map((course, id) => {
+                        return (
+                          <li
+                            key={id}
+                            className={`relative mt-px flex ${getCourseDaysMap(
+                              course.classMeetingInfo![0].MEETING_TIME
+                            )}`}
+                            style={{
+                              gridRow: `${getStartingTimeMap(
                                 course.classMeetingInfo![0].MEETING_TIME
-                              )}`}
-                              style={{
-                                gridRow: `${getStartingTimeMap(
-                                  course.classMeetingInfo![0].MEETING_TIME
-                                )} ${getCourseLengthMap(
-                                  course.classMeetingInfo![0].MEETING_TIME
-                                )}`,
-                              }}
-                            >
-                              <div
-                                className={`font-atkinson group absolute inset-1 flex flex-col overflow-y-auto rounded-lg ${
-                                  course.color
-                                } p-2 text-xs leading-5 ${
-                                  courseBeingHovered ===
+                              )} ${getCourseLengthMap(
+                                course.classMeetingInfo![0].MEETING_TIME
+                              )}`,
+                            }}
+                          >
+                            <div
+                              className={`font-atkinson group absolute inset-1 flex flex-col overflow-y-auto rounded-lg ${
+                                course.color
+                              } p-2 text-xs leading-5 ${
+                                courseBeingHovered ===
+                                Number(course.courseNumber)
+                                  ? "cursor-pointer scale-[101%] z-10"
+                                  : ""
+                              } transition-all`}
+                              onMouseEnter={() =>
+                                setCourseBeingHovered(
                                   Number(course.courseNumber)
-                                    ? "cursor-pointer scale-[101%] z-10"
-                                    : ""
-                                } transition-all`}
-                                onMouseEnter={() =>
-                                  setCourseBeingHovered(
-                                    Number(course.courseNumber)
-                                  )
-                                }
-                                onMouseLeave={() => setCourseBeingHovered(null)}
-                              >
-                                <div className="absolute top-1 right-1 hidden pt-1 pr-1 sm:block">
-                                  <button
-                                    type="button"
-                                    className="rounded-md bg-none text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
-                                    onClick={() =>
-                                      handleRemoveCourse(
-                                        course.courseNumber,
-                                        course.section
-                                      )
-                                    }
-                                  >
-                                    <span className="sr-only">Close</span>
-                                    <XIcon
-                                      className="h-4 w-4"
-                                      aria-hidden="true"
-                                    />
-                                  </button>
-                                </div>
-                                <div className="absolute top-6 right-1 hidden pt-1 pr-1 sm:block">
-                                  <button
-                                    type="button"
-                                    className="rounded-md bg-none text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
-                                    onClick={() =>
-                                      handleDetailClick(
-                                        course.termId,
-                                        course.school,
-                                        course.subject,
-                                        course.courseNumber
-                                      )
-                                    }
-                                  >
-                                    <span className="sr-only">Close</span>
-                                    <InformationCircleIcon
-                                      className="h-4 w-4"
-                                      aria-hidden="true"
-                                    />
-                                  </button>
-                                </div>
-                                {course.subject.length <= 7 && (
-                                  <>
-                                    <p className="order-1 font-semibold text-gray-700">
-                                      {course.subject} {course.catalogNumber}
-                                    </p>
-                                    <p className="order-1 font-semibold text-gray-700">
-                                      {course.section ? "Discussion/Lab" : ""}
-                                    </p>
-                                    <p className="order-1 font-semibold text-gray-700">
-                                      {course.section
-                                        ? "Section " + course.section
-                                        : ""}
-                                    </p>
-                                  </>
-                                )}
-                                {course.subject.length > 7 && (
-                                  <>
-                                    <p className="order-1 font-semibold text-gray-700">
-                                      {course.subject}
-                                    </p>
-                                    <p className="order-1 font-semibold text-gray-700">
-                                      {course.catalogNumber}
-                                    </p>
-                                    <p className="order-1 font-semibold text-gray-700">
-                                      {course.section ? "Discussion/Lab" : ""}
-                                    </p>
-                                    <p className="order-1 font-semibold text-gray-700">
-                                      {course.section
-                                        ? "Section " + course.section
-                                        : ""}
-                                    </p>
-                                  </>
-                                )}
-                                <p className="text-gray-400 group-hover:text-gray-700 transition-all">
-                                  <time dateTime="2022-01-12T07:30">
-                                    {getStartTime(
-                                      course.classMeetingInfo![0].MEETING_TIME
-                                    )}{" "}
-                                    -{" "}
-                                    {getEndTime(
-                                      course.classMeetingInfo![0].MEETING_TIME
-                                    )}
-                                  </time>
-                                </p>
+                                )
+                              }
+                              onMouseLeave={() => setCourseBeingHovered(null)}
+                            >
+                              <div className="absolute top-1 right-1 hidden pt-1 pr-1 sm:block">
+                                <button
+                                  type="button"
+                                  className="rounded-md bg-none text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+                                  onClick={() =>
+                                    handleRemoveCourse(
+                                      course.courseNumber,
+                                      course.section
+                                    )
+                                  }
+                                >
+                                  <span className="sr-only">Close</span>
+                                  <XIcon
+                                    className="h-4 w-4"
+                                    aria-hidden="true"
+                                  />
+                                </button>
                               </div>
-                            </li>
-                          );
-                        })}
-                    </ol>
-                    {/* END OF RENDERING EVENTS ON THE CALENDAR */}
-                    {/* END OF RENDERING EVENTS ON THE CALENDAR */}
-                    {/* END OF RENDERING EVENTS ON THE CALENDAR */}
-                  </div>
+                              <div className="absolute top-6 right-1 hidden pt-1 pr-1 sm:block">
+                                <button
+                                  type="button"
+                                  className="rounded-md bg-none text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+                                  onClick={() =>
+                                    handleDetailClick(
+                                      course.termId,
+                                      course.school,
+                                      course.subject,
+                                      course.courseNumber
+                                    )
+                                  }
+                                >
+                                  <span className="sr-only">Close</span>
+                                  <InformationCircleIcon
+                                    className="h-4 w-4"
+                                    aria-hidden="true"
+                                  />
+                                </button>
+                              </div>
+                              {course.subject.length <= 7 && (
+                                <>
+                                  <p className="order-1 font-semibold text-gray-700">
+                                    {course.subject} {course.catalogNumber}
+                                  </p>
+                                  <p className="order-1 font-semibold text-gray-700">
+                                    {course.section ? "Discussion/Lab" : ""}
+                                  </p>
+                                  <p className="order-1 font-semibold text-gray-700">
+                                    {course.section
+                                      ? "Section " + course.section
+                                      : ""}
+                                  </p>
+                                </>
+                              )}
+                              {course.subject.length > 7 && (
+                                <>
+                                  <p className="order-1 font-semibold text-gray-700">
+                                    {course.subject}
+                                  </p>
+                                  <p className="order-1 font-semibold text-gray-700">
+                                    {course.catalogNumber}
+                                  </p>
+                                  <p className="order-1 font-semibold text-gray-700">
+                                    {course.section ? "Discussion/Lab" : ""}
+                                  </p>
+                                  <p className="order-1 font-semibold text-gray-700">
+                                    {course.section
+                                      ? "Section " + course.section
+                                      : ""}
+                                  </p>
+                                </>
+                              )}
+                              <p className="text-gray-400 group-hover:text-gray-700 transition-all">
+                                <time dateTime="2022-01-12T07:30">
+                                  {getStartTime(
+                                    course.classMeetingInfo![0].MEETING_TIME
+                                  )}{" "}
+                                  -{" "}
+                                  {getEndTime(
+                                    course.classMeetingInfo![0].MEETING_TIME
+                                  )}
+                                </time>
+                              </p>
+                            </div>
+                          </li>
+                        );
+                      })}
+                  </ol>
+                  {/* END OF RENDERING EVENTS ON THE CALENDAR */}
+                  {/* END OF RENDERING EVENTS ON THE CALENDAR */}
+                  {/* END OF RENDERING EVENTS ON THE CALENDAR */}
                 </div>
-              </>
-            )}
+              </div>
+            </>
+          )}
         </div>
       </div>
     </div>

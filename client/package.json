@@ -1,6 +1,6 @@
 {
   "name": "ivy",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "private": true,
   "author": "Raiso",
   "scripts": {
@@ -24,7 +24,6 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.2",
     "react-scripts": "^5.0.1",
-    "typescript": "^4.8.4",
     "web-vitals": "^3.0.4"
   },
   "devDependencies": {

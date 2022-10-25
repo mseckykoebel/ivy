@@ -756,7 +756,6 @@ const getCourseLengthMap = (courseLength: string): string => {
     case 240:
       return " span 82";
     default:
-      console.log("Triggering the default courseLength state");
       return " span 30";
   }
 };

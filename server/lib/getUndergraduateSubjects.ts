@@ -7,7 +7,6 @@ const getUndergraduateSubjects = async (
   schoolId: string,
   subjectsURL: string
 ): Promise<null | 404 | 500 | UndergraduateSubject> => {
-  console.log("RUNNING WITH SCHOOL: ", schoolId);
 
   const req = async (): Promise<UndergraduateSubject | null | 404 | 500> => {
     return new Promise((resolve, reject) => {
@@ -24,8 +23,6 @@ const getUndergraduateSubjects = async (
         },
         (error, response, body) => {
           if (error || response.statusCode !== 200) {
-            console.log("SHOULD REJECT");
-            console.log("CODE: ", response.statusCode);
             reject(500);
             return;
           }
@@ -64,7 +61,6 @@ const getUndergraduateSubjects = async (
     (resolve, reject) => {
       req()
         .then((d) => {
-          console.log("DATA: ", d);
           resolve(d);
         })
         .catch((err) => {

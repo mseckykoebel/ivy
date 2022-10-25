@@ -98,7 +98,6 @@ const Home: React.FC = (): JSX.Element => {
         throw new Error("Bad response from server");
       }
       const data = await response.json();
-      console.log(data.school_years);
       setYears(data.school_years);
       setLoading(false);
     };
@@ -119,7 +118,6 @@ const Home: React.FC = (): JSX.Element => {
         throw new Error("Bad response from server");
       }
       const data = await response.json();
-      console.log(data.quarters);
       setQuarters(data.quarters);
       setLoading(false);
     };
@@ -129,7 +127,6 @@ const Home: React.FC = (): JSX.Element => {
   }, []);
 
   useEffect(() => {
-    console.log("Firing!");
     if (selectedYear?.year && selectedQuarter?.quarter) {
       setTermId().then(() => setSchoolsFromTermId());
     }
@@ -137,9 +134,7 @@ const Home: React.FC = (): JSX.Element => {
 
   // for schools (dependent on terms)
   const setTermId = async () => {
-    console.log("Setting the term ID");
     if (!selectedYear || !selectedQuarter) {
-      console.log("Year and quarter not selected");
       setError("Please select a year and quarter before selecting a school");
       setTimeout(() => {
         setError("");
@@ -168,7 +163,6 @@ const Home: React.FC = (): JSX.Element => {
         throw new Error("Bad response from server");
       }
       const termData = await termResponse.json();
-      console.log(termData.term);
       if (term !== termData.term) {
         term.current = termData.term;
       }
@@ -181,8 +175,6 @@ const Home: React.FC = (): JSX.Element => {
   };
 
   const setSchoolsFromTermId = () => {
-    console.log("CURRENT VALUE OF TERM ID:", term);
-
     const loadSchools = async () => {
       const schoolsUrl =
         process.env.NODE_ENV !== "production"
@@ -205,7 +197,6 @@ const Home: React.FC = (): JSX.Element => {
         throw new Error("Bad response from server");
       }
       const schoolsData = await schoolsResponse.json();
-      console.log("SCHOOLS: ", schoolsData.data);
       setLoading(false);
       setSchools(schoolsData.data);
     };
@@ -220,8 +211,8 @@ const Home: React.FC = (): JSX.Element => {
     try {
       await logout();
       navigate("/login");
-    } catch (err) {
-      console.log("There was an error logging out: " + err);
+    } catch (err: unknown) {
+      throw Error("There was an error logging out: " + err);
     }
   };
 
@@ -267,7 +258,7 @@ const Home: React.FC = (): JSX.Element => {
       onClick: () => {
         auth.currentUser?.email !== "msk@gmail.com"
           ? setOpenSettingsModal(true)
-          : console.log("super user settings are not available");
+          : console.log("super user settings are not available...");
       },
     },
     {
@@ -324,8 +315,8 @@ const Home: React.FC = (): JSX.Element => {
                         style={{ lineHeight: "1.75rem" }}
                       >
                         Ivy{" "}
-                        <span className="inline-flex font-atkinson items-center align-middle px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-700 text-white">
-                          v0.1.4 (pre-release)
+                        <span className="inline-flex font-atkinson items-center align-middle px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-800 text-white">
+                          Beta v1.0.0
                         </span>
                       </h1>
                     </Link>
@@ -852,7 +843,7 @@ const Home: React.FC = (): JSX.Element => {
         </Popover>
         <main className="-mt-24 pb-8">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-            <h1 className="sr-only">Page title</h1>
+            <h1 className="sr-only">Ivy</h1>
             {/* Main 3 column grid */}
             <div className="grid grid-cols-1 gap-4 items-start lg:grid-cols-3 lg:gap-8">
               {/* Left column */}

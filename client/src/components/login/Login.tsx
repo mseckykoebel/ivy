@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
-import { waitlistEmails } from "../../lib/waitlistEmails";
 import IvyLottie from "../login/IvyLottie";
 
 const Login: React.FC = (): JSX.Element => {
@@ -18,23 +17,6 @@ const Login: React.FC = (): JSX.Element => {
   //   log in function
   const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    // pre-release logic
-    const filteredEmails = waitlistEmails.filter((email) => {
-      return (
-        email.toLowerCase() ===
-        (emailRef.current?.value as string).toLowerCase()
-      );
-    });
-    waitlistEmails.forEach((email) => {
-      return email.toLowerCase();
-    });
-    if (filteredEmails.length === 0) {
-      setError(
-        ("Only authorized for waitlist sign-ups at this time: " +
-          emailRef.current?.value) as string
-      );
-      return;
-    }
 
     try {
       setError("");
@@ -43,7 +25,7 @@ const Login: React.FC = (): JSX.Element => {
         emailRef.current?.value as string,
         passwordRef.current?.value as string
       );
-      navigate("/"); // when signed in, navigate to the home page!
+      navigate("/");
     } catch (err) {
       setError(`Uh oh! There was an error signing you in: ${err}`);
     }
@@ -58,8 +40,8 @@ const Login: React.FC = (): JSX.Element => {
     try {
       setError("");
       setLoading(true);
-      await login("msk@gmail.com", "Cat11cat1!cat!!");
-      navigate("/"); // when signed in, navigate to the home page!
+      await login("msk@gmail.com", "Cat11cat1!cat!!"); // hahaha yeah
+      navigate("/");
     } catch (err) {
       setError(`Uh oh! There was an error signing you in: ${err}`);
     }
@@ -182,14 +164,14 @@ const Login: React.FC = (): JSX.Element => {
             </div>
             {/* NO THANKS, JUST BROWSING */}
             <div className="flex items-center justify-center">
-              <div className="select-none pointer-events-none flex items-center">
+              <div className="flex items-center">
                 <button
                   onClick={handleSuperUserSubmit}
                   className="text-sm font-medium text-green-500 hover:text-green-500 hover:underline"
                 >
                   {" "}
                   No thanks, just browsing! Take me to Ivy without signing in
-                  (disabled for pre-release) &rarr;{" "}
+                  &rarr;{" "}
                 </button>
               </div>
             </div>
