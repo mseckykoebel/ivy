@@ -259,7 +259,17 @@ export const Settings: React.FC<SettingsProps> = ({
                         >
                           here
                         </a>{" "}
-                        for our list of supported minors. We currently support entering only one minor and major
+                        for our list of supported minors. We currently support
+                        entering only one minor and major. Finally, to leave any
+                        feedback you might have for us, click{" "}
+                        <a
+                          className="text-sm font-medium text-gray-500 underline"
+                          href="https://forms.gle/kxt3B7XMwTVJ9cn7A"
+                          target="_blank"
+                        >
+                          here
+                        </a>
+                        .
                       </p>
                     </div>
                   </div>
