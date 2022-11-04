@@ -15,7 +15,7 @@ Ivy's client is the app that users see and interact with. **Ivy's currently in p
 7. **👑 Major and minor support**: enter up to one major and minor. In a future version of Ivy, this will be used to recommend courses to you
 8. **💙 Home-grown**: Ivy's a joint development effort between Raiso (https://raiso.org), and Northwestern IT. This means it'll last as long as NU does. Ivy isn't a side project - it's designed to be used by NU students for the rest of time
 
-### Ivy v1.1 - November 1st, 2022
+### Ivy v1.1 - December 1st, 2022
 
 1. **🐎 Speed and stability improvements**: we're going to re-factor Ivy to use the least amount of code as possible. This will make it a lot quicker than it already is. And, it'll make it easier to contribute to
 2. **💾 API improvements:** Ivy's API will be re-worked for speed and security
