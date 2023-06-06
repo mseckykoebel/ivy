@@ -16,7 +16,7 @@
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
-    "boring-avatars": "^1.7.0",
+    "boring-avatars": "^1.10.0",
     "cross-fetch": "^3.1.6",
     "firebase": "^9.22.1",
     "lottie-web": "^5.12.0",
