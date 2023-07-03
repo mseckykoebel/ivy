@@ -17,7 +17,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "boring-avatars": "^1.10.1",
-    "cross-fetch": "^3.1.6",
+    "cross-fetch": "^3.1.8",
     "firebase": "^9.23.0",
     "lottie-web": "^5.12.2",
     "react": "^18.1.0",
