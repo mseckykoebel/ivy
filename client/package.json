@@ -14,7 +14,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.12",
     "@heroicons/react": "^1.0.6",
-    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/jest-dom": "^6.1.5",
     "@testing-library/react": "^14.1.2",
     "boring-avatars": "^1.10.1",
     "cross-fetch": "^4.0.0",
