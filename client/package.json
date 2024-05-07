@@ -15,7 +15,7 @@
     "@headlessui/react": "^2.0.1",
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^15.0.6",
+    "@testing-library/react": "^15.0.7",
     "boring-avatars": "^1.10.2",
     "cross-fetch": "^4.0.0",
     "firebase": "^10.11.1",
