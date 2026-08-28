@@ -29,7 +29,7 @@
     "@types/cors": "^2.8.12",
     "@types/express": "^5.0.6",
     "@types/request": "^2.48.8",
-    "@typescript-eslint/eslint-plugin": "^5.36.0",
+    "@typescript-eslint/eslint-plugin": "^8.68.0",
     "@typescript-eslint/parser": "^5.36.0",
     "eslint": "^8.23.0",
     "nodemon": "^3.0.1",
